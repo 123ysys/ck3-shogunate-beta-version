@@ -2,9 +2,11 @@
 
 
 
-## Getting started
+## About this Git repo
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+
+The author of this repo's contents is Shogunate Team (https://gitlab.com/shogunatemod) with all the rights. This repo is just to translate the contents to my language and is private.
+
 
 Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
 
