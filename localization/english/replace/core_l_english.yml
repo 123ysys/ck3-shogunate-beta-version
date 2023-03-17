@@ -1,0 +1,3 @@
+﻿l_english:
+ LOWBORN:0 ""
+ HOUSE_CADET_BRANCH_NAME_FORMAT:1 "[SelectLocalization( And( GreaterThan_int32( GetCurrentDate.GetYear, '(int32)1200' ), Or( Or( EqualTo_string('$DYNASTY$', '$dynasty_name_10001100$'), EqualTo_string('$DYNASTY$', '$dynasty_name_10001200$') ), EqualTo_string('$DYNASTY$', '$dynasty_name_10001300$') ) ), '$TITLE$', '$DYNASTY$' )]"
