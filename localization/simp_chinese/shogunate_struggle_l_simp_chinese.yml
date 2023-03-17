@@ -1,0 +1,83 @@
+﻿l_simp_chinese:
+
+ # Sengoku Struggle
+
+ shogunate_sengoku_struggle:0 "战国的斗争"
+ shogunate_sengoku_struggle_desc:0 "$shogunate_sengoku_struggle$是指15世纪到16世纪在日本发生的长达100多年的全国性内战。战国时代是大名们为了争夺日本霸权而展开长期权力斗争的时代。另外，在这个时代，有时下位的人会凭借实力在政治、军事上击败上位的人。"
+
+ struggle_shogunate_sengoku_phase_meritocracy_ordered:0 "下克上/治世"
+ struggle_shogunate_sengoku_phase_meritocracy_ordered_desc:0 "下克上是这个时代的特征。战国时代，下位的人凭借实力在政治、军事上打败上位的人。"
+ struggle_shogunate_sengoku_phase_meritocracy_chaotic:0 "下克上/乱世"
+ struggle_shogunate_sengoku_phase_meritocracy_chaotic_desc:0 "下克上是这个时代的特征。战国时代，下位的人凭借实力在政治、军事上打败上位的人。"
+ struggle_shogunate_sengoku_phase_unification_ordered:0 "天下统一/治世"
+ struggle_shogunate_sengoku_phase_unification_ordered_desc:0 "织田信长促进了天下统一。信长死后，丰臣秀吉继承了织田信长政策，于1590年统一了日本。"
+ struggle_shogunate_sengoku_phase_unification_chaotic:0 "天下统一/乱世"
+ struggle_shogunate_sengoku_phase_unification_chaotic_desc:0 "织田信长促进了天下统一。信长死后，丰臣秀吉继承了织田信长政策，于1590年统一了日本。"
+
+ shogunate_struggle.0001.t:0 "$shogunate_sengoku_struggle$"
+ shogunate_struggle.0001.desc:0 "应仁之乱和随后的混乱拉开了战国时代的序幕。大名们为了争夺日本的霸权，展开了无休止的权力斗争。\n\n"
+ shogunate_struggle.0001.desc.involved:0 "我对故乡的思念毫不动摇。[ROOT.Char.GetHouse.GetNameNoTooltip]家将在[ROOT.Char.GetFaith.HighGodName]的庇护下下渡过这一难关，实现夙愿。\n\n"
+ shogunate_struggle.0001.desc.interloper:0 "时间终于到了。利用这个困难局面，开创命运。棋盘上的局势一清二楚。没有人可以阻挡[ROOT.Char.GetHouse.GetNameNoTooltip]家的前进。\n\n"
+ shogunate_struggle.0001.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]！"
+ shogunate_struggle.0001.a:0 "掌握命运"
+
+ game_concept_shogunate_sengoku_struggle:0 "$shogunate_sengoku_struggle$"
+ game_concept_shogunate_sengoku_struggle_desc:0 "$shogunate_sengoku_struggle_desc$"
+
+
+ # Kanto Struggle
+
+ shogunate_kanto_struggle:0 "关东的斗争"
+ shogunate_kanto_struggle_desc:0 "$shogunate_kanto_struggle$是关东地区从应仁之乱以前就开始的持续不断的战乱。镰仓公方、关东管领、北条氏三方为争夺关东霸权展开了激烈的斗争。"
+ struggle_shogunate_kanto_phase_strife:0 "内部抗争"
+ struggle_shogunate_kanto_phase_strife_desc:0 "关东地区的武家忙于内讧。"
+ struggle_shogunate_kanto_phase_solidarity:0 "一致团结"
+ struggle_shogunate_kanto_phase_solidarity_desc:0 "关东地区的武家团结起来对抗外敌。"
+
+ shogunate_struggle.0003.t:0 "$shogunate_kanto_struggle$"
+ shogunate_struggle.0003.desc:0 "镰仓公方和关东管领长期在关东激烈竞争。应仁之乱之前在关东爆发的享德之乱，使双方的内讧蔓延到关东全境。\n\n"
+ shogunate_struggle.0003.desc.involved:0 "我对故乡的思念毫不动摇。[ROOT.Char.GetHouse.GetNameNoTooltip]家将在[ROOT.Char.GetFaith.HighGodName]的庇护下下渡过这一难关，实现夙愿。\n\n"
+ shogunate_struggle.0003.desc.interloper:0 "时间终于到了。利用这个困难局面，开创命运。棋盘上的局势一清二楚。没有人可以阻挡[ROOT.Char.GetHouse.GetNameNoTooltip]家的前进。\n\n"
+ shogunate_struggle.0003.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]！"
+ shogunate_struggle.0003.a:0 "掌握命运"
+
+ game_concept_shogunate_kanto_struggle:0 "$shogunate_kanto_struggle$"
+ game_concept_shogunate_kanto_struggle_desc:0 "$shogunate_kanto_struggle_desc$"
+
+
+ # Catalysts
+
+ catalyst_shogunate_win_against_liege:0 "战胜君主[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_win_against_liege_desc:0 "作为[war_leader|E]凭借[war|E]战胜[liege|E]"
+
+ catalyst_shogunate_start_any_war:0 "战争开始[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_start_any_war_desc:0 "[duke|E][title_tier|E]以上的[ruler|E]互相开启[war|E]"
+
+ catalyst_shogunate_convert_to_local_faith:0 "改宗[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_convert_to_local_faith_desc:0 "[ruler|E]改信本地[faith|E]"
+
+ catalyst_shogunate_forced_conversion:0 "强制改信[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_forced_conversion_desc:0 "[ruler|E]强制改信"
+
+ catalyst_shogunate_historical_progress:0 "历史上的进展[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_historical_progress_desc:0 "历史上的进展"
+
+ catalyst_shogunate_claim_throne:0 "请求王位[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_claim_throne_desc:0 "针对[liege|E]的[GetScheme('claim_throne').GetTypeName]成功"
+
+ catalyst_shogunate_unnatural_death:0 "谋杀[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_unnatural_death_desc:0 "[ruler|E]被谋杀"
+
+ catalyst_shogunate_gain_higher_title:0 "获得上位称号[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_gain_higher_title_desc:0 "获得比当前[primary_title|E]更高的[title_tier|E]"
+
+ catalyst_shogunate_grant_title:0 "授予称号[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_grant_title_desc:0 "授予[title|E]"
+
+ catalyst_shogunate_vassalize:0 "附庸[struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_vassalize_desc:0 "使[independent_ruler|E]成为[vassalize|E]"
+
+
+ # Parameters
+
+ struggle_parameter_shogunate_unlocks_sengoku_invasion_casus_belli:0 "解锁天下统一的[casus_belli|E]"
