@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+
+ # Bookmark Modifiers
+
+ shogunate_surprise_attack_modifier:0 "奇袭"
+ shogunate_surprise_attack_modifier_desc:0 "此人要发动奇袭了。"
+
+ # Target Modifiers
+
+ shogunate_global_coalition_target_modifier:0 "包围网的目标"
+ shogunate_global_coalition_target_modifier_desc:0 "此人是包围网的目标。"
+
+ # AI Personality Modifiers
+
+ shogunate_personality_10029120_modifier:0 "天下布武（AI个性）"
+ shogunate_personality_10029120_modifier_desc:0 "此人以用武力统一天下为目标。"

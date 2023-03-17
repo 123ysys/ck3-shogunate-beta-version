@@ -1,0 +1,48 @@
+﻿l_english:
+
+ # Bookmark Modifiers
+
+ shogunate_surprise_attack_modifier:0 "奇襲"
+ shogunate_surprise_attack_modifier_desc:0 "この人物は奇襲を仕掛けようとしている。"
+
+ shogunate_historical_reinforcement_opinion:0 "出陣準備"
+ shogunate_historical_reinforcement_opinion_desc:0 "この人物は出陣の準備で忙しい。"
+
+ # Target Modifiers
+
+ shogunate_global_coalition_target_modifier:0 "包囲網の標的"
+ shogunate_global_coalition_target_modifier_desc:0 "この人物は包囲網の標的である。"
+
+ # Nanboku-cho Period Modifiers
+
+ shogunate_betrayer_modifier:0 "裏切り者"
+ shogunate_betrayer_modifier_desc:0 "この人物は他の陣営に寝返った。"
+
+ shogunate_nanbokucho_unifier_opinion:0 "南北朝合一の立役者"
+ shogunate_nanbokucho_unifier_opinion_desc:0 "この人物は南北朝合一を主導した。"
+
+ shogunate_nanbokucho_leader_5_times_modifier:0 "陣営の指導者"
+ shogunate_nanbokucho_leader_5_times_modifier_desc:0 "この人物は自勢力の5倍を超える支持者に支えられている。"
+
+ shogunate_nanbokucho_leader_10_times_modifier:0 "陣営の指導者"
+ shogunate_nanbokucho_leader_10_times_modifier_desc:0 "この人物は自勢力の10倍を超える支持者に支えられている。"
+
+ shogunate_nanbokucho_leader_15_times_modifier:0 "陣営の指導者"
+ shogunate_nanbokucho_leader_15_times_modifier_desc:0 "この人物は自勢力の15倍を超える支持者に支えられている。"
+
+ shogunate_nanbokucho_leader_20_times_modifier:0 "陣営の指導者"
+ shogunate_nanbokucho_leader_20_times_modifier_desc:0 "この人物は自勢力の20倍を超える支持者に支えられている。"
+
+ shogunate_nanbokucho_leader_30_times_modifier:0 "陣営の指導者"
+ shogunate_nanbokucho_leader_30_times_modifier_desc:0 "この人物は自勢力の30倍を超える支持者に支えられている。"
+
+ shogunate_nanbokucho_leader_40_times_modifier:0 "陣営の指導者"
+ shogunate_nanbokucho_leader_40_times_modifier_desc:0 "この人物は自勢力の40倍を超える支持者に支えられている。"
+
+ shogunate_nanbokucho_leader_50_times_modifier:0 "陣営の指導者"
+ shogunate_nanbokucho_leader_50_times_modifier_desc:0 "この人物は自勢力の50倍を超える支持者に支えられている。"
+
+ # AI Personality Modifiers
+
+ shogunate_personality_10029120_modifier:0 "天下布武（AI個性）"
+ shogunate_personality_10029120_modifier_desc:0 "この人物は武力による秩序回復を目指している。"

@@ -1,0 +1,30 @@
+# Hard
+
+shogunate_dream_within_a_dream = {
+	possible = {}
+	happened = {}
+}
+
+shogunate_1180_minamoto_yoritomo_vassal = {
+	possible = {}
+	happened = {}
+}
+
+# Very Hard
+
+shogunate_1614_toyotomi_hideyori_vassal = {
+	possible = {}
+	happened = {}
+}
+
+shogunate_defender_of_the_faith = {
+	possible = {}
+	happened = {}
+}
+
+# Insane
+
+shogunate_1591_kunohe_masazane = {
+	possible = {}
+	happened = {}
+}
