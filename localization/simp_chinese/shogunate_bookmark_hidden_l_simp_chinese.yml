@@ -1,0 +1,83 @@
+﻿l_simp_chinese:
+
+#################################################
+#                                               #
+#  You MUST keep an asterisk in bm_hiddenXXXX.  #
+#                                               #
+#################################################
+
+ bm_hidden1180:0 "*"
+ bm_title_hidden1180:0 "以仁王举兵"
+ bm_hidden1180_desc:0 "经历了保元之乱和平治之乱后，伊势平氏彻底主宰了朝廷。平清盛接受了太政大臣的宣下——掌握了律令体制内朝廷的最高官职，他的家族则掌控着国内的大片庄园，以至于某个平氏曾傲然吐言：\n\n非平氏者非人也\n\n平清盛与后白河法皇的冲突在1170年后严重加剧，与此同时，反平家势力也趁机蠢蠢欲动。"
+
+ bm_hidden1183:0 "*"
+ bm_title_hidden1183:0 "Exile of Taira"
+ bm_hidden1183_desc:0 ""
+
+ bm_hidden1471:0 "*"
+ bm_title_hidden1471:0 "Asakura Takakage's Betrayal"
+ bm_hidden1471_desc:0 ""
+
+ bm_hidden1473:0 "*"
+ bm_title_hidden1473:0 "Exit of Two Giants"
+ bm_hidden1473_desc:0 ""
+
+ bm_hidden1477:0 "*"
+ bm_title_hidden1477:0 "Revolt of Nagao Kageharu"
+ bm_hidden1477_desc:0 ""
+
+ bm_hidden1485:0 "*"
+ bm_title_hidden1485:0 "Yamashiro Kuni-Ikki"
+ bm_hidden1485_desc:0 ""
+
+ bm_hidden1504:0 "*"
+ bm_title_hidden1504:0 "Battle of Tachikawanohara"
+ bm_hidden1504_desc:0 ""
+
+ bm_hidden1515:0 "*"
+ bm_title_hidden1515:0 "Shoya Kohupci Bros. War"
+ bm_hidden1515_desc:0 ""
+
+ bm_hidden1520:0 "*"
+ bm_title_hidden1520:0 "Battle of Toji-in"
+ bm_hidden1520_desc:0 ""
+
+ bm_hidden1537:0 "*"
+ bm_title_hidden1537:0 "河东之乱"
+ bm_hidden1537_desc:0 ""
+
+ bm_hidden1542:0 "*"
+ bm_title_hidden1542:0 "月山富田城之战"
+ bm_hidden1542_desc:0 ""
+
+ bm_hidden1548:0 "*"
+ bm_title_hidden1548:0 "信浓侵攻"
+ bm_hidden1548_desc:0 ""
+
+ bm_hidden1551:0 "*"
+ bm_title_hidden1551:0 "大宁寺之变"
+ bm_hidden1551_desc:0 ""
+
+ bm_hidden1557:0 "*"
+ bm_title_hidden1557:0 "防长经略"
+ bm_hidden1557_desc:0 ""
+
+ bm_hidden1561:0 "*"
+ bm_title_hidden1561:0 "川中岛之战"
+ bm_hidden1561_desc:0 ""
+
+ bm_hidden1570:0 "*"
+ bm_title_hidden1570:0 "姊川之战"
+ bm_hidden1570_desc:0 ""
+
+ bm_hidden1573:0 "*"
+ bm_title_hidden1573:0 "室町幕府灭亡"
+ bm_hidden1573_desc:0 ""
+
+ bm_hidden1591:0 "*"
+ bm_title_hidden1591:0 "九户政实之乱"
+ bm_hidden1591_desc:0 ""
+
+ bm_hidden1600:0 "*"
+ bm_title_hidden1600:0 "关原之战"
+ bm_hidden1600_desc:0 "丰臣秀吉死后，德川家康的影响力日益增强。\n\n能对抗家康的前田利家也不在了，之后石田三成被迫在佐和山城蛰居。\n\n正在整备领国军备的上杉景胜受命上洛，但景胜的重臣直江兼续却向家康发出了《直江状》进行挑衅。\n\n家康决定讨伐景胜，随后命令诸将出阵。"
