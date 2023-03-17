@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ mercenary_company_default:0 "[TITLE.GetDeJureLiege.GetNameNoTierNoTooltip][TITLE.GetDeJureLiege.GetTierAsNameNoTooltip]众"
+ mercenary_company_shinobi:0 "忍"
+ mercenary_company_rappa:0 "乱破"
+ mercenary_company_nokizaru:0 "轩辕"
+ mercenary_company_suppa1:0 "透破"
+ mercenary_company_suppa2:0 "水破"
+ mercenary_company_iga:0 "伊贺众"
+ mercenary_company_koka:0 "甲贺众"
+ mercenary_company_saika:0 "杂贺众"
+ mercenary_company_negoro:0 "根来众"
+ mercenary_company_sohei:0 "僧兵"
