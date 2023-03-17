@@ -1,0 +1,49 @@
+l_simp_chinese:
+
+ # Hard
+
+ ACHIEVEMENT_shogunate_dream_within_a_dream:0 "梦中之梦"
+ ACHIEVEMENT_DESC_shogunate_dream_within_a_dream:0 "从本能寺之变时开始，以丰臣秀吉的身份取得“天下人”的称号。"
+
+ ACHIEVEMENT_shogunate_1180_minamoto_yoritomo_vassal:0 "将军的十三人评议"
+ ACHIEVEMENT_DESC_shogunate_1180_minamoto_yoritomo_vassal:0 "从1180年的源平合战以源赖朝的家仆开始，取得“幕府将军”的称号。"
+
+ # Very Hard
+
+ ACHIEVEMENT_shogunate_1614_toyotomi_hideyori_vassal:0 "赢者永不放弃"
+ ACHIEVEMENT_DESC_shogunate_1614_toyotomi_hideyori_vassal:0 "从1614年“大阪之战”以丰臣秀赖的家仆开始，帮助丰臣秀赖赢得“大阪之战”。"
+
+ ACHIEVEMENT_shogunate_defender_of_the_faith:0 "信仰的护卫者"
+ ACHIEVEMENT_DESC_shogunate_defender_of_the_faith:0 "以伯爵等级的天主教徒的身份开始，让天主教徒支配天主教的所有圣地。"
+
+ # Insane
+
+ ACHIEVEMENT_shogunate_1591_kunohe_masazane:0 "直冲晴天"
+ ACHIEVEMENT_DESC_shogunate_1591_kunohe_masazane:0 "在1591年“九户政实之乱”以九户政实开始，赢得战争“九户政实之乱”。"
+
+
+
+ ### Achievement Unlocked Event
+
+ ACHIEVEMENT_GROUP_insane_achievements:0 "丧心病狂"
+
+ shogunate_achievement.0001.t:0 "解锁成就!"
+ shogunate_achievement.0001.desc.opening:0 "主公，我们已达成一个成就！\n祝贺你的杰出成就。\n\n"
+ shogunate_achievement.0001.desc.ending:0 "\n[SelectLocalization( IsIronmanEnabled, 'IRONMAN_ENABLED', 'IRONMAN_DISBLED' )]\nAchieved Date: [GetCurrentDate.GetString]\nAchieved Character: [GetPlayer.GetFullNameNoTooltip]"
+ shogunate_achievement.0001.a:0 "吹响胜利的号角!"
+
+ # Hard
+ shogunate_achievement.0001.desc.dream_within_a_dream:0 "#EMP $ACHIEVEMENT_shogunate_dream_within_a_dream$#!\n\n$ACHIEVEMENT_DESC_shogunate_dream_within_a_dream$\n\n$ACHIEVEMENT_GROUP_hard_achievements$"
+
+ shogunate_achievement.0001.desc.1180_minamoto_yoritomo_vassal:0 "#EMP $ACHIEVEMENT_shogunate_1180_minamoto_yoritomo_vassal$#!\n\n$ACHIEVEMENT_DESC_shogunate_1180_minamoto_yoritomo_vassal$\n\n$ACHIEVEMENT_GROUP_hard_achievements$"
+
+ # Very Hard
+ shogunate_achievement.0001.desc.1614_toyotomi_hideyori_vassal:0 "#EMP $ACHIEVEMENT_shogunate_1614_toyotomi_hideyori_vassal$#!\n\n$ACHIEVEMENT_DESC_shogunate_1614_toyotomi_hideyori_vassal$\n\n$ACHIEVEMENT_GROUP_very_hard_achievements$"
+
+ shogunate_achievement.0001.desc.defender_of_the_faith:0 "#EMP $ACHIEVEMENT_shogunate_defender_of_the_faith$#!\n\n$ACHIEVEMENT_DESC_shogunate_defender_of_the_faith$\n\n$ACHIEVEMENT_GROUP_very_hard_achievements$"
+
+ # Insane
+ shogunate_achievement.0001.desc.1591_kunohe_masazane:0 "#EMP $ACHIEVEMENT_shogunate_1591_kunohe_masazane$#!\n\n$ACHIEVEMENT_DESC_shogunate_1591_kunohe_masazane$\n\n$ACHIEVEMENT_GROUP_insane_achievements$"
+
+ # Unknown
+ shogunate_achievement.0001.desc.default:0 "#EMP 未知的成就#!\n"
