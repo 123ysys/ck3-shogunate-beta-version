@@ -1,0 +1,112 @@
+﻿CONTRIBUTORS
+
+Project leading
+FUN
+
+Scripting
+FUN
+Dragoon_103
+
+Scripting support
+aster
+
+Map
+mol_ghjxfu
+
+Historical dynasty houses
+almandite
+
+Japanese-style portraits
+AJ
+Kagami
+rinbro
+
+Japanese-style coat of arms, a.k.a. kamon
+rinbro
+Dragoon_103
+
+Japanese-style buildings
+kefir
+
+Japanese-style interface
+rinbro
+megane
+LooseTongue
+
+Japanese-style flavor texts
+Inarizushi
+mol_ghjxfu
+clamm0363
+and many contributors
+
+Character introductions
+Jugoinoge Settsunokami
+
+Historical research
+Kakuto Hikarimizu
+Nobutora
+
+Translations
+Eisprinzessin (German)
+iklmnt (Russian)
+Warpi69 (French)
+Ssamanco (Korean)
+kennyS (Chinese)
+SalasM (Spanish)
+DJ EBAN (Russian)
+
+Nova Monumenta Iaponiae Historica coodination
+awak1180
+
+
+CREDITS
+
+Main concept and historical data
+Nova Monumenta Iaponiae Historica // Courtesy of chatnoir17
+https://steamcommunity.com/sharedfiles/filedetails/?id=333442855
+
+Genes and skin textures
+Ethnicities & Portraits Expanded // Courtesy of Celticus
+https://steamcommunity.com/sharedfiles/filedetails/?id=2507209632
+
+Japanese translation
+CK3_JPM_PROJECT
+https://paratranz.cn/projects/1518
+
+Music
+PeriTune
+https://peritune.com/
+
+Thumbnail image
+Geospatial Information Authority of Japan
+https://kochizu.gsi.go.jp/
+
+
+ART SOURCES
+
+Creative Commons Attribution-Share Alike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+	character_view/yamato.dds // Nagoyajohonmaru2.JPG // Courtesy of Bariston
+	main_menu/frontend_yamato.dds // Inside Nagoya castle 2018.jpg // Courtesy of kallerna
+
+Creative Commons Attribution-Share Alike 3.0 Unported
+https://creativecommons.org/licenses/by-sa/3.0/
+
+	council/bg_council_steward.dds // Murotsu Museum of Sea Port06n3200.jpg // Courtesy of 663highland
+
+Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+	
+	council/bg_council_spymaster.dds // Himeji Castle No09 143.jpg // Courtesy of Corpse Reviver
+	council/bg_council_marshal.dds // Himeji Castle No09 035.jpg // Courtesy of Corpse Reviver
+	
+Attribution 2.0 Generic (CC BY 2.0)
+https://creativecommons.org/licenses/by/2.0/
+
+	holding_types/castle_india.dds // Courtesy of Flickr user Ben Kubota
+
+
+
+SPECIAL THANKS
+chatnoir17
