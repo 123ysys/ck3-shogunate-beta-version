@@ -1,0 +1,73 @@
+﻿# Imperial Regalia
+
+kusanagi = {
+	icon = "artifact_sword.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+yata_no_kagami = {
+	icon = "artifact_brooch.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+yasakani_no_magatama = {
+	icon = "artifact_necklace.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+# Incense
+
+ranjatai = {
+	icon = "artifact_pouch.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+# Seal
+
+seal = {
+	icon = "artefact_icons_unique_artifact_eastern_reliquaries.dds"
+	asset = ep1_western_box_small_basic_01_a_entity
+}
+
+# Tea Utensil
+
+tea_utensil = {
+	icon = "artifact_goblet.dds"
+	asset = ep1_western_box_small_basic_01_a_entity
+}
+
+# Armor
+
+japanese_armor = {
+	icon = "artifact_armor.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+# Weapons
+
+japanese_sword = {
+	icon = "artifact_sword.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+japanese_spear = {
+	icon = "artifact_spear.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+japanese_dagger = {
+	icon = "artifact_dagger.dds"
+	asset = ep1_western_box_medium_basic_01_a_entity
+}
+
+# Books
+
+japanese_book = {
+	icon = "artifact_book.dds"
+	asset = ep1_indian_book_verybig_01_a_entity
+}
+
+chinese_book = {
+	icon = "artifact_leaf_book.dds"
+	asset = ep1_indian_book_verybig_01_a_entity
+}
