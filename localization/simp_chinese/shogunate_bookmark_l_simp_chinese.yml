@@ -1,12 +1,30 @@
-﻿l_simp_chinese:
+l_simp_chinese:
+
  SHOGUNATE_BOOKMARK_SHOW_ALL:0 "显示所有起始年份"
  SHOGUNATE_BOOKMARK_SHOW_MORE:0 "显示起始年份"
  SHOGUNATE_BOOKMARK_SHOW_LESS:0 "回到上一界面"
+
  SHOGUNATE_BOOKMARK_EXTRA:0 "附加剧本"
- SHOGUNATE_BOOKMARK_CAUTION_EXTRA:0 "#X 这是以年为单位的剧本。请注意我们没有检查彻底。#!"
- SHOGUNATE_BOOKMARK_CAUTION_HIDDEN:0 "#X 这是一个实验剧本。你可以玩，但我们将来可能会在没有通知的情况下删除它。#!"
+ SHOGUNATE_BOOKMARK_CAUTION_EXTRA:0 "#X 这是以年为单位的剧本。请注意我们没有彻底检查。#!"
+ SHOGUNATE_BOOKMARK_CAUTION_HIDDEN:0 "#X 这是一个实验剧本。但我们将来可能会在没有通知的情况下删除它，请知晓。#!"
+
+ # Bookmark Groups
+
+ bm_group_kamakura:0 "镰仓时代"
+ bm_group_nanbokucho:0 "南北朝时代"
+ bm_group_muromachi:0 "室町时代"
+ bm_group_early_sengoku:0 "战国时代初期"
+ bm_group_mid_sengoku:0 "战国时代中期"
+ bm_group_oda_government:0 "安土桃山时代"
+ bm_group_toyotomi_government:0 "丰臣政权时代"
+
+ #
+ # 1180 : Prince Mochihito's Rebellion
+ #
+
  bm_pmrta1180:0 "以仁王举兵"
- bm_pmrta1180_desc:0 "经历了保元之乱（1156年）和平治之乱（1159年）后，伊势平氏彻底主宰了朝廷。平清盛接受了太政大臣的宣下——掌握了律令体制内朝廷的最高官职，他的家族则掌控着国内的大片庄园，以至于某个平氏曾傲然吐言：\n\n““非平家血脉，皆属贱类。”\n\n尽管如此，平清盛与后白河法皇的冲突，在1170年后严重加剧，与此同时，反平家势力也趁机蠢蠢欲动。\n\n#X 这不是战国时代的剧本。一部分功能无法使用或经过调整。#!"
+ bm_pmrta1180_desc:0 "在保元之乱与平治之乱后，伊势平氏彻底掌控了朝廷。作为栋梁的平清盛当上太政大臣，其族获得了巨大的财富与土地。据说平氏有人曾公然放言。\n\n“非平家者非人也。”\n\n可是、1170年平清盛与后白河法皇之间的矛盾愈发深刻。那些对平家不满的人们也开始密谋反对他们。\n\n#X 这不是战国时代的剧本。一部分功能无法使用。#!"
+
  bm_pmrta1180_prince_mochihito:0 "以仁王"
  bm_pmrta1180_prince_mochihito_desc:0 ""
  bm_pmrta1180_taira_kiyomori:0 "平清盛"
@@ -25,173 +43,354 @@
  bm_pmrta1180_kikuchi_takanao_desc:0 ""
  bm_pmrta1180_kono_michikiyo:0 "河野通清"
  bm_pmrta1180_kono_michikiyo_desc:0 ""
- bm_genpeiwar1180:0 "源平合战"
- bm_genpeiwar1180_desc:0 "1180年，已退位的后白河法皇的诸子之一，以仁王，对平清盛操纵他年方二岁的侄子安德天皇继位感到无比羞辱，愤而举兵号召全天下源氏起事反抗平氏。\n\n尽管以仁王的起兵以他的殉难告终，但他的令旨激励了源氏一族对平氏发起抗争。源赖朝也趁此机会，成为了南关东的武家领袖，以镰仓为基地，准备开创他的大业。\n\n#X 这不是战国时代的剧本。一部分功能无法使用或经过调整。#!"
- bm_genpeiwar1180_minamoto_yoritomo:0 "源赖朝"
+
+ #
+ # 1180 : Genpei War
+ #
+
+ bm_genpeiwar1180:0 "源平合戦"
+ bm_genpeiwar1180_desc:0 "时值1180年，1180年，已退位的后白河法皇的诸子之一，以仁王，对平清盛操纵他年方二岁的侄子安德天皇继位感到无比羞辱，愤而举兵号召全天下源氏起事反抗平氏。\n\n尽管以仁王的起兵以他的殉难告终，但他的令旨激励了源氏一族对平氏发起抗争。源赖朝也趁此机会，成为了南关东的武家领袖，以镰仓为基地，准备开创他的大业。\n\n#X 这不是战国时代的剧本。一部分功能无法使用。#!"
+
+ bm_genpeiwar1180_minamoto_yoritomo:0 "源頼朝"
  bm_genpeiwar1180_minamoto_yoritomo_desc:0 ""
- bm_genpeiwar1180_minamoto_yoshinaka:0 "源义仲"
+ bm_genpeiwar1180_minamoto_yoshinaka:0 "源義仲"
  bm_genpeiwar1180_minamoto_yoshinaka_desc:0 ""
- bm_genpeiwar1180_takeda_nobuyoshi:0 "武田信义"
+ bm_genpeiwar1180_takeda_nobuyoshi:0 "武田信義"
  bm_genpeiwar1180_takeda_nobuyoshi_desc:0 ""
  bm_genpeiwar1180_taira_kiyomori:0 "平清盛"
  bm_genpeiwar1180_taira_kiyomori_desc:0 ""
- bm_genpeiwar1180_harada_tanenao:0 "原田种直"
+ bm_genpeiwar1180_harada_tanenao:0 "原田種直"
  bm_genpeiwar1180_harada_tanenao_desc:0 ""
  bm_genpeiwar1180_fujiwara_hidehira:0 "藤原秀衡"
  bm_genpeiwar1180_fujiwara_hidehira_desc:0 ""
- bm_genpeiwar1180_hojo_tokimasa:0 "北条时政"
+ bm_genpeiwar1180_hojo_tokimasa:0 "北条時政"
  bm_genpeiwar1180_hojo_tokimasa_desc:0 ""
- bm_genpeiwar1180_miura_yoshizumi:0 "三浦义澄"
+ bm_genpeiwar1180_miura_yoshizumi:0 "三浦義澄"
  bm_genpeiwar1180_miura_yoshizumi_desc:0 ""
- bm_genpeiwar1180_kazusa_hirotsune:0 "上总广常"
+ bm_genpeiwar1180_kazusa_hirotsune:0 "上総広常"
  bm_genpeiwar1180_kazusa_hirotsune_desc:0 ""
- bm_oninwar1467:0 "应仁之乱"
- bm_oninwar1467_desc:0 "应仁之乱是日本室町时代（1467-1477）爆发的一场内战。\n\n管领细川胜元与有力者山名宗全的权力斗争，升级成为将幕府与诸多大名卷入的全国性内乱。\n\n这次大乱是战国时代开始的契机之一，也是长久以来大名互相争斗时代的开始。"
- bm_oninwar1467_hosokawa_katsumoto:0 "细川胜元"
+
+ #
+ # 1335 : Nakasendai Rebellion (Hojo Tokiyuki's Rebellion)
+ #
+
+ bm_nanbokucho_1335:0 "中先代之乱"
+ bm_nanbokucho_1335_desc:0 "实际支配镰仓幕府的北条一族终于灭亡了。一族中即使有生存下来的，也遭到了处刑。还有一些人起兵反抗，也失败了。\n\n最后一位北条氏当主的遗子北条时行就是这样一位幸存者。 他在诹访赖重的庇护下等待机会，最后举兵，夺回了镰仓\n\n另一方面，看不惯对北条时行迟迟不做反应的朝廷的足利尊氏不顾朝廷的命令，独自向镰仓进军了。"
+
+ bm_nanbokucho_1335_hojo_tokiyuki:0 "北条时行"
+ bm_nanbokucho_1335_hojo_tokiyuki_desc:0 ""
+ bm_nanbokucho_1335_ashikaga_takauji:0 "足利尊氏"
+ bm_nanbokucho_1335_ashikaga_takauji_desc:0 ""
+ bm_nanbokucho_1335_emperor_godaigo:0 "后醍醐天皇"
+ bm_nanbokucho_1335_emperor_godaigo_desc:0 ""
+ bm_nanbokucho_1335_kusunoki_masashige:0 "楠木正成"
+ bm_nanbokucho_1335_kusunoki_masashige_desc:0 ""
+ bm_nanbokucho_1335_nitta_yoshisada:0 "新田义贞"
+ bm_nanbokucho_1335_nitta_yoshisada_desc:0 ""
+ bm_nanbokucho_1335_kitabatake_akiie:0 "北畠显家"
+ bm_nanbokucho_1335_kitabatake_akiie_desc:0 ""
+ bm_nanbokucho_1335_kou_moronao:0 "高师直"
+ bm_nanbokucho_1335_kou_moronao_desc:0 ""
+ bm_nanbokucho_1335_sasaki_doyo:0 "京极道誉"
+ bm_nanbokucho_1335_sasaki_doyo_desc:0 ""
+ bm_nanbokucho_1335_akamatsu_enshin:0 "赤松圆心"
+ bm_nanbokucho_1335_akamatsu_enshin_desc:0 ""
+
+ #
+ # 1336 : Nanboku-cho Period (Start of the Kenmu War)
+ #
+
+ bm_nanbokucho_1336:0 "南北朝争乱"
+ bm_nanbokucho_1336_desc:0 "打倒镰仓幕府后的几年。 与后世的印象相反，后醍醐天皇的新政是坚定的为材是用主义。\n\n但这也意味着，对于寻求快速解决土地纠纷的庄园主们和对赏赐不满的武士们来说，没有完全达到自己的期待。\n\n在广泛的混乱中，镇压了中先代之乱对的足利尊氏留在关东赏赐其部下，甚至自称将军。\n\n在此，被称为南北朝的纷乱的时代开幕了。"
+
+ bm_nanbokucho_1336_emperor_godaigo:0 "后醍醐天皇"
+ bm_nanbokucho_1336_emperor_godaigo_desc:0 ""
+ bm_nanbokucho_1336_ashikaga_takauji:0 "足利尊氏"
+ bm_nanbokucho_1336_ashikaga_takauji_desc:0 ""
+ bm_nanbokucho_1336_hojo_tokiyuki:0 "北条时行"
+ bm_nanbokucho_1336_hojo_tokiyuki_desc:0 ""
+ bm_nanbokucho_1336_kusunoki_masashige:0 "楠木正成"
+ bm_nanbokucho_1336_kusunoki_masashige_desc:0 ""
+ bm_nanbokucho_1336_nitta_yoshisada:0 "新田义貞"
+ bm_nanbokucho_1336_nitta_yoshisada_desc:0 ""
+ bm_nanbokucho_1336_kitabatake_akiie:0 "北畠显家"
+ bm_nanbokucho_1336_kitabatake_akiie_desc:0 ""
+ bm_nanbokucho_1336_kou_moronao:0 "高师直"
+ bm_nanbokucho_1336_kou_moronao_desc:0 ""
+ bm_nanbokucho_1336_sasaki_doyo:0 "京极道誉"
+ bm_nanbokucho_1336_sasaki_doyo_desc:0 ""
+ bm_nanbokucho_1336_akamatsu_enshin:0 "赤松圆心"
+ bm_nanbokucho_1336_akamatsu_enshin_desc:0 ""
+
+ #
+ # 1350 : Kanno Disturbance
+ #
+
+ bm_nanbokucho_1350:0 "観応の擾乱"
+ bm_nanbokucho_1350_desc:0 "建武の乱は足利氏の勝利に終わり、後醍醐天皇は吉野に逃れて南朝を打ち立てた。\n\nだが、足利幕府のもとでも恩賞や権益を巡る争いは絶えず、その争いはやがて尊氏の弟・直義と執事・高師直の対立に進展した。\n\n一度は高師直によって失脚に追い込まれた直義だったが、諸将の支持を受けて挙兵する。兄弟相争う観応の擾乱が幕を開けようとしていた。"
+
+ bm_nanbokucho_1350_ashikaga_takauji:0 "足利尊氏"
+ bm_nanbokucho_1350_ashikaga_takauji_desc:0 ""
+ bm_nanbokucho_1350_ashikaga_tadayoshi:0 "足利直義"
+ bm_nanbokucho_1350_ashikaga_tadayoshi_desc:0 ""
+ bm_nanbokucho_1350_ashikaga_tadafuyu:0 "足利直冬"
+ bm_nanbokucho_1350_ashikaga_tadafuyu_desc:0 ""
+ bm_nanbokucho_1350_sasaki_doyo:0 "京極道誉"
+ bm_nanbokucho_1350_sasaki_doyo_desc:0 ""
+ bm_nanbokucho_1350_kou_moronao:0 "高師直"
+ bm_nanbokucho_1350_kou_moronao_desc:0 ""
+ bm_nanbokucho_1350_kou_moroyasu:0 "高師泰"
+ bm_nanbokucho_1350_kou_moroyasu_desc:0 ""
+ bm_nanbokucho_1350_emperor_gomurakami:0 "後村上天皇"
+ bm_nanbokucho_1350_emperor_gomurakami_desc:0 ""
+ bm_nanbokucho_1350_kusunoki_masanori:0 "楠木正儀"
+ bm_nanbokucho_1350_kusunoki_masanori_desc:0 ""
+ bm_nanbokucho_1350_hojo_tokiyuki:0 "北条時行"
+ bm_nanbokucho_1350_hojo_tokiyuki_desc:0 ""
+
+ #
+ # 1352 : Battle of Musashino
+ #
+
+ bm_nanbokucho_1352:0 "武蔵野合戦"
+ bm_nanbokucho_1352_desc:0 "観応の擾乱は足利直義の死によって幕を閉じた。それとともに、起死回生を目論む南朝の重鎮・北畠親房の策により正平の一統は破綻する。\n\n関東では、新田義貞の遺児である新田義宗・義興兄弟と旧直義派の上杉憲顕らが糾合し、将軍・足利尊氏の滞在する鎌倉へと進軍する。\n\nさらに京では、足利義詮のもとへ後村上帝自ら率いる南朝軍が迫りつつある。\n\n今まさに、南朝最大の反撃が開始されようとしていた。"
+
+ #
+ # 1358 : Birth of Yoshimitsu
+ #
+
+ bm_nanbokucho_1358:0 "春王誕生"
+ bm_nanbokucho_1358_desc:0 "初代将軍・足利尊氏の死から数ヶ月後。洛中春日東洞院の屋敷で産声が上がった。\n\n時の将軍・足利義詮が嫡男「春王」――後の室町幕府三代将軍にして南北朝合一を成し遂げる足利義満である。\n\n世はいまだ南北朝争乱の中にあった。"
+
+ #
+ # 1370 : Road to the Great Peace
+ #
+
+ bm_nanbokucho_1370:0 "太平への道"
+ bm_nanbokucho_1370_desc:0 "将軍・足利義詮と後村上天皇が相次いで世を去った。\n\n北朝も南朝も世代交代が進みつつあったが、九州では征西将軍・懷良親王が勢力を振るうなど、太平の世の気配はいまだ見えない。\n\nそのような中、義詮の嫡男・義満は幼くして征夷大将軍に就任した。管領・細川頼之の補佐を受けながら、南北朝の合一、そして真の太平の世を目指すことになる。"
+
+ #
+ # 1399 : Oei Rebellion
+ #
+
+ bm_oeirebellion_1399:0 "応永の乱"
+ bm_oeirebellion_1399_desc:0 "将軍・足利義満によって南北朝合一は成し遂げられた。\n\n彼は幕府権力の確立のため土岐氏、山名氏など脅威となりうる有力大名の力を削いでいった。\n\n西国の大大名・大内氏は朝鮮との交易によって巨万の富を蓄えており、足利義満にとって警戒の対象となった。\n\n義満の挑発によって追い込まれた大内義弘は今まさに決死の戦いに挑もうとしている。"
+
+ #
+ # 1416 : Three Mountains
+ #
+
+ bm_threemountain_1416:0 "琉球三山"
+ bm_threemountain_1416_desc:0 "14世紀、沖縄本島では中山、北山、南山の三つの国が成立した。\n\nいずれも中国に朝貢して勢力を拡大したが、中山の武寧王に取って代わった尚氏が勢いを増しつつある。"
+
+ #
+ # 1438 : Eikyo War
+ #
+
+ bm_eikyowar_1438:0 "永享の乱"
+ bm_eikyowar_1438_desc:0 "鎌倉公方の足利持氏は将軍とたびたび対立した。\n\nそもそも、関東に支配権を延ばそうとする将軍とそれに抗する鎌倉公方の衝突は必然であったが、元は僧籍にあった足利義教が将軍となってからその対立は決定的となった。"
+
+ #
+ # 1455 : Kyotoku War
+ #
+
+ bm_kyotokuwar_1455:0 "享徳の乱"
+ bm_kyotokuwar_1455_desc:0 "永享の乱は足利持氏の死で幕を閉じた。\n\n勝者となった足利義教もまた嘉吉の乱で殺害され、鎌倉公方は持氏の遺児・成氏が継ぐことで存続が許される。\n\nしかし、戦乱によって残された対立はもはや深刻なものとなっていた。\n\n成長した足利成氏は関東管領・上杉憲忠を暗殺。それを契機に関東を巻き込んだ戦いの幕が再び切って落とされた。"
+
+ #
+ # 1467 : Onin War
+ #
+
+ bm_oninwar1467:0 "応仁の乱"
+ bm_oninwar1467_desc:0 "応仁の乱は、1467年から1477年まで10年間にわたり続いた内乱である。\n\n管領・細川勝元と有力者・山名宗全の権力闘争は、幕府と諸大名を巻き込む全国規模の内乱に発展した。\n\nこの大乱は戦国時代が始まる契機の一つであり、長きにわたり大名が相争う時代の幕開けでもあった。"
+
+ bm_oninwar1467_hosokawa_katsumoto:0 "細川勝元"
  bm_oninwar1467_hosokawa_katsumoto_desc:0 ""
- bm_oninwar1467_hatakeyama_masanaga:0 "畠山政长"
+ bm_oninwar1467_hatakeyama_masanaga:0 "畠山政長"
  bm_oninwar1467_hatakeyama_masanaga_desc:0 ""
- bm_oninwar1467_akamatsu_masanori:0 "赤松政则"
+ bm_oninwar1467_akamatsu_masanori:0 "赤松政則"
  bm_oninwar1467_akamatsu_masanori_desc:0 ""
  bm_oninwar1467_yamana_sozen:0 "山名宗全"
  bm_oninwar1467_yamana_sozen_desc:0 ""
- bm_oninwar1467_hatakeyama_yoshihiro:0 "畠山义就"
+ bm_oninwar1467_hatakeyama_yoshihiro:0 "畠山義就"
  bm_oninwar1467_hatakeyama_yoshihiro_desc:0 ""
  bm_oninwar1467_ouchi_masahiro:0 "大内政弘"
  bm_oninwar1467_ouchi_masahiro_desc:0 ""
- bm_oninwar1467_shibukawa_norinao:0 "涉川教直"
+ bm_oninwar1467_shibukawa_norinao:0 "渋川教直"
  bm_oninwar1467_shibukawa_norinao_desc:0 ""
- bm_oninwar1467_shoni_noriyori:0 "少贰教赖"
+ bm_oninwar1467_shoni_noriyori:0 "少弐教頼"
  bm_oninwar1467_shoni_noriyori_desc:0 ""
- bm_oninwar1467_shiba_yoshitoshi:0 "斯波义敏"
+ bm_oninwar1467_shiba_yoshitoshi:0 "斯波義敏"
  bm_oninwar1467_shiba_yoshitoshi_desc:0 ""
- bm_oninwar1478:0 "大乱终结"
- bm_oninwar1478_desc:0 "应仁之乱终于结束了。但是，战争的结束并不是由于决定性的胜利，而是因为所有的大名都厌倦了战斗，离开了前线。\n\n由于长年的战乱，大名支撑将军的旧体系被破坏殆尽。大名之间为了争夺领地而互相争斗的战国时代拉开了帷幕。"
+
+ #
+ # 1478 : End of Onin War
+ #
+
+ bm_oninwar1478:0 "大乱終結"
+ bm_oninwar1478_desc:0 "応仁の乱はついに終結した。だが、終戦は鮮やかな勝利によるものではなく、すべての大名が戦いに疲れ、戦線を離れたことでもたらされた。\n\n長年の戦乱によって大名が将軍を支える旧体制は破壊され、大名同士が領地を巡って相争う戦国時代が幕を開けた。"
+
  bm_oninwar1478_ashikaga_shigeuji:0 "足利成氏"
  bm_oninwar1478_ashikaga_shigeuji_desc:0 ""
- bm_oninwar1478_uesugi_akisada:0 "上杉显定"
+ bm_oninwar1478_uesugi_akisada:0 "上杉顕定"
  bm_oninwar1478_uesugi_akisada_desc:0 ""
  bm_oninwar1478_uesugi_sadamasa:0 "上杉定正"
  bm_oninwar1478_uesugi_sadamasa_desc:0 ""
- bm_oninwar1478_nagao_kageharu:0 "长尾景春"
+ bm_oninwar1478_nagao_kageharu:0 "長尾景春"
  bm_oninwar1478_nagao_kageharu_desc:0 ""
- bm_oninwar1478_utsunomiya_shigetsuna:0 "宇都宫成纲"
+ bm_oninwar1478_utsunomiya_shigetsuna:0 "宇都宮成綱"
  bm_oninwar1478_utsunomiya_shigetsuna_desc:0 ""
  bm_oninwar1478_ota_dokan:0 "太田道灌"
  bm_oninwar1478_ota_dokan_desc:0 ""
- bm_oninwar1478_hosokawa_masamoto:0 "细川政元"
+ bm_oninwar1478_hosokawa_masamoto:0 "細川政元"
  bm_oninwar1478_hosokawa_masamoto_desc:0 ""
- bm_oninwar1478_yamana_masatoyo:0 "山名政丰"
+ bm_oninwar1478_yamana_masatoyo:0 "山名政豊"
  bm_oninwar1478_yamana_masatoyo_desc:0 ""
- bm_oninwar1478_asakura_takakage:0 "朝仓孝景"
+ bm_oninwar1478_asakura_takakage:0 "朝倉孝景"
  bm_oninwar1478_asakura_takakage_desc:0 ""
- bm_ikkoikki1488:0 "加贺一向一揆"
- bm_ikkoikki1488_desc:0 "由于法主莲如的大力活动，本愿寺以北陆地区为中心，成功地将一向宗传播开来。\n\n在加贺国，守护·富㭴政亲对一向宗势力的急剧膨胀产生了警惕，并对其进行了镇压。但是当地国众的叛乱引发了一场一向一揆，他们即将推翻守护。"
- bm_ikkoikki1488_togashi_masachika:0 "富㭴政亲"
+
+ #
+ # 1488 : Kaga Ikko-Ikki
+ #
+
+ bm_ikkoikki1488:0 "加賀一向一揆"
+ bm_ikkoikki1488_desc:0 "法主・蓮如の精力的な活動により、本願寺は北陸地方を中心に一向宗の布教に成功した。\n\n加賀国では守護・富樫政親が一向宗の急速な拡大を警戒してこれを弾圧していたが、国衆の反乱をきっかけに一向一揆が発生。一揆勢は守護を打倒しようとしていた。"
+
+ bm_ikkoikki1488_togashi_masachika:0 "富樫政親"
  bm_ikkoikki1488_togashi_masachika_desc:0 ""
- bm_ikkoikki1488_rokkaku_takayori:0 "六角高赖"
+ bm_ikkoikki1488_rokkaku_takayori:0 "六角高頼"
  bm_ikkoikki1488_rokkaku_takayori_desc:0 ""
- bm_ikkoikki1488_kyogoku_takakiyo:0 "京极高清"
+ bm_ikkoikki1488_kyogoku_takakiyo:0 "京極高清"
  bm_ikkoikki1488_kyogoku_takakiyo_desc:0 ""
  bm_ikkoikki1488_ashikaga_masatomo:0 "足利政知"
  bm_ikkoikki1488_ashikaga_masatomo_desc:0 ""
- bm_ikkoikki1488_shiba_akitaka:0 "斯波诠高"
+ bm_ikkoikki1488_shiba_akitaka:0 "斯波詮高"
  bm_ikkoikki1488_shiba_akitaka_desc:0 ""
- bm_ikkoikki1488_suwa_yorimitsu:0 "诹访赖满"
+ bm_ikkoikki1488_suwa_yorimitsu:0 "諏訪頼満"
  bm_ikkoikki1488_suwa_yorimitsu_desc:0 ""
  bm_ikkoikki1488_sho_shin:0 "尚真"
  bm_ikkoikki1488_sho_shin_desc:0 ""
- bm_ikkoikki1488_oyake_akahachi:0 "远弥计赤蜂"
+ bm_ikkoikki1488_oyake_akahachi:0 "オヤケアカハチ"
  bm_ikkoikki1488_oyake_akahachi_desc:0 ""
  bm_ikkoikki1488_koma_yamashiro_no_kami:0 "狛山城守"
- bm_ikkoikki1488_koma_yamashiro_no_kami_desc:0 "山城国一揆的成员之一"
- bm_meioucoup1493:0 "明应之变"
- bm_meioucoup1493_desc:0 "1477年，应仁之乱终于划上了句号，足利幕府恢复了执政能力，然而，下克上的风潮早已席卷了全日本。\n\n以反对守护大名为目标的地方暴乱，“国一揆”与“一向一揆”，夺取了山城与加贺国等地的统治权，足利及其他显赫氏族的继承危机也没有完全解决。\n\n明应二年(1493)，幕府管领细川政元，决定废黜足利义材(后改名足利义稙)，改立堀越公方的足利义澄为将军。\n\n政变取得了成功，但足利义稙成功逃到纪伊·河内·越中守护畠山尚顺门下避难，与对立公方鏖战多年。\n\n许多著名战国氏族就兴起于这个时代，例如伊势盛时(北条早云)，在同一年征服了伊豆与相模国，成为一方豪强。"
- bm_meioucoup1493_hosokawa_masamoto:0 "细川政元"
- bm_meioucoup1493_hosokawa_masamoto_desc:0 "细川政元\n1466年生～1507年没\n\n幕府的细川政元通过明应政变掌控了幕政，拥立前将军足利义材的畠山尚顺军势强大，要想让足利义澄政权存续下去，必须给予帮助。\n\n在畿内拥有广大领地的细川政元有实力自由支配主君。\n\n你能战胜众多政敌，让细川京兆家号令天下吗？"
- bm_meioucoup1493_hatakeyama_hisanobu:0 "畠山尚顺"
- bm_meioucoup1493_hatakeyama_hisanobu_desc:0 "畠山尚顺\n1475年生～1522年没\n\n在明治政变中，畠山尚顺失去了父亲畠山政长和畠山家家督的位子。\n\n他和前将军足利义材正试图卷土重来。如果能和他的盟友，能登畠山的军势顺利合作，上洛也不是梦吧。\n\n你能在新将军的领导下重组幕府，夺回家督，甚至打倒杀父仇人细川政元吗？"
- bm_meioucoup1493_hatakeyama_yoshitoyo:0 "畠山义丰"
- bm_meioucoup1493_hatakeyama_yoshitoyo_desc:0 "畠山义丰\n1469年生～1499年没\n\n在明应政变后继承了畠山家的畠山义丰遇到了挡在他面前的同族畠山尚顺。\n\n为了统一从他父亲时代开始就分裂的畠山家，他必须先与新将军足利义澄合作，守护现在的幕府。\n\n你能把两个分裂的武门，将军家和畠山家统一起来吗？"
+ bm_ikkoikki1488_koma_yamashiro_no_kami_desc:0 "山城国一揆の構成員の一人"
+
+ #
+ # 1493 : Meiou Coup
+ #
+
+ bm_meioucoup1493:0 "明応の政変"
+ bm_meioucoup1493_desc:0 "1493年、管領・細川政元は将軍・足利義材（後の義稙）を廃し、次の将軍として足利義澄を擁立した。明応の政変である。\n\nこの政変は成功したが、義材は畠山尚順の領地である越中へ脱出。二人の将軍による内乱が数年にわたって続くことになった。\n\nまた、伊勢盛時（後の北条早雲）による伊豆・相模侵攻が始まるなど、この年は数多の戦国大名が台頭する契機でもあった。"
+
+ bm_meioucoup1493_hosokawa_masamoto:0 "細川政元"
+ bm_meioucoup1493_hosokawa_masamoto_desc:0 "細川政元（ほそかわ まさもと）\n1466年生～1507年没\n\n幕府の重臣・政元は明応の政変により幕政を掌握したが、前将軍・義材を擁する畠山尚順の軍勢は強大で、義澄政権を存続させるのであれば助力は不可避であろう。\n\n畿内に広大な所領を持つ政元には自由に主君を差配するだけの実力がある。\n\n多くの政敵に競り勝ち、細川京兆家により天下に号令を下すことはできるのであろうか。"
+ bm_meioucoup1493_hatakeyama_hisanobu:0 "畠山尚順"
+ bm_meioucoup1493_hatakeyama_hisanobu_desc:0 "畠山尚順（はたけやま ひさのぶ）\n1475年生～1522年没\n\n明応の政変により父・政長と畠山家家督を失った尚順は、前将軍・義材と共に巻き返しを図っている。\n\n味方である能登畠山家の軍勢と上手く連携できれば、上洛も夢ではないだろう。\n\n新将軍のもと幕府を再編し、家督の奪還、ひいては父の仇・細川政元を打ち倒すことはできるのであろうか。"
+ bm_meioucoup1493_hatakeyama_yoshitoyo:0 "畠山義豊"
+ bm_meioucoup1493_hatakeyama_yoshitoyo_desc:0 "畠山義豊（はたけやま よしとよ）\n1469年生～1499年没\n\n明応の政変により畠山家の家督を継承した義豊の前に同族の尚順が立ちふさがる。\n\n父の代より分裂した畠山家統一のためには、まず将軍・義澄と協力し現在の幕府体制を守り抜く必要があるだろう。\n\n将軍家と畠山家、分裂した二つの武門を統一することはできるのであろうか。"
  bm_meioucoup1493_ouchi_masahiro:0 "大内政弘"
- bm_meioucoup1493_ouchi_masahiro_desc:0 "大内政弘\n1446年生～1495年没\n\n大内家是被幕府任命为西国四国守护的名门。在大内政弘时代，大内家扩大了对北九州的统治，影响力越来越大。\n\n畿内自政变后两名将军并立，政局极度混乱，这也可以说是介入内乱、参与幕政的好机会。\n\n被称为『西之京都』的山口城，能执天下政局之牛耳吗？"
- bm_meioucoup1493_akamatsu_masanori:0 "赤松政则"
- bm_meioucoup1493_akamatsu_masanori_desc:0 "赤松政则\n1455年生～1496年没\n\n因暗杀将军的罪名而没落的赤松家，在赤松政则这一代实现了复兴。\n\n即使再兴后也多次遭遇家臣内讧、山名家进攻等危机，但赤松政则还是打败了他们，巩固了作为有力守护大名的地位。\n\n是应该是西进继续扩大领国，还是东进干涉幕府内乱？赤松家的命运掌握在你的手中。"
- bm_meioucoup1493_amago_tsunehisa:0 "尼子经久"
- bm_meioucoup1493_amago_tsunehisa_desc:0 "尼子经久\n1458年生～1541年没\n\n作为出云守护代的尼子经久来越独立于主君京极家，并在出云不断扩大自己的领地。\n\n但是，东边和西边有大内、山名、赤松等有力的守护大名，如果继续扩大领国，冲突将不可避免。\n\n你能充分利用被称为『谋圣』的鬼谋，成为中国十一州的太守吗？"
- bm_meioucoup1493_ise_moritoki:0 "伊势盛时"
- bm_meioucoup1493_ise_moritoki_desc:0 "伊势盛时\n1456年生～1519年没\n\n伊势盛时为了帮助外甥今川氏亲继承家督而尽心尽力，因功被授予一城，参与今川家的政务。\n\n在明应政变后，新将军足利义澄决定讨伐杀害亲生母亲和弟弟的堀越公方足利茶茶丸。伊势盛时从今川家借兵，发动了对伊豆的征伐。\n\n你能凭借自身的器量，成为战国时代的弄潮儿吗？"
+ bm_meioucoup1493_ouchi_masahiro_desc:0 "大内政弘（おおうち まさひろ）\n1446年生～1495年没\n\n大内家は幕府より西国四か国の守護に任じられた名門である。政弘の代には北九州における支配を拡大し、ますます強勢を誇った。\n\n一方、畿内では政変以後二人の将軍が並び立ち政情は混迷を極めているが、これは内乱に介入し幕政に関与する好機ともいえる。\n\n西の京と呼ばれる山口から天下の政を牛耳ることはできるのであろうか。"
+ bm_meioucoup1493_akamatsu_masanori:0 "赤松政則"
+ bm_meioucoup1493_akamatsu_masanori_desc:0 "赤松政則（あかまつ まさのり）\n1455年生～1496年没\n\n将軍暗殺の罪により没落していた赤松家は政則の代に再興を果たす。\n\n再興後も家臣の内紛、山名家の侵攻など度々危機に見舞われたが、政則はそれらを退け有力守護大名としての地位を確固たるものとした。\n\n西進しさらに領国を拡大するか、東進し幕府の内乱に干渉するか、赤松家の命運はあなたの手に委ねられている。"
+ bm_meioucoup1493_amago_tsunehisa:0 "尼子経久"
+ bm_meioucoup1493_amago_tsunehisa_desc:0 "尼子経久（あまご つねひさ）\n1458年生～1541年没\n\n出雲守護代である経久は主君である京極家からの自立を強め、出雲に独自の領国を拡大しつつある。\n\nしかし、東西には大内、山名、赤松といった有力守護大名が控えており、領国の拡大を継続すれば衝突は必至であろう。\n\n「謀聖」と謳われる鬼謀を駆使し、中国十一州の太守に成り上がることはできるのであろうか。"
+ bm_meioucoup1493_ise_moritoki:0 "伊勢盛時"
+ bm_meioucoup1493_ise_moritoki_desc:0 "伊勢盛時（いせ もりとき）\n1456年生～1519年没　別名：北条早雲\n\n盛時は甥の今川氏親の家督継承に尽力し、その功によって一城を与えられ今川家の政務に携わっていた。\n\n政変により将軍に就任した義澄が実母と実弟を殺害した堀越公方・足利茶々丸討伐を決断すると、盛時は今川家から兵を借り受け、伊豆討ち入りを開始する。\n\n自身の器量を頼りに盛時は戦国の嚆矢となることはできるのであろうか。"
  bm_meioucoup1493_ashikaga_shigeuji:0 "足利成氏"
- bm_meioucoup1493_ashikaga_shigeuji_desc:0 "足利成氏\n1438年生～1497年没\n\n第五代镰仓公方足利成氏，一生中过半时间都在与关东管领山内上杉家交战。\n\n当扇谷、山内两家上杉氏开始同族之争时，足利成氏站在扇谷上杉家一边介入了战争。\n\n你能将关东地区的上杉家势力排除，重新在镰仓建立御所吗？"
- bm_meioucoup1493_uesugi_akisada:0 "上杉显定"
- bm_meioucoup1493_uesugi_akisada_desc:0 "上杉显定\n1454年生～1510年没\n\n关东管领、山内上杉家当主上杉显定，正与同族扇谷上杉家、镰仓公方足利成氏交战。\n\n集中精力对付眼前的宿敌固然重要，但也要留意从伊豆进攻过来的新势力。\n\n你能赢得这场战争，平定关东旷日持久的争斗吗？"
- bm_endeikyo1507:0 "北条早云崛起"
- bm_endeikyo1507_desc:0 "北条早云(1432 - 1519.9.8)，日本战国时代主要势力之一，后北条氏的第一代当主。本名伊势盛时，幼名伊势新九郎，他的家族源自室町幕府的政所执事，是一位具有平氏血统的名门武士。"
- bm_endeikyo1507_ise_moritoki:0 "伊势盛时"
- bm_endeikyo1507_ise_moritoki_desc:0 "别名：北条早云"
- bm_endeikyo1507_imagawa_ujichika:0 "今川氏亲"
+ bm_meioucoup1493_ashikaga_shigeuji_desc:0 "足利成氏（あしかが しげうじ）\n1438年生～1497年没\n\n第五代鎌倉公方の成氏は生涯の過半を関東管領の山内上杉家との戦いに費やしてきた。\n\n扇谷、山内両上杉氏が同族間の争いを始めると成氏は扇谷上杉家側に立って戦争に介入する。\n\n上杉家の勢力を関東から排除し、再び鎌倉に御所を構えることができるのであろうか。"
+ bm_meioucoup1493_uesugi_akisada:0 "上杉顕定"
+ bm_meioucoup1493_uesugi_akisada_desc:0 "上杉顕定（うえすぎ あきさだ）\n1454年生～1510年没\n\n関東管領、山内上杉家当主の顕定は、同族の扇谷上杉家、鎌倉公方足利成氏との合戦の最中にある。\n\n眼前の宿敵に集中することも大切であるが、伊豆から攻め寄せる新勢力にも注意を払いたい。\n\nこの戦いに勝利し、長きにわたる関東の争乱を平定することはできるのであろうか。"
+
+ #
+ # 1507 : Rise of Hojo Soun
+ #
+
+ bm_endeikyo1507:0 "北条早雲の台頭"
+ bm_endeikyo1507_desc:0 "北条早雲は戦国時代の大国・後北条氏の初代当主である。本名は伊勢盛時（新九郎）といい、平氏の血を引き、将軍家家臣として高名な一族の出であった。"
+
+ bm_endeikyo1507_ise_moritoki:0 "伊勢盛時"
+ bm_endeikyo1507_ise_moritoki_desc:0 "別名：北条早雲"
+ bm_endeikyo1507_imagawa_ujichika:0 "今川氏親"
  bm_endeikyo1507_imagawa_ujichika_desc:0 ""
- bm_endeikyo1507_miura_yoshiatsu:0 "三浦义同"
+ bm_endeikyo1507_miura_yoshiatsu:0 "三浦義同"
  bm_endeikyo1507_miura_yoshiatsu_desc:0 ""
- bm_endeikyo1507_nagao_tamekage:0 "长尾为景"
+ bm_endeikyo1507_nagao_tamekage:0 "長尾為景"
  bm_endeikyo1507_nagao_tamekage_desc:0 ""
- bm_endeikyo1507_satake_yoshikiyo:0 "佐竹义舜"
+ bm_endeikyo1507_satake_yoshikiyo:0 "佐竹義舜"
  bm_endeikyo1507_satake_yoshikiyo_desc:0 ""
- bm_endeikyo1507_yuki_masatomo:0 "结城政朝"
+ bm_endeikyo1507_yuki_masatomo:0 "結城政朝"
  bm_endeikyo1507_yuki_masatomo_desc:0 ""
- bm_endeikyo1507_ganshoji_renjun:0 "愿证寺莲淳"
+ bm_endeikyo1507_ganshoji_renjun:0 "願証寺蓮淳"
  bm_endeikyo1507_ganshoji_renjun_desc:0 ""
  bm_endeikyo1507_ichijo_fusaie:0 "一条房家"
  bm_endeikyo1507_ichijo_fusaie_desc:0 ""
- bm_endeikyo1507_shimazu_tadayoshi:0 "岛津忠良"
- bm_endeikyo1507_shimazu_tadayoshi_desc:0 "别名：岛津日新斋"
- bm_funaokayama1511:0 "船冈山合战"
- bm_funaokayama1511_desc:0 "船冈山合战发生在1511年8月23日，一方为支持在任将军足利义稙的细川高国和大内义兴，他们的敌人是，支持前任将军足利义澄的细川澄元。这是一场室町幕府的内部权利斗争。"
- bm_funaokayama1511_ouchi_yoshioki:0 "大内义兴"
+ bm_endeikyo1507_shimazu_tadayoshi:0 "島津忠良"
+ bm_endeikyo1507_shimazu_tadayoshi_desc:0 "別名：島津日新斎"
+
+ #
+ # 1511 : Battle of Funaokayama
+ #
+
+ bm_funaokayama1511:0 "船岡山合戦"
+ bm_funaokayama1511_desc:0 "1511年、将軍・足利義稙を擁する細川高国、大内義興の軍勢と、前将軍・足利義澄を支持する細川澄元の軍勢との間で、足利幕府における主導権を巡って戦端が開かれた。船岡山合戦である。"
+
+ bm_funaokayama1511_ouchi_yoshioki:0 "大内義興"
  bm_funaokayama1511_ouchi_yoshioki_desc:0 ""
- bm_funaokayama1511_hosokawa_sumimoto:0 "细川澄元"
+ bm_funaokayama1511_hosokawa_sumimoto:0 "細川澄元"
  bm_funaokayama1511_hosokawa_sumimoto_desc:0 ""
- bm_funaokayama1511_akamatsu_yoshimura:0 "赤松义村"
+ bm_funaokayama1511_akamatsu_yoshimura:0 "赤松義村"
  bm_funaokayama1511_akamatsu_yoshimura_desc:0 ""
  bm_funaokayama1511_takeda_nobutora:0 "武田信虎"
  bm_funaokayama1511_takeda_nobutora_desc:0 ""
  bm_funaokayama1511_azai_sukemasa:0 "浅井亮政"
  bm_funaokayama1511_azai_sukemasa_desc:0 ""
- bm_funaokayama1511_asakura_norikage:0 "朝仓教景"
- bm_funaokayama1511_asakura_norikage_desc:0 "别名：朝仓宗滴"
- bm_funaokayama1511_miyoshi_yukinaga:0 "三好之长"
+ bm_funaokayama1511_asakura_norikage:0 "朝倉教景"
+ bm_funaokayama1511_asakura_norikage_desc:0 "別名：朝倉宗滴"
+ bm_funaokayama1511_miyoshi_yukinaga:0 "三好之長"
  bm_funaokayama1511_miyoshi_yukinaga_desc:0 ""
- bm_funaokayama1511_so_yoshimori:0 "宗义盛"
+ bm_funaokayama1511_so_yoshimori:0 "宗義盛"
  bm_funaokayama1511_so_yoshimori_desc:0 ""
- bm_funaokayama1511_yamakushinai_shoya:0 "山越内庶野"
- bm_funaokayama1511_yamakushinai_shoya_desc:0 "别名：庶野訇峙兄弟"
- bm_motonari1523:0 "毛利家的继承人"
- bm_motonari1523_desc:0 "毛利家是安芸国众，毛利弘元去世后，其子松寿丸的少年时代充满了苦难。\n\n松寿丸元服后改名元就，并于1523年继承家督。他随后建立了战国时代屈指可数的大国。"
+ bm_funaokayama1511_yamakushinai_shoya:0 "山越内ショヤ"
+ bm_funaokayama1511_yamakushinai_shoya_desc:0 "別名：ショヤコウジ兄弟"
+
+ #
+ # 1523 : Mori's Successor
+ #
+
+ bm_motonari1523:0 "毛利を継ぐ者"
+ bm_motonari1523_desc:0 "毛利氏は安芸の国衆である。毛利弘元の子・松寿丸は父を亡くし、その少年時代は苦難に満ちたものであった。\n\n松寿丸は元服して名を元就と改め、1523年に家督を継いだ。後に戦国時代有数の大国を打ち立てることになる。"
+
  bm_motonari1523_mori_motonari:0 "毛利元就"
  bm_motonari1523_mori_motonari_desc:0 ""
- bm_motonari1523_sue_okifusa:0 "陶兴房"
+ bm_motonari1523_sue_okifusa:0 "陶興房"
  bm_motonari1523_sue_okifusa_desc:0 ""
- bm_motonari1523_bessho_nariharu:0 "别所就治"
+ bm_motonari1523_bessho_nariharu:0 "別所就治"
  bm_motonari1523_bessho_nariharu_desc:0 ""
- bm_motonari1523_asakura_takakage:0 "朝仓孝景"
+ bm_motonari1523_asakura_takakage:0 "朝倉孝景"
  bm_motonari1523_asakura_takakage_desc:0 ""
- bm_motonari1523_rokkaku_sadayori:0 "六角定赖"
+ bm_motonari1523_rokkaku_sadayori:0 "六角定頼"
  bm_motonari1523_rokkaku_sadayori_desc:0 ""
- bm_motonari1523_hatakeyama_yoshifusa:0 "畠山义总"
+ bm_motonari1523_hatakeyama_yoshifusa:0 "畠山義総"
  bm_motonari1523_hatakeyama_yoshifusa_desc:0 ""
- bm_motonari1523_aso_koretoyo:0 "阿苏惟丰"
+ bm_motonari1523_aso_koretoyo:0 "阿蘇惟豊"
  bm_motonari1523_aso_koretoyo_desc:0 ""
- bm_motonari1523_ogasawara_nagamune:0 "小笠原长栋"
+ bm_motonari1523_ogasawara_nagamune:0 "小笠原長棟"
  bm_motonari1523_ogasawara_nagamune_desc:0 ""
- bm_motonari1523_tsuda_kazunaga:0 "津田算长"
+ bm_motonari1523_tsuda_kazunaga:0 "津田算長"
  bm_motonari1523_tsuda_kazunaga_desc:0 ""
- bm_sengoku1527:0 "桂川原之战"
- bm_sengoku1527_desc:0 "细川澄元被赶下管领之位，逃往阿波，在失意中死去。\n\n在新任管领细川高国的统治下，虽然迎来了短暂的和平，但其因谗言杀死家臣，导致了内部分裂。\n\n细川澄元的儿子细川晴元认为这是个复仇的好机会，便与实力强大的三好氏一起开始进军。"
- bm_sengoku1527_hosokawa_harumoto:0 "细川晴元"
+
+ #
+ # 1527 : Battle of Katsura-kawara
+ #
+
+ bm_sengoku1527:0 "桂川原の戦い"
+ bm_sengoku1527_desc:0 "細川澄元は管領の座を追われて阿波に逃亡し、失意の中で死んだ。\n\n新たに管領となった細川高国の下でしばしの平和が訪れるが、讒言から家臣を討ったため自ら内部分裂を招く。\n\n澄元の息子・晴元はこれを好機と見て、強力な三好氏とともに進軍を開始した。"
+
+ bm_sengoku1527_hosokawa_harumoto:0 "細川晴元"
  bm_sengoku1527_hosokawa_harumoto_desc:0 ""
- bm_sengoku1527_yanagimoto_kataharu:0 "柳本贤治"
+ bm_sengoku1527_yanagimoto_kataharu:0 "柳本賢治"
  bm_sengoku1527_yanagimoto_kataharu_desc:0 ""
- bm_sengoku1527_hosokawa_takakuni:0 "细川高国"
+ bm_sengoku1527_hosokawa_takakuni:0 "細川高国"
  bm_sengoku1527_hosokawa_takakuni_desc:0 ""
  bm_sengoku1527_takeda_motomitsu:0 "武田元光"
  bm_sengoku1527_takeda_motomitsu_desc:0 ""
@@ -199,349 +398,465 @@
  bm_sengoku1527_matsudaira_kiyoyasu_desc:0 ""
  bm_sengoku1527_oda_masaharu:0 "小田政治"
  bm_sengoku1527_oda_masaharu_desc:0 ""
- bm_sengoku1527_shiba_yoshimune:0 "斯波义统"
+ bm_sengoku1527_shiba_yoshimune:0 "斯波義統"
  bm_sengoku1527_shiba_yoshimune_desc:0 ""
- bm_sengoku1527_toki_yorinori:0 "土岐赖芸"
+ bm_sengoku1527_toki_yorinori:0 "土岐頼芸"
  bm_sengoku1527_toki_yorinori_desc:0 ""
- bm_sengoku1527_ashikaga_yoshiaki:0 "足利义明"
+ bm_sengoku1527_ashikaga_yoshiaki:0 "足利義明"
  bm_sengoku1527_ashikaga_yoshiaki_desc:0 ""
- bm_sengoku1531:0 "大物崩"
- bm_sengoku1531_desc:0 "新成为管领的细川晴元拥立堺公方足利义维，与足利义晴对抗。\n\n与此同时，被赶下职位的细川高国招募支持者展开反击。"
- bm_sengoku1531_hosokawa_harumoto:0 "细川晴元"
+
+ #
+ # 1531 : Battle of Daimotsu
+ #
+
+ bm_sengoku1531:0 "大物崩れ"
+ bm_sengoku1531_desc:0 "新たに管領となった細川晴元は、堺公方・足利義維を奉じて足利義晴と対立した。一方、地位を追われた細川高国は支援者を募って反撃に打って出た。"
+
+ bm_sengoku1531_hosokawa_harumoto:0 "細川晴元"
  bm_sengoku1531_hosokawa_harumoto_desc:0 ""
  bm_sengoku1531_akamatsu_harumasa:0 "赤松晴政"
  bm_sengoku1531_akamatsu_harumasa_desc:0 ""
- bm_sengoku1531_miyoshi_motonaga:0 "三好元长"
+ bm_sengoku1531_miyoshi_motonaga:0 "三好元長"
  bm_sengoku1531_miyoshi_motonaga_desc:0 ""
- bm_sengoku1531_hosokawa_takakuni:0 "细川高国"
+ bm_sengoku1531_hosokawa_takakuni:0 "細川高国"
  bm_sengoku1531_hosokawa_takakuni_desc:0 ""
  bm_sengoku1531_uragami_muramune:0 "浦上村宗"
  bm_sengoku1531_uragami_muramune_desc:0 ""
- bm_sengoku1531_kizawa_nagamasa:0 "木泽长政"
+ bm_sengoku1531_kizawa_nagamasa:0 "木沢長政"
  bm_sengoku1531_kizawa_nagamasa_desc:0 ""
- bm_sengoku1531_ouchi_yoshitaka:0 "大内义隆"
+ bm_sengoku1531_ouchi_yoshitaka:0 "大内義隆"
  bm_sengoku1531_ouchi_yoshitaka_desc:0 ""
- bm_sengoku1531_murakami_yoshikiyo:0 "村上义清"
+ bm_sengoku1531_murakami_yoshikiyo:0 "村上義清"
  bm_sengoku1531_murakami_yoshikiyo_desc:0 ""
- bm_sengoku1531_enya_okihisa:0 "盐冶兴久"
+ bm_sengoku1531_enya_okihisa:0 "塩冶興久"
  bm_sengoku1531_enya_okihisa_desc:0 ""
- bm_sengoku1534:0 "父辈的时代"
- bm_sengoku1534_desc:0 "1534年初夏，织田信长出生，多年之后，他将以日本战国三英杰之一的盛名流传千古。\n\n然而，1534年的日本，依然处在室町幕府的晚期，足利幕府的权威尚未寿终正寝。\n\n这一年，虽然十六世纪最重要的武家势力都已崭露头角，但许多战国英雄，例如武田信玄与上杉谦信都还很年轻。\n\n因此，1534年，被认为是父辈的时代，对某些人来说，也是祖父辈的时代。"
- bm_sengoku1534_oda_nobuhide:0 "织田信秀"
- bm_sengoku1534_oda_nobuhide_desc:0 "织田信秀\n1510年生～1551年没\n#EMP 织田信长之父、器用之仁、尾张之虎#!\n\n织田信秀出身于尾张守护代·织田家的庶流。\n\n但是，因控制了伊势湾的重要贸易据点津岛，使得其势力成长到足以与主家匹敌。\n\n你能以这样的经济实力为武器，成功地完成下克上，成为尾张国主吗？"
+
+ #
+ # 1534 : Day of Fathers
+ #
+
+ bm_sengoku1534:0 "父の時代"
+ bm_sengoku1534_desc:0 "1534年初夏、織田信長が生を受けた。のちに三英傑の一人として知られることになる。\n\n当時はまだ室町時代末期であり、足利幕府の権威と体制は完全には消えていなかった。\n\n16世紀後半の有力な大名家は既に台頭していたが、武田信玄や上杉謙信のような戦国時代の英雄はまだ若かった。\n\n時は英雄の父の時代であった。"
+
+ bm_sengoku1534_oda_nobuhide:0 "織田信秀"
+ bm_sengoku1534_oda_nobuhide_desc:0 "織田信秀（おだ のぶひで）\n1510年生～1551年没\n#EMP 織田信長の父、器用の仁、尾張の虎#!\n\n信秀は尾張守護代・織田家の庶流の出身である。\n\nしかし、伊勢湾交易の拠点である津島を支配下に置くなど、その勢力は主家に匹敵するまでに成長している。\n\nこの経済力を武器に見事下克上を成し遂げ、尾張の国主として飛躍することはできるのであろうか。"
  bm_sengoku1534_mori_motonari:0 "毛利元就"
- bm_sengoku1534_mori_motonari_desc:0 "毛利元就\n1497年生～1571年没\n#EMP 乞食若殿#!\n\n因哥哥和侄子突然死亡而继承家督的元就，现在从属于大内家。\n\n控制着博多港和石见银山的大内家非常强大，因此毛利元就想要独立并非易事。\n\n你能够运用自己天赋的谋才，从一介国人一跃成为坐拥中国十二国的大大名吗？"
- bm_sengoku1534_miyoshi_nagayoshi:0 "三好长庆"
- bm_sengoku1534_miyoshi_nagayoshi_desc:0 "三好长庆\n1522年生～1564年没\n#EMP 日本的副王#!\n\n三好长庆的父亲三好元长是幕府管领细川家的重臣，但主君细川晴元除掉了他。\n\n继承家业的三好长庆虽然年幼却很聪明，他和他和才华横溢的弟弟们一起期待着元服的那一刻。\n\n三好兄弟能否为父报仇，称霸畿内呢？"
- bm_sengoku1534_nagao_tamekage:0 "长尾为景"
- bm_sengoku1534_nagao_tamekage_desc:0 "长尾为景\n1489年生～1543年没\n#EMP 上杉谦信之父#!\n\n越后守护代长尾为景与主君上杉家冲突不断，最终拥有凌驾于主家之上的权势。\n\n但是，他不能放松警惕，因为在国内有大量叛服无常的国人割据一方。\n\n你能向国内外展示自己的威势，成为名副其实的越后国主吗？"
+ bm_sengoku1534_mori_motonari_desc:0 "毛利元就（もうり もとなり）\n1497年生～1571年没\n#EMP 乞食若殿#!\n\n兄と甥の急死により家督を継承した元就は現在大内家に従属している。\n\n博多港と石見銀山を支配する大内家は強大で、独立は容易ではないだろう。\n\n自身が持つ天賦の謀才を駆使し、国衆から中国十二ヵ国の太守へと駆け上がることはできるのであろうか。"
+ bm_sengoku1534_miyoshi_nagayoshi:0 "三好長慶"
+ bm_sengoku1534_miyoshi_nagayoshi_desc:0 "三好長慶（みよし ながよし）\n1522年生～1564年没\n#EMP 日本の副王#!\n\n管領・細川家の重臣であった長慶の父・元長は主君・細川晴元によって滅ぼされた。\n\n後を継いだ長慶は幼いながらも聡明で、優秀な弟達と共に元服の瞬間を待ち望んでいる。\n\n三好兄弟は実父の仇討ちを成し遂げ、畿内を制することができるのであろうか。"
+ bm_sengoku1534_nagao_tamekage:0 "長尾為景"
+ bm_sengoku1534_nagao_tamekage_desc:0 "長尾為景（ながお ためかげ）\n1489年生～1543年没\n#EMP 上杉謙信の父#!\n\n越後守護代の為景は主君である上杉家と衝突を繰り返し、ついには主家を凌駕する権勢を誇るに至った。\n\nしかし、国内には独立心の高い国衆が割拠しており油断はできない。\n\n国内外にその武威を示し、名実ともに越後の国主となれるのであろうか。"
  bm_sengoku1534_takeda_nobutora:0 "武田信虎"
- bm_sengoku1534_takeda_nobutora_desc:0 "武田信虎\n1494年生～1574年没\n#EMP 武田信玄之父#!\n\n武田信虎在与亲族的激烈内战中获胜，成功平定了甲斐国\n\n邻国皆是强大的大名，而北边的信浓小国割据。\n\n依靠来自黑川金山的收益，以及优秀的家臣团，武田家能够成为强而有力的大名吗？"
- bm_sengoku1534_hojo_ujitsuna:0 "北条氏纲"
- bm_sengoku1534_hojo_ujitsuna_desc:0 "北条氏纲\n1487年生～1541年没\n#EMP 北条早云之子、北条氏康之父#!\n\n北条氏纲从父亲那里继承了领国，将家名改为与关东渊源颇深的『北条』，并将根据地移至小田原。\n\n虽然与宿敌扇谷、山内两家上杉家的战争越来越激烈，但只要充分运用外交手段，就完全有取胜的机会。\n\n你能将父亲建立起来的国家扩张到整个关东吗？"
- bm_sengoku1534_imagawa_ujiteru:0 "今川氏辉"
- bm_sengoku1534_imagawa_ujiteru_desc:0 "今川氏辉\n1513年生～1536年没\n#EMP 今川义元之兄#!\n\n骏河守护·今川家是足利将军家的一门，作为名门而享有盛誉。\n\n但另一方面，领内有大量有力的诸侯割据，多次引发内乱。\n\n历史上，今川氏辉英年早逝，家中再度陷入内乱。\n\n你能带着那群麻烦的家臣们称霸东海吗？"
- bm_sengoku1534_date_tanemune:0 "伊达稙宗"
- bm_sengoku1534_date_tanemune_desc:0 "伊达稙宗\n1488年生～1565年没\n#EMP 伊达政宗之曾祖父#!\n\n伊达稙宗通过给幕府赠送厚礼来提升伊达氏的地位。此外，他还通过与周边的领主进行联姻，在南奥州建立了强大的势力。\n\n他拥有罕见的外交手腕，还有很多孩子正等着元服。\n\n你能通过联姻统治整个奥州吗？"
- bm_sengoku1534_shimazu_takahisa:0 "岛津贵久"
- bm_sengoku1534_shimazu_takahisa_desc:0 "岛津贵久\n1514年生～1571年没\n#EMP 岛津义久之父#!\n\n岛津贵久出生于南九州的名门·岛津家的旁支。后来成为了宗家当主的养子，继承了岛津本家。\n\n然而领内有很多反对贵久继承宗家的同族，他们都对宗家当主的位置虎视眈眈。\n\n你能否在与同族的激烈的继承斗争中获胜，统一家中呢？"
- bm_sengoku1546:0 "河越夜战"
- bm_sengoku1546_desc:0 "北条早云（伊势盛时）夺取伊豆国后，北条氏开始在关东南部持续扩张势力。\n\n然而，第二代家督北条氏纲去世后，以上杉氏与镰仓公方为首的关东旧势力，对关东霸权的年轻挑战者，北条氏康发起了联合打击。\n\n处于优势地位的反北条联军正在围攻河越城，决定关东命运的大决战即将打响……"
+ bm_sengoku1534_takeda_nobutora_desc:0 "武田信虎（たけだ のぶとら）\n1494年生～1574年没\n#EMP 武田信玄の父#!\n\n信虎は親族との熾烈な内戦を戦い抜き、甲斐国の平定に成功した。\n\n隣国には強大な大名がひしめいているが、北の信濃には小国が割拠している。\n\n黒川金山からの収益と優秀な家臣団を頼りに武田家を強国へ押し上げることはできるのであろうか。"
+ bm_sengoku1534_hojo_ujitsuna:0 "北条氏綱"
+ bm_sengoku1534_hojo_ujitsuna_desc:0 "北条氏綱（ほうじょう うじつな）\n1487年生～1541年没\n#EMP 北条早雲の子、北条氏康の父#!\n\n父から領国を引き継いだ氏綱は家名を関東とゆかりの深い「北条」に改め、本拠を小田原に移した。\n\n宿敵である扇谷・山内両上杉家との戦いは熾烈さを増しているが、外交を駆使すれば十分勝機はある。\n\n父が築き上げた領国を関東一円に広げることはできるのであろうか。"
+ bm_sengoku1534_imagawa_ujiteru:0 "今川氏輝"
+ bm_sengoku1534_imagawa_ujiteru_desc:0 "今川氏輝（いまがわ うじてる）\n1513年生～1536年没\n#EMP 今川義元の兄#!\n\n駿河守護・今川家は足利将軍家の一門であり、名門として名高い。その一方で領内には有力な領主が割拠しており、度々内乱を引き起こしていた。\n\n史実では氏輝は若くして世を去り、家中は再び内乱に見舞われることとなる。\n\n厄介な家臣団を従え、東海に覇を唱えることはできるのであろうか。"
+ bm_sengoku1534_date_tanemune:0 "伊達稙宗"
+ bm_sengoku1534_date_tanemune_desc:0 "伊達稙宗（だて たねむね）\n1488年生～1565年没\n#EMP 伊達政宗の曾祖父#!\n\n稙宗は将軍家へ多額の進物を送ることで伊達家の家格を高め、周囲の領主と婚姻外交を行い南奥州に確固たる勢力を築き上げた。\n\n彼は類まれなる外交手腕の持ち主で、まだまだ元服を待つ子供は大勢いる。\n\n婚姻により奥州を統べることはできるのであろうか。"
+ bm_sengoku1534_shimazu_takahisa:0 "島津貴久"
+ bm_sengoku1534_shimazu_takahisa_desc:0 "島津貴久（しまず たかひさ）\n1514年生～1571年没\n#EMP 島津義久の父#!\n\n貴久は南九州の名門・島津家の分家に生まれたが、宗家当主の養子となり島津本家を継承した。\n\n領内には貴久の宗家継承に反抗的な同族が多く、宗家当主の座を虎視眈々と狙っている。\n\n同族との熾烈な相続争いを制し、家中を統一することはできるのであろうか。"
+
+ #
+ # 1546 : Battle of Kawagoe
+ #
+
+ bm_sengoku1546:0 "河越夜戦"
+ bm_sengoku1546_desc:0 "北条早雲（伊勢盛時）の伊豆討ち入り後、北条氏はその勢力を関東に拡大していった。\n\nしかし、二代当主・氏綱の死後、上杉氏や鎌倉公方など旧来の大勢力は若き当主・北条氏康に対する同盟を結び、河越城を包囲した。関東全域を舞台にした決戦はすぐそこに迫っていた。"
+
  bm_sengoku1546_hojo_ujiyasu:0 "北条氏康"
  bm_sengoku1546_hojo_ujiyasu_desc:0 ""
- bm_sengoku1546_uesugi_norimasa:0 "上杉宪政"
+ bm_sengoku1546_uesugi_norimasa:0 "上杉憲政"
  bm_sengoku1546_uesugi_norimasa_desc:0 ""
- bm_sengoku1546_satomi_yoshitaka:0 "里见义尧"
+ bm_sengoku1546_satomi_yoshitaka:0 "里見義堯"
  bm_sengoku1546_satomi_yoshitaka_desc:0 ""
  bm_sengoku1546_takeda_harunobu:0 "武田晴信"
- bm_sengoku1546_takeda_harunobu_desc:0 "别名：武田信玄"
- bm_sengoku1546_imagawa_yoshimoto:0 "今川义元"
+ bm_sengoku1546_takeda_harunobu_desc:0 "別名：武田信玄"
+ bm_sengoku1546_imagawa_yoshimoto:0 "今川義元"
  bm_sengoku1546_imagawa_yoshimoto_desc:0 ""
- bm_sengoku1546_saito_toshimasa:0 "斋藤利政"
- bm_sengoku1546_saito_toshimasa_desc:0 "别名：斋藤道三"
- bm_sengoku1546_date_harumune:0 "伊达晴宗"
+ bm_sengoku1546_saito_toshimasa:0 "斎藤利政"
+ bm_sengoku1546_saito_toshimasa_desc:0 "別名：斎藤道三"
+ bm_sengoku1546_date_harumune:0 "伊達晴宗"
  bm_sengoku1546_date_harumune_desc:0 ""
- bm_sengoku1546_ashina_moriuji:0 "芦名盛氏"
+ bm_sengoku1546_ashina_moriuji:0 "葦名盛氏"
  bm_sengoku1546_ashina_moriuji_desc:0 ""
- bm_sengoku1546_tanegashima_tokitaka:0 "种子岛时尧"
+ bm_sengoku1546_tanegashima_tokitaka:0 "種子島時尭"
  bm_sengoku1546_tanegashima_tokitaka_desc:0 ""
- bm_sengoku1555:0 "严岛之战"
- bm_sengoku1555_desc:0 "陶晴贤于1551年弑杀旧主大内义隆于大宁寺，掌控了大内氏政权。他的举动激怒了其他家臣，毛利元就也宣布从大内氏的统治下独立。\n\n在大内氏与尼子氏相互征伐期间，毛利元就夺取了大内氏名下的数座城池，将安艺国纳入麾下。陶晴贤为了惩戒这名叛逆，亲率大军开赴宫岛，那也是著名的严岛神社所在地。"
+
+ #
+ # 1555 : Battle of Itsukushima
+ #
+
+ bm_sengoku1555:0 "厳島の戦い"
+ bm_sengoku1555_desc:0 "1551年、大内氏家臣の陶晴賢は主君・義隆を大寧寺で討ち、大内氏の実権を掌握した。その行動に大内氏家臣団は混乱し、中でも毛利元就は大内氏からの独立を宣言した。\n\n大内氏と尼子氏の衝突の中、元就は大内方の城を攻略すると安芸国を統一。陶晴賢はこの反逆を罰するべく、厳島神社のある宮島に軍を上陸させたのであった。"
+
  bm_sengoku1555_mori_motonari:0 "毛利元就"
- bm_sengoku1555_mori_motonari_desc:0 "毛利元就\n1497年生～1571年没\n#EMP 乞食若殿#!\n\n在大内家发生政变之际，毛利家背离了大内家。愤怒的新主公大内义长开始进攻毛利家。\n\n这场战役一旦失败，就会失去过半的领土，但若能活用毛利元就的智谋和儿郎们的武勇，未必不可能取得伟大的胜利。\n\n你能打倒过去的旧主，成为西中国的霸者吗？"
- bm_sengoku1555_sue_harukata:0 "陶晴贤"
- bm_sengoku1555_sue_harukata_desc:0 "陶晴贤\n1521年生～1555年没\n#EMP 西国无双侍大将#!\n\n大内家的重臣陶晴贤弑杀了主君大内义隆，掌握了家中实权。\n\n他和自己的当主大内义长联手，打倒正在交战中的毛利家。另一方面，也可以抛弃大内义长，自立成为新的当主。\n\n是作为『西国无双侍大将』尽忠节，还是自己成为西国的霸者，决断的时刻到了。"
+ bm_sengoku1555_mori_motonari_desc:0 "毛利元就（もうり もとなり）\n1497年生～1571年没\n#EMP 乞食若殿#!\n\n大内家で発生した政変に際し、ついに毛利家は大内家から離反する。これを許さぬ新当主・大内義長は毛利家へ侵攻を開始した。\n\nこの戦いに敗れれば領土の過半を失うものの、毛利元就の知略と息子たちの武勇を活かせば大勝利は間違いない。\n\nかつての旧主を打倒し、西中国の覇者に立身することはできるのであろうか。"
+ bm_sengoku1555_sue_harukata:0 "陶晴賢"
+ bm_sengoku1555_sue_harukata_desc:0 "陶晴賢（すえ はるかた）\n1521年生～1555年没\n#EMP 西国一の侍大将#!\n\n大内家の重臣・陶晴賢は主君・義隆を滅ぼし、家中の実権を掌握しつつある。\n\n自らが当主に迎えた義長に合力し、現在戦争中の毛利家を討ち果たしたい。一方で、敢えて義長を見捨て自らが新たな当主となるべく策動する道もある。\n\n「西国一の侍大将」として忠節を尽くすか、自らが西国の覇者となるか、決断の時は迫っている。"
  bm_sengoku1555_murakami_takeyoshi:0 "村上武吉"
- bm_sengoku1555_murakami_takeyoshi_desc:0 "村上武吉\n1533年生～1604年没\n\n村上家在南北朝时代就以水军闻名于附近地区。\n\n如果与毛利家缔结婚姻同盟参加『严岛之战』的话，北方的安全就会得到保障。另外，通过回归伊予的河野氏，还可以扩大在四国的领地。\n\n你能游走于强国之间，作为日本第一的水军大将在乱世中生存下去吗？"
+ bm_sengoku1555_murakami_takeyoshi_desc:0 "村上武吉（むらかみ たけよし）\n1533年生～1604年没\n\n村上家は南北朝時代より水軍として近隣に名を馳せていた。\n\n毛利家と婚姻同盟を結び「厳島の戦い」に参戦すれば、北の安全は保障されるだろう。また、伊予の河野氏に帰参することで四国に領国を拡大することもできる。\n\n強国の間を渡り歩き、日本一の水軍大将として乱世を生き抜くことはできるのであろうか。"
  bm_sengoku1555_amago_haruhisa:0 "尼子晴久"
- bm_sengoku1555_amago_haruhisa_desc:0 "尼子晴久\n1514年生～1561年没\n#EMP 尼子经久之孙#!\n\n被将军家任命为山阴山阳八国守护的尼子晴久，是西日本战力最强的大大名。\n\n在西边，大内家和毛利家正在鹬蚌相争，如果能渔翁得利，就能轻松地扩大领地。\n\n你能否利用这千载难逢的好机会，实现连祖父尼子经久都未能实现的称霸中国的夙愿呢？"
- bm_sengoku1555_oda_nobunaga:0 "织田信长"
- bm_sengoku1555_oda_nobunaga_desc:0 "织田信长\n1534年生～1582年没\n#EMP 战国三英杰、尾张大傻瓜#!\n\n刚刚继承家督之位的织田信长，与北方的斋藤家有婚姻关系。这对图谋西进的今川家来说，是有效的威慑。\n\n西边的伊势国方面有很多弱小的势力，只要征服他们就能打开上洛的道路。\n\n你能和义兄斋藤高政（义龙）一起，带领浓尾的军队，比历史上更早地上洛吗?"
- bm_sengoku1555_nagao_kagetora:0 "长尾景虎"
- bm_sengoku1555_nagao_kagetora_desc:0 "长尾景虎\n1530年生～1578年没　别名：上杉谦信\n#EMP 军神、越后之龙#!\n\n从兄长长尾晴景手中接过家督之位的长尾景虎景虎，终于逐渐掌控了越后国内。\n\n南方的武田、北条两家在兵力上凌驾于己方之上，过早地与其开战将会不堪重负。他想东进奥州，或者西进北陆，以备与即将到来的宿敌武田信玄决战。\n\n年轻的军神能否在动乱的东国铭记自己的义心？"
+ bm_sengoku1555_amago_haruhisa_desc:0 "尼子晴久（あまご はるひさ）\n1514年生～1561年没\n#EMP 尼子経久の孫#!\n\n将軍家より山陰山陽八カ国の守護に任じられた尼子晴久は西日本最大の戦力を誇る大大名である。\n\n西では大内家と毛利家が互いに争っており、疲弊したところを攻めればたやすく領国を拡大できるだろう。\n\nこの千載一遇の好機を活かし、祖父・経久ですら成し得なかった悲願の中国制覇を成し遂げることはできるのであろうか。"
+ bm_sengoku1555_oda_nobunaga:0 "織田信長"
+ bm_sengoku1555_oda_nobunaga_desc:0 "織田信長（おだ のぶなが）\n1534年生～1582年没\n#EMP 三英傑、尾張の大うつけ#!\n\n家督を相続したばかりの織田信長は北の斎藤家と婚姻関係にある。これは西進を図る今川家に対し良い抑止力となるだろう。\n\n西の伊勢国方面は弱体な勢力が多く、征服すれば上洛の道も見えてくる。\n\n義兄弟・斎藤高政（義龍）と共に濃尾の軍兵を引き連れ、歴史よりも早い上洛を果たすことはできるのであろうか。"
+ bm_sengoku1555_nagao_kagetora:0 "長尾景虎"
+ bm_sengoku1555_nagao_kagetora_desc:0 "長尾景虎（ながお かげとら）\n1530年生～1578年没　別名：上杉謙信\n#EMP 軍神、越後の龍#!\n\n兄・晴景より家督を譲り受けた景虎はようやく越後国内を掌握しつつある。\n\n南方の武田、北条両家は兵力でこちらを凌駕しており、早々に戦うのは荷が重い。奥州もしくは北陸を領国に加え、来るべき宿敵・武田信玄との決戦に備えたい。\n\n若き軍神は動乱の東国に自らの義心を刻むことはできるのであろうか。"
  bm_sengoku1555_nanbu_harumasa:0 "南部晴政"
- bm_sengoku1555_nanbu_harumasa_desc:0 "南部晴政\n1517年生～1582年没\n\n清和源氏的名门·南部家正处于第24代当主南部晴政的时代。\n\n国土上有很多家族割据，南部晴政自己的直辖地很少。在这种旧态依然的体制下，必须随时防备来自家臣的叛乱。\n\n你能否在日本的最北部实现国内整备，建立起被称为『阔如南部，新月走到月变圆』的广阔领地呢?"
- bm_sengoku1555_ryuzoji_takanobu:0 "龙造寺隆信"
- bm_sengoku1555_ryuzoji_takanobu_desc:0 "龙造寺隆信\n1529年生～1584年没\n#EMP 肥前之熊#!\n\n年纪轻轻就继承家督之位的龙造寺隆信，与大内家联手统治着领国。\n\n但是，由于大内家的政变而失去了靠山，龙造寺家被迫自立。肥前国内小国林立，可以充分发挥他的武略。\n\n『肥前之熊』能否一跃成为『五州二岛太守』呢？"
- bm_sengoku1555_ashikaga_yoshiteru:0 "足利义辉"
- bm_sengoku1555_ashikaga_yoshiteru_desc:0 "足利义辉\n1536年生～1565年没\n#EMP 剑豪将军#!\n\n室町幕府第13代将军足利义辉在与三好长庆的战争中战败，逃往近江国。\n\n控制京都的三好家正处于全盛，单独抵抗是无望的，必须尽快与强有力的大名结成同盟。幕府正面临着开创以来最严峻的危机。\n\n幕府再兴的大愿，全部交给了年轻的剑豪将军义辉。"
- bm_sengoku1560:0 "桶狭间之战"
- bm_sengoku1560_desc:0 "1540-1560年间，今川与织田家为争夺三河与尾张国的控制权而爆发了多场合战。与武田信玄与北条氏康结为盟友后，今川家当主今川义元决定，一劳永逸地结束这场战争，挥师上洛。\n\n1560年，今川义元组织了两万余人的大军西进，准备彻底碾碎刚从家族内斗中取胜的织田家新家督——寂寂无名的织田信长。"
- bm_sengoku1560_oda_nobunaga:0 "织田信长"
- bm_sengoku1560_oda_nobunaga_desc:0 "织田信长\n1534年生～1582年没\n#EMP 战国三英杰、尾张大傻瓜#!\n\n刚平定了尾张国的信长面前，『东海道一弓取』今川义元挡住了他。\n\n虽然在兵力上处于劣势，但在武将的素质上却是我方大优。今川军正骄傲自满，决死一击或许会产生意想不到的结果。\n\n击退今川义元之后，是要走上霸王之路吗？还是通过复兴幕府和将军权威来实现畿内的安定呢？\n\n都取决于你。"
+ bm_sengoku1555_nanbu_harumasa_desc:0 "南部晴政（なんぶ はるまさ）\n1517年生～1582年没\n\n清和源氏の名門・南部家は24代当主・晴政の代にあたる。\n\n国土には多くの一族が割拠しており、晴政自身の直轄地は少ない。この旧態依然とした体制では常に家臣からの反乱に備える必要がある。\n\n日本の最北部で国内整備を実現し、「三日月の丸くなるまで南部領」と謳われた広大な領国を築き上げることはできるのであろうか。"
+ bm_sengoku1555_ryuzoji_takanobu:0 "龍造寺隆信"
+ bm_sengoku1555_ryuzoji_takanobu_desc:0 "龍造寺隆信（りゅうぞうじ たかのぶ）\n1529年生～1584年没\n#EMP 肥前の熊#!\n\n若くして家督を継承した隆信は大内家と結び領国を統治していた。\n\nしかし、大内家の政変によりその後ろ盾を失い、龍造寺家は自立を余儀なくされている。肥前国内は小国が乱立しており、彼の武略を遺憾なく発揮することができる。\n\n「肥前の熊」は「五州二島の太守」へと飛躍できるのであろうか。"
+ bm_sengoku1555_ashikaga_yoshiteru:0 "足利義輝"
+ bm_sengoku1555_ashikaga_yoshiteru_desc:0 "足利義輝（あしかが よしてる）\n1536年生～1565年没\n\n室町幕府13代将軍・足利義輝は三好長慶との戦いに敗れ、近江国へ落ち延びている。\n\n京を押さえる三好家はまさに全盛期を迎えつつあり、単独で抗うのは絶望的であろう。早急に強力な大名と同盟を結ぶ必要があり、幕府開闢以来最大の危機というべき過酷な情勢だ。\n\n幕府再興の大願はすべて若き剣豪将軍・義輝の手に委ねられている。"
+
+ #
+ # 1560 : Battle of Okehazama
+ #
+
+ bm_sengoku1560:0 "桶狭間の戦い"
+ bm_sengoku1560_desc:0 "1540～50年代、今川氏と織田氏は幾度となく衝突した。武田信玄、北条氏康と三国同盟を結んだ今川義元は、長年の敵との対決に終止符を打ち、上洛を試みようとしていた。\n\n1560年、今川義元は織田家統一を果たした織田信長を撃破するため、2万人以上の軍勢を召集した。"
+
+ bm_sengoku1560_oda_nobunaga:0 "織田信長"
+ bm_sengoku1560_oda_nobunaga_desc:0 "織田信長（おだ のぶなが）\n1534年生～1582年没\n#EMP 三英傑、尾張の大うつけ#!\n\n尾張国を平定した信長の前に「海道一の弓取り」今川義元が立ち塞がる。\n\n兵力では劣れども武将の質ではこちらに分がある。今川勢は慢心しており、決死の攻撃が思わぬ結果を生むかもしれない。\n\n義元を退けた信長は覇王への道を歩むか。幕府再興をもって畿内の静謐を願うか。それはあなた次第だ。"
  bm_sengoku1560_matsudaira_motoyasu:0 "松平元康"
- bm_sengoku1560_matsudaira_motoyasu_desc:0 "松平元康\n1543年生～1616年没　别名：德川家康\n#EMP 战国三英杰、江户幕府初代将军#!\n\n以松平元康为首的松平家，正处于当主相继早逝的困境中。\n\n但是，在今川家的诸多国众中，松平家不仅实力超群，属下武将也是将星云集。\n\n时势急转，你能否稳步积蓄势力，在乱世中奋战到底?"
- bm_sengoku1560_imagawa_yoshimoto:0 "今川义元"
- bm_sengoku1560_imagawa_yoshimoto_desc:0 "今川义元\n1519年生～1560年没\n#EMP 东海道一弓取#!\n\n通过联姻巩固了后方的今川义元挥师西进，正在攻略织田家。\n\n虽然我军在兵力上更胜一筹，但乾坤一掷的奇袭却不容小觑。这就要求不急于求成，充分利用地利顽强战斗。\n\n你能吞并梦寐以求的尾张，进一步向西扩大领地吗？"
- bm_sengoku1560_rokkaku_yoshikata:0 "六角义贤"
- bm_sengoku1560_rokkaku_yoshikata_desc:0 "六角义贤\n1521年生～1598年没　别名：六角承祯\n\n这个时代的六角家由以六角承祯之号而闻名的六角义贤掌握实权。\n\n长年的宿敌浅井家与东邻的斋藤家结成同盟，兵力远远超过本家。应当寻找南边的北畠家之外的新同盟了。\n\n你能否活用位于畿内中央的优越地理位置，重振近江源氏名门·六角家的昌盛呢？"
+ bm_sengoku1560_matsudaira_motoyasu_desc:0 "松平元康（まつだいら もとやす）\n1543年生～1616年没　別名：徳川家康\n#EMP 三英傑、江戸幕府初代将軍#!\n\n元康率いる松平家は当主の早世が相次ぎ苦境の中にある。\n\nしかし、今川家国衆の中では勢力が頭一つ抜けており、当主・元康を始め配下武将も綺羅星が如き名将揃いである。\n\n時勢が急転する中で着実に勢力を蓄え、乱世を戦い抜くことはできるのか。"
+ bm_sengoku1560_imagawa_yoshimoto:0 "今川義元"
+ bm_sengoku1560_imagawa_yoshimoto_desc:0 "今川義元（いまがわ よしもと）\n1519年生～1560年没\n#EMP 海道一の弓取り#!\n\n婚姻により背後を固めた今川義元は西進して織田家攻略の最中にある。\n\n兵力では勝るものの、乾坤一擲の奇襲を狙う織田勢は侮り難い。事を急がず地力を活かして粘り強く戦うことが求められる。\n\n念願の尾張を併呑し、領国をさらに西へと拡大できるのであろうか。"
+ bm_sengoku1560_rokkaku_yoshikata:0 "六角義賢"
+ bm_sengoku1560_rokkaku_yoshikata_desc:0 "六角義賢（ろっかく よしかた）\n1521年生～1598年没　別名：六角承禎\n\nこの時代の六角家は承禎の号で知られる義賢が実権を握っている。\n\n長年の宿敵・浅井家は東隣の斎藤家と同盟を結んでおり、兵力は当家を遥かに凌駕している。南方の北畠家に加え、新たな同盟関係の構築が望ましい。\n\n畿内中央に位置する立地の良さを活かし、近江源氏の名門・六角家の隆盛を蘇らせることはできるのか。"
  bm_sengoku1560_kitabatake_tomonori:0 "北畠具教"
- bm_sengoku1560_kitabatake_tomonori_desc:0 "北畠具教\n1528年生～1576年没\n\n世袭伊势国司的名门北畠家正处于第8代当主北畠具教的时代。\n\n活用与北邻六角家的同盟平定伊势国北部之后，就可以着手统一处于群雄割据状态的西邻大和国。\n\n你能否扩大领地，打败企图上洛的东国大名们呢？"
- bm_sengoku1560_anekoji_yoshiyori:0 "姊小路良赖"
- bm_sengoku1560_anekoji_yoshiyori_desc:0 "姊小路良赖\n1520年生～1572年没　别名：姊小路嗣赖\n\n在飞騨国内崛起的三木良赖，终于消灭了主家飞騨国司姊小路家，成功继承了其名迹。\n\n但是，与高官位形成鲜明对应的则是，飞騨国土地贫瘠，周围又被强国包围。\n\n你能否克服逆境，为名副其实的姊小路家带来日本第一的繁荣呢？"
- bm_sengoku1560_nagano_narimasa:0 "长野业正"
- bm_sengoku1560_nagano_narimasa_desc:0 "长野业正\n1491年生～1561年没\n#EMP 上州黄斑#!\n\n长野家侍奉关东管领上杉家，但主家已经没落。\n\n既可以像历史上一样选择与北方的长尾家联手，对抗武田、北条两家，也可以选择归降北条家，成为平定北关东的尖兵。\n\n你是否能指挥纵横，与武田信玄、长尾景虎匹敌，让『上州黄斑』之名响彻日本史册呢？"
- bm_sengoku1560_ito_yoshisuke:0 "伊东义祐"
- bm_sengoku1560_ito_yoshisuke_desc:0 "伊东义祐\n1512年生～1585年没\n\n伊东家与日向国守护岛津家多年对抗，在国内拥有势力。\n\n对于宿敌岛津家，可以先缔结婚姻保持和睦，暗中积蓄力量，也可以与周边国家结成包围网。但是，最终还是要摧毁岛津家。\n\n你能否实现下克上，成为南九州的霸者呢？"
- bm_sengoku1560_sagara_yoshihi:0 "相良义阳"
- bm_sengoku1560_sagara_yoshihi_desc:0 "相良义阳\n1544年生～1581年没\n\n自镰仓时代就在肥后国定居的相良家，目前正由第18代当主相良义阳统治。\n\n现在，相良家被夹在北边的大友家和南边的岛津家这两个大国之间，处于两难之地。可以与其中一方联姻，但也可以与北边的阿苏家、东边的伊东家联合对抗两大国。\n\n与盟友甲斐宗运、英主伊东义祐并肩，说不定也能战胜大国？"
- bm_sengoku1565:0 "永禄之变"
- bm_sengoku1565_desc:0 "将军足利义辉立志重建幕府，但被三好义继和三好三人众杀害。\n\n正统将军大位空置，足利幕府一度濒临灭亡。"
- bm_sengoku1565_oda_nobunaga:0 "织田信长"
+ bm_sengoku1560_kitabatake_tomonori_desc:0 "北畠具教（きたばたけ とものり）\n1528年生～1576年没\n\n伊勢国司を世襲する名門・北畠家は8代当主・具教の代にあたる。\n\n北隣の六角家との同盟を活かして伊勢国北部を平定した後は、群雄割拠の状態にある西隣の大和国の統一に乗り出すことができる。\n\n領国を広げ、ゆくゆくは上洛を試みるであろう東国大名達を打ち破ることはできるのか。"
+ bm_sengoku1560_anekoji_yoshiyori:0 "姉小路良頼"
+ bm_sengoku1560_anekoji_yoshiyori_desc:0 "姉小路良頼（あねこうじ よしより）\n1520年生～1572年没　別名：姉小路嗣頼\n\n飛騨国内で台頭した三木良頼はついに主家であった飛騨国司・姉小路家を滅ぼし、その名跡の継承に成功する。\n\nしかし、高い官位とは裏腹に土地は貧しく、周囲を強国に囲まれている。\n\n逆境を乗り越え、名実ともに姉小路家に日本一の繁栄をもたらすことはできるのであろうか。"
+ bm_sengoku1560_nagano_narimasa:0 "長野業正"
+ bm_sengoku1560_nagano_narimasa_desc:0 "長野業正（ながの なりまさ）\n1491年生～1561年没\n#EMP 上州の黄斑#!\n\n長野家は関東管領・上杉家に仕えていたが、既に主家は没落してしまっている。\n\n北の長尾家と手を組み武田・北条両家と戦う道もあれば、北条家に帰参して北関東平定の尖兵となる道もある。\n\n武田信玄、長尾景虎に匹敵する采配を縦横に振るい、「上州の黄斑」の名を日ノ本に轟かせることはできるのであろうか。"
+ bm_sengoku1560_ito_yoshisuke:0 "伊東義祐"
+ bm_sengoku1560_ito_yoshisuke_desc:0 "伊東義祐（いとう よしすけ）\n1512年生～1585年没\n\n伊東家は日向国守護・島津家との抗争を繰り返し、国内に勢力を持った。\n\n宿敵・島津家に対しては、力を蓄えるまで婚姻を結び和睦しても良いし、周辺国と結び包囲網を形成する手もある。しかし、最終的に島津家を叩き潰さねばならぬことに変わりはない。\n\n下克上を成し遂げ、南九州の覇者となることはできるのであろうか。"
+ bm_sengoku1560_sagara_yoshihi:0 "相良義陽"
+ bm_sengoku1560_sagara_yoshihi_desc:0 "相良義陽（さがら よしひ）\n1544年生～1581年没\n\n肥後国に鎌倉時代から土着する相良家は18代当主・義陽の代にあたる。\n\n現在、相良家は北の大友家、南の島津家という二つの大国に挟まれた苦しい状態にある。一方と婚姻する手もあるが、北の阿蘇家、東の伊東家と結び両国に対抗する道も残されている。\n\n盟友・甲斐宗運、英主・伊東義祐と槍を並べ、大国に打ち勝つことはできるのであろうか。"
+
+ #
+ # 1565 : Eiroku Incident
+ #
+
+ bm_sengoku1565:0 "永禄の変"
+ bm_sengoku1565_desc:0 "将軍・足利義輝は幕府再建を志したが、三好義継と三好三人衆によって殺害された。ここに正統な将軍は不在となり、足利幕府は一時滅亡するに至った。"
+
+ bm_sengoku1565_oda_nobunaga:0 "織田信長"
  bm_sengoku1565_oda_nobunaga_desc:0 ""
  bm_sengoku1565_matsudaira_ieyasu:0 "松平家康"
- bm_sengoku1565_matsudaira_ieyasu_desc:0 "别名：德川家康"
- bm_sengoku1565_saito_tatsuoki:0 "斋藤龙兴"
+ bm_sengoku1565_matsudaira_ieyasu_desc:0 "別名：徳川家康"
+ bm_sengoku1565_saito_tatsuoki:0 "斎藤龍興"
  bm_sengoku1565_saito_tatsuoki_desc:0 ""
- bm_sengoku1565_azai_nagamasa:0 "浅井长政"
+ bm_sengoku1565_azai_nagamasa:0 "浅井長政"
  bm_sengoku1565_azai_nagamasa_desc:0 ""
  bm_sengoku1565_matsunaga_hisahide:0 "松永久秀"
  bm_sengoku1565_matsunaga_hisahide_desc:0 ""
- bm_sengoku1565_tsutsui_junkei:0 "筒井顺庆"
+ bm_sengoku1565_tsutsui_junkei:0 "筒井順慶"
  bm_sengoku1565_tsutsui_junkei_desc:0 ""
  bm_sengoku1565_ukita_naoie:0 "宇喜多直家"
  bm_sengoku1565_ukita_naoie_desc:0 ""
- bm_sengoku1565_amago_yoshihisa:0 "尼子义久"
+ bm_sengoku1565_amago_yoshihisa:0 "尼子義久"
  bm_sengoku1565_amago_yoshihisa_desc:0 ""
- bm_sengoku1565_omura_sumitada:0 "大村纯忠"
+ bm_sengoku1565_omura_sumitada:0 "大村純忠"
  bm_sengoku1565_omura_sumitada_desc:0 ""
+
+ #
+ # 1568 : Tenka Fubu
+ #
+
  bm_sengoku1568:0 "天下布武"
- bm_sengoku1568_desc:0 "桶狭间合战后，织田信长与三河国的统治者——松平元康(德川家康)结为盟友，以为他死去的岳父斋藤道三复仇的名义，对美浓国发起了入侵。\n\n1567年，他彻底压制了美浓国，将居城迁移到稻叶山城，并将当地改名为岐阜。\n\n与此同时，畿内也陷入了政治混乱，幕府将军足利义辉被乱军谋害，日本失去了合法统治者。\n\n于是，织田信长亮出了他著名的旗号——“天下布武”，奉前将军之弟足利义昭开始上洛。"
- bm_sengoku1568_oda_nobunaga:0 "织田信长"
- bm_sengoku1568_oda_nobunaga_desc:0 "织田信长\n1534年生～1582年没\n#EMP 战国三英杰、尾张大傻瓜#!\n\n经过一系列的战斗，织田信长成功平定了邻国美浓。\n\n成功稳定了国内的他，为了让前将军的弟弟足利义昭登上将军之位，终于发动了军队上洛。\n\n你能够击退南近江的六角家、畿内的三好三人众，实现幕府的复兴吗？"
- bm_sengoku1568_tokugawa_ieyasu:0 "德川家康"
- bm_sengoku1568_tokugawa_ieyasu_desc:0 "德川家康\n1543年生～1616年没\n#EMP 战国三英杰、江户幕府初代将军#!\n\n从今川家独立出来的德川家康，如今已成长为三河一国的大名，跟随织田信长的军队上洛。\n\n同盟织田家是可靠的，但邻国武田家是强国，而今川家有北条家作后盾。\n\n你能和织田信长并肩作战，面对强国东进吗？"
+ bm_sengoku1568_desc:0 "桶狭間の戦いの後、織田信長は徳川家康と同盟。亡き義父・斎藤道三の領地であった美濃に侵攻した。\n\n1567年、美濃を制圧した信長は居城を稲葉山へと移し、その地を岐阜と改名する。\n\nその頃、畿内の政局は混沌としていた。将軍・足利義輝が暗殺され、正統な統治者が不在となっていたのである。\n\nこの状況に対し、信長は広く知られる「天下布武」の政策を採用。前将軍の弟・足利義昭を奉じて上洛を開始した。"
+
+ bm_sengoku1568_oda_nobunaga:0 "織田信長"
+ bm_sengoku1568_oda_nobunaga_desc:0 "織田信長（おだ のぶなが）\n1534年生～1582年没\n#EMP 三英傑、尾張の大うつけ#!\n\n長きにわたる戦いを経て、信長は隣国・美濃の平定に成功した。\n\n自国の安定化に成功した彼は、前将軍の弟・足利義昭を将軍位に就けるべく、ついに上洛の軍を起こす。\n\n南近江の六角家、畿内の三好三人衆を退け、幕府の再興を果たすことができるのであろうか。"
+ bm_sengoku1568_tokugawa_ieyasu:0 "徳川家康"
+ bm_sengoku1568_tokugawa_ieyasu_desc:0 "徳川家康（とくがわ いえやす）\n1543年生～1616年没\n#EMP 三英傑、江戸幕府初代将軍#!\n\n今川家より独立した家康は、今や三河一国の大名として信長の上洛軍に付き従うまでに成長した。\n\n同盟国である織田家は頼もしい存在だが、隣国の武田家は強国であるし、今川家には北条家の後ろ盾がある。\n\n果たして家康は信長と槍を並べ、強国相手に東進を果たせるか。"
  bm_sengoku1568_takeda_shingen:0 "武田信玄"
- bm_sengoku1568_takeda_shingen_desc:0 "武田信玄\n1521年生～1573年没\n#EMP 甲斐之虎#!\n\n武田信玄的势力从甲斐迅速扩张到了到信浓、上野。\n\n前一年对嫡子武田义信的肃清，以及与西边织田家的联姻，对他的外交政策产生了重大影响。\n\n你应该继续现有方针，进攻北面的上杉家，还是在南边的今川家寻找新的出路？\n\n武田军团正等待着您的军配挥下！"
- bm_sengoku1568_uesugi_terutora:0 "上杉辉虎"
- bm_sengoku1568_uesugi_terutora_desc:0 "上杉辉虎\n1530年生～1578年没　别名：上杉谦信\n#EMP 军神、越后之龙#!\n\n越后的统治者长尾景虎，从败给北条家的上杉宪政手中接过关东管领一职，成为了上杉家的一员，并改名为上杉辉虎。\n\n由此获得大义名分的辉虎，为了讨伐北条家开始侵入关东平原。\n\n你能够攻克关东坚固的诸城，让毗沙门天的军旗飘扬在小田原城的城门上吗？"
+ bm_sengoku1568_takeda_shingen_desc:0 "武田信玄（たけだ しんげん）\n1521年生～1573年没\n#EMP 甲斐の虎#!\n\n信玄は甲斐国から信濃、上野へと勢力を急速に拡大した。\n\n前年に嫡子・義信を粛正し、西方の織田家と婚姻を結んだことは彼の外交に大きな影響を及ぼしている。既存の方針を継続し北の上杉家を攻めるか。南の今川家に新たな活路を見出すか。\n\n武田騎馬軍団はあなたの軍配が振り下ろされる時を待っている。"
+ bm_sengoku1568_uesugi_terutora:0 "上杉輝虎"
+ bm_sengoku1568_uesugi_terutora_desc:0 "上杉輝虎（うえすぎ てるとら）\n1530年生～1578年没　別名：上杉謙信\n#EMP 軍神、越後の龍#!\n\n越後を治める輝虎は、北条家に敗れた上杉憲政から関東管領の職を譲り受ける。\n\nこれにより大義名分を得た輝虎は、北条家討伐のため関東平野への侵入を開始する。\n\n関東の堅牢な諸城を攻略し、小田原の城門に毘沙門の軍旗をたなびかせることはできるのであろうか。"
  bm_sengoku1568_hojo_ujiyasu:0 "北条氏康"
- bm_sengoku1568_hojo_ujiyasu_desc:0 "北条氏康\n1515年生～1571年没\n#EMP 相模之狮#!\n\n以相模为中心的北条氏康正在稳步扩张他的领地，然而上杉辉虎挡住了他的去路。\n\n很少有人能与上杉辉虎如神一般的军略对抗。但是，北条氏康拥有历代北条家家主建造的小田原坚城。\n\n你能够击退来自北方的猛攻，并在关东建立北条的统治吗？"
+ bm_sengoku1568_hojo_ujiyasu_desc:0 "北条氏康（ほうじょう うじやす）\n1515年生～1571年没\n#EMP 相模の獅子#!\n\n相模を中心に順調に領国を拡大する氏康の前に上杉輝虎が立ち塞がる。彼の神がかり的な軍略に対抗できる武将は少ないだろう。\n\nしかし、氏康には歴代北条家当主が築き上げてきた小田原の堅城がある。\n\n北からの猛攻を退け、関東に北条の支配を打ち立てることができるのであろうか。"
  bm_sengoku1568_mori_motonari:0 "毛利元就"
- bm_sengoku1568_mori_motonari_desc:0 "毛利元就\n1497年生～1571年没\n#EMP 乞食若殿#!\n\n毛利家凭借毛利元就的手腕，从安艺的一介国人一跃成为中国的大大名。\n\n现在毛利家正与大友家在北九州争夺势力，两家的注意力都集中在日本屈指可数的贸易港博多。\n\n除了著名的石见银矿，你能在宝库里装满巨额的财富吗？"
- bm_sengoku1568_chosokabe_motochika:0 "长宗我部元亲"
- bm_sengoku1568_chosokabe_motochika_desc:0 "长宗我部元亲\n1539年生～1599年没\n#EMP 鬼若子、土佐的出来人#!\n\n长宗我部元亲年纪轻轻就继承了家督之位，长宗我部家发展成为土佐的重要势力。\n\n四国岛上，伊予的河野家与大友家是同盟关系，阿波的三好家领土广阔。\n\n你能和一领具足一起打败所有难敌，实现四国统一吗？"
+ bm_sengoku1568_mori_motonari_desc:0 "毛利元就（もうり もとなり）\n1497年生～1571年没\n#EMP 乞食若殿#!\n\n毛利家は元就の手腕により安芸の国衆から中国の大大名へと飛躍した。\n\n現在は北九州において大友家と勢力争いの最中にあり、両家の関心は日本有数の貿易港・博多に注がれている。\n\n石見から産出される銀とあわせて、莫大な財宝で国庫を満たすことはできるのであろうか。"
+ bm_sengoku1568_chosokabe_motochika:0 "長曾我部元親"
+ bm_sengoku1568_chosokabe_motochika_desc:0 "長曾我部元親（ちょうそかべ もとちか）\n1539年生～1599年没\n#EMP 鬼若子、土佐の出来人#!\n\n若くして家督を継いだ元親により長宗我部家は土佐有数の勢力に発展した。\n\n伊予の河野家は大友家と同盟関係にあり、阿波の三好家の領土は広大である。\n\nあらゆる難敵を一両具足と共に打ち破り、四国統一を果たすことができるのであろうか。"
  bm_sengoku1568_otomo_sorin:0 "大友宗麟"
- bm_sengoku1568_otomo_sorin_desc:0 "大友宗麟\n1530年生～1587年没\n#EMP 丰后之王#!\n\n大友宗麟的胞弟大内义长继承了大内家的家督，但被毛利元就攻灭。\n\n毛利元就不仅吞并了大内家的旧领，还将统治扩张到了北九州。为了打倒强大的毛利家，在四国岛的同盟的帮助是不可或缺的。\n\n在有杀弟之仇的敌人面前，你能守护北九州吗？"
- bm_sengoku1568_shimazu_yoshihisa:0 "岛津义久"
- bm_sengoku1568_shimazu_yoshihisa_desc:0 "岛津义久\n1533年生～1611年没\n#EMP 贯明公#!\n\n曾经统治南九州的岛津家，由于长期的家族内乱，统治范围退缩到了萨摩一国。\n\n与北方相良家缔结了同盟的现在正是夺回旧领地的好机会。\n\n你能和三个优秀的弟弟齐心协力，再次称霸南九州吗？"
- bm_sengoku1572:0 "信长包围网"
- bm_sengoku1572_desc:0 "织田信长支持足利义昭就任将军，成为将军的摄政者。但是，各地的战国大名拒绝服从新将军，织田信长与足利义昭的矛盾也逐渐激化。\n\n当冲突达到顶峰时，甲斐的武田信玄开始了西上作战。"
- bm_sengoku1572_oda_nobunaga:0 "织田信长"
+ bm_sengoku1568_otomo_sorin_desc:0 "大友宗麟（おおとも そうりん）\n1530年生～1587年没\n#EMP 豊後の王#!\n\n宗麟の実弟・義長は大内家の家督を継承したが、毛利元就に攻め滅ぼされた。\n\n元就は大内家旧領を併合するに留まらず、北九州にまで支配を拡大しつつある。強大な毛利家打倒のためには四国の同盟国の助力が不可欠だ。\n\n弟の仇から北九州を守り抜くことはできるのであろうか。"
+ bm_sengoku1568_shimazu_yoshihisa:0 "島津義久"
+ bm_sengoku1568_shimazu_yoshihisa_desc:0 "島津義久（しまず よしひさ）\n1533年生～1611年没\n#EMP 貫明公#!\n\nかつて南九州に勢力を誇った島津家は、長きにわたるお家騒動によりその支配を薩摩一国にまで減退させている。\n\n北の相良家と同盟を締結した今こそ旧領奪回の好機だ。\n\n義久は優秀な3人の弟と力を合わせ、南九州に再び覇を唱えることができるのであろうか。"
+
+ #
+ # 1572 : Anti-Nobunaga Coalition
+ #
+
+ bm_sengoku1572:0 "信長包囲網"
+ bm_sengoku1572_desc:0 "織田信長は足利義昭の将軍就任を支援し、将軍の後見人となった。しかし、各地の戦国大名は将軍に従おうとせず、しだいに信長と義昭の対立は深まっていく。\n\nその対立が頂点に達した時、甲斐の武田信玄が満を持して西上作戦を開始した。"
+
+ bm_sengoku1572_oda_nobunaga:0 "織田信長"
  bm_sengoku1572_oda_nobunaga_desc:0 ""
- bm_sengoku1572_tokugawa_ieyasu:0 "德川家康"
+ bm_sengoku1572_tokugawa_ieyasu:0 "徳川家康"
  bm_sengoku1572_tokugawa_ieyasu_desc:0 ""
  bm_sengoku1572_takeda_shingen:0 "武田信玄"
  bm_sengoku1572_takeda_shingen_desc:0 ""
- bm_sengoku1572_asakura_yoshikage:0 "朝仓义景"
+ bm_sengoku1572_asakura_yoshikage:0 "朝倉義景"
  bm_sengoku1572_asakura_yoshikage_desc:0 ""
- bm_sengoku1572_azai_nagamasa:0 "浅井长政"
+ bm_sengoku1572_azai_nagamasa:0 "浅井長政"
  bm_sengoku1572_azai_nagamasa_desc:0 ""
- bm_sengoku1572_ashikaga_yoshiaki:0 "足利义昭"
+ bm_sengoku1572_ashikaga_yoshiaki:0 "足利義昭"
  bm_sengoku1572_ashikaga_yoshiaki_desc:0 ""
- bm_sengoku1572_satake_yoshishige:0 "佐竹义重"
+ bm_sengoku1572_satake_yoshishige:0 "佐竹義重"
  bm_sengoku1572_satake_yoshishige_desc:0 ""
- bm_sengoku1572_oura_tamenobu:0 "大浦为信"
- bm_sengoku1572_oura_tamenobu_desc:0 "别名：津轻为信"
- bm_sengoku1572_takahashi_shigetane:0 "高桥镇种"
- bm_sengoku1572_takahashi_shigetane_desc:0 "别名：高桥绍运"
- bm_sengoku1575:0 "长篠之战"
- bm_sengoku1575_desc:0 "织田信长从最危急的处境——诸侯联合反对他的包围网中生存了下来。浅井家和朝仓家已经灭亡，将军义昭被信长流放，信长最危险的敌人武田信玄也已经去世。\n\n然而，信玄的儿子胜赖没有放弃父亲的野心。凭借着强大的骑兵部队，胜赖不断地进攻信长的盟友德川家康。\n\n为了击败武田家的骑兵军团，信长明智地决定在战场上大量地使用火器。"
- bm_sengoku1575_oda_nobunaga:0 "织田信长"
+ bm_sengoku1572_oura_tamenobu:0 "大浦為信"
+ bm_sengoku1572_oura_tamenobu_desc:0 "別名：津軽為信"
+ bm_sengoku1572_takahashi_shigetane:0 "高橋鎮種"
+ bm_sengoku1572_takahashi_shigetane_desc:0 "別名：高橋紹運"
+
+ #
+ # 1575 : Battle of Nagashino
+ #
+
+ bm_sengoku1575:0 "長篠の戦い"
+ bm_sengoku1575_desc:0 "織田信長は包囲網を切り抜けた。朝倉氏と浅井氏は滅び、将軍・足利義昭は追放され、最大の難敵・武田信玄はこの世を去った。\n\nしかし、信玄の息子・勝頼は父の野心を受け継ぎ、強力な騎馬隊を引き連れて信長の盟友・徳川家康の領地に度々侵攻した。\n\n武田騎馬軍団を撃破するため、信長は鉄砲隊の活用を決断する。"
+
+ bm_sengoku1575_oda_nobunaga:0 "織田信長"
  bm_sengoku1575_oda_nobunaga_desc:0 ""
- bm_sengoku1575_tokugawa_ieyasu:0 "德川家康"
+ bm_sengoku1575_tokugawa_ieyasu:0 "徳川家康"
  bm_sengoku1575_tokugawa_ieyasu_desc:0 ""
- bm_sengoku1575_takeda_katsuyori:0 "武田胜赖"
+ bm_sengoku1575_takeda_katsuyori:0 "武田勝頼"
  bm_sengoku1575_takeda_katsuyori_desc:0 ""
  bm_sengoku1575_hashiba_hideyoshi:0 "羽柴秀吉"
- bm_sengoku1575_hashiba_hideyoshi_desc:0 "别名：丰臣秀吉"
- bm_sengoku1575_sakuma_nobumori:0 "佐久间信盛"
+ bm_sengoku1575_hashiba_hideyoshi_desc:0 "別名：豊臣秀吉"
+ bm_sengoku1575_sakuma_nobumori:0 "佐久間信盛"
  bm_sengoku1575_sakuma_nobumori_desc:0 ""
  bm_sengoku1575_ban_naomasa:0 "塙直政"
  bm_sengoku1575_ban_naomasa_desc:0 ""
- bm_sengoku1575_mogami_yoshiaki:0 "最上义光"
+ bm_sengoku1575_mogami_yoshiaki:0 "最上義光"
  bm_sengoku1575_mogami_yoshiaki_desc:0 ""
- bm_sengoku1575_suzuki_magoichi:0 "铃木孙一"
+ bm_sengoku1575_suzuki_magoichi:0 "鈴木孫一"
  bm_sengoku1575_suzuki_magoichi_desc:0 ""
  bm_sengoku1575_takayama_shigetomo:0 "高山重友"
- bm_sengoku1575_takayama_shigetomo_desc:0 "别名：高山右近"
- bm_sengoku1578:0 "尼子再兴运动"
- bm_sengoku1578_desc:0 "月山富田城在1566年陷落后，尼子氏的势力已然被摧毁。然而，一些尼子家的遗臣依然在试图恢复尼子氏对山阴地区的统治。\n\n在织田信长的帮助下，他们于1578年开始武装反抗毛利氏的统治。这将会是他们复兴尼子家的最后一次机会……"
- bm_sengoku1578_oda_nobunaga:0 "织田信长"
+ bm_sengoku1575_takayama_shigetomo_desc:0 "別名：高山右近"
+
+ #
+ # 1578 : Restoration of Amago
+ #
+
+ bm_sengoku1578:0 "尼子再興運動"
+ bm_sengoku1578_desc:0 "1566年、毛利氏による月山富田城攻略によって尼子氏は滅亡した。しかし、その残党の中にはお家再興のため活動する者もいた。\n\n1578年、尼子残党は畿内で台頭する織田信長の支援を受け、毛利氏との戦端を開いた。おそらくはこれが尼子を再興する最後の機会となるであろう。"
+
+ bm_sengoku1578_oda_nobunaga:0 "織田信長"
  bm_sengoku1578_oda_nobunaga_desc:0 ""
- bm_sengoku1578_amago_katsuhisa:0 "尼子胜久"
+ bm_sengoku1578_amago_katsuhisa:0 "尼子勝久"
  bm_sengoku1578_amago_katsuhisa_desc:0 ""
- bm_sengoku1578_mori_terumoto:0 "毛利辉元"
+ bm_sengoku1578_mori_terumoto:0 "毛利輝元"
  bm_sengoku1578_mori_terumoto_desc:0 ""
  bm_sengoku1578_otomo_sorin:0 "大友宗麟"
  bm_sengoku1578_otomo_sorin_desc:0 ""
- bm_sengoku1578_shimazu_yoshihisa:0 "岛津义久"
+ bm_sengoku1578_shimazu_yoshihisa:0 "島津義久"
  bm_sengoku1578_shimazu_yoshihisa_desc:0 ""
  bm_sengoku1578_momochi_tanba:0 "百地丹波"
  bm_sengoku1578_momochi_tanba_desc:0 ""
- bm_sengoku1578_bessho_nagaharu:0 "别所长治"
+ bm_sengoku1578_bessho_nagaharu:0 "別所長治"
  bm_sengoku1578_bessho_nagaharu_desc:0 ""
  bm_sengoku1578_araki_murashige:0 "荒木村重"
  bm_sengoku1578_araki_murashige_desc:0 ""
  bm_sengoku1578_kuki_yoshitaka:0 "九鬼嘉隆"
  bm_sengoku1578_kuki_yoshitaka_desc:0 ""
- bm_sengoku1582:0 "武田家的陨落"
- bm_sengoku1582_desc:0 "织田信长在长筱之战中大破武田胜赖的骑兵部队。信长及其手下，羽柴(丰臣)秀吉、柴田胜家、明智光秀等人不断打击其他割据势力，威震天下。\n\n1582年，信长下令消灭武田家。统治甲斐四百多年的甲州武田氏，可谓末日将至。\n\n然而，谁曾料到，织田信长的末日，也将在数月后到来……"
- bm_sengoku1582_oda_nobutada:0 "织田信忠"
+
+ #
+ # 1582 : Fall of Takeda
+ #
+
+ bm_sengoku1582:0 "武田征伐"
+ bm_sengoku1582_desc:0 "織田信長は長篠の戦いで武田勝頼と武田騎馬軍団を撃破。信長とその配下、羽柴秀吉、柴田勝家、明智光秀は他の大名を圧して天下に武威を示した。\n\n1582年、信長は武田氏を征伐すべく軍を動かす。甲斐を400年にわたって支配した武田氏の落日はすぐそこに迫っていた。\n\nだが、その信長もまた数ヶ月後に討たれるとは、誰も思いもよらぬことであった。"
+
+ bm_sengoku1582_oda_nobutada:0 "織田信忠"
  bm_sengoku1582_oda_nobutada_desc:0 ""
- bm_sengoku1582_takeda_katsuyori:0 "武田胜赖"
+ bm_sengoku1582_takeda_katsuyori:0 "武田勝頼"
  bm_sengoku1582_takeda_katsuyori_desc:0 ""
  bm_sengoku1582_anayama_nobutada:0 "穴山信君"
- bm_sengoku1582_anayama_nobutada_desc:0 "别名：穴山梅雪"
- bm_sengoku1582_tokugawa_ieyasu:0 "德川家康"
+ bm_sengoku1582_anayama_nobutada_desc:0 "別名：穴山梅雪"
+ bm_sengoku1582_tokugawa_ieyasu:0 "徳川家康"
  bm_sengoku1582_tokugawa_ieyasu_desc:0 ""
- bm_sengoku1582_uesugi_kagekatsu:0 "上杉景胜"
+ bm_sengoku1582_uesugi_kagekatsu:0 "上杉景勝"
  bm_sengoku1582_uesugi_kagekatsu_desc:0 ""
- bm_sengoku1582_mori_terumoto:0 "毛利辉元"
+ bm_sengoku1582_mori_terumoto:0 "毛利輝元"
  bm_sengoku1582_mori_terumoto_desc:0 ""
  bm_sengoku1582_hashiba_hideyoshi:0 "羽柴秀吉"
- bm_sengoku1582_hashiba_hideyoshi_desc:0 "别名：丰臣秀吉"
- bm_sengoku1582_shibata_katsuie:0 "柴田胜家"
+ bm_sengoku1582_hashiba_hideyoshi_desc:0 "別名：豊臣秀吉"
+ bm_sengoku1582_shibata_katsuie:0 "柴田勝家"
  bm_sengoku1582_shibata_katsuie_desc:0 ""
  bm_sengoku1582_akechi_mitsuhide:0 "明智光秀"
  bm_sengoku1582_akechi_mitsuhide_desc:0 ""
- bm_honnoji1582:0 "本能寺之变"
- bm_honnoji1582_desc:0 "1582年，织田信长命令明智光秀向西进军协助羽柴秀吉，与毛利氏作战。\n\n然而，不顾接到的命令，光秀召集了13000名士兵，向其主君织田信长所在的住所，本能寺进发。\n\n“敌在本能寺！”，1582年6月21日，明智光秀下令之际，他的军队随即包围了这座寺庙，将其付之一炬，织田信长役死于本能寺的大火之中，有人说他壮烈战死，也有人认为他最终切腹自尽，无论如何，日本的历史永远地改变了。\n\n明智光秀对织田家的背叛，令京城上下无不震动，他被迫迅速采取行动巩固自己的地位，迎接行将到来的挑战者，羽柴秀吉与柴田胜家——他们将为自己的故主织田信长报仇！"
+
+ #
+ # 1582 : Honno-ji Incident
+ #
+
+ bm_honnoji1582:0 "本能寺の変"
+ bm_honnoji1582_desc:0 "1582年、明智光秀は毛利氏と戦う羽柴秀吉の援軍として出兵を命じられた。\n\n6月21日、光秀は命令に反して1万3千の兵とともに信長の在所である本能寺へ進軍。このとき光秀は「敵は本能寺にあり」と叫んだとされる。\n\n本能寺を包囲した兵は寺に火を放った。織田信長はその中で戦死したとも自害したとも言われる。\n\n光秀の謀反は都に衝撃を与え、彼は地位を確立するため急いで動くことを余儀なくされた。その頃、羽柴秀吉と柴田勝家は主君・信長の仇を討つため進軍を開始していた。"
+
  bm_honnoji1582_hashiba_hideyoshi:0 "羽柴秀吉"
- bm_honnoji1582_hashiba_hideyoshi_desc:0 "别名：丰臣秀吉"
- bm_honnoji1582_shibata_katsuie:0 "柴田胜家"
+ bm_honnoji1582_hashiba_hideyoshi_desc:0 "別名：豊臣秀吉"
+ bm_honnoji1582_shibata_katsuie:0 "柴田勝家"
  bm_honnoji1582_shibata_katsuie_desc:0 ""
  bm_honnoji1582_akechi_mitsuhide:0 "明智光秀"
  bm_honnoji1582_akechi_mitsuhide_desc:0 ""
- bm_honnoji1582_tokugawa_ieyasu:0 "德川家康"
+ bm_honnoji1582_tokugawa_ieyasu:0 "徳川家康"
  bm_honnoji1582_tokugawa_ieyasu_desc:0 ""
- bm_honnoji1582_uesugi_kagekatsu:0 "上杉景胜"
+ bm_honnoji1582_uesugi_kagekatsu:0 "上杉景勝"
  bm_honnoji1582_uesugi_kagekatsu_desc:0 ""
  bm_honnoji1582_hojo_ujimasa:0 "北条氏政"
  bm_honnoji1582_hojo_ujimasa_desc:0 ""
- bm_honnoji1582_takigawa_kazumasu:0 "泷川一益"
+ bm_honnoji1582_takigawa_kazumasu:0 "滝川一益"
  bm_honnoji1582_takigawa_kazumasu_desc:0 ""
  bm_honnoji1582_sanada_masayuki:0 "真田昌幸"
  bm_honnoji1582_sanada_masayuki_desc:0 ""
- bm_honnoji1582_hosokawa_tadaoki:0 "细川忠兴"
+ bm_honnoji1582_hosokawa_tadaoki:0 "細川忠興"
  bm_honnoji1582_hosokawa_tadaoki_desc:0 ""
- bm_shizugatake1582:0 "贱岳之战"
- bm_shizugatake1582_desc:0 "织田信长死后，羽柴秀吉击败了明智光秀，在织田家有了更大的影响力。\n\n羽柴秀吉等重臣在清洲会议上决定了织田家的前途，但其中织田家重臣的冲突也浮现出来。\n\n羽柴秀吉有丹羽长秀和池田恒兴支持，宿老柴田胜家与织田信长三子织田信孝和泷川一益联手。\n\n在一触即发的那年年末，羽柴秀吉看准北陆大雪封山的时机，向柴田胜家外甥柴田胜丰把守的长滨城进发。"
+
+ #
+ # 1582 : Battle of Shizugatake
+ #
+
+ bm_shizugatake1582:0 "賤ヶ岳の戦い"
+ bm_shizugatake1582_desc:0 "織田信長の横死後、明智光秀を討った羽柴秀吉は織田家中での影響力を強めた。\n\n秀吉ら重臣は清洲会議で織田家の行く末を取り決めたが、その中で織田家重臣の対立も浮き彫りになった。\n\n秀吉には丹羽長秀や池田恒興が与し、宿老の柴田勝家は信長の三男・信孝や滝川一益と手を組んだ。\n\n一触即発のまま過ぎたその年の末、秀吉は北陸が雪に閉ざされるのを見計らい、勝家の甥・勝豊が守る長浜城へ兵を進めた。"
+
  bm_shizugatake1582_hashiba_hideyoshi:0 "羽柴秀吉"
- bm_shizugatake1582_hashiba_hideyoshi_desc:0 "别名：丰臣秀吉"
- bm_shizugatake1582_shibata_katsuie:0 "柴田胜家"
+ bm_shizugatake1582_hashiba_hideyoshi_desc:0 "別名：豊臣秀吉"
+ bm_shizugatake1582_shibata_katsuie:0 "柴田勝家"
  bm_shizugatake1582_shibata_katsuie_desc:0 ""
- bm_shizugatake1582_oda_nobutaka:0 "织田信孝"
+ bm_shizugatake1582_oda_nobutaka:0 "織田信孝"
  bm_shizugatake1582_oda_nobutaka_desc:0 ""
- bm_shizugatake1582_niwa_nagahide:0 "丹羽长秀"
+ bm_shizugatake1582_niwa_nagahide:0 "丹羽長秀"
  bm_shizugatake1582_niwa_nagahide_desc:0 ""
- bm_shizugatake1582_ikeda_tsuneoki:0 "池田恒兴"
+ bm_shizugatake1582_ikeda_tsuneoki:0 "池田恒興"
  bm_shizugatake1582_ikeda_tsuneoki_desc:0 ""
- bm_shizugatake1582_takigawa_kazumasu:0 "泷川一益"
+ bm_shizugatake1582_takigawa_kazumasu:0 "滝川一益"
  bm_shizugatake1582_takigawa_kazumasu_desc:0 ""
- bm_shizugatake1582_hashiba_hidekatsu:0 "羽柴秀胜"
- bm_shizugatake1582_hashiba_hidekatsu_desc:0 "别名：於次秀胜"
- bm_shizugatake1582_arima_harunobu:0 "有马晴信"
+ bm_shizugatake1582_hashiba_hidekatsu:0 "羽柴秀勝"
+ bm_shizugatake1582_hashiba_hidekatsu_desc:0 "別名：於次秀勝"
+ bm_shizugatake1582_arima_harunobu:0 "有馬晴信"
  bm_shizugatake1582_arima_harunobu_desc:0 ""
  bm_shizugatake1582_hori_hidemasa:0 "堀秀政"
  bm_shizugatake1582_hori_hidemasa_desc:0 ""
- bm_komakinagakute1584:0 "小牧·长久手之战"
- bm_komakinagakute1584_desc:0 "织田信雄和羽柴秀吉曾有过一段时间的合作，但在强敌柴田胜家灭亡后关系变得险恶。\n\n穷途末路的织田信雄与德川家康结成同盟，诱杀了羽柴秀吉笼络的家老。作为回应，羽柴秀吉决定出兵，德川家康为了支持织田信雄，向清洲城进军。\n\n然而，织田家谱代重臣池田恒兴突然倒戈羽柴秀吉，占据了犬山城。"
+
+ #
+ # 1584 : Battle of Komaki & Nagakute
+ #
+
+ bm_komakinagakute1584:0 "小牧・長久手の戦い"
+ bm_komakinagakute1584_desc:0 "織田信雄と羽柴秀吉は一時協力していたが、強敵の柴田勝家が滅ぶと険悪な関係になった。\n\n窮した信雄は徳川家康と同盟を結び、秀吉に懐柔された家老を処刑。これに対して秀吉は出兵を決断し、家康は信雄に味方するため清洲城まで進軍した。\n\nところが、織田家譜代の重臣である池田恒興が突如秀吉に寝返り、犬山城を占拠した。"
+
  bm_komakinagakute1584_hashiba_hideyoshi:0 "羽柴秀吉"
- bm_komakinagakute1584_hashiba_hideyoshi_desc:0 "别名：丰臣秀吉"
- bm_komakinagakute1584_tokugawa_ieyasu:0 "德川家康"
+ bm_komakinagakute1584_hashiba_hideyoshi_desc:0 "別名：豊臣秀吉"
+ bm_komakinagakute1584_tokugawa_ieyasu:0 "徳川家康"
  bm_komakinagakute1584_tokugawa_ieyasu_desc:0 ""
- bm_komakinagakute1584_oda_nobukatsu:0 "织田信雄"
+ bm_komakinagakute1584_oda_nobukatsu:0 "織田信雄"
  bm_komakinagakute1584_oda_nobukatsu_desc:0 ""
  bm_komakinagakute1584_maeda_toshiie:0 "前田利家"
  bm_komakinagakute1584_maeda_toshiie_desc:0 ""
- bm_komakinagakute1584_sassa_narimasa:0 "佐佐成政"
+ bm_komakinagakute1584_sassa_narimasa:0 "佐々成政"
  bm_komakinagakute1584_sassa_narimasa_desc:0 ""
- bm_komakinagakute1584_ryuzoji_takanobu:0 "龙造寺隆信"
+ bm_komakinagakute1584_ryuzoji_takanobu:0 "龍造寺隆信"
  bm_komakinagakute1584_ryuzoji_takanobu_desc:0 ""
  bm_komakinagakute1584_ii_naomasa:0 "井伊直政"
  bm_komakinagakute1584_ii_naomasa_desc:0 ""
  bm_komakinagakute1584_ishikawa_kazumasa:0 "石川数正"
  bm_komakinagakute1584_ishikawa_kazumasa_desc:0 ""
- bm_komakinagakute1584_naoe_kanetsugu:0 "直江兼续"
+ bm_komakinagakute1584_naoe_kanetsugu:0 "直江兼続"
  bm_komakinagakute1584_naoe_kanetsugu_desc:0 ""
+
+ #
+ # 1585 : Shikoku Campaign
+ #
+
  bm_shikokucampaign1585:0 "四国征伐"
- bm_shikokucampaign1585_desc:0 "1585年，长宗我部元亲打败伊予的河野氏，基本统一了四国。\n\n长宗我部元亲在小牧·长久手之战中站在德川家康一边，因此与羽柴秀吉之间的冲突就不可避免了。\n\n面对拒绝投降的长宗我部元亲，羽柴秀吉以弟弟羽柴秀长为大将，从分三路大军开始进攻四国。"
- bm_shikokucampaign1585_hashiba_hidenaga:0 "羽柴秀长"
- bm_shikokucampaign1585_hashiba_hidenaga_desc:0 "别名：丰臣秀长"
- bm_shikokucampaign1585_chosokabe_motochika:0 "长宗我部元亲"
+ bm_shikokucampaign1585_desc:0 "1585年、長宗我部元親は伊予の河野氏を降して四国をほぼ統一した。\n\n元親は小牧・長久手の戦いで徳川家康に味方し、羽柴秀吉との対立は避けられないものとなっていた。\n\n降伏勧告を拒否した元親に対して、秀吉は弟・秀長を大将に三方面から四国へと侵攻を開始した。"
+
+ bm_shikokucampaign1585_hashiba_hidenaga:0 "羽柴秀長"
+ bm_shikokucampaign1585_hashiba_hidenaga_desc:0 "別名：豊臣秀長"
+ bm_shikokucampaign1585_chosokabe_motochika:0 "長曾我部元親"
  bm_shikokucampaign1585_chosokabe_motochika_desc:0 ""
  bm_shikokucampaign1585_kono_michinao:0 "河野通直"
  bm_shikokucampaign1585_kono_michinao_desc:0 ""
- bm_shikokucampaign1585_kikkawa_motonaga:0 "吉川元长"
+ bm_shikokucampaign1585_kikkawa_motonaga:0 "吉川元長"
  bm_shikokucampaign1585_kikkawa_motonaga_desc:0 ""
  bm_shikokucampaign1585_kobayakawa_takakage:0 "小早川隆景"
  bm_shikokucampaign1585_kobayakawa_takakage_desc:0 ""
  bm_shikokucampaign1585_ukita_hideie:0 "宇喜多秀家"
  bm_shikokucampaign1585_ukita_hideie_desc:0 ""
- bm_shikokucampaign1585_date_masamune:0 "伊达政宗"
+ bm_shikokucampaign1585_date_masamune:0 "伊達政宗"
  bm_shikokucampaign1585_date_masamune_desc:0 ""
- bm_shikokucampaign1585_gamo_ujisato:0 "蒲生氏乡"
+ bm_shikokucampaign1585_gamo_ujisato:0 "蒲生氏郷"
  bm_shikokucampaign1585_gamo_ujisato_desc:0 ""
  bm_shikokucampaign1585_sengoku_hidehisa:0 "仙石秀久"
  bm_shikokucampaign1585_sengoku_hidehisa_desc:0 ""
+
+ #
+ # 1586 : Kyushu Campaign
+ #
+
  bm_kyushucampaign1586:0 "九州征伐"
- bm_kyushucampaign1586_desc:0 "萨摩的岛津义久及其兄弟登上了历史的舞台，九州的势力均衡被打破。\n\n在岛津氏的压力下，大友宗麟向天下人丰臣秀吉求助，丰臣秀吉以朝廷的名义下令停战。\n\n但是，岛津氏拒绝接受调解，继续攻击大友氏，丰臣秀吉率领20万大军征伐岛津氏。"
- bm_kyushucampaign1586_shimazu_yoshihisa:0 "岛津义久"
+ bm_kyushucampaign1586_desc:0 "薩摩の島津義久とその兄弟が歴史の表舞台に立ったことで九州の勢力均衡は崩れた。\n\n島津氏の圧迫を受けた大友宗麟は天下人の豊臣秀吉に助けを求め、秀吉は朝廷の名の下に停戦を命じた。\n\nしかし、和睦案を拒否した島津が大友攻撃を再開したことから、秀吉は20万もの大軍をもって島津氏征伐に乗り出した。"
+
+ bm_kyushucampaign1586_shimazu_yoshihisa:0 "島津義久"
  bm_kyushucampaign1586_shimazu_yoshihisa_desc:0 ""
  bm_kyushucampaign1586_otomo_sorin:0 "大友宗麟"
  bm_kyushucampaign1586_otomo_sorin_desc:0 ""
  bm_kyushucampaign1586_tachibana_muneshige:0 "立花宗茂"
  bm_kyushucampaign1586_tachibana_muneshige_desc:0 ""
- bm_kyushucampaign1586_toyotomi_hidetsugu:0 "丰臣秀次"
+ bm_kyushucampaign1586_toyotomi_hidetsugu:0 "豊臣秀次"
  bm_kyushucampaign1586_toyotomi_hidetsugu_desc:0 ""
- bm_kyushucampaign1586_toyotomi_hidekatsu:0 "丰臣秀胜"
- bm_kyushucampaign1586_toyotomi_hidekatsu_desc:0 "别名：小吉秀胜"
- bm_kyushucampaign1586_hachisuka_iemasa:0 "蜂须贺家政"
+ bm_kyushucampaign1586_toyotomi_hidekatsu:0 "豊臣秀勝"
+ bm_kyushucampaign1586_toyotomi_hidekatsu_desc:0 "別名：小吉秀勝"
+ bm_kyushucampaign1586_hachisuka_iemasa:0 "蜂須賀家政"
  bm_kyushucampaign1586_hachisuka_iemasa_desc:0 ""
- bm_kyushucampaign1586_kanamori_nagachika:0 "金森长近"
+ bm_kyushucampaign1586_kanamori_nagachika:0 "金森長近"
  bm_kyushucampaign1586_kanamori_nagachika_desc:0 ""
- bm_kyushucampaign1586_ikeda_terumasa:0 "池田辉政"
+ bm_kyushucampaign1586_ikeda_terumasa:0 "池田輝政"
  bm_kyushucampaign1586_ikeda_terumasa_desc:0 ""
- bm_kyushucampaign1586_kakizaki_yoshihiro:0 "蛎崎庆广"
- bm_kyushucampaign1586_kakizaki_yoshihiro_desc:0 "别名：松前庆广"
+ bm_kyushucampaign1586_kakizaki_yoshihiro:0 "蠣崎慶広"
+ bm_kyushucampaign1586_kakizaki_yoshihiro_desc:0 "別名：松前慶広"
+
+ #
+ # 1589 : Odawara Campaign
+ #
+
  bm_odawara1589:0 "小田原征伐"
- bm_odawara1589_desc:0 "在丰臣秀吉的斡旋下，北条氏和真田氏争夺的上野国沼田领地的三分之二划归给了北条氏。\n\n但是，北条氏家臣猪俣邦宪夺取了剩余的沼田领地，这成为了导火索，促使丰臣秀吉决定征伐北条氏。\n\n北条氏在上杉谦信和武田信玄都没能攻陷的小田原城笼城，坐待丰臣秀吉。"
+ bm_odawara1589_desc:0 "北条氏と真田氏が争った上野国の沼田領は、豊臣秀吉の仲裁によって三分の二を北条氏に引き渡すことで決着した。\n\nしかし、北条氏家臣の猪俣邦憲が残りの沼田領を奪取したことが引き金となり、秀吉は北条氏征伐を決意する。\n\n北条氏はかつて上杉謙信や武田信玄ですら落とせなかった小田原城に籠城し、秀吉を待ち構えた。"
+
  bm_odawara1589_hojo_ujimasa:0 "北条氏政"
  bm_odawara1589_hojo_ujimasa_desc:0 ""
- bm_odawara1589_date_masamune:0 "伊达政宗"
+ bm_odawara1589_date_masamune:0 "伊達政宗"
  bm_odawara1589_date_masamune_desc:0 ""
- bm_odawara1589_toyotomi_hidetoshi:0 "丰臣秀俊"
- bm_odawara1589_toyotomi_hidetoshi_desc:0 "别名：小早川秀秋"
- bm_odawara1589_fukushima_masanori:0 "福岛正则"
+ bm_odawara1589_toyotomi_hidetoshi:0 "豊臣秀俊"
+ bm_odawara1589_toyotomi_hidetoshi_desc:0 "別名：小早川秀秋"
+ bm_odawara1589_fukushima_masanori:0 "福島正則"
  bm_odawara1589_fukushima_masanori_desc:0 ""
  bm_odawara1589_kato_kiyomasa:0 "加藤清正"
  bm_odawara1589_kato_kiyomasa_desc:0 ""
- bm_odawara1589_konishi_yukinaga:0 "小西行长"
+ bm_odawara1589_konishi_yukinaga:0 "小西行長"
  bm_odawara1589_konishi_yukinaga_desc:0 ""
- bm_odawara1589_kuroda_nagamasa:0 "黑田长政"
+ bm_odawara1589_kuroda_nagamasa:0 "黒田長政"
  bm_odawara1589_kuroda_nagamasa_desc:0 ""
- bm_odawara1589_nabeshima_naoshige:0 "锅岛直茂"
+ bm_odawara1589_nabeshima_naoshige:0 "鍋島直茂"
  bm_odawara1589_nabeshima_naoshige_desc:0 ""
  bm_odawara1589_ashikaga_uji:0 "足利氏"
- bm_odawara1589_ashikaga_uji_desc:0 "别名：足利氏姬"
+ bm_odawara1589_ashikaga_uji_desc:0 "別名：足利氏姫"
+
+ #
+ # 1591 : Revolt of Kunohe Masazane
+ #
+
+ bm_kunohe1591:0 "九戸政実の乱"
+ bm_kunohe1591_desc:0 "北条氏を滅亡させた豊臣秀吉は奥羽の諸大名も臣従させて天下統一を成し遂げた。\n\nだが、豊臣政権による強引な大名の再配置は多くの不満と軋轢を生み、豊臣軍が奥羽から引き上げるやいなや、葛西大崎一揆や和賀稗貫一揆が発生した。\n\nまた、陸奥の南部氏は秀吉に臣従してその威光を背景に一族の統制を進めたが、南部一族の有力者九戸政実は南部氏の家来として扱われたことに不満を抱き挙兵した。\n\n彼らは自らの誇りを守りきることができるだろうか？\nそれとも、所詮は時勢の読めない悪あがきなのだろうか？"
+
+ #
+ # 1614 : Siege of Osaka
+ #
+
+ bm_osaka1614:0 "大坂の陣"
+ bm_osaka1614_desc:0 "豊臣秀吉亡き後、関ケ原の戦いに勝利した徳川家康は征夷大将軍に就き、江戸に幕府を開いた。\n\n豊臣恩顧の諸将が没して幕府の優位が強まる中、豊臣秀頼が造営した方広寺の鐘銘を端緒に徳川と豊臣の対立は決定的となる。\n\n長年秀頼に仕えた片桐且元が身の危険から大坂を退去すると、それを口実に家康は諸大名に出陣の命を下した。対する秀頼も豊臣恩顧の大名に味方することを求め、牢人を召し抱えた。"
