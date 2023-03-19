@@ -1,0 +1,221 @@
+﻿l_korean:
+
+ ## Dewa Clans
+
+ # Ando
+ dynn_10000001_motto:0 "북쪽 하늘의 북두칠성과 같다"
+
+ # Mogami
+ dynn_10000007_motto:0 "지인용의 삼덕을 겸하여, 그 명성이 높다"
+ house_shgnt_mogami_motto:0 "$dynn_10000007_motto$"
+
+ # Date
+ dynn_10000010_motto:0 "흐림 없는 마음의 달을 앞세워 속세의 어둠을 비추고 가네"
+
+
+ ## Northern Oshu Clans
+
+ # Nanbu
+ dynn_10000031_motto:0 "초승달이 둥글게 될 때까지 난부의 영지로다"
+
+ # Oura
+ dynn_10000033_motto:0 "불제우천지인"
+ house_shgnt_nambu_oura_motto:0 "$dynn_10000033_motto$"
+
+
+ ## Northern Kanto Clans
+
+ # Utsunomiya
+ dynn_10000109_motto:0 "전장에서, 사람의 목숨은 먼지보다도 가볍다"
+
+
+ ## Eastern Kanto Clans
+
+ # Satomi
+ dynn_10000119_motto:0 "어진 이에게는 반드시 용기가 필요하다"
+
+
+ ## Western Kanto Clans
+
+ # Uesugi
+ dynn_10000100_motto:0 "운은 하늘에 있고, 갑옷은 가슴에 있으며, 공훈은 발에 있다"
+ house_shgnt_nagao_uesugi_motto:0 "$dynn_10000100_motto$"
+
+
+ ## Southern Kanto Clans
+
+ # Hojo (Later)
+ dynn_10000160_motto:0 "이기고 투구의 끈을 매어라"
+ house_shgnt_hojo_motto:0 "$dynn_10000160_motto$"
+
+
+ ## Koshin Clans
+
+ # Takeda (Kai)
+ dynn_10000200_motto:0 "미하타와 타테나시도 우리를 굽어 살피신다"
+
+ # Sanada
+ dynn_10000222_motto:0 "육문전은 삼도천을 건너는 뱃삯이니, 불석신명의 뜻이노라"
+
+
+ ## Tokai Clans
+
+ # Imagawa
+ dynn_10000230_motto:0 "쇼군가가 끊어지면 키라가 잇고, 키라가 끊어지면 이마가와가 잇는다"
+
+ # Tokugawa
+ dynn_10000239_motto:0 "사람의 일생은 무거운 짐을 지고 먼 길을 감과 같다"
+ house_shgnt_matsudaira_tokugawa_motto:0 "$dynn_10000239_motto$"
+
+ # Matsudaira
+ dynn_10000240_motto:0 "염리예토 흔구정토"
+
+
+ ## Chubu Clans
+
+ # Toki
+ dynn_10000253_motto:0 "언덕에 꽃피는 신초"
+
+ # Akechi
+ dynn_10000269_motto:0 "때는 바로 지금, 비가 내리는, 오월이로다"
+ house_shgnt_toki_akechi_motto:0 "$dynn_10000269_motto$"
+ 
+ # Takenaka
+ dynn_10000274_motto:0 "진중에서 죽는 것이야말로 무사의 숙원"
+
+ # Shiba
+ dynn_10000279_motto:0 "만능일심"
+
+ # Oda
+ dynn_10000280_motto:0 "한 번 삶을 얻고, 죽지 않는 자가 있으랴"
+
+ # Hashiba
+ dynn_10000283_motto:0 "두 사람의 성씨에서 한 자씩을 주도록"
+
+ # Toyotomi
+ dynn_10000284_motto:0 "나니와의 영화는 꿈 속의 꿈이로다"
+ house_shgnt_toyotomi_motto:0 "$dynn_10000284_motto$"
+
+ # Ganshoji
+ dynn_10000285_motto:0 "애산호법"
+ house_shgnt_ganshoji_motto:0 "$dynn_10000285_motto$"
+
+ # Maeda
+ dynn_10000296_motto:0 "매화는 접시꽃이 많은 곳에 핀다"
+
+ # Takigawa
+ dynn_10000297_motto:0 "나아갈 때도 타키가와, 물러날 때도 타키가와"
+
+ # Shibata
+ dynn_10000698_motto:0 "여름밤의 꿈은 한낱 환상이로다. 나의 이름을 저 구름 위까지 알려다오 산두견새여"
+
+ # Kato
+ dynn_10000745_motto:0 "위의 한 사람의 마음이 아래의 모든 사람에게 통한다"
+
+
+ ## Western Hokuriku Clans
+
+ # Asakura
+ dynn_10000350_motto:0 "무사는 개라고 불리든, 짐승이라고 불리든, 이기는 것이 본분이다"
+
+ # Honganji
+ dynn_10000430_motto:0 "나아가면 극락정토, 물러나면 무간지옥"
+
+
+ ## Central Kinai Clans
+
+ # Ashikaga
+ dynn_10000400_motto:0 "두 마리의 용이 하늘로 올라가는구나"
+
+ # Yamato
+ dynn_10000420_motto:0 "팔굉을 덮어 집을 삼음이 좋지 아니한가"
+
+ # Sen
+ dynn_10000439_motto:0 "일기일회"
+
+ # Rokkaku
+ dynn_10000450_motto:0 "내 생각하건대 마음속은 육각으로, 그저 둥글게 되기를 기도하는 바로다"
+ house_shgnt_rokkaku_motto:0 "$dynn_10000450_motto$"
+
+ # Ishida
+ dynn_10000462_motto:0 "대일대만대길"
+
+ # Kusunoki
+ dynn_10000488_motto:0 "일곱 번이고 인간 세상에 태어나 조적을 멸하고 싶나이다"
+
+ # Todo
+ dynn_10000751_motto:0 "침실을 나설 때 그 날이 죽는 날이라고 마음 먹어라"
+
+
+ ## Southern Kinai Clans
+
+ # Hatakeyama
+ dynn_10000404_motto:0 "반도 무사의 귀감이로다"
+
+
+ ## Sanin Clans
+
+ # Yamana
+ dynn_10000500_motto:0 "대체로 예라는 것은 당시의 예일 뿐이다"
+
+ # Amago
+ dynn_10000515_motto:0 "약사여래께 평생 함부로 절해서는 안된다. 깊이 새기도록 하라"
+ house_shgnt_amago_motto:0 "$dynn_10000515_motto$"
+
+ # Yamanaka
+ dynn_10000516_motto:0 "내게 칠난팔고를 주소서"
+
+ # Tako
+ dynn_10000519_motto:0 "목숨은 가볍고, 명예는 무겁다"
+
+
+ ## Sanyo Clans
+
+ # Kuroda
+ dynn_10000534_motto:0 "병법은 평법이노라"
+
+
+ ## Western Chugoku Clans
+
+ # Mori
+ dynn_10000560_motto:0 "백만일심"
+
+ # Kobayakawa (Mori)
+ dynn_10000562_motto:0 "즐거운 봄비여, 꽃이 지지 않을 만큼만 내려라"
+ house_shgnt_mori_kobayakawa_motto:0 "$dynn_10000562_motto$"
+
+ # Sue
+ dynn_10000565_motto:0 "무엇을 아쉬워하고, 무엇을 원망하리"
+
+ # Ouchi
+ dynn_10000570_motto:0 "여로역여전 응작역시관"
+
+
+ ## Shikoku Clans
+
+ # Miyoshi
+ dynn_10000587_motto:0 "노래하는 자를 연약하다 말하는 이들은, 그들의 무도가 보잘것 없더라"
+
+
+ ## Southern Kyushu Clans
+
+ # Shimazu
+ dynn_10000600_motto:0 "제아무리 훌륭한 가르침을 듣고 외워도, 행하지 않으면 아무 소용이 없나니"
+
+
+ ## Northern Kyushu Clans
+
+ # Ryuzoji
+ dynn_10000691_motto:0 "생각을 오래하면 때를 놓친다"
+
+
+ ## Kamakura Era Clans
+
+ # Taira
+ dynn_10001100_motto:0 "헤이케가 아니면 사람이 아니다"
+
+ # Fujiwara (Oshu)
+ dynn_10001300_motto:0 "금색당의 위아래 네 벽이 모두 금이더라"
+
+ # Hojo (Early)
+ dynn_10006129_motto:0 "협심육력"

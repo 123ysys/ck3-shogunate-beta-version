@@ -1,0 +1,10 @@
+﻿l_korean:
+ #ERAS
+ culture_era_tribal:0 "카마쿠라-무로마치 시대"
+ culture_era_tribal_desc:0 "카마쿠라-무로마치 시대는 센고쿠 다이묘 등장 이전의 [culture|E]입니다. [tribal_government|E]의 통치자는 카마쿠라-무로마치 시대의 [innovations|E]만 이용할 수 있습니다."
+ culture_era_early_medieval:0 "초기 센고쿠 시대"
+ culture_era_early_medieval_desc:0 "초기 센고쿠 시대는 센고쿠 다이묘의 출현과 여러 중요한 [innovations|E]이 있었습니다. 하지만, [culture|E]의 경우 아직 서양과 접촉하고 있지 않습니다."
+ culture_era_high_medieval:0 "중기 센고쿠 시대"
+ culture_era_high_medieval_desc:0 "중기 센고쿠 시대에는 기술과 행정이 크게 진보하면서 철포로 대표되는 남만문화가 사회에 영향을 미치기 시작했습니다."
+ culture_era_late_medieval:0 "후기 센고쿠 시대"
+ culture_era_late_medieval_desc:0 "후기 센고쿠 시대는 천하통일의 시대입니다. 센고쿠 시대는 종언을 맞이했으며, 무사 계급과 기타 계급은 엄격하게 구별됩니다."

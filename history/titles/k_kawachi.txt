@@ -1,0 +1,27 @@
+k_nmih_kawachi = {
+	100.1.1={
+	}
+	1398.6.1={
+		liege="e_nmih_japan"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1406.2.5={
+		holder=10031001 # Hatakeyama Mitsunori
+	}
+	1408.10.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1433.10.31={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12 ={
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1460.10.4={
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1477.12.16={ # End of Onin war
+		liege=0
+		holder=0 # 
+	}
+}

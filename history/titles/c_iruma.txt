@@ -1,0 +1,143 @@
+c_nmih_iruma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iruma1={
+				set_title_name=b_nmih_iruma1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1599.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1150.1.1={
+		holder=12200046 # Kawagoe Shigetaka
+	}
+	1155.9.14={
+		holder=12200120 # Kawagoe Yoshitaka
+	}
+	1175.1.1={
+		holder=12200130 # Kawagoe Shigeyori
+	}
+	1180.10.24={
+		liege="d_nmih_musashi" # served under Yoritomo
+	}
+	1185.12.5={
+		liege="d_nmih_musashi"
+		holder=12200060 # Hatakeyama Shigetada
+	}
+	1205.7.10={ # the HATAKEYAMA Shigetada Rebellion
+		liege="d_nmih_musashi"
+		holder=12200142 # Kawagoe Shigetoki
+	}
+	1230.1.1={
+		holder=12200150 # Kawagoe Yasushige
+	}
+	1255.1.1={
+		holder=12200155 # Kawagoe Tsuneshige
+	}
+	1285.1.1={
+		holder=12200160 # Kawagoe Muneshige
+	}
+	1323.1.1={
+		holder=12200165 # Kawagoe Sadashige
+	}
+	1333.6.21={
+		holder=12200170 # Kawagoe Takashige
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+	}
+	1340.1.1={
+		holder=12200175 # Kawagoe Tadashige
+	}
+	1351.3.15={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1352.3.12={
+		liege="d_nmih_musashi"
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1378.5.14={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1409.9.1={
+		holder=10017048 # Uesugi Ujinori
+	}
+	1417.1.27={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017016 # Uesugi Norimoto
+	}
+	1418.2.9={
+		liege="d_nmih_musashi"
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1457.1.1={
+		liege="d_nmih_musashi"
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1467.10.4={
+		holder=10017042 # Uesugi Masazane
+	}
+	1473.12.22={
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1494.11.20={
+		holder=10017043 # Uesugi Tomoyoshi
+	}
+	1518.5.30={
+		holder=10018000 # Uesugi Tomooki
+	}
+	1537.6.4={
+		holder=10018001 # Uesugi Tomosada
+	}
+	1537.7.1={
+		liege="d_nmih_sagami" # holder=16000 : Hojo Ujitsuna
+		holder=10016601 # Daidoji Morimasa
+	}
+	1546.5.19={
+		liege="d_nmih_musashi" # holder:16004 # Hojo Ujiyasu
+	}
+	1556.7.12={
+		holder=10016602 # Daidoji Kanekatsu
+	}
+	1562.1.1={
+		holder=10016603 # Daidoji Masashige
+	}
+	1590.5.15={
+		liege="e_nmih_japan"
+	}
+	1590.7.25={
+		liege="d_nmih_musashi"
+		holder=10024227 # Sakai Shigetada
+	}
+	1609.10.10={
+		liege="d_nmih_musashi"
+		holder=10024228 # Sakai Tadatoshi
+	}
+}

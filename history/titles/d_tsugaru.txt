@@ -1,0 +1,31 @@
+d_nmih_tsugaru = {
+	100.1.1={
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030021 # Fujiwara [Tosa] Hidehisa
+	}
+	1189.10.3={
+		liege=0
+		holder=0 # 
+	}
+	1189.11.15={
+		liege="e_nmih_japan"
+		holder=12231102 # Omi [Usami] Sanemasa
+	}
+	1190.1.1={
+		liege=0
+		holder=12000011 # Okawa Kaneto
+	}
+	1190.4.16={
+		liege=0
+		holder=0 # 
+	}
+	1590.3.26={
+		liege="e_nmih_japan"
+		holder=10003165 # Tsugaru Tamenobu
+	}
+	1608.1.22={
+		holder=10003352 # Tsugaru Nobuhira
+	}
+}

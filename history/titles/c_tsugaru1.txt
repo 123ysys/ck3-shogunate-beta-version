@@ -1,0 +1,100 @@
+c_nmih_tsugaru1 = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsugaru11={
+				set_title_name=b_nmih_tsugaru15
+			}
+		}
+	}
+	1514.1.1={
+		effect={
+			title:b_nmih_tsugaru11={
+				set_title_name=b_nmih_tsugaru15
+			}
+		}
+	}
+	1600.1.1={
+		effect={
+			title:b_nmih_tsugaru11={
+				set_title_name=b_nmih_tsugaru15
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	900.1.1 = { change_development_level = 0 }
+	1180.1.1 = { change_development_level = 30 }
+	1440.1.1 = { change_development_level = 40 }
+	1457.1.1 = { change_development_level = 50 }
+	1514.1.1 = { change_development_level = 80 }
+	1600.1.1 = { change_development_level = 90 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		liege=0
+		holder=10159990 # Matsumae Yoshiyuki
+	}
+	1192.1.1={
+	 	liege=0
+		holder=12030100 # Fujiwara [Tosa] Hidemoto
+	}
+	1222.1.1={
+		holder=12030122 # Fujiwara [Tosa] Hidenao
+	}
+	1229.1.1={
+		liege="d_nmih_shimokuni"
+		holder=12030125 # Fujiwara Yorihide
+	}
+	1275.1.1={
+		holder=12030130 # Fujiwara Hideyuki
+	}
+	1305.1.1={
+		holder=12030135 # Fujiwara Hidetaka
+	}
+	1325.1.1={
+		holder=12030140 # Fujiwara Hidemitsu
+	}
+	1355.1.1={
+		holder=12030145 # Fujiwara Hidenobu
+	}
+	1400.1.1={
+		liege="k_nmih_wajinchi"
+		holder=10000116 # Ando Morisue
+	}
+	1414.2.20={
+		holder=10000115 # Ando Yasusue
+	}
+	1441.7.12={
+		holder=10000114 # Ando Yoshisue
+	}
+	1453.1.1={
+		holder=10000124 # Ando Sadasue
+	}
+	1457.1.1={
+		liege="d_nmih_matsumae"
+	}
+	1485.1.1={
+		holder=10000125 # Ando Tsunesue
+	}
+	1496.12.30={
+		holder=10159401 # Aihara Suetane
+	}
+	1513.6.27={
+		liege="d_nmih_wajinchi"
+		holder=10159002 # Kakizaki Mitsuhiro
+	}
+	1514.1.1={
+	}
+	1518.8.18={
+		holder=10159000 # Kakizaki Yoshihiro
+	}
+	1545.9.24={
+		holder=10159003 # Kakizaki Suehiro
+	}
+	1583.1.1={
+		holder=10159034 # Kakizaki Yoshihiro
+	}
+}

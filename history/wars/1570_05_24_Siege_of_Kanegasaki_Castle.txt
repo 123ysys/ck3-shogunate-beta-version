@@ -1,0 +1,11 @@
+war = {
+	name = "war_1570_siege_of_kanegasaki_castle"
+	start_date = 1570.5.24
+	end_date = 1570.6.3
+	targeted_titles = {
+		d_nmih_echizen
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10029120 } # Oda Nobunaga
+	defenders = { 10030011 } # Asakura Yoshikage
+}

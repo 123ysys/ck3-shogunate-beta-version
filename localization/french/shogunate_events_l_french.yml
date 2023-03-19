@@ -1,0 +1,60 @@
+﻿l_french:
+
+ # Get Meritocracy Perk
+ shogunate_gekokujo.0001.t:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Ambition"
+ shogunate_gekokujo.0001.desc:0 "Mon ambition a commencé quand j'ai pris le contrôle du [title.GetName]. Je suis né à l'époque de la guerre, je dois donc arriver au sommet par mes propres moyens."
+ shogunate_gekokujo.0001.desc_ambitious:0 "Ma grande ambition a commencé quand j'ai pris le contrôle du [title.GetName]. Je suis né à l'époque de la guerre, je vais donc conquérir le Japon !"
+ shogunate_gekokujo.0001.desc_content:0 "Ma trop grande ambition a commencé lorsque j'ai pris le contrôle du [title.GetName]. Bien que je sois né à l'époque de la guerre, je ne peux pas organiser une révolte."
+ shogunate_gekokujo.0001.a:0 "C'est Gekokujo."
+
+ # Battle of Okehazama
+ shogunate_history.0002.t:0 "La bataille de [location.GetNameNoTooltip]"
+ shogunate_history.0002.desc:0 "L'armée du [winner.GetDynastyNameNoTooltip] lança une attaque surprise contre le quartier général du [loser.GetUIName] à [location.GetName]. Le [commander.GetUIName] réussit à tuer le [loser.GetFirstNameNoTooltip] dans la bataille.\n\nL'armée du [loser.GetDynastyNameNoTooltip] perdu son commandant et s'effondra. La guerre se termina dans la confusion."
+ shogunate_history.0002.a:0 "On parlera de cette bataille pendant des siècles."
+
+ # Battle of Itsukushima
+ shogunate_history.0004.t:0 "La bataille de [location.GetNameNoTooltip]"
+ shogunate_history.0004.desc:0 "L'armée du [winner.GetDynastyNameNoTooltip] lança une attaque surprise contre le quartier général du [enemy_commander.GetUIName] à [location.GetName]. Le [commander.GetUIName] réussit à tuer le [enemy_commander.GetFirstNameNoTooltip] dans la bataille.\n\nL'armée du [loser.GetDynastyNameNoTooltip] perdu son commandant et s'effondra. La guerre se termina dans la confusion."
+ shogunate_history.0004.a:0 "On parlera de cette bataille pendant des siècles."
+
+ # Battle of Kawagoe
+ shogunate_history.0006.t:0 "La bataille de [location.GetNameNoTooltip]"
+ shogunate_history.0006.desc:0 "L'armée de [winner.GetDynastyNameNoTooltip] lança une attaque surprise contre le quartier général du [loser.GetUIName] à [location.GetName]. Le [commander.GetUIName] réussit à tuer le [loser.GetFirstNameNoTooltip] dans la bataille.\n\nL'armée du [loser.GetDynastyNameNoTooltip] perdu son commandant et s'effondra. La guerre se termina dans la confusion."
+ shogunate_history.0006.a:0 "On parlera de cette bataille pendant des siècles."
+
+ # Spread of the arquebus
+ shogunate_culture.0002.t:0 "La propagation du Teppo"
+ shogunate_culture.0002.opening.desc:0 "Une nouvelle arme apportée par les occidentaux se répand dans [target_culture.GetName]. Elles sont appelées \"Teppo\" et utilisent la puissance de la poudre à canon pour tirer des balles.\n\nElles sont également appelées \"Tanegashima\", d'après l'île où elles ont été introduites au Japon, ou \"Hinawaju\", d'après le cordon d'allumage utilisé.\n\n"
+ shogunate_culture.0002.before_spread.desc:0 "On dit que le Teppo rugit et abat les oiseaux avec facilité. J'ai entendu dire que les daimyo des autres régions se précipitent pour en acquérir.\n\nCertains disent que c'est une arme qui va changer le monde. Mais est-ce vrai ?"
+ shogunate_culture.0002.after_spread.desc:0 "Le Teppo a une grande puissance de feu et est plus facile à manier que les épées ou les arcs. Il pourrait s'agir d'une nouvelle arme qui permettrait à de simples soldats peu compétents de se battre contre des samouraïs émérites.\n\nLes Daimyo, réalisant le potentiel de cette nouvelle arme, se précipitent tous pour en acquérir. L'ère Sengoku est entrée dans une nouvelle phase."
+ shogunate_culture.0002.a:0 "Comment cette nouvelle arme va-t-elle changer la guerre ?"
+ shogunate_culture.0002.b:0 "Ils ont finalement réalisé la puissance du Teppo."
+ shogunate_culture.0002.c:0 "Les occidentaux ont encore apporté quelque chose d'étrange."
+
+ # Spread of the cannon
+ shogunate_culture.0012.t:0 "La propagation de l'Ozutsu"
+ shogunate_culture.0012.desc:0 "Une nouvelle arme apportée par les occidentaux se répand dans [target_culture.GetName]. On l'appelle \"Ozutsu\" et elle utilise la puissance de la poudre pour tirer des obus bien plus gros que les balles de \"Teppo.\""
+ shogunate_culture.0012.a:0 "Comment cette nouvelle arme va-t-elle changer la guerre ?"
+
+ # Gain a building
+ shogunate_building.0003.t:0 "Acquisition de [temp_character.Custom('shogunate_building_name')]"
+ shogunate_building.0003.with_owner.desc:0 "Le [temp_character.Custom('shogunate_building_name')], qui était sous le contrôle de [previous_owner.GetUIName], m'appartient désormais. Ce [temp_character.Custom('shogunate_building_class')] d'importance stratégique est connu de tous au Japon et se trouve à [building_place.GetName], [building_place.GetDeJureLiege.GetName]".
+ shogunate_building.0003.without_owner.desc:0 "Le [temp_character.Custom('shogunate_building_name')] m'appartient désormais. Ce [temp_character.Custom('shogunate_building_class')], d'une importance stratégique, est connu de tous au Japon et se trouve à [building_place.GetName], [building_place.GetDeJureLiege.GetName]."
+ shogunate_building.0003.a:0 "Je ne peux pas imaginer ne pas l'utiliser."
+
+ # Lose a building
+ shogunate_building.0004.t:0 "Perte de [temp_character.Custom('shogunate_building_name')]"
+ shogunate_building.0004.desc:0 "Le [temp_character.Custom('shogunate_building_name')], qui était sous mon contrôle, m'a été enlevé par [new_owner.GetUIName].\n\nCe bâtiment d'importance stratégique [temp_character.Custom('shogunate_building_class')] est connu de tout le monde au Japon et se trouve à [building_place.GetName], [building_place.GetDeJureLiege.GetName]".
+ shogunate_building.0004.a:0 "Ainsi soit-il."
+
+ # Notify the destroyed special title
+ shogunate_gekokujo.0007.t:0 "Le dernier [title.Custom('shogunate_special_title_tier')]"
+ shogunate_gekokujo.0007.with_holder.desc:0 "Le dernier [title.Custom('shogunate_special_title_tier')], [previous_holder.GetHouse.GetBaseNameNoTooltip] [previous_holder.GetFirstName], a été expulsé par [new_holder.GetHouse.GetBaseNameNoTooltip] [new_holder.GetFirstName].\n\nL'incident marque la fin de l'indépendance séculaire du [title.GetName]."
+ shogunate_gekokujo.0007.without_holder.desc:0 "Le dernier [title.Custom('shogunate_special_title_tier')], [previous_holder.GetHouse.GetBaseNameNoTooltip] [previous_holder.GetFirstName], a été expulsé. Cet incident marque la fin de l'indépendance séculaire du [title.GetName]."
+ shogunate_gekokujo.0007.a:0 "C'est Gekokujo."
+
+ # The new Shogunate
+ shogunate_gekokujo.0008.t:0 "Le [founder.GetHouse.GetBaseNameNoTooltip] Shogunate"
+ shogunate_gekokujo.0008.desc:0 "[founder.GetHouse.GetBaseNameNoTooltip] [founder.GetFirstName] a été nommé Shogun par l'Empereur et a établi le nouveau Shogunat. Le [founder.GetHouse.GetBaseNameNoTooltip] Shogunat est basé à [capital.GetName] et vise à unifier le Japon."
+ shogunate_gekokujo.0008.a:0 "Shogun banzai !"
+ shogunate_gekokujo.0008.b:0 "Obéir ou ne pas obéir, telle est la question."

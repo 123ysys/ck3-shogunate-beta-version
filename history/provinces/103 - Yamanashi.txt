@@ -1,0 +1,33 @@
+103 = {
+
+	culture = koshin
+	religion = shinto
+	holding = castle_holding
+	1.1.1={
+		special_building_slot = kurokawa_gold_mines_01
+	}
+	0701.1.1={# Taiho Code
+	}
+	1100.1.1={
+	}
+	1330.1.1={
+	}
+	1498.1.1={
+		special_building = kurokawa_gold_mines_01
+	}
+	1508.10.27={
+	}
+	1519.1.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1541.1.1={
+		special_building = kurokawa_gold_mines_02
+	}
+	1582.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+}

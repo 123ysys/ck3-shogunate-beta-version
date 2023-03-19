@@ -1,0 +1,24 @@
+217 = {
+
+	culture = southern_kinai
+	religion = shinto
+	holding = castle_holding
+	0680.1.1={b_soekami5=temple} # Foundation of Yakushi-ji
+	0710.1.1={b_soekami1=temple} # Foundation of Kofuku-ji
+	0733.1.1={b_soekami3=temple} # Foundation of Todai-ji
+	0752.5.26={
+	}
+	0765.1.1={b_soekami6=temple} # Foundation of Saidai-ji
+	0794.1.1={capital=b_soekami1} # the transfer of national capital to the city of Heiankyo
+	1181.1.15={
+	}
+	1195.1.1={
+	}
+	1460.1.1={
+		religion = ikkoshu
+	}
+	1567.10.11={
+	}
+	1568.11.7={
+	}
+}

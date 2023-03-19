@@ -1,0 +1,2 @@
+﻿# Dummy Mapping (DO NOT REMOVE!)
+100000=100000

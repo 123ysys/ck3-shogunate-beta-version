@@ -1,0 +1,8 @@
+119 = {
+
+	culture = tokai
+	religion = shinto
+	holding = castle_holding
+	1400.1.1={
+	}
+}

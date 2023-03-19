@@ -1,0 +1,13 @@
+700 = {
+
+	culture = karafuto_ainu
+	religion = ainu
+	holding = tribal_holding
+	100.1.1 = {
+		culture = old_okhotsk
+	}
+	1200.1.1 = {
+		culture = karafuto_ainu
+	}
+
+}

@@ -1,0 +1,20 @@
+﻿10013150={
+	name=dynasty_name_10013150
+	culture = "central_kinai"
+}
+10013151={
+	name=dynasty_name_10013151
+	culture = "central_kinai"
+}
+10013152={
+	name=dynasty_name_10013152
+	culture = "western_hokuriku"
+}
+10013153={
+	name=dynasty_name_10013153
+	culture = "koshin"
+}
+10013154={
+	name=dynasty_name_10013154
+	culture = "central_kinai"
+}

@@ -1,0 +1,157 @@
+c_nmih_oku = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_oku1={
+				set_title_name=b_nmih_oku1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_oku1={
+				set_title_name=b_nmih_oku1
+			}
+		}
+	}
+	1532.1.1={
+		effect={
+			title:b_nmih_oku1={
+				set_title_name=B_NMIH_OKU1_1532
+			}
+		}
+	}
+	1576.1.1={
+		effect={
+			title:b_nmih_oku1={
+				set_title_name=B_NMIH_OKU1_1576
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1460.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_bizen"
+		holder=10110046 # Taira Shigehira
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bizen"
+		holder=12216002 # Dohi Sanehira
+	}
+	1191.12.13={
+		holder=11006480 # Ichijo Yoshiyasu
+	}
+	1197.11.23={
+		holder=11007364 # Oinomikado Yorizane
+	}
+	1214.1.1={
+		holder=11006486 # Ichijo Soncho
+	}
+	1219.1.1={
+		holder=10130464 # Fujiwara Hideyasu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_bizen"
+		holder=12270400 # Kaji Nobuzane
+	}
+	1238.1.1={
+		holder=12083010 # Kasai Tokikiyo
+	}
+	1264.1.1={
+		holder=12221016 # Nagai Yasushige
+	}
+	1280.1.1={
+		holder=12665010 # Nagai Yorishige
+	}
+	1295.1.1={
+		holder=12665020 # Nagai Sadashige
+	}
+	1320.1.1={
+		holder=10130349 # Iga Mitsusada
+	}
+	1331.1.1={
+		holder=12270460 # Kaji Tokihide
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12631300 # Kojima Takanori
+	}
+	1336.5.1={
+		liege="d_nmih_bizen"
+		holder=12219230 # Matsuda Moritomo
+	}
+	1353.3.1={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1362.5.1={
+		holder=12219234 # Matsuda Nobushige
+	}
+	1363.12.1={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1372.1.13={
+		liege="d_nmih_harima"
+		holder=10053507 # Akamatsu Yoshinori
+	}
+	1427.10.11={
+		holder=10053511 # Akamatsu Mitsusuke
+	}
+	1441.9.25={
+		liege="d_nmih_bizen"
+		holder=10050190 # Ogamo Yukimoto
+	}
+	1467.6.27={
+		liege="d_nmih_hoki"
+	}
+	1468.9.23={
+		liege="d_nmih_harima"
+		holder=10053518 # Akamatsu Masanori
+	}
+	1496.6.6={
+		holder=10053519 # Akamatsu Yoshimura
+	}
+	1518.1.1={
+		liege=0
+		holder=12641133 # Uragami Muramune
+	}
+	1520.11.1={
+		liege="d_nmih_harima"
+	}
+	1530.7.1={
+		liege="d_nmih_bizen"
+	}
+	1531.7.17={
+		holder=10054404 # Uragami Masamune
+	}
+	1552.4.1={
+		holder=10054407 # Uragami Munekage
+	}
+	1575.10.1={
+		liege="d_nmih_bizen"
+		holder=10055100 # Ukita Naoie
+	}
+	1576.1.1={
+		holder=10055130 # Osafune Sadachika
+	}
+	1591.3.1={
+		holder=10055131 # Osafune Tsunanao
+	}
+	1599.1.1={
+		holder=10055132 # Osafune Sadayuki
+	}
+	1601.1.1={
+		liege="d_nmih_bizen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10029568 # Ikeda Tadatsugu
+	}
+	1615.3.22={
+		holder=10029572 # Ikeda Tadakatsu
+	}
+}

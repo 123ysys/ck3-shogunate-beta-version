@@ -1,0 +1,65 @@
+d_nmih_southern_shinano = {
+	100.1.1={
+	}
+	1224.7.1={
+		liege="e_nmih_japan"
+		holder=10130246 # Bito Kagetsuna
+	}
+	1234.9.16={
+		holder=12375960 # Suwa Morishige
+	}
+	1260.1.1={
+		holder=12375958 # Suwa Moritsune
+	}
+	1280.1.1={
+		holder=12375959 # Suwa Munetsune
+	}
+	1333.7.4={
+		liege=0
+		holder=0 # 
+	}
+	1442.9.13={
+		liege=0
+		holder=12360750 # Ogasawara Mochinaga
+	}
+	1462.7.21={
+		liege=0
+		holder=12360760 # Ogasawara Kiyomune
+	}
+	1478.3.22={
+		holder=12360770 # Ogasawara Nagatomo
+	}
+	1501.9.24={
+		holder=12360780 # Ogasawara Sadatomo
+	}
+	1515.7.4={
+		holder=10021400 # Ogasawara Nagamune
+	}
+	1542.11.14={
+		holder=10021402 # Ogasawara Nagatoki
+	}
+	1550.9.6={
+		holder=0
+	}
+	1570.1.1={
+		liege="k_nmih_tokai"
+		holder=10020075 # Baba Nobuharu
+	}
+	1575.6.29={
+		holder=10020076 # Baba Masafusa
+	}
+	1581.1.1={
+		holder=10020035 # Nishina Morinobu
+	}
+	1582.3.25={
+		liege=0
+		holder=0 # 
+	}
+	1613.11.20={
+		liege="e_nmih_japan"
+		holder=10021470 # Ogasawara Hidemasa
+	}
+	1615.6.3={
+		holder=10021472 # Ogasawara Tadazane
+	}
+}

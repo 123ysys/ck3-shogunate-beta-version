@@ -1,0 +1,53 @@
+d_nmih_shimokuni = {
+	1.1.1={
+		government = republic_government
+	}
+	100.1.1={
+	}
+	1229.1.1={
+		holder=12030220 # Ando Suenobu, Ezo-daikan (Governer)
+	}
+	1230.1.1={
+		holder=12030230 # Ando Chikahide
+	}
+	1250.1.1={
+		holder=12030240 # Ando Takanari
+	}
+	1290.1.1={
+		holder=12030260 # Ando Sadasue
+	}
+	1320.1.1={
+		holder=12030280 # Ando Suenaga
+	}
+	1325.7.16 ={
+		holder=12030290 # Ando Munesue
+	}
+	1330.1.1={
+		holder=12030300 # Ando Morosue
+	}
+	1335.8.14={
+		liege=0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1355.1.1={
+		holder=10000113 # Ando Norisue
+	}
+	1400.1.1={
+		liege = 0
+		holder=0
+	}
+	1457.1.1={
+		liege="k_nmih_wajinchi"
+		holder=10000119 # Ando Iemasa
+	}
+	1495.7.28={
+		holder=10000121 # Ando Morosue
+	}
+	1512.5.1={
+		holder=0
+	}
+}

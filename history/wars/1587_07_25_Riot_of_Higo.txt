@@ -1,0 +1,11 @@
+war = {
+	name = "war_1587_riot_of_higo"
+	start_date = 1587.7.25
+	end_date = 1588.6.20
+	targeted_titles = {
+		d_nmih_rikuzen
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 12800406 } # Kumabe Chikanaga
+	defenders = { 10029400 } # Toyotomi Hideyoshi
+}

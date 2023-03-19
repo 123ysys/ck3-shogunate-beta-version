@@ -1,0 +1,11 @@
+k_nmih_southern_kyushu = {
+	0001.1.1={
+	}
+	1578.12.10={
+		liege=0
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1587.5.18={
+		holder=0
+	}
+}

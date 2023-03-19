@@ -1,0 +1,141 @@
+c_nmih_minagi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_minagi1={
+				set_title_name=b_nmih_minagi4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_minagi1={
+				set_title_name=b_nmih_minagi9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_minagi1={
+				set_title_name=b_nmih_minagi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12630200 # Bessho Yorikiyo
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_harima"
+	}
+	1190.1.1={
+		holder=12630201 # Bessho Kiyotsugu
+	}
+	1220.1.1={
+		holder=12630204 # Bessho Kiyomitsu
+	}
+	1250.1.1={
+		holder=12630205 # Bessho Yorimitsu
+	}
+	1280.1.1={
+		holder=12630206 # Bessho Norimitsu
+	}
+	1310.1.1={
+		holder=12630208 # Bessho Atsumitsu
+	}
+	1320.1.1={
+		holder=12630209 # Bessho Atsunori
+	}
+	1333.1.1={
+		liege="d_nmih_harima"
+	}
+	1370.1.1={
+		liege="d_nmih_harima"
+		holder=10053510 # Akamatsu Mochinori
+	}
+	1392.1.24={
+		holder=10053566 # Akamatsu Mochisuke
+	}
+	1430.1.1={
+		holder=10053567 # Bessho Sukenori
+	}
+	1441.9.25={
+		liege="e_nmih_japan"
+		holder=10053514 # Akamatsu Mitsumasa
+	}
+	1444.1.1={
+		liege=0
+	}
+	1445.5.30={
+		liege="d_nmih_harima"
+		holder=10050152 # Kakiya Hirotsugu
+	}
+	1467.6.27={
+		liege="d_nmih_harima"
+		holder=10053564 # Bessho Noriharu
+	}
+	1513.11.12={
+		holder=10053561 # Bessho Norisada
+	}
+	1520.1.1={
+		liege=0
+		holder=10053562 # Bessho Noriharu
+	}
+	1556.1.1={
+		holder=10053563 # Bessho Yasuharu
+	}
+	1568.10.22={
+		liege="k_nmih_chubu"
+	}
+	1570.1.1={
+		holder=10053568 # Bessho Nagaharu
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+	}
+	1577.10.1={
+		liege=0
+	}
+	1580.2.2={
+		liege="d_nmih_harima"
+		holder=10029452 # Sugihara Ietsugu
+	}
+	1582.7.2={
+		holder=10029741 # Tsubouchi Mitsukage
+	}
+	1585.5.11={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.8.10={
+		holder=10045762 # Nakagawa Hidemasa
+	}
+	1592.11.27={
+		holder=10045763 # Nakagawa Hideshige
+	}
+	1593.5.21={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.1.1={
+		holder=10029457 # Sugihara Nagafusa
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_harima"
+		holder=10207000 # Igi Tadatsugu
+	}
+	1603.12.12={
+		holder=10207001 # Igi Tadashige
+	}
+}

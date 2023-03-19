@@ -1,0 +1,141 @@
+c_nmih_hida_ono = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hida_ono1={
+				set_title_name=b_nmih_hida_ono1
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_hida_ono1={
+				set_title_name=B_NMIH_HIDA_ONO1_1331
+			}
+		}
+	}
+	1575.1.1={
+		effect={
+			title:b_nmih_hida_ono1={
+				set_title_name=b_nmih_hida_ono2
+			}
+		}
+	}
+	1588.1.1={
+		effect={
+			title:b_nmih_hida_ono1={
+				set_title_name=B_NMIH_HIDA_ONO2_1588
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1462.1.1 = { change_development_level = 20 }
+	1575.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_hida"
+	}
+	1180.1.1={
+		liege="d_nmih_hida"
+		holder=10131579 # Ito Kagekiyo
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_hida"
+		holder=10120084 # Minamoto Yoshinaka
+	}
+	1183.8.17={ # Taira's escape to the west
+		holder=12380111 # Imai Kanehira
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_hida"
+		holder=11001910 # Fujiwara Sadayoshi
+	}
+	1198.1.1={
+		holder=11006357 # Minase Chikakane
+	}
+	1221.7.6={
+		holder=12221013 # Mori Suemitsu
+	}
+	1247.7.9={
+		holder=12389900 # Fujiwara Tomotaka
+	}
+	1300.1.1={
+		liege="d_nmih_etchu"
+		holder=10131832 # Hojo [Ema] Masatoshi
+	}
+	1309.7.16={
+		holder=10132012 # Hojo [Ema] Munetomo
+	}
+	1318.1.1={
+		holder=10132178 # Hojo [Ema] Toshikane
+	}
+	1333.7.4={
+		liege="d_nmih_hida"
+		holder=12187026 # Iwamatsu Tsuneie
+	}
+	1335.8.11={
+		holder=11003176 # Anekoji Takamoto
+	}
+	1358.4.10={
+		holder=11003178 # Anekoji Ietsuna
+	}
+	1359.8.1={
+		liege="e_nmih_nancho"
+	}
+	1389.1.1={
+		holder=11003179 # Anekoji Yoritoki
+	}
+	1392.11.12={
+		liege=0
+	}
+	1411.9.20={
+		holder=11003181 # Anekoji Morotoki
+	}
+	1440.1.1={
+		holder=11003185 # Anekoji Mochitoki
+	}
+	1460.1.1={
+		liege=0
+		holder=11003187 # Anekoji Katsutoki
+	}
+	1481.1.1={
+		holder=11003202 # Anekoji Mototsuna
+	}
+	1504.6.5={
+		holder=11003205 # Anekoji Naritsugu
+	}
+	1518.7.7={
+		holder=11003208 # Anekoji Naritoshi
+	}
+	1527.10.26={
+		liege=0
+		holder=10025101 # Miki Naoyori
+	}
+	1554.7.13={
+		holder=10025103 # Miki Yoshiyori
+	}
+	1570.2.1={
+		liege="k_nmih_chubu"
+		holder=10025109 # Anegakoji(Miki) Yoritsuna
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1582.11.22={
+		liege="d_nmih_hida"
+	}
+	1585.9.9={
+		liege="e_nmih_japan"
+		holder=10025930 # Kanamori Nagachika
+	}
+	1603.3.24={
+		liege="d_nmih_hida"
+	}
+	1608.9.20={
+		holder=10025932 # Kanamori Yoshishige
+	}
+	1615.7.28={
+		holder=10025934 # kanamori Shigeyori
+	}
+}

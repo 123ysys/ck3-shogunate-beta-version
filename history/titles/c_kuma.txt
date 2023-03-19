@@ -1,0 +1,154 @@
+c_nmih_kuma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kuma1={
+				set_title_name=b_nmih_kuma9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kuma1={
+				set_title_name=b_nmih_kuma9
+			}
+		}
+	}
+	1205.1.1={
+		effect={
+			title:b_nmih_kuma1={
+				set_title_name=b_nmih_kuma2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1205.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10290320 # Takekaya
+		liege=d_nmih_higo
+	}
+	270.1.1={
+		holder=10290322 # Sekaya
+		liege=0
+	}
+	295.1.1={
+		holder=10290325 # Torishikaya
+	}
+	1180.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12780900 # Hirakawa Yoshitaka
+	}
+	1198.12.1={
+		liege="e_nmih_japan"
+		holder=10066442 # Sagara Nagayori
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_higo"
+	}
+	1254.3.30={
+		holder=10066441 # Sagara Yorichika
+	}
+	1255.1.1={
+		holder=10066460 # Sagara Yoritoshi
+	}
+	1287.1.1={
+		holder=10066461 # Sagara Nagauji
+	}
+	1326.1.1={
+		holder=10066467 # Sagara Yorihiro
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+	}
+	1336.1.1={
+		liege="d_nmih_chikuzen"
+		holder=10066470 # Sagara Sadayori
+	}
+	1336.7.22={
+		liege="k_nmih_kyushu_tandai"
+	}
+	1355.1.1={
+		liege="d_nmih_osumi"
+	}
+	1368.1.1={
+		holder=10066473 # Sagara Sakiyori
+	}
+	1370.1.1={
+		liege="k_nmih_kyushu_tandai"
+	}
+	1383.4.1={
+		liege="d_nmih_higo"
+	}
+	1394.2.19={
+		holder=10066479 # Sagara Sanenaga
+	}
+	1417.4.20={
+		liege="d_nmih_higo"
+		holder=10066482 # Sagara Sakitsugu
+	}
+	1443.7.23={
+		holder=10066483 # Sagara Takayori
+	}
+	1448.5.1={
+		holder=10066406 # Sagara Nagatsugu
+	}
+	1467.1.1={
+		liege=0
+	}
+	1468.3.9={
+		holder=10066405 # Sagara Tametsugu
+	}
+	1500.6.30={
+		holder=10066401 # Sagara Nagatsune
+	}
+	1502.1.1={
+		liege="d_nmih_higo"
+	}
+	1507.1.1={
+		liege=0
+	}
+	1518.6.18={
+		holder=10066403 # Sagara Nagamasa
+	}
+	1525.1.31={
+		holder=10066409 # Sagara Nagasada
+	}
+	1526.5.18={
+		holder=10066400 # Sagara Yoshishige
+	}
+	1534.1.1={
+		liege="d_nmih_higo"
+	}
+	1546.9.19={
+		holder=10066404 # Sagara Haruhiro
+	}
+	1554.12.14={
+		holder=10066404 # Sagara Haruhiro
+	}
+	1555.8.28={
+		holder=10066424 # Sagara Yoshihi
+	}
+	1581.9.1={
+		liege="d_nmih_higo"
+	}
+	1581.12.27={
+		holder=10066427 # Sagara Tadafusa
+	}
+	1585.3.16={
+		holder=10066428 # Sagara Yorifusa
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

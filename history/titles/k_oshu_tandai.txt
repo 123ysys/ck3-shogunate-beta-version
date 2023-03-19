@@ -1,0 +1,58 @@
+k_nmih_oshu_tandai = {
+	1000.1.1={
+	}
+	1354.1.1={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12139050 # Shiba Iekane
+	}
+	1356.7.11={
+		holder=10006217 # Osaki Tadamochi
+	}
+	1383.11.26={
+		holder=10006213 # Osaki Akimochi
+	}
+	1392.1.1={
+		liege = 0
+	}
+	1400.1.1={
+		holder=10006212 # Osaki Mitsuakira
+	}
+	1404.1.1={
+		holder=10006210 # Osaki Mitsumochi
+	}
+	1424.1.1={
+		holder=10006208 # Osaki Mochiakira
+	}
+	1441.1.1={
+		holder=10006207 # Osaki Norikane
+	}
+	1484.1.1={
+		holder=10006206 # Osaki Masakane
+	}
+	1487.9.22={
+		holder=10006203 # Osaki Yoshikane
+	}
+	1529.1.1={
+		holder=10006204 # Osaki Takakane
+	}
+	1530.1.1={
+		holder=10006201 # Osaki Yoshinao
+	}
+	1555.1.1={ # Date became Oshu Tandai.
+		liege=0
+		holder=10001002 # Date Harumune 
+	}
+	1564.1.1={
+		holder=10001021 # Date Terumune
+	}
+	1584.10.6={
+		holder=10001035 # Date Masamune
+	}
+	1590.6.26={
+		liege="e_nmih_japan"
+	}
+	1590.8.28={
+		holder=0
+	}
+}

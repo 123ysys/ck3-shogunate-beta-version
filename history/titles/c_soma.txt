@@ -1,0 +1,157 @@
+c_nmih_soma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_soma1={
+				set_title_name=b_nmih_soma9
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_soma1={
+				set_title_name=b_nmih_soma1
+			}
+		}
+	}
+	1591.1.1={
+		effect={
+			title:b_nmih_soma1={
+				set_title_name=b_nmih_soma2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 10 }
+	1591.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_shimousa"
+	}
+	0940.3.25={
+		holder=10110500 # Taira Yoshifumi
+	}
+	0953.1.11={
+		holder=10110502 # Taira Tadayori
+	}
+	1019.1.25={
+		holder=10110510 # Taira Tadatsune
+	}
+	1031.6.28={
+		liege="d_nmih_shimousa"
+		holder=10110520 # Taira Tsunemasa
+	}
+	1076.7.6={
+		holder=10110530 # Taira Tsunenaga
+	}
+	1108.3.23={
+		holder=12155000 # Kazusa [Taira] Tsuneharu
+	}
+	1127.1.1={
+		holder=12150110 # Chiba Tsuneshige
+	}
+	1145.1.1={
+		holder=12155001 # Kazusa [Taira] Tsunesumi
+	}
+	1146.1.1={
+		holder=12150120 # Chiba Tsunetane
+	}
+	1163.1.1={
+		holder=0 # Minamoto Yoshimune
+	}
+	1180.1.1={
+		liege="d_nmih_kazusa"
+		holder=12155018 # Soma Tsunekiyo
+	}
+	1184.2.3={
+		liege="d_nmih_shimousa"
+		holder=12150124 # Soma Morotsune
+	}
+	1205.1.1={
+		holder=12150800 # Soma Yoshitane
+	}
+	1228.1.1={
+		holder=12150810 # Soma Tanetsuna
+	}
+	1278.1.1={
+		holder=12150820 # Soma Tanemura
+	}
+	1298.1.1={
+		holder=12150831 # Soma Taneuji
+	}
+	1320.1.1={
+		holder=10006762 # Soma Tanemoto
+	}
+	1325.1.1={
+		holder=10006761 # Soma Tanetada
+	}
+	1350.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10006760 # Soma Tanenaga
+	}
+	1370.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10006759 # Soma Tanemune
+	}
+	1390.1.1={
+		holder=10006758 # Soma Suketane
+		liege="k_nmih_kamakura_kubo"
+	}
+	1410.1.1={
+		holder=10006757 # Soma Taneyoshi
+		liege="k_nmih_kamakura_kubo"
+	}
+	1430.1.1={
+		holder=10006756
+		liege="k_nmih_kamakura_kubo"
+	}
+	1450.1.1={
+		holder=10006755
+		liege="k_nmih_kamakura_kubo"
+	}
+	1470.1.1={
+		holder=10006754
+		liege="k_nmih_kamakura_kubo"
+	}
+	1490.1.1={
+		holder=10006753
+		liege="k_nmih_kamakura_kubo"
+	}
+	1510.1.1={
+		holder=10006752
+		liege="k_nmih_kamakura_kubo"
+	}
+	1530.1.1={
+		holder=10006751
+		liege="k_nmih_kamakura_kubo"
+	}
+	1546.5.19={
+		holder=10006765 # Soma Masatane
+	}
+	1546.5.19={
+		liege=0 # After the Battle of Kawagoe, the Kamakura Kubo lost his power
+	}
+	1566.2.17={
+		holder=10006767 # Soma Harutane
+	}
+	1575.1.1={
+		liege="k_nmih_western_kanto"
+	}
+	1590.7.27={
+		holder=10006798 # Soma Hidetane
+	}
+	1597.3.3={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10202201 # Toki Sadayoshi
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

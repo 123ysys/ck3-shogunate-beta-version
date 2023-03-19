@@ -1,0 +1,42 @@
+d_nmih_western_mikawa = {
+	100.1.1={
+	}
+	1361.11.1={
+		liege="e_nmih_japan"
+		holder=12395035 # Kira Mitsusada
+	}
+	1384.9.28={
+		holder=12395040 # Kira Toshiuji
+	}
+	1422.1.1={
+		holder=12395045 # Kira Yoshinao
+	}
+	1452.1.1={
+		holder=12395050 # Kira Yoshizane
+	}
+	1481.8.16={
+		holder=10024603 # Kira Yoshinobu
+	}
+	1516.10.4={
+		holder=10024600 # Kira Yoshitaka
+	}
+	1521.3.7={
+		liege=0
+	}
+	1540.1.1={
+		holder=10024605 # Kira Yoshisasu
+	}
+	1549.1.1={
+		holder=0
+	}
+	1590.7.25={ 
+		liege="k_nmih_chubu"
+		holder=10043420 # Tanaka Yoshimasa
+	}
+	1595.8.20={ 
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		holder=0
+	}
+}

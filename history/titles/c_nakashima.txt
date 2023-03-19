@@ -1,0 +1,160 @@
+c_nmih_nakashima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nakashima1={
+				set_title_name=b_nmih_nakashima1
+			}
+		}
+	}
+	0701.1.1={
+		effect={
+			title:b_nmih_nakashima1={
+				set_title_name=b_nmih_nakashima9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_nakashima1={
+				set_title_name=b_nmih_nakashima3
+			}
+		}
+	}
+	1560.1.1={
+		effect={
+			title:b_nmih_nakashima1={
+				set_title_name=B_NMIH_NAKASHIMA3_1560
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0701.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 60 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	1179.12.18={
+		liege="d_nmih_owari" # Taira Kiyosada
+		holder=10110140 # Taira Kiyosada
+	}
+	1180.11.9={
+		liege="d_nmih_owari"
+		holder=10120080 # Minamoto Gien
+	}
+	1181.4.25={
+		liege="d_nmih_owari"
+		holder=12430012 # Takata Shigeie
+	}
+	1184.3.4={
+		liege="d_nmih_owari"
+		holder=12431200 # Oya Yasusuke
+	}
+	1185.4.25={
+		holder=12205303 # Ono Naritsuna
+	}
+	1211.1.1={
+		holder=12205311 # Ono Moritsuna
+	}
+	1221.7.6={
+		liege="d_nmih_owari"
+		holder=12437500 # Nakajima Norinaga
+	}
+	1260.1.1={
+		holder=12437501 # Nakajima Kurando
+	}
+	1290.1.1={
+		holder=12437502 # Nakajima Kurando
+	}
+	1320.1.1={
+		liege="d_nmih_owari"
+		holder=12437300 # Arao Muneaki
+	}
+	1350.1.1={
+		holder=12437301 # Arao Chikazane
+	}
+	1380.1.1={
+		holder=12437310 # Arao Yoshichika
+	}
+	1400.1.17={
+		liege="d_nmih_owari"
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.6.1={
+		liege="d_nmih_owari"
+		holder=10029011 # Shiba Yoshishige
+	}
+	1418.9.10={
+		holder=10029012 # Shiba Yoshiatsu
+	}
+	1434.1.11={
+		holder=10029013 # Shiba Yoshisato
+	}
+	1436.11.8={
+		holder=10029016 # Shiba Yoshitake
+	}
+	1452.10.13={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1460.1.1={
+		holder=10029021 # Shiba Yoshihiro
+	}
+	1461.9.6={
+		holder=10057621 # Shiba Yoshikado
+	}
+	1466.9.2={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1466.10.23={
+		holder=10057621 # Shiba Yoshikado
+	}
+	1478.1.1={
+		liege=0
+		holder=10029108 # Oda Toshihiro
+	}
+	1479.1.1={
+		liege="d_nmih_owari"
+	}
+	1481.3.1={
+		holder=10029110 # Oda Tohiro
+	}
+	1504.1.1={
+		holder=10029112 # Oda Hirotaka
+	}
+	1517.2.16={
+		holder=10029102 # Oda Nobuyasu
+	}
+	1558.01.01={
+		liege=0 
+		holder=10029123 # Oda Nobukata
+	}
+	1559.03.01={
+		liege="d_nmih_owari" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1568.1.1={
+		liege="d_nmih_owari"
+		holder=12437001 # Azai Masasada
+	}
+	1581.6.25={
+		holder=12437005 # Azai Nagatoki
+	}
+	1584.4.16={
+		holder=10029161 # Oda Nobukatsu
+	}
+	1590.7.25={
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=10029720 # Fukushima Masanori
+	}
+	1603.3.24={
+		liege="d_nmih_owari"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

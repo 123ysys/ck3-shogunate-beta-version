@@ -1,0 +1,12 @@
+371 = {
+
+	culture = northern_kanto
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1335.1.1={
+	}
+	1550.1.1={
+	}
+}

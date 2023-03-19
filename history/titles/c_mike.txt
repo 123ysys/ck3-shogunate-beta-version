@@ -1,0 +1,160 @@
+c_nmih_mike = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mike1={
+				set_title_name=b_nmih_mike1
+			}
+		}
+	}
+	1000.1.1={
+		effect={
+			title:b_nmih_mike1={
+				set_title_name=B_NMIH_MIKE1_1000
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mike1={
+				set_title_name=b_nmih_mike9
+			}
+		}
+	}
+	1500.1.1={
+		effect={
+			title:b_nmih_mike1={
+				set_title_name=b_nmih_mike2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1500.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	180.1.1={
+		holder=10290001 # Himiko
+	}
+	248.1.1={
+		holder=10290005 # Toyo
+	}
+	270.1.1={
+		holder=10290006 # Nukate
+	}
+	310.1.1={
+		holder=10290007 # Semoko
+	}
+	340.1.1={
+		holder=10290009 # Natsuha
+	}
+	1180.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12750200 # Mike Atsutane
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_chikuzen"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_utsunomiya"
+		holder=12130020 # Utsunomiya Yoritsuna
+	}
+	1259.12.26={
+		holder=12130030 # Utsunomiya Yasutsuna
+	}
+	1260.11.24={
+		holder=12130040 # Utsunomiya Kagetsuna
+	}
+	1298.5.1={
+		liege="d_nmih_iyo"
+		holder=12130046 # Utsunomiya Yasumune
+	}
+	1327.2.24={
+		holder=10058811 # Utsunomiya Sadayasu
+	}
+	1333.7.4={
+		liege="d_nmih_chikugo"
+		holder=12130051 # Utsunomiya Fuyutsuna
+	}
+	1334.1.1={
+		liege="d_nmih_buzen"
+		holder=10132245 # Hojo Sadayoshi
+	}
+	1334.3.1={
+		liege="d_nmih_chikugo"
+		holder=12130051 # Utsunomiya Fuyutsuna
+	}
+	1350.9.1={
+		liege="k_nmih_western_chugoku"
+		holder=10040036 # Ashikaga Tadafuyu
+	}
+	1352.3.12={
+		liege="d_nmih_chikugo"
+		holder=12130051 # Utsunomiya Fuyutsuna
+	}
+	1355.1.1={
+		liege="d_nmih_chikugo"
+		holder=10041908 # Prince Kaneyoshi
+	}
+	1355.1.2={
+		holder=12800500 # Gojo Yorimoto
+	}
+	1367.5.28={
+		holder=12800502 # Gojo Yoshito
+	}
+	1375.1.1={
+		liege="d_nmih_chikugo"
+		holder=10060029 # Imagawa Sadayo
+	}
+	1391.1.1={
+		holder=10064016 # Otomo Chikayo
+	}
+	1401.1.1={
+		holder=10064017 # Otomo Chikaaki
+	}
+	1423.1.1={
+		holder=10064018 # Otomo Mochinao
+	}
+	1434.1.1={
+		liege="d_nmih_chikugo"
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1446.8.20={
+		holder=10066006 # Kikuchi Tamekuni
+	}
+	1466.1.1={
+		liege="d_nmih_bungo"
+		holder=10064505 # Kamachi Tadahisa
+	}
+	1470.1.1={
+		liege="d_nmih_bungo"
+		holder=10064502 # Kamachi Takehisa
+	}
+	1526.1.1={
+		holder=10064501 # Kamachi Shigehisa
+	}
+	1545.1.1={
+		holder=10064504 # Kamachi Akimori
+	}
+	1578.12.7={
+		liege="d_nmih_hizen"
+		holder=10064514 # Kamachi Shigenami
+	}
+	1581.7.18={
+		holder=10068105 # Nabeshima Naoshige
+	}
+	1587.5.18={
+		liege="d_nmih_chikugo"
+		holder=10064823 # Tachibana Naotsugu
+	}
+	1603.3.24={
+		liege="d_nmih_chikugo"
+		holder=10043420 # Tanaka Yoshimasa
+	}
+	1609.3.23={
+		holder=10043424 # Tanaka Tadamasa
+	}
+}

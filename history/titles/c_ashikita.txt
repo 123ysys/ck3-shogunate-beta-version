@@ -1,0 +1,139 @@
+c_nmih_ashikita = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ashikita1={
+				set_title_name=b_nmih_ashikita2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ashikita1={
+				set_title_name=b_nmih_ashikita2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10290320 # Takekaya
+		liege=d_nmih_higo
+	}
+	270.1.1={
+		holder=10290321 # Atsukaya
+		liege=0
+	}
+	295.1.1={
+		holder=10290325 # Torishikaya
+	}
+	1180.1.1={
+		liege="d_nmih_higo"
+		holder=12780654 # Kikuchi Takatoshi
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_higo"
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo [Nagoe] Mitsutoki
+	}
+	1272.3.11={
+		holder=12220017 # Adachi Yasumori
+	}
+	1285.12.14={
+		holder=10110266 # Taira Yoritsuna
+	}
+	1293.5.29={
+		holder=10132097 # Hojo Masaaki
+	}
+	1316.1.1={
+		holder=10132244 # Hojo Takamasa
+	}
+	1333.7.4={
+		liege="d_nmih_hoki"
+		holder=10066329 # Nawa Yoshitaka
+	}
+	1336.8.7={
+		liege="e_nmih_nancho"
+	}
+	1338.6.10={
+		liege="d_nmih_higo"
+		holder=10066326 # Nawa Akioki
+	}
+	1380.1.1={
+		holder=10066323 # Nawa Yasuoki
+	}
+	1420.1.1={
+		holder=10066321 # Nawa Akisane
+	}
+	1440.1.1={
+		liege="d_nmih_higo"
+		holder=10066316 # Nawa Norinaga
+	}
+	1452.6.8={
+		liege=0
+		holder=10066320 # Nawa Yoshioki
+	}
+	1460.1.6={
+		holder=10066301 # Nawa Akitada
+	}
+	1484.3.7={
+		liege="d_nmih_higo"
+		holder=10066405 # Sagara Tametsugu
+	}
+	1493.9.1={
+		liege=0
+	}
+	1500.6.30={
+		holder=10066401 # Sagara Nagatsune
+	}
+	1502.1.1={
+		liege="d_nmih_higo"
+	}
+	1507.1.1={
+		liege=0
+	}
+	1518.6.18={
+		holder=10066403 # Sagara Nagamasa
+	}
+	1525.1.31={
+		holder=10066409 # Sagara Nagasada
+	}
+	1526.5.18={
+		holder=10066400 # Sagara Yoshishige
+	}
+	1534.1.1={
+		liege="d_nmih_higo"
+	}
+	1546.9.19={
+		holder=10066404 # Sagara Haruhiro
+	}
+	1554.12.14={
+		liege=0
+	}
+	1555.8.28={
+		holder=10066424 # Sagara Yoshihi
+	}
+	1581.9.1={
+		liege="d_nmih_higo"
+		holder=10060045 # Shimazu Yoshihiro
+	}
+	1587.5.18={
+		liege="d_nmih_higo"
+		holder=10029350 # Sassa Narimasa
+	}
+	1588.7.7={
+		liege="d_nmih_southern_higo"
+		holder=10042923 # Konishi Yukinaga
+	}
+	1603.3.24={
+		liege="d_nmih_higo"
+		holder=10029718 # Kato Masakata
+	}
+}

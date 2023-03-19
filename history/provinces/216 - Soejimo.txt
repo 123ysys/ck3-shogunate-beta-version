@@ -1,0 +1,14 @@
+216 = {
+
+	culture = southern_kinai
+	religion = shinto
+	holding = castle_holding
+	607.1.1={
+	}
+	670.1.1={
+	}
+	693.1.1={
+	}
+	1331.1.1={
+	}
+}

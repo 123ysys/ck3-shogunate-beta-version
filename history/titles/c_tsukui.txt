@@ -1,0 +1,136 @@
+c_nmih_tsukui = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsukui1={
+				set_title_name=b_nmih_tsukui1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_sagami"
+	}
+	1180.1.1={
+		liege="d_nmih_eastern_sagami"
+		holder=12205040 # Yokoyama Tokihiro
+	}
+	1189.1.1={
+		liege="d_nmih_eastern_sagami"
+		holder=12205050 # Yokoyama Tokikane
+	}
+	1213.5.24={
+		liege="e_nmih_japan"
+		holder=10120087 # Minamoto Sanetomo
+	}
+	1219.2.13={
+		holder=11000620 # Fujiwara (Kujo) no Yoritsune
+	}
+	1244.4.28={
+		holder=11000887 # Fujiwara (Kujo) no Yoritsugu
+	}
+	1252.1.8={
+		holder=10041840 # Prince Munetaka
+	}
+	1266.7.24={
+		holder=10041841 # Prince Koreyasu
+	}
+	1289.10.9={
+		holder=10041850 # Prince Hisaaki
+	}
+	1308.8.10={
+		holder=10041851 # Prince Morikuni
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+		holder=10132322 # Hojo Takakuni
+	}
+	1335.9.6={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040002 # Ashikaga Yoshiakira
+	}
+	1349.10.21={
+		holder=10040067 # Ashikaga Motouji
+	}
+	1351.8.23={
+		liege="k_nmih_western_kanto"
+		holder=10017030 # Uesugi Tomosada
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=10017033 # Uesugi Akisada
+	}
+	1353.7.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1367.5.25={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1380.1.1={
+		holder=10017035 # Uesugi Ujisada
+	}
+	1416.10.28={
+		holder=10017036 # Uesugi Mochisada
+	}
+	1419.6.14={
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1439.3.24={
+		liege="d_nmih_sagami"
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1477.2.10={
+		liege=0
+		holder=10017324 # Nagao Kageharu
+	}
+	1478.5.25={
+		liege="d_nmih_sagami"
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1486.10.22={
+		liege="d_nmih_sagami"
+		holder=10017324 # Nagao Kageharu
+	}
+	1510.7.1={
+		holder=10018500 # Naito YamatoNyudo
+	}
+	1512.1.1={
+		liege="d_nmih_izu" # 16001 Hojo Soun
+	}
+	1516.8.19={
+		liege="d_nmih_sagami" # 16001 Hojo Soun
+	}
+	1525.1.1={
+		holder=10018501 # Naito Tomoyuki
+	}
+	1550.1.1={
+		holder=10018502 # Naito Yasuyuki
+	}
+	1565.1.1={
+		holder=10018503 # Naito Tsunahide
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

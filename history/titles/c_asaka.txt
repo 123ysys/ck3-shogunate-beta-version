@@ -1,0 +1,158 @@
+c_nmih_asaka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_asaka1={
+				set_title_name=b_nmih_asaka5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_asaka1={
+				set_title_name=b_nmih_asaka9
+			}
+		}
+	}
+	1189.11.15={
+		effect={
+			title:b_nmih_asaka1={
+				set_title_name=b_nmih_asaka1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1189.11.15 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_iwashiro"
+		holder=12060060 # Sato Motoharu
+	}
+	1181.7.25={
+		holder=12060052 # Igarame Takashige
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_iwashiro"
+		holder=12220200 # Nikaido Yukimasa
+	}
+	1205.1.1={
+		holder=12220201 # Nikaido Yukimitsu
+	}
+	1219.10.17={
+		holder=12220204 # Nikaido Yukimori
+	}
+	1253.12.8={
+		holder=12220206 # Nikaido Yukiyasu
+	}
+	1265.11.11={
+		holder=12220209 # Nikaido Yukizane
+	}
+	1269.8.12={
+		holder=12220205 # Nikaido Yukitsuna
+	}
+	1281.6.7={
+		holder=12220240 # Nikaido Yoristuna
+	}
+	1283.10.24={
+		holder=12220207 # Nikaido Yukitada
+	}
+	1290.12.24={
+		holder=12220271 # Nikaido Yukisada
+	}
+	1329.3.3={
+		holder=12220273 # Nikaido Sadahira
+	}
+	1332.2.3={
+		holder=12220371 # Nikaido Sadafuji
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=12220275 # Nikaido Akiyuki
+	}
+	1339.1.1={
+		liege="d_nmih_oshu_shugo"
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+		holder=12395015 # Kira Sadaie
+	}
+	1354.1.1={
+		holder=10018306 # Kira Mitsuie
+	}
+	1356.11.1={
+		liege=0
+		holder=10018307 # Kira Mochiie
+	}
+	1367.1.1={
+		liege="k_nmih_oshu_tandai"
+		holder=12536000 # Ishibashi Muneyoshi
+	}
+	1391.1.1={
+		holder=12536002 # Ishibashi Mitsuhiro
+	}
+	1392.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1399.1.1={
+		liege="d_nmih_iwashiro"
+		holder=10040068 # Ashikaga Mitsunao (Sasakawa-Kubo)
+	}
+	1440.7.23={
+		liege=0
+		holder=10006805 # Nikaido Tameuji
+	}
+	1464.8.5={
+		holder=10006804 # Nikaido Yukimitsu
+	}
+	1474.2.11={
+		holder=10006803 # Nikaido Yukiaki
+	}
+	1495.1.1={
+		holder=10006837 # Nikaido Yukikage
+	}
+	1504.1.1={
+		holder=10006801 # Nikaido Haruyuki
+	}
+	1542.7.2={
+		holder=10006802 # Nikaido Teruyuki
+	}
+	1564.10.22={
+		holder=10006838 # Nikaido Moriyoshi
+	}
+	1566.1.1={
+		liege="d_nmih_aizu" # vassal of Ashina
+	}
+	1581.9.23={
+		holder=10006840 # Nikaido Yukichika
+	}
+	1582.1.1={
+		holder=10006841 # Nikaido Yukihide
+	}
+	1589.12.3={
+		liege="k_nmih_oshu_tandai"
+		holder=10001023 # Ishikawa Akimitsu
+	}
+	1590.8.28={
+		liege="k_nmih_southern_oshu"
+		holder=10026142 # Tamaru Naomasa
+	}
+	1598.3.1={
+		holder=12450156 # Kurita Kunitoki
+	}
+	1600.1.1={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1603.3.24={
+		liege="d_nmih_aizu"
+		holder=10206700 # Inada Sadasuke
+	}
+}

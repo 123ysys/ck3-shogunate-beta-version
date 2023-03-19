@@ -1,0 +1,7 @@
+37 = {
+
+	culture = southern_kanto
+	religion = shinto
+	holding = castle_holding
+
+}

@@ -1,0 +1,13 @@
+4 = {
+
+	culture = northern_oshu
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1189.10.3={
+		culture = northern_oshu
+	}
+	1534.1.1 = { culture = northern_oshu }
+
+}

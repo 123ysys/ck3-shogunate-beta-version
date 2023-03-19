@@ -1,0 +1,138 @@
+﻿namespace = shogunate_bookmark
+
+# Kenmu War
+shogunate_bookmark.1010 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				game_start_date = 1336.1.2
+			}
+
+			# Northern Court Army
+
+			character:12139028 = {											# Ashikaga Takauji
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+
+			character:10044203 = {											# Sasaki Doyo
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+
+			character:10053500 = {											# Akamatsu Enshin
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+
+			# Title Changes
+
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			title:c_nmih_higashinari = {
+				change_title_holder = {
+					holder = character:12560001									# Kusunoki Masashige
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+
+			# Alliances
+
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 12139028												# Ashikaga Takauji
+				CHAR2 = 10053500												# Akamatsu Enshin
+			}
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 12139028												# Ashikaga Takauji
+				CHAR2 = 10068020												# Shoni Sadatsune
+			}
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 12139028												# Ashikaga Takauji
+				CHAR2 = 10064013												# Otomo Ujiyasu
+			}
+
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 10041075												# Emperor Go-Daigo
+				CHAR2 = 12185040												# Nitta Yoshisada
+			}
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 10041075												# Emperor Go-Daigo
+				CHAR2 = 10125125												# Kitabatake Akiie
+			}
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 10041075												# Emperor Go-Daigo
+				CHAR2 = 12560001												# Kusunoki Masashige
+			}
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 10041075												# Emperor Go-Daigo
+				CHAR2 = 10066023												# Kikuchi Takeshige
+			}
+
+			# Reinforcements
+
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 10053500												# Akamatsu Enshin
+				CHAR2 = 12139028												# Ashikaga Takauji
+				MONTH = 15
+			}
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 10068020												# Shoni Sadatsune
+				CHAR2 = 12139028												# Ashikaga Takauji
+				MONTH = 15
+			}
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 10064013												# Otomo Ujiyasu
+				CHAR2 = 12139028												# Ashikaga Takauji
+				MONTH = 15
+			}
+
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 12560001												# Kusunoki Masashige
+				CHAR2 = 10041075												# Emperor Go-Daigo
+				MONTH = 9
+			}
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 10125125												# Kitabatake Akiie
+				CHAR2 = 10041075												# Emperor Go-Daigo
+				MONTH = 9
+			}
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 10066023												# Kikuchi Takeshige
+				CHAR2 = 10041075												# Emperor Go-Daigo
+				MONTH = 15
+			}
+		}
+	}
+}

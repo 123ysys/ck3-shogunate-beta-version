@@ -1,0 +1,115 @@
+d_nmih_iyo = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.1.1={
+		liege=0
+		holder=12691005 # Kono Michikiyo
+	}
+	1181.2.27={
+		holder=12691010 # Kono Michinobu
+	}
+	1185.3.22={
+		liege="e_nmih_japan"
+	}
+	1199.2.9={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=12130020 # Utsunomiya Yoritsuna
+	}
+	1238.1.1={
+		holder=12130030 # Utsunomiya Yasutsuna
+	}
+	1240.1.1={
+		holder=12130032 # Utsunomiya Yorinari
+	}
+	1277.9.10={
+		holder=12130046 # Utsunomiya Yasumune
+	}
+	1327.2.24={
+		holder=12130075 # Utsunomiya Sadamune
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=12691907 # Tokuno Michitsuna
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10058628 # Kono Michimori
+	}
+	1340.9.1={
+		holder=12187027 # Iwamatsu Raiyu
+	}
+	1342.8.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1351.3.15={
+		holder=10058628 # Kono Michimori
+	}
+	1354.10.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1361.10.1={
+		holder=10058628 # Kono Michimori
+	}
+	1364.12.19={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1379.2.1={
+		holder=10058622 # Kono Michitaka
+	}
+	1379.12.23={
+		holder=10058616 # Kono Michiyoshi
+	}
+	1394.12.9={
+		holder=10058617 # Kono Michiyuki
+	}
+	1414.9.1={
+		holder=10058615 # Kono Michihisa
+	}
+	1435.7.24={
+		holder=10058604 # Kono Norimichi
+	}
+	1449.1.1={
+		liege=0
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan" # Onin War
+	}
+	1470.1.1={ 
+		liege=0
+	}
+	1500.2.19={
+		holder=10058601 # Kono Michinobu
+	}
+	1519.1.1={
+		holder=10058600 # Kono Michinao
+	}
+	1553.1.1={
+		holder=10058603 # Kono Michinobu
+	}
+	1581.1.1={
+		holder=10058605 # Kono Michinao
+	}
+	1585.8.10={
+		holder=10056016 # Kobayakawa Takakage
+		liege="k_nmih_western_chugoku"
+	}
+	1587.5.18={
+		holder=10029720 # Fukushima Masanori
+		liege="e_nmih_japan"
+	}
+	1595.8.20={
+		holder=0 # 
+	}
+}

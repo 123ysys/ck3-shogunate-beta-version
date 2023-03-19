@@ -1,0 +1,131 @@
+c_nmih_kanbara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kanbara1={
+				set_title_name=b_nmih_kanbara1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kanbara1={
+				set_title_name=b_nmih_kanbara9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kanbara1={
+				set_title_name=b_nmih_kanbara3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12270190 # Hashida Taro
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="d_nmih_northern_echigo"
+		holder=12270131 # Jo Nagamochi
+	}
+	1201.3.28={
+		liege="d_nmih_northern_echigo"
+		holder=12270140 # Jo Sukemori
+	}
+	1201.6.11={
+		liege="d_nmih_northern_echigo"
+		holder=12510062 # Sasaki Moritsuna
+	}
+	1211.1.1={
+		holder=12270400 # Kaji Nobuzane
+	}
+	1243.8.13={
+		holder=12270414 # Kaji Ujitsuna
+	}
+	1260.1.1={
+		holder=12270480 # Kaji Kagetsuna
+	}
+	1300.1.1={
+		holder=12270485 # Kaji Munetsuna
+	}
+	1330.1.1={
+		holder=12270490 # Kaji Kagetsuna
+	}
+	1338.8.17={
+		liege="d_nmih_echigo"
+	}
+	1341.6.1={
+		holder=12215326 # Nagao Kagetsune
+	}
+	1350.12.20={
+		holder=10032003 # Nagao Takakage
+	}
+	1352.3.12={
+		liege="d_nmih_uesugi"
+	}
+	1363.3.1={
+		liege="d_nmih_echigo"
+	}
+	1389.3.26={
+		holder=10032004 # Nagao Kunikage
+	}
+	1450.12.16={
+		holder=10032006 # Nagao Yorikage
+	}
+	1469.10.6={
+		holder=10032007 # Nagao Shigekage
+	}
+	1482.3.14={
+		holder=10032008 # Nagao Yoshikage
+	}
+	1506.10.5={
+		holder=10032000 # Nagao Tamekage
+	}
+	1543.1.29={
+		holder=10032009 # Nagao Harukage
+	}
+	1548.12.30={
+		holder=10032011 # Nagao Kagetora (Uesugi Kenshin)
+	}
+	1577.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+		holder=10032649 # Kanamari Chikatsuna
+	}
+	1578.4.19={
+		liege="d_nmih_kozuke" # Uesugi Kagetora
+	}
+	1579.4.19={
+		liege=0
+	}
+	1580.6.1={
+		liege="d_nmih_echigo" # 32032 Uesugi Kagekatsu
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1582.1.1={
+		holder=10091701 # Amakasu Kagemochi
+	}
+	1598.3.1={
+		holder=10025966 # Hori Naomasa
+	}
+	1603.3.24={
+		liege="d_nmih_echigo"
+	}
+	1608.4.11={
+		holder=10025967 # Hori Naokiyo
+	}
+	1610.3.16={
+		holder=10024035 # Matsudaira Tadateru
+	}
+	1612.1.1={
+		holder=10200400 # Matsudaira Shigekatsu
+	}
+}

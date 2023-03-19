@@ -1,0 +1,100 @@
+﻿namespace = shogunate_bookmark
+
+# Achievements
+shogunate_bookmark.9100 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_multiple_players = no
+			}
+
+			### Setup Characters
+
+			every_player = {
+
+				# Hard
+
+				if = {
+					limit = {
+						game_start_date < 1582.6.21							# Honno-ji Incident
+						this = character:10029400							# Hashiba Hideyoshi
+					}
+					shogunate_achievement_enable_effect = {
+						ACHIEVEMENT = dream_within_a_dream
+					}
+				}
+
+				if = {
+					limit = {
+						game_start_date = 1180.11.10						# Genpei War
+						is_vassal_or_below_of = character:10120075			# Minamoto Yoritomo
+					}
+					shogunate_achievement_enable_effect = {
+						ACHIEVEMENT = 1180_minamoto_yoritomo_vassal
+					}
+				}
+
+				# Very Hard
+
+				if = {
+					limit = {
+						game_start_date = 1614.10.24						# Siege of Osaka
+						is_vassal_or_below_of = character:10029415			# Toyotomi Hideyori
+					}
+					shogunate_achievement_enable_effect = {
+						ACHIEVEMENT = 1614_toyotomi_hideyori_vassal
+					}
+				}
+
+				if = {
+					limit = {
+						faith = faith:catholic
+						primary_title.tier = tier_county
+					}
+					shogunate_achievement_enable_effect = {
+						ACHIEVEMENT = defender_of_the_faith
+					}
+				}
+
+				# Insane
+
+				if = {
+					limit = {
+						game_start_date = 1591.5.7							# Revolt of Kunohe Masazane
+						this = character:10003201							# Kunohe Masazane
+					}
+					shogunate_achievement_enable_effect = {
+						ACHIEVEMENT = 1591_kunohe_masazane
+					}
+				}
+
+			}
+
+			### Setup Wars
+
+			shogunate_achievement_setup_war_effect = {
+				WAR = battle_of_okehazama
+				DATE = 1560.6.11											# Battle of Okehazama
+				ATTACKER = 10023010											# Imagawa Yoshimoto
+				DEFENDER = 10029120											# Oda Nobunaga
+			}
+
+			shogunate_achievement_setup_war_effect = {
+				WAR = revolt_of_kunohe_masazane
+				DATE = 1591.5.7												# Revolt of Kunohe Masazane
+				ATTACKER = 10003201											# Kunohe Masazane
+				DEFENDER = 10029400											# Toyotomi Hideyoshi
+			}
+
+			shogunate_achievement_setup_war_effect = {
+				WAR = siege_of_osaka
+				DATE = 1614.10.24											# Siege of Osaka
+				ATTACKER = 10024006											# Tokugawa Ieyasu
+				DEFENDER = 10029415											# Toyotomi Hideyori
+			}
+		}
+	}
+}

@@ -1,0 +1,92 @@
+c_nmih_kashima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kashima1={
+				set_title_name=b_nmih_kashima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	300.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1109.1.1={
+		holder=12120400 # Kashima Masamoto
+	}
+	1196.1.1={
+		holder=12120410 # Kashima Tanemoto
+	}
+	1200.1.1={
+		holder=12120420 # Kashima Tadamoto
+	}
+	1230.1.1={
+		holder=12120430 # Kashima Munemoto
+	}
+	1260.1.1={
+		holder=12120440 # Kashima Motokage
+	}
+	1290.1.1={
+		holder=12120450 # Kashima Motouji
+	}
+	1320.1.1={
+		holder=12120460 # Kashima Motohiro
+	}
+	1333.7.4={
+		liege="d_nmih_hitachi"
+	}
+	1350.1.1={
+		holder=12120470 # Kashima Motoshige
+	}
+	1400.1.1={
+		holder=12120480 # Kashima Norimoto
+	}
+	1445.1.1={
+		liege=0
+		holder=12120490 # Kashima Sanemoto
+	}
+	1498.1.7={
+		holder=12120500 # Kashima Takamoto
+	}
+	1502.7.20={
+		holder=12120510 # Kashima Chikamoto
+	}
+	1509.1.1={
+		holder=10010507 # Kashima Kagemoto
+	}
+	1512.10.11={
+		holder=10010501 # Kashima Yoshimoto
+	}
+	1524.1.1={
+		holder=10010502 # Kashima Motonobu
+	}
+	1550.1.1={
+		holder=10010503 # Kashima Harutoki
+	}
+	1565.1.1={
+		holder=10010526 # Kashima Ujimoto
+	}
+	1569.10.8={
+		holder=10010527 # Kashima Yoshikiyo
+	}
+	1581.2.13={
+		holder=10010531 # Kashima Michiharu
+	}
+	1586.2.25={
+		holder=10010530 # Kashima Sadanobu
+	}
+	1589.1.1={
+		holder=10010529 # Kashima Kiyohide
+	}
+	1590.12.31={
+		holder=10010836 # Satake Yoshinobu
+		liege="d_nmih_hitachi"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10000142 # Akita Sanesue
+	}
+}

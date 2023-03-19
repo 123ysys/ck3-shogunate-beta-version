@@ -1,0 +1,153 @@
+c_nmih_kojima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kojima1={
+				set_title_name=b_nmih_kojima4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kojima1={
+				set_title_name=B_NMIH_KOJIMA8_1100
+			}
+		}
+	}
+	1467.1.1={
+		effect={
+			title:b_nmih_kojima1={
+				set_title_name=b_nmih_kojima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1467.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_bizen"
+		holder=12630401 # Naniwa Tsuneto
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_bizen"
+		holder=10110070 # Taira Yukimori
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="k_nmih_western_chugoku"
+	}
+	1185.1.10={
+		liege="e_nmih_japan"
+		holder=12510062 # Sasaki Moritsuna
+	}
+	1201.6.11={
+		liege="d_nmih_northern_echigo"
+	}
+	1211.1.1={
+		holder=12270400 # Kaji Nobuzane
+	}
+	1243.8.13={
+		holder=12270411 # Kaji Sanehide
+	}
+	1252.1.1={
+		holder=12270445 # Kaji Sanetsuna
+	}
+	1282.1.1={
+		holder=12270450 # Kaji Nagatsuna
+	}
+	1312.1.1={
+		holder=12270455 # Kaji Tokitsuna
+	}
+	1331.1.1={
+		holder=12270460 # Kaji Tokihide
+	}
+	1333.7.4={
+		liege="d_nmih_bizen"
+		holder=12270500 # Akura Nobutane
+	}
+	1339.1.1={
+		holder=12270500 # Akura Nobutane
+	}
+	1347.6.1={
+		liege="e_nmih_japan"
+		holder=10040511 # Hosokawa Morouji
+	}
+	1348.6.20={
+		liege="d_nmih_awa"
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1352.4.5={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.3.25={
+		liege="d_nmih_awa"
+		holder=10040524 # Hosokawa Yoshiyuki
+	}
+	1402.1.1={
+		holder = 10040525 # Hosokawa Mitsuhisa
+	}
+	1430.10.15={
+		holder = 10040526 # Hosokawa Mochitsune
+	}
+	1449.1.1={
+		holder = 10040528 # Hosokawa Shigeyuki
+	}
+	1479.1.1={
+		holder = 10040530 # Hosokawa Masayuki
+	}
+	1488.9.4={
+		holder = 10040529 # Hosokawa Yoshiharu
+	}
+	1495.1.17={
+		holder = 10040532 # Hosokawa Yukimochi
+	}
+	1509.6.1={
+		liege="e_nmih_japan"
+		holder=10055064 # Ueno Takanao
+	}
+	1521.1.1={
+		liege=0
+	}
+	1560.1.1={
+		holder=10055067 # Ueno Takanori
+	}
+	1561.3.1={
+		liege="d_nmih_bitchu"
+	}
+	1575.7.9={
+		liege="k_nmih_western_chugoku"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1576.1.1={
+		liege="d_nmih_bizen"
+		holder=10055140 # Togawa Hideyasu
+	}
+	1583.1.1={
+		holder=10055141 # Togawa Michiyasu
+	}
+	1599.1.1={
+		holder=10055260 # Akashi Zento
+	}
+	1601.1.1={
+		liege="d_nmih_bizen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10029556 # Ikeda Nagamasa
+	}
+	1607.9.11={
+		holder=10029609 # Ikeda Nagaaki
+	}
+	1609.1.1={
+		holder=10029562 # Ikeda Yoshiyuki
+	}
+	1613.3.16={
+		holder=10029568 # Ikeda Tadatsugu
+	}
+	1615.3.22={
+		holder=10029572 # Ikeda Tadakatsu
+	}
+}

@@ -1,0 +1,138 @@
+c_nmih_sano = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sano1={
+				set_title_name=b_nmih_sano3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_sano1={
+				set_title_name=b_nmih_sano2
+			}
+		}
+	}
+	1450.1.1={
+		effect={
+			title:b_nmih_sano1={
+				set_title_name=b_nmih_sano1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1450.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_shimotsuke"
+	}
+	1110.1.1={
+		liege="d_nmih_ashikaga"
+		holder=12180102 # Ashikaga Ietsuna
+	}
+	1138.1.1={
+		holder=12180112 # Ashikaga Naritoshi
+	}
+	1177.1.1={
+		holder=12180150 # Sano Mototsuna
+	}
+	1180.10.29={
+		liege="d_nmih_oyama"
+	}
+	1207.1.1={
+		holder=12180501 # Sano Kunimoto
+	}
+	1238.1.1={
+		holder=12180520 # Sano Sanetsuna
+	}
+	1258.1.1={
+		holder=12180550 # Sano Moritsuna
+	}
+	1288.1.1={
+		holder=12180560 # Sano Hirotsuna
+	}
+	1320.1.1={
+		holder=12180570 # Sano Sadatsuna
+	}
+	1333.1.1={
+		holder=12180580 # Sano Suketsuna
+	}
+	1355.1.1={
+		holder=12180590 # Sano Morotsuna
+	}
+	1377.1.1={
+		holder=12180600 # Sano Shigetsuna
+	}
+	1432.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12180606 # Sano Shigenaga
+	}
+	1471.1.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1483.1.6={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1500.1.1={
+		holder=12180610 # Sano Moritsuna
+	}
+	1527.1.1={
+		holder=12180615 # Sano Hidetsuna
+	}
+	1546.5.19={
+		liege=0
+	}
+	1548.8.1={
+		holder=12180620 # Sano Yasutsuna
+	}
+	1550.1.1={
+		holder=10011101 # Sano Toyotsuna
+	}
+	1555.1.1={
+		liege="k_nmih_western_kanto"
+	}
+	1559.1.1={
+		holder=10011102 # Sano Masatsuna
+	}
+	1560.11.1={
+		liege="d_nmih_echigo"
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1561.7.1={
+		liege="k_nmih_western_kanto"
+	}
+	1563.2.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1566.1.1={
+		liege="k_nmih_western_kanto"
+	}
+	1574.4.28={
+		holder=10011110 # Sano Munetsuna
+	}
+	1585.1.1={
+		holder=10016018 # Sano(Hojo) Ujitada
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10011104 # Sano Fusatsuna
+	}
+	1592.10.17={
+		holder=10097002 # Sano Nobuyoshi
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.8.22={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

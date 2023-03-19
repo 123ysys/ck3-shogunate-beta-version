@@ -1,0 +1,190 @@
+d_nmih_owari = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0837.2.24={
+		holder=11000035 # Fujiwara Tasuku {Owari no kami}
+	}
+	0841.2.11={
+		holder=0 #  
+	}
+	0881.2.13={
+		holder=11003300 # Fujiwara Takafuji {Owari no kami}
+	}
+	0884.4.12={
+		holder=0 #  
+	}
+	1060.12.17={
+		holder=11005677 # Fujiwara Tokifusa {Owari no kami}
+	}
+	1065.2.14={
+		holder=0 #  
+	}
+	1090.9.12={
+		holder=11000136 # Fujiwara Tadanori {Owari no kami}
+	}
+	1099.2.21={
+		holder=0 #  
+	}
+	1114.5.16={
+		holder=11001022 # Fujiwara Suenari {Owari no kami}
+	}
+	1116.1.9={
+		holder=0 #  
+	}
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110140 # Taira Kiyosada {Owari no kami}
+	}
+	1180.11.9={
+		liege=0
+		holder=10120072 # Minamoto Yukiie
+	}
+	1181.4.25={
+		holder=12430021 # Yamada Shigetada
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="e_nmih_japan"
+	}
+	1184.1.3={
+		liege=0
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12431200 # Oya Yasusuke
+	}
+	1185.4.25={
+		holder=12205303 # Ono Naritsuna
+	}
+	1211.1.1={
+		holder=12205311 # Ono Moritsuna
+	}
+	1221.6.6={
+		liege="e_nmih_joko"
+		holder=12430021 # Yamada Shigetada
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=12205405 # Chujo Iehira
+	}
+	1252.3.1={
+		holder=12205410 # Chujo Yorihira
+	}
+	1290.1.1={
+		holder=12205415 # Chujo Kagenaga
+	}
+	1314.9.1={
+		holder=10132288 # Hojo [Nagoe] Takaie
+	}
+	1317.4.1={
+		holder=10131857 # Hojo [Nagoe] Munenori
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+		holder=12139049 # Shiba Takatsune
+	}
+	1336.7.22={
+		holder=12205416 # Chujo Hidenaga
+	}
+	1339.4.1={
+		holder=12139566 # Kou Moroyasu
+	}
+	1351.3.15={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1388.2.3={
+		holder=10025318 # Toki Mitsusada
+	}
+	1392.1.24={
+		holder=12395223 # Imagawa Nakaaki
+	}
+	1398.11.1={
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1400.1.17={
+		holder=10029011 # Shiba Yoshishige
+	}
+	1418.9.10={
+		holder=10029012 # Shiba Yoshiatsu
+	}
+	1434.1.11={
+		holder=10029013 # Shiba Yoshisato
+	}
+	1436.11.8={
+		holder=10029016 # Shiba Yoshitake
+	}
+	1452.10.13={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1460.1.1={
+		holder=10029021 # Shiba Yoshihiro
+	}
+	1466.9.2={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1466.10.23={
+		holder=10057621 # Shiba Yoshikado
+	}
+	1467.6.27={
+		liege="k_nmih_sanin"
+		holder=10057621 # Shiba Yoshikado
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
+	1478.1.1={
+		holder=10029021 # Shiba Yoshihiro
+	}
+	1513.5.21={
+		holder=10029001 # Shiba Yoshitatsu
+	}
+	1521.11.1={
+		holder=10029000 # Shiba Yoshimune
+	}
+	1554.08.10={
+		holder=10029024 # Shiba Yoshikane
+	}
+	1555.01.01={
+		holder=10029120 # Oda Nobunaga
+	}
+	1567.10.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.12.30={
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={
+		liege=0
+		holder=10029184 # Oda Hidenobu, Honno-ji incident
+	}
+	1582.7.16={
+		liege=0
+		holder=10029161 # Oda Nobukatsu
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1590.7.25={
+		liege="k_nmih_chubu"
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+		holder=10029720 # Fukushima Masanori
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

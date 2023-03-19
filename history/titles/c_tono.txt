@@ -1,0 +1,99 @@
+c_nmih_tono = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tono1={
+				set_title_name=b_nmih_tono2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tono1={
+				set_title_name=b_nmih_tono2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_uzen"
+		holder=12030041 # Fujiwara [Hizume] Toshihira
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=12180151 # Asonuma Hirotsuna
+	}
+	1208.1.1={
+		liege="d_nmih_rikuchu"
+		holder=12180701 # Asonuma Chikatsuna
+	}
+	1240.1.1={
+		holder=12180720 # Asonuma Kimitsuna
+	}
+	1260.1.1={
+		holder=12180730 # Asonuma Kimisato
+	}
+	1290.1.1={
+		holder=12180740 # Asonuma Ujitsuna
+	}
+	1310.1.1={
+		holder=12180750 # Asonuma Tomotsuna
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1338.6.10={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1355.1.1={
+		holder=12050000 # Asonuma Tomokane
+	}
+	1385.1.1={
+		holder=12050003 # Asonuma Hirotsuna
+	}
+	1392.1.1={
+		liege=0
+	}
+	1415.1.1={
+		liege=0
+		holder=12050006 # Asonuma Hideuji
+	}
+	1445.1.1={
+		holder=12050009 # Asonuma Mitsutsuna
+	}
+	1475.1.1={
+		holder=12050012 # Asonuma Morichika
+	}
+	1505.1.1={
+		holder=12050018 # Asonuma Chikasato
+	}
+	1535.1.1={
+		holder=10004101 # Asonuma Chikahiro
+	}
+	1565.1.1={
+		holder=10004102 # Asonuma Hirosato
+	}
+	1590.8.28={
+		liege="d_nmih_mutsu" #became vassal of the Nanbu clan
+	}
+	1595.1.1={
+		holder=10004103 # Asonuma Hironaga
+	}
+	1603.3.24={
+		holder=10003156 # Nanbu Toshinao
+	}
+}

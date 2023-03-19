@@ -1,0 +1,289 @@
+﻿shogunate_historical_friend_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR1$
+			exists = character:$CHAR2$
+			character:$CHAR1$ = { is_alive = yes }
+			character:$CHAR2$ = { is_alive = yes }
+		}
+		character:$CHAR1$ = {
+			set_relation_friend = character:$CHAR2$
+		}
+	}
+
+}
+
+shogunate_historical_rival_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR1$
+			exists = character:$CHAR2$
+			character:$CHAR1$ = { is_alive = yes }
+			character:$CHAR2$ = { is_alive = yes }
+		}
+		character:$CHAR1$ = {
+			set_relation_rival = character:$CHAR2$
+		}
+	}
+
+}
+
+shogunate_historical_alliance_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR1$
+			exists = character:$CHAR2$
+			character:$CHAR1$ = { is_alive = yes }
+			character:$CHAR2$ = { is_alive = yes }
+		}
+		character:$CHAR1$ = {
+			create_alliance = {
+				target = character:$CHAR2$
+				allied_through_owner  = character:$CHAR1$
+				allied_through_target = character:$CHAR2$
+			}
+		}
+		character:$CHAR2$ = {
+			add_opinion = {
+				modifier = perk_negotiated_alliance_opinion
+				target = character:$CHAR1$
+			}
+		}
+	}
+
+}
+
+shogunate_historical_break_alliance_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR1$
+			exists = character:$CHAR2$
+			character:$CHAR1$ = { is_alive = yes }
+			character:$CHAR2$ = { is_alive = yes }
+		}
+		character:$CHAR1$ = {
+			break_alliance = character:$CHAR2$
+		}
+	}
+
+}
+
+shogunate_historical_ambition_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR$
+			character:$CHAR$ = {
+				is_alive = yes
+				is_ai = yes
+			}
+			character:$CHAR$ = {
+				NOT = {
+					any_vassal_or_below = {
+						has_title = title:$TITLE$
+					}
+				}
+			}
+		}
+		character:$CHAR$ = {
+			add_pressed_claim = title:$TITLE$
+		}
+	}
+
+}
+
+shogunate_historical_heir_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR1$
+			exists = character:$CHAR2$
+			character:$CHAR1$ = { is_alive = yes }
+			character:$CHAR2$ = { is_alive = yes }
+		}
+		character:$CHAR1$ = {
+			set_designated_heir = character:$CHAR2$
+		}
+	}
+
+}
+
+shogunate_historical_trait_effect = {
+
+	character:$CHAR$ = {
+		add_trait = $TRAIT$
+	}
+
+}
+
+shogunate_historical_surprise_attack_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR$
+			character:$CHAR$ = { is_alive = yes }
+		}
+		character:$CHAR$ = {
+			add_character_modifier = {
+				modifier = shogunate_surprise_attack_modifier
+				months = $MONTH$
+			}
+		}
+	}
+
+}
+
+shogunate_historical_reinforcement_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR1$
+			exists = character:$CHAR2$
+			character:$CHAR1$ = { is_alive = yes }
+			character:$CHAR2$ = { is_alive = yes }
+		}
+		character:$CHAR1$ = {
+			add_opinion = {
+				modifier = shogunate_historical_reinforcement_opinion
+				months = $MONTH$
+				target = character:$CHAR2$
+			}
+		}
+	}
+
+}
+
+shogunate_historical_vassal_contract_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR$
+			character:$CHAR$ = { is_alive = yes }
+		}
+		character:$CHAR$ = {
+			vassal_contract_set_obligation_level = { type = feudal_government_taxes  level = $LEVEL$ }
+			vassal_contract_set_obligation_level = { type = feudal_government_levies level = $LEVEL$ }
+		}
+	}
+
+}
+
+shogunate_historical_realm_law_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR$
+			character:$CHAR$ = { is_alive = yes }
+		}
+		character:$CHAR$ = {
+			add_realm_law_skip_effects = $LAW$
+		}
+	}
+
+}
+
+shogunate_historical_culture_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR$
+			character:$CHAR$ = { is_alive = yes }
+		}
+		character:$CHAR$ = {
+			set_culture = culture:$CULTURE$
+			every_child = {
+				set_culture = culture:$CULTURE$
+			}
+		}
+	}
+
+}
+
+shogunate_historical_capital_effect = {
+
+	if = {
+		limit = {
+			exists = title:$TITLE$
+			exists = title:$TITLE$.holder
+		}
+		title:$TITLE$.holder = {
+			set_realm_capital = title:$TITLE$
+		}
+	}
+
+}
+
+shogunate_historical_duchy_capital_effect = {
+
+	if = {
+		limit = {
+			exists = title:$TITLE$
+			exists = title:$TITLE$.holder
+		}
+		title:$TITLE$.de_jure_liege = {
+			set_capital_county = title:$TITLE$
+		}
+		title:$TITLE$.holder = {
+			set_realm_capital = title:$TITLE$
+		}
+	}
+
+}
+
+shogunate_historical_kingdom_capital_effect = {
+
+	if = {
+		limit = {
+			exists = title:$TITLE$
+			exists = title:$TITLE$.holder
+		}
+		title:$TITLE$.de_jure_liege.de_jure_liege = {
+			set_capital_county = title:$TITLE$
+		}
+		title:$TITLE$.holder = {
+			set_realm_capital = title:$TITLE$
+		}
+	}
+
+}
+
+shogunate_historical_empire_capital_effect = {
+
+	if = {
+		limit = {
+			exists = title:$TITLE$
+			exists = title:$TITLE$.holder
+		}
+		title:$TITLE$.de_jure_liege.de_jure_liege.de_jure_liege = {
+			set_capital_county = title:$TITLE$
+		}
+		title:$TITLE$.holder = {
+			set_realm_capital = title:$TITLE$
+		}
+	}
+
+}
+
+shogunate_ai_personality_effect = {
+
+	if = {
+		limit = {
+			exists = character:$CHAR$
+			character:$CHAR$ = {
+				is_alive = yes
+				is_ai = yes
+			}
+		}
+		character:$CHAR$ = {
+			add_character_modifier = {
+				modifier = shogunate_personality_$CHAR$_modifier
+				years = $YEARS$
+			}
+		}
+	}
+
+}

@@ -1,0 +1,55 @@
+c_nmih_niitoi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_niitoi1={
+				set_title_name=b_nmih_niitoi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	1400.1.1 = { change_development_level = 0 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		liege="d_nmih_shisuka"
+		holder=10155600 # Naebo
+	}
+	1210.1.1={
+		holder=10155601
+	}
+	1240.1.1={
+		holder=10155602
+	}
+	1270.1.1={
+		holder=10157224
+	}
+	1330.1.1={
+		holder=10156611
+	}
+	1370.1.1={
+		holder=10156612
+	}
+	1400.1.1={
+		holder=10156613
+	}
+	1430.1.1={
+		holder=10156614
+	}
+	1450.1.1={
+		liege="d_nmih_shisuka"
+		holder=10155500
+	}
+	1510.1.1={
+		holder=10155501
+	}
+	1550.1.1={
+		holder=10155502
+	}
+	1600.1.1={
+		holder=10155503
+	}
+}

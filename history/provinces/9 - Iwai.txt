@@ -1,0 +1,19 @@
+9 = {
+
+	culture = northern_oshu
+	religion = shinto
+	holding = castle_holding
+	1.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1105.1.1={
+	}
+	1189.10.3={
+		buildings = {
+			castle_01
+		}
+	}
+
+}

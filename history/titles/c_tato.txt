@@ -1,0 +1,146 @@
+c_nmih_tato = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tato1={
+				set_title_name=b_nmih_tato2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tato1={
+				set_title_name=b_nmih_tato9
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_tato1={
+				set_title_name=b_nmih_tato4
+			}
+		}
+	}
+	1477.5.25={
+		effect={
+			title:b_nmih_tato1={
+				set_title_name=b_nmih_tato1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1300.1.1 = { change_development_level = 20 }
+	1477.5.25 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1150.1.1={
+		holder=12203000 # Kaneko Ienori
+	}
+	1175.1.1={
+		holder=12203001 # Kaneko Ietada
+	}
+	1216.3.6={
+		liege="d_nmih_musashi"
+		holder=12203010 # Kaneko Tokiie
+	}
+	1245.1.1={
+		holder=12203020 # Kaneko Tokishige
+	}
+	1270.1.1={
+		holder=12203025 # Kaneko Tokimitsu
+	}
+	1300.1.1={
+		holder=12201040 # Toshima Yasukage
+	}
+	1330.1.1={
+		holder=12201041 # Toshima Kagemura
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+		holder=12201045 # Toshima Tomoyasu
+	}
+	1351.3.15={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1352.3.12={
+		liege="d_nmih_musashi"
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1378.5.14={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1395.1.1={
+		liege="d_nmih_musashi"
+		holder=12201055 # Toshima Yasumune
+	}
+	1410.1.1={
+		holder=12201060 # Toshima Noriyasu
+	}
+	1430.1.1={
+		holder=12201065 # Toshima Tomoyasu
+	}
+	1440.1.1={
+		holder=12201070 # Toshima Yasukage
+	}
+	1450.1.1={
+		holder=12201075 # Toshima Yasuyoshi
+	}
+	1457.1.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1460.1.1={
+		holder=12201090 # Toshima Yasutsune
+	}
+	1477.2.10={
+		liege=0 # Nagao Kageharu's rebellion 
+	}
+	1477.5.25={ # Fall of Toshima clan
+		liege="d_nmih_musashi"
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1494.11.20={
+		holder=10017043 # Uesugi Tomoyoshi
+	}
+	1518.5.30={
+		holder=10018000 # Uesugi Tomooki
+	}
+	1537.6.4={
+		holder=10018001 # Uesugi Tomosada
+	}
+	1537.7.1={
+		holder=10016000 # Hojo Ujitsuna
+	}
+	1541.8.10={
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1559.1.1={
+		liege="d_nmih_musashi"
+		holder=10016015 # Hojo Ujiteru
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

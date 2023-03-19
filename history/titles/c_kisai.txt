@@ -1,0 +1,145 @@
+c_nmih_kisai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kisai1={
+				set_title_name=b_nmih_kisai3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kisai1={
+				set_title_name=b_nmih_kisai9
+			}
+		}
+	}
+	1478.1.1={
+		effect={
+			title:b_nmih_kisai1={
+				set_title_name=b_nmih_kisai1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 20 }
+	1478.1.1 = { change_development_level = 20 }
+	1490.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1080.1.1={
+		holder=12205021 # Ono Narito
+	}
+	1100.1.1={
+		holder=12205300 # Ono Naritaka
+	}
+	1125.1.1={
+		holder=12205301 # Ono Narihiro
+	}
+	1150.1.1={
+		holder=12205302 # Ono Naritomo
+	}
+	1175.1.1={
+		holder=12205303 # Ono Naritsuna
+	}
+	1180.1.1={
+		liege="d_nmih_eastern_sagami"
+		holder=12205303 # Ono Naritsuna
+	}
+	1185.4.25={
+		liege="d_nmih_hitachi"
+		holder=12205400 # Chujo Ienaga
+	}
+	1221.7.6={
+		liege="d_nmih_musashi"
+		holder=12205615 # Narita Tadatsuna
+	}
+	1280.1.1={
+		holder=12205620 # Narita Ietsuna
+	}
+	1310.1.1={
+		holder=12205625 # Narita Ietoki
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+		holder=12205751 # Narita Yukikazu
+	}
+	1335.8.14={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.9.6={
+		liege="d_nmih_musashi"
+		holder=12205751 # Narita Yukikazu
+	}
+	1351.3.15={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1370.1.1={
+		liege="k_nmih_kanto_kanrei"
+		holder=12205752 # Narita Motokazu
+	}
+	1410.1.1={
+		holder=12205753 # Narita Yasukazu
+	}
+	1440.1.1={
+		liege="k_nmih_kanto_kanrei"
+		holder=10018105 # Narita Shoto
+	}
+	1477.2.10={
+		liege="k_nmih_kamakura_kubo" # vassal of Koga-Kubo
+	}
+	1480.1.1={
+		holder=10018101 # Narita Akiyasu
+	}
+	1483.1.6={
+		liege="k_nmih_kanto_kanrei" # End of Kyotoku War
+	}
+	1524.7.9={
+		holder=10018100 # Narita Chikayasu
+	}
+	1545.5.27={
+		liege="d_nmih_sagami" # Vassal of Hojo
+		holder=10018102 # Narita Nagayasu
+	}
+	1546.5.19={
+		liege="d_nmih_musashi" # 
+	}
+	1561.1.1={
+		liege="d_nmih_echigo" # Vassal of Echigo=Uesugi
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1561.7.1={
+		liege="d_nmih_musashi" # Vassal of Hojo
+	}
+	1563.1.1={
+		liege="k_nmih_kanto_kanrei" # Vassal of Echigo=Uesugi
+		holder=10018106 # Narita Ujinaga
+	}
+	1569.12.1={
+		liege="d_nmih_musashi" # Vassal of Hojo
+	}
+	1590.7.25={
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1601.11.1={
+		holder=10024288 # Okubo Tadatsune
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+	}
+	1611.11.14={
+		holder=10024294 # Okubo Tadamoto
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

@@ -1,0 +1,127 @@
+﻿namespace = shogunate_bookmark
+
+# Kanno Disturbance
+shogunate_bookmark.1030 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				game_start_date = 1350.12.20
+			}
+
+			# Ashikaga Takauji Army
+
+			character:12139028 = {											# Ashikaga Takauji
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = province:269					# Bingo
+					levies = 2000
+				}
+			}
+			character:12139567 = {											# Kou Moronao
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = province:269					# Bingo
+					levies = 1000
+				}
+			}
+			character:12139566 = {											# Kou Moroyasu
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = province:269					# Bingo
+					levies = 1000
+				}
+			}
+			character:10044203 = {											# Sasaki Doyo
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+			character:10053501 = {											# Akamatsu Norisuke
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+
+			# Ashikaga Tadayoshi Army
+
+			character:12139029 = {											# Ashikaga Tadayoshi
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+			character:10040036 = {											# Ashikaga Tadafuyu
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+
+			# Alliances
+
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 12139028												# Ashikaga Takauji
+				CHAR2 = 10044203												# Sasaki Doyo
+			}
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 12139028												# Ashikaga Takauji
+				CHAR2 = 10053501												# Akamatsu Norisuke
+			}
+
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 12139029												# Ashikaga Tadayoshi
+				CHAR2 = 10040036												# Ashikaga Tadafuyu
+			}
+
+			# Reinforcements
+
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 10044203												# Sasaki Doyo
+				CHAR2 = 12139028												# Ashikaga Takauji
+				MONTH = 12
+			}
+			shogunate_historical_reinforcement_effect = {
+				CHAR1 = 10053501												# Akamatsu Norisuke
+				CHAR2 = 12139028												# Ashikaga Takauji
+				MONTH = 12
+			}
+
+		}
+	}
+}

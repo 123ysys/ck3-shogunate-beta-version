@@ -1,0 +1,44 @@
+d_nmih_oshu_shugo = {
+	100.1.1={
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+		holder=10029006 # Shiba Ienaga
+	}
+	1338.1.16={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1345.1.1={
+		holder=10007311 # Hatakeyama Kuniuji
+	}
+	1351.3.18={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+	1522.1.1={
+		liege=0
+		holder=10001001 # Date Tanemune
+	}
+	1542.6.1={
+		liege=0 # Tenbun War
+		holder=10001002 # Date Harumune
+	}
+	1555.1.1={
+		liege="k_nmih_oshu_tandai" # Date became Oshu Tandai.
+	}
+	1564.1.1={
+		holder=10001021 # Date Terumune
+	}
+	1584.10.6={
+		holder=10001035 # Date Masamune
+	}
+	1590.6.26={
+		liege="e_nmih_japan"
+	}
+	1591.8.12={
+		holder=0
+	}
+}

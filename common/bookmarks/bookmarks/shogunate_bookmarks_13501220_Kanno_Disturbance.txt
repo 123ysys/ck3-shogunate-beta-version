@@ -1,0 +1,158 @@
+﻿bm_nanbokucho_1350 = {
+	start_date = 1350.12.20
+	is_playable = yes
+	group = bm_group_nanbokucho
+
+	character = {
+		name = "bm_nanbokucho_1350_ashikaga_takauji"
+		dynasty = 10000400
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1305.8.18
+		title = e_nmih_japan
+		government = feudal_government
+		culture = northern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 12139028
+		position = { 400 200 }
+
+		animation = personality_greedy
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_ashikaga_tadayoshi"
+		dynasty = 10000400
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1306.1.1
+		title = e_nmih_third_force
+		government = feudal_government
+		culture = northern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 12139029
+		position = { 750 200 }
+
+		animation = personality_forgiving
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_ashikaga_tadafuyu"
+		dynasty = 10000400
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1327.1.1
+		title = k_nmih_western_chugoku
+		government = feudal_government
+		culture = northern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10040036
+		position = { 1100 200 }
+
+		animation = personality_vengeful
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_sasaki_doyo"
+		dynasty = 10000453
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1296.1.1
+		title = d_nmih_izumo
+		government = feudal_government
+		culture = central_kinai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10044203
+		position = { 400 500 }
+
+		animation = personality_cynical
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_kou_moronao"
+		dynasty = 10005012
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1300.1.1
+		title = d_nmih_kazusa
+		government = feudal_government
+		culture = northern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 12139567
+		position = { 750 500 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_kou_moroyasu"
+		dynasty = 10005012
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1298.1.1
+		title = d_nmih_owari
+		government = feudal_government
+		culture = northern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 12139566
+		position = { 1100 500 }
+
+		animation = personality_callous
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_emperor_gomurakami"
+		dynasty = 10000420
+		dynasty_splendor_level = 9
+		type = male
+		birth = 1328.1.1
+		title = e_nmih_nancho
+		government = feudal_government
+		culture = imperial_family
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10041077
+		position = { 400 800 }
+
+		animation = personality_honorable
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_kusunoki_masanori"
+		dynasty = 10000488
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1333.1.1
+		title = d_nmih_kawachi
+		government = feudal_government
+		culture = southern_kinai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 12560007
+		position = { 750 800 }
+
+		animation = personality_rational
+	}
+
+	character = {
+		name = "bm_nanbokucho_1350_hojo_tokiyuki"
+		dynasty = 10006129
+		dynasty_splendor_level = 6
+		type = male
+		birth = 1326.1.1
+		title = k_nmih_shinano
+		government = feudal_government
+		culture = southern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10132313
+		position = { 1100 800 }
+
+		animation = personality_content
+	}
+}

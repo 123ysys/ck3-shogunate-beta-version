@@ -1,0 +1,2231 @@
+﻿##################
+# WINTER VALUES
+##################
+@mild_winter = 0.20
+@normal_winter = 0.50
+@severe_winter = 0.80
+
+# Tsugaru
+1 = {
+	winter_severity_bias = @normal_winter
+}
+# Kazuno
+2 = {
+	winter_severity_bias = @normal_winter
+}
+# Ninohe
+3 = {
+	winter_severity_bias = @normal_winter
+}
+# Kita
+4 = {
+	winter_severity_bias = @normal_winter
+}
+# Sannohe
+5 = {
+	winter_severity_bias = @normal_winter
+}
+# Iwate
+6 = {
+	winter_severity_bias = @normal_winter
+}
+# Hei
+7 = {
+	winter_severity_bias = @normal_winter
+}
+# Kunohe
+8 = {
+	winter_severity_bias = @normal_winter
+}
+# Iwai
+9 = {
+	winter_severity_bias = @normal_winter
+}
+# Waga
+10 = {
+	winter_severity_bias = @normal_winter
+}
+# Miyagi
+11 = {
+	winter_severity_bias = @normal_winter
+}
+# Kurokawa
+12 = {
+	winter_severity_bias = @normal_winter
+}
+# Tamatsukuri
+13 = {
+	winter_severity_bias = @normal_winter
+}
+# Oshika
+14 = {
+	winter_severity_bias = @normal_winter
+}
+# Kesen
+15 = {
+	winter_severity_bias = @normal_winter
+}
+# Shibata
+16 = {
+	winter_severity_bias = @normal_winter
+}
+# Kurihara
+17 = {
+	winter_severity_bias = @normal_winter
+}
+# Shineha
+18 = {
+	winter_severity_bias = @normal_winter
+}
+# Shirakawa
+19 = {
+	winter_severity_bias = @normal_winter
+}
+# Uta
+20 = {
+	winter_severity_bias = @normal_winter
+}
+# Igu
+21 = {
+	winter_severity_bias = @normal_winter
+}
+# Iwaki
+22 = {
+	winter_severity_bias = @normal_winter
+}
+# Tamura
+23 = {
+	winter_severity_bias = @normal_winter
+}
+# Ibaraki
+24 = {
+	winter_severity_bias = @mild_winter
+}
+# Niihari
+25 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuji
+26 = {
+	winter_severity_bias = @mild_winter
+}
+# Hitachi-Naka
+27 = {
+	winter_severity_bias = @mild_winter
+}
+# Taga
+28 = {
+	winter_severity_bias = @mild_winter
+}
+# Makabe
+29 = {
+	winter_severity_bias = @mild_winter
+}
+# Kashima
+30 = {
+	winter_severity_bias = @mild_winter
+}
+# Tsukuba
+31 = {
+	winter_severity_bias = @mild_winter
+}
+# Ogachi
+32 = {
+	winter_severity_bias = @normal_winter
+}
+# Hiyama
+33 = {
+	winter_severity_bias = @normal_winter
+}
+# Yamamoto
+34 = {
+	winter_severity_bias = @normal_winter
+}
+# Yuri
+35 = {
+	winter_severity_bias = @normal_winter
+}
+# Akita
+36 = {
+	winter_severity_bias = @normal_winter
+}
+# Tsukui
+37 = {
+	winter_severity_bias = @mild_winter
+}
+# Mogami
+38 = {
+	winter_severity_bias = @normal_winter
+}
+# Okitama
+39 = {
+	winter_severity_bias = @normal_winter
+}
+# Murayama
+40 = {
+	winter_severity_bias = @normal_winter
+}
+# Akumi
+41 = {
+	winter_severity_bias = @normal_winter
+}
+# Higashi-Kubiki
+42 = {
+	winter_severity_bias = @normal_winter
+}
+# Nutari
+43 = {
+	winter_severity_bias = @normal_winter
+}
+# Kanbara
+44 = {
+	winter_severity_bias = @normal_winter
+}
+# Koshi
+45 = {
+	winter_severity_bias = @normal_winter
+}
+# Santo
+46 = {
+	winter_severity_bias = @normal_winter
+}
+# Iwafune
+47 = {
+	winter_severity_bias = @normal_winter
+}
+# Nishi-Kubiki
+48 = {
+	winter_severity_bias = @normal_winter
+}
+# Kita-Uonuma
+49 = {
+	winter_severity_bias = @normal_winter
+}
+# Minami-Uonuma
+50 = {
+	winter_severity_bias = @normal_winter
+}
+# Aizu
+51 = {
+	winter_severity_bias = @normal_winter
+}
+# Asaka
+52 = {
+	winter_severity_bias = @normal_winter
+}
+# Yama
+53 = {
+	winter_severity_bias = @normal_winter
+}
+# Minami-Aizu
+54 = {
+	winter_severity_bias = @normal_winter
+}
+# Mine
+55 = {
+	winter_severity_bias = @mild_winter
+}
+# Date
+56 = {
+	winter_severity_bias = @normal_winter
+}
+# Kami-Tsuga
+57 = {
+	winter_severity_bias = @mild_winter
+}
+# Nasu
+58 = {
+	winter_severity_bias = @normal_winter
+}
+# Haga
+59 = {
+	winter_severity_bias = @mild_winter
+}
+# Shioya
+60 = {
+	winter_severity_bias = @normal_winter
+}
+# Shimo-Tsuga
+61 = {
+	winter_severity_bias = @mild_winter
+}
+# Ashikaga
+62 = {
+	winter_severity_bias = @mild_winter
+}
+# Gunma
+63 = {
+	winter_severity_bias = @mild_winter
+}
+# Agatsuma
+64 = {
+	winter_severity_bias = @normal_winter
+}
+# Tone
+65 = {
+	winter_severity_bias = @normal_winter
+}
+# Usui
+66 = {
+	winter_severity_bias = @mild_winter
+}
+# Kanra
+67 = {
+	winter_severity_bias = @mild_winter
+}
+# Seta
+68 = {
+	winter_severity_bias = @mild_winter
+}
+# Nitta
+69 = {
+	winter_severity_bias = @mild_winter
+}
+# Midono
+70 = {
+	winter_severity_bias = @mild_winter
+}
+# Toshima
+71 = {
+	winter_severity_bias = @mild_winter
+}
+# Tasai
+72 = {
+	winter_severity_bias = @mild_winter
+}
+# Kodama
+73 = {
+	winter_severity_bias = @mild_winter
+}
+# Kami-Adachi
+74 = {
+	winter_severity_bias = @mild_winter
+}
+# Osato
+75 = {
+	winter_severity_bias = @mild_winter
+}
+# Hiki
+76 = {
+	winter_severity_bias = @mild_winter
+}
+# Iruma
+77 = {
+	winter_severity_bias = @mild_winter
+}
+# Saitama
+78 = {
+	winter_severity_bias = @mild_winter
+}
+# Chichibu
+79 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuraki
+80 = {
+	winter_severity_bias = @mild_winter
+}
+# Katsushika
+81 = {
+	winter_severity_bias = @mild_winter
+}
+# Katori
+82 = {
+	winter_severity_bias = @mild_winter
+}
+# Soma
+83 = {
+	winter_severity_bias = @mild_winter
+}
+# Chiba
+84 = {
+	winter_severity_bias = @mild_winter
+}
+# Sosa
+85 = {
+	winter_severity_bias = @mild_winter
+}
+# Yuki
+86 = {
+	winter_severity_bias = @mild_winter
+}
+# Unakami
+87 = {
+	winter_severity_bias = @mild_winter
+}
+# Hinai
+88 = {
+	winter_severity_bias = @normal_winter
+}
+# Isumi
+89 = {
+	winter_severity_bias = @mild_winter
+}
+# Amaha
+90 = {
+	winter_severity_bias = @mild_winter
+}
+# Nagara
+91 = {
+	winter_severity_bias = @mild_winter
+}
+# Musa
+92 = {
+	winter_severity_bias = @mild_winter
+}
+# Eso
+93 = {
+	winter_severity_bias = @mild_winter
+}
+# Asakuchi
+94 = {
+	winter_severity_bias = @mild_winter
+}
+# Awa
+95 = {
+	winter_severity_bias = @mild_winter
+}
+# Kamakura
+96 = {
+	winter_severity_bias = @mild_winter
+}
+# Aiko
+97 = {
+	winter_severity_bias = @mild_winter
+}
+# Ashigara
+98 = {
+	winter_severity_bias = @normal_winter
+}
+# Miura
+99 = {
+	winter_severity_bias = @mild_winter
+}
+# Tagata
+100 = {
+	winter_severity_bias = @mild_winter
+}
+# Izu-Naka
+101 = {
+	winter_severity_bias = @mild_winter
+}
+# Takada
+102 = {
+	winter_severity_bias = @mild_winter
+}
+# Yamanashi
+103 = {
+	winter_severity_bias = @normal_winter
+}
+# Koma
+104 = {
+	winter_severity_bias = @normal_winter
+}
+# Tsuru
+105 = {
+	winter_severity_bias = @normal_winter
+}
+# Yatsushiro
+106 = {
+	winter_severity_bias = @normal_winter
+}
+# Tsukama
+107 = {
+	winter_severity_bias = @normal_winter
+}
+# Takai
+108 = {
+	winter_severity_bias = @normal_winter
+}
+# Hanishina
+109 = {
+	winter_severity_bias = @normal_winter
+}
+# Azumi
+110 = {
+	winter_severity_bias = @normal_winter
+}
+# Chiisagata
+111 = {
+	winter_severity_bias = @normal_winter
+}
+# Saku
+112 = {
+	winter_severity_bias = @normal_winter
+}
+# Suwa
+113 = {
+	winter_severity_bias = @normal_winter
+}
+# Abe
+114 = {
+	winter_severity_bias = @mild_winter
+}
+# Sunto
+115 = {
+	winter_severity_bias = @mild_winter
+}
+# Mashitsu
+116 = {
+	winter_severity_bias = @mild_winter
+}
+# Fuji
+117 = {
+	winter_severity_bias = @mild_winter
+}
+# Kikou
+118 = {
+	winter_severity_bias = @mild_winter
+}
+# Yamaka
+119 = {
+	winter_severity_bias = @mild_winter
+}
+# Fuchi
+120 = {
+	winter_severity_bias = @mild_winter
+}
+# Iwata
+121 = {
+	winter_severity_bias = @mild_winter
+}
+# Noto
+122 = {
+	winter_severity_bias = @normal_winter
+}
+# Suzu
+123 = {
+	winter_severity_bias = @normal_winter
+}
+# Fukeshi
+124 = {
+	winter_severity_bias = @normal_winter
+}
+# Hakui
+125 = {
+	winter_severity_bias = @normal_winter
+}
+# Imizu
+126 = {
+	winter_severity_bias = @normal_winter
+}
+# Shimo-Niikawa
+127 = {
+	winter_severity_bias = @normal_winter
+}
+# Kami-Niikawa
+128 = {
+	winter_severity_bias = @normal_winter
+}
+# Nei
+129 = {
+	winter_severity_bias = @normal_winter
+}
+# Higashi-Tonami
+130 = {
+	winter_severity_bias = @normal_winter
+}
+# Nomi
+131 = {
+	winter_severity_bias = @normal_winter
+}
+# Kaga
+132 = {
+	winter_severity_bias = @normal_winter
+}
+# Ishikawa
+133 = {
+	winter_severity_bias = @normal_winter
+}
+# Enuma
+134 = {
+	winter_severity_bias = @normal_winter
+}
+# Hida-Ono
+135 = {
+	winter_severity_bias = @normal_winter
+}
+# Araki
+136 = {
+	winter_severity_bias = @normal_winter
+}
+# Mashita
+137 = {
+	winter_severity_bias = @normal_winter
+}
+# Niu
+138 = {
+	winter_severity_bias = @normal_winter
+}
+# Tsuruga
+139 = {
+	winter_severity_bias = @normal_winter
+}
+# Imadachi
+140 = {
+	winter_severity_bias = @normal_winter
+}
+# Ono
+141 = {
+	winter_severity_bias = @normal_winter
+}
+# Sakai
+142 = {
+	winter_severity_bias = @normal_winter
+}
+# Asuwa
+143 = {
+	winter_severity_bias = @normal_winter
+}
+# Fuwa
+144 = {
+	winter_severity_bias = @normal_winter
+}
+# Ikeda
+145 = {
+	winter_severity_bias = @normal_winter
+}
+# Motosu
+146 = {
+	winter_severity_bias = @normal_winter
+}
+# Ahachi
+147 = {
+	winter_severity_bias = @mild_winter
+}
+# Kagami
+148 = {
+	winter_severity_bias = @mild_winter
+}
+# Mugi
+149 = {
+	winter_severity_bias = @normal_winter
+}
+# Gujo
+150 = {
+	winter_severity_bias = @normal_winter
+}
+# Kani
+151 = {
+	winter_severity_bias = @mild_winter
+}
+# Ena
+152 = {
+	winter_severity_bias = @mild_winter
+}
+# Kamo
+153 = {
+	winter_severity_bias = @mild_winter
+}
+# Nukata
+154 = {
+	winter_severity_bias = @mild_winter
+}
+# Shitara
+155 = {
+	winter_severity_bias = @mild_winter
+}
+# Aomi
+156 = {
+	winter_severity_bias = @mild_winter
+}
+# Atsumi
+157 = {
+	winter_severity_bias = @mild_winter
+}
+# Aichi
+158 = {
+	winter_severity_bias = @mild_winter
+}
+# Nakashima
+159 = {
+	winter_severity_bias = @mild_winter
+}
+# Chita
+160 = {
+	winter_severity_bias = @mild_winter
+}
+# Yamada
+161 = {
+	winter_severity_bias = @mild_winter
+}
+# Kasugai
+162 = {
+	winter_severity_bias = @mild_winter
+}
+# Haguri
+163 = {
+	winter_severity_bias = @mild_winter
+}
+# Niwa
+164 = {
+	winter_severity_bias = @mild_winter
+}
+# Kaito
+165 = {
+	winter_severity_bias = @mild_winter
+}
+# Kaisei
+166 = {
+	winter_severity_bias = @mild_winter
+}
+# Onyu
+167 = {
+	winter_severity_bias = @normal_winter
+}
+# Mikata
+168 = {
+	winter_severity_bias = @normal_winter
+}
+# Oi
+169 = {
+	winter_severity_bias = @normal_winter
+}
+# Gamo
+170 = {
+	winter_severity_bias = @mild_winter
+}
+# Kurita
+171 = {
+	winter_severity_bias = @mild_winter
+}
+# Azai
+172 = {
+	winter_severity_bias = @mild_winter
+}
+# Ika
+173 = {
+	winter_severity_bias = @mild_winter
+}
+# Inukami
+174 = {
+	winter_severity_bias = @mild_winter
+}
+# Echi
+175 = {
+	winter_severity_bias = @mild_winter
+}
+# Koka
+176 = {
+	winter_severity_bias = @mild_winter
+}
+# Sakata
+177 = {
+	winter_severity_bias = @mild_winter
+}
+# Shiga
+178 = {
+	winter_severity_bias = @mild_winter
+}
+# Takashima
+179 = {
+	winter_severity_bias = @mild_winter
+}
+# Suzuka
+180 = {
+	winter_severity_bias = @mild_winter
+}
+# Kadono
+181 = {
+	winter_severity_bias = @mild_winter
+}
+# Ichishi
+182 = {
+	winter_severity_bias = @mild_winter
+}
+# Kiso
+183 = {
+	winter_severity_bias = @normal_winter
+}
+# Iitaka
+184 = {
+	winter_severity_bias = @mild_winter
+}
+# Kawawa
+185 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuwana
+186 = {
+	winter_severity_bias = @mild_winter
+}
+# Mie
+187 = {
+	winter_severity_bias = @mild_winter
+}
+# Watarai
+188 = {
+	winter_severity_bias = @mild_winter
+}
+# Shima
+189 = {
+	winter_severity_bias = @mild_winter
+}
+# Mikasa
+190 = {
+	winter_severity_bias = @mild_winter
+}
+# Kurate
+191 = {
+	winter_severity_bias = @mild_winter
+}
+# Ahai
+192 = {
+	winter_severity_bias = @mild_winter
+}
+# Nishi-Matsura
+193 = {
+	winter_severity_bias = @mild_winter
+}
+# Nabari
+194 = {
+	winter_severity_bias = @mild_winter
+}
+# Kasa
+195 = {
+	winter_severity_bias = @normal_winter
+}
+# Takeno
+196 = {
+	winter_severity_bias = @normal_winter
+}
+# Yosa
+197 = {
+	winter_severity_bias = @normal_winter
+}
+# Kuwada
+198 = {
+	winter_severity_bias = @mild_winter
+}
+# Amata
+199 = {
+	winter_severity_bias = @mild_winter
+}
+# Funai
+200 = {
+	winter_severity_bias = @mild_winter
+}
+# Hikami
+201 = {
+	winter_severity_bias = @mild_winter
+}
+# Ikaruga
+202 = {
+	winter_severity_bias = @mild_winter
+}
+# Mike
+203 = {
+	winter_severity_bias = @mild_winter
+}
+# Kii
+204 = {
+	winter_severity_bias = @mild_winter
+}
+# Yame
+205 = {
+	winter_severity_bias = @mild_winter
+}
+# Otagi
+206 = {
+	winter_severity_bias = @mild_winter
+}
+# Otokuni
+207 = {
+	winter_severity_bias = @mild_winter
+}
+# Sagara
+208 = {
+	winter_severity_bias = @mild_winter
+}
+# Kikuchi
+209 = {
+	winter_severity_bias = @mild_winter
+}
+# Tsuzuki
+210 = {
+	winter_severity_bias = @mild_winter
+}
+# Naoiri
+211 = {
+	winter_severity_bias = @mild_winter
+}
+# Takaichi
+212 = {
+	winter_severity_bias = @mild_winter
+}
+# Katsuge
+213 = {
+	winter_severity_bias = @mild_winter
+}
+# Katsujo
+214 = {
+	winter_severity_bias = @mild_winter
+}
+# Yoshino
+215 = {
+	winter_severity_bias = @mild_winter
+}
+# Soejimo
+216 = {
+	winter_severity_bias = @mild_winter
+}
+# Soekami
+217 = {
+	winter_severity_bias = @mild_winter
+}
+# Heguri
+218 = {
+	winter_severity_bias = @mild_winter
+}
+# Uda
+219 = {
+	winter_severity_bias = @mild_winter
+}
+# Higashi-Yamauchi
+220 = {
+	winter_severity_bias = @mild_winter
+}
+# Nagusa
+221 = {
+	winter_severity_bias = @mild_winter
+}
+# Arida
+222 = {
+	winter_severity_bias = @mild_winter
+}
+# Hidaka
+223 = {
+	winter_severity_bias = @mild_winter
+}
+# Muro
+224 = {
+	winter_severity_bias = @mild_winter
+}
+# Naga
+225 = {
+	winter_severity_bias = @mild_winter
+}
+# Kumano
+226 = {
+	winter_severity_bias = @mild_winter
+}
+# Hine
+227 = {
+	winter_severity_bias = @mild_winter
+}
+# Minami
+228 = {
+	winter_severity_bias = @mild_winter
+}
+# Otori
+229 = {
+	winter_severity_bias = @mild_winter
+}
+# Tsudaka
+230 = {
+	winter_severity_bias = @mild_winter
+}
+# Wakae
+231 = {
+	winter_severity_bias = @mild_winter
+}
+# Asukabe
+232 = {
+	winter_severity_bias = @mild_winter
+}
+# Manda
+233 = {
+	winter_severity_bias = @mild_winter
+}
+# Nishikibe
+234 = {
+	winter_severity_bias = @mild_winter
+}
+# Higashinari
+235 = {
+	winter_severity_bias = @mild_winter
+}
+# Nishinari
+236 = {
+	winter_severity_bias = @mild_winter
+}
+# Arima
+237 = {
+	winter_severity_bias = @mild_winter
+}
+# Uto
+238 = {
+	winter_severity_bias = @mild_winter
+}
+# Nose
+239 = {
+	winter_severity_bias = @mild_winter
+}
+# Ibusuki
+240 = {
+	winter_severity_bias = @mild_winter
+}
+# Mishima
+241 = {
+	winter_severity_bias = @mild_winter
+}
+# Kawabe
+242 = {
+	winter_severity_bias = @mild_winter
+}
+# Teshima
+243 = {
+	winter_severity_bias = @mild_winter
+}
+# Muko
+244 = {
+	winter_severity_bias = @mild_winter
+}
+# Yatabe
+245 = {
+	winter_severity_bias = @mild_winter
+}
+# Kinosaki
+246 = {
+	winter_severity_bias = @normal_winter
+}
+# Shitsumi
+247 = {
+	winter_severity_bias = @normal_winter
+}
+# Asago
+248 = {
+	winter_severity_bias = @normal_winter
+}
+# Kanzaki
+249 = {
+	winter_severity_bias = @mild_winter
+}
+# Shikama
+250 = {
+	winter_severity_bias = @mild_winter
+}
+# Akashi
+251 = {
+	winter_severity_bias = @mild_winter
+}
+# Ako
+252 = {
+	winter_severity_bias = @mild_winter
+}
+# Ibo
+253 = {
+	winter_severity_bias = @mild_winter
+}
+# Taka
+254 = {
+	winter_severity_bias = @mild_winter
+}
+# Sayo
+255 = {
+	winter_severity_bias = @mild_winter
+}
+# Houmi
+256 = {
+	winter_severity_bias = @normal_winter
+}
+# Takakusa
+257 = {
+	winter_severity_bias = @normal_winter
+}
+# Yakami
+258 = {
+	winter_severity_bias = @normal_winter
+}
+# Tomata
+259 = {
+	winter_severity_bias = @mild_winter
+}
+# Katsumata
+260 = {
+	winter_severity_bias = @mild_winter
+}
+# Mashima
+261 = {
+	winter_severity_bias = @mild_winter
+}
+# Akasaka
+262 = {
+	winter_severity_bias = @mild_winter
+}
+# Joto
+263 = {
+	winter_severity_bias = @mild_winter
+}
+# Kojima
+264 = {
+	winter_severity_bias = @mild_winter
+}
+# Oku
+265 = {
+	winter_severity_bias = @mild_winter
+}
+# Kawamura
+266 = {
+	winter_severity_bias = @normal_winter
+}
+# Aimi
+267 = {
+	winter_severity_bias = @normal_winter
+}
+# Hino
+268 = {
+	winter_severity_bias = @normal_winter
+}
+# Mitsugi
+269 = {
+	winter_severity_bias = @mild_winter
+}
+# Yasuna
+270 = {
+	winter_severity_bias = @mild_winter
+}
+# Ashida
+271 = {
+	winter_severity_bias = @mild_winter
+}
+# Miyoshi
+272 = {
+	winter_severity_bias = @mild_winter
+}
+# Shimane
+273 = {
+	winter_severity_bias = @normal_winter
+}
+# Nogi
+274 = {
+	winter_severity_bias = @normal_winter
+}
+# Izumo
+275 = {
+	winter_severity_bias = @normal_winter
+}
+# Ohara
+276 = {
+	winter_severity_bias = @normal_winter
+}
+# Kaya
+277 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuboya
+278 = {
+	winter_severity_bias = @mild_winter
+}
+# Kato
+279 = {
+	winter_severity_bias = @mild_winter
+}
+# Tetta
+280 = {
+	winter_severity_bias = @mild_winter
+}
+# Ano
+281 = {
+	winter_severity_bias = @mild_winter
+}
+# Iwami-Naka
+282 = {
+	winter_severity_bias = @mild_winter
+}
+# Mino
+283 = {
+	winter_severity_bias = @mild_winter
+}
+# Aki
+284 = {
+	winter_severity_bias = @mild_winter
+}
+# Saeki
+285 = {
+	winter_severity_bias = @mild_winter
+}
+# Masuta
+286 = {
+	winter_severity_bias = @mild_winter
+}
+# Yamagata
+287 = {
+	winter_severity_bias = @mild_winter
+}
+# Yoshiki
+288 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuga
+289 = {
+	winter_severity_bias = @mild_winter
+}
+# Tsuno
+290 = {
+	winter_severity_bias = @mild_winter
+}
+# Toyoura
+291 = {
+	winter_severity_bias = @mild_winter
+}
+# Abu
+292 = {
+	winter_severity_bias = @mild_winter
+}
+# Asa
+293 = {
+	winter_severity_bias = @mild_winter
+}
+# Miyako
+294 = {
+	winter_severity_bias = @mild_winter
+}
+# Tsuiki
+295 = {
+	winter_severity_bias = @mild_winter
+}
+# Usa
+296 = {
+	winter_severity_bias = @mild_winter
+}
+# Kasuya
+297 = {
+	winter_severity_bias = @mild_winter
+}
+# Asakura
+298 = {
+	winter_severity_bias = @mild_winter
+}
+# Ito
+299 = {
+	winter_severity_bias = @mild_winter
+}
+# Kama
+300 = {
+	winter_severity_bias = @mild_winter
+}
+# Munakata
+301 = {
+	winter_severity_bias = @mild_winter
+}
+# Saga
+302 = {
+	winter_severity_bias = @mild_winter
+}
+# Kishima
+303 = {
+	winter_severity_bias = @mild_winter
+}
+# Matsura
+304 = {
+	winter_severity_bias = @mild_winter
+}
+# Sonoki
+305 = {
+	winter_severity_bias = @mild_winter
+}
+# Takaku
+306 = {
+	winter_severity_bias = @mild_winter
+}
+# Yabu
+307 = {
+	winter_severity_bias = @mild_winter
+}
+# Ikuha
+308 = {
+	winter_severity_bias = @mild_winter
+}
+# Miyazaki
+309 = {
+	winter_severity_bias = @mild_winter
+}
+# Mii
+310 = {
+	winter_severity_bias = @mild_winter
+}
+# Mizuma
+311 = {
+	winter_severity_bias = @mild_winter
+}
+# Oita
+312 = {
+	winter_severity_bias = @mild_winter
+}
+# Ama
+313 = {
+	winter_severity_bias = @mild_winter
+}
+# Hayami
+314 = {
+	winter_severity_bias = @mild_winter
+}
+# Hita
+315 = {
+	winter_severity_bias = @mild_winter
+}
+# Kunisaki
+316 = {
+	winter_severity_bias = @mild_winter
+}
+# Amakusa
+317 = {
+	winter_severity_bias = @mild_winter
+}
+# Mashiki
+318 = {
+	winter_severity_bias = @mild_winter
+}
+# Takuma
+319 = {
+	winter_severity_bias = @mild_winter
+}
+# Ashikita
+320 = {
+	winter_severity_bias = @mild_winter
+}
+# Aso
+321 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuma
+322 = {
+	winter_severity_bias = @mild_winter
+}
+# Tamana
+323 = {
+	winter_severity_bias = @mild_winter
+}
+# Koyu
+324 = {
+	winter_severity_bias = @mild_winter
+}
+# Morokata
+325 = {
+	winter_severity_bias = @mild_winter
+}
+# Usuki
+326 = {
+	winter_severity_bias = @mild_winter
+}
+# Kagoshima
+327 = {
+	winter_severity_bias = @mild_winter
+}
+# Kawanabe
+328 = {
+	winter_severity_bias = @mild_winter
+}
+# Hioki
+329 = {
+	winter_severity_bias = @mild_winter
+}
+# Satsuma
+330 = {
+	winter_severity_bias = @mild_winter
+}
+# Osumi
+331 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuwahara
+332 = {
+	winter_severity_bias = @mild_winter
+}
+# Soo
+333 = {
+	winter_severity_bias = @mild_winter
+}
+# Kuwamura
+334 = {
+	winter_severity_bias = @mild_winter
+}
+# Kita-Uwa
+335 = {
+	winter_severity_bias = @mild_winter
+}
+# Uwa
+336 = {
+	winter_severity_bias = @mild_winter
+}
+# Iyo
+337 = {
+	winter_severity_bias = @mild_winter
+}
+# Onsen
+338 = {
+	winter_severity_bias = @mild_winter
+}
+# Uma
+339 = {
+	winter_severity_bias = @mild_winter
+}
+# Kami
+340 = {
+	winter_severity_bias = @mild_winter
+}
+# Tosa
+341 = {
+	winter_severity_bias = @mild_winter
+}
+# Hata
+342 = {
+	winter_severity_bias = @mild_winter
+}
+# Izumi
+343 = {
+	winter_severity_bias = @mild_winter
+}
+# Ouchi
+344 = {
+	winter_severity_bias = @mild_winter
+}
+# Kagawa
+345 = {
+	winter_severity_bias = @mild_winter
+}
+# Toyota
+346 = {
+	winter_severity_bias = @mild_winter
+}
+# Nakata
+347 = {
+	winter_severity_bias = @mild_winter
+}
+# Mima
+348 = {
+	winter_severity_bias = @mild_winter
+}
+# Kaifu
+349 = {
+	winter_severity_bias = @mild_winter
+}
+# Itano
+350 = {
+	winter_severity_bias = @mild_winter
+}
+# Tanegashima
+351 = {
+	winter_severity_bias = @mild_winter
+}
+# Aya
+352 = {
+	winter_severity_bias = @mild_winter
+}
+# Tsuna
+353 = {
+	winter_severity_bias = @mild_winter
+}
+# Shimo-Ina
+354 = {
+	winter_severity_bias = @normal_winter
+}
+# Saba
+355 = {
+	winter_severity_bias = @mild_winter
+}
+# Sawata
+356 = {
+	winter_severity_bias = @normal_winter
+}
+# Oki
+357 = {
+	winter_severity_bias = @normal_winter
+}
+# Iki
+358 = {
+	winter_severity_bias = @mild_winter
+}
+# Goto
+359 = {
+	winter_severity_bias = @mild_winter
+}
+# Tsushima
+360 = {
+	winter_severity_bias = @mild_winter
+}
+# Hienuki
+361 = {
+	winter_severity_bias = @normal_winter
+}
+# Isawa
+362 = {
+	winter_severity_bias = @normal_winter
+}
+# Tome
+363 = {
+	winter_severity_bias = @normal_winter
+}
+# Toda
+364 = {
+	winter_severity_bias = @normal_winter
+}
+# Tono
+365 = {
+	winter_severity_bias = @normal_winter
+}
+# Katta
+366 = {
+	winter_severity_bias = @normal_winter
+}
+# Adachi
+367 = {
+	winter_severity_bias = @normal_winter
+}
+# Shinobu
+368 = {
+	winter_severity_bias = @normal_winter
+}
+# Namegata
+369 = {
+	winter_severity_bias = @mild_winter
+}
+# Shita
+370 = {
+	winter_severity_bias = @mild_winter
+}
+# Kochi
+371 = {
+	winter_severity_bias = @mild_winter
+}
+# Sano
+372 = {
+	winter_severity_bias = @mild_winter
+}
+# Kawachi
+373 = {
+	winter_severity_bias = @mild_winter
+}
+# Sai
+374 = {
+	winter_severity_bias = @mild_winter
+}
+# Minami-Murayama
+375 = {
+	winter_severity_bias = @normal_winter
+}
+# Oura
+376 = {
+	winter_severity_bias = @mild_winter
+}
+# Kisai
+377 = {
+	winter_severity_bias = @mild_winter
+}
+# Shimo-Adachi
+378 = {
+	winter_severity_bias = @mild_winter
+}
+# Ebara
+379 = {
+	winter_severity_bias = @mild_winter
+}
+# Tagawa
+380 = {
+	winter_severity_bias = @normal_winter
+}
+# Sashima
+381 = {
+	winter_severity_bias = @mild_winter
+}
+# Inaba
+382 = {
+	winter_severity_bias = @mild_winter
+}
+# Mouda
+383 = {
+	winter_severity_bias = @mild_winter
+}
+# Nishi-Okitama
+384 = {
+	winter_severity_bias = @normal_winter
+}
+# Kita-Koma
+385 = {
+	winter_severity_bias = @normal_winter
+}
+# Kami-Ina
+386 = {
+	winter_severity_bias = @normal_winter
+}
+# Minochi
+387 = {
+	winter_severity_bias = @normal_winter
+}
+# Aratama
+388 = {
+	winter_severity_bias = @mild_winter
+}
+# Suchi
+389 = {
+	winter_severity_bias = @mild_winter
+}
+# Kariwa
+390 = {
+	winter_severity_bias = @normal_winter
+}
+# Himi
+391 = {
+	winter_severity_bias = @normal_winter
+}
+# Nishi-Tonami
+392 = {
+	winter_severity_bias = @normal_winter
+}
+# Higashi-Kanbara
+393 = {
+	winter_severity_bias = @normal_winter
+}
+# Aki-Kamo
+394 = {
+	winter_severity_bias = @mild_winter
+}
+# Hakusan
+395 = {
+	winter_severity_bias = @normal_winter
+}
+# Hazu
+396 = {
+	winter_severity_bias = @mild_winter
+}
+# Yoshida
+397 = {
+	winter_severity_bias = @normal_winter
+}
+# Nanjo
+398 = {
+	winter_severity_bias = @normal_winter
+}
+# Mino-Kamo
+399 = {
+	winter_severity_bias = @mild_winter
+}
+# Agawa
+400 = {
+	winter_severity_bias = @mild_winter
+}
+# Ochi
+401 = {
+	winter_severity_bias = @mild_winter
+}
+# Hoi
+402 = {
+	winter_severity_bias = @mild_winter
+}
+# Kiku
+403 = {
+	winter_severity_bias = @mild_winter
+}
+# Ihara
+404 = {
+	winter_severity_bias = @mild_winter
+}
+# Shimo-Minochi
+405 = {
+	winter_severity_bias = @normal_winter
+}
+# Sarashina
+406 = {
+	winter_severity_bias = @normal_winter
+}
+# Naka-Niikawa
+407 = {
+	winter_severity_bias = @normal_winter
+}
+# Iwami-Ochi
+408 = {
+	winter_severity_bias = @mild_winter
+}
+# Yasu
+409 = {
+	winter_severity_bias = @mild_winter
+}
+# Inabe
+410 = {
+	winter_severity_bias = @mild_winter
+}
+# Kumage
+411 = {
+	winter_severity_bias = @mild_winter
+}
+# Anou
+412 = {
+	winter_severity_bias = @mild_winter
+}
+# Taki
+413 = {
+	winter_severity_bias = @mild_winter
+}
+# Inaka
+414 = {
+	winter_severity_bias = @normal_winter
+}
+# Shiki
+415 = {
+	winter_severity_bias = @mild_winter
+}
+# Minagi
+416 = {
+	winter_severity_bias = @mild_winter
+}
+# Kume
+417 = {
+	winter_severity_bias = @mild_winter
+}
+# Hanzawa
+418 = {
+	winter_severity_bias = @mild_winter
+}
+# Tato
+419 = {
+	winter_severity_bias = @mild_winter
+}
+# Kiryu
+420 = {
+	winter_severity_bias = @mild_winter
+}
+# Mihara
+421 = {
+	winter_severity_bias = 0.0
+}
+# Kawanuma
+422 = {
+	winter_severity_bias = @normal_winter
+}
+# Tokara
+587 = {
+	winter_severity_bias = 0.0
+}
+# Kikaijima
+588 = {
+	winter_severity_bias = 0.0
+}
+# Amami-Oshima
+589 = {
+	winter_severity_bias = 0.0
+}
+# Tokunoshima
+590 = {
+	winter_severity_bias = 0.0
+}
+# Minami-Amami
+591 = {
+	winter_severity_bias = 0.0
+}
+# Iejima
+592 = {
+	winter_severity_bias = 0.0
+}
+# Kunigami
+593 = {
+	winter_severity_bias = 0.0
+}
+# Nakagami
+594 = {
+	winter_severity_bias = 0.0
+}
+# Shimajiri
+595 = {
+	winter_severity_bias = 0.0
+}
+# Kumejima
+596 = {
+	winter_severity_bias = 0.0
+}
+# Miyakojima
+597 = {
+	winter_severity_bias = 0.0
+}
+# Yaeyama
+598 = {
+	winter_severity_bias = 0.0
+}
+# Yonaguni
+599 = {
+	winter_severity_bias = 0.0
+}
+# Gosho
+600 = {
+	winter_severity_bias = 0.0
+}
+# Nishi
+602 = {
+	winter_severity_bias = @normal_winter
+}
+# Hiyama
+603 = {
+	winter_severity_bias = @normal_winter
+}
+# Tsugaru
+604 = {
+	winter_severity_bias = @normal_winter
+}
+# Fukushima
+605 = {
+	winter_severity_bias = @normal_winter
+}
+# Kamiiso
+606 = {
+	winter_severity_bias = @normal_winter
+}
+# Kayabe
+607 = {
+	winter_severity_bias = @normal_winter
+}
+# Kameda
+608 = {
+	winter_severity_bias = @normal_winter
+}
+# Kudo
+609 = {
+	winter_severity_bias = @normal_winter
+}
+# Okushiri
+610 = {
+	winter_severity_bias = @normal_winter
+}
+# Futoro
+611 = {
+	winter_severity_bias = @normal_winter
+}
+# Setana
+612 = {
+	winter_severity_bias = @normal_winter
+}
+# Shimamaki
+613 = {
+	winter_severity_bias = @normal_winter
+}
+# Suttsu
+614 = {
+	winter_severity_bias = @normal_winter
+}
+# Utasutsu
+615 = {
+	winter_severity_bias = @normal_winter
+}
+# Isoya
+616 = {
+	winter_severity_bias = @normal_winter
+}
+# Iwanai
+617 = {
+	winter_severity_bias = @normal_winter
+}
+# Furuu
+618 = {
+	winter_severity_bias = @normal_winter
+}
+# Shakotan
+619 = {
+	winter_severity_bias = @severe_winter
+}
+# Bikuni
+620 = {
+	winter_severity_bias = @severe_winter
+}
+# Furubira
+621 = {
+	winter_severity_bias = @severe_winter
+}
+# Yoichi
+622 = {
+	winter_severity_bias = @severe_winter
+}
+# Oshoro
+623 = {
+	winter_severity_bias = @severe_winter
+}
+# Takashima
+624 = {
+	winter_severity_bias = @severe_winter
+}
+# Otaru
+625 = {
+	winter_severity_bias = @severe_winter
+}
+# Yamakoshi
+626 = {
+	winter_severity_bias = @normal_winter
+}
+# Abuta
+627 = {
+	winter_severity_bias = @normal_winter
+}
+# Usu
+628 = {
+	winter_severity_bias = @normal_winter
+}
+# Muroran
+629 = {
+	winter_severity_bias = @normal_winter
+}
+# Horobetsu
+630 = {
+	winter_severity_bias = @normal_winter
+}
+# Shiraoi
+631 = {
+	winter_severity_bias = @normal_winter
+}
+# Yufutsu
+632 = {
+	winter_severity_bias = @normal_winter
+}
+# Chitose
+633 = {
+	winter_severity_bias = @normal_winter
+}
+# Saru
+634 = {
+	winter_severity_bias = @normal_winter
+}
+# Niikappu
+635 = {
+	winter_severity_bias = @normal_winter
+}
+# Shizunai
+636 = {
+	winter_severity_bias = @normal_winter
+}
+# Mitsuishi
+637 = {
+	winter_severity_bias = @normal_winter
+}
+# Urakawa
+638 = {
+	winter_severity_bias = @normal_winter
+}
+# Samani
+639 = {
+	winter_severity_bias = @normal_winter
+}
+# Horoizumi
+640 = {
+	winter_severity_bias = @normal_winter
+}
+# Ishikari
+641 = {
+	winter_severity_bias = @severe_winter
+}
+# Sapporo
+642 = {
+	winter_severity_bias = @severe_winter
+}
+# Yubari
+643 = {
+	winter_severity_bias = @severe_winter
+}
+# Kabato
+644 = {
+	winter_severity_bias = @severe_winter
+}
+# Sorachi
+645 = {
+	winter_severity_bias = @severe_winter
+}
+# Uryu
+646 = {
+	winter_severity_bias = @severe_winter
+}
+# Kamikawa
+647 = {
+	winter_severity_bias = @severe_winter
+}
+# Atsuta
+648 = {
+	winter_severity_bias = @severe_winter
+}
+# Hamamasu
+649 = {
+	winter_severity_bias = @severe_winter
+}
+# Mashike
+650 = {
+	winter_severity_bias = @severe_winter
+}
+# Rumoi
+651 = {
+	winter_severity_bias = @severe_winter
+}
+# Tomamae
+652 = {
+	winter_severity_bias = @severe_winter
+}
+# Teshio
+653 = {
+	winter_severity_bias = @severe_winter
+}
+# Nakagawa
+654 = {
+	winter_severity_bias = @severe_winter
+}
+# Kamikawa
+655 = {
+	winter_severity_bias = @severe_winter
+}
+# Rishiri
+656 = {
+	winter_severity_bias = @severe_winter
+}
+# Rebun
+657 = {
+	winter_severity_bias = @severe_winter
+}
+# Soya
+658 = {
+	winter_severity_bias = @severe_winter
+}
+# Esashi
+659 = {
+	winter_severity_bias = @severe_winter
+}
+# Monbetsu
+660 = {
+	winter_severity_bias = @severe_winter
+}
+# Tokoro
+661 = {
+	winter_severity_bias = @severe_winter
+}
+# Abashiri
+662 = {
+	winter_severity_bias = @severe_winter
+}
+# Shari
+663 = {
+	winter_severity_bias = @severe_winter
+}
+# Hiroo
+664 = {
+	winter_severity_bias = @severe_winter
+}
+# Tobui
+665 = {
+	winter_severity_bias = @severe_winter
+}
+# Kamikawa
+666 = {
+	winter_severity_bias = @severe_winter
+}
+# Nakagawa
+667 = {
+	winter_severity_bias = @severe_winter
+}
+# Kato
+668 = {
+	winter_severity_bias = @severe_winter
+}
+# Kasai
+669 = {
+	winter_severity_bias = @severe_winter
+}
+# Tokachi
+670 = {
+	winter_severity_bias = @severe_winter
+}
+# Ashoro
+671 = {
+	winter_severity_bias = @severe_winter
+}
+# Shiranuka
+672 = {
+	winter_severity_bias = @normal_winter
+}
+# Kushiro
+673 = {
+	winter_severity_bias = @normal_winter
+}
+# Akan
+674 = {
+	winter_severity_bias = @normal_winter
+}
+# Abashiri
+675 = {
+	winter_severity_bias = @severe_winter
+}
+# Kawakami
+676 = {
+	winter_severity_bias = @normal_winter
+}
+# Akkeshi
+677 = {
+	winter_severity_bias = @normal_winter
+}
+# Hanasaki
+678 = {
+	winter_severity_bias = @normal_winter
+}
+# Nemuro
+679 = {
+	winter_severity_bias = @normal_winter
+}
+# Notsuke
+680 = {
+	winter_severity_bias = @normal_winter
+}
+# Shibetsu
+681 = {
+	winter_severity_bias = @severe_winter
+}
+# Menashi
+682 = {
+	winter_severity_bias = @severe_winter
+}
+# Kunashiri
+683 = {
+	winter_severity_bias = @severe_winter
+}
+# Etorofu
+684 = {
+	winter_severity_bias = @severe_winter
+}
+# Furibetsu
+685 = {
+	winter_severity_bias = @severe_winter
+}
+# Shana
+686 = {
+	winter_severity_bias = @severe_winter
+}
+# Shibetoro
+687 = {
+	winter_severity_bias = @severe_winter
+}
+# Uruppu
+688 = {
+	winter_severity_bias = @severe_winter
+}
+# Shimushiru
+689 = {
+	winter_severity_bias = @severe_winter
+}
+# Shumushu
+690 = {
+	winter_severity_bias = @severe_winter
+}
+# Shikotan
+691 = {
+	winter_severity_bias = @severe_winter
+}
+# Toyohara
+692 = {
+	winter_severity_bias = @severe_winter
+}
+# Sakaehama
+693 = {
+	winter_severity_bias = @severe_winter
+}
+# Otomari
+694 = {
+	winter_severity_bias = @severe_winter
+}
+# Nagahama
+695 = {
+	winter_severity_bias = @severe_winter
+}
+# Tomunai
+696 = {
+	winter_severity_bias = @severe_winter
+}
+# Rutaka
+697 = {
+	winter_severity_bias = @severe_winter
+}
+# Honto
+698 = {
+	winter_severity_bias = @severe_winter
+}
+# Maoka
+699 = {
+	winter_severity_bias = @severe_winter
+}
+# Noda
+700 = {
+	winter_severity_bias = @severe_winter
+}
+# Tomarioru
+701 = {
+	winter_severity_bias = @severe_winter
+}
+# Kushunnai
+702 = {
+	winter_severity_bias = @severe_winter
+}
+# Ushiro
+703 = {
+	winter_severity_bias = @severe_winter
+}
+# Nayoshi
+704 = {
+	winter_severity_bias = @severe_winter
+}
+# Mototomari
+705 = {
+	winter_severity_bias = @severe_winter
+}
+# Niitoi
+706 = {
+	winter_severity_bias = @severe_winter
+}
+# Shisuka
+707 = {
+	winter_severity_bias = @severe_winter
+}
+# Chirie
+708 = {
+	winter_severity_bias = @severe_winter
+}
+# Keton
+709 = {
+	winter_severity_bias = @severe_winter
+}
+# Romo
+710 = {
+	winter_severity_bias = @severe_winter
+}
+# Otchishi
+711 = {
+	winter_severity_bias = @severe_winter
+}
+# Nue
+712 = {
+	winter_severity_bias = @severe_winter
+}
+# Okha
+713 = {
+	winter_severity_bias = @severe_winter
+}
+# Kamchatka
+714 = {
+	winter_severity_bias = @severe_winter
+}
+# Kami-Sorachi
+715 = {
+	winter_severity_bias = @severe_winter
+}
+# Higashi-Yufutsu
+716 = {
+	winter_severity_bias = @severe_winter
+}
+# Nishi-Ashoro
+717 = {
+	winter_severity_bias = @severe_winter
+}
+# Horokotan
+718 = {
+	winter_severity_bias = @severe_winter
+}
+# Noteto
+719 = {
+	winter_severity_bias = @severe_winter
+}
+# Nanio
+720 = {
+	winter_severity_bias = @severe_winter
+}
+# Nuu
+721 = {
+	winter_severity_bias = @severe_winter
+}

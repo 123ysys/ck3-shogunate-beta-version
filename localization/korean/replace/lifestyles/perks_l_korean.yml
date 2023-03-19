@@ -1,0 +1,29 @@
+﻿l_korean:
+ # Intrigue: Seduction
+ home_advantage_perk_name:0 "오오쿠"
+ # Intrigue: Schemer
+ schemer_perk_name:0 "시노비"
+ #Learning_name: Theology Tree
+ religious_icon_perk_name:0 "불상"
+ prophet_perk_name:0 "셋쿄부시"
+ church_and_state_perk_name:0 "신사와 국"
+ radiant_perk_name:0 "광배"
+ theologian_perk_name:0 "음양사"
+ #Learning: Scholarship Tree
+ scholarly_circles_perk_name:0 "사경"
+ #Stewardship: Vassal & Liege Tree
+ meritocracy_perk_name:0 "하극상"
+ soon_forgiven_perk_name:0 "도게자"
+ administrator_perk_name:0 "부교"
+ #Stewardship: Wealth Tree
+ heregeld_perk_name:0 "조용조"
+ #Diplomacy: Majesty Tree
+ praetorian_guard_perk_name:0 "코노에후"
+ #Martial: Strategy Tree
+ bellum_justum_perk_name:0 "이기면 관군"
+ parthian_tactics_perk_name:0 "야부사메"
+ # Martial: Control
+ serve_the_crown_perk_name:0 "천황을 섬겨라"
+ # Martial: Chivalry
+ chivalric_dominance_perk_name:0 "무가정치"
+ kingsguard_perk_name:0 "하타모토"

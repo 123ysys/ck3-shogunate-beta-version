@@ -1,0 +1,95 @@
+c_nmih_kishima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kishima1={
+				set_title_name=b_nmih_kishima2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kishima1={
+				set_title_name=b_nmih_kishima9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	200.1.1={
+		holder=10290001 # Himiko
+	}
+	250.1.1={
+		holder=10290005 # Toyo
+	}
+	290.1.1={
+		holder=10290120 # Yasoomina
+	}
+	1180.1.1={
+		liege="d_nmih_hizen"
+		holder=10130879	# Goto Muneaki
+	}
+	1185.1.1={
+		holder=10130880	# Goto Kiyoaki
+	}
+	1205.1.1={
+		holder=12751000	# Goto Tsuneakira
+	}
+	1240.1.1={
+		holder=12751005	# Goto Masaakira
+	}
+	1265.1.1={
+		holder=12751010	# Goto Naoakira
+	}
+	1290.1.1={
+		holder=12751015	# Goto Ujiakira
+	}
+	1310.1.1={
+		holder=12751020	# Goto Yukiakira
+	}
+	1333.7.4={
+		liege="d_nmih_hizen"
+		holder=12751026 # Goto Mitsuakira
+	}
+	1375.1.1={
+		liege="d_nmih_hizen"
+		holder=12751030 # Goto Tomoakira
+	}
+	1380.1.1={
+		holder=12751045	# Goto Sukeakira
+	}
+	1410.1.1={
+		holder=12751050	# Goto Hideakira
+	}
+	1425.1.1={
+		holder=12751055	# Goto Masaakira
+	}
+	1429.1.1={
+		holder=12751060 # Goto Shikiakira
+	}
+	1493.1.1={
+		liege=0
+	}
+	1500.1.1={
+		holder=12751070 # Goto Sumiakira
+	}
+	1553.4.30={
+		holder=10068402 # Goto Takaakira
+	}
+	1575.1.1={
+		liege="d_nmih_hizen" # 
+	}
+	1583.9.17={
+		holder=10068333 # Goto(Ryuzoji) Ienobu
+	}
+	1603.3.24={
+		liege="d_nmih_hizen"
+	}
+	1609.1.1={
+		holder=10068118 # Nabeshima Tadashige
+	}
+}

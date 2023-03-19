@@ -1,0 +1,127 @@
+d_nmih_hizen = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege=0
+		holder=10240113 # Takagi Muneie
+	}
+	1185.3.4={
+		liege="e_nmih_japan"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.11.13={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12230101 # Amano Tokage
+	}
+	1192.1.1={
+		holder=10130546 # Muto Sukeyori
+	}
+	1227.1.1={
+		holder=10130550 # Muto Sukeyoshi
+	}
+	1273.1.1={
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1281.1.1={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131825 # Hojo Tokisada
+	}
+	1289.1.1={
+		holder=10132172 # Hojo Sadamune
+	}
+	1295.9.29={
+		holder=10132005 # Hojo Yukitoki
+	}
+	1321.7.18={
+		holder=10132200 # Hojo Hidetoki
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10064009 # Otomo Sadamune
+	}
+	1334.1.9={
+		holder=10064013 # Otomo Yoriyasu
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="k_nmih_kyushu_tandai"
+		holder=10049503 # Isshiki Noriuji
+	}
+	1346.8.1={
+		holder=10049504 # Isshiki Naouji
+	}
+	1353.1.1={
+		holder=10049505 # Isshiki Norimitsu
+	}
+	1355.1.1={
+		liege="k_nmih_seisei_shogun"
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1372.9.9={
+		liege="k_nmih_kyushu_tandai"
+		holder=10060029 # Imagawa Sadayo
+	}
+	1395.8.1={
+		holder=10057612 # Shibukawa Mitsuyori
+	}
+	1419.1.1={
+		holder=10057618 # Shibukawa Yoshitoshi
+	}
+	1428.1.1={
+		holder=10057614 # Shibukawa Mitsunao
+	}
+	1434.1.1={
+		holder=10057615 # Shibukawa Norinao
+	}
+	1479.1.1={
+		holder=10057623 # Shibukawa Manjumaru
+	}
+	1487.1.1={
+		holder=10057601 # Shibukawa Tadashige
+	}
+	1504.1.1={
+		liege=0
+		holder=10068000 # Shoni Sukemoto
+	}
+	1536.9.19={
+		holder=10068003 # Shoni Fuyuhisa
+	}
+	1559.2.18={
+		liege=0
+		holder=10068320 # Ryuzoji Takanobu
+	}
+	1584.5.4={
+		liege="k_nmih_southern_kyushu"
+		holder=10068331 # Ryuzoji Masaie
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1589.1.4={
+		holder=10068105 # Nabeshima Naoshige
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1607.10.26={
+		holder=10068108 # Nabeshima Katsushige
+	}
+}

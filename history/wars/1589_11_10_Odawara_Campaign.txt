@@ -1,0 +1,11 @@
+war = {
+	name = "war_1589_odawara_campaign"
+	start_date = 1589.11.10
+	end_date = 1590.7.25
+	targeted_titles = {
+		k_nmih_western_kanto
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10029400 } # Toyotomi Hideyoshi
+	defenders = { 10016014 } # Hojo Ujimasa
+}

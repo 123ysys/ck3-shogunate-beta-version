@@ -1,0 +1,7 @@
+596 = {
+
+	culture = okinawa
+	religion = ryukyuan
+	holding = castle_holding
+
+}

@@ -1,0 +1,14 @@
+396 = {
+
+	culture = tokai
+	religion = shinto
+	holding = castle_holding
+	1221.1.1={
+	}
+	1331.1.1={
+	}
+	1490.1.1={
+		religion = ikkoshu
+	}
+
+}

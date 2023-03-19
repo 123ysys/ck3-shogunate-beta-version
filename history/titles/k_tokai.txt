@@ -1,0 +1,29 @@
+k_nmih_tokai = {
+	0001.1.1={
+		liege=0
+		holder=0
+	}
+	1570.1.1={
+		liege=0
+		holder=10020010 # Takeda Shingen
+	}
+	1573.5.13={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1582.4.3={
+		holder=0 # 
+	}
+	1582.4.15={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1586.12.1={ 
+		liege="e_nmih_japan"
+	}
+	1590.7.25={ 
+		holder=0
+	}
+}

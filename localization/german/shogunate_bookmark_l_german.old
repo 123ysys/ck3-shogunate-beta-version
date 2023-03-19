@@ -1,0 +1,423 @@
+﻿l_german:
+
+ BOOKMARK_SHOW_ALL:0 "Show all dates"
+ BOOKMARK_SHOW_MORE:0 "Show more dates"
+ BOOKMARK_SHOW_LESS:0 "Show less dates"
+
+ #
+ # 1180 : Prinz Mochihito's Rebellion
+ #
+
+ bm_pmrta1180:0 "EXTRA - Prinz Mochihito's Rebellion"
+ bm_pmrta1180_desc:0 "Nach den Bürgerkriegen von Hogen (1156) und Heiji (1159) dominierte der Taira-Clan (Heishi) den kaiserlichen Hof. Taira no Kiyomori wurde zum Daijo Daijin, dem höchsten Kanzler des Reiches, ernannt, und sein Clan besaß so viele Lehen, dass ein Familienmitglied sagte: "Wer nicht zum Taira-Clan gehört, sollte kein echter Adliger sein." Der Konflikt zwischen Kiyomori und dem pensionierten Kaiser Go-Shirakawa wurde jedoch Ende der 1170er Jahre ernst und einige Anti-Taira-Fraktionen begannen zu planen."
+
+ bm_pmrta1180_prince_mochihito:0 "Mochihito"
+ bm_pmrta1180_prince_mochihito_desc:0 "Prince Mochihito\n1151-1180\n\nPrince of Emperor Go-Shirakawa. At the recommendation of Minamoto no Yorimasa, Mochihito sent a message by the name of the Prince to members of the Minamoto clan.\n\nAlthough Mochihito himself raised his forces, he lost and died eventually."
+ bm_pmrta1180_taira_kiyomori:0 "Kiyomori"
+ bm_pmrta1180_taira_kiyomori_desc:0 "Taira no Kiyomori\n1118-1181\n\nHead of the Taira clan. After the Hōgen and Heiji rebellion, his clan rose rapidly by keeping the Minamoto clan in check. Kiyomori became Daijō-daijin and established power by the Taira clan. As he married his daughter Tokuko to Emperor Takakura, and the Taira clan monopolized officials of the government, they extremely flourished.\n\nIn his later years, however, Kiyomori got caught up in rising ups of the Minamoto clan and died from fever disease. Also, he is known for encouraging trading between Japan and the Song Dynasty of China."
+ bm_pmrta1180_taira_munemori:0 "Munemori"
+ bm_pmrta1180_taira_munemori_desc:0 "Taira no Munemori\n1147-1185\n\nA child of Taira no Kiyomori. Munemori succeeded to Kiyomori after his death. Munemori led the Taira clan and fought against the Minamoto clan risen here and there.\n\nAfter the Battle of Dan-no-Ura, Munemori was caught by Minamoto no Yoshitsune and executed."
+ bm_pmrta1180_minamoto_yorimasa:0 "Yorimasa"
+ bm_pmrta1180_minamoto_yorimasa_desc:0 "Minamoto no Yorimasa\n1104-1180\n\nYorimasa recommended Prince Mochihito to defeat the Taira clan, and Yorimasa himself rose together, only lost and committed suicide.\n\nYorimasa was a master of archery and also known as a poet."
+ bm_pmrta1180_minamoto_yoritomo:0 "Yoritomo"
+ bm_pmrta1180_minamoto_yoritomo_desc:0 "Minamoto no Yoritomo\n1147-1199\n\nThe first Shogun of the Minamoto Shogunate. Although Yoritomo lost at the Heiji rebellion and was banished to Izu, he accepted a request of Prince Mochihito that Yoritomo uprose his army.\n\nAs Yoritomo extended his power based in Kamakura, he defeated Minamoto no Yoshinaka, the Taira clan, and Northern Fujiwara. Finally, Yoritomo subdued Japan. He introduced Shugo and Jitō system as fundamentals of the Samurai government. Then he became a Shogun and established his Shogunate."
+ bm_pmrta1180_minamoto_yoshinaka:0 "Yoshinaka"
+ bm_pmrta1180_minamoto_yoshinaka_desc:0 "Minamoto no Yoshinaka\n1154-1184\n\nAlso known as Kiso Yoshinaka. Yoshinaka accepted Prince Mochihito's request to raise at Kiso.\n\nYoshinaka defeated the Taira clan at Kurikara Pass, then he occupied Kyoto. Although the Japanese world was divided by three powers; Minamoto no Yoritomo, Yoshinaka, and the Taira clan, Yoshinaka was opposed to ex-Emperor Go-Shirakawa. Finally, Yoshinaka lost and died by Minamoto no Noriyori and Yoshitsune ordered by Yoritomo."
+ bm_pmrta1180_fujiwara_hidehira:0 "Hidehira"
+ bm_pmrta1180_fujiwara_hidehira_desc:0 "Fujiwara no Hidehira\n1122-1187\n\nHidehira was the third generation of North Fujiwara, leading to the heyday of them.\n\nAt the time of the uprising of Minamoto no Yoritomo, Hidehira was ordered by the Taira clan to defeat Yoritomo but Hidehira acted nothing. After the ruin of the Taira clan, he gave shelter to Minamoto no Yoshitsune who was opposing Yoritomo.\n\nHidehira's body is rested at Chūson-ji Konjiki-dō."
+ bm_pmrta1180_kikuchi_takanao:0 "Takanao"
+ bm_pmrta1180_kikuchi_takanao_desc:0 "Kikuchi Takanao\nYear of birth and death unknown\n\nSamurai from Higo. Takanao uprose opposing to control of Kyushu by the Taira clan.\n\nOnce Takanao successfully advanced to Dazaifu, eventually surrendered and allied to the Taira side. Later he accompanied Emperor Antoku, who had escaped to Dazaifu."
+ bm_pmrta1180_kono_michikiyo:0 "Michikiyo"
+ bm_pmrta1180_kono_michikiyo_desc:0 "Kono Michikiyo\n?-1181\n\nSamurai from Iyo. Michikiyo uprose in concert with Minamoto no Yoritomo together with Michikiyo's child, Kono Michinobu.\n\nOnce Michikiyo controlled Iyo country, eventually he died by the attack of the Taira allies. Leading his fleet, Michinobu joined with the Minamoto side. He also joined the Battle of Dan-no-Ura."
+
+ #
+ # 1180 : Genpei Krieg
+ #
+
+ bm_genpeiwar1180:0 "EXTRA - Genpei Krieg"
+ bm_genpeiwar1180_desc:0 "Die Taira hatten die Macht in Japan übernommen, sowohl durch Kontakte am Hof als auch durch militärische Gewalt. Kiyomori setzte seinen Enkel Antoku auf den Thron und wurde Regent. Seine Zwangsmaßnahmen führten 1180 zu einer erneuten Verschwörung unter Minamoto no Yorimasa und Prinz Mochihito, die er in der Ersten Schlacht von Uji militärisch niederschlug. Diese Schlacht gilt als erste des Genpei-Krieges.."
+
+ bm_genpeiwar1180_taira_kiyomori:0 "Kiyomori"
+ bm_genpeiwar1180_taira_kiyomori_desc:0 "Taira no Kiyomori\n1118-1181\n\nHead of the Taira clan. After the Hōgen and Heiji rebellion, his clan rose rapidly by keeping the Minamoto clan in check. Kiyomori became Daijō-daijin and established power by the Taira clan. As he married his daughter Tokuko to Emperor Takakura, and the Taira clan monopolized officials of the government, they extremely flourished.\n\nIn his later years, however, Kiyomori got caught up in rising ups of the Minamoto clan and died from fever disease. Also, he is known for encouraging trading between Japan and the Song Dynasty of China."
+ bm_genpeiwar1180_taira_munemori:0 "Munemori"
+ bm_genpeiwar1180_taira_munemori_desc:0 "Taira no Munemori\n1147-1185\n\nA child of Taira no Kiyomori. Munemori succeeded to Kiyomori after his death. Munemori led the Taira clan and fought against the Minamoto clan risen here and there.\n\nAfter the Battle of Dan-no-Ura, Munemori was caught by Minamoto no Yoshitsune and executed."
+ bm_genpeiwar1180_harada_tanenao:0 "Tanenao"
+ bm_genpeiwar1180_harada_tanenao_desc:0 "Harada Tanenao\nYear of birth and death unknown\n\nOne of the influential officers of the Dazaifu. Tanenao supported the Taira clan's governance of isle of Kyushu.\n\nAlthough he fought against Kikuchi Takanao, who rose up at Kyushu, and Minamoto no Noriyori, who was a member of Yoritomo's army, he lost at the Battle of the Dan-no-Ura and surrender to the Minamoto clan."
+ bm_genpeiwar1180_minamoto_yoritomo:0 "Yoritomo"
+ bm_genpeiwar1180_minamoto_yoritomo_desc:0 "Minamoto no Yoritomo\n1147-1199\n\nThe first Shogun of the Minamoto Shogunate. Although Yoritomo lost at the Heiji rebellion and was banished to Izu, he accepted a request of Prince Mochihito that Yoritomo uprose his army.\n\nAs Yoritomo extended his power based in Kamakura, he defeated Minamoto no Yoshinaka, the Taira clan, and Northern Fujiwara. Finally, Yoritomo suppressed Japan. He introduced Shugo and Jitō system as fundamentals of the Samurai government. Then he became a Shogun and established his Shogunate."
+ bm_genpeiwar1180_minamoto_yoshinaka:0 "Yoshinaka"
+ bm_genpeiwar1180_minamoto_yoshinaka_desc:0 "Minamoto no Yoshinaka\n1154-1184\n\nAlso known as Kiso Yoshinaka. Yoshinaka accepted Prince Mochihito's request to raise at Kiso.\n\nYoshinaka defeated the Taira clan at Kurikara Pass, then he occupied Kyoto. Although the Japanese world was divided by three powers; Minamoto no Yoritomo, Yoshinaka, and the Taira clan, Yoshinaka was opposed to ex-Emperor Go-Shirakawa. Finally, Yoshinaka lost and died by Minamoto no Noriyori and Yoshitsune ordered by Yoritomo."
+ bm_genpeiwar1180_takeda_nobuyoshi:0 "Nobuyoshi"
+ bm_genpeiwar1180_takeda_nobuyoshi_desc:0 "Takeda Nobuyoshi\n1128-1186\n\nA member of the Minamoto clan of Kai. Nobuyoshi accepted Prince Mochihito's request to raise at Kai.\n\nNobuyoshi defeated the Taira army at the Battle of Fujikawa. Thanked of it, Yoritomo gave him an important position. Later Nobuyoshi caught on suspicion of rebellion, which led his child murdered with malice aforethought."
+ bm_genpeiwar1180_yamamoto_yoshitsune:0 "Yoshitsune"
+ bm_genpeiwar1180_yamamoto_yoshitsune_desc:0 "Yamamoto Yoshitsune\nYear of birth and death unknown\n\nA member of the Minamoto clan at Ōmi. Yoshitsune raised his army corresponding with the Minamoto clan's uprising.\n\nHe entered Kyoto together with Minamoto no Yoshinaka and was in charge of sustaining an order of Kyoto."
+ bm_genpeiwar1180_toki_mitsunaga:0 "Mitsunaga"
+ bm_genpeiwar1180_toki_mitsunaga_desc:0 "Toki Mitsunaga\nYear of birth and death unknown\n\nA member of the Minamoto clan at Mino. Mitsunaga raised his army corresponding with the Minamoto clan's uprising.\n\nHe entered Kyoto together with Minamoto no Yoshinaka."
+ bm_genpeiwar1180_fujiwara_hidehira:0 "Hidehira"
+ bm_genpeiwar1180_fujiwara_hidehira_desc:0 "Fujiwara no Hidehira\n1122-1187\n\nHidehira was the third generation of North Fujiwara, leading to the heyday of them.\n\nAt the time of the uprising of Minamoto no Yoritomo, Hidehira was ordered by the Taira clan to defeat Yoritomo but Hidehira acted nothing. After the ruin of the Taira clan, he gave shelter to Minamoto no Yoshitsune who was opposing Yoritomo.\n\nHidehira's body is rested at Chūson-ji Konjiki-dō."
+
+ #
+ # 1467 : Onin War
+ #
+
+ bm_oninwar1467:0 "EXTRA - Onin War"
+ bm_oninwar1467_desc:0 "The Onin War was a civil war that lasted from 1467 to 1477, during the Muromachi period in Japan.\n\nA dispute between Hosokawa Katsumoto and Yamana Sozen escalated into a nationwide civil war involving the Ashikaga shogunate and a number of daimyo in many regions of Japan.\n\nThe war initiated the Sengoku period. This period was a long, drawn-out struggle for domination by individual daimyo, resulting in a mass power-struggle between the various houses to dominate the whole of Japan."
+
+ bm_oninwar1467_hosokawa_katsumoto:0 "Katsumoto"
+ bm_oninwar1467_hosokawa_katsumoto_desc:0 ""
+ bm_oninwar1467_hatakeyama_masanaga:0 "Masanaga"
+ bm_oninwar1467_hatakeyama_masanaga_desc:0 ""
+ bm_oninwar1467_akamatsu_masanori:0 "Masanori"
+ bm_oninwar1467_akamatsu_masanori_desc:0 ""
+ bm_oninwar1467_yamana_sozen:0 "Sozen"
+ bm_oninwar1467_yamana_sozen_desc:0 ""
+ bm_oninwar1467_hatakeyama_yoshihiro:0 "Yoshihiro"
+ bm_oninwar1467_hatakeyama_yoshihiro_desc:0 ""
+ bm_oninwar1467_ouchi_masahiro:0 "Masahiro"
+ bm_oninwar1467_ouchi_masahiro_desc:0 ""
+ bm_oninwar1467_asakura_takakage:0 "Takakage"
+ bm_oninwar1467_asakura_takakage_desc:0 ""
+ bm_oninwar1467_imagawa_yoshitada:0 "Yoshitada"
+ bm_oninwar1467_imagawa_yoshitada_desc:0 ""
+ bm_oninwar1467_ota_sukenaga:0 "Sukenaga"
+ bm_oninwar1467_ota_sukenaga_desc:0 ""
+
+ #
+ # 1493 : Meiou Coup
+ #
+
+ bm_meioucoup1493:0 "Meiou Coup"
+ bm_meioucoup1493_desc:0 "Der Onin-Krieg endete 1477 und das Verwaltungssystem des Ashikaga-Shogunats wurde wiederhergestellt. Die Bewegung des Gekokujo hatte sich jedoch auf den Rest Japans ausgeweitet. Kuni Ikki und Ikko Ikki, d. H. Lokale Revolten gegen die Autorität von Shugo Daimyo, kontrollierten einige Provinzen wie Yamashiro oder Kaga. Die Nachfolgekrisen der Ashikaga und anderer wichtiger Clans wurden ebenfalls nicht vollständig gelöst. Im zweiten Jahr der Meiou-Ära (1493) beschloss Hosokawa Masamoto, der Kanrei des Shogunats, Shogun Ashikaga Yoshiki (später Yoshitane) zu entfernen und durch Yoshizumi zu ersetzen. Der Putsch selbst war erfolgreich, aber Yoshiki floh nach Hatakeyama Hisanobu in Etchu, und der Bürgerkrieg zwischen den zwei Shogunen wurde in den folgenden Jahren fortgesetzt. Viele prominente Sengoku-Clans hatten hier ihren Ursprung. Zum Beispiel startete Ise Moritoki, später bekannt als Hojo Soun, 1493 seine Eroberung der Provinzen Izu und Sagami.."
+
+ bm_meioucoup1493_hosokawa_masamoto:0 "Masamoto"
+ bm_meioucoup1493_hosokawa_masamoto_desc:0 ""
+ bm_meioucoup1493_hatakeyama_yoshitoyo:0 "Yoshitoyo"
+ bm_meioucoup1493_hatakeyama_yoshitoyo_desc:0 ""
+ bm_meioucoup1493_hatakeyama_hisanobu:0 "Hisanobu"
+ bm_meioucoup1493_hatakeyama_hisanobu_desc:0 ""
+ bm_meioucoup1493_ouchi_masahiro:0 "Masahiro"
+ bm_meioucoup1493_ouchi_masahiro_desc:0 ""
+ bm_meioucoup1493_akamatsu_masanori:0 "Masanori"
+ bm_meioucoup1493_akamatsu_masanori_desc:0 ""
+ bm_meioucoup1493_ashikaga_yoshiki:0 "Yoshiki"
+ bm_meioucoup1493_ashikaga_yoshiki_desc:0 ""
+ bm_meioucoup1493_amago_tsunehisa:0 "Tsunehisa"
+ bm_meioucoup1493_amago_tsunehisa_desc:0 ""
+ bm_meioucoup1493_ise_moritoki:0 "Moritoki"
+ bm_meioucoup1493_ise_moritoki_desc:0 ""
+ bm_meioucoup1493_ashikaga_shigeuji:0 "Shigeuji"
+ bm_meioucoup1493_ashikaga_shigeuji_desc:0 ""
+
+ #
+ # 1507 : Aufstieg von Hojo Soun
+ #
+
+ bm_endeikyo1507:0 "Aufstieg von Hojo Soun"
+ bm_endeikyo1507_desc:0 "Hojo Soun (1432 - 8. September 1519) war das erste Oberhaupt des späten Hojo-Clans, einer der Großmächte in der japanischen Sengoku-Zeit. Der gebürtige Ise Moritoki war ursprünglich als Ise Shinkuro bekannt, ein Samurai der Taira-Linie aus einer angesehenen Familie von Shogunat-Beamten."
+
+ bm_endeikyo1507_ise_moritoki:0 "Moritoki"
+ bm_endeikyo1507_ise_moritoki_desc:0 ""
+ bm_endeikyo1507_uesugi_tomoyoshi:0 "Tomoyoshi"
+ bm_endeikyo1507_uesugi_tomoyoshi_desc:0 ""
+ bm_endeikyo1507_uesugi_akisada:0 "Akisada"
+ bm_endeikyo1507_uesugi_akisada_desc:0 ""
+ bm_endeikyo1507_miura_yoshiatsu:0 "Yoshiatsu"
+ bm_endeikyo1507_miura_yoshiatsu_desc:0 ""
+ bm_endeikyo1507_imagawa_ujichika:0 "Ujichika"
+ bm_endeikyo1507_imagawa_ujichika_desc:0 ""
+ bm_endeikyo1507_nagao_tamekage:0 "Tamekage"
+ bm_endeikyo1507_nagao_tamekage_desc:0 ""
+ bm_endeikyo1507_satomi_yoshimichi:0 "Yoshimichi"
+ bm_endeikyo1507_satomi_yoshimichi_desc:0 ""
+ bm_endeikyo1507_ashikaga_masauji:0 "Masauji"
+ bm_endeikyo1507_ashikaga_masauji_desc:0 ""
+ bm_endeikyo1507_ashikaga_yoshizumi:0 "Yoshizumi"
+ bm_endeikyo1507_ashikaga_yoshizumi_desc:0 ""
+
+ #
+ # 1511 : Schlacht von Funaokayama
+ #
+
+ bm_funaokayama1511:0 "Schlacht von Funaokayama"
+ bm_funaokayama1511_desc:0 "Die Funaokayama-Gassen (Schlacht am Mt. Funaoka) beziehen sich auf eine Schlacht am 23. August 1511 zwischen Hosokawa Takakuni, unterstützt von Ouchi Yoshioki, der Shogun Ashikaga Yoshitane unterstützte, und Hosokawa Sumimoto, der den ehemaligen Shogun Yoshizumi Ashikaga unterstützte. Es war ein Machtkampf um das Muromachi-Shogunat."
+
+ bm_funaokayama1511_ashikaga_yoshitada:0 "Yoshitada"
+ bm_funaokayama1511_ashikaga_yoshitada_desc:0 ""
+ bm_funaokayama1511_hosokawa_takakuni:0 "Takakuni"
+ bm_funaokayama1511_hosokawa_takakuni_desc:0 ""
+ bm_funaokayama1511_ouchi_yoshioki:0 "Yoshioki"
+ bm_funaokayama1511_ouchi_yoshioki_desc:0 ""
+ bm_funaokayama1511_hosokawa_sumimoto:0 "Sumimoto"
+ bm_funaokayama1511_hosokawa_sumimoto_desc:0 ""
+ bm_funaokayama1511_miyoshi_yukinaga:0 "Yukinaga"
+ bm_funaokayama1511_miyoshi_yukinaga_desc:0 ""
+ bm_funaokayama1511_akamatsu_yoshimura:0 "Yoshimura"
+ bm_funaokayama1511_akamatsu_yoshimura_desc:0 ""
+ bm_funaokayama1511_takeda_nobutora:0 "Nobutora"
+ bm_funaokayama1511_takeda_nobutora_desc:0 ""
+ bm_funaokayama1511_azai_sukemasa:0 "Sukemasa"
+ bm_funaokayama1511_azai_sukemasa_desc:0 ""
+ bm_funaokayama1511_asakura_norikage:0 "Norikage"
+ bm_funaokayama1511_asakura_norikage_desc:0 ""
+
+ #
+ # 1523 : Mori's Erwachen
+ #
+
+ bm_motonari1523:0 "Mori's Erwachen"
+ bm_motonari1523_desc:0 "Die Geschichte erinnert sich an den jungen Mori Shojumaru als furchtlosen Draufgänger. Legenden erzählen von einer Begegnung mit Amago Tsunehisa in seiner Kindheit, als er einen Pfeil auf den Lord von Izumo schoss. Tsunehisa fing den Pfeil und verschonte ihn, beeindruckt von Shojumarus Tapferkeit, in der Hoffnung, in Zukunft gegen ihn kämpfen zu können. Shojumaru wurde 1506 verwaist und musste eine aktive Rolle im Gouverneursamt übernehmen. Im Jahr 1511 wurde Shojumaru offiziell ein Erwachsener oder Genpuku und wurde in Motonari umbenannt, er schuf einen der mächtigsten Clans der Sengoku-Zeit."
+
+ bm_motonari1523_mori_motonari:0 "Motonari"
+ bm_motonari1523_mori_motonari_desc:0 "Mori Motonari\n1497-1571\n\nMotonari was a vassal of Amago clan, later Ouchi clan.\n\nAfter the rebel led by Sue Harukata against his liege Ouchi Yoshitaka, Motonari defeated Harukata at the Battle of Itsukushima and extended his influence. Motonari also defeated Amago clan and became a great Daimyo who controlled the whole Chugoku region.\n\nHe is famous for the lesson to teach his three sons the importance of unity."
+ bm_motonari1523_amago_tsunehisa:0 "Tsunehisa"
+ bm_motonari1523_amago_tsunehisa_desc:0 ""
+ bm_motonari1523_ouchi_yoshioki:0 "Yoshioki"
+ bm_motonari1523_ouchi_yoshioki_desc:0 ""
+ bm_motonari1523_kikkawa_kunitsune:0 "Kunitsune"
+ bm_motonari1523_kikkawa_kunitsune_desc:0 ""
+ bm_motonari1523_sue_okifusa:0 "Okifusa"
+ bm_motonari1523_sue_okifusa_desc:0 ""
+ bm_motonari1523_takeda_mitsukazu:0 "Mitsukazu"
+ bm_motonari1523_takeda_mitsukazu_desc:0 ""
+ bm_motonari1523_miyoshi_motonaga:0 "Motonaga"
+ bm_motonari1523_miyoshi_motonaga_desc:0 ""
+ bm_motonari1523_rokkaku_sadayori:0 "Sadayori"
+ bm_motonari1523_rokkaku_sadayori_desc:0 ""
+ bm_motonari1523_date_tanemune:0 "Tanemune"
+ bm_motonari1523_date_tanemune_desc:0 ""
+
+ #
+ # 1534 : Tag der Väter
+ #
+
+ bm_sengoku1534:0 "Tag der Väter"
+ bm_sengoku1534_desc:0 "Im Frühsommer 1534 wurde Oda Nobunaga geboren. Jahre später würde er als einer der drei Reichseiniger Japans bekannt sein. Japan befand sich jedoch 1534 noch in der späten Muromachi-Zeit. Die Autorität und das System des Ashikaga-Shogunats waren nicht vollständig tot. Während die wichtigsten Clans des späten 16. Jahrhunderts bereits aufstiegen, waren viele „Helden“ der Sengoku Jidai wie Takeda Shingen oder Uesugi Kenshin noch jung. So könnte 1534 als das Alter ihrer Väter und Großväter bezeichnet werden.."
+
+ bm_sengoku1534_oda_nobuhide:0 "Nobuhide"
+ bm_sengoku1534_oda_nobuhide_desc:0 ""
+ bm_sengoku1534_mori_motonari:0 "Motonari"
+ bm_sengoku1534_mori_motonari_desc:0 "Mori Motonari\n1497-1571\n\nMotonari was a vassal of Amago clan, later Ouchi clan.\n\nAfter the rebel led by Sue Harukata against his liege Ouchi Yoshitaka, Motonari defeated Harukata at the Battle of Itsukushima and extended his influence. Motonari also defeated Amago clan and became a great Daimyo who controlled the whole Chugoku region.\n\nHe is famous for the lesson to teach his three sons the importance of unity."
+ bm_sengoku1534_miyoshi_nagayoshi:0 "Nagayoshi"
+ bm_sengoku1534_miyoshi_nagayoshi_desc:0 ""
+ bm_sengoku1534_nagao_tamekage:0 "Tamekage"
+ bm_sengoku1534_nagao_tamekage_desc:0 ""
+ bm_sengoku1534_takeda_nobutora:0 "Nobutora"
+ bm_sengoku1534_takeda_nobutora_desc:0 ""
+ bm_sengoku1534_hojo_ujitsuna:0 "Ujitsuna"
+ bm_sengoku1534_hojo_ujitsuna_desc:0 ""
+ bm_sengoku1534_imagawa_ujiteru:0 "Ujiteru"
+ bm_sengoku1534_imagawa_ujiteru_desc:0 ""
+ bm_sengoku1534_date_tanemune:0 "Tanemune"
+ bm_sengoku1534_date_tanemune_desc:0 ""
+ bm_sengoku1534_shimazu_takahisa:0 "Takahisa"
+ bm_sengoku1534_shimazu_takahisa_desc:0 ""
+
+ #
+ # 1546 : Schlacht von Kawagoe
+ #
+
+ bm_sengoku1546:0 "Schlacht von Kawagoe"
+ bm_sengoku1546_desc:0 "Nachdem Hojo Soun (Ise Moritoki) die Provinz Izu erobert hatte, erweiterte der Hojo-Clan sein Territorium Kontinuierlich auf die Kanto-Region. Nach dem Tod des 2. Clanführers Hojo Ujitsuna bildeten die alten Mächte wie die Uesugi-Clans und der Kamakura Kubo jedoch eine Koalition gegen den jungen Anführer Hojo Ujiyasu. Die Anti-Hojo-Armee belagerte die Kawagoe-Burg. Der entscheidende Kampf um die gesamte Kanto-Region wird bald beginnen..."
+
+ bm_sengoku1546_hojo_ujiyasu:0 "Ujiyasu"
+ bm_sengoku1546_hojo_ujiyasu_desc:0 ""
+ bm_sengoku1546_imagawa_yoshimoto:0 "Yoshimoto"
+ bm_sengoku1546_imagawa_yoshimoto_desc:0 "Imagawa Yoshimoto\n1519-1560\n\nYoshimoto entered into Buddhist priesthood, but returned to the secular life after the death of his brother Terumune and succeeded to him. \n\nYoshimoto conquered Mikawa besides with his original domain, Suruga and Tōtōmi. Yoshimoto is known as \"the best samurai among the Tōkaidō.\""
+ bm_sengoku1546_takeda_harunobu:0 "Harunobu"
+ bm_sengoku1546_takeda_harunobu_desc:0 "Takeda Harunobu\n1521-1573\n\nLater Harunobu changed his name to Takeda Shingen.\n\nBanishing his father Nobutora, Shingen became independent. He invaded Shinano then he was opposed to Uesugi Kenshin, fought each other several times at the Battles of Kawanakajima.\n\nShingen joined the anti-Nobunaga Coalition and defeated Tokugawa Ieyasu at the Battle of Mikatagahara, yet Shingen died from illness at his camp.\n\nHe is known as \"the Tiger of Kai.\""
+ bm_sengoku1546_uesugi_norimasa:0 "Norimasa"
+ bm_sengoku1546_uesugi_norimasa_desc:0 ""
+ bm_sengoku1546_uesugi_tomosada:0 "Tomosada"
+ bm_sengoku1546_uesugi_tomosada_desc:0 ""
+ bm_sengoku1546_ashikaga_haruuji:0 "Haruuji"
+ bm_sengoku1546_ashikaga_haruuji_desc:0 ""
+ bm_sengoku1546_nagao_harukage:0 "Harukage"
+ bm_sengoku1546_nagao_harukage_desc:0 ""
+ bm_sengoku1546_murakami_yoshikiyo:0 "Yoshikiyo"
+ bm_sengoku1546_murakami_yoshikiyo_desc:0 ""
+ bm_sengoku1546_saito_toshimasa:0 "Toshimasa"
+ bm_sengoku1546_saito_toshimasa_desc:0 ""
+
+ #
+ # 1555 : Schlacht von Itsukushima
+ #
+
+ bm_sengoku1555:0 "Schlacht von Itsukushima"
+ bm_sengoku1555_desc:0 "Sue Harutaka tötete 1551 seinen Lord Ouchi Yoshitaka im Daineiji-Tempel und riss die Kontrolle über den Ouchi-Clan an sich. Seine Aktion verärgerte die anderen Gefolgsleute des Clans, darunter auch Mori Motonari, der schließlich die Unabhängigkeit erklärte. Während des Konflikts zwischen den Clans Ouchi und Amago besetzte Motonari mehrere Burgen, die den Ouchi und der vereinigten Provinz Aki treu ergeben waren. Um diesen ehemaligen Gefolgsmann zu bestrafen, landete Sue Harutaka seine Armee auf der Insel Miyajima, wo der berühmte Itsukushima-Schrein steht.."
+
+ bm_sengoku1555_mori_motonari:0 "Motonari"
+ bm_sengoku1555_mori_motonari_desc:0 "Mori Motonari\n1497-1571\n\nMotonari was a vassal of Amago clan, later Ouchi clan.\n\nAfter the rebel led by Sue Harukata against his liege Ouchi Yoshitaka, Motonari defeated Harukata at the Battle of Itsukushima and extended his influence. Motonari also defeated Amago clan and became a great Daimyo who controlled the whole Chugoku region.\n\nHe is famous for the lesson to teach his three sons the importance of unity."
+ bm_sengoku1555_sue_harukata:0 "Harukata"
+ bm_sengoku1555_sue_harukata_desc:0 ""
+ bm_sengoku1555_amago_haruhisa:0 "Haruhisa"
+ bm_sengoku1555_amago_haruhisa_desc:0 ""
+ bm_sengoku1555_otomo_yoshishige:0 "Yoshishige"
+ bm_sengoku1555_otomo_yoshishige_desc:0 ""
+ bm_sengoku1555_ryuzoji_takanobu:0 "Takanobu"
+ bm_sengoku1555_ryuzoji_takanobu_desc:0 ""
+ bm_sengoku1555_ashikaga_yoshiteru:0 "Yoshiteru"
+ bm_sengoku1555_ashikaga_yoshiteru_desc:0 ""
+ bm_sengoku1555_oda_nobunaga:0 "Nobunaga"
+ bm_sengoku1555_oda_nobunaga_desc:0 ""
+ bm_sengoku1555_nagao_kagetora:0 "Kagetora"
+ bm_sengoku1555_nagao_kagetora_desc:0 ""
+ bm_sengoku1555_date_harumune:0 "Harumune"
+ bm_sengoku1555_date_harumune_desc:0 ""
+
+ #
+ # 1560 : Schlacht von Okehazama
+ #
+
+ bm_sengoku1560:0 "Schlacht von Okehazama"
+ bm_sengoku1560_desc:0 "In den 1540er und 1550er Jahren führten die Clans Imagawa und Oda mehrere Schlachten. Nachdem er (Imagawa Yoshimoto) sich mit Takeda Shingen und Hojo Ujiyasu verbündet hatte, versuchte Imagawa Yoshimoto, diese Rivalität zu beenden und den Weg nach Kyoto zu sichern. 1560 rief er eine massive Armee von über 20.000 Mann an, um Oda Nobunaga zu besiegen, der kürzlich seinen eigenen Clan vereinigt hatte.."
+
+ bm_sengoku1560_oda_nobunaga:0 "Nobunaga"
+ bm_sengoku1560_oda_nobunaga_desc:0 "Oda Nobunaga\n1534-1582\n\nNobunaga defeated the Imagawa's army at the Battle of Okehazama. Allied with Tokugawa Ieyasu, Nobunaga destroyed the Saito clan and established a base at Gifu.\n\nWith Ashikaga Yoshiaki, Nobunaga entered Kyoto to install Yoshiaki as a Shogun, later opposed to and banished him. It meant the demise of the Ashikaga Shogunate. Nobunaga defeated Azai and Asakura's army at the Battle of Anekawa, and also the Takeda clan at the Battle of Nagashino.\n\nConstructing the Azuchi castle and voyaging out towards the unification of Japan, however, he got betrayed by Akechi Mitsuhide and died at Honno-ji."
+ bm_sengoku1560_imagawa_yoshimoto:0 "Yoshimoto"
+ bm_sengoku1560_imagawa_yoshimoto_desc:0 "Imagawa Yoshimoto\n1519-1560\n\nYoshimoto entered into Buddhist priesthood, but returned to the secular life after the death of his brother Terumune and succeeded to him. \n\nYoshimoto conquered Mikawa besides with his original domain, Suruga and Tōtōmi. Yoshimoto is known as \"the best samurai among the Tōkaidō.\""
+ bm_sengoku1560_matsudaira_motoyasu:0 "Motoyasu"
+ bm_sengoku1560_matsudaira_motoyasu_desc:0 "Matsudaira Motoyasu\n1543-1616\n\nLater Motoyasu changed his name to Tokugawa Ieyasu. He spent his childhood as a hostage to the Imagawa clan and the Oda clan.\n\nAfter the Battle of Okehazama, Motoyasu became independent from the Imagawa clan. At first, he entered a military alliance with Oda Nobunaga, yet the position fell to a vassal gradually.\n\nAfter the death of Nobunaga, Ieyasu (Motoyasu) became a subject to Toyotomi Hideyoshi. After the death of Hideyoshi, Ieyasu won at the Battle of Sekigahara and established the Tokugawa Shogunate."
+ bm_sengoku1560_takeda_shingen:0 "Shingen"
+ bm_sengoku1560_takeda_shingen_desc:0 "Takeda Shingen\n1521-1573\n\nBanishing his father Nobutora, Shingen became independent. He invaded Shinano then he was opposed to Uesugi Kenshin, fought each other several times at the Battles of Kawanakajima.\n\nShingen joined the anti-Nobunaga Coalition and defeated Tokugawa Ieyasu at the Battle of Mikatagahara, yet Shingen died from illness at his camp.\n\nHe is known as \"the Tiger of Kai.\""
+ bm_sengoku1560_nagao_kagetora:0 "Kagetora"
+ bm_sengoku1560_nagao_kagetora_desc:0 "Nagao Kagetora\n1530-1578\n\nLater Kagetora changed his name to Uesugi Kenshin.\n\nHe sheltered Murakami Yoshiharu who was defeated by Takeda Shingen, and Uesugi Norimasa who was banished by Hojo Ujiyasu. Kagetora was given the title of Kantō Kanrei and renowned his family name \"Uesugi\" from Norimasa. Kenshin (Kagetora) fought against Shingen over Shinano and Ujiyasu over Kantō.\n\nKenshin is known as \"the God of the War\" or \"the Dragon of Echigo.\" He died right before his expedition."
+ bm_sengoku1560_hojo_ujiyasu:0 "Ujiyasu"
+ bm_sengoku1560_hojo_ujiyasu_desc:0 "Hojo Ujiyasu\n1515-1571\n\nUjiyasu was the third generation of the Go-Hojo clan and led to the heyday of them.\n\nHe destroyed the Uesugi clan of Ogigayatsu over the great victory of the Siege of Kawagoe Castle. And Ujiyasu exiled Kantō Kanrei Uesugi Norimasa to Echigo.\n\nPerforming Kenchi (land surveying) and reforming the tax system to consolidate the governance of his realm, then he died from the disease after transferring the headship of the family to his child Ujimasa."
+ bm_sengoku1560_saito_yoshitatsu:0 "Yoshitatsu"
+ bm_sengoku1560_saito_yoshitatsu_desc:0 "Saito Yoshitatsu\n1527-1561\n\nA child of Saito Dosan. Some said that Yoshitatsu was a child of Toki Yorinari.\n\nYoshitatsu succeeded to Dosan who got retirement. They deepened the conflict and then Yoshitatsu destroyed and killed Dosan at the Battle of Nagaragawa.\n\nYoshitatsu died from disease during the severest time that Oda Nobunaga's invasion."
+ bm_sengoku1560_azai_hisamasa:0 "Hisamasa"
+ bm_sengoku1560_azai_hisamasa_desc:0 "Azai Hisamasa\n?-1573\n\nA child of Azai Sukemasa and a father of Azai Nagamasa.\n\nFor Hisamasa was pushed by the Kyogoku clan and the Rokkaku clan, it is said that Hisamasa wasn't doing well in terms of foreign affairs.\n\nAfter his retirement and giving the headship of the family to Nagamasa, Hisamasa got attacked by the Oda army at his castle Odani-jo, then he committed suicide."
+ bm_sengoku1560_asakura_yoshikage:0 "Yoshikage"
+ bm_sengoku1560_asakura_yoshikage_desc:0 "Asakura Yoshikage\n1533-1573\n\nAfter the death of the Shogun Ashikaga Yoshiteru, Yoshikage welcomed Yoshiteru's brother Yoshiaki, however, Yoshiaki left him because Yoshikage wasn't ambitious to enter Kyoto.\n\nAt the time Yoshikage got attacked by Nobunaga, who had entered Kyoto, Yoshikage fought against Nobunaga and in cooperation with Yoshikage's allies Azai Nagamasa, Takeda Shingen, and the Hongan-ji Temple.\n\nAfter the loss of the Battle of Anekawa, Yoshikage got attacked his castle Ichijodani-jo, then committed suicide."
+
+ #
+ # 1568 : Tenka Fubu
+ #
+
+ bm_sengoku1568:0 "Tenka Fubu"
+ bm_sengoku1568_desc:0 "Nach der Schlacht von Okehazama verbündete sich Oda Nobunaga mit Matsudaira Motoyasu (später bekannt als Tokugawa Ieyasu) und fiel in Mino ein, der Provinz seines verstorbenen Schwiegervaters. Er eroberte 1567 die gesamte Provinz und verlegte seine Hauptstadt nach Inabayama, dass er in Gifu umbenannte. Gleichzeitig dominierte das politische Chaos den Kinai. Shogun Ashikaga Yoshiteru wurde ermordet und es gab keinen national anerkannten Herrscher. Nobunaga übernahm sein berühmtes Motto 'Tenka Fubu' (Die Welt mit Gewalt regieren) und wartete auf die Gelegenheit, nach Kyoto zu marschieren.."
+
+ bm_sengoku1568_oda_nobunaga:0 "Nobunaga"
+ bm_sengoku1568_oda_nobunaga_desc:0 "Oda Nobunaga\n1534-1582\n\nNobunaga defeated the Imagawa's army at the Battle of Okehazama. Allied with Tokugawa Ieyasu, Nobunaga destroyed the Saito clan and established a base at Gifu.\n\nWith Ashikaga Yoshiaki, Nobunaga entered Kyoto to install Yoshiaki as a Shogun, later opposed to and banished him. It meant the demise of the Ashikaga Shogunate. Nobunaga defeated Azai and Asakura's army at the Battle of Anekawa, and also the Takeda clan at the Battle of Nagashino.\n\nConstructing the Azuchi castle and voyaging out towards the unification of Japan, however, he got betrayed by Akechi Mitsuhide and died at Honno-ji."
+ bm_sengoku1568_tokugawa_ieyasu:0 "Ieyasu"
+ bm_sengoku1568_tokugawa_ieyasu_desc:0 "Tokugawa Ieyasu\n1543-1616\n\nIeyasu spent his childhood as a hostage to the Imagawa clan and the Oda clan.\n\nAfter the Battle of Okehazama, Ieyasu became independent from the Imagawa clan. At first, Ieyasu entered a military alliance with Oda Nobunaga, yet the position fell to a vassal gradually.\n\nAfter the death of Nobunaga, Ieyasu became a subject to Toyotomi Hideyoshi. After the death of Hideyoshi, Ieyasu won at the Battle of Sekigahara and established the Tokugawa Shogunate."
+ bm_sengoku1568_takeda_shingen:0 "Shingen"
+ bm_sengoku1568_takeda_shingen_desc:0 "Takeda Shingen\n1521-1573\n\nBanishing his father Nobutora, Shingen became independent. He invaded Shinano then he was opposed to Uesugi Kenshin, fought each other several times at the Battles of Kawanakajima.\n\nShingen joined the anti-Nobunaga Coalition and defeated Tokugawa Ieyasu at the Battle of Mikatagahara, yet Shingen died from illness at his camp.\n\nHe is known as \"the Tiger of Kai.\""
+ bm_sengoku1568_uesugi_terutora:0 "Terutora"
+ bm_sengoku1568_uesugi_terutora_desc:0 "Uesugi Terutora\n1530-1578\n\nLater Terutora changed his name to Kenshin.\n\nHe sheltered Murakami Yoshiharu who was defeated by Takeda Shingen, and Uesugi Norimasa who was banished by Hojo Ujiyasu. Terutora was given the title of Kantō Kanrei and renowned his family name \"Uesugi\" from Norimasa. Kenshin (Terutora) fought against Shingen over Shinano and Ujiyasu over Kantō.\n\nKenshin is known as \"the God of the War\" or \"the Dragon of Echigo.\" He died right before his expedition."
+ bm_sengoku1568_hojo_ujiyasu:0 "Ujiyasu"
+ bm_sengoku1568_hojo_ujiyasu_desc:0 "Hojo Ujiyasu\n1515-1571\n\nUjiyasu was the third generation of the Go-Hojo clan and led to the heyday of them.\n\nHe destroyed the Uesugi clan of Ogigayatsu over the great victory of the Siege of Kawagoe Castle. And Ujiyasu exiled Kantō Kanrei Uesugi Norimasa to Echigo.\n\nPerforming Kenchi (land surveying) and reforming the tax system to consolidate the governance of his realm, then he died from the disease after transferring the headship of the family to his child Ujimasa."
+ bm_sengoku1568_mori_motonari:0 "Motonari"
+ bm_sengoku1568_mori_motonari_desc:0 "Mori Motonari\n1497-1571\n\nMotonari was a vassal of Amago clan, later Ouchi clan.\n\nAfter the rebel led by Sue Harukata against his liege Ouchi Yoshitaka, Motonari defeated Harukata at the Battle of Itsukushima and extended his influence. Motonari also defeated Amago clan and became a great Daimyo who controlled the whole Chugoku region.\n\nHe is famous for the lesson to teach his three sons the importance of unity."
+ bm_sengoku1568_chosokabe_motochika:0 "Motochika"
+ bm_sengoku1568_chosokabe_motochika_desc:0 "Chosokabe Motochika\n1539-1599\n\nAfter unification of Tosa, Motochika extended his power across the Shikoku.\n\nHe surrendered to Toyotomi Hideyoshi as a result of Hideyoshi's conquest of the Shikoku, yet Motochika got guaranteed the whole country of Tosa. Later, he joined Conquest of the Isle of Kyushu, Conquest of Odawara, and Japanese invasions of Korea.\n\nHe is famous for the governance law \"The 100 Article Code of Chosokabe Motochika.\""
+ bm_sengoku1568_otomo_sorin:0 "Sorin"
+ bm_sengoku1568_otomo_sorin_desc:0 "Otomo Sorin\n1530-1587\n\nSorin led Otomo clan to its heyday. He held six titles of Shugo (local governer) and Kyushu Tandai.\n\nIn addition to trading with Europeans, Sorin protected and converted to Christianity. His baptismal name was Francisco. He also sent his embassy to Rome.\n\nAfter the defeat against Shimazu clan, Sorin asked Toyotomi Hideyoshi for help."
+ bm_sengoku1568_shimazu_yoshihisa:0 "Yoshihisa"
+ bm_sengoku1568_shimazu_yoshihisa_desc:0 ""
+# bm_sengoku1568_honganji_kennyo:0 "Kennyo"
+# bm_sengoku1568_honganji_kennyo_desc:0 "Kennyo\n1543-1592\n\nThe 11th head of the Hongan-ji Temple.\n\nAs Nobunaga entered Kyoto, Kennyo was opposed to Nobunaga. He organized Ikkō-Ikki (uprising of the Buddhist) and allied with the Takeda, Azai, and Asakura clan. Also, he continued the Ishiyama Hongan-ji War with supported by the Mori clan.\n\nThe war had a truce thanked intermeditation by the Emperor Ōgimachi. After the death of Nobunaga, Kennyo was given land at Horikawa, Kyoto, where he rebuilt Hongan-ji Temple."
+
+ #
+ # 1575 : Schlacht von Nagashino
+ #
+
+ bm_sengoku1575:0 "Schlacht von Nagashino"
+ bm_sengoku1575_desc:0 "Oda Nobunaga rettete sich vor der gegen ihn gebildeten Koalition vollständig. Die Asakura und Azai fielen, Shogun Yoshiaki wurde verbannt und der gefährlichste Feind Takeda Shingen starb. Sein Sohn Takeda Katsuyori gab jedoch den Ehrgeiz seines Vaters nicht auf. Mit ihrer starken Kavallerie griff der neue Anführer des Takeda-Clans Nobunagas Verbündeten Tokugawa Ieyasu wiederholt an. Um Takedas Reiter zu besiegen, beschloss Nobunaga, Schusswaffen mit Bedacht einzusetzen.."
+
+ bm_sengoku1575_oda_nobunaga:0 "Nobunaga"
+ bm_sengoku1575_oda_nobunaga_desc:0 "Oda Nobunaga\n1534-1582\n\nNobunaga defeated the Imagawa's army at the Battle of Okehazama. Allied with Tokugawa Ieyasu, Nobunaga destroyed the Saito clan and established a base at Gifu.\n\nWith Ashikaga Yoshiaki, Nobunaga entered Kyoto to install Yoshiaki as a Shogun, later opposed to and banished him. It meant the demise of the Ashikaga Shogunate. Nobunaga defeated Azai and Asakura's army at the Battle of Anekawa, and also the Takeda clan at the Battle of Nagashino.\n\nConstructing the Azuchi castle and voyaging out towards the unification of Japan, however, he got betrayed by Akechi Mitsuhide and died at Honno-ji."
+ bm_sengoku1575_tokugawa_ieyasu:0 "Ieyasu"
+ bm_sengoku1575_tokugawa_ieyasu_desc:0 "Tokugawa Ieyasu\n1543-1616\n\nIeyasu spent his childhood as a hostage to the Imagawa clan and the Oda clan.\n\nAfter the Battle of Okehazama, Ieyasu became independent from the Imagawa clan. At first, Ieyasu entered a military alliance with Oda Nobunaga, yet the position fell to a vassal gradually.\n\nAfter the death of Nobunaga, Ieyasu became a subject to Toyotomi Hideyoshi. After the death of Hideyoshi, Ieyasu won at the Battle of Sekigahara and established the Tokugawa Shogunate."
+ bm_sengoku1575_takeda_katsuyori:0 "Katsuyori"
+ bm_sengoku1575_takeda_katsuyori_desc:0 ""
+ bm_sengoku1575_mori_terumoto:0 "Terumoto"
+ bm_sengoku1575_mori_terumoto_desc:0 ""
+ bm_sengoku1575_uesugi_kenshin:0 "Kenshin"
+ bm_sengoku1575_uesugi_kenshin_desc:0 "Uesugi Kenshin\n1530-1578\n\nHe sheltered Murakami Yoshiharu, who was defeated by Takeda Shingen and Uesugi Norimasa, who was banished by Hojo Ujiyasu. Kenshin was given the title of Kantō Kanrei and renowned his family name \"Uesugi\" from Norimasa. Kenshin fought against Shingen over Shinano and Ujiyasu over Kantō.\n\nKenshin is known as \"the God of the War\" or \"the Dragon of Echigo.\" He died right before his expedition."
+ bm_sengoku1575_hojo_ujimasa:0 "Ujimasa"
+ bm_sengoku1575_hojo_ujimasa_desc:0 ""
+ bm_sengoku1575_chosokabe_motochika:0 "Motochika"
+ bm_sengoku1575_chosokabe_motochika_desc:0 "Chosokabe Motochika\n1539-1599\n\nAfter unification of Tosa, Motochika extended his power across the Shikoku.\n\nHe surrendered to Toyotomi Hideyoshi as a result of Hideyoshi's conquest of the Shikoku, yet Motochika got guaranteed the whole country of Tosa. Later, he joined Conquest of the Isle of Kyushu, Conquest of Odawara, and Japanese invasions of Korea.\n\nHe is famous for the governance law \"The 100 Article Code of Chosokabe Motochika.\""
+ bm_sengoku1575_otomo_sorin:0 "Sorin"
+ bm_sengoku1575_otomo_sorin_desc:0 "Otomo Sorin\n1530-1587\n\nSorin led Otomo clan to its heyday. He held six titles of Shugo (local governer) and Kyushu Tandai.\n\nIn addition to trading with Europeans, Sorin protected and converted to Christianity. His baptismal name was Francisco. He also sent his embassy to Rome.\n\nAfter the defeat against Shimazu clan, Sorin asked Toyotomi Hideyoshi for help."
+ bm_sengoku1575_shimazu_yoshihisa:0 "Yoshihisa"
+ bm_sengoku1575_shimazu_yoshihisa_desc:0 ""
+
+ #
+ # 1578 : Der zerstörte Amago Clan
+ #
+
+ bm_sengoku1578:0 "Der zerstörte Amago Clan"
+ bm_sengoku1578_desc:0 "Der Amago-Clan wurde mit dem Fall der Burg Gassan-Toda im Jahr 1566 zerstört, aber einige der Clanmitglieder versuchten mehrmals, ihre Herrschaft in der Region Sanin wiederherzustellen. Mithilfe von Oda Nobunaga begannen sie 1578 den Kampf gegen den Mori-Clan. Dies wäre die letzte Chance für die Wiederherstellung von Amago ..."
+
+ bm_sengoku1578_oda_nobunaga:0 "Nobunaga"
+ bm_sengoku1578_oda_nobunaga_desc:0 "Oda Nobunaga\n1534-1582\n\nNobunaga defeated the Imagawa's army at the Battle of Okehazama. Allied with Tokugawa Ieyasu, Nobunaga destroyed the Saito clan and established a base at Gifu.\n\nWith Ashikaga Yoshiaki, Nobunaga entered Kyoto to install Yoshiaki as a Shogun, later opposed to and banished him. It meant the demise of the Ashikaga Shogunate. Nobunaga defeated Azai and Asakura's army at the Battle of Anekawa, and also the Takeda clan at the Battle of Nagashino.\n\nConstructing the Azuchi castle and voyaging out towards the unification of Japan, however, he got betrayed by Akechi Mitsuhide and died at Honno-ji."
+ bm_sengoku1578_oda_nobutada:0 "Nobutada"
+ bm_sengoku1578_oda_nobutada_desc:0 ""
+ bm_sengoku1578_tokugawa_ieyasu:0 "Ieyasu"
+ bm_sengoku1578_tokugawa_ieyasu_desc:0 "Tokugawa Ieyasu\n1543-1616\n\nIeyasu spent his childhood as a hostage to the Imagawa clan and the Oda clan.\n\nAfter the Battle of Okehazama, Ieyasu became independent from the Imagawa clan. At first, Ieyasu entered a military alliance with Oda Nobunaga, yet the position fell to a vassal gradually.\n\nAfter the death of Nobunaga, Ieyasu became a subject to Toyotomi Hideyoshi. After the death of Hideyoshi, Ieyasu won at the Battle of Sekigahara and established the Tokugawa Shogunate."
+ bm_sengoku1578_shibata_katsuie:0 "Katsuie"
+ bm_sengoku1578_shibata_katsuie_desc:0 ""
+ bm_sengoku1578_hashiba_hideyoshi:0 "Hideyoshi"
+ bm_sengoku1578_hashiba_hideyoshi_desc:0 ""
+ bm_sengoku1578_akechi_mitsuhide:0 "Mitsuhide"
+ bm_sengoku1578_akechi_mitsuhide_desc:0 ""
+ bm_sengoku1578_bessho_nagaharu:0 "Nagaharu"
+ bm_sengoku1578_bessho_nagaharu_desc:0 ""
+ bm_sengoku1578_hatano_hideharu:0 "Hideharu"
+ bm_sengoku1578_hatano_hideharu_desc:0 ""
+ bm_sengoku1578_araki_murashige:0 "Murashige"
+ bm_sengoku1578_araki_murashige_desc:0 ""
+
+ #
+ # 1582 : Der Fall der Takeda
+ #
+
+ bm_sengoku1582:0 "Der Fall der Takeda"
+ bm_sengoku1582_desc:0 "Oda Nobunaga besiegte die Kavallerie von Takeda Katsuyori in der Schlacht von Nagashino. Er und seine Generäle wie Hashiba (Toyotomi) Hideyoshi, Shibata Katsuie und Akechi Mitsuhide drängten gegen andere regionale Mächte und sicherten den Frieden Zentraljapans. 1582 befahl Nobunaga einen großen Schlag, um den Takeda-Clan zu zerstören. Der Sturz des Takeda-Clans, der 400 Jahre lang die Provinz Kai regierte würde bald kommen, aber niemand ahnte dass Nobunaga auch in den kommenden Monaten getötet werden könnte ..."
+
+ bm_sengoku1582_oda_nobunaga:0 "Nobunaga"
+ bm_sengoku1582_oda_nobunaga_desc:0 "Oda Nobunaga\n1534-1582\n\nNobunaga defeated the Imagawa's army at the Battle of Okehazama. Allied with Tokugawa Ieyasu, Nobunaga destroyed the Saito clan and established a base at Gifu.\n\nWith Ashikaga Yoshiaki, Nobunaga entered Kyoto to install Yoshiaki as a Shogun, later opposed to and banished him. It meant the demise of the Ashikaga Shogunate. Nobunaga defeated Azai and Asakura's army at the Battle of Anekawa, and also the Takeda clan at the Battle of Nagashino.\n\nConstructing the Azuchi castle and voyaging out towards the unification of Japan, however, he got betrayed by Akechi Mitsuhide and died at Honno-ji."
+ bm_sengoku1582_oda_nobutada:0 "Nobutada"
+ bm_sengoku1582_oda_nobutada_desc:0 ""
+ bm_sengoku1582_tokugawa_ieyasu:0 "Ieyasu"
+ bm_sengoku1582_tokugawa_ieyasu_desc:0 "Tokugawa Ieyasu\n1543-1616\n\nIeyasu spent his childhood as a hostage to the Imagawa clan and the Oda clan.\n\nAfter the Battle of Okehazama, Ieyasu became independent from the Imagawa clan. At first, Ieyasu entered a military alliance with Oda Nobunaga, yet the position fell to a vassal gradually.\n\nAfter the death of Nobunaga, Ieyasu became a subject to Toyotomi Hideyoshi. After the death of Hideyoshi, Ieyasu won at the Battle of Sekigahara and established the Tokugawa Shogunate."
+ bm_sengoku1582_shibata_katsuie:0 "Katsuie"
+ bm_sengoku1582_shibata_katsuie_desc:0 ""
+ bm_sengoku1582_hashiba_hideyoshi:0 "Hideyoshi"
+ bm_sengoku1582_hashiba_hideyoshi_desc:0 ""
+ bm_sengoku1582_akechi_mitsuhide:0 "Mitsuhide"
+ bm_sengoku1582_akechi_mitsuhide_desc:0 ""
+ bm_sengoku1582_takeda_katsuyori:0 "Katsuyori"
+ bm_sengoku1582_takeda_katsuyori_desc:0 ""
+ bm_sengoku1582_uesugi_kagekatsu:0 "Kagekatsu"
+ bm_sengoku1582_uesugi_kagekatsu_desc:0 ""
+ bm_sengoku1582_mori_terumoto:0 "Terumoto"
+ bm_sengoku1582_mori_terumoto_desc:0 ""
+
+ #
+ # 1582 : Der Honno-ji Vorfall
+ #
+
+ bm_honnoji1582:0 "Der Honno-ji Vorfall"
+ bm_honnoji1582_desc:0 "1582 wurde Akechi Mitsuhide befohlen, nach Westen zu marschieren und Hashiba Hideyoshi zu unterstützen, der zu dieser Zeit gegen den Mori-Clan kämpfte. Am 21. Juni wurde Mitsuhide mit den Worten zitiert: "Der Feind ist in Honno-ji!" Seine Armee umstellte den Tempel und setzte ihn schließlich in Brand. Oda Nobunaga wurde entweder während der Kämpfe oder durch seine eigene Hand getötet. Mitsuhides Verrat an den Oda Clan schockierte die Hauptstadt und er war gezwungen, schnell zu handeln, um seine Position zu sichern. Aber Hashiba Hideyoshi und Shibata Katsuie marschierten gerade gegen Akechi und rächten Oda Nobunaga."
+
+ bm_honnoji1582_akechi_mitsuhide:0 "Mitsuhide"
+ bm_honnoji1582_akechi_mitsuhide_desc:0 ""
+ bm_honnoji1582_hashiba_hideyoshi:0 "Hideyoshi"
+ bm_honnoji1582_hashiba_hideyoshi_desc:0 ""
+ bm_honnoji1582_shibata_katsuie:0 "Katsuie"
+ bm_honnoji1582_shibata_katsuie_desc:0 ""
+ bm_honnoji1582_tokugawa_ieyasu:0 "Ieyasu"
+ bm_honnoji1582_tokugawa_ieyasu_desc:0 "Tokugawa Ieyasu\n1543-1616\n\nIeyasu spent his childhood as a hostage to the Imagawa clan and the Oda clan.\n\nAfter the Battle of Okehazama, Ieyasu became independent from the Imagawa clan. At first, Ieyasu entered a military alliance with Oda Nobunaga, yet the position fell to a vassal gradually.\n\nAfter the death of Nobunaga, Ieyasu became a subject to Toyotomi Hideyoshi. After the death of Hideyoshi, Ieyasu won at the Battle of Sekigahara and established the Tokugawa Shogunate."
+ bm_honnoji1582_hojo_ujimasa:0 "Ujimasa"
+ bm_honnoji1582_hojo_ujimasa_desc:0 ""
+ bm_honnoji1582_uesugi_kagekatsu:0 "Kagekatsu"
+ bm_honnoji1582_uesugi_kagekatsu_desc:0 ""
+ bm_honnoji1582_sanada_masayuki:0 "Masayuki"
+ bm_honnoji1582_sanada_masayuki_desc:0 ""
+ bm_honnoji1582_oda_nobukatsu:0 "Nobukatsu"
+ bm_honnoji1582_oda_nobukatsu_desc:0 ""
+ bm_honnoji1582_oda_nobutaka:0 "Nobutaka"
+ bm_honnoji1582_oda_nobutaka_desc:0 ""

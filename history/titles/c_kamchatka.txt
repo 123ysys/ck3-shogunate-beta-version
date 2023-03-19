@@ -1,0 +1,54 @@
+c_nmih_kamchatka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kamchatka1={
+				set_title_name=b_nmih_kamchatka1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		liege="d_nmih_kamchatka"
+		holder=10153600 # Hankuru
+	}
+	1210.1.1={
+		holder=10153610
+	}
+	1250.1.1={
+		holder=10153611
+	}
+	1280.1.1={
+		holder=10153612
+	}
+	1310.1.1={
+		holder=10153613
+	}
+	1340.1.1={
+		holder=10153614
+	}
+	1370.1.1={
+		holder=10153615
+	}
+	1400.1.1={
+		holder=10153616
+	}
+	1430.1.1={
+		holder=10153617
+	}
+	1440.1.1={
+		liege="d_nmih_kamchatka"
+		holder=10153500
+	}
+	1500.1.1={
+		holder=10153501
+	}
+	1560.1.1={
+		holder=10153502
+	}
+
+}

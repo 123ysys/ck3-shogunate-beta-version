@@ -1,0 +1,28 @@
+﻿l_korean:
+
+ CB_SHOGUNATE_COALITION_TARGET:0 "포위망의 표적"
+ CB_SHOGUNATE_NOT_COALITION_TARGET:0 "포위망의 표적이 아님"
+
+ shogunate_action_global_coalition:0 "[recipient.GetFullNameNoTooltip]에 대한 포위망"
+ shogunate_action_global_coalition_label:0 "포위망이 존재합니다"
+ shogunate_action_global_coalition_desc:0 "[recipient.GetFullName]은(는) 포위망의 표적입니다. 표적이 되면 다른 인물에게 공격받기 쉬워집니다."
+ shogunate_action_global_coalition_click:0 "#I 클릭으로 표시#!"
+ shogunate_action_global_coalition_combined_label:0 "[recipient.GetFullNameNoTooltip]"
+ shogunate_action_global_coalition_combined_group_label:0 "복수의 포위망이 존재합니다"
+ shogunate_action_global_coalition_combined_group_name:0 "복수의 포위망 존재"
+ shogunate_action_global_coalition_combined_group_description:0 "복수의 포위망이 존재합니다. 표적이 되면 다른 인물에게 공격받기 쉬워집니다."
+
+ shogunate_target.0011.t:0 "[target.GetFirstNameNoTooltip] 포위망"
+ shogunate_target.0011.desc:0 "막강한 [target.GetUINameNotMe]에 대항하는 포위망이 형성되었다. [target.GetFirstNameNoTooltip]은(는) [target.GetHouse.GetNameNoTooltip] 가의 존망을 걸고 인생 최대의 위기에 임해야 한다."
+ shogunate_target.0011.a:0 "호랑이 굴에 가야 호랑이 새끼를 잡는 법."
+ shogunate_target.0011.b:0 "[target.GetFirstNameNoTooltip]은(는) 아무것도 아니지."
+
+ shogunate_target.0012.t:0 "포위망 해산"
+ shogunate_target.0012.desc:0 "총공격으로 인해 [target.GetUINamePossessive] 세력은 붕괴되었고, 역할을 끝낸 [target.GetFirstNameNoTooltip] 포위망은 해산되었다."
+ shogunate_target.0012.a:0 "재기를 꾀하는 수밖에."
+ shogunate_target.0012.b:0 "[target.GetFirstNameNoTooltip]은(는) 여기까지다."
+
+ shogunate_target.0013.t:0 "포위망 붕괴"
+ shogunate_target.0013.desc:0 "총공격에도 불구하고 [target.GetUINamePossessive]의 세력 확대는 멈출 줄을 몰랐고, [target.GetFirstNameNoTooltip] 포위망은 마침내 붕괴될 수밖에 없었다."
+ shogunate_target.0013.a:0 "드디어 호랑이 아가리에서 벗어났나."
+ shogunate_target.0013.b:0 "[target.GetHerHim]을(를) 막을 자는 없는 것인가?"

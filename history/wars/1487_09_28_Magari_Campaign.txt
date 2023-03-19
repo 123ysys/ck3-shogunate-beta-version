@@ -1,0 +1,11 @@
+war = {
+	name = "war_1487_magari_campaign"
+	start_date = 1487.9.28
+	end_date = 1489.4.26
+	targeted_titles = {
+		c_nmih_kurita
+	}
+	casus_belli = event_sengoku_invasion_war_county
+	attackers = { 10040009 } # Ashikaga Yoshihisa
+	defenders = { 10044001 } # Rokkaku Takayori
+}

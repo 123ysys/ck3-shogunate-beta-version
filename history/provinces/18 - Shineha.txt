@@ -1,0 +1,8 @@
+18 = {
+
+	culture = southern_oshu
+	religion = shinto
+	holding = castle_holding
+	1534.1.1 = { culture = southern_oshu }
+
+}

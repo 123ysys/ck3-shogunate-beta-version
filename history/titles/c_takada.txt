@@ -1,0 +1,118 @@
+c_nmih_takada = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_takada1={
+				set_title_name=b_nmih_takada2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_takada1={
+				set_title_name=b_nmih_takada9
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_takada1={
+				set_title_name=b_nmih_takada1
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_takada1={
+				set_title_name=B_NMIH_TAKADA3_1331
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 20 }
+	1337.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_aki"
+	}
+	1180.1.1={
+		liege=0
+		holder=12660200 # Hayama Yorimune
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bingo"
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_aki"
+	}
+	1189.12.7={
+		liege="d_nmih_aki"
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1196.1.1={
+		holder=12660700 # So Takachika
+	}
+	1196.2.1={
+		holder=12660201 # Hayama Yoshimoto
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_hida"
+		holder=12221013 # Mori Suemitsu
+	}
+	1247.7.9={
+		liege="e_nmih_japan"
+		holder=12221103 # Mori Tsunemitsu
+	}
+	1270.1.1={
+		liege="d_nmih_aki"
+		holder=12270784 # Mori Tokichika
+	}
+	1333.7.4={
+		liege="d_nmih_aki"
+	}
+	1337.1.1={
+		holder=12666010 # Mori Motoharu
+	}
+	1386.1.1={
+		holder=12666030 # Mori Mitsufusa
+	}
+	1436.1.1={
+		liege="d_nmih_aki"
+		holder = 12666040 # Mori Hiromoto
+	}
+	1451.9.23={
+		liege="d_nmih_aki"
+		holder=12666050 # Mori Toyomoto
+	}
+	1471.10.3={
+		liege="k_nmih_western_chugoku" # Ouchi Masahiro
+		holder=12666050 # Mori Toyomoto
+	}
+	1475.12.22={
+		holder=10056000 # Mori Hiromoto
+	}
+	1500.1.1={
+		holder= 10056002 # Mori Okimoto
+	}
+	1516.9.21={
+		holder=10056011 # Mori Komatsumaru
+	}
+	1523.8.25={
+		holder=10056004 # Mori Motonari
+	}
+	1541.5.1={
+		liege="d_nmih_aki"
+	}
+	1571.7.6={
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10029734 # Fukushima Masashige
+	}
+	1614.1.1={
+		holder=10029720 # Fukushima Masanori
+	}
+}

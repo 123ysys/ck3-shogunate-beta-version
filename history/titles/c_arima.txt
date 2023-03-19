@@ -1,0 +1,163 @@
+c_nmih_arima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_arima1={
+				set_title_name=b_nmih_arima2
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_arima1={
+				set_title_name=b_nmih_arima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	300.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_settsu"
+	}
+	1180.1.1={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=12520100 # Tada Yukitsuna
+	}
+	1183.8.17={
+		liege="d_nmih_settsu"
+	}
+	1200.1.1={
+		holder=12520113 # Tada Sadatsuna
+	}
+	1220.1.1={
+		holder=12520114 # Tada Mototsuna
+	}
+	1221.7.6={
+		holder=12520120 # Tada Sukekuni
+	}
+	1250.1.1={
+		holder=12520125 # Tada Sukeuji
+	}
+	1300.1.1={
+		holder=12520130 # Tada Yorisada
+	}
+	1330.1.1={
+		holder=12520135 # Tada Sadatsuna
+	}
+	1333.7.4={
+		liege="d_nmih_settsu"
+		holder=12560001 # Kusunoki Masashige
+	}
+	1336.7.4={
+		liege="d_nmih_settsu"
+		holder=10053504 # Akamatsu Ujinori
+	}
+	1350.2.28={
+		liege="e_nmih_nancho"
+	}
+	1360.4.25={
+		liege="e_nmih_japan"
+	}
+	1369.10.10={
+		liege="e_nmih_nancho"
+	}
+	1386.10.3={
+		liege="d_nmih_settsu"
+		holder=10040536 # Hosokawa Yorimoto
+	}
+	1392.1.24={
+		liege="d_nmih_harima"
+		holder=10040656 # Arima Yoshisuke
+	}
+	1408.1.1={
+		liege="e_nmih_japan"
+	}
+	1421.10.22={
+		holder=10040657 # Arima Mochiie
+	}
+	1450.1.1={
+		holder=10040655 # Arima Motoie
+	}
+	1467.6.27={ # Onin War
+		liege=0
+	}
+	1469.1.1={
+		liege="e_nmih_japan"
+		holder=10040654 # Arima Norihide
+	}
+	1500.1.1={
+		liege="d_nmih_settsu"
+		holder=10040653 # Arima Suminori
+	}
+	1508.7.28={
+		holder=10040652 # Arima Muranori
+	}
+	1519.11.1={
+		liege="k_nmih_southern_kinai"
+	}
+	1520.5.31={
+		liege="d_nmih_settsu"
+	}
+	1549.7.18 ={
+		liege="k_nmih_southern_kinai"
+		holder=10040650 # Arima Murahide
+	}
+	1560.1.1={
+		holder=10040651 # Arima Kunihide
+	}
+	1565.6.17={
+		liege="d_nmih_yamato"
+	}
+	1566.10.17={
+		liege="d_nmih_yamashiro"
+	}
+	1568.10.19={
+		liege="k_nmih_chubu"
+	}
+	1574.11.28={
+		liege="d_nmih_settsu"
+	}
+	1575.7.1={
+		holder=10045700 # Araki Murashige
+	}
+	1579.12.7={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1580.9.1={
+		liege="d_nmih_settsu"
+		holder=10029552 # Ikeda Tsuneoki
+	}
+	1582.6.21={
+		liege="d_nmih_harima"
+	}
+	1582.7.16={
+		liege="k_nmih_northern_kinai"
+		holder=10029411 # Hashiba Hidetsugu
+	}
+	1582.12.15={
+		holder=10096300 # Yamazaki Kataie
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1591.5.21={
+		holder=10096301 # Yamazaki Iemori
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10098106 # Arima Noriyori
+	}
+	1602.9.13={
+		holder=10098108 # Arima Toyouji
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

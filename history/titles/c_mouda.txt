@@ -1,0 +1,162 @@
+c_nmih_mouda = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mouda1={
+				set_title_name=b_nmih_mouda9
+			}
+		}
+	}
+	1456.1.1={
+		effect={
+			title:b_nmih_mouda1={
+				set_title_name=b_nmih_mouda1
+			}
+		}
+	}
+	1541.1.1={
+		effect={
+			title:b_nmih_mouda1={
+				set_title_name=b_nmih_mouda2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1456.1.1 = { change_development_level = 10 }
+	1457.1.1 = { change_development_level = 20 }
+	1460.1.1 = { change_development_level = 30 }
+	1541.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_kazusa"
+	}
+	1180.1.1={
+		liege="d_nmih_kazusa" # Kazusa Hirotsune
+		holder=12155017 # Kazusa Hirotsune
+	}
+	1184.2.3={
+		holder=12211501 # Wada Yoshimori
+	}
+	1213.5.24={ # the Battle of Wada
+		liege="d_nmih_kazusa"
+		holder=12150131 # Sakai Tsunehide
+	}
+	1235.1.1={
+		holder=12151200 # Sakai Hidetane
+	}
+	1247.7.10={
+		liege="d_nmih_kazusa"
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.8.1={
+		liege="d_nmih_kazusa"
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.8.14={
+		liege="d_nmih_kazusa"
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		holder=10044204 # Kyogoku Hidetsuna
+	}
+	1352.6.1={
+		liege="d_nmih_shimousa"
+		holder=12151590 # Enjoji Sadamasa
+	}
+	1364.4.1={
+		liege="d_nmih_kazusa"
+		holder=12187025 # Iwamatsu Yoshimasa
+	}
+	1364.12.1={
+		holder=10017046 # Uesugi Tomofusa
+	}
+	1370.1.1={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1409.1.1={
+		holder=10017048 # Uesugi Zenshu
+	}
+	1417.1.27={
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1418.1.1={
+		holder=12130120 # Utsunomiya Mochitsuna
+	}
+	1423.9.13={
+		holder=10017061 # Uesugi Sadayori
+	}
+	1430.1.1={
+		holder=10011611 # Chiba Tanenao
+	}
+	1441.1.1={
+		holder=10011612 # Chiba Tanemasa
+	}
+	1454.7.18={
+		holder=10011613 # Chiba Tanenobu
+	}
+	1455.9.23={
+		holder=10040059 # Ashikaga Shigeuji
+	}
+	1456.1.1={
+		holder=10011809 # Takeda Nobunaga
+	}
+	1462.1.1={
+		holder=10011807 # Mariyatsu Nobuoki
+	}
+	1506.1.1={
+		holder=10011805 # Mariyatsu Nobukatsu
+	}
+	1523.1.1={
+		holder=10011801 # Takeda Nobukiyo
+	}
+	1534.8.10={
+		holder=10011802 # Takeda Nobutaka
+	}
+	1537.1.1={
+		holder=10011803 # Takeda Nobumasa
+	}
+	1538.10.29={
+		liege=0 # Ashikaga Yoshiaki died. Kazusa-Takeda clan lost its power.
+		holder=10011802 # Takeda Nobutaka
+	}
+	1541.1.1={
+		liege="d_nmih_boshu"
+		holder=10011901 # Satomi Yoshitaka
+	}
+	1574.6.19={
+		holder=10011902 # Satomi Yoshihiro
+	}
+	1578.7.5={
+		holder=10011910 # Satomi Yoshishige
+	}
+	1580.5.1={
+		holder=10011903 # Satomi Yoshiyori
+	}
+	1587.11.26={
+		holder=10011911 # Satomi Yoshiyasu
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024901 # Osuka Tadamasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10020278 # Tsuchiya Tadanao
+	}
+	1612.4.24={
+		holder=10020279 # Tsuchiya Toshinao
+	}
+}

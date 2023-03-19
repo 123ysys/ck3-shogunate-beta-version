@@ -1,0 +1,7 @@
+588 = {
+
+	culture = amami
+	religion = ryukyuan
+	holding = castle_holding
+
+}

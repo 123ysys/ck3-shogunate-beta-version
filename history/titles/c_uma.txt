@@ -1,0 +1,148 @@
+c_nmih_uma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_uma1={
+				set_title_name=b_nmih_uma9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_uma1={
+				set_title_name=b_nmih_uma9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_uma1={
+				set_title_name=b_nmih_uma3
+			}
+		}
+	}
+	1561.1.1={
+		effect={
+			title:b_nmih_uma1={
+				set_title_name=b_nmih_uma3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+	1561.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+		liege="d_nmih_iyo"
+	}
+	1180.1.1={
+		liege=0
+		holder=12690400 # Nii Morinobu
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_musashi"
+		holder=12203005 # Kaneko Ietaka
+	}
+	1213.5.23={
+		liege="d_nmih_kazusa"
+	}
+	1213.5.24={
+		liege="e_nmih_japan"
+		holder=12203012 # Kaneko Hiroie
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_iyo"
+	}
+	1250.1.1={
+		liege="d_nmih_iyo"
+		holder=12130032 # Utsunomiya Yorinari
+	}
+	1277.9.10={
+		holder=12130046 # Utsunomiya Yasumune
+	}
+	1327.2.24={
+		holder=12130075 # Utsunomiya Sadamune
+	}
+	1333.7.4={
+		liege="d_nmih_iyo"
+		holder=12691907 # Tokuno Michitsuna
+	}
+	1336.7.22={
+		liege="d_nmih_iyo"
+	}
+	1363.1.1={
+		holder=10058625 # Kono Michitomo
+	}
+	1364.11.29={
+		liege="d_nmih_sanuki"
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.3.25={
+		holder=10040536 # Hosokawa Yorimoto
+	}
+	1397.6.2={
+		liege="d_nmih_sanuki"
+		holder=10040545 # Hosokawa Mitsukuni
+	}
+	1420.1.1={
+		holder=10040546 # Hosokawa Mochiharu
+	}
+	1466.2.24={
+		holder=10040547 # Hosokawa Noriharu
+	}
+	1475.1.1={
+		holder=10040555 # Hosokawa Masaharu
+	}
+	1508.1.1={
+		liege="k_nmih_northern_kinai"
+	}
+	1508.7.28={
+		liege="d_nmih_sanuki"
+	}
+	1518.2.18={
+		holder=10040564 # Hosokawa Harukuni
+	}
+	1527.3.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1536.9.14={
+		liege=0
+		holder=10040569 # Hosokawa Michitada
+	}
+	1561.1.1={
+		liege="k_nmih_southern_kinai"
+		holder=10058680 # Ishikawa Michikiyo
+	}
+	1564.8.10={
+		liege="d_nmih_iyo"
+	}
+	1582.8.4={
+		liege="d_nmih_tosa"
+	}
+	1584.1.1={
+		holder=10098600 # Kaneko Motoie
+	}
+	1585.8.2={
+		liege="k_nmih_western_chugoku"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1587.5.18={
+		holder=10029720 # Fukushima Masanori
+		liege="e_nmih_japan"
+	}
+	1595.8.20={
+		holder=10096900 # Ogawa Suketada
+	}
+	1600.10.21={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

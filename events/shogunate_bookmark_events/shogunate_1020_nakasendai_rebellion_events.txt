@@ -1,0 +1,46 @@
+﻿namespace = shogunate_bookmark
+
+# Nakasendai Rebellion
+shogunate_bookmark.1020 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				game_start_date = 1335.8.14
+			}
+
+			# Kamakura Shogunate Army
+
+			character:10132313 = {											# Hojo Tokiyuki
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+
+			# Imperial Army
+
+			character:12139028 = {											# Ashikaga Takauji
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,10 @@
+243 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1000.1.1={
+	}
+	1331.1.1={
+	}
+}

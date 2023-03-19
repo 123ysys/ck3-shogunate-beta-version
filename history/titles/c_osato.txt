@@ -1,0 +1,149 @@
+c_nmih_osato = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_osato1={
+				set_title_name=b_nmih_osato2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_osato1={
+				set_title_name=b_nmih_osato9
+			}
+		}
+	}
+	1476.1.1={
+		effect={
+			title:b_nmih_osato1={
+				set_title_name=b_nmih_osato1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1476.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	0960.1.1={
+		holder=12207000 # Kisai Mikinari
+	}
+	0975.1.1={
+		holder=12207001 # Kisai Munenao
+	}
+	1000.1.1={
+		holder=12207002 # Kisai Masanao
+	}
+	1070.1.1={
+		holder=12207008 # Kuge Naonobu
+	}
+	1142.1.1={
+		holder=12207103 # Kuge Naomitsu
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.10.24={
+		liege="k_nmih_western_kanto" # served under Yoritomo
+	}
+	1180.10.26={
+		liege="d_nmih_northern_musashi"
+	}
+	1203.10.8={
+		liege="d_nmih_musashi"
+	}
+	1204.1.1={
+		holder=12207105 # Kuge Shigeie
+	}
+	1215.1.1={
+		holder=12207106 # Kuge Naotaka
+	}
+	1221.7.6={
+		liege="d_nmih_harima"
+		holder=12205703 # Abo Sanekazu
+	}
+	1223.1.1={
+		liege="d_nmih_musashi"
+	}
+	1240.1.1={
+		holder=12205705 # Abo Yasuzane
+	}
+	1260.1.1={
+		holder=12205710 # Abo Tsunezane
+	}
+	1300.1.1={
+		holder=12205714 # Abo Munezane
+	}
+	1333.6.28={
+		holder=12205723 # Abo Mitsuyasu
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+	}
+	1350.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12205726 # Abo Yasunori
+	}
+	1380.1.1={
+		holder=12205730 # Abo Norimitsu
+	}
+	1400.1.1={
+		holder=12205733 # Abo Muneshige
+	}
+	1438.8.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1441.1.1={
+		liege="d_nmih_musashi"
+		holder=10017320 # Nagao Kagenaka
+	}
+	1457.1.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1463.10.8={
+		holder=10017321 # Nagao Kagenobu
+	}
+	1473.7.18={
+		holder=10017324 # Nagao Kageharu
+	}
+	1477.2.10={
+		liege=0 # Nagao Kageharu's rebellion
+	}
+	1478.7.1={
+		liege="k_nmih_kanto_kanrei" # Fall of Hachigata castle
+		holder=10017024 # Uesugi Akisada
+	}
+	1510.7.25={
+		holder=10040060 # Uesugi Akizane
+	}
+	1515.1.1={
+		holder=10017026 # Uesugi Norifusa
+	}
+	1525.4.7={
+		holder=10017027 # Uesugi Norihiro
+	}
+	1531.1.1={
+		holder=10017000 # Uesugi Norimasa
+	}
+	1546.5.19={
+		liege="d_nmih_musashi"
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1560.1.1={
+		holder=10016016 # Hojo Ujikuni
+	}
+	1590.7.25={
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

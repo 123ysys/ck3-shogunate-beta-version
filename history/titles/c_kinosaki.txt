@@ -1,0 +1,167 @@
+c_nmih_kinosaki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kinosaki1={
+				set_title_name=b_nmih_kinosaki3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kinosaki1={
+				set_title_name=b_nmih_kinosaki9
+			}
+		}
+	}
+	1372.12.1={
+		effect={
+			title:b_nmih_kinosaki1={
+				set_title_name=B_NMIH_KINOSAKI9_1372
+			}
+		}
+	}
+	1569.1.1={
+		effect={
+			title:b_nmih_kinosaki1={
+				set_title_name=B_NMIH_KINOSAKI9_1569
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1520.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1179.12.18={
+		liege="d_nmih_tajima"
+		holder=10110031 # Taira Tsunemori
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_tajima"
+		holder=12600001 # Taira Suehiro
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_tajima"
+		holder=12205040 # Yokoyama Tokihiro
+	}
+	1186.6.1={
+		holder=12600400 # Ota Shomyo
+	}
+	1221.6.6={
+		liege="d_nmih_hoki"
+	}
+	1221.7.6={
+		liege="d_nmih_tajima"
+	}
+	1223.1.1={
+		holder=12600401 # Ota Masahiro
+	}
+	1255.1.1={
+		holder=12600403 # Ota Masatsuna
+	}
+	1285.1.1={
+		holder=12600404 # Ota Masayori
+	}
+	1321.1.1={
+		holder=12600405 # Ota Yukitsuna
+	}
+	1325.1.1={
+		holder=12600407 # Ota Morinobu
+	}
+	1333.5.22={
+		liege="d_nmih_tajima"
+		holder=12600408 # Ota Masatsune
+	}
+	1336.7.22={
+		liege="d_nmih_tajima"
+		holder=12395216 # Imagawa Yorisada
+	}
+	1351.3.15={
+		holder=10055052 # Ueno Yorikane
+	}
+	1351.8.23={
+		holder=12395216 # Imagawa Yorisada
+	}
+	1352.7.1={
+		holder=12536206 # Kou Moroakira
+	}
+	1353.7.13={
+		holder=12396022 # Nikki Yorikatsu
+	}
+	1365.2.1={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1371.4.14={
+		holder=10050007 # Yamana Moroyoshi
+	}
+	1376.3.31={
+		holder=10050011 # Yamana Tokiyoshi
+	}
+	1389.5.29={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1390.3.1={
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1392.1.24={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1433.1.1={
+		holder=10050039 # Yamana Mochitoyo
+	}
+	1454.1.1={
+		holder=10050040 # Yamana Noritoyo
+	}
+	1458.1.1={
+		holder=10050039 # Yamana Mochitoyo
+	}
+	1472.8.1={
+		holder=10050044 # Yamana Masatoyo
+	}
+	1499.3.13={
+		holder=10050045 # Yamana Munetoyo
+	}
+	1512.1.1={
+		holder=10050046 # Yamana Nobutoyo
+	}
+	1528.4.3={
+		holder=10050005 # Yamana Suketoyo
+	}
+	1580.7.2={
+		liege="d_nmih_harima"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1580.7.3={
+		holder=10029401 # Hashiba Hidenaga
+	}
+	1582.7.16={
+		liege="d_nmih_tajima"
+		holder=10029401 # Hashiba Hidenaga
+	}
+	1585.5.11={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.8.10={
+		liege="d_nmih_tajima"
+		holder=10029741 # Maeno Nagayasu
+	}
+	1595.8.20={
+		holder=10093801 # Koide Yoshimasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10093801 # Koide Yoshimasa
+	}
+	1604.4.21={
+		holder=10093804 # Koide Yoshihide
+	}
+	1613.4.19={
+		holder=10093805 # Koide Yoshichika
+	}
+}

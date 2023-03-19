@@ -1,0 +1,68 @@
+d_nmih_utsunomiya = {
+	1000.1.1={
+	}
+	1063.1.1={
+		holder=11005863 # Fujiwara Soen
+	}
+	1111.11.20={
+		holder=12130000 # Utsunomiya Munetsuna
+	}
+	1162.9.30={
+		holder=12130003 # Utsunomiya Tomotsuna
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1196.1.1={
+		holder=12130020 # Utsunomiya Yoritsuna
+	}
+	1259.12.26={
+		holder=12130030 # Utsunomiya Yasutsuna
+	}
+	1260.11.24={
+		holder=12130040 # Utsunomiya Kagetsuna
+	}
+	1298.5.1={
+		holder=12130045 # Utsunomiya Sadatsuna
+	}
+	1316.7.25={
+		holder=12130050 # Utsunomiya Kintsuna
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+	}
+	1336.1.24={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1336.3.24={
+		liege="e_nmih_nancho"
+	}
+	1356.12.17={
+		liege="k_nmih_kamakura_kubo"
+		holder=12130055 # Utsunomiya Ujitsuna
+	}
+	1370.7.28={
+		holder=12130060 # Utsunomiya Mototsuna
+	}
+	1380.6.19={
+		holder=12130065 # Utsunomiya Mitsutsuna
+	}
+	1407.11.2={
+		holder=12130120 # Utsunomiya Mochitsuna
+	}
+	1423.9.13={
+		holder=10010911 # Utsunomiya Hitotsuna
+	}
+	1456.1.1={
+		liege=0
+		holder=0 # 
+	}
+}

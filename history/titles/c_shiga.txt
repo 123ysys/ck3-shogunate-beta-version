@@ -1,0 +1,329 @@
+c_nmih_shiga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shiga1={
+				set_title_name=b_nmih_shiga1
+			}
+		}
+	}
+	1571.9.30={
+		effect={
+			title:b_nmih_shiga1={
+				set_title_name=b_nmih_shiga2
+			}
+		}
+	}
+	1586.1.1={
+		effect={
+			title:b_nmih_shiga1={
+				set_title_name=b_nmih_shiga4
+			}
+		}
+	}
+	1601.1.1={
+		effect={
+			title:b_nmih_shiga1={
+				set_title_name=b_nmih_shiga5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	788.1.1 = { change_development_level = 30 }
+	1435.2.5 = { change_development_level = 30 }
+	1450.5.16 = { change_development_level = 30 }
+	1571.9.30 = { change_development_level = 40 }
+	1584.5.1 = { change_development_level = 40 }
+	1586.1.1 = { change_development_level = 40 }
+	1601.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_omi"
+	}
+	0788.1.1={
+		liege="d_nmih_enryakuji"
+	}
+	1015.1.1={
+		government = theocracy_government
+		holder=11003600 # Keimyo
+	}
+	1038.1.1={
+		holder=0
+	}
+	1105.4.7={
+		holder=11006265 # [39] Zoyo
+	}
+	1110.6.1={
+		holder=11006565 # [42] Ningo
+	}
+	1121.11.24={
+		holder=11006456 # [43] Kankei
+	}
+	1138.12.10={
+		holder=11000149 # [48] Gyogen
+	}
+	1162.3.25={
+		holder=11000152 # [50] Kakuchu
+	}
+	1179.12.16={
+		holder=12570100 # Myoun
+	}
+	1184.1.3={ # Siege of Hojujidono
+		liege="d_nmih_enryakuji"
+		holder=12570102 # [58] Shungyo
+	}
+	1184.3.4={
+		holder=11001822 # [59] Zengen
+	}
+	1190.4.20={
+		holder=11006178 # [61] Kenshin
+	}
+	1193.1.4={
+		holder=11000165 # [62] Jien
+	}
+	1196.12.21={
+		holder=10041693 # [63] Shonin
+	}
+	1197.6.8={
+		holder=11000165 # [65] Jien
+	}
+	1203.10.4={
+		holder=10041235 # [67] Shinsho
+	}
+	1206.1.23={
+		holder=11000462 # [68] Shoen
+	}
+	1212.2.20={
+		holder=11000165 # [69] Jien
+	}
+	1213.2.3={
+		holder=11001354 # [70] Kinen
+	}
+	1214.1.1={
+		holder=11000165 # [71] Jien
+	}
+	1221.9.14={
+		holder=11000209 # [73] Enki
+	}
+	1228.2.4={
+		liege="d_nmih_enryakuji"
+		holder=10041865 # [74] Sonsho
+	}
+	1229.5.7={
+		holder=11000609 # [75] Kujo Ryokai
+	}
+	1232.9.11={
+		holder=10041865 # [76] Sonsho
+	}
+	1238.4.16={
+		holder=11000886 # [77][79] Kujo Jigen
+	}
+	1247.5.1={
+		holder=10041863 # [80] Dokaku
+	}
+	1249.10.13={
+		holder=10041869 # [81] Sonkaku
+	}
+	1259.4.20={
+		holder=10041867 # [82] Sonjo
+	}
+	1263.9.20={
+		holder=10041868 # [83] Saijin
+	}
+	1265.4.6={
+		holder=10041872 # [84] Chokaku
+	}
+	1267.8.6={
+		holder=10041867 # [85] Sonjo
+	}
+	1269.1.30={
+		holder=11000234 # [86] Konoe Jizen
+	}
+	1271.6.19={
+		holder=10041872 # [87] Chokaku
+	}
+	1277.1.7={
+		holder=11000636 # [88] Nijo Dogen
+	}
+	1278.5.1={
+		holder=11001358 # Kingo
+	}
+	1288.5.6={
+		holder=11000637 # Kujo
+	}
+	1293.6.21={
+		holder=11000403 # Jiki
+	}
+	1297.1.22={
+		holder=11001246 # Sonkyo
+	}
+	1302.6.21={
+		holder=11000666 # Dojun
+	}
+	1303.5.17={
+		holder=11000636 # Dogen
+	}
+	1319.1.6={
+		liege="d_nmih_enryakuji"
+		holder=11000261 # [108] Jisho
+	}
+	1324.5.4={
+		holder=10041893 # [111] Jido
+	}
+	1325.6.20={
+		holder=11001260 # [113] Shoshu
+	}
+	1325.7.2={
+		holder=10041893 # [115] Jido
+	}
+	1328.5.21={
+		holder=11001520 # [117] Toin Kanshu
+	}
+	1330.5.11={
+		holder=11001532 # [119] Toin Jigen
+	}
+	1331.11.25={
+		holder=10041878 # [121] Sonen
+	}
+	1333.1.30={
+		holder=10041879 # [122][124] Sonin
+	}
+	1339.1.28={
+		holder=10041845 # [125] Seie
+	}
+	1339.11.27={
+		holder=10041878 # [126] Sonen
+	}
+	1342.1.26={
+		holder=10041890 # [127] Yujo
+	}
+	1344.4.7={
+		holder=10041882 # [128] Shoin
+	}
+	1346.9.3={
+		holder=10041883 # [129] Ryosei
+	}
+	1347.9.30={
+		holder=10041879 # [130] Sonin
+	}
+	1350.8.23={
+		holder=10041878 # [131] Sonen
+	}
+	1352.11.21={
+		holder=10041879 # [133] Sonin
+	}
+	1355.12.13={
+		holder=10041884 # [134] Sondo
+	}
+	1361.12.1={
+		holder=10041882 # [136] Shoin
+	}
+	1365.9.23={
+		holder=10041884 # [138] Sondo
+	}
+	1376.8.30={
+		liege="d_nmih_enryakuji"
+		holder=10041882 # [139] Shoin
+	}
+	1377.5.29={
+		holder=11000734 # Jizai
+	}
+	1393.2.19={
+		holder=11000280 # Jiben
+	}
+	1402.4.8={
+		holder=11000754 # Dogo
+	}
+	1404.12.5={
+		holder=11000756 # Kankyo
+	}
+	1409.4.11={
+		holder=11000757 # Ryojun
+	}
+	1412.6.5={
+		holder=11000756 # Kankyo
+	}
+	1413.12.18={
+		holder=11001461 # Jitsuen
+	}
+	1421.5.12={
+		holder=10040018 # [156] Ashikaga Jiben
+	}
+	1428.6.4={
+		holder=10040023 # [157] Ashikaga Gisho
+	}
+	1431.7.1={
+		holder=11000770 # [158] Ichijo Ryoju
+	}
+	1435.5.21={
+		holder=10040023 # [159] Ashikaga Gisho
+	}
+	1447.2.21={
+		holder=11001467 # [160] Kinsho
+	}
+	1471.5.9={
+		holder=11000790 # [162] Sonou
+	}
+	1493.5.15={
+		holder=10041756 # Gyoin, 163th
+	}
+	1515.4.13={
+		holder=10041759 # Kakuin, 164th
+	}
+	1530.4.23={
+		holder=10041701 # Sonchin, 165th
+	}
+	1550.1.1={
+		holder=10041748 # Gyoson, 166th
+	}
+	1559.9.5={
+		holder=10041743 # Ouin, 167th
+	}
+	1571.9.30={
+		government = feudal_government
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10025632 # Akechi Mitsuhide
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege="k_nmih_northern_kinai"
+	}
+	1582.7.2={
+		liege=0
+		holder=10025639 # Akechi Hidemitsu
+	}
+	1582.7.4={
+		liege="k_nmih_northern_kinai"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.7.16={
+		liege="d_nmih_wakasa"
+		holder=10029310 # Niwa Nagahide
+	}
+	1583.6.14={
+		liege="k_nmih_northern_kinai"
+		holder=10029452 # Sugihara Ietsugu
+	}
+	1584.10.12={
+		holder=10029439 # Asano Nagamasa
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1590.7.25={
+		holder=10043370 # Mashita Nagamori
+	}
+	1595.5.24={
+		holder=10044219 # Kyogoku Takatsugu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10201100 # Toda Kazuaki
+	}
+	1604.8.20={
+		holder=10201101 # Toda Ujikane
+	}
+}

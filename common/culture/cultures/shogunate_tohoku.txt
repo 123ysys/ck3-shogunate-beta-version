@@ -1,0 +1,86 @@
+﻿northern_oshu = {
+	color = { 0.1 0.9 0.1 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_tohoku
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_talent_acquisition
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_northern_oshu
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+southern_oshu = {
+	color = { 0.4 0.7 0.4 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_tohoku
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_talent_acquisition
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_southern_oshu
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+dewa = {
+	color = { 0.1 0.8 0.6 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_tohoku
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_talent_acquisition
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_dewa
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}

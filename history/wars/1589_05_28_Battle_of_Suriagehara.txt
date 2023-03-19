@@ -1,0 +1,11 @@
+war = {
+	name = "war_1589_battle_of_suriagehara"
+	start_date = 1589.5.28
+	end_date = 1589.7.12
+	targeted_titles = {
+		d_nmih_iwashiro
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 12801035 } # Date Masamune
+	defenders = { 10010837 } # Ashina Yoshihiro
+}

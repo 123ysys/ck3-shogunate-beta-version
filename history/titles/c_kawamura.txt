@@ -1,0 +1,148 @@
+c_nmih_kawamura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kawamura1={
+				set_title_name=b_nmih_kawamura9
+			}
+		}
+	}
+	0701.1.1={
+		effect={
+			title:b_nmih_kawamura1={
+				set_title_name=b_nmih_kawamura9
+			}
+		}
+	}
+	1361.1.1={
+		effect={
+			title:b_nmih_kawamura1={
+				set_title_name=b_nmih_kawamura1_1
+			}
+		}
+	}
+	1471.10.31={
+		effect={
+			title:b_nmih_kawamura1={
+				set_title_name=b_nmih_kawamura3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0701.1.1 = { change_development_level = 10 }
+	1361.1.1 = { change_development_level = 10 }
+	1369.1.1 = { change_development_level = 20 }
+	1471.10.31 = { change_development_level = 10 }
+	1500.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_hoki"
+	}
+	1180.1.1={
+		liege="k_nmih_sanin"
+		holder=12600500 # Ogamo Motoyasu
+	}
+	1183.8.17={
+		liege="k_nmih_western_chugoku" # Taira's escape to the west
+	}
+	1185.4.25={
+		liege="d_nmih_hoki"
+	}
+	1200.1.1={
+		holder=12600501 # Ogamo Masakiyo
+	}
+	1220.1.1={
+		holder=12600502 # Ogamo Tadamoto
+	}
+	1250.1.1={
+		holder=12600503 # Ogamo Yasukage
+	}
+	1280.1.1={
+		holder=12600504 # Ogamo Haruyasu
+	}
+	1310.1.1={
+		holder=12600505 # Ogamo Ujimoto
+	}
+	1333.7.4={
+		liege="d_nmih_hoki"
+		holder=12600505 # Ogamo Ujimoto
+	}
+	1340.1.1={
+		holder=12600507 # Ogamo Motosue
+	}
+	1392.1.24={
+		holder = 10050106 # Nanjo Kagemune
+	}
+	1424.11.1={
+		holder=10050017 #　Yamana Noriyuki
+	}
+	1453.1.1={
+		holder=10050018 #　Yamana Toyoyuki
+	}
+	1471.10.31={
+		holder=10050103 #　Nanjo Munenori
+	}
+	1478.1.1={
+		liege=0 # rebellion
+	}
+	1480.10.3={
+		liege="d_nmih_hoki" # Yamana Masayuki; subordination
+		holder=10050102 # Nanjo Munekata
+	}
+	1512.1.1={
+		holder = 10050101 # Nanjo Muneaki
+	}
+	1514.1.1={
+		holder = 10050100 # Nanjo Kunikiyo
+	}
+	1524.1.1={
+		liege="k_nmih_sanin"
+	}
+	1546.6.28={
+		liege="k_nmih_sanin"
+		holder=10051507 # Amago Kunihisa
+	}
+	1554.11.25={
+		holder=10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		holder=10051525 # Amago Yoshihisa
+	}
+	1562.8.1={
+		liege="k_nmih_western_chugoku"
+		holder=10050100 # Nanjo Kinikiyo
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+	}
+	1575.10.14={
+		holder=10050114 # Nanjo Mototsugu
+	}
+	1579.9.1={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege="k_nmih_sanyo"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1591.7.17={
+		holder=10050119 # Nanjo Mototada
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_hoki"
+		holder=10096802 # Nakamura Kazuhide
+	}
+	1604.1.1={
+		holder=10096803 # Nakamura Kazutada
+	}
+	1609.6.12={
+		liege="e_nmih_japan"
+		holder=12422210 # Ichihashi Nagakatsu
+	}
+}

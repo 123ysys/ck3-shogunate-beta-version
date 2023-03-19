@@ -1,0 +1,102 @@
+c_nmih_mashizu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mashizu1={
+				set_title_name=b_nmih_mashizu5
+			}
+		}
+	}
+	1352.1.1={
+		effect={
+			title:b_nmih_mashizu1={
+				set_title_name=b_nmih_mashizu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1352.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_suruga"
+	}
+	1180.1.1={
+		liege="d_nmih_suruga"
+		holder=12390600 # Okabe Yasutsuna
+	}
+	1190.1.1={
+		holder=12390611 # Okabe Nagatsuna
+	}
+	1240.1.1={
+		holder=12390615 # Okabe Ietsuna
+	}
+	1270.1.1={
+		holder=12390620 # Okabe Yasutsuna
+	}
+	1310.1.1={
+		holder=12390625 # Okabe Terutsuna
+	}
+	1340.1.1={
+		holder=12390630 # Okabe Tokitsuna
+	}
+	1380.1.1={
+		holder=12390635 # Okabe Nagatsuna
+	}
+	1410.1.1={
+		holder=12390640 # Okabe Yoshinobu
+	}
+	1450.1.1={
+		holder=12390645 # Okabe Yoshitsuna
+	}
+	1480.1.1={
+		holder=10023150 # Okabe Nakatsuna
+	}
+	1520.1.1={
+		holder=10023151 # Okabe Hisatsuna
+	}
+	1536.4.7={
+		liege=0
+		holder=10023008 # Imagawa Etan
+	}
+	1536.6.28={
+		liege="d_nmih_suruga" # 23010 Imagawa Yoshimoto
+		holder=10023151 # Okabe Hisatsuna
+	}
+	1547.1.1={
+		holder=10023152 # Okabe Masatsuna
+	}
+	1568.12.13={
+		liege="d_nmih_kai" # Takeda Shingen
+	}
+	1569.5.17={
+		liege="d_nmih_suruga" # Takeda Shingen
+	}
+	1582.4.3={
+		liege="d_nmih_suruga" # Oda Nobunaga
+	}
+	1582.4.15={
+		liege="d_nmih_suruga" # Matsudaira Ieyasu
+	}
+	1584.1.20={
+		holder=10023153 # Okabe Nagamori
+	}
+	1590.7.25={ 
+		holder=10096801 # Nakamura Kazuuji
+		liege="d_nmih_suruga"
+	}
+	1600.8.25={ 
+		holder=10096803 # Nakamura Kazutada
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024228 # Sakai Tadatoshi
+	}
+	1609.10.10={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1609.12.27={
+		liege="d_nmih_suruga"
+		holder=10024049 # Tokugawa Yorinobu
+	}
+}

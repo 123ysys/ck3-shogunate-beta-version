@@ -1,0 +1,15 @@
+war = {
+	name = "war_1413_rebellion_of_date_mochimune"
+	start_date = 1413.4.1
+	end_date = 1417.1.27
+	targeted_titles = {
+		d_nmih_iwashiro
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = {
+		12071035	# Date Mochimune
+	}
+	defenders = {
+		10040061	# Ashikaga Mochiuji
+	}
+}

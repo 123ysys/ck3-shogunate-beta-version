@@ -1,0 +1,127 @@
+c_nmih_higashi_kanbara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_higashi_kanbara1={
+				set_title_name=b_nmih_higashi_kanbara9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_higashi_kanbara1={
+				set_title_name=b_nmih_higashi_kanbara9
+			}
+		}
+	}
+	1252.1.1={
+		effect={
+			title:b_nmih_higashi_kanbara1={
+				set_title_name=b_nmih_higashi_kanbara2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1252.1.1 = { change_development_level = 10 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12270150 # Jo Jotan
+	}
+	1181.7.25={
+		liege="d_nmih_iwashiro"
+		holder=12060060 # Sato Motoharu
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_aizu"
+		holder=12211035 # Sahara Yoshitsura
+	}
+	1203.6.27={
+		holder=12211203 # Sahara Moritsura
+	}
+	1233.7.1={
+		holder=12211224 # Miura Moritoki
+	}
+	1248.1.1={
+		holder=12211223 # Sahara Mitsumori
+	}
+	1252.1.1={
+		holder=12070500 # Kanagami Morihiro
+	}
+	1297.1.1={
+		holder=12070501 # Kanagami Morihito
+	}
+	1317.1.1={
+		holder=12070502 # Kanagami Masashige
+	}
+	1333.1.1={
+		liege="d_nmih_aizu"
+	}
+	1337.1.1={
+		liege="d_nmih_aizu"
+		holder=12070504 # Kanagami Sukemichi
+	}
+	1377.1.1={
+		holder=12070505 # Kanagami Kunimura
+	}
+	1387.1.1={
+		holder=10007900 # Kanagami Moriyasu
+	}
+	1397.1.1={
+		holder=10007901 # Kanagami Moritada
+	}
+	1417.1.1={
+		holder=10007902 # Kanagami Tokitoshi
+	}
+	1437.1.1={
+		holder=10007903 # Kanagami Chikanori
+	}
+	1457.1.1={
+		holder=10007904 # Kanagami Moriyori
+	}
+	1477.1.1={
+		holder=10007905 # Kanagami Morikata
+	}
+	1497.1.1={
+		holder=10007906 # Kanagami Morikatsu
+	}
+	1517.1.1={
+		holder=10007907 # Kanagami Sadanao
+	}
+	1537.1.1={
+		holder=10007908 # Kanagami Morinobu
+	}
+	1557.1.1={
+		holder=10007909 # Kanagami Moriharu
+	}
+	1589.7.12={
+		liege="k_nmih_oshu_tandai"
+		holder=10090100 # Harada Munetoki
+	}
+	1590.8.28={
+		liege="k_nmih_southern_oshu"
+		holder=10044508 # Gamo Ujisato
+	}
+	1595.3.17={
+		holder=10044512 # Gamo Hideyuki
+	}
+	1598.3.1={
+		holder=10018407 # Fujita Nobuyoshi
+	}
+	1600.1.1={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1603.3.24={
+		liege="d_nmih_aizu"
+		holder=10044521 # Gamo Satoharu
+	}
+}

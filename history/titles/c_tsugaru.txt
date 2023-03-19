@@ -1,0 +1,136 @@
+c_nmih_tsugaru = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsugaru1={
+				set_title_name=b_nmih_tsugaru4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tsugaru1={
+				set_title_name=b_nmih_tsugaru9
+			}
+		}
+	}
+	1443.1.1={
+		effect={
+			title:b_nmih_tsugaru1={
+				set_title_name=b_nmih_tsugaru1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+	1443.1.1 = { change_development_level = 40 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_tsugaru"
+		holder=12030210 # Ando Suetoshi
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+	}
+	1189.11.15={
+		liege="d_nmih_tsugaru"
+		holder=12231102 # Omi [Usami] Sanemasa
+	}
+	1190.1.1={ # Okawa Kaneto's rebellion
+		liege="d_nmih_tsugaru"
+		holder=12000011 # Okawa Kaneto
+	}
+	1190.4.16={ # End Okawa Kaneto's rebellion
+		liege="d_nmih_mutsu"
+		holder=12041200 # Soga Tokihiro
+	}
+	1200.1.1={
+		holder=12041201 # Soga Hirotada
+	}
+	1220.1.1={
+		holder=12041206 # Soga Koreshige
+	}
+	1240.1.1={
+		holder=12041210 # Soga Mitsuhiro
+	}
+	1280.1.1={
+		holder=12041215 # Soga Yasumitsu
+	}
+	1310.1.1={
+		holder=12041220 # Soga Mitsuyori
+	}
+	1330.1.1={
+		holder=12041226 # Soga Sadamitsu
+	}
+	1333.7.4={
+		liege=0
+		holder=10132183 # Hojo [Nagoe] Tokiyuki
+	}
+	1334.11.19={
+		liege="k_nmih_mutsu_shogun"
+		holder=12041226 # Soga Sadamitsu
+	}
+	1336.1.2={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1370.1.1={
+		liege="d_nmih_mutsu"
+		holder=12040305 # Nanbu Nobumitsu
+	}
+	1376.2.13={
+		holder=12040306 # Nanbu Masamitsu
+	}
+	1392.1.1={
+		holder=12040190 # Nanbu Moriyuki
+	}
+	1437.5.13={
+		holder=12040200 # Nanbu Yoshimasa
+	}
+	1440.8.9={
+		liege="d_nmih_mutsu"
+		holder=12040201 # Nanbu Masamori
+	}
+	1445.1.1={
+		holder=10003130 # Nanbu Mitsumasa
+	}
+	1449.1.1={
+		holder=10003131 # Nanbu Tokimasa
+	}
+	1473.4.2={
+		holder=10003132 # Nanbu Michitsugu
+	}
+	1483.1.1={
+		holder=10003133 # Nanbu Nobutoki
+	}
+	1491.1.1={
+		holder=10003305 # Oura Mitsunobu
+	}
+	1526.11.12={
+		holder=10003306 # Oura Morinobu
+	}
+	1538.10.18={
+		holder=10003302 # Oura Masanobu
+	}
+	1541.7.2={
+		holder=10003301 # Oura Tamenori
+	}
+	1567.4.25={
+		holder=10003165 # Oura Tamenobu
+	}
+	1571.5.5={
+		liege=0
+	}
+	1608.1.22={
+		liege="d_nmih_tsugaru"
+		holder=10003352 # Tsugaru Nobuhira
+	}
+}

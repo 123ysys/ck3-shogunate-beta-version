@@ -1,0 +1,38 @@
+﻿# Target control system
+
+shogunate_exists_target_trigger = {
+
+	has_global_variable_list = shogunate_target_$LIST$
+	any_in_global_list = {
+		variable = shogunate_target_$LIST$
+		is_alive = yes
+		is_landed = yes
+	}
+
+}
+
+shogunate_is_target_trigger = {
+
+	exists = $TARGET$
+	$TARGET$ = { is_alive = yes }
+	$TARGET$ = { is_landed = yes }
+	has_global_variable_list = shogunate_target_$LIST$
+	is_target_in_global_variable_list = {
+		name = shogunate_target_$LIST$
+		target = $TARGET$
+	}
+
+}
+
+shogunate_neighbor_target_trigger = {
+
+	exists = $TARGET$
+	has_global_variable_list = shogunate_target_$LIST$
+	any_in_global_list = {
+		variable = shogunate_target_$LIST$
+		is_alive = yes
+		is_landed = yes
+		character_is_land_realm_neighbor = $TARGET$
+	}
+
+}

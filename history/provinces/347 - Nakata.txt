@@ -1,0 +1,8 @@
+347 = {
+
+	culture = shikoku
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+}

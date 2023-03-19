@@ -1,0 +1,35 @@
+k_nmih_sanin = {
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110031 # Taira Tsunemori
+	}
+	1183.8.17={
+		holder=0 # Taira's escape to the west
+	}
+	1467.6.27={
+		liege=0
+		holder=10050039 # Yamana Mochitoyo(Sozen)
+	}
+	1473.4.15={
+		holder=10050044 # Yamana Masatoyo
+	}
+	1477.12.16={
+		holder=0 # 
+	}
+	1524.1.1={
+		liege=0
+		holder = 10051501 # Amago Tsunehisa
+	}
+	1534.8.10={
+		holder = 10051501 # Amago Tsunehisa
+	}
+	1541.1.1={
+		holder = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		holder = 10051525 # Amago Yoshihisa
+	}
+	1567.1.8={
+		holder=0
+	}
+}

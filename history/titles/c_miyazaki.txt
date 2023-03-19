@@ -1,0 +1,122 @@
+c_nmih_miyazaki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_miyazaki1={
+				set_title_name=b_nmih_miyazaki9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_miyazaki1={
+				set_title_name=b_nmih_miyazaki9
+			}
+		}
+	}
+	1333.1.1={
+		effect={
+			title:b_nmih_miyazaki1={
+				set_title_name=b_nmih_miyazaki5
+			}
+		}
+	}
+	1587.5.18={
+		effect={
+			title:b_nmih_miyazaki1={
+				set_title_name=B_NMIH_MIYAZAKI9_1458
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1333.1.1 = { change_development_level = 20 }
+	1458.1.1 = { change_development_level = 30 }
+	1587.5.18 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi a.k.a Kukuchihiko
+	}
+	1180.1.1={
+		liege="d_nmih_hyuga"
+		holder=12810001 # Kusakabe Morihira
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_hyuga"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1198.1.1={
+		liege="d_nmih_izu"
+		holder=10130080 # Ito Suketoki
+	}
+	1238.1.1={
+		liege="d_nmih_iwami"
+		holder=10060550 # Ito Sukeyori
+	}
+	1252.7.24={
+		liege="d_nmih_hyuga"
+	}
+	1295.1.1={
+		holder=10060551 # Ito Sukehiro
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.8.14={
+		liege="d_nmih_osumi"
+	}
+	1336.4.13={
+		liege="d_nmih_hyuga"
+		holder=10048154 # Hatakeyama Tadaaki
+	}
+	1358.11.1={
+		liege="d_nmih_osumi"
+		holder=10060808 # Ijuin Hisauji
+	}
+	1401.1.1={
+		holder=10060004 # Shimazu Hisatoyo
+	}
+	1412.1.1={
+		liege=0
+		holder=10060509 # Ito Sukeyasu
+	}
+	1427.1.1={
+		holder=10060508 # Ito Sukeharu
+	}
+	1444.6.26={
+		liege=0
+		holder=10060507 # Ito Suketaka
+	}
+	1485.6.10={
+		holder=10060501 # Ito Tadasuke
+	}
+	1523.12.24={
+		holder=10060502 # Ito Sukemitsu
+	}
+	1533.9.16={
+		holder=10060500 # Ito Sukeyoshi
+	}
+	1536.6.26={
+		holder=10060503 # Ito Yoshisuke
+	}
+	1577.12.26={
+		liege="d_nmih_hyuga"
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1578.1.1={
+		holder=10060047 # Shimazu Iehisa
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10060505 # Ito Suketake
+	}
+	1600.11.16={
+		holder=10060539 # Ito Sukenori
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

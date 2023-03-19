@@ -1,0 +1,130 @@
+c_nmih_gujo = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_gujo1={
+				set_title_name=b_nmih_gujo3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_gujo1={
+				set_title_name=b_nmih_gujo5
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_gujo1={
+				set_title_name=b_nmih_gujo1
+			}
+		}
+	}
+	1541.1.1={
+		effect={
+			title:b_nmih_gujo1={
+				set_title_name=B_NMIH_GUJO1_1541
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mino"
+	}
+	1180.1.1={
+		liege="e_nmih_japan"
+		holder=10130984 # Saito Motoshige
+	}
+	1183.8.17={
+		liege="d_nmih_mino"
+	}
+	1184.3.4={
+		liege="e_nmih_joko"
+	}
+	1216.3.19={
+		holder=10131461 # Saito Chikayori
+	}
+	1221.6.6={
+		liege="d_nmih_mino"
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_mino"
+		holder=12150305 # To Taneyuki
+	}
+	1244.1.1={
+		holder=12150311 # To Yukiuji
+	}
+	1300.10.2={
+		holder=12425000 # To Tokitsune
+	}
+	1314.11.21={
+		holder=12425002 # To Sadatsune
+	}
+	1327.1.1={
+		holder=12150318 # To Ujimura
+	}
+	1333.7.4={
+		liege="d_nmih_mino"
+	}
+	1350.1.1={
+		liege="d_nmih_mino"
+		holder=12425006 # To Tsuneaki
+	}
+	1371.1.1 ={
+		holder=12425010 # To Morouji
+	}
+	1426.10.12={
+		holder=12425023 # To Masuyuki
+	}
+	1441.4.3={
+		holder=12425025 # To Ujikazu
+	}
+	1471.5.8={
+		holder=12425028 # To Tsunefuchi
+	}
+	1484.3.16={
+		holder=12425035 # To Fuchikazu
+	}
+	1490.1.21={
+		holder=12425030 # To Mototane
+	}
+	1495.5.9={
+		holder=12425036 # To Tsunekazu
+	}
+	1525.1.1={
+		holder=10025850 # To Tsuneyoshi
+	}
+	1559.8.14={
+		holder=10025860 # Endo Morikazu
+	}
+	1562.11.10={
+		holder=10025861 # Endo Yoshitaka
+	}
+	1582.6.21 ={ # Honno-ji Incident
+		liege=0
+	}
+	1582.7.16 ={
+		liege="d_nmih_mino"
+	}
+	1583.6.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1588.1.1={
+		holder=10025705 # Inaba Sadamichi
+	}
+	1600.9.20={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10025861 # Endo Yoshitaka
+	}
+}

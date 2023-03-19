@@ -1,0 +1,129 @@
+c_nmih_iwaki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iwaki1={
+				set_title_name=b_nmih_iwaki2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_iwaki1={
+				set_title_name=b_nmih_iwaki9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_iwaki1={
+				set_title_name=b_nmih_iwaki1
+			}
+		}
+	}
+	1602.1.1={
+		effect={
+			title:b_nmih_iwaki1={
+				set_title_name=b_nmih_iwaki2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 30 }
+	1602.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_iwaki"
+		holder=12061560 # Iwaki Kiyotaka
+	}
+	1189.1.1={
+		liege="e_nmih_japan"
+	}
+	1189.11.15={
+		liege="d_nmih_iwaki"
+	}
+	1200.1.1={
+		holder=12061570 # Iwaki Morotaka
+	}
+	1230.1.1={
+		holder=12061575 # Iwaki Takayoshi
+	}
+	1240.1.1={
+		holder=12061572 # Iwaki Takayuki
+	}
+	1245.1.1={
+		holder=10130325 # Iga Mitsumune
+	}
+	1257.2.10={
+		holder=10130344 # Iga Mitsuyasu
+	}
+	1271.1.1={
+		holder=10130348 # Iga Yoriyasu
+	}
+	1301.1.1={
+		holder=10130350 # Iga Mitsunaga
+	}
+	1323.1.1={
+		holder=12063500 # Iga Morimitsu
+	}
+	1333.7.4={
+		liege="d_nmih_iwaki"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1360.1.1={
+		holder=12061640 # Iwaki Tsunetomo
+	}
+	1388.1.1={
+		holder=12061650 # Iwaki Kiyotane
+	}
+	1392.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1409.1.1={
+		holder=10007212 # Iwaki Takatada
+	}
+	1415.6.8={
+		liege=0
+	}
+	1430.1.1={
+		holder=10007210
+	}
+	1480.1.1={
+		holder=10007205 # Iwaki Tsunetaka
+	}
+	1505.1.1={
+		holder=10007204 # Iwaki Yoshitaka
+	}
+	1542.1.1={
+		holder=10007201 # Iwaki Shigetaka
+	}
+	1569.1.1={
+		holder=10001020 # Iwaki Chikataka
+	}
+	1578.1.1={
+		holder=10007213 # Iwaki Tsunetaka
+	}
+	1590.8.21={
+		holder=10010838 # Iwaki(Satake) Sadataka
+		liege="d_nmih_hitachi"
+	}
+	1603.3.24={
+		liege="d_nmih_iwaki"
+		holder=10024953 # Torii Tadamasa
+	}
+}

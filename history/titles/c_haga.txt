@@ -1,0 +1,103 @@
+c_nmih_haga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_haga1={
+				set_title_name=b_nmih_haga2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_haga1={
+				set_title_name=b_nmih_haga2
+			}
+		}
+	}
+	1362.1.1={
+		effect={
+			title:b_nmih_haga1={
+				set_title_name=b_nmih_haga1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1362.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_shimotsuke"
+	}
+	1180.1.1={
+		liege="d_nmih_utsunomiya"
+		holder=12130500 # Haga Takachika
+	}
+	1198.1.1={
+		holder=12130505 # Haga Takahide
+	}
+	1211.1.1={
+		holder=12130510 # Haga Takayuki
+	}
+	1233.1.1={
+		holder=12130515 # Haga Takanobu
+	}
+	1259.1.1={
+		holder=12130520 # Haga Takatoshi
+	}
+	1298.1.1={
+		holder=12130521 # Haga Takanao
+	}
+	1300.1.1={
+		holder=12130525 # Haga Takahisa
+	}
+	1334.1.1={
+		holder=12130530 # Haga Takana
+	}
+	1372.1.1={
+		holder=12130535 # Haga Takatomo
+	}
+	1390.1.1={
+		holder=12130536 # Haga Shigetaka
+	}
+	1400.1.1={
+		holder=10012000 # Haga Takamasu
+	}
+	1436.1.1={
+		holder=10012001 # Haga Kagetaka
+	}
+	1456.1.1={
+		liege="d_nmih_oyama"
+	}
+	1471.1.1={
+		liege="d_nmih_shimotsuke"
+	}
+	1472.1.1={
+		holder=10012003 # Haga Takakatsu
+	}
+	1494.1.1={
+		holder=10012004 # Haga Takataka
+	}
+	1536.1.1={
+		holder=10012005 # Haga Takatsune
+	}
+	1541.10.24={
+		holder=10012006 # Haga Takasada
+	}
+	1565.1.1={
+		holder=10012008 # Haga Takatsugu
+	}
+	1592.1.1={
+		holder=10010936 # Haga Takakage?
+	}
+	1597.11.22={
+		holder=10044512 # Gamo Hideyuki
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029442 # Asano Nagashige
+	}
+	1611.5.29={
+		holder=10025965 # Hori Chikayoshi
+	}
+}

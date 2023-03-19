@@ -1,0 +1,134 @@
+c_nmih_aomi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_aomi1={
+				set_title_name=b_nmih_aomi9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_aomi1={
+				set_title_name=b_nmih_aomi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1206.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+	1479.8.2 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1170.1.1={
+		liege=0
+		holder=12391301 # Shigehara Hyoe
+	}
+	1180.11.9={
+		liege="d_nmih_mikawa"
+	}
+	1200.1.1={
+		liege="d_nmih_mikawa"
+		holder=12391302 # Shigehara Tsugihiro
+	}
+	1221.6.6={
+		liege="d_nmih_owari"
+		holder=12391302 # Shigehara Tsugihiro
+	}
+	1221.7.6={
+		liege="d_nmih_mikawa"
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1251.1.1={
+		holder=12139012 # Ashikaga [Shiba] Ieuji
+	}
+	1300.1.1={
+		holder=12139042 # Ashikaga [Shiba] Muneie
+	}
+	1320.1.1={
+		holder=12139049 # Ashikaga [Shiba] Takatsune
+	}
+	1333.7.4={
+		liege="d_nmih_mikawa"
+		holder=10049503 # Isshiki Noriuji
+	}
+	1336.4.13={
+		holder=12139585 # Kou Morokane
+	}
+	1351.3.15={
+		holder=12410400 # Saigo Yorioto
+	}
+	1360.7.1={
+		holder=12186615 # Oshima Yoshitaka
+	}
+	1379.4.1={
+		holder=12410500 # Ogasawara Nagafusa
+	}
+	1397.10.8={
+		holder=12410501 # Ogasawara Nagaharu
+	}
+	1406.10.1={
+		holder=12410550 # Ujiie Norimori
+	}
+	1430.1.1={
+		holder=12410551 # Ujiie Norinaga
+	}
+	1440.6.14={
+		liege="d_nmih_mikawa"
+		holder=10040526 # Hosokawa Mochitsune
+	}
+	1450.1.28={
+		holder=10040528 # Hosokawa Shigeyuki
+	}
+	1460.1.1={
+		holder=12410200 # Tojo Kuniuji
+	}
+	1476.9.1={
+		liege=0
+		holder=10024518 # Mizuno Sadamori
+	}
+	1487.1.1={
+		holder=10024505 # Mizuno Katamasa
+	}
+	1514.1.1={
+		holder=10024500 # Mizuno Tadamasa
+	}
+	1543.8.22={
+		liege=0 # 
+		holder=10024502 # Mizuno Nobumoto
+	}
+	1568.11.17={
+		liege="e_nmih_japan" # 40042 Ashikaga Yoshiaki
+		holder=10024502 # Mizuno Nobumoto
+	}
+	1576.1.27={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029510 # Sakuma Nobumori
+	}
+	1576.9.1={
+		liege="d_nmih_owari"
+		holder=10024517 # Mizuno Tadashige
+	}
+	1582.6.21={
+		liege="d_nmih_mikawa"
+	}
+	1585.10.13={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1600.8.27={ 
+		holder=10024523 # Mizuno Katsushige
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024523 # Mizuno Katsunari
+	}
+	1615.6.4={
+		holder=10024526 # Mizuno Tadakiyo
+	}
+}

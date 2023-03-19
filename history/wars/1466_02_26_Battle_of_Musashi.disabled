@@ -1,0 +1,11 @@
+war = {
+	name = "war_1466_battle_of_musashi"
+	start_date = 1466.2.26
+	end_date = 1467.10.4
+	targeted_titles = {
+		d_nmih_musashi
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10040059 10011809 12186066 } # Ashikaga Shigeuji, Takeda Nobunaga, Satomi Yoshizane
+	defenders = { 10017037 10018351 10016500 10017024 } # Uesugi [Ogigayatsu] Mochitomo, Ota Sukenaga (Dokan), Miura Tokitaka, Uesugi [Yamanouchi] Akisada
+}

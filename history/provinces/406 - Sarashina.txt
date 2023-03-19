@@ -1,0 +1,14 @@
+406 = {
+
+	culture = koshin
+	religion = shinto
+	holding = castle_holding
+	1260.1.1={
+	}
+	1460.1.1 = {
+		religion = ikkoshu
+	}
+	1556.1.1={
+	}
+
+}

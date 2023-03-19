@@ -1,0 +1,222 @@
+c_nmih_onyu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_onyu1={
+				set_title_name=b_nmih_onyu2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_onyu1={
+				set_title_name=b_nmih_onyu9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_onyu1={
+				set_title_name=b_nmih_onyu1
+			}
+		}
+	}
+	1601.1.1={
+		effect={
+			title:b_nmih_onyu1={
+				set_title_name=b_nmih_onyu2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+	1331.1.1 = { change_development_level = 40 }
+	1601.1.1 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_wakasa"
+	}
+	1180.1.1={
+		liege=0
+		holder=12480100 # Inaba Tokisada
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_wakasa"
+	}
+	1196.8.1={
+		liege="d_nmih_wakasa"
+		holder=12480800 # Wakasa Tadasue
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1220.1.1={
+		holder=12480800 # Wakasa Tadasue
+	}
+	1221.6.6={
+		liege="d_nmih_wakasa"
+		holder=11000156 # Matsudono Motofusa
+	}
+	1221.7.6={
+		liege="d_nmih_wakasa"
+		holder=10060034 # Shimazu Tadatoki
+	}
+	1228.1.1={
+		holder=10131688 # Hojo Tokiuji
+	}
+	1229.1.1={
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1231.1.1={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1259.1.1={
+		holder=10131867 # Hojo [Katta] Nagashige
+	}
+	1260.1.1={
+		holder=10131712 # Hojo [Tokiwa] Tokishige
+	}
+	1270.2.18={
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1299.1.1={
+		holder=10132163 # Hojo Munekata
+	}
+	1305.5.27={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1309.1.1={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={
+		liege="d_nmih_wakasa"
+		holder=11001527 # Toin Kinkata
+	}
+	1333.11.11={
+		holder=10130342 # Iga Kanemitsu
+	}
+	1336.1.1={
+		liege="d_nmih_wakasa"
+		holder=12480810 # Wakasa Suekane
+	}
+	1336.7.22={
+		liege="d_nmih_wakasa"
+		holder=12139050 # Shiba Iekane
+	}
+	1338.5.1={
+		holder=12187235 # Momonoi Tadatsune
+	}
+	1338.9.1={
+		holder=12139630 # Otaka Shigenari
+	}
+	1339.3.1={
+		holder=10029008 # Shiba Ujiyori
+	}
+	1342.9.1={
+		holder=12139630 # Otaka Shigenari
+	}
+	1348.6.1={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1351.8.23={
+		holder=12139630 # Otaka Shigenari
+	}
+	1352.1.1={
+		holder=12139050 # Shiba Iekane
+	}
+	1354.9.1={
+		holder=10040599 # Hosokawa Kiyouji
+	}
+	1361.10.1={
+		holder=12139052 # Ishibashi Kazuyoshi
+	}
+	1363.8.1={
+		holder=10029010 # Shiba Yoshitane
+	}
+	1364.1.1={
+		liege="d_nmih_hoki"
+		holder=12186256 # Yamana Tokiuji
+	}
+	1371.4.14={
+		liege="d_nmih_hoki"
+		holder=10050011 # Yamana Tokiyoshi
+	}
+	1389.5.29={
+		holder=10050013 # Yamana Ujiyuki
+	}
+	1390.3.1={
+		holder=10050014 # Yamana Mitsuyuki
+	}
+	1392.1.24={
+		liege="d_nmih_wakasa"
+		holder=10049507 # Isshiki Akinori
+	}
+	1406.6.22={
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1440.6.14={
+		liege="d_nmih_wakasa"
+		holder=10042001 # Takeda Nobuhide
+	}
+	1440.8.20={
+		holder=10056104 # Takeda Nobukata
+	}
+	1471.6.20={
+		holder=10042002 # Takeda Kuninobu
+	}
+	1475.1.1={
+		holder=10042003 # Takeda Nobuchika
+	}
+	1514.8.22={
+		holder=10042004 # Takeda Motonobu
+	}
+	1521.12.3={
+		holder=10042000 # Takeda Motomitsu
+	}
+	1539.1.1={
+		holder=10042005 #Takeda Nobutoyo, the 7th header of the Wakasa-Takeda family.
+	}
+	1556.1.1={
+		holder=10042006 # Takeda Yoshizumi
+	}
+	1567.5.16={
+		holder=10042012 # Takeda Motoaki
+	}
+	1568.6.1={
+		holder=10030011 # Asakura Yoshikage
+	}
+	1573.9.16={
+		holder=10029120 # Oda Nobunaga
+	}
+	1573.9.17={
+		liege="d_nmih_wakasa" # 29310 Niwa Nagahide
+		holder=10029310 # Niwa Nagahide
+	}
+	1585.5.15={
+		holder=10029313 # Niwa Nagashige
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10294390 # Asano Nagamasa
+	}
+	1594.1.1={
+		holder=10029462 # Kinoshita Katsutoshi
+	}
+	1603.3.24={
+		liege="d_nmih_wakasa"
+		holder=10044219 # Kyogoku Takatsugu
+	}
+	1609.6.4={
+		holder=10044225 # Kyogoku Tadataka
+	}
+}

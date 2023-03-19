@@ -1,0 +1,166 @@
+d_nmih_chikugo = {
+	0100.1.1={
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1185.3.4={
+		liege="e_nmih_japan"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.11.13={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12230101 # Amano Tokage
+	}
+	1192.1.1={
+		holder=10230555 # Nakahara Chikayoshi
+	}
+	1196.3.1={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10057320 # Miyoshi Yasunobu
+	}
+	1206.1.1={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10130538 # Otomo Yoshinao
+	}
+	1223.12.20={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo [Nagoe] Mitsutoki
+	}
+	1272.3.11={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10064006 # Otomo Yoriyasu
+	}
+	1277.1.1={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131999 # Hojo Munemasa
+	}
+	1281.9.23={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1288.1.1={
+		holder=12130153 # Utsunomiya Michifusa
+	}
+	1295.1.1={
+		holder=12130154 # Utsunomiya Yorifusa
+	}
+	1330.1.1={
+		holder=12130051 # Utsunomiya Fuyutsuna
+	}
+	1333.6.17={
+		liege = 0
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=12130051 # Utsunomiya Fuyutsuna
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1355.1.1={
+		liege = 0
+		liege="k_nmih_seisei_shogun"
+		holder=10041908 # Prince Kaneyoshi
+	}
+	1375.1.1={
+		liege="k_nmih_kyushu_tandai"
+		holder=10060029 # Imagawa Sadayo
+	}
+	1391.1.1={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10064016 # Otomo Chikayo
+	}
+	1401.1.1={
+		holder=10064017 # Otomo Chikaaki
+	}
+	1423.1.1={
+		holder=10064018 # Otomo Mochinao
+	}
+	1431.8.6={
+		liege = 0
+	}
+	1434.1.1={
+		liege=0
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1446.8.2={
+		holder=10066006 # Kikuchi Tamekuni
+	}
+	1466.1.1={
+		holder=10066005 # Kikuchi Shigetomo
+	}
+	1467.1.1={
+		holder=0
+	}
+	1469.1.1={
+		holder=10064020 # Otomo Chikashige
+	}
+	1476.1.1={
+		holder=10064022 # Otomo Masachika
+	}
+	1484.1.1={
+		holder=10064024 # Otomo Yoshisuke
+	}
+	1496.7.7={
+		holder=10064022 # Otomo Masachika
+	}
+	1496.7.20={
+		holder=10064023 # Otomo Chikaharu
+	}
+	1497.1.1={
+		holder=10064001 # Otomo Yoshinaga
+	}
+	1515.1.1={
+		holder=0
+	}
+	1567.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10064818 # Takahashi Akitane (Ichimata Chikamune)
+	}
+	1569.12.1={
+		liege="k_nmih_kyushu_tandai"
+		holder=10064002 # Otomo Yoshishige
+	}
+	1571.1.1={
+		holder=10067406 # Tachibana Dosetsu(Bekki Akitsura)
+	}
+	1585.11.2={
+		holder=10067408 # Tachibana Muneshige(Takahashi Munetora)
+	}
+	1587.4.12={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10043420 # Tanaka Yoshimasa
+	}
+	1609.3.23={
+		holder=10043424 # Tanaka Tadamasa
+	}
+}

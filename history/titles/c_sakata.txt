@@ -1,0 +1,205 @@
+c_nmih_sakata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sakata1={
+				set_title_name=b_nmih_sakata2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_sakata1={
+				set_title_name=b_nmih_sakata9
+			}
+		}
+	}
+	1184.3.4={
+		effect={
+			title:b_nmih_sakata1={
+				set_title_name=b_nmih_sakata7
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_sakata1={
+				set_title_name=B_NMIH_SAKATA7_1331
+			}
+		}
+	}
+	1524.1.1={
+		effect={
+			title:b_nmih_sakata1={
+				set_title_name=B_NMIH_SAKATA7_1524
+			}
+		}
+	}
+	1573.10.7={
+		effect={
+			title:b_nmih_sakata1={
+				set_title_name=b_nmih_sakata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+	1184.3.4 = { change_development_level = 40 }
+	1573.10.7 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_omi"
+	}
+	1180.1.1={
+		liege="d_nmih_omi"
+		holder=12511020 # Kashiwabara Tamenaga
+	}
+	1180.12.24={ # Battle of Omi
+		liege="e_nmih_japan"
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_omi" # Yamamoto Yoshitsune
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_omi"
+	}
+	1201.1.1={
+		liege="d_nmih_omi"
+		holder=12510073 # Sasaki Nobutsuna
+	}
+	1221.6.6={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.7.6={ # the Jokyu War
+		liege="d_nmih_omi"
+		holder=12510073 # Sasaki Nobutsuna
+	}
+	1242.4.7={
+		liege="e_nmih_japan"
+		holder=12510081 # Sasaki [Ohara] Shigetsuna
+	}
+	1267.7.7={
+		holder=12510400 # Ohara Yorishige
+	}
+	1280.1.1={
+		holder=12510401 # Ohara Tokitsuna
+	}
+	1310.1.1={
+		holder=12510410 # Ohara Tokishige
+	}
+	1330.1.1={
+		holder=12510420 # Ohara Nakachika
+	}
+	1333.6.17={
+		liege="d_nmih_ashikaga"
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1340.1.1={
+		liege="d_nmih_northern_omi"
+		holder=10044203 # Kyogoku Takauji
+	}
+	1368.1.1={
+		holder=10044205 # Kyogoku Takahide
+	}
+	1379.2.1={
+		holder=10044206 # Kyogoku Takanori
+	}
+	1381.7.1={
+		holder=10044205 # Kyogoku Takahide
+	}
+	1391.11.7={
+		holder=10044206 # Kyogoku Takanori
+	}
+	1401.10.14={
+		holder=10044207 # Kyogoku Takamitsu
+	}
+	1413.9.14={
+		holder=10044209 # Kyogoku Mochitaka
+	}
+	1439.1.29={
+		holder=10044208 # Kyogoku Takakazu
+	}
+	1441.7.12={
+		holder=10044210 # Kyogoku Mochikiyo
+	}
+	1470.8.30={
+		holder=10044215 # Kyogoku Magodojimaru
+	}
+	1471.1.1={
+		holder=10044213 # Kyogoku Masatsune
+	}
+	1472.9.1={
+		holder=10044214 # Kyogoku Takakiyo
+	}
+	1524.1.1={
+		holder=10044217 # Kyogoku Takanobu
+	}
+	1534.1.1={
+		holder=10043000 # Azai Sukemasa,  Northern Omi was controlled by the Azai Clan
+	}
+	1542.1.21={
+		holder=10043006 # Azai Hisamasa
+	}
+	1560.8.1={
+		liege=0 # 
+		holder=10043015 # Azai Nagamasa
+	}
+	1570.8.9={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029400 # Kinoshita Tokichiro
+	}
+	1575.1.1={
+		liege="d_nmih_omi" # 29120 Oda Nobunaga
+	}
+	1577.10.1={
+		liege="d_nmih_harima" # 29400 Kinoshita Tokichiro
+	}
+	1582.6.21={
+		liege="k_nmih_northern_kinai"
+		holder=10044219 # Kyogoku Takatsugu
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.7.16={
+		liege="d_nmih_echizen"
+		holder=10029290 # Shibata Katsutoyo
+	}
+	1582.12.1={
+		liege="k_nmih_northern_kinai"
+	}
+	1583.6.6={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1585.8.10={
+		liege="d_nmih_omi"
+		holder=10029587 # Yamauchi Kazutoyo
+	}
+	1590.7.25={
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		liege="d_nmih_northern_omi"
+		holder=10049100 # Shima Kiyooki(Shima Sakon)
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10092100 # Naito Nobunari
+	}
+	1612.8.20={
+		holder=10092101 # Naito Nobumasa
+	}
+	1615.6.24={
+		holder=10023313 # Ii Naotaka
+	}
+}

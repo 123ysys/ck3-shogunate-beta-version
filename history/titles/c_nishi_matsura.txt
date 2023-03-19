@@ -1,0 +1,135 @@
+c_nmih_nishi_matsura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nishi_matsura1={
+				set_title_name=b_nmih_nishi_matsura1
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_nishi_matsura1={
+				set_title_name=b_nmih_nishi_matsura2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0500.1.1 = { change_development_level = 20 }
+	1300.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	240.1.1={
+		holder=10290031 # Tsushikori
+		liege=d_nmih_chikuzen
+	}
+	280.1.1={
+		holder=10290032 # Omi
+		liege=0
+	}
+	1120.1.1={
+		holder=12750600 # Matsura Hisashi
+	}
+	1148.10.29={
+		holder=12750610 # Matsura Naoshi
+	}
+	1155.1.1={
+		holder=12750621 # Matsura Kiyoshi
+	}
+	1180.1.1={
+		liege="d_nmih_iki"
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_hizen"
+		holder=12750621 # Matsura Kiyoshi
+	}
+	1200.1.1={
+		holder=12750630 # Matsura Meguru
+	}
+	1220.1.1={
+		holder=12750635 # Matsura Naoshi
+	}
+	1230.1.1={
+		holder=12750640 # Matsura Sadamu
+	}
+	1274.11.15={
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1274.11.20={
+		liege="d_nmih_hizen"
+		holder=12750640 # Matsura Sadamu
+	}
+	1281.7.14={
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1281.8.22={
+		liege="d_nmih_hizen"
+		holder=12750640 # Matsura Sadamu
+	}
+	1300.1.1={
+		holder=10068234 # Matsura Masashi
+	}
+	1333.7.4={
+		liege="d_nmih_iki"
+	}
+	1336.4.13={
+		holder=10068235 # Matsura Kiyoshi
+	}
+	1360.1.1={
+		holder=10068236 # Matsura Sadamu
+	}
+	1370.1.1={
+		holder=10068237 # Matsura Masaru
+	}
+	1400.1.1={
+		holder=10068238 # Matsura Nobiru
+	}
+	1420.1.1={
+		holder=10068239 # Matsura Susumu
+	}
+	1440.1.1={
+		liege=0
+		holder=10068240 # Matsura Sakou
+	}
+	1467.1.1={
+		holder=10068241 # Matsura Sadamu
+	}
+	1492.1.1={
+		holder=10068242 # Matsura Masashi
+	}
+	1498.12.14={
+		holder=10068201 # Matsura Hirosada
+	}
+	1515.1.1={
+		holder=10068200 # Matsura Okinobu
+	}
+	1541.1.1={
+		holder=10068202 # Matsura Takanobu
+	}
+	1573.1.1={
+		liege=d_nmih_hizen
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1599.4.30={
+		holder=10068205 # Matsura Takanobu
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10068209 # Matsura Hisanobu
+	}
+	1602.10.14={
+		holder=10068265 # Matsura Takanobu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

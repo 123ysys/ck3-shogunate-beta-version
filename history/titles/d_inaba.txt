@@ -1,0 +1,176 @@
+d_nmih_inaba = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0801.6.28={
+		holder=11004522 # Fujiwara Fujitsugu
+	}
+	0810.7.19={
+		holder=0 #  
+	}
+	0840.3.11={
+		holder=11000045 # Fujiwara Yoshimi
+	}
+	0842.9.2={
+		holder=0 #  
+	}
+	0851.2.19={
+		holder=11005190 # Fujiwara Akitsune
+	}
+	0853.11.24={
+		holder=0 #  
+	}
+	0950.8.25={
+		holder=11003328 # Fujiwara Tamesuke
+	}
+	0954.1.1={
+		holder=0 #  
+	}
+	1091.2.23={
+		holder=11003028 # Fujiwara Nagazane
+	}
+	1098.8.6={
+		holder=0 #  
+	}
+	1108.2.9={
+		holder=10110023 # Taira Masamori
+	}
+	1108.3.15={
+		holder=0 #  
+	}
+	1134.3.28={
+		holder=11001095 # Fujiwara Kinmichi
+	}
+	1140.5.3={
+		holder=0 #  
+	}
+	1180.1.1={
+		liege=0
+	}
+	1183.8.17={
+		liege="k_nmih_western_chugoku"
+		holder=10110031 # Taira Tsunemori
+	}
+	1184.3.20={
+		liege="e_nmih_japan"
+		holder=12204001 # Oi Saneharu
+	}
+	1185.4.25={
+		holder=12510063 # Sasaki Takatsuna
+	}
+	1195.1.1={
+		liege="e_nmih_joko"
+		holder=10125051 # Tsuchimikado Michichika
+	}
+	1202.11.7 ={
+		holder=10125062 # Koga Michiteru
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=12600370 # Ebina Tadayuki
+	}
+	1250.1.1={
+		holder=12600371 # Ebina Doitsu
+	}
+	1275.1.1={
+		holder=12600372 # Ebina Saemonjo
+	}
+	1300.1.1={
+		holder=12600373 # Ebina Saemonjo
+	}
+	1325.1.1={
+		holder=12600374 # Ebina Korenori
+	}
+	1333.6.10={
+		liege=0
+		liege = "e_nmih_nancho"
+	}
+	1336.2.22={
+		liege = 0
+		liege="e_nmih_nancho"
+		holder=10066331 # Nawa Nagatoshi
+	}
+	1336.8.7={
+		liege="e_nmih_japan"
+		holder=12395015 # Kira Sadaie
+	}
+	1345.1.1={
+		holder=12395216 # Imagawa Yorisada
+	}
+	1351.8.23={
+		holder=12139589 # Kou Morohide
+	}
+	1363.9.1={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1365.2.1={
+		holder=10050009 # Yamana Ujifuyu
+	}
+	1370.2.1={
+		holder=10050092 # Yamana Ujishige
+	}
+	1391.11.1={
+		liege=0
+		holder=10050092 # Yamana Ujishige
+	}
+	1392.1.24={
+		liege="e_nmih_japan"
+		holder=10050029 # Yamana Ujiie
+	}
+	1412.1.1={
+		holder=10050053 # Yamana Hirotaka
+	}
+	1453.1.1={
+		holder=10050054 # Yamana Hiroyuki
+	}
+	1459.5.25={
+		holder=10050019 # Yamana Toyouji
+	}
+	1467.6.27={
+		liege="k_nmih_sanin" # Onin War
+	}
+	1475.1.1={
+		holder=10050032 # Yamana Toyotoki
+	}
+	1477.12.16={
+		liege=0 # End of Onin War
+	}
+	1504.1.1={
+		holder=10050057 # Yamana Toyoshige
+	}
+	1512.12.1={
+		holder=10050033 # Yamana Toyoyori
+	}
+	1515.1.1={
+		holder=10050034 # Yamana Toyoharu
+	}
+	1527.1.1={
+		holder=10050035 # Yamana Nobumichi
+	}
+	1546.1.1={
+		liege=0
+		holder=10050005 # Yamana Suketoyo
+	}
+	1569.8.1={
+		holder=10050060 # Yamana Toyokuni
+	}
+	1573.11.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1580.9.1={
+		holder=0 # 
+	}
+	1582.7.16={
+		liege="k_nmih_sanyo"
+		holder=10043400 # Miyabe Keijun
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1599.4.20={
+		holder=10043401 # Miyabe Nagafusa
+	}
+	1603.3.24={
+		holder=0 # 
+	}
+}

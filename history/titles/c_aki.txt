@@ -1,0 +1,124 @@
+c_nmih_aki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_aki1={
+				set_title_name=b_nmih_aki1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_aki1={
+				set_title_name=b_nmih_aki9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_aki1={
+				set_title_name=B_NMIH_AKI9_1331
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_aki"
+		holder=12660401 # Saeki Kagehiro
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_aki"
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1196.1.1={
+		holder=12660700 # So Takachika
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_aki"
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1235.1.1={
+		holder=12668300 # Fujiwara Chikazane
+	}
+	1252.1.1={
+		holder=12360112 # Takeda Nobumasa
+	}
+	1265.1.6={
+		holder=12360120 # Takeda Nobutoki
+	}
+	1289.3.2={
+		holder=10132022 # Hojo [Nagoe] Munenaga
+	}
+	1309.8.28={
+		holder=12360155 # Takeda Nobumune
+	}
+	1330.12.19={
+		liege="d_nmih_aki"
+		holder=12360160 # Takeda Nobutake
+	}
+	1359.8.7={
+		holder=12360171 # Takeda Ujinobu
+	}
+	1370.1.1={
+		holder=12395221 # Imagawa Sadayo
+	}
+	1392.11.1={
+		holder=10040536 # Hosokawa Yorimoto
+	}
+	1394.10.1={
+		holder=10057612 # Shibukawa Mitsuyori
+	}
+	1404.6.1={
+		holder=10050081 # Yamana Mitsuuji
+	}
+	1406.7.1={
+		holder=10050085 # Yamana Tokihisa
+	}
+	1419.10.1={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1430.1.1={
+		liege="e_nmih_japan"
+		holder=10056105 # Takeda Nobushige
+	}
+	1440.1.1={
+		liege="d_nmih_wakasa"
+	}
+	1465.11.28={
+		holder=10056103 # Takeda Mototsuna
+	}
+	1471.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1483.1.1={
+		liege=0
+	}
+	1505.3.30={
+		holder=10056101 # Takeda Motoshige
+	}
+	1515.1.1={
+		liege="k_nmih_sanin"
+	}
+	1517.11.5={
+		holder=10056100 # Takeda Mitsukazu
+	}
+	1524.7.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056004 # Mori Motonari
+	}
+	1541.5.1={
+		liege="d_nmih_aki"
+	}
+	1571.7.6={
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10029720 # Fukushima Masanori
+	}
+}

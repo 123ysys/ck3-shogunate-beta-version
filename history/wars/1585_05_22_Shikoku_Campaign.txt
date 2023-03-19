@@ -1,0 +1,11 @@
+war = {
+	name = "war_1585_shikoku_campaign"
+	start_date = 1585.5.22
+	end_date = 1585.8.10
+	targeted_titles = {
+		k_nmih_shikoku
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10029401 10048415 10056016 10056244 10055101 10029670 } # Toyotomi Hidenaga, Tsutsui Sadatsugu, Kobayakawa Takakage, Kikkawa Motonaga, Ukita Hideie, Sengoku Hidehisa
+	defenders = { 10059104 } # Chosokabe Motochika
+}

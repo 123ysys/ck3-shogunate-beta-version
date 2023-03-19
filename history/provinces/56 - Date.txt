@@ -1,0 +1,16 @@
+56 = {
+
+	culture = southern_oshu
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1189.9.21={
+	}
+	1532.1.1={
+	}
+	1534.1.1 = { culture = southern_oshu }
+	1548.9.1={
+	}
+
+}

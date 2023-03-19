@@ -1,0 +1,216 @@
+﻿namespace = shogunate_history
+
+# Battle of Okehazama (trigger)
+shogunate_history.0001 = {
+	hidden = yes
+	scope = combat_side
+
+	trigger = {
+		enemy_side.side_primary_participant = {
+			this = character:10029120				# Oda Nobunaga
+			has_character_modifier = shogunate_surprise_attack_modifier
+		}
+		side_primary_participant = {
+			this = character:10023010				# Imagawa Yoshimoto
+		}
+		side_commander = {
+			this = character:10023010				# Imagawa Yoshimoto
+			is_ai = yes
+		}
+	}
+
+	immediate = {
+		enemy_side.side_primary_participant = {
+			save_scope_as = winner
+		}
+		side_primary_participant = {
+			save_scope_as = loser
+		}
+		enemy_side.side_commander = {
+			save_scope_as = commander
+		}
+		combat.location = {
+			save_scope_as = location
+		}
+
+		every_ruler = {
+			trigger_event = shogunate_history.0002
+		}
+	}
+}
+
+# Battle of Okehazama (notification)
+shogunate_history.0002 = {
+	type = character_event
+	title = shogunate_history.0002.t
+	desc = shogunate_history.0002.desc
+	theme = war
+	left_portrait = {
+		character = scope:loser
+		animation = shock
+	}
+
+	option = {
+		name = shogunate_history.0002.a
+
+		if = {
+			limit = {
+				root = scope:winner
+			}
+			scope:loser = {
+				every_character_war = {
+					end_war = white_peace
+				}
+				death = {
+					killer = scope:commander
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}
+
+# Battle of Itsukushima (trigger)
+shogunate_history.0003 = {
+	hidden = yes
+	scope = combat_side
+
+	trigger = {
+		enemy_side.side_primary_participant = {
+			this = character:10056004				# Mori Motonari
+			has_character_modifier = shogunate_surprise_attack_modifier
+		}
+		side_primary_participant = {
+			this = character:10064003				# Ouchi Yoshinaga
+		}
+		side_commander = {
+			this = character:10057102				# Sue Harukata
+			is_ai = yes
+		}
+	}
+
+	immediate = {
+		enemy_side.side_primary_participant = {
+			save_scope_as = winner
+		}
+		side_primary_participant = {
+			save_scope_as = loser
+		}
+		side_commander = {
+			save_scope_as = enemy_commander
+		}
+		enemy_side.side_commander = {
+			save_scope_as = commander
+		}
+		combat.location = {
+			save_scope_as = location
+		}
+
+		every_ruler = {
+			trigger_event = shogunate_history.0004
+		}
+	}
+}
+
+# Battle of Itsukushima (notification)
+shogunate_history.0004 = {
+	type = character_event
+	title = shogunate_history.0004.t
+	desc = shogunate_history.0004.desc
+	theme = war
+	left_portrait = {
+		character = scope:enemy_commander
+		animation = shock
+	}
+
+	option = {
+		name = shogunate_history.0004.a
+
+		if = {
+			limit = {
+				root = scope:winner
+			}
+			scope:loser = {
+				every_character_war = {
+					end_war = white_peace
+				}
+			}
+			scope:enemy_commander = {
+				death = {
+					killer = scope:commander
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}
+
+# Battle of Kawagoe (trigger)
+shogunate_history.0005 = {
+	hidden = yes
+	scope = combat_side
+
+	trigger = {
+		enemy_side.side_primary_participant = {
+			this = character:10016004				# Hojo Ujiyasu
+			has_character_modifier = shogunate_surprise_attack_modifier
+		}
+		side_primary_participant = {
+			this = character:10018001				# Uesugi Tomosada
+		}
+		side_commander = {
+			this = character:10018001				# Uesugi Tomosada
+			is_ai = yes
+		}
+	}
+
+	immediate = {
+		enemy_side.side_primary_participant = {
+			save_scope_as = winner
+		}
+		side_primary_participant = {
+			save_scope_as = loser
+		}
+		enemy_side.side_commander = {
+			save_scope_as = commander
+		}
+		combat.location = {
+			save_scope_as = location
+		}
+
+		every_ruler = {
+			trigger_event = shogunate_history.0006
+		}
+	}
+}
+
+# Battle of Kawagoe (notification)
+shogunate_history.0006 = {
+	type = character_event
+	title = shogunate_history.0006.t
+	desc = shogunate_history.0006.desc
+	theme = war
+	left_portrait = {
+		character = scope:loser
+		animation = shock
+	}
+
+	option = {
+		name = shogunate_history.0006.a
+
+		if = {
+			limit = {
+				root = scope:winner
+			}
+			scope:loser = {
+				every_character_war = {
+					end_war = white_peace
+				}
+				death = {
+					killer = scope:commander
+					death_reason = death_battle
+				}
+			}
+		}
+	}
+}

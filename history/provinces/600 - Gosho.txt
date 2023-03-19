@@ -1,0 +1,7 @@
+600 = {
+
+	culture = imperial_family
+	religion = shinto
+	holding = castle_holding
+
+}

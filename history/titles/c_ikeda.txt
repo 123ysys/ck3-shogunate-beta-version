@@ -1,0 +1,120 @@
+c_nmih_ikeda = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ikeda1={
+				set_title_name=b_nmih_ikeda9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ikeda1={
+				set_title_name=b_nmih_ikeda9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_ikeda1={
+				set_title_name=b_nmih_ikeda1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mino"
+	}
+	1180.1.1={
+		liege="d_nmih_settsu"
+		holder=10120253 # Minamoto Yasumasa
+	}
+	1180.6.20={
+		liege="e_nmih_japan"
+		holder=10120425 # Minamoto Norikiyo / Battle of Uji
+	}
+	1180.11.9={ # Battle of Fujikawa
+		liege="d_nmih_mino"
+		holder=12520200 # Ikeda Yasumitsu
+	}
+	1181.3.1={
+		holder=12421200 # Ikeda Yasunaga
+	}
+	1240.3.14={
+		holder=12421205 # Ikeda Yasutsugu
+	}
+	1271.2.22={
+		holder=12421210 # Ikeda Yasutada
+	}
+	1305.8.21={
+		holder=12421215 # Ikeda Yasuto
+	}
+	1320.1.1={
+		liege="d_nmih_mino"
+		holder=10025311 # Toki Yorikiyo
+	}
+	1336.1.1={
+		liege="d_nmih_mino"
+		holder=10025313 # Toki Yoriyasu
+	}
+	1342.12.29={
+		holder=10025316 # Toki Yoritada
+	}
+	1390.4.1={
+		holder=12215445 # Toshima Matagoro
+	}
+	1440.1.1={
+		holder=12215435 # Toshima Takakage
+	}
+	1444.6.1={
+		liege=0
+		holder=12215440 # Toshima Kagetsugu
+	}
+	1467.6.27={
+		liege="d_nmih_northern_omi"
+	}
+	1468.10.1={
+		liege="d_nmih_mino"
+		holder=10025324 # Toki Shigeyori
+	}
+	1468.10.2={
+		holder=10025704 # Inaba Michisada
+	}
+	1510.1.1={
+		holder=10025702 # Inaba Michinori
+	}
+	1525.1.1={
+		holder=10025701 # Inaba Yoshimichi
+	}
+	1567.9.1={
+		liege="d_nmih_owari" # Oda Nobunaga
+	}
+	1567.10.1={
+		liege="d_nmih_mino" # Oda Nobunaga
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1582.7.16={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1588.1.1={
+		holder=10092200 # Nishio Mitsunori
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1616.1.8={
+		holder=10092202 # Nishio Yoshinori
+	}
+}

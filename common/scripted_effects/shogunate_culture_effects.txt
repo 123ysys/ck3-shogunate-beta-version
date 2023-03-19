@@ -1,0 +1,25 @@
+﻿shogunate_spread_arquebus_effect = {
+
+	save_scope_as = target_culture
+	add_innovation = innovation_advanced_bowmaking
+	every_ruler = {
+		limit = {
+			this.culture = scope:target_culture
+		}
+		trigger_event = shogunate_culture.0002
+	}
+
+}
+
+shogunate_spread_cannon_effect = {
+
+	save_scope_as = target_culture
+	add_innovation = innovation_bombard
+	every_ruler = {
+		limit = {
+			this.culture = scope:target_culture
+		}
+		trigger_event = shogunate_culture.0012
+	}
+
+}

@@ -1,0 +1,150 @@
+c_nmih_ashigara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ashigara1={
+				set_title_name=b_nmih_ashigara4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ashigara1={
+				set_title_name=b_nmih_ashigara9
+			}
+		}
+	}
+	1417.2.1={
+		effect={
+			title:b_nmih_ashigara1={
+				set_title_name=b_nmih_ashigara1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1374.1.1 = { change_development_level = 30 }
+	1417.2.1 = { change_development_level = 30 }
+	1498.1.1 = { change_development_level = 30 }
+	1570.1.1 = { change_development_level = 40 }
+	1591.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_sagami"
+	}
+	1140.1.1={
+		liege="d_nmih_sagami"
+		holder=12216000 # Nakamura Munehira
+	}
+	1180.1.1={
+		holder=12216002 # Dohi Sanehira
+	}
+	1180.6.15={
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1191.12.13={
+		liege="d_nmih_sagami"
+		holder=12216100 # Dohi Tohira
+	}
+	1237.9.25={
+		holder=12216107 # Dohi Koretoki
+	}
+	1245.1.1={
+		holder=12216110 # Dohi Norihira
+	}
+	1270.1.1={
+		holder=12216120 # Dohi Sanetsuna
+	}
+	1300.1.1={
+		holder=12216123 # Dohi Masazumi
+	}
+	1320.1.1={
+		holder=12216127 # Dohi Masaakira
+	}
+	1333.7.4={
+		liege="d_nmih_sagami"
+	}
+	1335.7.1={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1340.1.1={
+		holder=12216130 # Dohi Masaharu
+	}
+	1351.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1352.3.12={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1360.1.1={
+		holder=12216133 # Dohi Masazane
+	}
+	1380.1.1={
+		holder=12216137 # Dohi Masamune
+	}
+	1400.1.1={
+		holder=12216140 # Dohi Masayoshi
+	}
+	1410.1.1={
+		holder=12216143 # Dohi Masahira
+	}
+	1415.6.8={
+		liege="d_nmih_musashi"
+	}
+	1417.1.27={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1417.2.1={
+		holder=10016401 # Omori Yoriharu
+	}
+	1422.1.1={
+		holder=10016400 # Omori Ujiyori
+	}
+	1455.1.15={
+		liege="d_nmih_sagami"
+	}
+	1494.9.25={
+		holder=10016403 # Omori Fujiyori
+	}
+	1498.1.1={
+		liege=0
+		holder=10016001 # Hojo Soun
+	}	
+	1519.9.8={
+		holder=10016000 # Hojo Ujitsuna
+	}
+	1541.8.10={
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1571.10.21={
+		holder=10016014 # Hojo Ujimasa
+	}
+	1590.7.25={
+		liege="d_nmih_sagami"
+		holder=10024274 # Okubo Tadayo
+	}
+	1594.10.28={
+		holder=10024283 # Okubo Tadachika
+	}
+	1614.2.17={
+		liege="k_nmih_western_kanto"
+		holder=10203301 # Kondo Hidemochi
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

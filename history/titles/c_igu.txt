@@ -1,0 +1,128 @@
+c_nmih_igu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_igu1={
+				set_title_name=b_nmih_igu5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_igu1={
+				set_title_name=b_nmih_igu9
+			}
+		}
+	}
+	1189.9.21={
+		effect={
+			title:b_nmih_igu1={
+				set_title_name=B_NMIH_IGU9_1189
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1050.1.1={
+	    holder=11004629 # Fujiwara Tsunekiyo
+	}
+	1128.8.10={
+	    holder=12030013 # Fujiwara Kiyotsuna
+	}
+	1142.1.1={
+	    holder=12030040 # Fujiwara Toshihira
+	}
+	1180.1.1={
+		liege="d_nmih_iwaki"
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_shimousa"
+		holder=12150125 # Takeshi Tanemori
+	}
+	1215.7.11={
+		holder=12150900 # Takeshi Taneshige
+	}
+	1240.1.1={
+		holder=12150907 # Takeshi Taneuji
+	}
+	1270.1.1={
+		holder=12150910 # Takeshi Muneuji
+	}
+	1300.1.1={
+		holder=12150915 # Takeshi Tanetsugu
+	}
+	1331.1.1={
+		holder=12150920 # Takeshi Takahiro
+	}
+	1333.7.4={
+		liege="d_nmih_iwaki"
+	}
+	1339.1.1={
+		liege="d_nmih_oshu_shugo"
+		holder=10008301 # Watari Hirotane
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1381.1.1={
+		holder=10008302 # Watari Yukitane
+	}
+	1392.1.1={
+		liege=0
+	}
+	1393.1.1={
+		holder=10008303 # Watari Shigetane
+	}
+	1412.1.1={
+		holder=10008304 # Watari Taneshige
+	}
+	1441.1.1={
+		liege=0
+		holder=10008305 # Watari Shigetsura
+	}
+	1446.1.1={
+		holder=10008306 # Watari Munekiyo
+	}
+	1463.1.1={
+		holder=10008307 # Watari Shigemoto
+	}
+	1481.1.1={
+		holder=10008308 # Watari Mototane
+	}
+	1504.1.1={
+		holder=10008309 # Watari Munemoto
+	}
+	1522.1.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1531.1.1={
+		holder=10008310 # Watari Munetaka
+	}
+	1542.6.1={
+		liege="d_nmih_iwaki" # Tenbun War
+	}
+	1548.9.1={
+		liege="d_nmih_oshu_shugo"
+		holder=10001010 # Watari Motomune
+	}
+	1591.8.12={
+		liege="d_nmih_rikuzen"
+		holder=10001141 # Katakura Kagetsuna
+	}
+	1603.3.24={
+		liege="d_nmih_rikuzen"
+		holder=10001031 # Date Shigezane
+	}
+}

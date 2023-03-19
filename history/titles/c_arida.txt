@@ -1,0 +1,146 @@
+c_nmih_arida = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_arida1={
+				set_title_name=b_nmih_arida4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_arida1={
+				set_title_name=b_nmih_arida4
+			}
+		}
+	}
+	1401.1.1={
+		effect={
+			title:b_nmih_arida1={
+				set_title_name=b_nmih_arida8
+			}
+		}
+	}
+	1520.1.1={
+		effect={
+			title:b_nmih_arida1={
+				set_title_name=b_nmih_arida5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1401.1.1 = { change_development_level = 10 }
+	1520.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_kii"
+	}
+	1180.1.1={
+		liege="d_nmih_kii"
+		holder=12555000 # Yuasa Muneshige
+	}
+	1195.1.1={
+		liege="d_nmih_kii"
+		holder=12555004 # Yuasa Munemitsu
+	}
+	1240.1.1={
+		holder=12555020 # Yuasa Munenari
+	}
+	1265.1.1={
+		holder=12555025 # Yuasa Muneie
+	}
+	1300.1.1={
+		holder=12555030 # Yuasa Muneyasu
+	}
+	1320.1.1={
+		holder=12555035 # Yuasa Muneaki
+	}
+	1333.7.4={
+		liege="d_nmih_kii"
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1350.1.1={
+		holder=12555040 # Yuasa Munekane
+	}
+	1352.3.12={
+		liege="d_nmih_kii"
+	}
+	1373.8.28={
+		liege="e_nmih_nancho"
+	}
+	1379.1.1={
+		liege="d_nmih_kii"
+		holder=10050008 # Yamana Yoshitada/Yoshimasa
+	}
+	1392.1.24={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		liege="d_nmih_kii"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1406.2.5={
+		holder=10031001 # Hatakeyama Mitsunori
+	}
+	1408.10.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1433.10.31={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1441.1.1={
+		holder=10048113 # Hatakeyama Mochinaga
+	}
+	1441.7.1={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12 ={
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1460.10.4={
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1493.6.9={
+		holder=10048123 # Hatakeyama Hisanobu
+	}
+	1522.1.22={
+		holder=10048100 # Hatakeyama Tanenaga
+	}
+	1545.6.23={
+		holder=10048125 # Hatakeyama Masakuni
+	}
+	1549.7.18={
+		holder=10048127 # Hatakeyama Takamasa
+	}
+	1565.6.17={
+		holder=10048129 # Hatakeyama Akitaka
+	}
+	1568.11.7={
+		holder=10048128 # Hatakeyama Masanao
+	}
+	1585.5.11={
+		liege="d_nmih_kii"
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1591.2.15={
+		holder=10029413 # Toyotomi Hideyasu
+	}
+	1595.5.24={
+		holder=10093900 # Kuwayama Shigeharu
+		liege="e_nmih_japan"
+	}
+	1596.1.1={
+		holder=10093902 # Kuwayama Kazuharu
+	}
+	1603.3.24={
+		liege="d_nmih_kii"
+		holder=10029440 # Asano Yukinaga
+	}
+	1613.10.9={
+		holder=10029441 # Asano Nagaakira
+	}
+}

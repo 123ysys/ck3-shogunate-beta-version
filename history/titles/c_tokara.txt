@@ -1,0 +1,75 @@
+c_nmih_tokara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tokara1={
+				set_title_name=b_nmih_tokara1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_satsuma"
+		holder=12810507 # Kawanabe Michitsuna
+	}
+	1188.6.1={
+		holder=12810513 # Kawanabe Hisamichi
+	}
+	1221.7.6={
+		holder=12812006 # Chikama Rokuro
+	}
+	1280.1.1={
+		holder=12812010 # Chikama Tokiie
+	}
+	1306.1.1={
+		holder=12812011 # Chikama Sadayasu
+	}
+	1333.7.4={
+		liege="d_nmih_satsuma"
+	}
+	1340.1.1={
+		liege="d_nmih_satsuma"
+		holder=12812020 # Chikama Tadaie
+	}
+	1360.1.1={
+		holder=12812021 # Chikama Yukiie
+	}
+	1390.1.1={
+		holder=12812022 # Chikama Hisaie
+	}
+	1420.1.1={
+		holder=10060156 # Tanegashima Kiyotoki
+	}
+	1427.1.1={
+		holder=10060155 # Tanegashima Tokinaga
+	}
+	1440.1.1={
+		holder=10060154 # Tanegashima Hatatoki
+	}
+	1450.1.1={
+		holder=10060153 # Tanegashima Tokiuji
+	}
+	1509.1.1={
+		holder=10060151 # Tanegashima Tadatoki
+	}
+	1527.1.1={
+		holder=10060150 # Tanegashima Shigetoki
+	}
+	1543.1.1={
+		holder=10060152 # Tanegashima Tokitaka
+	}
+	1579.10.21={
+		holder=10060158 # Tanegashima Hisatoki
+	}
+	1595.1.1={
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+		holder=10060050 # Shimazu Iehisa
+	}
+}

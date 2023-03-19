@@ -1,0 +1,16 @@
+war = {
+	name = "war_1413_rebellion_of_ijuin_yorihisa"
+	start_date = 1413.10.1
+	end_date = 1417.1.1
+	targeted_titles = {
+		d_nmih_satsuma
+	}
+	casus_belli = event_claim_cb
+	claimant = 10060809 # Ijuin Yorihisa
+	attackers = {
+		10060809	# Ijuin Yorihisa
+	}
+	defenders = {
+		10060004	# Shimazu Hisatoyo
+	}
+}

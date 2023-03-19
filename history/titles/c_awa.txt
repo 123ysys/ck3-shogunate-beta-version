@@ -1,0 +1,166 @@
+c_nmih_awa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_awa1={
+				set_title_name=b_nmih_awa9
+			}
+		}
+	}
+	1070.1.1={
+		effect={
+			title:b_nmih_awa1={
+				set_title_name=b_nmih_awa9
+			}
+		}
+	}
+	1486.1.1={
+		effect={
+			title:b_nmih_awa1={
+				set_title_name=b_nmih_awa1
+			}
+		}
+	}
+	1541.1.1={
+		effect={
+			title:b_nmih_awa1={
+				set_title_name=B_NMIH_AWA1_1541
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1070.1.1 = { change_development_level = 20 }
+	1342.1.1 = { change_development_level = 30 }
+	1400.1.1 = { change_development_level = 40 }
+	1486.1.1 = { change_development_level = 40 }
+
+	0718.6.4={
+		liege="d_nmih_boshu"
+	}
+	0742.1.20={
+		liege="d_nmih_kazusa"
+	}
+	0757.1.1={
+		liege="d_nmih_boshu"
+	}
+	1180.6.15={
+		liege="d_nmih_boshu"
+		holder=12211020 # Miura Yoshiaki
+	}
+	1180.9.18={
+		holder=12211030 # Miura Yoshizumi
+	}
+	1200.2.9={
+		holder=12211040 # Miura Yoshimura
+	}
+	1239.12.31={
+		holder=12211050 # Miura Yasumura
+	}
+	1247.7.9={
+		liege="d_nmih_boshu"
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.8.1={
+		liege="d_nmih_boshu"
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		liege="d_nmih_boshu"
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1333.7.4={
+		liege="d_nmih_boshu"
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1335.8.14={
+		liege="d_nmih_boshu"
+		holder=10029006 # Shiba Ienaga
+	}
+	1338.1.16={
+		holder=12139551 # Kou Morofuyu
+	}
+	1351.1.1={
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1352.3.12={
+		holder=12139617 # Minami Munetsugu
+	}
+	1363.3.1={
+		liege="d_nmih_boshu"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1369.5.1={
+		holder=10010216 # Yuki Naomitsu
+	}
+	1388.6.1={
+		holder=10017011 # Uesugi Norikata
+	}
+	1390.6.1={
+		holder=10010216 # Yuki Naomitsu
+	}
+	1395.2.7={
+		holder=12209001 # Kido Mitsunori
+	}
+	1416.10.30={
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1417.1.27={
+		holder=10017061 # Uesugi Sadayori
+	}
+	1430.1.1={
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1456.1.1={
+		holder=12186066 # Satomi Yoshizane
+	}
+	1488.5.18={
+		holder=10011907 # Satomi Yoshimichi
+	}
+	1525.1.1={
+		holder=10011908 # Satomi Yoshitoyo
+	}
+	1533.1.1={
+		holder=10011901 # Satomi Yoshitaka
+	}
+	1574.6.19={
+		holder=10011902 # Satomi Yoshihiro
+	}
+	1578.7.5={
+		holder=10011903 # Satomi Yoshiyori
+	}
+	1587.11.26={
+		holder=10011911 # Satomi Yoshiyori
+	}
+	1590.6.18={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="d_nmih_boshu"
+	}
+	1603.12.18={
+		holder=10011918 # Satomi Tadayoshi
+	}
+	1614.10.2={
+		liege="k_nmih_western_kanto"
+		holder=10092104 # Naito Masanaga
+	}
+}

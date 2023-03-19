@@ -1,0 +1,12 @@
+war = {
+	name = "war_1547_siege_of_tahara"
+	start_date = 1547.5.1
+	end_date = 1547.6.1
+	targeted_titles = {
+		c_nmih_atsumi
+	}
+	casus_belli = event_claim_cb
+	claimant = 10023010 # Imagawa Yoshimoto
+	attackers = { 10023010 } # Imagawa Yoshimoto
+	defenders = { 10024200 } # Toda Yasumitsu
+}

@@ -1,0 +1,17 @@
+war = {
+	name = "war_1572_strategy_to_advance_westward"
+	start_date = 1572.9.29
+	end_date = 1573.5.3
+	targeted_titles = {
+		d_nmih_totomi d_nmih_mikawa
+	}
+	casus_belli = event_claim_cb
+	claimant = 10020010 # Takeda Shingen
+	attackers = {
+		10020010	# Takeda Shingen
+	}
+	defenders = {
+		10024006	# Tokugawa Ieyasu
+		10029120	# Oda Nobunaga
+	}
+}

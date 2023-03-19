@@ -1,0 +1,16 @@
+32 = {
+
+	culture = dewa
+	religion = shinto
+	holding = castle_holding
+	1.1.1={
+		special_building_slot = innai_silver_mines_01
+	}
+	1100.1.1={
+	}
+	1554.1.1={
+	}
+	1606.1.1={
+		special_building = innai_silver_mines_01
+	}
+}

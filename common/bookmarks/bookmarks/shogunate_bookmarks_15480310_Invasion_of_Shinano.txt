@@ -1,0 +1,5 @@
+﻿bm_hidden1548 = {
+	start_date = 1548.3.10
+	is_playable = yes
+	group = bm_group_mid_sengoku
+}

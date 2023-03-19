@@ -1,0 +1,142 @@
+c_nmih_kawabe = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kawabe1={
+				set_title_name=b_nmih_kawabe3
+			}
+		}
+	}
+	1330.1.1={
+		effect={
+			title:b_nmih_kawabe1={
+				set_title_name=b_nmih_kawabe1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1330.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_settsu"
+	}
+	1180.1.1={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=12520100 # Tada Yukitsuna
+	}
+	1183.8.17={
+		liege="d_nmih_settsu"
+	}
+	1200.1.1={
+		holder=12520113 # Tada Sadatsuna
+	}
+	1220.1.1={
+		holder=12520114 # Tada Mototsuna
+	}
+	1221.7.6={
+		liege="d_nmih_settsu"
+		holder=10045663 # Itami Chikamoto
+	}
+	1270.1.1={
+		holder=10045664 # Itami Chikasuke
+	}
+	1300.1.1={
+		holder=10045665 # Itami Chikamori
+	}
+	1330.1.1={
+		liege="d_nmih_settsu"
+		holder=10045652 # Itami YamatoNoKami
+	}
+	1360.1.1={
+		holder=10045653 # Itami YamatoNoKami
+	}
+	1390.1.1={
+		holder=10045654 # Itami YamatoNoKami
+	}
+	1420.1.1={
+		holder=10045655 # Itami YamatoNoKami
+	}
+	1450.1.1={
+		holder=10045656 # Itami Yukichika
+	}
+	1490.1.1={
+		holder=10045657 # Itami Motochika
+	}
+	1508.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10045659 # Itami Motosuke
+	}
+	1508.7.28={
+		liege="d_nmih_settsu"
+	}
+	1519.11.1={
+		liege="k_nmih_southern_kinai"
+		holder=10040501 # Hosokawa Sumimoto
+	}
+	1520.5.31={
+		liege="d_nmih_settsu"
+		holder=10045659 # Itami Motosuke
+	}
+	1527.3.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1529.12.31={
+		holder=10045661 # Itami Kunisuke
+	}
+	1531.7.27={
+		liege="d_nmih_settsu"
+		holder=10045650 # Itami Chikaoki
+	}
+	1549.7.18 ={
+		liege="d_nmih_tanba"
+	}
+	1550.3.1={
+		liege="k_nmih_southern_kinai"
+	}
+	1565.6.17={
+		liege="d_nmih_yamato"
+	}
+	1566.10.17={
+		liege="d_nmih_yamashiro"
+	}
+	1568.10.19={
+		liege="k_nmih_chubu"
+	}
+	1572.10.1={
+		liege="e_nmih_japan"
+	}
+	1573.8.25={
+		liege=0
+	}
+	1574.11.28={
+		liege="d_nmih_settsu"
+		holder=10045700 # Araki Murashige
+	}
+	1579.12.7={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1580.9.1={
+		liege="d_nmih_settsu"
+		holder=10029553 # Ikeda Motosuke
+	}
+	1582.6.21={
+		liege="d_nmih_harima"
+	}
+	1582.7.16={
+		liege="d_nmih_settsu"
+	}
+	1583.6.14={
+		holder=10096200 # Takebe Jutoku
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1607.11.9={
+		holder=10096201 # Takebe Mitsushige
+	}
+	1610.7.17={
+		holder=10096204 # Takebe Masanaga
+	}
+}

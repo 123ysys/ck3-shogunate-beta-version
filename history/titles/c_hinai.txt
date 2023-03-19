@@ -1,0 +1,131 @@
+c_nmih_hinai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hinai1={
+				set_title_name=b_nmih_hinai9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_hinai1={
+				set_title_name=b_nmih_hinai9
+			}
+		}
+	}
+	1189.10.14={
+		effect={
+			title:b_nmih_hinai1={
+				set_title_name=b_nmih_hinai1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1189.10.14 = { change_development_level = 10 }
+
+	0712.9.23={
+		liege="k_nmih_dewa"
+	}
+	1180.1.1={
+		liege="d_nmih_ugo"
+		holder=12000400 # Kawada Moritsugu
+	}
+	1189.10.14={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_kai"
+		holder=10120116 # Asari Yoshito
+	}
+	1190.1.1={ # Okawa Kaneto's rebellion
+		liege="d_nmih_tsugaru"
+		holder=12000011 # Okawa Kaneto
+	}
+	1190.4.16={ # End of Okawa Kaneto's rebellion
+		liege="d_nmih_kai"
+		holder=10120116 # Asari Yoshito
+	}
+	1221.1.1={
+		liege="d_nmih_ugo"
+		holder=12365001 # Asari Tomoyoshi
+	}
+	1240.1.1={
+		holder=12365002 # Asari Yoshikuni
+	}
+	1265.1.1={
+		holder=12010000 # Asari Rokuro
+	}
+	1290.1.1={
+		holder=12010001 # Asari Rokuro
+	}
+	1315.1.1={
+		holder=12010002 # Asari Kiyotsura
+	}
+	1333.7.4={
+		liege="d_nmih_uzen"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+		holder=12010003 # Asari Joko
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1356.1.1={
+		liege="k_nmih_ushu_tandai"
+	}
+	1370.1.1={
+		holder=12010004 # Asari Taro
+	}
+	1390.1.1={
+		holder=12010005 # Asari Shiro
+	}
+	1392.1.1={
+		liege=0
+	}
+	1420.1.1={
+		liege=0
+		holder=12010006 # Asari Hyobu
+	}
+	1445.1.1={
+		holder=12010007 # Asari Hyobutaifu
+	}
+	1470.1.1={
+		holder=12010008 # Asari Yoichi
+	}
+	1490.1.1={
+		holder=10000404 # Asari Noriaki
+	}
+	1525.1.1={
+		holder=10000401 # Asari Noriyori
+	}
+	1550.7.31={
+		holder=10000402 # Asari Norisuke
+	}
+	1562.1.1={
+		holder=10000403 # Asari Katsuyori
+	}
+	1582.6.7={
+		holder=10000405 # Asari Yorihira
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+	}
+	1598.2.13={
+		holder=10000142 # Ando Sanesue 
+	}
+	1603.3.24={
+		liege="d_nmih_ugo"
+		holder=10010836 # Satake Yoshinobu
+	}
+}

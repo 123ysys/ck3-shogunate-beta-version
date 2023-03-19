@@ -1,0 +1,38 @@
+170 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1331.1.1={
+	}
+	1518.1.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1552.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1579.5.1={
+		buildings = {
+			castle_04
+		}
+	}
+	1582.6.21={
+		buildings = {
+			castle_03
+		}
+	}
+	1582.7.4={
+	}
+
+	1585.1.1={
+		buildings = {
+			castle_01
+		}
+	}
+}

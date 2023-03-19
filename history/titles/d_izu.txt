@@ -1,0 +1,128 @@
+d_nmih_izu = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.6.15={
+		liege="k_nmih_western_kanto"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1180.10.26={
+		holder=10131650 # Hojo Tokimasa
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1205.9.5={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1221.1.1={
+		holder=10110264 # Taira Moritsuna
+	}
+	1250.1.1={
+		holder=10110265 # Taira Moritoki
+	}
+	1270.1.1={
+		holder=10110266 # Taira Yoritsuna
+	}
+	1293.5.29={
+		holder=10110271 # Nagasaki Mitsutsuna
+	}
+	1297.8.25={
+		holder=10110272 # Nagasaki Enki
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1336.7.22={
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1338.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10017029 # Uesugi Shigeyoshi
+	}
+	1349.10.21={
+		liege="e_nmih_japan"
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		liege="k_nmih_western_kanto"
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1352.3.12={
+		liege="k_nmih_kamakura_kubo"
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1361.11.1={
+		liege=0 # Hatakeyama Kunikiyo's rebellion
+	}
+	1362.9.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12201907 # Takasaka Ujishige
+	}
+	1368.3.14={
+		liege=0
+	}
+	1368.7.2={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1376.5.1={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017016 # Uesugi Norisada
+	}
+	1413.1.20={
+		holder=10017018 # Uesugi Norimoto
+	}
+	1418.2.9={
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1458.6.1={
+		liege="k_nmih_kanto_kanrei"
+		holder=10040037 # Ashikaga Masatomo
+	}
+	1491.5.11={
+		liege=0
+		holder=10040038 # Ashikaga Chachamaru
+	}
+	1493.8.1={
+		holder=10016001 # Hojo Soun
+	}
+	1519.9.8={
+		holder=10016000 # Hojo Ujitsuna
+	}
+	1541.8.10={
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1546.5.19={
+		liege="k_nmih_western_kanto"
+	}
+	1571.10.21={
+		holder=10016014 # Hojo Ujimasa
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		holder=0 #
+	}
+}

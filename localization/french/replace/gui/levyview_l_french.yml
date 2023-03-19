@@ -1,0 +1,4 @@
+﻿l_french:
+ LV_HEADER:0 "Ashigaru"
+ LV_FLAVOR:1 "Les ashigaru sont constituées de milices paysannes, de voyous, de mercenaires locaux et de nobles déshérités équipés d'outils hétéroclites et d'armes improvisées. Leur nombre élevé fait qu'elles sont souvent le gros des armées."
+ LV_NO_COUNTERS:0 "Les ashigaru ne [Concept( 'men_at_arms_counter', 'contrent' )|E] jamais d'autres types"

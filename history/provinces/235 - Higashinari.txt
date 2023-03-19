@@ -1,0 +1,52 @@
+235 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1300.1.1={
+	}
+	1460.1.1={
+		religion=ikkoshu
+	}
+	1496.9.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1532.9.23={
+		buildings = {
+			castle_03
+		}
+	}
+	1549.7.18={
+	}
+	1580.9.20={
+	}
+	1583.6.14={
+	}
+	1583.8.28={
+		buildings = {
+			castle_04
+		}
+	}
+	1594.1.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1598.8.18={
+		buildings = {
+			castle_04
+		}
+	}
+	1614.12.20={
+		buildings = {
+			castle_02
+		}
+	}
+	1615.1.19={
+	}
+	1615.6.4={
+	}
+
+}

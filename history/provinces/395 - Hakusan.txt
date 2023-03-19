@@ -1,0 +1,13 @@
+395 = {
+
+	culture = western_hokuriku
+	religion = shinto
+	holding = castle_holding
+	1360.1.1={
+	}
+	1460.1.1 = {
+		religion = ikkoshu
+	}
+	1488.1.1={
+	}
+}

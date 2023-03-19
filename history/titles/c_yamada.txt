@@ -1,0 +1,118 @@
+c_nmih_yamada = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yamada1={
+				set_title_name=b_nmih_yamada9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_yamada1={
+				set_title_name=b_nmih_yamada1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	1180.1.1={
+		liege=0
+		holder=12430010 # Yamada Shigemitsu
+	}
+	1180.11.9={
+		liege="d_nmih_owari" # Battle of Fujikawa
+	}
+	1181.4.25={
+		holder=12430021 # Yamada Shigetada
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_owari"
+		holder=12432122 # Mizuno Takatoshi
+	}
+	1250.1.1={
+		liege="d_nmih_owari"
+		holder=12432125 # Mizuno Takamune
+	}
+	1310.1.1={
+		liege="d_nmih_owari"
+		holder=12432130 # Mizuno Muneuji
+	}
+	1330.1.1={
+		liege="d_nmih_owari"
+		holder=12432131 # Mizuno Munekuni
+	}
+	1360.1.1={
+		holder=12432135 # Mizuno Muneaki
+	}
+	1380.1.1={
+		holder=12432140 # Mizuno Munetaka
+	}
+	1400.1.17={
+		liege="d_nmih_owari"
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.6.1={
+		liege="d_nmih_owari"
+		holder=12320001 # Kai Yukinori
+	}
+	1402.1.1={
+		holder=10029105 # Oda Jochiku
+	}
+	1436.1.1={
+		holder=10029113 # Oda Hisanaga
+	}
+	1467.6.27={ # Onin War
+		liege="d_nmih_totomi"
+		holder=10029114 # Oda Toshisada
+	}
+	1478.1.1={
+		liege="d_nmih_owari"
+	}
+	1495.7.1={
+		holder=10029116 # Oda Tosada
+	}
+	1495.9.1={
+		holder=10029119 # Oda Michisada
+	}
+	1513.1.1={
+		holder=10029101 # Oda Michikatsu
+	}
+	1551.01.01={
+		holder=10029122 # Oda Nobutomo
+	}
+	1555.05.10={
+		holder=10029120 # Oda Nobunaga
+	}
+	1558.1.1={
+		liege="d_nmih_owari"
+		holder=10029280 # Shibata Katsuie
+	}
+	1570.7.1={
+		holder=10029270 # Yanada Hiromasa
+	}
+	1575.10.6={
+		holder=12430210 # Okada Shigeyoshi
+	}
+	1583.5.17={
+		holder=12430215 # Okada Shigetaka
+	}
+	1584.4.16={
+		holder=10029223 # Yamaguchi Shigekatsu
+	}
+	1595.9.2={
+		holder=10029720 # Fukushima Masanori
+	}
+	1603.3.24={
+		liege="d_nmih_owari"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

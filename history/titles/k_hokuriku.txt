@@ -1,0 +1,43 @@
+k_nmih_hokuriku = {
+	0001.1.1={
+	}
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110032 # Taira Norimori
+	}
+	1183.6.22={
+		liege=0
+		holder=0
+	}
+	1335.8.14={
+		liege = "e_nmih_nancho"
+		holder=12185040 # Nitta Yoshisada
+	}
+	1338.8.17={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+		holder=10029280 # Shibata Katsuie
+	}
+	1583.6.14={ 
+		holder=10029310 # Niwa Nagahide
+	}
+	1585.5.15={ 
+		holder=10029313 # Niwa Nagashige
+	}
+	1585.7.27={ 
+		liege="e_nmih_japan"
+	}
+	1585.9.9={ 
+		holder=10029360 # Maeda Toshiie
+	}
+	1599.4.27={ 
+		holder=10029374 # Maeda Toshinaga
+	}
+	1603.3.24={
+		holder=0
+	}
+}

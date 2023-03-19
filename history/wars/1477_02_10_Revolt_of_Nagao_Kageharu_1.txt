@@ -1,0 +1,12 @@
+war = {
+	name = "war_1477_revolt_of_nagao_kageharu"
+	start_date = 1477.2.10
+	end_date = 1477.5.24
+	targeted_titles = {
+		d_nmih_kozuke
+	}
+	casus_belli = event_claim_cb
+	claimant = 10017324 # Nagao Kageharu
+	attackers = { 10017324 12201090 } # Nagao Kageharu, Toshima Yasutsune
+	defenders = { 10017024 10017040 } # Uesugi [Yamauchi] Akisada, Uesugi [Ogigaya] Sadamasa
+}

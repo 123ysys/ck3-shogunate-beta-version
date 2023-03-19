@@ -1,0 +1,122 @@
+c_nmih_katta = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_katta1={
+				set_title_name=b_nmih_katta9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_katta1={
+				set_title_name=b_nmih_katta9
+			}
+		}
+	}
+	1187.11.30={
+		effect={
+			title:b_nmih_katta1={
+				set_title_name=b_nmih_katta1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1187.11.30 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1108.1.1={
+		holder=12082000 # Katta Motokane
+	}
+	1146.1.1={
+		holder=12082001 # Katta Mototsugu
+	}
+	1159.1.1={
+		liege="d_nmih_iwaki"
+		holder=12082005 # Katta Hidetsugu
+	}
+	1185.1.1={
+		holder=12082010 # Katta Hidenobu
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+	}
+	1189.10.1={
+		holder=12082011 # Katta Hidenaga
+	}
+	1189.11.15={
+		liege="d_nmih_iwaki"
+	}
+	1244.1.1={
+		holder=12082015 # Katta Nagamasa
+	}
+	1269.1.1={
+		holder=12082020 # Katta Nagatoshi
+	}
+	1276.1.1={
+		holder=10006601 # Shiroishi Munehiro
+	}
+	1333.7.4={
+		liege="d_nmih_date"
+	}
+	1339.1.1={
+		holder=10006602 # Shiroishi Munetsugu
+	}
+	1361.1.1={
+		holder=10006603 # Shiroishi Muneyoshi
+	}
+	1377.1.1={
+		holder=10006604 # Shiroishi Munechika
+	}
+	1414.1.1={
+		holder=10006605 # Shiroishi Munenobu
+	}
+	1425.1.1={
+		holder=10006606 # Shiroishi Muneyasu
+	}
+	1437.1.1={
+		holder=10006607 # Shiroishi Munenori
+	}
+	1479.1.1={
+		holder=10006608 # Shiroishi Munenaga
+	}
+	1495.1.1={
+		holder=10006609 # Shiroishi Munekiyo
+	}
+	1517.1.1={
+		holder=10006611 # Shiroishi Munetsuna
+	}
+	1522.1.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1535.1.1={
+		holder=10006612 # Shiroishi Munetoshi
+	}
+	1553.1.1={
+		holder=10006613 # Shiroishi Munezane
+	}
+	1591.8.12={
+		liege="k_nmih_southern_oshu"
+		holder=10044514 # Gamo Satonari
+	}
+	1595.3.17={
+		holder=10044512 # Gamo Hideyuki
+	}
+	1598.3.1={
+		holder=10091700 # Amakasu Kagetsugu
+	}
+	1600.8.23={
+		liege="d_nmih_rikuchu"
+		holder=10001023 # Ishikawa Akimitsu
+	}
+	1603.3.24={
+		liege="d_nmih_rikuzen"
+		holder=10001141 # Katakura Kagetsuna
+	}
+	1615.12.4={
+		holder=10001142 # Katakura Shigenaga
+	}
+}

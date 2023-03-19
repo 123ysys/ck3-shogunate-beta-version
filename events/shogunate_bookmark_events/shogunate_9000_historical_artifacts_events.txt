@@ -1,0 +1,660 @@
+﻿namespace = shogunate_bookmark
+
+# Historical Artifacts
+shogunate_bookmark.9000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		### Three Sacred Treasures (Imperial Regalia of Japan)
+
+		# Kusanagi no Tsurugi
+		shogunate_historical_artifact_by_title_effect = {
+			NAME  = kusanagi
+			TITLE = e_nmih_tenno
+			START = 1.1.1
+			END   = 1185.4.25												# Death of Emperor Antoku
+		}
+
+		# Yata no Kagami
+		shogunate_historical_artifact_by_title_effect = {
+			NAME  = yata_no_kagami
+			TITLE = e_nmih_tenno
+			START = 1.1.1
+			END   = 10000.1.1
+		}
+
+		# Yasakani no Magatama
+		shogunate_historical_artifact_by_title_effect = {
+			NAME  = yasakani_no_magatama
+			TITLE = e_nmih_tenno
+			START = 1.1.1
+			END   = 10000.1.1
+		}
+
+		### Imperial Artifacts
+
+		# Ranjatai
+		shogunate_historical_artifact_by_title_effect = {
+			NAME  = ranjatai
+			TITLE = e_nmih_tenno
+			START = 1.1.1
+			END   = 10000.1.1
+		}
+
+		### Tea Utensils
+
+		# Tsukumo Nasu
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = tsukumo_nasu
+			TITLE = e_nmih_japan
+			DYNAS = 10000400												# Ashikaga
+			START = 1390.1.1
+			END   = 1454.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10050044												# Yamana Masatoyo
+			START = 1454.1.1
+			END   = 1499.3.13
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+			END   = 1502.6.19
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10045400												# Matsunaga Hisahide
+			START = 1568.1.1												# Fictional
+			END   = 1568.11.7
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1568.11.7
+			END   = 1582.6.21
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1582.7.2
+			END   = 1598.9.18
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10029415												# Toyotomi Hideyori
+			START = 1598.9.18
+			END   = 1615.6.4
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1615.6.4
+			END   = 1616.6.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tsukumo_nasu
+			CHAR  = 10024031												# Tokugawa Hidetada
+			START = 1616.6.1
+			END   = 1632.3.14
+		}
+
+		# Matsumoto Nasu
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = matsumoto_nasu
+			TITLE = e_nmih_japan
+			DYNAS = 10000400												# Ashikaga
+			START = 1.1.1
+			END   = 1500.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = matsumoto_nasu
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+			END   = 1502.6.19
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = matsumoto_nasu
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1571.9.1
+			END   = 1582.6.21
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = matsumoto_nasu
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1582.7.2
+			END   = 1598.9.18
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = matsumoto_nasu
+			CHAR  = 10029415												# Toyotomi Hideyori
+			START = 1598.9.18
+			END   = 1615.6.4
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = matsumoto_nasu
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1615.6.4
+			END   = 1616.6.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = matsumoto_nasu
+			CHAR  = 10024031												# Tokugawa Hidetada
+			START = 1616.6.1
+			END   = 1632.3.14
+		}
+
+		# Fuji Nasu
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = fuji_nasu
+			CHAR  = 10040040												# Ashikaga Yoshiteru
+			START = 1546.12.21
+			END   = 1550.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = fuji_nasu
+			CHAR  = 10013350												# Manase Dosan
+			START = 1550.1.1
+			END   = 1558.5.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = fuji_nasu
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1569.3.14
+			END   = 1582.6.21
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = fuji_nasu
+			CHAR  = 10013350												# Manase Dosan
+			START = 1582.6.21
+			END   = 1594.2.23
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = fuji_nasu
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1594.2.23
+			END   = 1597.12.11
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = fuji_nasu
+			CHAR  = 10029360												# Maeda Toshiie
+			START = 1597.12.11
+			END   = 1599.4.27
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = fuji_nasu
+			CHAR  = 10029374												# Maeda Toshinaga
+			START = 1599.4.27
+			END   = 1614.6.27
+		}
+
+		# Narashiba Katatsuki
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = narashiba_katatsuki
+			TITLE = e_nmih_japan
+			DYNAS = 10000400												# Ashikaga
+			START = 1.1.1
+			END   = 1500.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+			END   = 1502.6.19
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10067802												# Shimai Soshitsu
+			START = 1573.1.1
+			END   = 1584.5.4
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10067505												# Akizuki Tanezane
+			START = 1584.5.4
+			END   = 1587.4.30
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1587.4.30
+			END   = 1594.3.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10029413												# Toyotomi Hideyasu
+			START = 1594.3.1
+			END   = 1595.5.24
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1595.5.24
+			END   = 1598.9.18
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1598.9.18
+			END   = 1616.6.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = narashiba_katatsuki
+			CHAR  = 10024031												# Tokugawa Hidetada
+			START = 1616.6.1
+			END   = 1632.3.14
+		}
+
+		# Nitta Katatsuki
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+			END   = 1502.6.19
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1575.12.9
+			END   = 1582.6.21
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10025632												# Akechi Mitsuhide
+			START = 1582.6.21
+			END   = 1582.7.2
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10064002												# Otomo Yoshishige
+			START = 1583.1.1
+			END   = 1585.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1585.1.1
+			END   = 1598.9.18
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10029415												# Toyotomi Hideyori
+			START = 1598.9.18
+			END   = 1615.6.4
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1615.6.4
+			END   = 1616.6.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nitta_katatsuki
+			CHAR  = 10024050												# Tokugawa Yorifusa
+			START = 1616.6.1
+			END   = 1661.8.23
+		}
+
+		# Hatsuhana Katatsuki
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hatsuhana_katatsuki
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1569.3.14
+			END   = 1577.12.7
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hatsuhana_katatsuki
+			CHAR  = 10029160												# Oda Nobutada
+			START = 1577.12.7
+			END   = 1582.6.21
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hatsuhana_katatsuki
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1583.4.1
+			END   = 1583.6.30
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hatsuhana_katatsuki
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1583.6.30
+			END   = 1598.9.18
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hatsuhana_katatsuki
+			CHAR  = 10055101												# Ukita Hideie
+			START = 1598.9.18
+			END   = 1600.10.21
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hatsuhana_katatsuki
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1600.10.21
+			END   = 1615.6.4
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hatsuhana_katatsuki
+			CHAR  = 10024042												# Yuki Tadanao
+			START = 1615.6.4
+			END   = 1650.10.5
+		}
+
+		# Hiragumo Kama
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hiragumo_kama
+			CHAR  = 10045400												# Matsunaga Hisahide
+			START = 1555.1.1
+			END   = 1577.11.19
+		}
+
+		### Armor
+
+		# Tatenashi
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = tatenashi
+			TITLE = d_nmih_kai
+			DYNAS = 10000200												# Takeda
+			START = 1168.8.12
+			END   = 1582.4.3
+		}
+		shogunate_historical_artifact_by_title_and_house_effect = {
+			NAME  = tatenashi
+			TITLE = d_nmih_kai
+			HOUSE = house_shgnt_takeda										# Takeda
+			START = 1168.8.12
+			END   = 1582.4.3
+		}
+
+		# Hachi Ryu
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = hachi_ryu
+			CHAR  = 10120081												# Minamoto Yoshitsune
+			START = 1180.11.10
+			END   = 1185.3.22
+		}
+
+		# Karakawa
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = karakawa
+			CHAR  = 10110060												# Taira Koremori
+			START = 1179.9.2
+			END   = 1184.5.10
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = karakawa
+			CHAR  = 10110061												# Taira Sukemori
+			START = 1184.5.10
+			END   = 1185.4.25
+		}
+
+		# Hiraishi
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = hiraishi
+			TITLE = c_nmih_sano
+			DYNAS = 10000111												# Sano
+			START = 1184.1.1
+			END   = 10000.1.1
+		}
+		shogunate_historical_artifact_by_title_and_house_effect = {
+			NAME  = hiraishi
+			TITLE = c_nmih_sano
+			HOUSE = house_shgnt_sano										# Sano
+			START = 1184.1.1
+			END   = 10000.1.1
+		}
+
+		# Onkosode
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = onkosode
+			TITLE = e_nmih_japan
+			DYNAS = 10000400												# Ashikaga
+			START = 1.1.1
+			END   = 10000.1.1
+		}
+
+		### Weapons
+
+		# Onikiri Yasutsuna
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = onikiri
+			CHAR  = 10120075												# Minamoto Yoritomo
+			START = 1160.2.11
+			END   = 1199.2.9
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = onikiri
+			CHAR  = 12185040												# Nitta Yoshisada
+			START = 1333.7.10
+			END   = 1338.8.17
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = onikiri
+			CHAR  = 12139049												# Shiba Takatsune
+			START = 1338.8.17
+			END   = 1367.8.9
+		}
+
+		# Doshigiri Yasutsuna
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = doshigiri_yasutsuna
+			TITLE = e_nmih_japan
+			DYNAS = 10000400												# Ashikaga
+			START = 1.1.1
+			END   = 10000.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = doshigiri_yasutsuna
+			CHAR  = 10024042												# Yuki Tadanao
+			START = 1611.9.28
+			END   = 1650.10.5
+		}
+
+		# Mikazuki Munechika
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = mikazuki_munechika
+			CHAR  = 11004324												# Hino Uchimitsu
+			START = 1496.1.1
+			END   = 1527.3.15
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = mikazuki_munechika
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1586.9.9
+			END   = 1598.9.18
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = mikazuki_munechika
+			CHAR  = 10029433												# Asano Nene
+			START = 1598.9.18
+			END   = 1624.10.17
+		}
+
+		# Onimaru Kunitsuna
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = onimaru_kunitsuna
+			TITLE = e_nmih_japan
+			DYNAS = 10006129												# Hojo
+			START = 1.1.1
+			END   = 1333.7.4
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = onimaru_kunitsuna
+			CHAR  = 10132312												# Hojo Kunitoki
+			START = 1333.7.4
+			END   = 1333.7.10
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = onimaru_kunitsuna
+			CHAR  = 12185040												# Nitta Yoshisada
+			START = 1333.7.10
+			END   = 1338.8.17
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = onimaru_kunitsuna
+			CHAR  = 12139049												# Shiba Takatsune
+			START = 1338.8.17
+			END   = 1367.8.9
+		}
+		shogunate_historical_artifact_by_title_effect = {
+			NAME  = onimaru_kunitsuna
+			TITLE = e_nmih_japan
+			START = 1367.8.9
+			END   = 10000.1.1
+		}
+
+		# Otenta Mitsuyo
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = otenta_mitsuyo
+			TITLE = e_nmih_japan
+			DYNAS = 10000400												# Ashikaga
+			START = 1.1.1
+			END   = 10000.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = otenta_mitsuyo
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1587.10.1
+			END   = 1598.9.18
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = otenta_mitsuyo
+			CHAR  = 10029360												# Maeda Toshiie
+			START = 1598.9.18
+			END   = 1599.4.27
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = otenta_mitsuyo
+			CHAR  = 10029374												# Maeda Toshinaga
+			START = 1599.4.27
+			END   = 1614.6.27
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = otenta_mitsuyo
+			CHAR  = 10029381												# Maeda Toshitsune
+			START = 1614.6.27
+			END   = 1658.11.7
+		}
+
+		# Juzumaru Tsunetsugu
+		shogunate_historical_artifact_by_title_effect = {
+			NAME  = juzumaru_tsunetsugu
+			TITLE = d_nmih_kuonji
+			START = 1282.10.13
+			END   = 10000.1.1
+		}
+
+		# Kogarasumaru
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = kogarasumaru
+			CHAR  = 10110060												# Taira Koremori
+			START = 1179.9.2
+			END   = 1184.5.10
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = kogarasumaru
+			CHAR  = 10110061												# Taira Sukemori
+			START = 1184.5.10
+			END   = 1185.4.25
+		}
+
+		# Murasame
+		shogunate_historical_artifact_by_title_and_dynasty_effect = {
+			NAME  = murasame
+			TITLE = k_nmih_kamakura_kubo
+			DYNAS = 10000400												# Ashikaga
+			START = 1.1.1
+			END   = 10000.1.1
+		}
+
+		# Masamune (Ishida Masamune)
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = masamune_sword
+			CHAR  = 10045820												# Ishida Mitsunari
+			START = 1590.7.25
+			END   = 1599.5.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = masamune_sword
+			CHAR  = 10024030												# Yuki Hideyasu
+			START = 1599.5.1
+			END   = 1607.6.2
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = masamune_sword
+			CHAR  = 10024042												# Yuki Tadanao
+			START = 1607.6.2
+			END   = 1650.10.5
+		}
+
+		# Tonbokiri
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tonbokiri
+			CHAR  = 10024803												# Honda Tadakatsu
+			START = 1564.3.17
+			END   = 1610.12.3
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = tonbokiri
+			CHAR  = 10024806												# Honda Tadamasa
+			START = 1610.12.3
+			END   = 1631.9.6
+		}
+
+		# Otegine
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = otegine
+			CHAR  = 10011204												# Yuki Harutomo
+			START = 1559.9.3
+			END   = 1591.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = otegine
+			CHAR  = 10024030												# Yuki Hideyasu
+			START = 1591.1.1
+			END   = 1607.6.2
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = otegine
+			CHAR  = 10024059												# Yuki Naomoto
+			START = 1607.6.2
+			END   = 1648.10.1
+		}
+
+		# Nihongo
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nihongo
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1573.8.25
+			END   = 1582.6.21
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nihongo
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1585.7.27
+			END   = 1590.7.25
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nihongo
+			CHAR  = 10029720												# Fukushima Masanori
+			START = 1590.7.25
+			END   = 1596.1.1
+		}
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = nihongo
+			CHAR  = 10207800												# Mori Tomonobu
+			START = 1596.1.1
+			END   = 1615.7.1
+		}
+
+		# Kaishu no Yari
+		shogunate_historical_artifact_by_character_effect = {
+			NAME  = kaishu_no_yari
+			CHAR  = 10029349												# Maeda Toshimasu (a.k.a. Maeda Keiji)
+			START = 1598.3.1
+			END   = 1605.12.18
+		}
+	}
+}

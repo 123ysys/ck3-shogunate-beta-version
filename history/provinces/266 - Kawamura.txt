@@ -1,0 +1,17 @@
+266 = {
+
+	culture = sanin
+	religion = shinto
+	holding = castle_holding
+	0701.1.1={
+	}
+	1361.1.1={
+	}
+	1369.1.1={
+	}
+	1471.10.31={
+	}
+	1500.1.1={
+	}
+
+}

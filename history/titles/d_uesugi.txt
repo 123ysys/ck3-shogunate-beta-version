@@ -1,0 +1,21 @@
+d_nmih_uesugi = {
+	100.1.1={
+	}
+	1336.3.10={
+		liege="e_nmih_japan"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+	}
+	1352.3.12={
+		liege="k_nmih_western_chugoku"
+	}
+	1358.6.7={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1368.7.2={
+		liege=0
+		holder=0 # 
+	}
+}

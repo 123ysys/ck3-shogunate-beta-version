@@ -1,0 +1,5 @@
+﻿bm_kunohe1591 = {
+	start_date = 1591.5.7
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}

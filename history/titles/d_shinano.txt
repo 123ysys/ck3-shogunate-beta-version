@@ -1,0 +1,180 @@
+d_nmih_shinano = {
+	0001.1.1={
+	}
+	250.1.1={
+		holder=10041306 # Takeiotake
+	}
+	290.1.1={
+		holder=10041406 # Takeinase
+	}
+	320.1.1={
+		holder=10041407 # Takemikatomi
+	}
+	350.1.1={
+		holder=10041408 # Takemorohiko
+	}
+	390.1.1={
+		holder=10041410 # Takerotori
+	}
+	415.1.1={
+		holder=10041415 # Inuko
+	}
+	460.1.1={
+		holder=10041416 # Yosohiko
+	}
+	490.1.1={
+		holder=10041417 # Oiwa
+	}
+	540.1.1={
+		holder=10041418 # Kanayamayumi
+	}
+	560.1.1={
+		holder=10041423 # Asase
+	}
+	600.1.1={
+		holder=10041424 # Kuratari
+	}
+	630.1.1={
+		holder=10041425 # Momoe
+	}
+	670.1.1={
+		holder=10041426 # Uome
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0764.2.28={
+		holder=11005008 # Fujiwara Tsugutada {Shinano no Kami}
+	}
+	0764.11.2={
+		holder=0 #  
+	}
+	0790.4.2={
+		holder=11005037 # Fujiwara Takatoshi {Shinano no Kami}
+	}
+	0794.4.1={
+		holder=0 #  
+	}
+	0836.1.26={
+		holder=11000033 # Fujiwara Otsu {Shinano no Kami}
+	}
+	0838.1.1={
+		holder=0 #  
+	}
+	0851.2.19={
+		holder=11000035 # Fujiwara Tasuku {Shinano no Kami}
+	}
+	0852.2.12={
+		holder=0 #  
+	}
+	0884.6.26={
+		holder=0 #  
+	}
+	1012.9.5={
+		holder=12532000 # Minamoto Kinnori {Shinano no Kami}
+	}
+	1017.9.29={
+		holder=0 #  
+	}
+	1100.8.15={
+		holder=11000135 # Fujiwara Eijitsu {Shinano no Kami}
+	}
+	1106.2.4={
+		holder=0 #  
+	}
+	1180.6.15={
+		liege="k_nmih_shinano"
+		holder=10120084 # Minamoto Yoshinaka {Shinano no Kami}
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+		holder=12380517 # Nenoi [Mochizuki] Yukichika
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131668 # Hojo Shigetoki
+	}
+	1261.11.26={
+		holder=10131878 # Hojo Yoshimune
+	}
+	1277.9.16={
+		holder=10132044 # Hojo Hisatoki
+	}
+	1307.12.23={
+		holder=10132050 # Hojo Mototoki
+	}
+	1310.5.1={
+		holder=10132207 # Hojo Nakatoki
+	}
+	1333.6.21={
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12360710 # Ogasawara Sadamune
+	}
+	1335.7.1={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1340.1.1={
+		holder=12395030 # Kira Mitsuyoshi
+	}
+	1341.1.1={
+		holder=12360710 # Ogasawara Sadamune
+	}
+	1347.7.5={
+		holder=12360720 # Ogasawara Masanaga
+	}
+	1365.4.12={
+		holder=12360730 # Ogasawara Nagamoto
+	}
+	1366.10.1={
+		holder=10017046 # Uesugi Tomofusa
+	}
+	1384.1.1={
+		holder=10029010 # Shiba Yoshitane
+	}
+	1387.6.1={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1398.7.1={
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.2.1={
+		holder=12360741 # Ogasawara Nagahide
+	}
+	1401.2.1={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1402.5.1={
+		holder=10040004 # Ashikaga Yoshimochi
+	}
+	1423.3.18={
+		holder=10040005 # Ashikaga Yoshikazu
+	}
+	1425.1.1={
+		holder=12360740 # Ogasawara Masayasu
+	}
+	1442.9.13={
+		liege=0
+		holder=0 # 
+	}
+	1559.1.1={
+		holder=10020010 # Takeda Shingen
+	}
+	1573.05.13={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1582.04.03={
+		holder=0 #
+	}
+}

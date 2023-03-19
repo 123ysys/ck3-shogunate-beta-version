@@ -1,0 +1,121 @@
+c_nmih_sawata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sawata1={
+				set_title_name=b_nmih_sawata1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_sawata1={
+				set_title_name=b_nmih_sawata9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_sawata1={
+				set_title_name=b_nmih_sawata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+	1542.1.1 = { change_development_level = 20 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1179.12.18={
+		liege="d_nmih_sado"
+		holder=10110124 # Taira Nakamori
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="d_nmih_sado"
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1183.8.17={
+		holder=12380110 # Higuchi Kanemitsu
+	}
+	1184.3.4={
+		liege="d_nmih_sado"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1221.7.6={
+		liege="d_nmih_sado"
+		holder=12290001 # Honma Yoshihisa
+	}
+	1230.1.1={
+		holder=12290005 # Honma Tadatsuna
+	}
+	1260.1.1={
+		holder=12290012 # Honma Munetada
+	}
+	1285.1.1={
+		holder=12290015 # Honma Sadatsura
+	}
+	1310.1.1={
+		holder=12290020 # Honma Yasusada
+	}
+	1333.7.4={
+		liege="d_nmih_sado"
+		holder=12290025 # Honma Yorinao
+	}
+	1338.8.17={
+		liege="e_nmih_japan"
+	}
+	1360.1.1={
+		holder=12290030 # Honma Yasunobu
+	}
+	1385.1.1={
+		holder=12290035 # Honma Arinao
+	}
+	1410.1.1={
+		holder=12290040 # Honma Naofuyu
+	}
+	1435.1.1={
+		holder=12290045 # Honma Arishige
+	}
+	1458.1.1={
+		holder=10034003 # Honma Shigenao
+	}
+	1467.1.1={
+		liege=0
+	}
+	1474.1.1={
+		liege="d_nmih_sado"
+		holder=10034002 # Honma Yasushige
+	}
+	1498.1.1={
+		holder=10034001 # Honma Yasunao
+	}
+	1527.1.1={
+		holder=10034000 # Honma Yasutoki
+	}
+	1537.1.1={
+		holder=10034004 # Honma Ariyasu
+	}
+	1552.1.1={
+		holder=10034005 # Honma Yasutaka
+	}
+	1589.1.1={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10201500 # Okubo Nagayasu
+	}
+	1613.6.13={
+		holder=10205200 # Tanabe Munemasa
+	}
+}

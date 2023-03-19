@@ -1,0 +1,188 @@
+﻿namespace = shogunate_bookmark
+
+# AI Ambition
+shogunate_bookmark.9510 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Hojo Soun's ambition for Sagami
+
+		if = {
+			limit = {
+				game_start_date >= 1493.6.9									# Coup of Meio
+				game_start_date <  1516.8.19								# Conquest of Sagami
+			}
+
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10016001											# Ise Moritoki (Hojo Soun)
+				TITLE = d_nmih_sagami
+			}
+		}
+
+
+		# Hojo Ujitsuna's ambition for Musashi
+
+		if = {
+			limit = {
+				game_start_date >= 1516.8.19								# Conquest of Sagami
+				game_start_date <  1541.8.10								# Death of Hojo Ujitsuna
+			}
+
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10016000											# Hojo Ujitsuna
+				TITLE = d_nmih_musashi
+			}
+		}
+
+
+		# Hojo Ujiyasu's ambition for Musashi
+
+		if = {
+			limit = {
+				game_start_date >= 1541.8.10								# Death of Hojo Ujitsuna
+				game_start_date <  1546.5.19								# Conquest of Musashi
+			}
+
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10016004											# Hojo Ujiyasu
+				TITLE = d_nmih_musashi
+			}
+		}
+
+
+		# Takeda Nobutora's ambition for Shinano
+
+		if = {
+			limit = {
+				game_start_date >= 1507.3.27								# Takeda Nobutora's Succession
+				game_start_date <  1541.6.14								# Takeda Harunobu's Succession
+			}
+
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_saku
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_suwa
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_kami_ina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_shimo_ina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_tsukama
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_azumi
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_hanishina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_sarashina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_minochi
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020000											# Takeda Nobutora
+				TITLE = c_nmih_takai
+			}
+		}
+
+
+		# Takeda Shingen's ambition for Shinano
+
+		if = {
+			limit = {
+				game_start_date >= 1541.6.14								# Takeda Harunobu's Succession
+				game_start_date <  1573.5.3									# Death of Takeda Shingen
+			}
+
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_saku
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_suwa
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_kami_ina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_shimo_ina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_tsukama
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_azumi
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_hanishina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_sarashina
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_minochi
+			}
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10020010											# Takeda Harunobu (Shingen)
+				TITLE = c_nmih_takai
+			}
+		}
+
+
+		# Imagawa Yoshimoto's ambition for Owari
+
+		if = {
+			limit = {
+				game_start_date >= 1536.4.7									# Imagawa Yoshimoto's Succession
+				game_start_date <  1560.6.12								# Death of Imagawa Yoshimoto (Battle of Okehazama)
+			}
+
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10023010											# Imagawa Yoshimoto
+				TITLE = d_nmih_owari
+			}
+		}
+
+
+		# Oda Nobunaga's ambition for Mino
+
+		if = {
+			limit = {
+				game_start_date >= 1556.5.28								# Death of Saito Dosan
+				game_start_date <  1567.10.1								# Conquest of Mino
+			}
+
+			shogunate_historical_ambition_effect = {
+				CHAR  = 10029120											# Oda Nobunaga
+				TITLE = d_nmih_mino
+			}
+		}
+
+
+	}
+}

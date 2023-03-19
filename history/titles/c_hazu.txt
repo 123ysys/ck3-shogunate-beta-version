@@ -1,0 +1,123 @@
+c_nmih_hazu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hazu1={
+				set_title_name=b_nmih_hazu9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_hazu1={
+				set_title_name=b_nmih_hazu2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1221.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1025.1.1={
+		holder=12390413 # Tomo Sukeshige {Dairyo}
+	}
+	1053.1.1={
+		holder=0
+	}
+	1078.1.1={
+		holder=12390420 # Tomo Sukehira {Gunji}
+	}
+	1179.12.18={
+		liege="d_nmih_mikawa" # Taira Tomonori
+		holder=10110049 # Taira Tomonori
+	}
+	1180.11.9={
+		holder=10120072 # Minamoto Yukiie / Battle of Fujikawa
+	}
+	1181.4.25={ # Battle of Sunomata
+		liege="d_nmih_mikawa"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1184.7.21={
+		holder=10120078 # Minamoto Noriyori
+	}
+	1193.9.14={
+		holder=12202006 # Adachi Morinaga
+	}
+	1200.6.9={
+		holder=12220001 # Adachi Kagemori
+	}
+	1221.7.6={
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1241.1.1={
+		holder=12139005 # Kira Nagauji
+	}
+	1290.7.25={
+		holder=12395025 # Kira Sadayoshi
+	}
+	1333.7.4={
+		liege="d_nmih_mikawa"
+		holder=12395030 # Kira Mitsuyoshi
+	}
+	1336.7.22={
+		liege="e_nmih_japan"
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+		holder=12395035 # Kira Mitsusada
+	}
+	1352.3.12={
+		liege="e_nmih_nancho"
+	}
+	1361.11.1={
+		liege="e_nmih_japan"
+	}
+	1384.9.28={
+		holder=12395040 # Kira Toshiuji
+	}
+	1422.1.1={
+		holder=12395045 # Kira Yoshinao
+	}
+	1452.1.1={
+		holder=12395050 # Kira Yoshizane
+	}
+	1481.8.16={
+		holder=10024603 # Kira Yoshinobu
+	}
+	1516.10.4={
+		holder=10024600 # Kira Yoshitaka
+	}
+	1521.3.7={
+		liege=0
+	}
+	1540.1.1={
+		holder=10024605 # Kira Yoshisasu
+	}
+	1549.1.1={
+		liege="d_nmih_mikawa" # 23002 Imagawa Yoshimoto
+		holder=10024606 # Kira Yoshiaki
+	}
+	1561.1.1={
+		liege=0
+		holder=10024006 # Matsudaira Ieyasu
+	}
+	1566.1.1={
+		liege="d_nmih_mikawa" # 24006 Tokugawa Ieyasu
+	}
+	1590.7.25={ 
+		liege="d_nmih_western_mikawa"
+		holder=10043420 # Tanaka Yoshimasa
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024260 # Honda Yasutoshi
+	}
+}

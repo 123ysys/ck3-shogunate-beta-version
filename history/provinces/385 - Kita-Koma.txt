@@ -1,0 +1,23 @@
+385 = {
+
+	culture = koshin
+	religion = shinto
+	holding = castle_holding
+	1460.1.1={
+		religion = hokkeshu
+	}
+	1465.1.1={
+	}
+	1531.2.18={
+	}
+	1582.1.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1582.3.11={
+		buildings = {
+			castle_01
+		}
+	}
+}

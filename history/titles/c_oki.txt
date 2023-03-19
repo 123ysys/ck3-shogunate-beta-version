@@ -1,0 +1,156 @@
+c_nmih_oki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_oki1={
+				set_title_name=b_nmih_oki9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_oki1={
+				set_title_name=b_nmih_oki9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_oki1={
+				set_title_name=B_NMIH_OKI9_1331
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+		liege="d_nmih_oki"
+	}
+	1179.12.18={
+		liege = "k_nmih_sanin"
+		holder=11006084 # Fujiwara Koreyori
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_oki"
+		holder=10110042 # Taira Munemori
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_oki"
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_oki"
+		holder=12510064 # Sasaki Yoshikiyo
+	}
+	1227.1.1={
+		holder=12510250 # Sasaki Masayoshi
+	}
+	1250.1.1={
+		holder=12510251 # Sasaki Yasukiyo
+	}
+	1277.4.1={
+		holder=12601411 # Sasaki Tokikiyo
+	}
+	1305.5.27={
+		holder=12601850 # Oki Munekiyo
+	}
+	1320.1.1={
+		holder=12601855 # Oki Kiyotaka
+	}
+	1333.4.24={
+		liege="e_nmih_nancho"
+		holder=10041075 # Emperor Go-Daigo
+	}
+	1333.7.4={
+		liege="d_nmih_oki"
+		holder=12601615 # Enya Takasada
+	}
+	1341.4.19={
+		liege="d_nmih_oki"
+		holder=12186256 # Yamana Tokiuji
+	}
+	1343.8.1={
+		holder=10044203 # Kyogoku Takauji
+	}
+	1351.3.15={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1352.3.12={
+		holder=10044203 # Kyogoku Takauji
+	}
+	1368.1.1={
+		holder=10044205 # Kyogoku Takahide
+	}
+	1379.2.1={
+		holder=10050012 # Yamana Yoshiyuki
+	}
+	1381.4.1={
+		holder=10050014 # Yamana Mitsuyuki
+	}
+	1392.1.24={
+		holder=10044206 # Kyogoku Takanori
+	}
+	1401.10.14={
+		holder=10044207 # Kyogoku Takamitsu
+	}
+	1413.9.14={
+		holder=10044209 # Kyogoku Mochitaka
+	}
+	1439.1.29={
+		holder=10044208 # Kyogoku Takakazu
+	}
+	1441.7.12={
+		liege="d_nmih_oki"
+		holder=10044210 # Kyogoku Mochikiyo
+	}
+	1470.8.30={
+		holder=10044215 #　Kyogoku Magodojimaru
+	}
+	1471.1.1={
+		holder=10044213 # Kyogoku Masatsune
+	}
+	1486.8.1={
+		holder = 10051501 # Amago Tsunehisa
+	}
+	1541.11.30={
+		holder = 10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		holder = 10051525 # Amago Yoshihisa
+	}
+	1567.1.8={
+		liege = "k_nmih_western_chugoku"
+		holder=10056004 # Mori Motonari
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+		holder=10056015 # Kikkawa Motoharu
+	}
+	1569.6.1={
+		liege="d_nmih_amago_revival_army"
+		holder=10051516 # Amago Katsuhisa
+	}
+	1569.10.1={
+		liege="d_nmih_izumo"
+		holder=10056015 # Kikkawa Motoharu
+	}
+	1583.1.3={
+		holder=10056244 # Kikkawa Motonaga
+	}
+	1583.12.4={
+		holder=10056246 # Kikkawa Hiroie
+	}
+	1603.3.24={
+		liege="d_nmih_izumo"
+		holder=10029642 # Horio Tadauji
+	}
+	1604.8.28={
+		holder=10029643 # Horio Tadaharu
+	}
+}

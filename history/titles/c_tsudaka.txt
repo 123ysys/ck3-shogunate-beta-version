@@ -1,0 +1,152 @@
+c_nmih_tsudaka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsudaka1={
+				set_title_name=b_nmih_tsudaka8
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tsudaka1={
+				set_title_name=b_nmih_tsudaka8
+			}
+		}
+	}
+	1469.1.1={
+		effect={
+			title:b_nmih_tsudaka1={
+				set_title_name=b_nmih_tsudaka1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1469.1.1 = { change_development_level = 10 }
+	1521.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_bizen"
+		holder=10260012 # Omori Takamori
+	}
+	1193.6.28={ # Omori Takamori was killed by Soga brothers
+		liege="d_nmih_bizen"
+		holder=10260014 # Omori Takayoshi
+	}
+	1220.1.1={
+		holder=10260015 # Omori Takayasu
+	}
+	1240.1.1={
+		holder=10260016 # Omori Kuniyori
+	}
+	1260.1.1={
+		holder=10260017 # Omori Yorihiro
+	}
+	1280.1.1={
+		holder=10260018 # Omori Yoriyuki
+	}
+	1300.1.1={
+		holder=10260020 # Omori Koreyasu
+	}
+	1310.1.1={
+		holder=10260021 # Omori Motohiro
+	}
+	1320.1.1={
+		holder=10260022 # Omori Nagaharu
+	}
+	1330.1.1={
+		holder=10260023 # Omori Shigenao
+	}
+	1333.7.4={
+		liege="d_nmih_bizen"
+		holder=10260023 # Omori Shigenao
+	}
+	1380.1.1={
+		liege="d_nmih_bizen"
+		holder=10260024 # Omori Koresuke
+	}
+	1410.1.1={
+		holder=10260025 # Omori Motoyuki
+	}
+	1440.1.1={
+		holder=10260026 # Omori Korekata
+	}
+	1441.9.25={
+		holder=10260027 # Omori Norimoto
+	}
+	1467.6.27={
+		liege="d_nmih_hoki"
+		holder=10260028 # Omori Takayuki
+	}
+	1469.1.1={
+		liege="d_nmih_bizen"
+		holder=10054615 # Matsuda Mototaka
+	}
+	1473.1.1={
+		holder=10054604 # Matsuda Motonari
+	}
+	1483.11.1={
+		liege=0
+	}
+	1484.2.1={
+		holder=10054603 # Matsuda Motofuji
+	}
+	1510.1.1={
+		holder=10054602 # Matsuda Motomichi
+	}
+	1520.11.1={
+		liege="d_nmih_bizen"
+	}
+	1530.7.1={
+		liege=0
+		holder=10054601 # Matsuda Motomori
+	}
+	1552.1.1={
+		liege="k_nmih_sanin"
+	}
+	1559.1.1={
+		holder=10054600 # Matsuda Motokata
+	}
+	1567.1.8={
+		liege=0
+	}
+	1568.7.28={
+		holder=10054611 # Matsuda Motokata
+	}
+	1568.7.31={
+		liege="d_nmih_bizen"
+		holder=10055100 # Ukita Naoie
+	}
+	1569.9.1={
+		liege=0
+	}
+	1569.12.1={
+		liege="d_nmih_bizen"
+	}
+	1574.3.1={
+		liege=0
+	}
+	1575.10.1={
+		liege="d_nmih_bizen"
+	}
+	1576.1.1={
+		holder=10055103 # Ukita Tadaie
+	}
+	1599.1.1={
+		holder=10055107 # Ukita Akiie(Sakazaki Naomori)
+	}
+	1601.1.1={
+		liege="d_nmih_bizen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10029568 # Ikeda Tadatsugu
+	}
+	1615.3.22={
+		holder=10029572 # Ikeda Tadakatsu
+	}
+}

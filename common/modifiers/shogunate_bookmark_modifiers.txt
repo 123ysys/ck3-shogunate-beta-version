@@ -1,0 +1,17 @@
+﻿# Bookmark Modifiers
+
+shogunate_surprise_attack_modifier = {
+	icon = martial_positive
+	advantage = 50
+}
+
+
+# AI Personality Modifiers
+
+shogunate_personality_10029120_modifier = {			# Oda Nobunaga
+	icon = health_positive
+	ai_war_chance = 10
+	ai_war_cooldown = -1.0
+	army_siege_value_mult = 1.0
+	mercenary_hire_cost_mult = -0.5
+}

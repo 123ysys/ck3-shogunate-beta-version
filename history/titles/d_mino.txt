@@ -1,0 +1,200 @@
+d_nmih_mino = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0764.11.5={
+		holder=11000020 # Fujiwara Kaedemaro {Mino no kami}
+	}
+	0765.1.1={
+		holder=0 #  
+	}
+	0867.4.11={
+		holder=11004557 # Fujiwara Yamakage {Mino no kami}
+	}
+	0868.10.1={
+		holder=0 #  
+	}
+	0940.5.10={
+		holder=11000077 # Fujiwara Morouji {Mino no kami}
+	}
+	0955.1.1={
+		holder=0 #  
+	}
+	1001.4.30={
+		holder=10120011 # Minamoto Yorimitsu {Mino no kami}
+	}
+	1006.1.1={
+		holder=0 #  
+	}
+	1015.8.5={
+		holder=10120011 # Minamoto Yorimitsu {Mino no kami}
+	}
+	1017.11.1={
+		holder=0 #  
+	}
+	1032.11.10={
+		holder=10120013 # Minamoto Yorinobu {Mino no kami}
+	}
+	1036.6.19={
+		holder=0 #  
+	}
+	1095.3.12={
+		holder=10120041 # Minamoto Yoshitsuna {Mino no kami}
+	}
+	1099.2.21={
+		holder=0 #  
+	}
+	1176.3.24={
+		holder=11003404 # Yoshida Sadatsune {Mino no kami}
+	}
+	1179.12.24={
+		holder=0 #  
+	}
+	1180.1.1={
+		liege=0
+		holder=12420102 # Toki Mitsunaga
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+		holder=12420102 # Toki Mitsunaga
+	}
+	1184.1.3={ # Siege of Hojujidono
+		liege=0
+		holder=10025300 # Toki Mitsuhira
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12370010 # Ouchi Koreyoshi
+	}
+	1199.2.9={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1220.1.1={
+		liege=0
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.6.6={
+		liege = 0
+		liege="e_nmih_joko"
+		holder=10130466 # Fujiwara Hidezumi
+	}
+	1221.7.6={ # Jokyu War
+		liege="e_nmih_japan"
+		holder=10025306 # Toki Mitsuyuki
+	}
+	1249.10.26={
+		holder=12130030 # Utsunomiya Yasutsuna
+	}
+	1260.11.24={
+		holder=10025308 # Toki Mitsusada
+	}
+	1281.9.25={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10025309 # Toki Yorisada
+	}
+	1333.6.10={
+		liege=0
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=10025309 # Toki Yorisada
+	}
+	1335.7.1={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1339.4.1={
+		holder=10025310 # Toki Yorito
+	}
+	1342.12.29={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1388.2.3={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1389.4.1={
+		liege=0
+	}
+	1390.4.1={
+		liege="e_nmih_japan"
+		holder=10025316 # Toki Yoritada
+	}
+	1395.10.1={
+		holder=10025320 # Toki Yorimasu
+	}
+	1414.4.23={
+		holder=10025322 # Toki Mochimasu
+	}
+	1456.1.1={
+		holder=10025324 # Toki Shigeyori
+	}
+	1467.6.27={ # Onin War
+		liege="k_nmih_sanin" # Onin War
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
+	1497.5.5={
+		holder=10025302 # Toki Masafusa
+	}
+	1519.7.12={
+		holder=10025303 # Toki Yoritake
+	}
+	1525.6.1={
+		holder=10025301 # Toki Yorinori
+	}
+	1542.1.1={
+		holder=10025451 # Saito Dosan
+	}
+	1554.1.1={
+		holder=10025502 # Saito Yoshitatsu
+	}
+	1561.6.23={
+		holder=10025470 # Saito Tatsuoki
+	}
+	1567.10.1={
+		liege="k_nmih_chubu"
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.12.30={
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={
+		liege=0
+		holder=0 # Honno-ji incident
+	}
+	1582.7.16={
+		liege="k_nmih_chubu"
+		holder=10029162 # Oda Nobutaka
+	}
+	1582.10.28={
+		liege=0
+	}
+	1583.6.14={
+		holder=10029552 # Ikeda Tsuneoki
+	}
+	1584.4.13={
+		liege="k_nmih_northern_kinai"
+	}
+	1584.5.18={
+		holder=10029554 # Ikeda Terumasa
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1590.7.25={
+		holder=10029412 # Toyotomi Hidekatsu
+	}
+	1592.10.14={
+		holder=10029184 # Oda Hidenobu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=0 #
+	}
+}

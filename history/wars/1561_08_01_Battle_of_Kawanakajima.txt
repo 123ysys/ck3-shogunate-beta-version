@@ -1,0 +1,11 @@
+war = {
+	name = "war_1561_battle_of_kawanakajima"
+	start_date = 1561.8.1
+	end_date = 1561.10.18
+	targeted_titles = {
+		d_nmih_shinano
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10032011 } # Uesugi Kenshin
+	defenders = { 10020010 } # Takeda Shingen
+}

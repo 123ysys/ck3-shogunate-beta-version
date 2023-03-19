@@ -1,0 +1,18 @@
+130 = {
+
+	culture = eastern_hokuriku
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1390.1.1={
+	}
+	1460.1.1={ # Higashi-Tonami converted to Ikko-Shu
+		religion = ikkoshu
+	}
+	1481.1.1={ # Ikko-Shu took Higashi-Tonami
+	}
+	1581.9.8={
+	}
+
+}

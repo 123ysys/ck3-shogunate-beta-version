@@ -1,0 +1,6 @@
+d_nmih_tokachi = {
+	1470.1.1={
+		holder=0
+	}
+
+}

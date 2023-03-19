@@ -1,0 +1,147 @@
+c_nmih_shimo_adachi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shimo_adachi1={
+				set_title_name=b_nmih_shimo_adachi9
+			}
+		}
+	}
+	1000.1.1={
+		effect={
+			title:b_nmih_shimo_adachi1={
+				set_title_name=b_nmih_shimo_adachi9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1000.1.1 = { change_development_level = 10 }
+	1333.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1140.1.1={
+		holder=12202005 # Adachi Tokane
+	}
+	1170.1.1={
+		holder=12202010 # Adachi Tomoto
+	}
+	1180.6.15={
+		liege="k_nmih_western_kanto"
+	}
+	1180.10.24={
+		liege="d_nmih_southern_musashi"
+	}
+	1210.1.1={
+		liege="d_nmih_musashi"
+		holder=12202020 # Adachi Motoharu
+	}
+	1220.1.1={
+		holder=12202030 # Adachi Tochika
+	}
+	1260.1.1={
+		holder=12202035 # Adachi Naomoto
+	}
+	1285.12.14={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={
+		liege="d_nmih_southern_musashi"
+		holder=10132269 # Hojo Yasuie
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.8.14={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.9.6={
+		liege="d_nmih_musashi"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1336.7.22={
+		liege="d_nmih_musashi"
+		holder=12139568 # Kou Shigemochi
+	}
+	1341.5.1={
+		holder=12139551 # Kou Morofuyu
+	}
+	1346.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		holder=10017009 # Uesugi Norimasa
+	}
+	1352.3.12={
+		holder=12396020 # Nikki Yoriaki
+	}
+	1352.12.1={
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1361.11.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10018378 # Ota Sukemichi
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+	}
+	1378.1.1={
+		holder=10018376 # Ota Sukefusa
+	}
+	1430.1.1={
+		liege="d_nmih_sagami"
+		holder=10018350 # Ota Sukekiyo
+	}
+	1456.1.1={
+		holder=10018351 # Ota Sukenaga(Dokan)
+	}
+	1457.1.1={
+		liege="d_nmih_musashi"
+	}
+	1486.8.25={
+		holder=10018361 # Ota Eigan
+	}
+	1524.2.1={
+		holder=10018363 # Ota Sukeyori
+	}
+	1536.5.10={
+		holder=10018364 # Ota Sukeaki
+	}
+	1546.5.19={
+		liege=0
+	}
+	1547.11.21={
+		holder=10018365 # Ota Sukemasa
+	}
+	1548.1.1={
+		liege="d_nmih_musashi"
+	}
+	1561.1.1={
+		liege="d_nmih_echigo"
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1564.1.1={
+		liege="d_nmih_musashi"
+		holder=10018359 # Ota Terusuke
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+		holder=10203401 # Abe Masatsugu
+	}
+}

@@ -1,0 +1,124 @@
+d_nmih_yamato = {
+	0697.1.1={
+		liege="e_nmih_tenno"
+	}
+	1006.8.5={
+		holder=10120012 # Minamoto Yorichika {Yamato no Kami}
+	}
+	1009.4.7={
+		holder=0
+	}
+	1031.2.26={
+		holder=10120012 # Minamoto Yorichika {Yamato no Kami}
+	}
+	1036.11.10={
+		holder=0
+	}
+	1047.6.22={
+		holder=10120012 # Minamoto Yorichika {Yamato no Kami}
+	}
+	1050.2.25={
+		holder=0
+	}
+	1159.1.27={
+		holder=10110032 # Taira Norimori {Yamato no Kami}
+	}
+	1160.2.13={
+		holder=0
+	}
+	1180.6.15={
+		liege="k_nmih_yamashiro"
+		holder=12540105 # Uno Chikaharu
+	}
+	1180.6.20={
+		liege=0
+	}
+	1184.3.4={
+		liege=0
+		holder=0 # 
+	}
+	1337.1.1={
+		liege="e_nmih_nancho"
+		holder=11000718 # Nijo Moromoto
+	}
+	1354.1.1={
+		holder=11000726 # Nijo Norimoto
+	}
+	1375.1.1={
+		holder=11000730 # Nijo Noriyori
+	}
+	1384.1.1={
+		holder=11000749 # Nijo Fuyuzane
+	}
+	1392.11.12={
+		liege=0
+		holder=0 # 
+	}
+	1534.1.1={
+		liege="k_nmih_kanrei"
+		holder=10040831 # Kizawa Nagamasa, De facto
+	}
+	1542.4.2={
+		government = theocracy_government
+		holder=10048403 # Tsutsui Junsho, De facto
+	}
+	1550.8.2={
+		holder=10048413 # Tsutsui Junkei, De facto
+	}
+	1560.1.1={ # Matsunaga Hisahide's invation of Yamato
+		government = feudal_government
+		liege="k_nmih_southern_kinai"
+		holder=10045400 # Matsunaga Hisahide
+	}
+	1565.12.8={
+		liege=0
+	}
+	1567.5.24={
+		liege="k_nmih_southern_kinai"
+	}
+	1573.12.10={ # Matsunaga surrendered to Oda Nobunaga
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.5.15={
+		holder=10029390 # Ban Naomasa
+	}
+	1575.12.9={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1576.5.30={
+		holder=10029120 # Oda Nobunaga
+	}
+	1576.6.6={
+		government = theocracy_government
+		holder=10048413 # Tsutsui Junkei
+	}
+	1582.6.21={
+		liege=0
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+	}
+	1584.9.15={
+		government = feudal_government
+		holder=10048415 # Tsutsui Sadatsugu
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.9.14={
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1591.2.15={
+		holder=10029413 # Toyotomi Hideyasu
+	}
+	1595.5.24={
+		holder=10043370 # Mashita Nagamori
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		holder=0
+	}
+}

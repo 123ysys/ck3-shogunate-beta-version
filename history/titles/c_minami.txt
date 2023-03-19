@@ -1,0 +1,165 @@
+c_nmih_minami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_minami1={
+				set_title_name=b_nmih_minami2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_minami1={
+				set_title_name=b_nmih_minami9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_minami1={
+				set_title_name=b_nmih_minami1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_izumi"
+	}
+	1180.1.1={
+		liege="d_nmih_izumi" # Taira Nobukane
+		holder=10110235 # Taira Nobukane
+	}
+	1183.8.17={
+		liege="d_nmih_izumi" # Minamoto Yukiie
+		holder=10120072 # Minamoto Yukiie / Taira's escape to the west
+	}
+	1186.6.1={
+		liege="d_nmih_izumi"
+		holder=12211035 # Sahara Yoshitsura
+	}
+	1203.6.27={
+		liege="d_nmih_izumi"
+		holder=10041060 # Emperor Go-Toba
+	}
+	1203.7.1={
+		holder=11007504 # Hamuro Mitsuchika
+	}
+	1216.1.1={
+		holder=11006350 # Bomon Tadanobu
+	}
+	1221.7.6={
+		liege="d_nmih_izumi"
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1240.1.1={
+		holder=12531400 # Sawamura Munetsuna
+	}
+	1300.1.1={
+		holder=12531401 # Sawamura Munechika
+	}
+	1320.1.1={
+		holder=12531405 # Sawamura Motouji
+	}
+	1333.1.1={
+		liege="d_nmih_kawachi"
+		holder=12560200 # Otsuka Koremasa
+	}
+	1348.2.4={
+		holder=12560007 # Kusunoki Masanori
+	}
+	1378.12.1={
+		liege="d_nmih_izumi"
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1392.1.24={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		holder=12396150 # Nikki Yoshikazu
+	}
+	1408.8.1={
+		holder=10040513 # Hosokawa Yorinaga
+	}
+	1411.6.16={
+		holder=10040514 # Hosokawa Mochiari
+	}
+	1438.10.1={
+		holder=10040515 # Hosokawa Noriharu
+	}
+	1450.6.1={
+		holder=10040516 # Hosokawa Tsuneari
+	}
+	1480.12.1={
+		holder=10040517 # Hosokawa Motoari
+	}
+	1500.1.1={
+		holder=10040520 # Hosokawa Mototsune
+	}
+	1511.9.16={
+		holder=10040566 # Hosokawa Takakuni
+	}
+	1512.1.1={
+		holder=10040558 # Hosokawa Takamoto
+	}
+	1524.1.1={
+		holder=10040595 # Hosokawa Katsumoto
+	}
+	1531.7.21={
+		holder=10040522 # Hosokawa Harusada
+	}
+	1549.7.18 ={
+		liege="k_nmih_southern_kinai"
+		holder=10048753 # Matsura Mamoru
+	}
+	1557.1.1={
+		liege="d_nmih_sanuki" # Sogo(Miyoshi) Kazumasa
+		holder=10059025 # Matsura Hikaru
+	}
+	1561.4.2={
+		liege="d_nmih_awa" # Miyoshi Jikkyu
+	}
+	1562.4.8={
+		liege="k_nmih_southern_kinai"
+	}
+	1572.1.1={
+		liege="k_nmih_chubu"
+	}
+	1573.12.10={
+		liege="d_nmih_kawachi"
+	}
+	1576.1.1={
+		holder=10048751 # Matsura Munekiyo
+	}
+	1580.8.1={
+		liege="e_nmih_japan"
+		holder=10025940 # Hachiya Yoritaka
+	}
+	1582.6.19={
+		liege="d_nmih_ise"
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+	}
+	1583.6.14={
+		holder=10093201 # Nakamura Kazuuji
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.8.10={
+		holder=10093800 # Koide Hidemasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1604.4.21={
+		holder=10093801 # Koide Yoshimasa
+	}
+	1613.4.19={
+		holder=10093804 # Koide Yoshihide
+	}
+}

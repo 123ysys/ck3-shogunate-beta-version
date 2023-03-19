@@ -1,0 +1,162 @@
+e_nmih_japan = {
+	0001.1.1={
+	}
+	0797.11.27={
+		holder = 10252029 # Sakanoue no Tamuramaro
+	}
+	0810.10.11={
+		holder = 0 #Change of post to Dainagon
+	}
+	1179.12.18={ # De Facto
+		holder=10110025 # Taira no Kiyomori
+	}
+	1181.3.20={ # De Facto
+		holder=10110042 # Taira no Munemori
+	}
+	1183.8.17={ # De Facto
+		holder=10120084 # Minamoto [Kiso] Yoshinaka.  Taira's escape to the west
+	}
+	1184.3.4={ # De Facto 
+		holder = 10120075 # Minamoto no Yoritomo, the 1st shogun of the Kamakura Shogunate
+	}
+	1199.2.9={
+		holder = 10120086 # Minamoto no Yoriie, the 2nd shogun of the Kamakura Shogunate
+	}
+	1203.10.13={
+		holder = 10120087 # Minamoto no Sanetomo, the 3rd shogun of the Kamakura Shogunate
+	}
+	1219.2.13={ # De Facto (Shikken)
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={ # De Facto (Shikken)
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={ # De Facto (Shikken)
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={ # De Facto (Shikken & Tokuso(Head of the Hojo Clan))
+		holder=10131824 # Hojo Tokiyori
+	}
+	1263.12.24={ # De Facto (Tokuso)
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={ # De Facto (Tokuso)
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={ # De Facto (Tokuso)
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={
+		holder = 0 # End of the Kamakura Shogunate
+	}
+	1335.7.1={ # Nakasendai Rebellion
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.9.6={ # End of Nakasendai Rebellion
+		holder=0
+	}
+	1335.11.1={ # De Facto
+		holder=12139028 # Ashikaga Takauji, the 1st shogun of the Ashikaga shogunate
+	}
+	1358.6.7={ # De Facto
+		holder = 10040002 # Ashikaga Yoshiakira, the 2nd shogun of the Ashikaga shogunate
+	}
+	1367.12.28={
+		holder = 10040003 # Ashikaga Yoshimitsu, the 3rd shogun of the Ashikaga shogunate
+	}
+	1392.11.19={
+	}
+	1408.5.31={ # De Facto
+		holder = 10040004 # Ashikaga Yoshimochi, the 4th shogun of the Ashikaga shogunate
+	}
+	1423.3.18={
+		holder = 10040005 # Ashikaga Yoshikazu, the 5th shogun of the Ashikaga shogunate
+	}
+	1425.3.17={
+		holder = 10040004 # Ashikaga Yoshimochi (again), the 4th shogun of the Ashikaga shogunate
+	}
+	1429.3.15={
+		holder = 10040006 # Ashikaga Yoshinori, the 6th shogun of the Ashikaga shogunate
+	}
+	1441.7.12={ # Ashikaga Yoshinori was assassinated.
+		holder = 10040007 # Ashikaga Yoshikatsu, the 7th shogun of the Ashikaga shogunate
+	}
+	1443.8.16={ # Ashikaga Yoshikatsu died.
+		holder = 10040008 # Ashikaga Yoshimasa, the 8th shogun of the Ashikaga shogunate
+	}
+	1455.1.15={ # Kyotoku war
+	}
+	1467.6.27={ # Onin war
+	}
+	1477.12.16={ # End of Onin war
+	}
+	1478.1.1={ # End of Kyotoku war (De facto)
+	}
+	1479.11.1={ # Ashikaga Yoshihisa started his politics.
+		holder = 10040009 # Ashikaga Yoshihisa, the 9th shogun of the Ashikaga shogunate
+	}
+	1489.4.26={ # Ashikaga Yoshihisa died.
+		holder = 10040011 # Ashikaga Yoshiki (Yoshitane), the 10th shogun of the Ashikaga shogunate
+	}
+	1493.5.8={ # Meiou Coup
+		holder = 10040012 # Ashikaga Yoshizumi, the 11th shogun of the Ashikaga shogunate
+	}
+	1508.7.28={
+		holder = 10040011 # Ashikaga Yoshiki (Yoshitane), the 10th shogun of the Ashikaga shogunate
+	}
+	1522.1.22={
+		holder = 10040000 # Ashikaga Yoshiharu, the 12th shogun of the Ashikaga shogunate
+	}
+	1537.3.17={
+	}
+	1543.9.23={
+	}
+	1547.1.11={
+		holder=10040040 #Ashikaga Yoshiteru, the 13th shogun of the Ashikaga shogunate
+	}
+	1549.8.15={
+	}
+	1551.5.1={
+	}
+	1565.6.17={
+		holder=0
+	}
+	1568.3.6={
+		holder=10040041 #Ashikaga Yoshihide, the 14th shogun of the Ashikaga shogunate
+	}
+	1568.11.7={
+		holder=10040042 #Ashikaga Yoshiaki, the 15th shogun of the Ashikaga shogunate
+	}
+	1573.8.25={
+		holder=0
+	}
+	1575.12.9={
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.6.21={
+		holder=0 # Honno-ji incident
+	}
+	1585.7.27={
+		holder= 10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		holder= 10029415 # Toyotomi Hideyori
+	}
+	1600.7.2={
+		holder= 0 # Battle of Sekigahara (Aizu Conquest)
+	}
+	1603.3.24={
+		holder= 10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder= 10024031 # Tokugawa Hidetada
+	}
+	1623.8.23={
+		holder= 0 # Tokugawa Iemitsu
+	}
+	1644.1.1={
+	}
+	1651.6.8={
+		holder= 0 # Tokugawa Ietsuna
+	}
+}

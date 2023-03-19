@@ -1,0 +1,167 @@
+c_nmih_hanzawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hanzawa1={
+				set_title_name=b_nmih_hanzawa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_hanzawa1={
+				set_title_name=b_nmih_hanzawa3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1035.1.1={
+		holder=12206000 # Inomata Tokinori
+	}
+	1070.1.1={
+		holder=12206005 # Inomata Tadakane
+	}
+	1100.1.1={
+		holder=12206011 # Inomata Masaie
+	}
+	1130.1.1={
+		holder=12206020 # Inomata Suketsuna
+	}
+	1160.1.1={
+		holder=12206025 # Inomata Noritsuna
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.10.26={
+		liege="d_nmih_northern_musashi"
+	}
+	1192.1.1={
+		liege="d_nmih_musashi"
+		holder=12200060 # Hatakeyama Shigetada
+	}
+	1205.7.10={
+		liege="d_nmih_musashi"
+		holder=12205700 # Abo Sanemitsu
+	}
+	1221.7.5={
+		holder=12205703 # Abo Sanekazu
+	}
+	1221.7.6={
+		liege="d_nmih_harima"
+	}
+	1223.1.1={
+		liege="d_nmih_musashi"
+	}
+	1240.1.1={
+		holder=12205705 # Abo Yasuzane
+	}
+	1260.1.1={
+		holder=12205710 # Abo Tsunezane
+	}
+	1300.1.1={
+		holder=12205714 # Abo Munezane
+	}
+	1333.6.28={
+		liege="d_nmih_musashi"
+		holder=12205717 # Abo Tomozane
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="d_nmih_musashi"
+		holder=12205723 # Abo Mitsuyasu
+	}
+	1350.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12205726 # Abo Yasunori
+	}
+	1361.11.1={
+		liege="d_nmih_musashi"
+		holder=12200175 # Kawagoe Tadashige
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1378.5.14={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1389.1.1={
+		holder=10017013 # Uesugi Norifusa
+	}
+	1404.9.6={
+		liege="d_nmih_musashi"
+		holder=10017050 # Uesugi [Fukaya] Norimitsu
+	}
+	1420.1.1={
+		holder=10017051 # Uesugi Norinaga
+	}
+	1430.1.1={
+		holder=10017052 # Uesugi Norinobu
+	}
+	1457.1.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1470.1.1={
+		holder=10017053 # Uesugi Fusanori
+	}
+	1500.1.1={
+		holder=10017054 # Uesugi Norikiyo, Fukaya castle
+	}
+	1530.1.1={
+		holder=10017055 # Uesugi Norikata, Fukaya castle
+	}
+	1546.5.19={
+		liege="d_nmih_musashi" # Vassal of Hojo
+	}
+	1560.4.6={
+		holder=10017056 # Uesugi Norimori, Fukaya castle
+	}
+	1561.1.1={
+		liege="d_nmih_echigo" # Vassal of Echigo=Uesugi
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1563.1.1={
+		liege="d_nmih_musashi" # Vassal of Hojo
+	}
+	1569.12.1={
+		liege="k_nmih_kanto_kanrei" # Vassal of Echigo=Uesugi
+	}
+	1575.5.8={
+		liege="d_nmih_musashi" # Vassal of Hojo
+		holder=10017057 # Uesugi Ujinori, Fukaya castle
+	}
+	1590.7.25={
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+	1610.7.1={
+		holder=10024071 # Matsudaira Tadashige
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

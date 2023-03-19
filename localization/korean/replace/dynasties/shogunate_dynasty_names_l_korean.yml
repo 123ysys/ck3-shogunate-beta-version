@@ -1,0 +1,404 @@
+﻿l_korean:
+
+# Minamoto, Seiwa-Gen Ji
+ dynn_Shida:0 "시다"
+ dynn_Obu:0 "오부"
+ dynn_Shingu:0 "신구"
+ dynn_Tada:0 "타다"
+ dynn_Ike:0 "이케"
+ dynn_Komatsu:0 "코마츠"
+ dynn_Sugimoto:0 "스기모토"
+ dynn_Wada:0 "와다"
+ dynn_Oba:0 "오오바"
+ dynn_Nagao:0 "나가오"
+ dynn_Kajiwara:0 "카지와라"
+ dynn_Kagawa:0 "카가와"
+ dynn_Nagae:0 "나가에"
+ dynn_Toyota:0 "토요타"
+ dynn_Matano:0 "마타노"
+ dynn_Dohi:0 "도히"
+ dynn_Ninomiya:0 "니노미야"
+ dynn_Sanada:0 "사나다"
+ dynn_Tuchiya:0 "츠치야"
+ dynn_Kawamura:0 "카와무라"
+ dynn_Yasuda:0 "야스다"
+ dynn_Henmi:0 "헨미"
+ dynn_Takeda:0 "타케다"
+ dynn_Kagami:0 "카가미"
+ dynn_Asari:0 "아사리"
+ dynn_Ichijo:0 "이치죠"
+ dynn_Itagaki:0 "이타가키"
+ dynn_Akiyama:0 "아키야마"
+ dynn_Nitta:0 "닛타"
+ dynn_Satomi:0 "사토미"
+ dynn_Yamana:0 "야마나"
+ dynn_Ashikaga:0 "아시카가"
+ dynn_Sonoda:0 "소노다"
+ dynn_Ogo:0 "오오고"
+ dynn_Yamagami:0 "야마가미"
+ dynn_Sano:0 "사노"
+ dynn_Asonuma:0 "아소누마"
+ dynn_Kimura:0 "키무라"
+ dynn_Hayashi:0 "하야시"
+ dynn_Sanuki:0 "사누키"
+ dynn_Nawa:0 "나와"
+ dynn_Ota:0 "오오타"
+ dynn_Oyama:0 "오야마"
+ dynn_Shimokobe:0 "시모코베"
+ dynn_Naganuma:0 "나가누마"
+ dynn_Yuki:0 "유키"
+ dynn_Okawado:0 "오오카와도"
+ dynn_Seki:0 "세키"
+ dynn_Sato:0 "사토"
+ dynn_Bito:0 "비토"
+ dynn_Ito:0 "이토"
+ dynn_Tomura:0 "토무라"
+ dynn_Okuyama:0 "오쿠야마"
+ dynn_Ajiki:0 "아지키"
+ dynn_Akamatsu:0 "아카마츠"
+ dynn_Harada:0 "하라다"
+ dynn_Mike:0 "미케"
+ dynn_Akizuki:0 "아키즈키"
+ dynn_Takahashi:0 "타카하시"
+ dynn_Amakusa:0 "아마쿠사"
+ dynn_Itai:0 "이타이"
+ dynn_Uku:0 "우쿠"
+ dynn_Ouchi:0 "오오우치"
+ dynn_Migita:0 "미기타"
+ dynn_Yoshiki:0 "요시키"
+ dynn_Uno:0 "우노"
+ dynn_Toida:0 "토이다"
+ dynn_Washizu:0 "와시즈"
+ dynn_Masunari:0 "마스나리"
+ dynn_Konoe:0 "코노에"
+ dynn_Kujo:0 "쿠죠"
+ dynn_Watanabe:0 "와타나베"
+ dynn_Teshima:0 "테시마"
+ dynn_Hatakeyama:0 "하타케야마"
+ dynn_Oyamada:0 "오야마다"
+ dynn_Inage:0 "이나게"
+ dynn_Kawagoe:0 "카와고에"
+ dynn_ChichibuEdo:0 "에도"
+ dynn_Kasai:0 "카사이"
+
+# Chiba
+ dynn_Soma:0 "소마"
+ dynn_Takeishi:0 "타케이시"
+ dynn_Osuga:0 "오오스가"
+ dynn_Kokubu:0 "코쿠부"
+ dynn_To:0 "토"
+ dynn_Shiina:0 "시이나"
+ dynn_Sosa:0 "소사"
+ dynn_Unakami:0 "우나카미"
+ dynn_Iwase:0 "이와세"
+ dynn_Kataoka:0 "카타오카"
+ dynn_Usui:0 "우스이"
+ dynn_Makuwari:0 "마쿠와리"
+ dynn_Hara:0 "하라"
+ dynn_Chiba:0 "치바"
+ dynn_Chida:0 "치다"
+
+ # Uesugi
+ dynn_Ogigayatsu:0 "오기가야츠"
+ dynn_YamauchiUesugi:0 "야마우치 우에스기"
+ dynn_Kobanawa:0 "코바나와"
+ dynn_EchigoUesugi:0 "에치고 우에스기"
+ dynn_InugakeUesugi:0 "이누가케 우에스기"
+
+ # Ashikaga
+ dynn_KamakuraAshikaga:0 "아시카가"
+
+ # Hosokawa
+ dynn_YashuHosokawa:0 "야슈 호소카와"
+ dynn_KeichoHosokawa:0 "케이쵸 호소카와"
+ dynn_TenkyuHosokawa:0 "텐큐 호소카와"
+ dynn_IzumiKamiHosokawa:0 "이즈미 카미 호소카와"
+ dynn_IzumiShimoHosokawa:0 "이즈미 시모 호소카와"
+ dynn_SanshuHosokawa:0 "산슈 호소카와"
+ dynn_BicchuHosokawa:0 "빗츄 호소카와"
+ dynn_EnshuHosokawa:0 "엔슈 호소카와"
+ dynn_AwajiHosokawa:0 "아와지 호소카와"
+ dynn_Nagaoka:0 "나가오카"
+
+ # Imagawa
+ dynn_Oshika:0 "오시카"
+ dynn_ImagawaSena:0 "세나"
+ dynn_Horikoshi:0 "호리코시"
+ dynn_kambara:0 "칸바라"
+
+ # Takeda
+ dynn_AkiTakeda:0 "타케다"
+ dynn_Mariyatsu:0 "마리야츠"
+ dynn_Chonan:0 "쵸난"
+ dynn_Oi:0 "오오이"
+ dynn_Imai:0 "이마이"
+ dynn_Anayama:0 "아나야마"
+ dynn_Aburakawa:0 "아부라카와"
+ dynn_Katsunuma:0 "카츠누마"
+ dynn_Nishina:0 "니시나"
+ dynn_Katsurayama:0 "카츠라야마"
+ dynn_Mochizuki:0 "모치즈키"
+
+ # Hatakeyama
+ dynn_Nihonmatsu:0 "니혼마츠"
+ dynn_NotoHatakeyama:0 "하타케야마"
+ dynn_HatakeyamaSoshu:0 "하타케야마"
+ dynn_HatakeyamaBishu:0 "하타케야마"
+
+ # Murakami Genji [Minamoto]
+ dynn_Tsuchimikado:0 "츠치미카도"
+ dynn_Koga:0 "코가"
+ dynn_Nakanoin:0 "나카노인"
+ dynn_Kitabatake:0 "키타바타케"
+ dynn_Namioka:0 "나미오카"
+ dynn_Rokujo:0 "로쿠죠"
+ dynn_Chigusa:0 "치구사"
+ dynn_Okawachi:0 "오오카와치"
+ dynn_Tamaru:0 "타마루"
+ dynn_Kozukuri:0 "코즈쿠리"
+ dynn_Hoshiai:0 "호시아이"
+
+ # Shimazu
+ dynn_ShimazuIzaku:0 "시마즈"
+ dynn_ShimazuSoshu:0 "시마즈"
+ dynn_ShimazuSasshu:0 "시마즈"
+ dynn_ShimazuHosshu:0 "시마즈"
+ dynn_ShimazuHongo:0 "혼고"
+ dynn_ShimazuIjuin:0 "이쥬인"
+
+ # Kono
+ dynn_KonoYoshu:0 "요슈 코노"
+
+ # Akamatsu
+ dynn_Arima:0 "아리마"
+ dynn_Shichijo:0 "시치죠"
+ dynn_Arita:0 "아리타"
+ dynn_AkamatsuIzu:0 "이즈 아카마츠"
+ dynn_Ueno:0 "우에노"
+ dynn_Okochi:0 "오오코치"
+ dynn_Bessho:0 "벳쇼"
+
+ # Yamana
+ dynn_Yamana:0 "야마나"
+
+ # Ogasawara
+ dynn_Ogasawara:0 "오가사와라"
+ dynn_Tomono:0 "토모노"
+ dynn_Ogasawara_Oi:0 "오오이"
+
+ # Sasaki
+ dynn_Rokkaku:0 "롯카쿠"
+ dynn_Takashima:0 "타카시마"
+ dynn_Kaji:0 "카지"
+ dynn_Kyogoku:0 "쿄고쿠"
+ dynn_Kutsuki:0 "쿠츠키"
+ dynn_Shibata1:0 "시바타"
+ dynn_Taga:0 "타가"
+ dynn_Amago:0 "아마고"
+ dynn_Oki:0 "오키"
+ dynn_Obara:0 "오바라"
+ dynn_SasakiKagami:0 "카가미"
+ dynn_Isobe:0 "이소베"
+ dynn_Kurata:0 "쿠라타"
+ dynn_Togo:0 "토고"
+ dynn_Akura:0 "아쿠라"
+
+ # Nagao
+ dynn_Nagao:0 "나가오"
+ dynn_Uesugi:0 "우에스기"
+
+ # Muto
+ dynn_Shoni:0 "쇼니"
+ dynn_Daihoji:0 "다이호지"
+ dynn_Kenmotsu:0 "켄모츠"
+ dynn_Nabeshima:0 "나베시마"
+ dynn_Baba:0 "바바"
+ dynn_Yokodake:0 "요코다케"
+ dynn_Tsukushi:0 "츠쿠시"
+ dynn_Sagoshi:0 "사고시"
+ dynn_Shokoji:0 "쇼코지"
+ dynn_Kokyoji:0 "코요지"
+ dynn_Ganshoji:0 "간쇼지"
+ dynn_Honsenji:0 "혼센지"
+ dynn_Choshoji:0 "쵸쇼지"
+ dynn_shokoji2:0 "쇼코지"
+
+ # Otomo
+ dynn_Tahara:0 "타하라"
+ dynn_Tachibana:0 "타치바나"
+ dynn_Bekki:0 "벳키"
+ dynn_Shiga:0 "시가"
+ dynn_Ichimata:0 "이치마타"
+ dynn_Yoshihiro:0 "요시히로"
+ dynn_Usuki:0 "우스키"
+ dynn_Takahashi:0 "타카하시"
+
+ # Matsura
+ dynn_Hata:0 "하타"
+ dynn_Shisa:0 "시사"
+ dynn_Tamanoura:0 "타마노우라"
+ dynn_Matsura:0 "마츠라"
+ dynn_Yamashiro:0 "야마시로"
+ dynn_Arita:0 "아리타"
+
+ # Daijo
+ dynn_Namegata:0 "나메가타"
+ dynn_Kashima:0 "카시마"
+ dynn_Makabe:0 "마카베"
+ dynn_Oguri:0 "오구리"
+ dynn_Shimazaki:0 "시마자키"
+
+ # Murakami
+ dynn_Tokui:0 "토쿠이"
+
+ # Utsunomiya
+ dynn_Nimo:0 "니모"
+ dynn_Aso:0 "아소"
+ dynn_Shionoya:0 "시오노야"
+
+ # Date
+ dynn_Rusu:0 "루스"
+ dynn_Date:0 "다테"
+ dynn_Watari:0 "와타리"
+ dynn_Koyanagawa:0 "코야나가와"
+ dynn_Oeda:0 "오오에다"
+ dynn_Senoue:0 "세노우에"
+ dynn_Shiroishi:0 "시로이시"
+ dynn_Kori:0 "코오리"
+ dynn_Iida:0 "이이다"
+ dynn_Ishida:0 "이시다"
+ dynn_Yabe:0 "야베"
+ dynn_Hienuki:0 "히에누키"
+
+ # Kasai
+ dynn_Usuginu:0 "우스기누"
+ dynn_Hamada:0 "하마다"
+
+ # Shiba
+ dynn_Osaki:0 "오오사키"
+ dynn_OshuShiba:0 "시바"
+ dynn_Mogami:0 "모가미"
+ dynn_Tsugawa:0 "츠가와"
+ dynn_ShibaMori:0 "모리"
+ dynn_Hachiya:0 "하치야"
+ dynn_Kurokawa:0 "쿠로카와"
+ dynn_Narisawa:0 "나리사와"
+ dynn_Tateoka:0 "타테오카"
+ dynn_Tendo:0 "텐도"
+ dynn_Shimizu:0 "시미즈"
+
+ # Nambu
+ dynn_Ishikawa:0 "이시카와"
+ dynn_Minami:0 "미나미"
+ dynn_Ishigame:0 "이시가메"
+ dynn_Kemanai:0 "케마나이"
+ dynn_Kita:0 "키타"
+ dynn_Oura:0 "오오우라"
+ dynn_Niida:0 "니이다"
+ dynn_Nambu:0 "난부"
+ dynn_Hachinohe:0 "하치노헤"
+ dynn_Hakii:0 "하키이"
+
+ # Chosokabe
+ dynn_Kira:0 "키라"
+ dynn_Kosokabe:0 "코소카베"
+ dynn_Kagawa:0 "카가와"
+
+ # Miyoshi
+ dynn_Akutagawa:0 "아쿠타가와"
+ dynn_Sogo:0 "소고"
+ dynn_Atagi:0 "아타기"
+
+ # Ouchi
+ dynn_Washizu:0 "와시즈"
+ dynn_Yata:0 "야타"
+ dynn_Suetake:0 "스에타케"
+ dynn_Kurokawa:0 "쿠로카와"
+ dynn_Egi:0 "에기"
+ dynn_Reizei:0 "레이제이"
+ dynn_Kakinami:0 "카키나미"
+ dynn_Wanishi:0 "와니시"
+
+ # Kikuchi
+ dynn_Uto:0 "우토"
+ dynn_Kai:0 "카이"
+ dynn_Akahoshi:0 "아카호시"
+ dynn_Jo:0 "죠"
+ dynn_Koshi:0 "코시"
+ dynn_Yamaga:0 "야마가"
+
+ # Oda
+ dynn_Tsuda:0 "츠다"
+
+ # Toki
+ dynn_Iga:0 "이가"
+ dynn_Akechi:0 "아케치"
+ dynn_Iwade:0 "이와데"
+ dynn_Tokihara:0 "토키하라"
+
+ # Yuki
+ dynn_Shirakawa:0 "시라카와"
+ dynn_Tagaya:0 "타가야"
+
+ # Matsudaira
+ dynn_Tokugawa:0 "토쿠가와"
+
+ # Suwa
+ dynn_Chino:0 "치노"
+ dynn_Takato:0 "타카토오"
+ dynn_Fujisawa:0 "후지사와"
+
+ # Murakami
+ dynn_Yashiro:0 "야시로"
+ dynn_Muroga:0 "무로가"
+
+ # Ando
+ dynn_Shimokuni:0 "시모쿠니"
+
+ # Asakura
+ dynn_Nakano:0 "나카노"
+ dynn_Matsuo:0 "마츠오"
+ dynn_Abaga:0 "아바가"
+ dynn_Mukai:0 "무카이"
+ dynn_Sadagasaki:0 "사다가사키"
+ dynn_Nakajima:0 "나카지마"
+ dynn_Kitanosho:0 "키타노쇼"
+ dynn_Toba:0 "토바"
+ dynn_Minowa:0 "미노와"
+ dynn_Yagi:0 "야기"
+ dynn_Shorenge:0 "쇼렌게"
+ dynn_Jishiin:0 "지시인"
+ dynn_Hatano:0 "하타노"
+ dynn_Tsuchihashi:0 "츠치하시"
+ dynn_Ago:0 "아고"
+
+ # Misawa
+ dynn_Nunohiro:0 "누노히로"
+
+ # Mori
+ dynn_Kikkawa:0 "킷카와"
+ dynn_Kobayakawa:0 "코바야카와"
+ dynn_Fukubara:0 "후쿠바라"
+ dynn_Saka:0 "사카"
+ dynn_Kitajo:0 "키타죠"
+ dynn_Mori1:0 "모리"
+ dynn_Katsura:0 "카츠라"
+ dynn_Shiji:0 "시지"
+ dynn_Kuchiha:0 "쿠치하"
+
+ # Kikkawa
+ dynn_Ichikawa:0 "이치카와"
+
+ # Kobayakawa
+ dynn_Nomi:0 "노미"
+
+ # Sano
+ dynn_Kiryu:0 "키류"
+
+ # Ashina
+ dynn_Tomita:0 "토미타"
+ dynn_Inawashiro:0 "이나와시로"
+
+ # Hatta & Oda
+ dynn_Oda1:0 "오다"
+ dynn_Shishido:0 "시시도"

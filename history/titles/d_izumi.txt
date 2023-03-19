@@ -1,0 +1,203 @@
+d_nmih_izumi = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0936.2.28={
+	    holder=11005250 # Fujiwara Moriyoshi {Izumi no Kami}
+	}
+	0942.11.18={
+	    holder=0 #  
+	}
+	1083.4.14={
+	    holder=11005537 # Fujiwara Takakiyo {Izumi no Kami}
+	}
+	1085.2.4={
+	    holder=0 #  
+	}
+	1097.2.20={
+	    holder=11003805 # Fujiwara Arinobu {Izumi no Kami}
+	}
+	1099.9.27={
+	    holder=0 #  
+	}
+	1111.3.11={
+	    holder=11003816 # Fujiwara Arinari {Izumi no Kami}
+	}
+	1119.3.14={
+	    holder=0 #  
+	}
+	1121.4.1={
+	    holder=11003815 # Fujiwara Munekane
+	}
+	1124.2.16={
+	    holder=0 #  
+	}
+	1150.2.6={
+		 holder=10110230 # Taira Morikane {Izumi no Kami}
+	}
+	1156.10.10={
+		holder=0
+	}
+	1174.8.10={
+		holder=10110235 # Taira Nobukane {Izumi no Kami}
+	}
+	1180.1.1={
+		liege="e_nmih_japan"
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+		holder=10120072 # Minamoto Yukiie, Taira's escape to the west
+	}
+	1184.1.13={
+		liege=0
+	}
+	1185.11.10={
+		liege="k_nmih_northern_kinai"
+	}
+	1185.11.26={
+		holder=0 # Failure of Yoshitsune's rebellion
+	}
+	1186.6.1={
+		liege="e_nmih_japan"
+		holder=12211035 # Sahara Yoshitsura
+	}
+	1203.6.27={
+		liege="e_nmih_joko"
+		holder=10041060 # Emperor Go-Toba
+	}
+	1203.7.1={
+		holder=11007504 # Hamuro Mitsuchika
+	}
+	1216.1.1={
+		holder=11006350 # Bomon Tadanobu
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1247.7.9={
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1256.12.10={
+		holder=10131712 # Hojo [Tokiwa] Tokishige
+	}
+	1270.2.18={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1315.8.18={
+		holder=10132211 # Hojo Shigetoki
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=10041901 # Prince Moriyoshi
+	}
+	1334.11.19={
+		liege=0
+		holder=0 # 
+	}
+	1336.7.22={
+		liege="e_nmih_japan"
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1337.4.1={
+		holder=10040579 # Hosokawa Akiuji
+	}
+	1347.12.28={
+		holder=12139566 # Kou Moroyasu
+	}
+	1349.8.1={
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+	}
+	1351.8.23={
+		liege="e_nmih_japan"
+		holder=10040579 # Hosokawa Akiuji
+	}
+	1352.7.1={
+		holder=10040602 # Hosokawa Nariuji
+	}
+	1369.1.1={
+		liege="k_nmih_kanrei"
+		holder=12560007 # Kusunoki Masanori
+	}
+	1378.12.1={
+		liege="e_nmih_japan"
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1392.1.24={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1399.11.26={
+		liege="k_nmih_western_chugoku"
+	}
+	1400.1.17={
+		liege="e_nmih_japan"
+		holder=12396150 # Nikki Yoshikazu
+	}
+	1408.8.1={
+		liege="k_nmih_kanrei"
+		holder=10040513 # Hosokawa Yorinaga
+	}
+	1411.6.16={
+		holder=10040514 # Hosokawa Mochiari
+	}
+	1438.10.1={
+	    holder=10040515 # Hosokawa Noriharu
+	}
+	1450.6.1={
+		liege="k_nmih_kanrei"
+		holder=10040516 # Hosokawa Tsuneari
+	}
+	1480.12.1={
+		holder = 10040517 # Hosokawa Motoari
+	}
+	1495.1.1={
+		liege="k_nmih_southern_kinai"
+	}
+	1500.1.1={
+		liege="k_nmih_kanrei"
+		holder=10040520 # Hosokawa Mototsune
+	}
+	1508.7.28={
+		liege="k_nmih_southern_kinai"
+	}
+	1511.9.16={
+		liege="k_nmih_kanrei"
+		holder=10040566 # Hosokawa Takakuni
+	}
+	1512.1.1={
+		holder=10040558 # Hosokawa Takamoto
+	}
+	1524.1.1={
+		holder=10040595 # Hosokawa Katsumoto
+	}
+	1527.3.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1531.7.21={
+		liege="k_nmih_kanrei"
+		holder=10040522 # Hosokawa Harusada
+	}
+	1549.7.18 ={
+		holder=0 # 
+	}
+	1585.5.11={
+		liege="k_nmih_northern_kinai"
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1591.2.15={
+		holder=10029413 # Toyotomi Hideyasu
+	}
+	1595.5.24={
+		holder=0 # 
+	}
+
+}

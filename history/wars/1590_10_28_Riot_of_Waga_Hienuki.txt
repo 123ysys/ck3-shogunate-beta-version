@@ -1,0 +1,11 @@
+war = {
+	name = "war_1590_riot_of_waga_hienuki"
+	start_date = 1590.10.28
+	end_date = 1592.1.1
+	targeted_titles = {
+		d_nmih_rikuchu
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10003506 10003404 } # Waga Yoshitada, Hienuki Hirotada
+	defenders = { 10029400 } # Toyotomi Hideyoshi
+}

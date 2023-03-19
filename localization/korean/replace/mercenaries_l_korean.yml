@@ -1,0 +1,22 @@
+﻿l_korean:
+
+ # Default name
+ mercenary_company_default:0 "[TITLE.GetDeJureLiege.GetNameNoTierNoTooltip] [TITLE.GetDeJureLiege.GetTierAsNameNoTooltip] 쿠니슈"
+
+ # Ninja aliases
+ mercenary_company_shinobi:0 "시노비"      # Common
+ mercenary_company_rappa:0 "랏파"          # Southern Kanto
+ mercenary_company_nokizaru:0 "노키자루"    # Eastern Hokuriku
+ mercenary_company_suppa1:0 "슷파"         # Koshin
+ mercenary_company_suppa2:0 "슷파"         # Southern Kinai
+
+ # Ninja clans
+ mercenary_company_iga:0 "이가 모노"         # Western Chubu
+ mercenary_company_koka:0 "코가 모노"       # Central Kinai
+
+ # Mercenaries
+ mercenary_company_saika:0 "사이카 슈"      # Southern Kinai
+ mercenary_company_negoro:0 "네고로 슈"    # Southern Kinai
+
+ # Worrior monks
+ mercenary_company_sohei:0 "소헤이"

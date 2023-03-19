@@ -1,0 +1,159 @@
+c_nmih_kuraki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kuraki1={
+				set_title_name=b_nmih_kuraki9
+			}
+		}
+	}
+	1438.1.1={
+		effect={
+			title:b_nmih_kuraki1={
+				set_title_name=b_nmih_kuraki1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1274.1.1 = { change_development_level = 20 }
+	1300.1.1 = { change_development_level = 30 }
+	1333.7.4 = { change_development_level = 30 }
+	1438.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1160.1.1={
+		liege="d_nmih_musashi"
+		holder=12200052 # Oyamada Arishige
+	}
+	1180.1.1={
+		liege="d_nmih_musashi" # Kawagoe Shigeyori
+		holder=12200090 # Inage Shigenari
+	}
+	1205.7.11={
+		liege="d_nmih_kazusa"
+		holder=12211501 # Wada Yoshimori
+	}
+	1213.5.24={
+		liege="d_nmih_kazusa"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131672 # Hojo [Kanesawa] Saneyasu
+	}
+	1264.6.30={
+		holder=10131760 # Hojo [Kanesawa] Sanetoki
+	}
+	1276.11.30={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1326.4.29={
+		holder=10132229 # Hojo [Kanesawa] Sadayuki
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+		holder=12211291 # Miura Tokiaki 
+	}
+	1335.9.6={
+		liege="d_nmih_musashi"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1336.7.22={
+		liege="d_nmih_musashi"
+		holder=12139568 # Kou Shigemochi
+	}
+	1341.5.1={
+		holder=12139551 # Kou Morofuyu
+	}
+	1346.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		holder=10017009 # Uesugi Norimasa
+	}
+	1352.3.12={
+		holder=12396020 # Nikki Yoriaki
+	}
+	1352.12.1={
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1361.11.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10018378 # Ota Sukemichi
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+	}
+	1378.1.1={
+		holder=10018376 # Ota Sukefusa
+	}
+	1430.1.1={
+		liege="d_nmih_sagami"
+		holder=10018350 # Ota Sukekiyo
+	}
+	1440.1.1={
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1449.1.1={
+		holder=10017038 # Uesugi Akifusa
+	}
+	1455.2.10={
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1457.1.1={
+		liege="d_nmih_musashi"
+	}
+	1467.10.4={
+		holder=10017042 # Uesugi Masazane
+	}
+	1473.12.22={
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1477.2.10={
+		liege=0 # Nagao Kageharu's rebellion
+		holder=10017324 # Nagao Kageharu
+	}
+	1478.5.21={
+		liege="d_nmih_musashi" # Fall of Kozukue castle
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1494.11.20={
+		holder=10017043 # Uesugi Tomoyoshi
+	}
+	1518.5.30={
+		holder=10018000 # Uesugi Tomosada
+	}
+	1523.9.8={
+		liege="d_nmih_sagami"
+		holder=10016200 # Kasahara Nobutame
+	}
+	1557.8.12={
+		holder=10016202 # Kasahara Yasukatsu
+	}
+	1575.1.1={
+		holder=10016204 # Kasahara Masaharu
+	}
+	1581.10.1={
+		liege="d_nmih_sagami"
+		holder=10016019 # Hojo Ujimitsu
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

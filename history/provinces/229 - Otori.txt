@@ -1,0 +1,31 @@
+229 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1.1.1={
+		special_building_slot = sakai_trade_port_01
+	}
+	0701.1.1={# Taiho Code
+	}
+	1231.1.1={
+	}
+	1331.1.1={
+	}
+	1467.1.1={
+	}
+	1469.1.1={
+		buildings = {
+			castle_02
+		}
+		special_building = sakai_trade_port_01
+	}
+	1490.1.1 = {
+		religion = hokkeshu
+	}
+	1520.1.1={
+		special_building = sakai_trade_port_02
+	}
+	1571.1.1={
+	}
+}

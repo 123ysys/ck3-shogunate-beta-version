@@ -1,0 +1,13 @@
+402 = {
+
+	culture = tokai
+	religion = shinto
+	holding = castle_holding
+	1331.1.1={
+	}
+	1490.1.1={
+		religion = hokkeshu
+	}
+	1493.1.1={
+	}
+}

@@ -1,0 +1,30 @@
+154 = {
+
+	culture = tokai
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1331.1.1={
+	}
+	1401.1.1={
+	}
+	1440.1.1={
+	}
+	1490.1.1={
+		religion = ikkoshu
+	}
+	1524.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1564.1.1={
+	}
+
+	1570.1.1={
+		buildings = {
+			castle_01
+		}
+	}
+}

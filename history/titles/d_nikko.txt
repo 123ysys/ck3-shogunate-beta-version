@@ -1,0 +1,57 @@
+d_nmih_nikko = {
+	1.1.1={
+		government = theocracy_government
+	}
+	0701.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12136004 # Seki Ryusen, Nikko
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1205.1.1={
+		holder=12136006 # Seki Bengaku, Nikko
+	}
+	1251.1.1={
+		holder=11006778 # Fujiwara Sonke
+	}
+	1273.11.12={
+		holder=11000888 # Kujo Gene
+	}
+	1307.10.20={
+		holder=10041844 # Jincho
+	}
+	1318.1.1={
+		holder=10041873 # Jine
+	}
+	1323.1.1={
+		holder=11000666 # Nijo Dojun
+	}
+	1329.1.1={
+		holder=10041845 # Seie
+	}
+	1333.7.4={
+		liege=0
+	}
+	1339.11.27={
+		holder=10041853 # Shue
+	}
+	1378.1.1={
+		holder=10041889 # Seijo
+	}
+	1390.1.1={
+		holder=12240400 # Nikkosan Shoyu
+	}
+	1449.1.1={
+		holder=12240401 # Nikkosan Shoken
+	}
+	1455.1.1={
+		liege=0
+		holder=0 # 
+	}
+}

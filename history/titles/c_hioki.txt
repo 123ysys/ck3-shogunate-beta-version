@@ -1,0 +1,157 @@
+c_nmih_hioki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hioki1={
+				set_title_name=b_nmih_hioki1
+			}
+		}
+	}
+	1000.1.1={
+		effect={
+			title:b_nmih_hioki1={
+				set_title_name=b_nmih_hioki1
+			}
+		}
+	}
+	1270.1.1={
+		effect={
+			title:b_nmih_hioki1={
+				set_title_name=B_NMIH_HIOKI1_1270
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1000.1.1 = { change_development_level = 20 }
+	1440.1.1 = { change_development_level = 30 }
+
+	0001.1.1={
+	}
+	0020.1.1={
+		holder=10290300 # Sori
+	}
+	0070.1.1={
+		holder=10290301 # Kibe
+	}
+	0100.1.1={
+		holder=10290302 # Toki
+	}
+	0150.1.1={
+		holder=10290307 # Ishikori
+	}
+	0170.1.1={
+		holder=10290308 # Tomami
+	}
+	0230.1.1={
+		holder=10290309 # Atasumi
+	}
+	1161.1.1={
+		liege="d_nmih_satsuma"
+		holder=12810512 # Taira Nobuzumi
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_satsuma"
+		holder=10120381 # Minamoto Yoshizane
+	}
+	1186.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1227.8.1={
+		holder=10060034 # Shimazu Tadatoki
+	}
+	1265.1.1={
+		holder=10060033 # Shimazu Hisatsune
+	}
+	1270.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060803 # Ijuin Toshitada
+	}
+	1305.1.1={
+		holder=10060804 # Ijuin Hisakane
+	}
+	1310.1.1={
+		holder=10060805 # Ijuin Hisachika
+	}
+	1315.1.1={
+		holder=10060806 # Ijuin Tadachika
+	}
+	1330.1.1={
+		holder=10060807 # Ijuin Tadakuni
+	}
+	1333.7.4={
+		liege="d_nmih_satsuma"
+	}
+	1337.1.1={
+		liege="d_nmih_osumi"
+	}
+	1342.1.1={
+		liege="k_nmih_seisei_shogun"
+	}
+	1350.12.20={
+		liege="d_nmih_osumi"
+	}
+	1360.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060808 # Ijuin Hisauji
+	}
+	1400.1.1={
+		holder=10060809 # Ijuin Yorihisa
+	}
+	1413.1.1={
+		liege=0
+	}
+	1417.1.1={
+		liege="d_nmih_satsuma"
+	}
+	1420.1.1={
+		holder=10060810 # Ijuin Hirohisa
+	}
+	1450.3.1={
+		liege="d_nmih_satsuma"
+		holder=10060005 # Shimazu Tadakuni
+	}
+	1459.10.1={
+		holder=10060008 # Shimazu Tatsuhisa
+	}
+	1474.4.26={
+		holder=10060011 # Shimazu Tadamasa
+	}
+	1508.3.16={
+		holder=10060012 # Shimazu Tadaharu
+	}
+	1515.10.2={
+		holder=10060013 # Shimazu Tadataka
+	}
+	1519.5.12={
+		holder=10060002 # Shimazu Katsuhisa
+	}
+	1536.1.1={
+		holder=10060000 # Shimazu Takahisa
+	}
+	1539.1.1={
+		holder=10060800 # Ijuin Tadaaki
+	}
+	1568.1.1={
+		holder=10060801 # Ijuin Tadaao
+	}
+	1580.1.1={
+		holder=10060814 # Ijuin Tadamune
+	}
+	1599.4.4={
+		liege=0
+		holder=10060816 # Ijuin Tadazane
+	}
+	1600.4.18={
+		liege="d_nmih_satsuma"
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+		holder=10060096 # Shimazu Tsunehisa
+	}
+	1614.7.6={
+		holder=10060097 # Shimazu Hisayoshi
+	}
+}

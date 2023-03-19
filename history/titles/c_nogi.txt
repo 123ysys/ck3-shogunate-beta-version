@@ -1,0 +1,156 @@
+c_nmih_nogi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nogi1={
+				set_title_name=b_nmih_nogi9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nogi1={
+				set_title_name=b_nmih_nogi9
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_nogi1={
+				set_title_name=b_nmih_nogi1
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_nogi1={
+				set_title_name=B_NMIH_NOGI1_1221
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1185.4.25 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_izumo"
+	}
+	1180.1.1={
+		liege="d_nmih_izumo"
+		holder=11005977 # Fujiwara Tomosada
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_izumo"
+		holder=10110111 # Taira Noritsune
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_izumo"
+		holder=12510063 # Sasaki Takatsuna
+	}
+	1190.1.1={
+		holder=12600300 # Adachi Chikanaga
+	}
+	1199.1.1={
+		holder=12602500 # Yasugi Sukeaki
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_izumo"
+		holder=12510064 # Sasaki Yoshikiyo
+	}
+	1227.1.1={
+		holder=12510250 # Sasaki Masayoshi
+	}
+	1250.1.1={
+		holder=12510251 # Sasaki Yasukiyo
+	}
+	1278.1.1={
+		holder=12601412 # Enya Yoriyasu
+	}
+	1294.1.1={
+		holder=12601611 # Enya Sadakiyo
+	}
+	1326.5.1={
+		liege="d_nmih_izumo"
+		holder=12601615 # Enya Takasada
+	}
+	1341.4.19={
+		liege="d_nmih_izumo"
+		holder=12186256 # Yamana Tokiuji
+	}
+	1343.8.1={
+		holder=10044203 # Kyogoku Takauji
+	}
+	1351.3.15={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1352.3.12={
+		holder=10044203 # Kyogoku Takauji
+	}
+	1368.1.1={
+		holder=10044205 # Kyogoku Takahide
+	}
+	1379.2.1={
+		holder=10050012 # Yamana Yoshiyuki
+	}
+	1381.4.1={
+		holder=10050014 # Yamana Mitsuyuki
+	}
+	1392.1.24={
+		holder=10044206 # Kyogoku Takanori
+	}
+	1401.10.14={
+		holder=10044207 # Kyogoku Takamitsu
+	}
+	1413.9.14={
+		holder=10044209 # Kyogoku Mochitaka
+	}
+	1428.1.1={
+		liege="d_nmih_izumo" # Kyogoku Takaakira
+		holder=10051504 # Amago Mochihisa
+	}
+	1437.3.31={
+		liege="d_nmih_izumo" # Kyogoku Takakazu
+		holder=10051503 # Amago Kiyosada
+	}
+	1479.1.1={
+		liege="d_nmih_izumo"
+		holder = 10051501 # Amago Tsunehisa
+	}
+	1524.1.1={
+		liege="k_nmih_sanin"
+	}
+	1541.11.30={
+		holder=10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		holder=10051525 # Amago Yoshihisa
+	}
+	1567.1.8={
+		liege="k_nmih_western_chugoku"
+		holder=10056004 # Mori Motonari
+	}
+	1567.2.1={
+		holder=10057961 # Amano Takashige
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+	}
+	1570.1.1={
+		holder=10056019 # Mori Motoaki
+	}
+	1585.5.31={
+		holder=10056022 # Mori Motoyasu
+	}
+	1591.1.1={
+		holder=10056246 # Kikkawa Hiroie
+	}
+	1603.3.24={
+		liege="d_nmih_izumo"
+		holder=10029642 # Horio Tadauji
+	}
+	1604.8.28={
+		holder=10029643 # Horio Tadaharu
+	}
+}

@@ -1,0 +1,177 @@
+c_nmih_ikaruga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ikaruga1={
+				set_title_name=b_nmih_ikaruga5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ikaruga1={
+				set_title_name=b_nmih_ikaruga5
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_ikaruga1={
+				set_title_name=b_nmih_ikaruga1
+			}
+		}
+	}
+	1565.1.1={
+		effect={
+			title:b_nmih_ikaruga1={
+				set_title_name=b_nmih_ikaruga4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+	1565.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_tanba"
+	}
+	1180.1.1={
+		liege="d_nmih_tanba"
+		holder=12480960 # Mononobe Masakiyo
+	}
+	1193.1.1={
+		liege="d_nmih_tanba"
+		holder=12481000 # Uehara Shigemasa
+	}
+	1220.1.1={
+		holder=12481001 # Uehara Shigenori
+	}
+	1250.1.1={
+		holder=12481005 # Uehara Shigetomo
+	}
+	1270.1.1={
+		holder=12481010 # Uehara Shigetomo
+	}
+	1290.1.1={
+		holder=12481015 # Uehara Shigefusa
+	}
+	1320.1.1={
+		holder=12481020 # Uehara Shigeie
+	}
+	1330.1.1={
+		holder=12481040 # Uehara Hidemoto
+	}
+	1333.7.4={
+		liege="d_nmih_tanba"
+	}
+	1370.1.1={
+		holder=12481045 # Uehara Norimoto
+	}
+	1390.1.1={
+		holder=12481050 # Uehara Naomoto
+	}
+	1420.1.1={
+		holder=12481055 # Uehara Shigenao
+	}
+	1440.1.1={
+		holder=12481060 # Uehara Shigetsugu
+	}
+	1446.3.24={
+		holder=12481065 # Uehara Sadaie
+	}
+	1467.6.26={
+		liege="d_nmih_tanba"
+		holder=10040750 # Uehara Kataie
+	}
+	1487.1.1={
+		holder=10040752 # Uehara Motohide
+	}
+	1493.12.26={
+		holder=10040750 # Uehara Kataie
+	}
+	1496.1.14={
+		holder=10042050 # Naito Motosada
+	}
+	1503.1.1={
+		holder=10042051 # Naito Sadamasa
+	}
+	1508.1.1={
+		liege="k_nmih_northern_kinai"
+	}
+	1508.7.18={
+		liege="d_nmih_tanba"
+	}
+	1525.6.23={
+		holder=10042052 # Naito Kunisada
+	}
+	1526.8.20={
+		liege="k_nmih_kanrei"
+	}
+	1527.3.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1536.9.14={
+		liege=0
+	}
+	1543.1.1={
+		liege="k_nmih_northern_kinai"
+	}
+	1548.10.28={
+		liege="k_nmih_southern_kinai"
+	}
+	1553.11.4={
+		liege="d_nmih_tanba"
+		holder=10040740 # Kozai Motoshige
+	}
+	1554.1.1={
+		liege="k_nmih_southern_kinai"
+		holder=10045402 # Naito Munekatsu
+	}
+	1557.1.1={
+		liege="d_nmih_tanba"
+	}
+	1565.1.1={
+		liege=0
+		holder=10042086 # Hatano Hideharu
+	}
+	1568.11.7={
+		liege="k_nmih_chubu"
+	}
+	1576.2.10={
+		liege="d_nmih_tanba"
+	}
+	1579.6.24={
+		liege="d_nmih_tanba"
+		holder=10025632 # Akechi Mitsuhide
+	}
+	1582.7.2={
+		liege="d_nmih_tanba"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.7.16={
+		holder=10029163 # Hashiba Hidekatsu
+	}
+	1586.1.29={
+		holder=10029412 # Toyotomi Hidekatsu(Kokichi)
+	}
+	1587.5.18={
+		liege="d_nmih_kii"
+		holder=10029401 # Hashiba Hidenaga
+	}
+	1589.1.1={
+		liege="d_nmih_tanba"
+		holder=10029466 # Hashiba Hidetoshi
+	}
+	1595.8.20={
+		holder=10025950 # Maeda Geni
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

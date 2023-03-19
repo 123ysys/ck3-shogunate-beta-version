@@ -1,0 +1,252 @@
+﻿namespace = shogunate_bookmark
+
+# Coalition against Oda Nobunaga
+shogunate_bookmark.2120 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Rivalry between Takeda Shingen and Oda Nobunaga (Balancing Purpose)
+
+		if = {
+			limit = {
+				game_start_date >= 1568.1.1									# Takeda allied with Oda
+				game_start_date <  1573.5.3									# Death of Takeda Shingen
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10020010											# Takeda Shingen
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# 1st Coalition against Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1570.1.1									# Start of 1st Coalition
+				game_start_date <  1571.1.1									# End of 1st Coalition
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10059018											# Miyoshi Nagaharu
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10044003											# Rokkaku Yoshikata
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Azai Nagamasa and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1570.6.14								# Start of Genki War
+				game_start_date <  1573.9.26								# Death of Azai Nagamasa
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10043015											# Azai Nagamasa
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_break_alliance_effect = {
+				CHAR1 = 10043015											# Azai Nagamasa
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Asakura Yoshikage and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1570.6.14								# Start of Genki War
+				game_start_date <  1573.9.16								# Death of Asakura Yoshikage
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10030011											# Asakura Yoshikage
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Suzuki Magoichi and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1570.10.11								# Start of Ishiyama War
+				game_start_date <  1580.9.10								# End of Ishiyama War
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10048550											# Suzuki Magoichi
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Hongan-ji Temple and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1570.10.11								# Start of Ishiyama War
+				game_start_date <  1580.9.10								# End of Ishiyama War
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10042210											# Honganji Kennyo
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Enryaku-ji Temple and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1570.10.15								# Siege of Shiga
+				game_start_date <  1571.9.30								# Siege of Mt. Hiei
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10041743											# Yamato Ouin
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# 2nd Coalition against Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1571.1.1									# Start of 2nd Coalition
+				game_start_date <  1574.1.1									# End of 2nd Coalition
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10059018											# Miyoshi Nagaharu
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10059014											# Miyoshi Yoshitsugu
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10045400											# Matsunaga Hisahide
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10044003											# Rokkaku Yoshikata
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Ashikaga Yoshiaki and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1572.9.1									# 17 Articles of Opinion
+				game_start_date <  1582.6.21								# Death of Oda Nobunaga
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10040042											# Ashikaga Yoshiaki
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Takeda Katsuyori and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1573.5.3									# Death of Takeda Shingen
+				game_start_date <  1582.4.3									# Death of Takeda Katsuyori
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10020033											# Takeda Katsuyori
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# 3rd Coalition against Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1576.1.1									# Start of 3rd Coalition
+				game_start_date <  1582.6.21								# Death of Oda Nobunaga
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10045400											# Matsunaga Hisahide
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10042086											# Hatano Hideharu
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10045700											# Araki Murashige
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10053568											# Bessho Nagaharu
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Uesugi Kenshin and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1576.1.1									# Start of 3rd Coalition
+				game_start_date <  1578.4.30								# Death of Uesugi Kenshin
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10032011											# Uesugi Kenshin
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Mori Terumoto and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1576.1.1									# Start of 3rd Coalition
+				game_start_date <  1582.6.21								# Death of Oda Nobunaga
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10056025											# Mori Terumoto
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Rivalry between Uesugi Kagekatsu and Oda Nobunaga
+
+		if = {
+			limit = {
+				game_start_date >= 1578.4.30								# Death of Uesugi Kenshin
+				game_start_date <  1582.6.21								# Death of Oda Nobunaga
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10032032											# Uesugi Kagekatsu
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+	}
+}

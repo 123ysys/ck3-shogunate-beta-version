@@ -1,0 +1,11 @@
+war = {
+	name = "war_1585_hida_campaign"
+	start_date = 1585.8.18
+	end_date = 1585.9.9
+	targeted_titles = {
+		d_nmih_hida
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10029400 } # Hashiba Hideyoshi
+	defenders = { 10025109 } # Anegakoji (Miki) Yoritsuna
+}

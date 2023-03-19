@@ -1,0 +1,274 @@
+c_nmih_kii = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kii1={
+				set_title_name=b_nmih_kii2
+			}
+		}
+	}
+	900.1.1={
+		effect={
+			title:b_nmih_kii1={
+				set_title_name=b_nmih_kii3
+			}
+		}
+	}
+	1478.1.1={
+		effect={
+			title:b_nmih_kii1={
+				set_title_name=b_nmih_kii2
+			}
+		}
+	}
+	1532.9.23={
+		effect={
+			title:b_nmih_kii1={
+				set_title_name=b_nmih_kii1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	900.1.1 = { change_development_level = 20 }
+	1053.1.1 = { change_development_level = 20 }
+	1336.2.1 = { change_development_level = 20 }
+	1478.1.1 = { change_development_level = 40 }
+	1532.9.23 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_yamashiro"
+	}
+	1180.6.15={
+		liege="k_nmih_yamashiro" # Prince Mochihito
+		holder=10041091 # Prince Mochihito
+	}
+	1180.6.20={ # Battle of Uji
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=10110034 # Taira Tadanori
+	}
+	1183.8.17={
+		liege="d_nmih_yamashiro"
+		holder=10120084 # Minamoto Yoshinaka. Taira's escape to the west
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_yamashiro"
+		holder=10120081 # Minamoto Yoshitsune
+	}
+	1185.11.26={
+		holder=10131650 # Hojo Tokimasa
+	}
+	1186.4.1={
+		holder=11006480 # Ichijo Yoshiyasu
+	}
+	1197.11.23={
+		holder=11006483 # Ichijo Takayoshi
+	}
+	1198.10.19={
+		holder=10230555 # Nakahara Chikayoshi
+	}
+	1203.10.13={
+		holder=12370013 # Hiraga Tomomasa
+	}
+	1205.9.16={
+		holder=10230556 # Nakahara Suetoki
+	}
+	1219.2.13={
+		holder=10130324 # Iga Mitsusue
+	}
+	1221.6.6={
+		holder=11005995 # Fujiwara Tomotoshi
+	}
+	1221.7.6={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1224.7.1={
+		holder=10131688 # Hojo Tokiuji
+	}
+	1230.7.29={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1240.1.1={
+		holder=12517400 # Saburi Chikakiyo
+	}
+	1270.2.18={
+		holder=10131878 # Hojo [Akahashi] Yoshimune
+	}
+	1277.9.16={
+		holder=10131747 # Hojo Tokimura
+	}
+	1287.9.22={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1293.4.14={
+		holder=10132044 # Hojo [Akahashi] Hisatoki
+	}
+	1297.7.8={
+		holder=10132163 # Hojo Munekata
+	}
+	1301.1.5={
+		holder=10132050 # Hojo [Fuonji] Mototoki
+	}
+	1303.11.29={
+		holder=10131881 # Hojo [Tokiwa] Tokinori
+	}
+	1307.9.11={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1315.8.11={
+		holder=10131921 # Hojo Tokiatsu
+	}
+	1320.7.8={
+		holder=10132047 # Hojo [Tokiwa] Norisada
+	}
+	1331.2.4={
+		holder=10132207 # Hojo [Fuonji] Nakatoki
+	}
+	1333.6.19={
+		liege="e_nmih_nancho"
+		holder=10041075 # Emperor Go-Daigo
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=11006363 # Bomon Kiyotada
+	}
+	1336.7.22={
+		liege="d_nmih_yamashiro"
+		holder=10048156 # Hatakeyama Tadamune
+	}
+	1349.10.21={
+		holder=10040002 # Ashikaga Yoshiakira
+	}
+	1351.8.23={
+		holder=10057610 # Shibukawa Tadayori
+	}
+	1356.8.13={
+		holder=10057611 # Shibukawa Yoshiyuki
+	}
+	1365.9.1={
+		holder=10040002 # Ashikaga Yoshiakira
+	}
+	1367.12.28={
+		holder=10040003 # Ashikaga Yoshimitsu
+	}
+	1408.5.31={
+		liege="e_nmih_japan"
+		holder=10040004 # Ashikaga Yoshimochi
+	}
+	1423.3.18={
+		holder=10040005 # Ashikaga Yoshikazu
+	}
+	1425.3.17={
+		holder=10040004 # Ashikaga Yoshimochi
+	}
+	1429.3.15={
+		holder=10040006 # Ashikaga Yoshinori
+	}
+	1441.7.12={
+		holder=10040007 # Ashikaga Yoshikatsu
+	}
+	1442.9.8={
+		liege="d_nmih_yamashiro"
+		holder=10044210 # Kyogoku Mochikiyo
+	}
+	1447.5.1={
+		holder=10049514 # Isshiki Norichika
+	}
+	1450.2.1={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12={
+		holder=10048115 # Hatakeyama Yoshinari
+	}
+	1460.9.1={
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1464.12.1={
+		holder=10050041 # Yamana Koretoyo
+	}
+	1467.6.27={ # Onin war
+		liege="k_nmih_kanrei"
+		holder = 10040543 # Hosokawa Katsumoto
+	}
+	1470.7.1={
+		liege="k_nmih_western_chugoku"
+		holder=10057007 # Ouchi Masahiro
+	}
+	1477.12.16={
+		liege="d_nmih_yamashiro"
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1478.1.1={
+		government = theocracy_government
+		liege="k_nmih_honganji"
+		holder=10042201 # Honganji Rennyo
+	}
+	1489.1.1={
+		holder=10042203 # Honganji Jitsunyo
+	}
+	1525.3.5={
+		holder=10042200 # Honganji Shonyo
+	}
+	1532.9.23={
+		government = feudal_government
+		liege="k_nmih_kanrei"
+		holder=10040911 # Takabatake Naganobu
+	}
+	1540.1.1={
+		holder=10040912 # Takabatake Naganao
+	}
+	1543.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10040554 # Hosokawa Ujitsuna
+	}
+	1548.10.28={
+		liege="k_nmih_southern_kinai"
+	}
+	1564.1.4={
+		holder=10059007 # Miyoshi Nagayoshi
+	}
+	1564.8.10={
+		liege="d_nmih_yamashiro"
+		holder=10059014 # Miyoshi Yoshitsugu
+	}
+	1565.6.17={
+		liege="d_nmih_yamashiro"
+		holder=10045220 # Iwanari Tomomichi
+	}
+	1568.10.19={
+		holder=10029120 # Oda Nobunaga
+	}
+	1568.11.7={
+		liege="e_nmih_japan"
+		holder=10040202 # Mitsubuchi Fujihide
+	}
+	1573.8.25={
+		liege="d_nmih_yamashiro"
+	}
+	1574.7.23={
+		holder=10029200 # Murai Sadakatsu
+	}
+	1582.6.21={
+		liege="d_nmih_yamashiro"
+		holder=10040113 # Ise Sadaoki
+	}
+	1582.7.2={
+		liege="d_nmih_yamashiro"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1598.9.18={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1600.7.16={
+		liege="k_nmih_western_kanto"
+		holder=10024952 # Torii Mototada
+	}
+	1600.9.8={
+		holder=10045820 # Ishida Mitsunari
+		liege="d_nmih_northern_omi"
+	}
+	1607.5.14={
+		liege="e_nmih_japan"
+		holder=10200705 # Matsudaira Sadakatsu
+	}
+}

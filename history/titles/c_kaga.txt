@@ -1,0 +1,158 @@
+c_nmih_kaga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kaga1={
+				set_title_name=b_nmih_kaga3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kaga1={
+				set_title_name=b_nmih_kaga9
+			}
+		}
+	}
+	1184.3.4={
+		effect={
+			title:b_nmih_kaga1={
+				set_title_name=b_nmih_kaga2
+			}
+		}
+	}
+	1442.1.1={
+		effect={
+			title:b_nmih_kaga1={
+				set_title_name=b_nmih_kaga6
+			}
+		}
+	}
+	1546.1.1={
+		effect={
+			title:b_nmih_kaga1={
+				set_title_name=b_nmih_kaga1
+			}
+		}
+	}
+	1587.1.1={
+		effect={
+			title:b_nmih_kaga1={
+				set_title_name=b_nmih_kaga4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1184.3.4 = { change_development_level = 30 }
+	1442.1.1 = { change_development_level = 30 }
+	1460.1.1 = { change_development_level = 30 }
+	1546.1.1 = { change_development_level = 40 }
+	1580.5.2 = { change_development_level = 50 }
+	1587.1.1 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_echizen"
+	}
+	0823.1.1={
+		liege="d_nmih_kaga"
+	}
+	1180.1.1={
+		liege="d_nmih_kaga"
+		holder=12300100 # Inoie Norikata
+	}
+	1183.6.1={
+		holder=12300110 # Inoie Morokata
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_kaga"
+		holder=10130716 # Hayashi Mitsuaki
+	}
+	1188.1.1={
+		holder=10130725 # Hayashi Mitsushige
+	}
+	1219.1.1={
+		holder=10130733 # Hayashi Ietsuna
+	}
+	1221.7.6={
+		holder=10130822 # Togashi Yasuie
+	}
+	1251.1.1={
+		holder=12310100 # Togashi Yasuharu
+	}
+	1256.1.1={
+		holder=12310110 # Togashi Iehisa
+	}
+	1280.1.1={
+		holder=12310120 # Togashi Yasuaki
+	}
+	1305.1.1={
+		holder=12310130 # Togashi Takaie
+	}
+	1351.1.1={
+		holder=12310140 # Togashi Ujiharu
+	}
+	1358.1.1={
+		holder=12310150 # Togashi Masaie
+	}
+	1387.4.1={
+		holder=12310160 # Togashi Akichika
+	}
+	1392.1.24={
+		holder=12310170 # Togashi Mitsuharu
+	}
+	1427.7.3={
+		holder=12310180 # Togashi Mochiharu
+	}
+	1433.8.24={
+		holder=12310181 # Togashi Noriie
+	}
+	1441.7.6={
+		liege="d_nmih_kawachi"
+		holder=12310181 # Togashi Noriie
+	}
+	1442.1.1={
+		government = theocracy_government
+		liege="k_nmih_honganji"
+		holder=10042216 # Honganji Nyojo
+	}
+	1460.2.18={
+		holder=10042214 # Honganji Renjo
+	}
+	1483.1.1={
+		holder=10042206 # Honsenji Rengo
+	}
+	1488.7.17={
+		liege="d_nmih_kaga"
+	}
+	1531.11.26={
+		holder=10042200 # Honganji Shonyo
+	}
+	1554.9.9={
+		holder=10042210 # Honganji Kennyo
+	}
+	1580.5.2={
+		government = feudal_government
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029280 # Shibata Katsuie
+	}
+	1580.12.7={
+		liege="d_nmih_kaga" # 29280 Shibata Katsuie
+		holder=10029514 # Sakuma Morimasa
+	}
+	1583.6.14={
+		liege="d_nmih_kaga"
+		holder=10029360 # Maeda Toshiie
+	}
+	1599.4.27={ 
+		holder=10029374 # Maeda Toshinaga
+	}
+	1603.3.24={
+		liege="d_nmih_kaga"
+		holder=10029374 # Maeda Toshinaga
+	}
+	1614.6.27={
+		holder=10029381 # Maeda Toshitsune
+	}
+}

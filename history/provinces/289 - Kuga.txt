@@ -1,0 +1,12 @@
+289 = {
+
+	culture = western_chugoku
+	religion = shinto
+	holding = castle_holding
+	1186.4.1={
+	}
+	1215.8.1={
+	}
+	1331.1.1={
+	}
+}

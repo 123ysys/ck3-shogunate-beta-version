@@ -1,0 +1,195 @@
+c_nmih_kodama = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kodama1={
+				set_title_name=b_nmih_kodama1
+			}
+		}
+	}
+	1150.1.1={
+		effect={
+			title:b_nmih_kodama1={
+				set_title_name=b_nmih_kodama9
+			}
+		}
+	}
+	1455.1.15={
+		effect={
+			title:b_nmih_kodama1={
+				set_title_name=B_NMIH_KODAMA9_1455
+			}
+		}
+	}
+	1477.2.10={
+		effect={
+			title:b_nmih_kodama1={
+				set_title_name=b_nmih_kodama1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1150.1.1 = { change_development_level = 20 }
+	1477.2.10 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1050.1.1={
+		holder=12208000 # Kodama Koreyuki
+	}
+	1069.8.26={
+		holder=12208001 # Kodama Hiroyuki
+	}
+	1100.1.1={
+		holder=12208005 # Kodama Ieyuki
+	}
+	1135.1.1={
+		holder=12208010 # Kodama Iehiro
+	}
+	1170.1.1={
+		holder=12208020 # Sho Ienaga
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.10.26={
+		liege="d_nmih_northern_musashi" # served under Yoritomo
+	}
+	1200.1.1={
+		holder=12208032 # Honjo Tokiie
+	}
+	1203.10.8={
+		liege="d_nmih_musashi"
+	}
+	1255.1.1={
+		holder=12208100 # Honjo Iefusa
+	}
+	1270.1.1={
+		holder=12208105 # Honjo Yasufusa
+	}
+	1300.1.1={
+		holder=12208110 # Honjo Kunifusa
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+		holder=12208110 # Honjo Kunifusa
+	}
+	1335.8.14={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.9.6={
+		liege="d_nmih_musashi"
+		holder=12208110 # Honjo Kunifusa
+	}
+	1340.1.1={
+		holder=12139568 # Kou Shigemochi
+	}
+	1341.5.1={
+		holder=12139551 # Kou Morofuyu
+	}
+	1346.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1352.3.12={
+		liege="d_nmih_nitta"
+		holder=12185045 # Nitta Yoshimune
+	}
+	1352.4.26={
+		liege="d_nmih_musashi"
+		holder=12396020 # Nikki Yoriaki
+	}
+	1352.12.1={
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1361.11.1={
+		holder=12200175 # Kawagoe Tadashige
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1378.5.14={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1409.9.1={
+		holder=10017048 # Uesugi Ujinori
+	}
+	1417.1.27={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1418.2.9={
+		liege="d_nmih_musashi"
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		liege="d_nmih_musashi"
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1466.2.26={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017024 # Uesugi Akisada
+	}
+	1477.2.10={
+		liege=0 # Nagao Kageharu's rebellion
+		holder=10017324 # Nagao Kageharu
+	}
+	1480.6.1={
+		liege="k_nmih_kanto_kanrei" # End of Nagao Kageharu's rebellion
+		holder=10017024 # Uesugi Akisada
+	}
+	1510.7.25={
+		holder=10040060 # Uesugi Akizane
+	}
+	1515.1.1={
+		holder=10017026 # Uesugi Norifusa
+	}
+	1525.4.7={
+		holder=10017027 # Uesugi Norihiro
+	}
+	1531.1.1={
+		holder=10017000 # Uesugi Norimasa
+	}
+	1546.5.19={
+		liege="d_nmih_musashi"
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1560.1.1={
+		holder=10016016 # Hojo Ujikuni
+	}
+	1590.7.25={
+		holder=10021465 # Ogasawara Nobumine
+	}
+	1598.3.26={
+		holder=10024262 # Ogasawara(Sakai) Nobuyuki
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

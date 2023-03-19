@@ -1,0 +1,16 @@
+k_nmih_seisei_shogun = {
+	100.1.1={
+	}
+	1342.1.1={
+		liege = "e_nmih_nancho"
+		holder=10041908 # Prince Kaneyoshi
+	}
+	1374.1.1={
+		holder=10041924 # Prince Yoshinari
+	}
+	1392.11.12={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+}

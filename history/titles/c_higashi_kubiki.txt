@@ -1,0 +1,149 @@
+c_nmih_higashi_kubiki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_higashi_kubiki1={
+				set_title_name=b_nmih_higashi_kubiki2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_higashi_kubiki1={
+				set_title_name=b_nmih_higashi_kubiki9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_higashi_kubiki1={
+				set_title_name=b_nmih_higashi_kubiki1
+			}
+		}
+	}
+	1607.1.1={
+		effect={
+			title:b_nmih_higashi_kubiki1={
+				set_title_name=b_nmih_higashi_kubiki6
+			}
+		}
+	}
+	1614.1.1={
+		effect={
+			title:b_nmih_higashi_kubiki1={
+				set_title_name=b_nmih_higashi_kubiki5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+	1410.1.1 = { change_development_level = 30 }
+	1607.1.1 = { change_development_level = 30 }
+	1614.1.1 = { change_development_level = 30 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12270130 # Jo Sukenaga
+	}
+	1181.3.11={
+		holder=12270131 # Jo Nagamochi
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="d_nmih_echigo"
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1183.8.17={
+		holder=12380110 # Higuchi Kanemitsu
+	}
+	1184.3.4={
+		liege="d_nmih_echigo"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1221.6.6={
+		liege="d_nmih_echigo"
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo [Nagoe] Mitsutoki
+	}
+	1246.7.22={
+		holder=10131697 # Hojo [Nagoe] Tokiaki
+	}
+	1272.3.11={
+		holder=10131840 # Hojo [Nagoe] Kimitoki
+	}
+	1296.2.10={
+		holder=10132014 # Hojo [Nagoe] Tokiie
+	}
+	1310.1.1={
+		holder=10132288 # Hojo [Nagoe] Takaie
+	}
+	1320.1.1={
+		liege="d_nmih_echigo"
+		holder=12388854 # Kazama Nobuaki
+	}
+	1338.8.17={
+		liege="e_nmih_nancho"
+	}
+	1338.9.1={
+		liege="k_nmih_seito_shogun"
+	}
+	1354.1.1={
+		liege="d_nmih_echigo"
+		holder=12388856 # Kazama Nagayori
+	}
+	1360.1.1={
+		liege="d_nmih_uesugi"
+		holder=10032003 # Nagao Takakage
+	}
+	1363.3.1={
+		liege="d_nmih_echigo"
+	}
+	1389.3.26={
+		holder=10032004 # Nagao Kunikage
+	}
+	1450.12.16={
+		holder=10032006 # Nagao Yorikage
+	}
+	1469.10.6={
+		holder=10032007 # Nagao Shigekage
+	}
+	1482.3.14={
+		holder=10032008 # Nagao Yoshikage
+	}
+	1506.10.5={
+		holder=10032000 # Nagao Tamekage
+	}
+	1543.1.29={
+		holder=10032009 # Nagao Harukage
+	}
+	1548.12.30={
+		holder=10032011 # Uesugi Kenshin
+	}
+	1578.4.19={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1598.3.1={
+		holder=10025964 # Hori Hideharu
+	}
+	1603.3.24={
+		liege="d_nmih_echigo"
+	}
+	1608.4.11={
+		holder=10025967 # Hori Naokiyo
+	}
+	1610.3.16={
+		holder=10024035 # Matsudaira Tadateru
+	}
+}

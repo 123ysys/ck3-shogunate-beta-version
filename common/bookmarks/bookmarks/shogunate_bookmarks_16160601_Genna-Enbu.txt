@@ -1,0 +1,5 @@
+﻿bm_hidden1616 = {
+	start_date = 1616.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}

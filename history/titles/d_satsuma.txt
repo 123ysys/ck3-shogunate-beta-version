@@ -1,0 +1,132 @@
+d_nmih_satsuma = {
+	0010.1.1={
+	}
+	20.1.1={
+		holder=10290300 # Sori
+	}
+	70.1.1={
+		holder=10290301 # Kibe
+	}
+	100.1.1={
+		holder=10290302 # Toki
+	}
+	150.1.1={
+		holder=10290307 # Ishikori
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12810512 # Taira Nobuzumi
+	}
+	1183.8.17={
+		liege = 0
+		liege = "k_nmih_western_chugoku"
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege = 0
+		holder=10120381 # Minamoto Yoshizane
+	}
+	1186.1.1={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1227.8.1={
+		holder=10060034 # Shimazu Tadatoki
+	}
+	1265.1.1={
+		holder=10060033 # Shimazu Hisatsune
+	}
+	1284.5.7={
+		holder=10060032 # Shimazu Tadamune
+	}
+	1325.12.17={
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1333.6.17={
+		liege = 0
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1363.8.12={
+		holder=10060081 # Shimazu Morohisa
+	}
+	1376.1.1={
+		liege = 0
+	}
+	1376.4.10={
+		holder=10060082 # Shimazu Korehisa
+	}
+	1382.1.1={
+		liege = "e_nmih_japan"
+	}
+	1393.1.1={
+		holder=10060030 # Shimazu Motohisa
+	}
+	1411.8.25={
+		holder=10060004 # Shimazu Hisatoyo
+	}
+	1425.2.9={
+		liege = 0
+		holder=10060005 # Shimazu Tadakuni
+	}
+	1441.4.4={
+		liege=0
+	}
+	1459.10.1={
+		holder=10060008 # Shimazu Tatsuhisa
+	}
+	1474.4.26={
+		holder=10060011 # Shimazu Tadamasa
+	}
+	1508.3.16={
+		holder=10060012 # Shimazu Tadaharu
+	}
+	1515.10.2={
+		holder=10060013 # Shimazu Tadataka
+	}
+	1519.5.12={
+		holder=10060002 # Shimazu Katsuhisa
+	}
+	1527.4.1={
+		holder=10060000 # Shimazu Takahisa
+	}
+	1527.6.1={
+		holder=10060002 # Shimazu Katsuhisa
+	}
+	1539.1.1={
+		holder=10060000 # Shimazu Takahisa
+	}
+	1566.1.1={
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1578.12.10={
+		liege="k_nmih_southern_kyushu"
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10060045 # Shimazu Yoshihiro
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10060050 # Shimazu Iehisa(Tadatsune)
+	}
+}

@@ -1,0 +1,135 @@
+c_nmih_mikata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mikata1={
+				set_title_name=b_nmih_mikata9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mikata1={
+				set_title_name=b_nmih_mikata9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_mikata1={
+				set_title_name=b_nmih_mikata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_wakasa"
+	}
+	1180.1.1={
+		liege=0
+		holder=12480100 # Inaba Tokisada
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_wakasa"
+	}
+	1196.8.1={
+		liege="d_nmih_wakasa"
+		holder=12480800 # Wakasa Tadasue
+	}
+	1221.6.6={
+		liege="d_nmih_wakasa"
+		holder=11000156 # Matsudono Motofusa
+	}
+	1221.7.6={
+		liege="d_nmih_wakasa"
+		holder=12480801 # Wakasa Tadakiyo
+	}
+	1285.1.1={
+		holder=12480805 # Wakasa Tadakane
+	}
+	1333.7.4={
+		liege=0
+		holder=12480810 # Wakasa Suekane
+	}
+	1336.1.1={
+		liege="d_nmih_wakasa"
+	}
+	1336.7.22={
+		liege="d_nmih_wakasa"
+		holder=12480413 # Hongo Sadayasu
+	}
+	1340.1.1={
+		holder=12480815 # Wakasa Mitsutada
+	}
+	1360.1.1={
+		holder=10040599 # Hosokawa Kiyouji
+	}
+	1361.10.1={
+		holder=12139052 # Ishibashi Kazuyoshi
+	}
+	1363.8.1={
+		holder=10029010 # Shiba Yoshitane
+	}
+	1366.9.13={
+		holder=10049505 # Isshiki Norimitsu
+	}
+	1388.3.4={
+		holder=10049507 # Isshiki Akinori
+	}
+	1406.1.1={
+		holder=12480825 # Mikata Noritada
+	}
+	1436.1.1={
+		holder=12480826 # Mikata Tadaharu
+	}
+	1440.6.14={
+		liege="d_nmih_wakasa"
+		holder=10042001 # Takeda Nobuhide
+	}
+	1440.6.15={
+		holder=10042029 # Awaya Shigemori
+	}
+	1460.1.1={
+		holder=10042034 # Awaya Kataie
+	}
+	1490.1.1={
+		holder=10042038 # Awaya Chikahide
+	}
+	1507.1.1={
+		holder=10042039 # Awaya Katsuharu
+	}
+	1535.1.1={
+		liege="d_nmih_wakasa"
+		holder=10042030 # Awaya Katsuhisa
+	}
+	1568.6.1={
+		liege=0 # 
+	}
+	1570.1.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1573.9.16={
+		liege="d_nmih_wakasa" # 29310 Niwa Nagahide
+	}
+	1585.5.15={
+		holder=10029313 # Niwa Nagashige
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10294390 # Asano Nagamasa
+	}
+	1594.1.1={
+		holder=10029462 # Kinoshita Katsutoshi
+	}
+	1603.3.24={
+		liege="d_nmih_wakasa"
+		holder=10044219 # Kyogoku Takatsugu
+	}
+	1609.6.4={
+		holder=10044225 # Kyogoku Tadataka
+	}
+}

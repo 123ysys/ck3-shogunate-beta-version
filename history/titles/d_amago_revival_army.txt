@@ -1,0 +1,13 @@
+d_nmih_amago_revival_army = {
+	1.1.1={
+	}
+	1568.6.1={
+		holder=10051516 #Amago Katsuhisa
+	}
+	1577.10.1={
+		liege=e_nmih_japan # Oda Nobunaga
+	}
+	1578.8.6={
+		holder=0
+	}
+}

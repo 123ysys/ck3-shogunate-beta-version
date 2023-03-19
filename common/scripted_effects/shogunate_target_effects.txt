@@ -1,0 +1,50 @@
+﻿# Target control system
+
+shogunate_add_target_effect = {
+
+	if = {
+		limit = {
+			exists = $TARGET$
+			$TARGET$ = { is_alive = yes }
+			$TARGET$ = { is_landed = yes }
+		}
+
+		add_to_global_variable_list = {
+			name = shogunate_target_$LIST$
+			target = $TARGET$
+		}
+	}
+
+}
+
+shogunate_remove_target_effect = {
+
+	if = {
+		limit = {
+			exists = $TARGET$
+			has_global_variable_list = shogunate_target_$LIST$
+			is_target_in_global_variable_list = {
+				name = shogunate_target_$LIST$
+				target = $TARGET$
+			}
+		}
+
+		remove_list_global_variable = {
+			name = shogunate_target_$LIST$
+			target = $TARGET$
+		}
+	}
+
+}
+
+shogunate_clear_target_effect = {
+
+	if = {
+		limit = {
+			has_global_variable_list = shogunate_target_$LIST$
+		}
+
+		clear_global_variable_list = shogunate_target_$LIST$
+	}
+
+}

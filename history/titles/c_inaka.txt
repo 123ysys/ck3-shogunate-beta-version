@@ -1,0 +1,118 @@
+c_nmih_inaka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_inaka1={
+				set_title_name=b_nmih_inaka1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_inaka1={
+				set_title_name=b_nmih_inaka9
+			}
+		}
+	}
+	1443.1.1={
+		effect={
+			title:b_nmih_inaka1={
+				set_title_name=b_nmih_inaka1
+			}
+		}
+	}
+	1603.1.1={
+		effect={
+			title:b_nmih_inaka1={
+				set_title_name=b_nmih_inaka2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1157.4.29 = { change_development_level = 30 }
+	1443.1.1 = { change_development_level = 30 }
+	1603.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1157.4.29={
+		liege="d_nmih_tsugaru"
+		holder=12030021 # Fujiwara [Tosa] Hidehisa
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+	}
+	1189.11.15={
+		liege="d_nmih_mutsu"
+	}
+	1192.1.1={
+		holder=12030100 # Fujiwara [Tosa] Hidemoto
+	}
+	1222.1.1={
+		holder=12030122 # Fujiwara [Tosa] Hidenao
+	}
+	1229.1.1={
+		liege="d_nmih_shimokuni" # Ando defeated Tosa=Fujiwara
+		holder=12030230 # Ando Chikahide
+	}
+	1230.1.1={
+		holder=12030234 # Ando Goro
+	}
+	1260.1.1={
+		holder=12030250 # Ando Goro
+	}
+	1285.1.1={
+		holder=12030271 # Ando Motochika
+	}
+	1315.1.1={
+		holder=12030290 # Ando Munesue
+	}
+	1330.1.1={
+		holder=12030300 # Ando Morosue
+	}
+	1355.1.1={
+		holder=10000113 # Ando Norisue
+	}
+	1400.1.1={
+		liege="k_nmih_wajinchi"
+		holder=10000116 # Ando Morisue
+	}
+	1414.2.20={
+		holder=10000115 # Ando Yasusue
+	}
+	1441.7.12={
+		holder=10000114 # Ando Yoshisue
+	}
+	1443.1.1={
+		liege=0
+		holder=10004007 # Namioka Akikuni
+	}
+	1450.1.1={
+		holder=10004006 # Namioka Akiyoshi
+	}
+	1492.1.1={
+		holder=10004005 # Namioka Akitomo
+	}
+	1522.1.1={
+		holder=10004001 # Namioka Tomonaga
+	}
+	1541.1.1={
+		holder=10004002 # Namioka Tomomune
+	}
+	1555.6.13={
+		holder=10004003 # Namioka Tomokazu
+	}
+	1562.2.26={
+		holder=10004010 # Namioka Akimura
+	}
+	1578.8.23={
+		holder=10003165 # Oura Tamenobu
+	}
+	1608.1.22={
+		liege="d_nmih_tsugaru"
+		holder=10003352 # Tsugaru Nobuhira
+	}
+
+}

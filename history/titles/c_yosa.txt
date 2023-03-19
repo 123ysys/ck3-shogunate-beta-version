@@ -1,0 +1,149 @@
+c_nmih_yosa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yosa1={
+				set_title_name=b_nmih_yosa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yosa1={
+				set_title_name=b_nmih_yosa2
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_yosa1={
+				set_title_name=b_nmih_yosa1
+			}
+		}
+	}
+	1580.7.1={
+		effect={
+			title:b_nmih_yosa1={
+				set_title_name=b_nmih_yosa2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+	1580.7.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_tango"
+	}
+	1180.1.1={
+		liege="d_nmih_tango"
+		holder=12480900 # Yano Yorishige
+	}
+	1183.8.17={
+		liege="k_nmih_western_chugoku" # Taira's escape to the west
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_tango"
+		holder=10041681 # Yamato Akiko
+	}
+	1198.2.18={
+		holder=11006895 # Fujiwara Norimitsu
+	}
+	1213.4.27={
+		holder=11006898 # Fujiwara Noritomo
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_tango"
+		holder=12150131 # Sakai Tsunehide
+	}
+	1240.1.1={
+		holder=12151200 # Sakai Hidetane
+	}
+	1247.7.10={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.8.1={
+		holder=12221016 # Nagai Yasushige
+	}
+	1278.1.1={
+		liege="d_nmih_tango"
+		holder=12480920 # Hioki Sueyuki
+	}
+	1290.1.1={
+		holder=12480921 # Hioki Suetsuna
+	}
+	1320.1.1={
+		holder=12480922 # Hioki Suenao
+	}
+	1330.1.1={
+		holder=12480923 # Hioki Suekiyo
+	}
+	1350.1.1={
+		holder=12480924 # Hioki Yoshihisa
+	}
+	1363.9.1={
+		liege="d_nmih_tango"
+		holder=10050007 # Yamana Moroyoshi
+	}
+	1376.3.31={
+		holder=10050012 # Yamana Yoshiyuki
+	}
+	1381.4.1={
+		holder=10050014 # Yamana Mitsuyuki
+	}
+	1392.1.24={
+		holder=12480940 # Ishikawa Nagasada
+	}
+	1413.1.1={
+		holder=12480825 # Mikata Noritada
+	}
+	1429.1.1={
+		liege="d_nmih_tango"
+		holder=10049570 # Nobunaga Masunobu
+	}
+	1441.1.1={
+		holder=10049571 # Nobunaga Naonobu
+	}
+	1480.1.1={
+		holder=10049572 # Nobunaga Harunobu
+	}
+	1512.8.30={
+		liege=0
+	}
+	1517.8.1={
+		liege="d_nmih_tango"
+		holder=10049521 # Isshiki Yoshikiyo
+	}
+	1519.1.1={
+		holder=10049500 # Isshiki Yoshiyuki
+	}
+	1524.1.1={
+		holder=10049580 # Inadome Sukehide
+	}
+	1567.1.1={
+		holder=10049581 # Inadome Sukehide
+	}
+	1570.1.1={
+		holder=10049582 # Inadome Sukenao
+	}
+	1580.1.1={
+		holder=10049527 # Isshiki Yoshisada
+	}
+	1580.7.1={
+		liege="e_nmih_japan"
+		holder=10040203 # Hosokawa Fujitaka(Yusai)
+	}
+	1582.6.21={
+		liege=0
+		holder=10040220 # Hosokawa Tadaoki
+	}
+	1582.7.2={
+		liege="d_nmih_tango"
+	}
+	1603.3.24={
+		holder=10044221 # Kyogoku Takatomo
+	}
+
+}

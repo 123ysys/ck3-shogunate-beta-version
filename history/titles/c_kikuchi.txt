@@ -1,0 +1,186 @@
+c_nmih_kikuchi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kikuchi1={
+				set_title_name=b_nmih_kikuchi1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kikuchi1={
+				set_title_name=b_nmih_kikuchi1
+			}
+		}
+	}
+	1346.1.1={
+		effect={
+			title:b_nmih_kikuchi1={
+				set_title_name=B_NMIH_KIKUCHI1_1346
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1180.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi a.k.a Kukuchihiko
+	}
+	250.1.1={
+		holder=10041353 # Takemorokumi
+	}
+	290.1.1={
+		holder=10041357 # Takekunitake
+	}
+	330.1.1={
+		holder=10041358 # Takeoshihiko
+	}
+	350.1.1={
+		holder=10041359 # Takekawana
+	}
+	390.1.1={
+		holder=10041360 # Takekuwae
+	}
+	1050.1.1={
+		holder=12780600 # Kikuchi Masanori
+	}
+	1064.10.5={
+		holder=12780605 # Kikuchi Noritaka
+	}
+	1101.1.1={
+		holder=12780610 # Kikuchi Tsunetaka
+	}
+	1105.1.1={
+		holder=12780620 # Kikuchi Tsuneyori
+	}
+	1123.1.1={
+		holder=12780630 # Kikuchi Tsunemune
+	}
+	1145.1.1={
+		holder=12780640 # Kikuchi Tsunenao
+	}
+	1170.1.1={
+		liege="d_nmih_higo"
+		holder=12780645 # Kikuchi Takanao
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_higo"
+		holder=12780651 # Kikuchi Takasada
+	}
+	1221.6.6={
+		holder=12780670 # Kikuchi Yoshitaka
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_northern_higo"
+		holder=12780670 # Kikuchi Yoshitaka
+	}
+	1258.9.8={
+		holder=12780675 # Kikuchi Takayasu
+	}
+	1274.1.1={
+		holder=12780680 # Kikuchi Takefusa
+	}
+	1285.5.2={
+		holder=12780685 # Kikuchi Takamori
+	}
+	1293.1.1={
+		holder=12780690 # Kikuchi Tokitaka
+	}
+	1304.10.12={
+		holder=10066032 # Kikuchi Taketoki
+	}
+	1333.4.27={
+		holder=10066023 # Kikuchi Shigetoki
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+		holder=10066023 # Kikuchi Takeshige
+	}
+	1338.1.1={
+		holder=10066024 # Kikuchi Takehito
+	}
+	1343.1.1={
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1348.1.1={
+		liege="k_nmih_seisei_shogun"
+		holder=10041908 # Prince Kaneyoshi
+	}
+	1374.1.1={
+		holder=10041924 # Prince Yoshinari
+	}
+	1392.11.12={
+		liege="d_nmih_higo"
+		holder=10066020 # Kikuchi Taketomo
+	}
+	1407.4.25={
+		holder=10066019 # Kikuchi Kanetomo
+	}
+	1431.1.1={
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1446.8.20={
+		holder=10066006 # Kikuchi Tamekuni
+	}
+	1466.1.1={
+		holder=10066005 # Kikuchi Shigetomo
+	}
+	1493.12.7={
+		holder=10066004 # Kikuchi Yoshiyuki
+	}
+	1504.3.1={
+		holder=10066003 # Kikuchi Masataka
+	}
+	1507.1.1={
+		holder=10066203 # Kikuchi Taketsune(Aso Korenaga)
+	}
+	1511.1.1={
+		holder=10066001 # Kikuchi Takekane
+	}
+	1520.1.1={
+		liege="d_nmih_higo"
+		holder=12800337 # Akahoshi Shigetaka
+	}
+	1530.1.1={
+		holder=12800340 # Akahoshi Chikaie
+	}
+	1534.1.1={
+		liege="d_nmih_bungo"
+	}
+	1560.1.1={
+		holder=12800343 # Akahoshi Muneie
+	}
+	1581.1.1={
+		liege="d_nmih_hizen"
+		holder=12800406 # Kumabe Chikanaga
+	}
+	1584.9.17={
+		liege="d_nmih_satsuma"
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1587.7.25={
+		liege=0
+	}
+	1588.6.20={
+		liege="d_nmih_higo"
+		holder=10029350 # Sassa Narimasa
+	}
+	1588.7.7={
+		liege="d_nmih_northern_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1603.3.24={
+		liege="d_nmih_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1611.8.2={
+		holder=10029712 # Kato Tadahiro
+	}
+}

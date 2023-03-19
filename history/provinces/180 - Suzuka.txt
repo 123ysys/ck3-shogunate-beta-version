@@ -1,0 +1,10 @@
+180 = {
+
+	culture = western_chubu
+	religion = shinto
+	holding = castle_holding
+	0701.1.1={# Taiho Code
+	}
+	1265.1.1={
+	}
+}

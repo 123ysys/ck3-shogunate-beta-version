@@ -1,0 +1,18 @@
+war = {
+	name = "war_1370_reconquest_of_kyushu"
+	start_date = 1370.1.1
+	end_date = 1372.2.1
+	targeted_titles = {
+		k_nmih_seisei_shogun d_nmih_chikugo c_nmih_kikuchi c_nmih_mii c_nmih_mikasa
+	}
+	casus_belli = event_claim_cb
+	claimant = 12395221 # Imagawa Ryoshun
+	attackers = {
+		12395221	# Imagawa Ryoshun
+		10057014	# Ouchi Hiroyo
+		10068015	# Shoni Fuyusuke
+	}
+	defenders = {
+		10041908	# Prince Kaneyoshi
+	}
+}

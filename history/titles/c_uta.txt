@@ -1,0 +1,131 @@
+c_nmih_uta = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_uta1={
+				set_title_name=b_nmih_uta1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_uta1={
+				set_title_name=b_nmih_uta2
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_uta1={
+				set_title_name=b_nmih_uta1
+			}
+		}
+	}
+	1611.1.1={
+		effect={
+			title:b_nmih_uta1={
+				set_title_name=b_nmih_uta2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 30 }
+	1611.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1180.1.1={
+		liege="d_nmih_iwaki"
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_shimousa"
+		holder=12150124 # Soma[Chiba] Morotsune
+	}
+	1205.1.1={
+		holder=12150800 # Soma Yoshitane
+	}
+	1238.1.1={
+		holder=12150810 # Soma Tanetsuna
+	}
+	1278.1.1={
+		holder=12150820 # Soma Tanemura
+	}
+	1298.1.1={
+		holder=12150830 # Soma Morotane
+	}
+	1318.1.1={
+		holder=10006711
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1335.1.1={
+		holder=10006710 # Soma Chikatane
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1358.1.1={
+		holder=10006709 # Soma Taneyori
+	}
+	1392.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1414.1.1={
+		holder=10006707 # Soma Tanehiro
+	}
+	1415.6.8={
+		liege=0
+	}
+	1430.1.1={
+		holder=10006706 # Soma Shigetane
+	}
+	1440.1.1={
+		holder=10006705 # Soma Takatane
+	}
+	1492.7.5={
+		holder=10006703
+	}
+	1521.7.5={
+		holder=10006701
+	}
+	1542.6.1={
+		liege="d_nmih_iwaki" # Tenbun War
+	}
+	1548.9.1={
+		liege=0
+	}
+	1549.3.1={
+		holder=10006702 # Soma Moritane
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10006719 # Soma Yoshitane
+	}
+	1612.4.1={
+		holder=10006723 # Soma Toshitane
+	}
+}

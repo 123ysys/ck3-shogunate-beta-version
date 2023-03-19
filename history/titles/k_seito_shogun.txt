@@ -1,0 +1,13 @@
+k_nmih_seito_shogun = {
+	100.1.1={
+	}
+	1338.9.1={
+		liege="e_nmih_nancho"
+		holder=10041903 # Prince Muneyoshi
+	}
+	1374.1.1={
+		liege=0
+		holder=0 # 
+	}
+
+}

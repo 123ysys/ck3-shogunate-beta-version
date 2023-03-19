@@ -1,0 +1,369 @@
+﻿ShogunateArtifactWeaponName = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		trigger = {	exists = scope:owner }
+		localization_key = shogunate_artifact_weapon_name_owner_name
+	}
+	text = {
+		trigger = {
+			exists = scope:inspiration_owner
+			trigger_if = {
+				limit = { exists = scope:inspiration }
+				NOT = { scope:inspiration = { has_inspiration_type = adventure_inspiration } }
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_inspiration_owner_name
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			exists = scope:owner.capital_province
+			trigger_if = {
+				limit = { exists = scope:inspiration }
+				NOT = { scope:inspiration = { has_inspiration_type = adventure_inspiration } }
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_owner_location
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality < 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = sword
+					artifact_type = dagger
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_sword_dagger_1
+		fallback = yes
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = sword
+					artifact_type = dagger
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_sword_dagger_2
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = sword
+					artifact_type = dagger
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_sword_dagger_3
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = sword
+					artifact_type = dagger
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_sword_dagger_4
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality < 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = axe
+					artifact_type = hammer
+					artifact_type = mace
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_axe_hammer_mace_1
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = axe
+					artifact_type = hammer
+					artifact_type = mace
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_axe_hammer_mace_2
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = axe
+					artifact_type = hammer
+					artifact_type = mace
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_axe_hammer_mace_3
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				OR = {
+					artifact_type = axe
+					artifact_type = hammer
+					artifact_type = mace
+				}
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_axe_hammer_mace_4
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality < 40
+			scope:newly_created_artifact = {
+				artifact_type = spear
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_spear_1
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				artifact_type = spear
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_spear_2
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				artifact_type = spear
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_spear_3
+	}
+	text = {
+		trigger = {
+			exists = scope:owner
+			NOT = { exists = scope:owner.capital_province }
+			exists = scope:quality
+			exists = scope:newly_created_artifact
+			scope:quality >= 40
+			scope:newly_created_artifact = {
+				artifact_type = spear
+			}
+		}
+		localization_key = shogunate_artifact_weapon_name_spear_4
+	}
+}
+
+ShogunateArtifactWeaponNamePostfix = {
+	type = character
+
+	random_valid = yes
+
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_maru
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_go
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+	}
+	text = {
+		localization_key = shogunate_artifact_weapon_name_postfix_default
+		fallback = yes
+	}
+
+}
+
+ShogunateArtifactInspirationOwnerNamePostfix = {
+	type = character
+
+	first_valid = yes
+
+	text = {
+		trigger = {
+			exists = scope:inspiration_owner
+			trigger_if = {
+				limit = { exists = scope:inspiration }
+				NOT = { scope:inspiration = { has_inspiration_type = adventure_inspiration } }
+			}
+		}
+		localization_key = shogunate_artifact_name_prefix_inspiration_owner_name_made_by
+	}
+	text = {
+		localization_key = shogunate_artifact_name_prefix_inspiration_owner_name_default
+		fallback = yes
+	}
+}
+
+ShogunateRandomWeaponTitle = {	#artifact.4010 - expanding a weapon's name through battles won
+	type = artifact
+
+	random_valid = yes
+
+	text = {
+		trigger = {
+			OR = {
+				artifact_type = sword
+				artifact_type = dagger
+			}
+		}
+		localization_key = shogunate_artifact_title_meito
+	}
+	text = {
+		trigger = {
+			OR = {
+				artifact_type = sword
+				artifact_type = dagger
+			}
+		}
+		localization_key = shogunate_artifact_title_meibutu
+	}
+	text = {
+		trigger = {
+			OR = {
+				artifact_type = sword
+				artifact_type = dagger
+			}
+		}
+		localization_key = shogunate_artifact_title_wazamono
+	}
+	text = {
+		trigger = {
+			OR = {
+				artifact_type = sword
+				artifact_type = dagger
+			}
+		}
+		localization_key = shogunate_artifact_title_yoto
+	}
+	text = {
+		trigger = {
+			OR = {
+				artifact_type = spear
+			}
+		}
+		localization_key = shogunate_artifact_title_meiso
+	}
+	text = {
+		trigger = {
+			OR = {
+				artifact_type = axe
+			}
+		}
+		localization_key = shogunate_artifact_title_omasakari
+	}
+	text = {
+		trigger = {
+			OR = {
+				artifact_type = hammer
+				artifact_type = mace
+			}
+		}
+		localization_key = shogunate_artifact_title_otsuchi
+	}
+}
+
+ShogunateRandomArmorTitle = {	#artifact.4020 - expanding an armor's name through battles won
+	type = artifact
+
+	random_valid = yes
+
+	text = {
+		localization_key = shogunate_artifact_title_soden
+	}
+	text = {
+		localization_key = shogunate_artifact_title_denrai
+	}
+	text = {
+		localization_key = shogunate_artifact_title_denka
+	}
+	text = {
+		localization_key = shogunate_artifact_title_kaden
+	}
+	text = {
+		localization_key = shogunate_artifact_title_kaho
+	}
+	text = {
+		localization_key = shogunate_artifact_title_juho
+	}
+}

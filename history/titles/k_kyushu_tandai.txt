@@ -1,0 +1,59 @@
+k_nmih_kyushu_tandai = {
+	1000.1.1={
+	}
+	1336.7.22={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10049503 # Isshiki Noriuji
+	}
+	1346.8.1={
+		holder=10049504 # Isshiki Naouji
+	}
+	1358.1.1={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+	1361.10.1={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10029007 # Shiba Ujitsune
+	}
+	1365.1.1={
+		holder=10057611 # Shibukawa Yoshiyuki
+	}
+	1370.1.1={
+		holder=12395221 # Imagawa Sadayo
+	}
+	1395.8.1={
+		holder=10057612 # Shibukawa Mitsuyori
+	}
+	1419.1.1={
+		liege = 0
+		holder=10057618 # Shibukawa Yoshitoshi
+	}
+	1428.1.1={
+		holder=10057614 # Shibukawa Mitsunao
+	}
+	1434.1.1={
+		liege=0
+		holder=10057615 # Shibukawa Norinao
+	}
+	1479.1.1={
+		holder=10057623 # Shibukawa Manjumaru
+	}
+	1487.1.1={
+		holder=10057601 # Shibukawa Tadashige
+	}
+	1504.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1559.11.1={
+		liege=0
+		holder=10064002 # Otomo Yoshishige
+	}
+	1587.4.12={
+		holder=0
+	}
+}

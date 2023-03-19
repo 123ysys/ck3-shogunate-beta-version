@@ -1,0 +1,120 @@
+c_nmih_chita = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_chita1={
+				set_title_name=b_nmih_chita9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_chita1={
+				set_title_name=b_nmih_chita6
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	1180.1.1={
+		liege="d_nmih_owari"
+		holder=12432011 # Osada Tadamune
+	}
+	1180.11.9={
+		liege="d_nmih_mikawa"
+		holder=10120518 # Ono Yorikiyo
+	}
+	1184.3.4={
+		liege="d_nmih_owari"
+	}
+	1221.7.6={
+		holder=12430301 # Ogawa Kiyofusa
+	}
+	1240.1.1={
+		holder=12430302 # Ogawa Masatsune
+	}
+	1270.1.1={
+		holder=12430303 # Ogawa Masatsugu
+	}
+	1295.1.1={
+		holder=12430304 # Ogawa Tanemasa
+	}
+	1320.1.1={
+		holder=12430305 # Ogawa Mitsuuji
+	}
+	1330.1.1={
+		liege="d_nmih_owari"
+	}
+	1360.1.1={
+		liege="d_nmih_mino"
+		holder=10025315 # Toki Naouji
+	}
+	1380.12.11={
+		holder=10025319 # Toki Akinao
+	}
+	1390.4.1={
+		liege="d_nmih_mikawa"
+		holder=10049507 # Isshiki Akinori
+	}
+	1406.6.22={
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1440.6.14={
+		holder=10042001 # Takeda Nobuhide
+	}
+	1440.8.20={
+		holder=10056104 # Takeda Nobukata
+	}
+	1441.9.25={
+		liege="d_nmih_tango"
+		holder=10049514 # Isshiki Norichika
+	}
+	1451.12.21={
+		holder=10049518 # Isshiki Yoshito
+	}
+	1478.1.1={
+		liege="d_nmih_owari" 
+		holder=10029490 # Saji Tametsuna
+	}
+	1500.1.1={
+		holder=10029491 # Saji Tamekatsu
+	}
+	1525.1.1={
+		holder=10029492 # Saji Tametsugu
+	}
+	1550.1.1={
+		holder=10029493 # Saji Tamehira
+	}
+	1575.1.1={
+		liege="d_nmih_owari" # 29120 Oda Nobunaga
+		holder=10029495 # Saji Kazunari
+	}
+	1584.12.3={
+		holder=10029142 # Oda Nagamasu
+	}
+	1590.7.25={
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=10029720 # Fukushima Masanori
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024520 # Mizuno Wakenaga
+	}
+	1606.7.22={
+		liege="d_nmih_owari"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

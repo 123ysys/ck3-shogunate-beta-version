@@ -1,0 +1,12 @@
+257 = {
+
+	culture = sanin
+	religion = shinto
+	holding = castle_holding
+	1000.1.1={
+	}
+	1331.1.1={
+	}
+	1563.1.1={
+	}
+}

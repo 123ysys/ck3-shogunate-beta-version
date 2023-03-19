@@ -1,0 +1,128 @@
+c_nmih_miura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_miura1={
+				set_title_name=b_nmih_miura2
+			}
+		}
+	}
+	1247.7.8={
+		effect={
+			title:b_nmih_miura1={
+				set_title_name=b_nmih_miura1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1240.1.1 = { change_development_level = 20 }
+	1247.7.8 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_sagami"
+	}
+	1083.4.3={
+		holder=12211002 # Miura Tametsugu
+	}
+	1109.1.1={
+		holder=12211010 # Miura Yoshitsugu
+	}
+	1159.1.1={
+		holder=12211020 # Miura Yoshiaki
+	}
+	1180.6.15={
+		liege="d_nmih_boshu"
+	}
+	1180.9.18={
+		holder=12211030 # Miura Yoshizumi / Siege of Kinugasa Castle
+	}
+	1200.2.9={
+		holder=12211040 # Miura Yoshimura
+	}
+	1239.12.31={
+		holder=12211050 # Miura Yasumura
+	}
+	1247.7.9={
+		liege="e_nmih_japan"
+		holder=10131824 # Hojo Tokiyori / The battle of Hoji
+	}
+	1248.1.1={
+		liege="d_nmih_aizu"
+		holder=12211224 # Miura [Sahara] Moritoki
+	}
+	1267.1.1={
+		holder=12211251 # Miura Yorimori
+	}
+	1294.1.1={
+		holder=12211260 # Miura Tokiaki
+	}
+	1310.1.1={
+		holder=12211265 # Miura Tokitsugu
+	}
+	1333.7.4={
+		liege="d_nmih_sagami"
+	}
+	1335.7.1={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="k_nmih_western_kanto"
+		holder=12211270 # Miura Takatsugu
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1339.5.17={
+		holder=12211275 # Miura Takamichi
+	}
+	1351.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1352.3.12={
+		liege="d_nmih_uesugi"
+	}
+	1363.3.1={
+		liege="d_nmih_sagami"
+	}
+	1376.1.1={
+		holder=12211280 # Miura Takatsura
+	}
+	1410.1.1={
+		holder=10016501 # Miura Takaaki
+	}
+	1430.10.22={
+		holder=10016500 # Miura Tokitaka
+	}
+	1494.10.22={
+		holder=10016502 # Miura Yoshiatsu
+	}
+	1516.8.19={
+		liege=0
+		holder=10016001 # Hojo Soun
+	}
+	1519.9.8={
+		holder=10016000 # Hojo Ujitsuna
+	}
+	1541.8.10={
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1567.1.1={
+		liege="d_nmih_sagami" # Hojo Ujiyasu
+		holder=10016017 # Hojo Ujinori
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

@@ -1,0 +1,60 @@
+﻿l_korean:
+
+ # Get Meritocracy Perk
+ shogunate_gekokujo.0001.t:0 "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 야망"
+ shogunate_gekokujo.0001.desc:0 "[title.GetName]을(를) 손에 넣은 후 마음속에 작은 야심이 싹텄다. 센고쿠 시대에 태어난 이상 내 힘으로 최고가 되어 보이겠다."
+ shogunate_gekokujo.0001.desc_ambitious:0 "[title.GetName]을(를) 손에 넣은 후 마음속에 큰 야심이 싹텄다. 센고쿠 시대에 태어났으니 이 손에 천하를 쥐어 보이겠다!"
+ shogunate_gekokujo.0001.desc_content:0 "[title.GetName]을(를) 손에 넣고 나선 쓸데없는 생각이 많아졌다. 비록 센고쿠 시대에 태어났다고는 하나, 역모따위는 생각만 해도 끔찍하다."
+ shogunate_gekokujo.0001.a:0 "이것이 난세를 살아가는 방법이지."
+
+ # Battle of Okehazama
+ shogunate_history.0002.t:0 "[location.GetNameNoTooltip]의 전투"
+ shogunate_history.0002.desc:0 "[winner.GetDynastyNameNoTooltip]군은 [location.GetName]에서 [loser.GetUIName]의 본진을 기습, [commander.GetUIName]은 훌륭하게 [loser.GetFirstNameNoTooltip]를 제거했다.\n\n지휘관을 잃은 [loser.GetDynastyNameNoTooltip]군은 순식간에 무너졌고 전투는 혼란 속에 종결되었다."
+ shogunate_history.0002.a:0 "이 전투는 후세에도 기억될 것이다."
+
+ # Battle of Itsukushima
+ shogunate_history.0004.t:0 "[location.GetNameNoTooltip]의 전투"
+ shogunate_history.0004.desc:0 "[winner.GetDynastyNameNoTooltip]군은 [location.GetName]에서 [enemy_commander.GetUIName]의 본진을 기습, [commander.GetUIName]은 훌륭하게 [enemy_commander.GetFirstNameNoTooltip]를 제거했다.\n\n지휘관을 잃은 [loser.GetDynastyNameNoTooltip]군은 순식간에 무너졌고 전투는 혼란 속에 종결되었다."
+ shogunate_history.0004.a:0 "이 전투는 후세에도 기억될 것이다."
+
+ # Battle of Kawagoe
+ shogunate_history.0006.t:0 "[location.GetNameNoTooltip]의 전투"
+ shogunate_history.0006.desc:0 "[winner.GetDynastyNameNoTooltip]군은 [location.GetName]에서 [loser.GetUIName]의 본진을 기습, [commander.GetUIName]은 훌륭하게 [loser.GetFirstNameNoTooltip]를 제거했다.\n\n지휘관을 잃은 [loser.GetDynastyNameNoTooltip]군은 순식간에 무너졌고 전투는 혼란 속에 종결되었다."
+ shogunate_history.0006.a:0 "이 전투는 후세에도 기억될 것이다."
+
+ # Spread of the arquebus
+ shogunate_culture.0002.t:0 "화승총의 보급"
+ shogunate_culture.0002.opening.desc:0 "남만인들이 가져온 새로운 무기가 [target_culture.GetName]에 퍼지고 있다.\n\n철포라 불리는 이 무기는 화약의 힘으로 탄알을 발사하는 구조다. 점화에 사용하는 화승으로 인해 화승총이라고도 하며, 타네가 섬에 전래되었다고 하여 타네가시마라고도 불린다.\n\n"
+ shogunate_culture.0002.before_spread.desc:0 "이 무기는 굉음을 내며 날아다니는 새도 쉽게 떨어뜨릴 수 있다고 한다. 다른 영지의 다이묘들이 앞다투어 구매하고 있다고 한다.\n\n세상을 바꿀 무기라고 평하는 자도 있다고 하는 과연 참일까?"
+ shogunate_culture.0002.after_spread.desc:0 "철포는 살상력이 높고 도검이나 활에 비해 다루기도 쉽다.\n\n그러므로 기량이 떨어지는 잡병이라도 숙련된 무사에 대적할 수 있는 신무기라고 할 수 있다.\n\n새로운 무기의 가능성을 눈치챈 다이묘들은 앞다투어 철포를 구매하고 있다. 시대는 새로운 국면에 접어들었다."
+ shogunate_culture.0002.a:0 "새로운 무기는 전쟁을 어떻게 바꿀 것인가?"
+ shogunate_culture.0002.b:0 "놈들도 이제야 철포의 힘을 눈치 챘나."
+ shogunate_culture.0002.c:0 "남만인들이 또 이상한 물건을 가져왔군."
+
+ # Spread of the cannon
+ shogunate_culture.0012.t:0 "The spread of the Ozutsu"
+ shogunate_culture.0012.desc:0 "A new weapon brought by Westerners is spreading in [target_culture.GetName]. They are called \"Ozutsu,\" and they use the power of gunpowder to fire shells that are much bigger than the bullets of \"Teppo.\""
+ shogunate_culture.0012.a:0 "새로운 무기는 전쟁을 어떻게 바꿀 것인가?"
+
+ # Gain a building
+ shogunate_building.0003.t:0 "[temp_character.Custom('shogunate_building_name')]의 획득"
+ shogunate_building.0003.with_owner.desc:0 "지금까지 [previous_owner.GetUIName]의 지배하에 있던 [temp_character.Custom('shogunate_building_name')]이(가) 내 것이 되었다.\n\n전략적으로 매우 중요한 이 [temp_character.Custom('shogunate_building_class')]은(는) [building_place.GetDeJureLiege.GetName]의 [building_place.GetName]에 있으며, 천하가 넓다고 해도 그 이름을 모르는 자는 없다."
+ shogunate_building.0003.without_owner.desc:0 "[temp_character.Custom('shogunate_building_name')]이(가) 내 것이 되었다.\n\n전략적으로 매우 중요한 이 [temp_character.Custom('shogunate_building_class')]은(는) [building_place.GetDeJureLiege.GetName]의 [building_place.GetName]에 있으며, 천하가 넓다고 해도 그 이름을 모르는 자는 없다."
+ shogunate_building.0003.a:0 "이걸 안 쓸 수는 없지."
+
+ # Lose a building
+ shogunate_building.0004.t:0 "[temp_character.Custom('shogunate_building_name')]의 상실"
+ shogunate_building.0004.desc:0 "지금까지 나의 지배하에 있던 [temp_character.Custom('shogunate_building_name')]을(를) [new_owner.GetUIName]에게 빼았겼다.\n\n전략적으로 매우 중요한 이 [temp_character.Custom('shogunate_building_class')]은(는) [building_place.GetDeJureLiege.GetName]의 [building_place.GetName]에 있으며, 천하가 넓다고 해도 그 이름을 모르는 자는 없다."
+ shogunate_building.0004.a:0 "어쩔 수 없군."
+
+ # Notify the destroyed special title
+ shogunate_gekokujo.0007.t:0 "최후의 [title.Custom('shogunate_special_title_tier')]"
+ shogunate_gekokujo.0007.with_holder.desc:0 "마지막 [title.Custom('shogunate_special_title_tier')]인 [previous_holder.GetHouse.GetBaseNameNoTooltip] [previous_holder.GetFirstName]이(가) [new_holder.GetHouse.GetBaseNameNoTooltip] [new_holder.GetFirstName]에 의해 추방되었다.\n\n전통있는 [title.GetName]도 여기까지다."
+ shogunate_gekokujo.0007.without_holder.desc:0 "마지막 [title.Custom('shogunate_special_title_tier')]인 [previous_holder.GetHouse.GetBaseNameNoTooltip] [previous_holder.GetFirstName]이(가) 추방되었다.\n\n전통있는 [title.GetName]도 여기까지다."
+ shogunate_gekokujo.0007.a:0 "이 또한 난세의 이치로다."
+
+ # The new Shogunate
+ shogunate_gekokujo.0008.t:0 "[founder.GetHouse.GetBaseNameNoTooltip] 막부 성립"
+ shogunate_gekokujo.0008.desc:0 "[founder.GetHouse.GetBaseNameNoTooltip] [founder.GetFirstName]은(는) 조정으로부터 쇼군센게를 받아 새로운 막부를 열었다.\n\n[founder.GetHouse.GetBaseNameNoTooltip] 막부는 [capital.GetName]에 거점을 두고 천하평정을 목표로 하고 있다."
+ shogunate_gekokujo.0008.a:0 "쇼군 만세!"
+ shogunate_gekokujo.0008.b:0 "따를 것인가, 항거할 것인가."

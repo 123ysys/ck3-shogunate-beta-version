@@ -1,0 +1,70 @@
+k_nmih_western_chugoku = {
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110025 # Taira Kiyomori
+	}
+	1181.3.20={
+		holder=10110042 # Taira Munemori
+	}
+	1183.8.17={
+		liege=0 # Minamoto Yukiie, Taira's escape to the west
+	}
+	1185.4.25={
+		holder=0 # Battle of Dan-no-ura
+	}
+	1349.4.1={
+		liege=0
+		holder=10040036 # Ashikaga Tadafuyu
+	}
+	1350.12.20={ # Kanno Disturbance (1st)
+		liege = "k_nmih_western_kanto"
+	}
+	1351.3.15={
+		liege = 0
+	}
+	1352.3.12={
+		liege = "e_nmih_nancho"
+	}
+	1371.1.1={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+	1399.11.26={
+		liege=0
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		holder=10057010 # Ouchi Moriharu
+	}
+	1431.8.6={
+		holder=10057015 # Ouchi Mochiyo
+	}
+	1441.8.14={
+		holder=10057008 # Ouchi Norihiro
+	}
+	1465.9.23={
+		holder=10057007 # Ouchi Masahiro
+	}
+	1495.10.6={
+		holder=10057001 # Ouchi Yoshioki
+	}
+	1529.1.29={
+		holder=10057002 # Ouchi Yoshitaka
+	}
+	1551.9.30={
+		holder=10064003 # Ouchi Yoshinaga
+	}
+	1557.5.1={
+		holder=10056004 # Mori Motonari
+	}
+	1571.7.6={
+		holder=10056025 # Mori Terumoto
+	}
+	1585.7.25={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		holder=0
+	}
+}

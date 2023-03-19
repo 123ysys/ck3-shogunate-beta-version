@@ -1,0 +1,122 @@
+c_nmih_sosa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sosa1={
+				set_title_name=b_nmih_sosa5
+			}
+		}
+	}
+	1250.1.1={
+		effect={
+			title:b_nmih_sosa1={
+				set_title_name=b_nmih_sosa2
+			}
+		}
+	}
+	1560.1.1={
+		effect={
+			title:b_nmih_sosa1={
+				set_title_name=b_nmih_sosa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1250.1.1 = { change_development_level = 10 }
+	1460.1.1 = { change_development_level = 10 }
+	1560.1.1 = { change_development_level = 20 }
+	1570.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_shimousa"
+	}
+	1135.1.1={
+		holder=12160100 # Chida [Fujiwara] Chikamichi
+	}
+	1140.1.1={
+		holder=12160110 # Chiba [Fujiwara] Chikamori
+	}
+	1170.1.1={
+		holder=12160120 # Chiba [Fujiwara] Chikamasa
+	}
+	1180.10.4={
+		liege="d_nmih_shimousa"
+		holder=12150128 # To Taneyori
+	}
+	1193.1.1={
+		holder=12150300 # To Shigetane
+	}
+	1219.2.13={
+		holder=12150305 # To Taneyuki
+	}
+	1221.7.6={
+		holder=12150306 # Unakami Tanekata
+	}
+	1260.1.1={
+		holder=12151024 # Unakami Tanekage
+	}
+	1280.1.1={
+		holder=12151032 # Unakami Taneyasu
+	}
+	1320.1.1={
+		holder=12151035 # Unakami Morotane
+	}
+	1333.7.4={
+		liege="d_nmih_shimousa"
+	}
+	1335.7.1={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="d_nmih_shimousa"
+	}
+	1350.1.1={
+		liege="d_nmih_shimousa"
+		holder=12151040 # Unakami Kimitane
+	}
+	1390.1.1={
+		holder=12151045 # Unakami Noritane
+	}
+	1415.6.8={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1417.1.27={
+		liege="d_nmih_shimousa"
+	}
+	1430.1.1={
+		holder=12151050 # Unakami Yoritane
+	}
+	1450.1.1={
+		holder=12151055 # Unakami Morotane
+	}
+	1480.1.1={
+		holder=12151057 # Unakami Tanesada
+	}
+	1500.1.1={
+		holder=12151060 # Unakami Sukehide
+	}
+	1520.1.1={
+		holder=12151070 # Unakami Mochihide
+	}
+	1550.1.1={
+		holder=12151075 # Unakami Tanehide
+	}
+	1584.3.5={
+		holder=12151080 # Unakami Taneyasu
+	}
+	1590.7.27={
+		liege="k_nmih_western_kanto"
+		holder=10021305 # Kiso Yoshimasa
+	}
+	1596.7.13={
+		holder=10021306 # Kiso Yoshitoshi
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1605.6.2={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

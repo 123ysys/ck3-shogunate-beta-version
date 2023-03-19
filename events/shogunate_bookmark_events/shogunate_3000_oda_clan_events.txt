@@ -1,0 +1,75 @@
+﻿namespace = shogunate_bookmark
+
+# Oda Clan
+shogunate_bookmark.3000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Make Oda Nobunaga an heir
+
+		if = {
+			limit = {
+				game_start_date >= 1534.6.23								# Birth of Oda Nobunaga
+				game_start_date <  1551.4.8									# Death of Oda Nobuhide
+			}
+
+			shogunate_historical_heir_effect = {
+				CHAR1 = 10029100											# Oda Nobuhide
+				CHAR2 = 10029120											# Oda Nobunaga
+			}
+		}
+
+
+		# Oda Nobunaga's ambition for Mino
+
+		if = {
+			limit = {
+				game_start_date >= 1556.5.28								# Death of Saito Dosan
+				game_start_date <  1561.6.23								# Death of Saito Yoshitatsu
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029120											# Oda Nobunaga
+				CHAR2 = 10025502											# Saito Yoshitatsu
+			}
+			shogunate_historical_break_alliance_effect = {
+				CHAR1 = 10029120											# Oda Nobunaga
+				CHAR2 = 10025502											# Saito Yoshitatsu
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1561.6.23								# Death of Saito Yoshitatsu
+				game_start_date <  1567.10.1								# Conquest of Mino
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029120											# Oda Nobunaga
+				CHAR2 = 10025470											# Saito Tatsuoki
+			}
+			shogunate_historical_break_alliance_effect = {
+				CHAR1 = 10029120											# Oda Nobunaga
+				CHAR2 = 10025470											# Saito Tatsuoki
+			}
+		}
+
+
+		# High Crown Autority of the Oda Administration
+
+		if = {
+			limit = {
+				game_start_date >= 1575.12.9								# Oda Nobunaga Become Gon-Dainagon & Ukonoe-Taisho
+				game_start_date <  1582.6.21								# Death of Oda Nobunaga
+			}
+
+			shogunate_historical_realm_law_effect = {
+				CHAR = 10029120												# Oda Nobunaga
+				LAW  = crown_authority_2
+			}
+		}
+
+	}
+}

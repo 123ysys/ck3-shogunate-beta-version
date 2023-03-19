@@ -1,0 +1,17 @@
+war = {
+	name = "war_1573_siege_of_nagashino_castle"
+	start_date = 1573.5.13
+	end_date = 1573.8.1
+	targeted_titles = {
+		c_nmih_shitara
+	}
+	casus_belli = event_claim_cb
+	claimant = 10024006 # Tokugawa Ieyasu
+	attackers = {
+		10024006	# Tokugawa Ieyasu
+		10029120	# Oda Nobunaga
+	}
+	defenders = {
+		10020033	# Takeda Katsuyori
+	}
+}

@@ -1,0 +1,22 @@
+group = {
+	name = "hard_achievements"
+	order = {
+		"shogunate_dream_within_a_dream"
+		"shogunate_1180_minamoto_yoritomo_vassal"
+	}
+}
+
+group= {
+	name = "very_hard_achievements"
+	order = {
+		"shogunate_1614_toyotomi_hideyori_vassal"
+		"shogunate_defender_of_the_faith"
+	}
+}
+
+group= {
+	name = "insane_achievements"
+	order = {
+		"shogunate_1591_kunohe_masazane"
+	}
+}

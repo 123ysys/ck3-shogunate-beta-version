@@ -1,0 +1,16 @@
+181 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	0794.1.1={
+	}
+	1336.7.22={
+	}
+	1399.1.1={
+	}
+	1467.6.27={
+	}
+	1573.8.25={
+	}
+}

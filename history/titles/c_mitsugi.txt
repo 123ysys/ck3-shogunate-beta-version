@@ -1,0 +1,118 @@
+c_nmih_mitsugi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mitsugi1={
+				set_title_name=b_nmih_mitsugi2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mitsugi1={
+				set_title_name=b_nmih_mitsugi5
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_mitsugi1={
+				set_title_name=b_nmih_mitsugi1
+			}
+		}
+	}
+	1560.1.1={
+		effect={
+			title:b_nmih_mitsugi1={
+				set_title_name=B_NMIH_MITSUGI1_1560
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+	1390.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_bingo"
+		holder=12660100 # Tachibana Kanetaka
+	}
+	1196.3.1={
+		liege="d_nmih_chikugo"
+		holder=10057320 # Miyoshi Yasunobu
+	}
+	1206.1.1={
+		liege="e_nmih_japan"
+	}
+	1221.8.27={
+		liege="d_nmih_bingo"
+		holder=10057319 # Miyoshi Yasutsura
+	}
+	1256.10.22={
+		holder=10057317 # Ota Yasuari
+	}
+	1290.6.19={
+		holder=10057316 # Ota Tokitsura
+	}
+	1350.1.1={
+		liege="e_nmih_japan"
+		holder=10057610 # Shibukawa Tadayori
+	}
+	1356.8.13={
+		holder=10057611 # Shibukawa Yoshiyuki
+	}
+	1375.9.7={
+		holder=10057612 # Shibukawa Mitsuyori
+	}
+	1396.1.1={
+		liege="k_nmih_kyushu_Tandai"
+	}
+	1419.1.1={
+		holder=10057618 # Shibukawa Yoshitoshi
+	}
+	1428.1.1={
+		holder=10057614 # Shibukawa Mitsunao
+	}
+	1434.1.1={
+		holder=10057615 # Shibukawa Norinao
+	}
+	1479.1.1={
+		holder=10057623 # Shibukawa Manjumaru
+	}
+	1487.1.1={
+		holder=10057601 # Shibukawa Tadashige
+	}
+	1504.1.1={
+		liege=0
+	}
+	1523.1.1={
+		holder = 10057600 # Shibukawa Yoshitaka
+	}
+	1538.9.13={
+		holder = 10057602 # Shibukawa Yoshimasa
+	}
+	1560.3.2={
+		liege="d_nmih_aki"
+	}
+	1565.1.1={
+		holder = 10057604 # Shibukawa Yoshimitsu
+	}
+	1568.1.1={
+		liege="d_nmih_bingo"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1597.7.26={
+		liege="k_nmih_western_chugoku"
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10053589 # Fukushima Masayuki
+	}
+	1607.1.1={
+		holder=10207200 # Osaki Nagayuki
+	}
+}

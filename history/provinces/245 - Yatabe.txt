@@ -1,0 +1,25 @@
+245 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1.1.1={
+		special_building_slot = hyogo_trade_port_01
+	}
+	1160.1.1={
+	}
+	1162.2.1={
+	}
+	1173.1.1={
+		special_building = hyogo_trade_port_02
+	}
+	1183.10.1={
+	}
+	1284.1.1 = {
+	}
+	1399.1.1={
+	}
+	1573.8.13={
+	}
+
+}

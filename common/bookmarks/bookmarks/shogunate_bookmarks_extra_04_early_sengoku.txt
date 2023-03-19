@@ -1,0 +1,246 @@
+﻿bm_extra1493_1 = {
+	start_date = 1493.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1494_1 = {
+	start_date = 1494.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1495_1 = {
+	start_date = 1495.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1496_1 = {
+	start_date = 1496.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1497_1 = {
+	start_date = 1497.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1498_1 = {
+	start_date = 1498.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1499_1 = {
+	start_date = 1499.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1500_1 = {
+	start_date = 1500.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1501_1 = {
+	start_date = 1501.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1502_1 = {
+	start_date = 1502.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1503_1 = {
+	start_date = 1503.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1504_1 = {
+	start_date = 1504.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1505_1 = {
+	start_date = 1505.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1506_1 = {
+	start_date = 1506.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1507_1 = {
+	start_date = 1507.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1508_1 = {
+	start_date = 1508.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1509_1 = {
+	start_date = 1509.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1510_1 = {
+	start_date = 1510.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1511_1 = {
+	start_date = 1511.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1512_1 = {
+	start_date = 1512.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1513_1 = {
+	start_date = 1513.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1514_1 = {
+	start_date = 1514.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1515_1 = {
+	start_date = 1515.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1516_1 = {
+	start_date = 1516.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1517_1 = {
+	start_date = 1517.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1518_1 = {
+	start_date = 1518.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1519_1 = {
+	start_date = 1519.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1520_1 = {
+	start_date = 1520.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1521_1 = {
+	start_date = 1521.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1522_1 = {
+	start_date = 1522.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1523_1 = {
+	start_date = 1523.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1524_1 = {
+	start_date = 1524.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1525_1 = {
+	start_date = 1525.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1526_1 = {
+	start_date = 1526.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1527_1 = {
+	start_date = 1527.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1528_1 = {
+	start_date = 1528.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1529_1 = {
+	start_date = 1529.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1530_1 = {
+	start_date = 1530.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1531_1 = {
+	start_date = 1531.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1532_1 = {
+	start_date = 1532.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+
+bm_extra1533_1 = {
+	start_date = 1533.1.1
+	is_playable = yes
+	group = bm_group_early_sengoku
+}
+

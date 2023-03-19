@@ -1,0 +1,199 @@
+﻿l_russian:
+
+ ## Shinto religion
+
+ shinto_religion:0 "Синто"
+ shinto_religion_adj:0 "Синто"
+ shinto_religion_adherent:0 "Синтоист"
+ shinto_religion_adherent_plural:0 "Синтоисты"
+ shinto_religion_desc:0 "Синто - древняя народная религия Японии, которая веками сосуществовала с Конфуцианством и Буддизмом на Японских островах."
+
+ # Shinto faith
+
+ shinto:0 "Синто"
+ shinto_adj:0 "Синто"
+ shinto_adherent:0 "Синтоист"
+ shinto_adherent_plural:0 "Синтоисты"
+ shinto_desc:0 "В игре синтоистская вера включает в себя традиционный буддизм. Японский синтоизм и буддизм переплелись друг с другом примерно в 600 г. н.э. Многие японцы считают, что эти веры едины. Эта концепция называется Симбуцу-Сюго, что означает cинкретизм японских божков Ками и Будды."
+
+ shinto_high_god_name:0 "Симбуцу"
+ shinto_high_god_name_possessive:0 "Симбуцу"
+ shinto_high_god_alternate:0 "Тэндо"
+ shinto_high_god_alternate_possessive:0 "Тэндо"
+ shinto_house_of_worship:0 "Дзися"
+ shinto_house_of_worship_plural:0 "Дзися"
+ shinto_religious_symbol:0 "Нитирин"
+ shinto_religious_text:0 "Кёмон"
+ shinto_religious_head_title:0 "Император"
+ shinto_religious_head_title_name:0 "Императорский двор"
+ shinto_devotee_male:0 "Со"
+ shinto_devotee_male_plural:0 "Со"
+ shinto_devotee_female:0 "Ама"
+ shinto_devotee_female_plural:0 "Ама"
+ shinto_alt_priest_term:0 "Бодзу"
+ shinto_divine_realm:0 "Гокураку"
+ shinto_negative_afterlife:0 "Дзигоку"
+ shinto_death_god_name:0 "Сирё"
+ shinto_death_god_name_possessive:0 "Сирё"
+
+ # Ikko-shu faith
+
+ ikkoshu:0 "Икко-сю"
+ ikkoshu_adj:0 "Икко-сю"
+ ikkoshu_adherent:0 "Ikko-shu Monto"
+ ikkoshu_adherent_plural:0 "Ikko-shu Monto"
+ ikkoshu_desc:0 "Икко-сю — школа буддизма Чистой Земли. Она был основан японским буддийским священником Синраном. В конце пятнадцатого и шестнадцатом веках Икко-икки (Восстание Икко-сю) выступали против правления губернаторов или даймё."
+
+ ikkoshu_high_god_name:0 "Амида"
+ ikkoshu_high_god_name_possessive:0 "Амиды"
+ ikkoshu_high_god_alternate:0 "the Venerable Shinran"
+ ikkoshu_high_god_alternate_possessive:0 "the Venerable Shinran's"
+ ikkoshu_house_of_worship:0 "храм"
+ ikkoshu_house_of_worship_plural:0 "храмы"
+ ikkoshu_religious_symbol:0 "Нэмбуцу"
+ ikkoshu_religious_text:0 "Кёгёсинсё"
+ ikkoshu_religious_head_title:0 "Хоссю"
+ ikkoshu_religious_head_title_name:0 "Кёдан"
+ ikkoshu_divine_realm:0 "Гокураку-дзёдо"
+
+ # Hokke-shu faith
+
+ hokkeshu:0 "Хоккэ-сю"
+ hokkeshu_adj:0 "Хоккэ-сю"
+ hokkeshu_adherent:0 "последователь Хоккэ-сю"
+ hokkeshu_adherent_plural:0 "последователи Хоккэ-сю"
+ hokkeshu_desc:0 "Хоккэ-сю — ветвь буддизма Махаяны, основанная на учении японского буддийского священника Нитирэна. Основное внимание уделяется доктрине Сутры Лотоса. Иногда он выступал против правителей, икко-икки и христиан в шестнадцатом веке."
+
+ hokkeshu_high_god_name:0 "Будда"
+ hokkeshu_high_god_name_possessive:0 "Будды"
+ hokkeshu_high_god_alternate:0 "the Venerable Nichiren"
+ hokkeshu_high_god_alternate_possessive:0 "the Venerable Nichiren's"
+ hokkeshu_house_of_worship:0 "храм"
+ hokkeshu_house_of_worship_plural:0 "храмы"
+ hokkeshu_religious_symbol:0 "Даймоку"
+ hokkeshu_religious_text:0 "Хокэкё"
+ hokkeshu_religious_head_title:0 "Хоссю"
+ hokkeshu_religious_head_title_name:0 "Кёдан"
+
+ # Ryukyuan faith
+
+ ryukyuan:0 "Рюкю"
+ ryukyuan_adj:0 "Рюкю"
+ ryukyuan_adherent:0 "Ryukyuan believer"
+ ryukyuan_adherent_plural:0 "Ryukyuan believers"
+ ryukyuan_desc:0 "Религия Рюкю, также известная как Рюкю Синто, является местной системой верований островов Рюкю. Ее характеризуют поклонение предкам и уважение отношений между живыми, мертвыми, богами и духами мира природы."
+
+ ryukyuan_high_god_name:0 "Ukami"
+ ryukyuan_high_god_name_possessive:0 "Ukami's"
+ ryukyuan_high_god_alternate:0 "the Ancestors"
+ ryukyuan_high_god_alternate_possessive:0 "the Ancestors'"
+ ryukyuan_house_of_worship:0 "Utaki"
+ ryukyuan_house_of_worship_plural:0 "Utaki"
+ ryukyuan_religious_symbol:0 "Tida"
+ ryukyuan_religious_text:0 "Omoro"
+ ryukyuan_religious_head_title:0 "Chifijin"
+ ryukyuan_religious_head_title_name:0 "Sefa-utaki"
+ ryukyuan_devotee_male:0 "Kaminchu"
+ ryukyuan_devotee_male_plural:0 "Kaminchu"
+ ryukyuan_devotee_female:0 "Noro"
+ ryukyuan_devotee_female_plural:0 "Noro"
+ ryukyuan_alt_priest_term:0 "Kaminchu"
+ ryukyuan_divine_realm:0 "Gusoo"
+ ryukyuan_negative_afterlife:0 "Gusoo"
+ ryukyuan_death_god_name:0 "Shinimabui"
+ ryukyuan_death_god_name_possessive:0 "Shinimabui's"
+
+
+ ## Eastern Paganism religion
+
+ eastern_pagan_religion:0 "Восточное язычество"
+ eastern_pagan_religion_adj:0 "Eastern Pagan"
+ eastern_pagan_religion_adherent:0 "Eastern Pagan"
+ eastern_pagan_religion_adherent_plural:0 "Eastern Pagans"
+ eastern_pagan_religion_desc:0 "Eastern Paganism is a collection of religions with traditions that involve animistic or shamanistic practices."
+
+ # Ainu faith
+
+ ainu:0 "Ainu"
+ ainu_adj:0 "Ainu"
+ ainu_adherent:0 "Aynu"
+ ainu_adherent_plural:0 "Aynu"
+ ainu_desc:0 "The Ainu people typically believe that everything in nature has a \"Kamuy\" (Spirit or God) on the inside, similar to Japanese Shinto. The main difference between the two is the organization. The Ainu faith centers on each tribe's chieftain instead of a divine descended Emperor. Ainu views the world as a spherical ocean on which many islands float. This belief is based on the fact that the sun rises in the east and sets in the west. They believe the world rests on the back of a large fish, which, when it moves, causes earthquakes."
+
+ ainu_high_god_name:0 "Kamuy"
+ ainu_high_god_name_possessive:0 "Kamuy's"
+ ainu_high_god_alternate:0 "Aynurakkur"
+ ainu_high_god_alternate_possessive:0 "Aynurakkur's"
+ ainu_house_of_worship:0 "alter"
+ ainu_house_of_worship_plural:0 "alters"
+ ainu_religious_symbol:0 "bear"
+ ainu_religious_text:0 "Yukar"
+ ainu_divine_realm:0 "Kamuy-mosir"
+ ainu_negative_afterlife:0 "Pokna-mosir"
+ ainu_death_god_name:0 "Wen-kamuy"
+ ainu_death_god_name_possessive:0 "Wen-kamuy's"
+
+ # Nivkh faith
+
+ nivkh:0 "Nivkh"
+ nivkh_adj:0 "Nivkh"
+ nivkh_adherent:0 "Nivkh"
+ nivkh_adherent_plural:0 "Nivkh"
+ nivkh_desc:0 "The Nivkh is animistic and shamanistic folk religion, a prevailing idea of the people in the following. The island of Sakhalin is a giant beast lying on its belly, with the island's trees as its hair. This idea isn't different from other religions that believed in the world atop an animal, and the views are also present in many other animistic religions."
+
+
+ ## Holy Sites
+
+ # City
+
+ holy_site_kyoto_name:0 "Киото"
+ holy_site_osaka_name:0 "Осака"
+ holy_site_funai_name:0 "Фунай"
+ holy_site_nagasaki_name:0 "Нагасаки"
+ holy_site_bonotsu_name:0 "Боноцу"
+ holy_site_hakodate_name:0 "Хакодатэ"
+
+ # Temple
+
+ holy_site_enryakuji_name:0 "Энряку-дзи"
+ holy_site_kofukuji_name:0 "Кофуку-дзи"
+ holy_site_oyamagobo_name:0 "Ояма Гобо"
+ holy_site_ganshoji_name:0 "Гансё-дзи"
+ holy_site_sainenji_name:0 "Сайнэн-дзи"
+ holy_site_kuonji_name:0 "Куон-дзи"
+ holy_site_honmonji_name:0 "Хоммон-дзи"
+ holy_site_hokekyoji_name:0 "Хокэкё-дзи"
+ holy_site_gokokuji_name:0 "Гококу-дзи"
+
+ # Nature
+
+ holy_site_mt_fuji_name:0 "Гора Фудзи"
+ holy_site_mt_koya_name:0 "Гора Коя"
+ holy_site_akan_name:0 "Озеро Акан"
+
+ # Place Name
+
+ holy_site_kumano_name:0 "Кумано"
+ holy_site_shimabara_name:0 "Симабара"
+ holy_site_osumi_name:0 "Осуми"
+ holy_site_amami_name:0 "Амами"
+ holy_site_miyako_name:0 "Мияко"
+ holy_site_sapporo_name:0 "Саппоро"
+ holy_site_asahikawa_name:0 "Асахикава"
+ holy_site_shisuka_name:0 "Сисука"
+ holy_site_otchishi_name:0 "Оттиси"
+ holy_site_okha_name:0 "Оха"
+ holy_site_kamchatka_name:0 "Камчатка"
+
+
+ ## Court Chaplain
+
+ councillor_court_chaplain_shinto:0 "Бодайдзи Дзюдзи"
+ councillor_court_chaplain_shinto_possessive:0 "Бодайдзи Дзюдзи"
+
+ councillor_court_chaplain_ryukyuan_female_kingdom:0 "Chifijin"
+ councillor_court_chaplain_ryukyuan_female_kingdom_possessive:0 "Chifijin's"
+ councillor_court_chaplain_ryukyuan_female_duchy:0 "Noro"
+ councillor_court_chaplain_ryukyuan_female_duchy_possessive:0 "Noro's"
+ councillor_court_chaplain_ryukyuan_male:0 "Kaminchu"
+ councillor_court_chaplain_ryukyuan_male_possessive:0 "Kaminchu's"

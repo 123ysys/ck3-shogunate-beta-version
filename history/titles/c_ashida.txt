@@ -1,0 +1,122 @@
+c_nmih_ashida = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ashida1={
+				set_title_name=b_nmih_ashida2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ashida1={
+				set_title_name=b_nmih_ashida9
+			}
+		}
+	}
+	1334.1.1={
+		effect={
+			title:b_nmih_ashida1={
+				set_title_name=B_NMIH_ASHIDA9_1334
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_bingo"
+		holder=12660301 # Nuka Takanobu
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bingo"
+		holder=12216002 # Dohi Sanehira
+	}
+	1191.12.13={
+		holder=11003395 # Fujiwara Sadanaga
+	}
+	1195.12.14={
+		holder=11007502 # Hamuro Mitsumasa
+	}
+	1200.4.23={
+		holder=11007504 # Hamuro Mitsuchika
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_bingo"
+		holder=12221011 # Nagai Tokihiro
+	}
+	1238.1.1={
+		holder=12221015 # Nagai Yasuhide
+	}
+	1254.1.11={
+		holder=12221016 # Nagai Yasushige
+	}
+	1280.1.1={
+		holder=12665010 # Nagai Yorishige
+	}
+	1295.1.1={
+		holder=12665020 # Nagai Sadashige
+	}
+	1320.1.1={
+		holder=12665400 # Sakurayama Shiro
+	}
+	1331.12.1={
+		liege=0
+	}
+	1332.2.17={
+		liege="d_nmih_bingo"
+	}
+	1370.1.1={
+		holder=10056616 # Miya Ujinobu
+	}
+	1389.1.1={
+		holder=10056612 # Miya Kiyonobu
+	}
+	1411.1.1={
+		holder=10056609 # Miya Sadakiyo
+	}
+	1420.1.1={
+		holder=10056607 # Miya Takenobu
+	}
+	1460.1.1={
+		liege="d_nmih_bingo"
+		holder=10056605 # Miya Naganobu
+	}
+	1480.1.1={
+		holder=10056603 # Miya Mitsunobu
+	}
+	1510.1.1={
+		holder=10056601 # Miya Naonobu
+	}
+	1521.1.1={
+		liege="k_nmih_sanin"
+	}
+	1532.1.1={
+		holder = 10056600 # Miya Motomori
+	}
+	1541.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1548.1.1={
+		holder = 10056602 # Miya Takanobu
+	}
+	1554.1.1={
+		liege="d_nmih_aki"
+	}
+	1568.1.1={
+		liege="d_nmih_bingo"
+	}
+	1575.1.1={
+		holder = 10056626 # Miya Masanobu
+	}
+	1597.7.26={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10207200 # Osaki Nagayuki
+	}
+}

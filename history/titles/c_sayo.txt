@@ -1,0 +1,121 @@
+c_nmih_sayo = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sayo1={
+				set_title_name=b_nmih_sayo3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_sayo1={
+				set_title_name=b_nmih_sayo4
+			}
+		}
+	}
+	1336.1.1={
+		effect={
+			title:b_nmih_sayo1={
+				set_title_name=b_nmih_sayo1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1336.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_harima"
+		holder=10210705 # Sugawara Tomosue
+	}
+	1183.8.17={
+		liege="k_nmih_western_chugoku" # Taira's escape to the west
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_harima"
+		holder=12630100 # Akamatsu Norikage
+	}
+	1240.1.1={
+		holder=12630102 # Akamatsu Hisanori
+	}
+	1270.1.1={
+		holder=12630103 # Akamatsu Shigenori
+	}
+	1300.1.1={
+		holder=10053500 # Akamatsu Norimura
+	}
+	1333.1.1={
+		liege="d_nmih_harima"
+		holder=10053501 # Akamatsu Norisuke
+	}
+	1351.5.4={
+		holder=10053506 # Akamatsu Mitsunori
+	}
+	1381.10.28={
+		holder=10053547 # Akamatsu Mitsuhiro
+	}
+	1430.1.1={
+		holder=10053528 # Akamatsu Norihiro
+	}
+	1441.9.25={
+		liege="d_nmih_harima"
+		holder=10050130 # Otagaki Mitsukage
+	}
+	1450.1.1={
+		holder=10050127 # Otagaki Kagechika
+	}
+	1467.6.27={
+		liege="d_nmih_harima"
+		holder=10053551 # Uno Mitsutoshi
+	}
+	1480.1.1={
+		holder=10053552 # Uno Sukehide
+	}
+	1510.1.1={
+		holder=10053553 # Uno Suketoshi
+	}
+	1531.7.17={
+		holder=10053554 # Uno Murayori
+	}
+	1538.1.1={
+		liege="k_nmih_sanin"
+	}
+	1548.1.1={
+		holder=10053555 # Uno Masayori
+	}
+	1567.1.8={
+		liege=0
+	}
+	1577.10.1={
+		liege="d_nmih_amago_revival_army"
+		holder=10051516 # Amago Katsuhisa
+	}
+	1578.8.6={
+		liege=0
+		holder=10053555 # Uno Masayori
+	}
+	1580.6.5={
+		liege="d_nmih_harima"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1585.7.27={
+		liege="d_nmih_bizen"
+		holder=10055101 # Ukita Hideie
+	}
+	1603.3.24={
+		liege="d_nmih_harima"
+		holder=10029562 # Ikeda Yoshiyuki
+	}
+	1609.1.1={
+		holder=10029609 # Ikeda Nagaaki
+	}
+	1613.3.16={
+		holder=10029563 # Ikeda Toshitaka
+	}
+		holder=10029576 # Ikeda Teruoki
+	}
+}

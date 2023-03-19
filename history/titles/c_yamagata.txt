@@ -1,0 +1,127 @@
+c_nmih_yamagata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yamagata1={
+				set_title_name=b_nmih_yamagata9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yamagata1={
+				set_title_name=b_nmih_yamagata9
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_yamagata1={
+				set_title_name=b_nmih_yamagata3
+			}
+		}
+	}
+	1370.1.1={
+		effect={
+			title:b_nmih_yamagata1={
+				set_title_name=b_nmih_yamagata1
+			}
+		}
+	}
+	1550.1.1={
+		effect={
+			title:b_nmih_yamagata1={
+				set_title_name=b_nmih_yamagata2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1300.1.1 = { change_development_level = 10 }
+	1370.1.1 = { change_development_level = 10 }
+	1550.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_aki"
+	}
+	1180.1.1={
+		liege=0
+		holder=12660600 # Yamagata Tametsuna
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bingo"
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_aki"
+	}
+	1196.1.1={
+		liege="d_nmih_aki"
+		holder=12660700 # So Takachika
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_aki"
+		holder=10056242 # Kikkawa Tomotsune
+	}
+	1240.10.19={
+		holder=10056236 # Kikkawa Tsunemitsu
+	}
+	1268.10.24={
+		holder=10056235 # Kikkawa Tsunetaka
+	}
+	1323.9.3={
+		holder=10056234 # Kikkawa Tsunemori
+	}
+	1333.7.4={
+		liege="d_nmih_aki"
+	}
+	1350.1.1={
+		holder=10056233 # Kikkawa Tsuneaki
+	}
+	1383.1.7={
+		holder=10056231 # Kikkawa Tsunemi
+	}
+	1435.2.21={
+		holder=10056230 # Kikkawa Tsunenobu
+	}
+	1456.3.16={
+		holder=10056204 # Kikkawa Yukitsune
+	}
+	1477.1.21={
+		holder=10056203 # Kikkawa Tsunemoto
+	}
+	1493.5.8={
+		liege=0
+	}
+	1509.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056202 # Kikkawa Kunitsune
+	}
+	1517.1.1={
+		liege="d_nmih_izumo"
+	}
+	1531.5.4={
+		liege="k_nmih_western_chugoku"
+		holder=10056200 # Kikkawa Okitsune
+	}
+	1543.5.1={
+		liege="k_nmih_sanin"
+	}
+	1550.11.5={
+		liege="d_nmih_aki"
+		holder=10056015 # Kikkawa Motoharu
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+	}
+	1583.1.3={
+		holder=10056244 # Kikkawa Motonaga
+	}
+	1587.7.20={
+		holder=10056246 # Kikkawa Hiroie
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10029720 # Fukushima Masanori
+	}
+}

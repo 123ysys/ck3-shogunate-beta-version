@@ -1,0 +1,16 @@
+k_nmih_shikoku = {
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110042 # Taira Munemori
+	}
+	1181.3.20={
+		holder=0
+	}
+	1584.7.8={
+		liege=0
+		holder=10059104 # Chosokabe Motochika
+	}
+	1585.8.10={
+		holder=0
+	}
+}

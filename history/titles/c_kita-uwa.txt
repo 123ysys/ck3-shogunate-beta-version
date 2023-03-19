@@ -1,0 +1,128 @@
+c_nmih_kita-uwa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kita-uwa1={
+				set_title_name=b_nmih_kita-uwa9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kita-uwa1={
+				set_title_name=b_nmih_kita-uwa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kita-uwa1={
+				set_title_name=b_nmih_kita-uwa2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+		liege="d_nmih_iyo"
+	}
+	1180.1.1={
+		liege="d_nmih_iyo"
+		holder=12691005 # Kono Michikiyo
+	}
+	1181.2.7={
+		liege="d_nmih_awa"
+		holder=12690001 # Awata Shigeyoshi
+	}
+	1185.1.1={
+		liege="d_nmih_iyo"
+		holder=12691010 # Kono Michinobu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_iyo"
+		holder=12130020 # Utsunomiya Yoritsuna
+	}
+	1238.1.1={
+		holder=12130030 # Utsunomiya Yasutsuna
+	}
+	1240.1.1={
+		holder=12130032 # Utsunomiya Yorinari
+	}
+	1277.9.10={
+		holder=12130046 # Utsunomiya Yasumune
+	}
+	1327.2.24={
+		holder=12130075 # Utsunomiya Sadamune
+	}
+	1333.7.4={
+		liege="d_nmih_iyo"
+		holder=10058811 # Utsunomiya Sadayasu
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1350.1.1={
+		holder=12130155 # Utsunomiya Toyofusa
+	}
+	1369.9.19={
+		holder=10058806 # Utsunomiya Muneyasu
+	}
+	1379.2.1={
+		liege="d_nmih_iyo"
+	}
+	1400.1.1={
+		holder=10058805 # Utsunomiya Yasusuke
+	}
+	1430.1.1={
+		holder=10058804 # Utsunomiya Ietsuna
+	}
+	1460.1.1={
+		holder=10058803 # Utsunomiya Yasutsuna
+	}
+	1467.6.27={
+		liege=0
+	}
+	1490.1.1={
+		holder=10058801 # Utsunomiya Nobutsuna
+	}
+	1518.1.1={
+		holder=10058800 # Utsunomiya Kiyotsuna
+	}
+	1548.1.1={
+		holder=10058802 # Utsunomiya Toyotsuna
+	}
+	1568.12.1={
+		liege="d_nmih_iyo"
+		holder=10058673 # Ono Naoyuki
+	}
+	1573.1.1={
+		liege="d_nmih_tosa"
+	}
+	1585.8.10={
+		holder=10056016 # Kobayakawa Takakage
+		liege="k_nmih_western_chugoku"
+	}
+	1587.5.18={
+		holder=10094401 # Toda Katsutaka
+		liege="e_nmih_japan"
+	}
+	1594.12.4={
+		holder=10043302 # Todo Takatora
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="d_nmih_southern_iyo"
+	}
+	1608.6.1={	
+		liege="e_nmih_japan"
+		holder=10043250 # Wakisaka Yasuharu
+	}
+	1615.1.1={
+		holder=10043251 # Wakisaka Yasumomto
+	}
+}

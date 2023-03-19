@@ -1,0 +1,180 @@
+c_nmih_toyoura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_toyoura1={
+				set_title_name=b_nmih_toyoura1
+			}
+		}
+	}
+	1378.1.1={
+		effect={
+			title:b_nmih_toyoura1={
+				set_title_name=b_nmih_toyoura3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1378.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_nagato"
+	}
+	1179.12.18={
+		liege="d_nmih_nagato"
+		holder=10110043 # Taira Tomomori
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_nagato"
+		holder=10110042 # Taira Munemori
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_nagato"
+		holder=12510063 # Sasaki Takatsuna
+	}
+	1193.1.1={
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_nagato"
+		holder=12690610 # Tachibana Kiminari
+	}
+	1222.1.1={
+		holder=12230105 # Amano Masakage
+	}
+	1242.1.1={
+		holder=12230114 # Amano Yoshikage
+	}
+	1252.1.1={
+		holder=12220207 # Nikaido Yukitada
+	}
+	1275.12.1={
+		holder=10132000 # Hojo Muneyori
+	}
+	1279.7.15={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1281.9.14={
+		holder=10132156 # Hojo Morotoki
+	}
+	1282.1.1={
+		holder=10131715 # Hojo Tadatoki
+	}
+	1284.11.10={
+		holder=10131932 # Hojo [Kanesawa] Sanemasa
+	}
+	1296.7.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1300.1.1={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1307.1.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1320.1.1={
+		holder=10131933 # Hojo [Kanesawa] Tokinao
+	}
+	1333.7.4={
+		liege="d_nmih_nagato"
+		holder=12661020 # Koto Takezane
+	}
+	1348.11.30={
+		holder=12661025 # Koto Takemura
+	}
+	1349.1.1={
+		holder=12661030 # Koto Takenao
+	}
+	1353.1.1={
+		holder=12661035 # Koto Yoshitake
+	}
+	1358.6.1={
+		liege="d_nmih_nagato"
+		holder=12661484 # Sue Hirotsuna
+	}
+	1380.1.1={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		holder=10057011 # Ouchi Hiroshige
+	}
+	1401.1.1={
+		holder=12661485 # Sue Dorin [Hironaga]
+	}
+	1402.2.1={
+		holder=10057010 # Ouchi Moriharu
+	}
+	1409.1.1={
+		holder=12661494 # Sue Morinaga
+	}
+	1415.1.1={
+		holder=12661496 # Sue Morimasa
+	}
+	1420.1.1={
+		holder=10057221 # Naito Chitoku [Morisada]
+	}
+	1421.1.1={
+		holder=10057222 # Naito Moriyoshi
+	}
+	1431.1.1={
+		holder=10057220 # Naito Morisada
+	}
+	1432.1.1={
+		holder=12661496 # Sue Morimasa
+	}
+	1432.5.21={
+		holder=10057157 # Washizu Hirotada
+	}
+	1446.5.21={
+		holder=10057008 # Ouchi Norihiro
+	}
+	1447.11.2={
+		holder=10057220 # Naito Arisada [Morisada]
+	}
+	1454.11.27={
+		holder=10057203 # Naito Moriyo
+	}
+	1468.10.1={
+		holder=10057217 # Naito Takemori
+	}
+	1472.1.1={
+		holder=10057007 # Ouchi Masahiro
+	}
+	1472.1.2={
+		holder = 10057204 # Naito Hironori
+	}
+	1495.4.19={
+		holder=10057007 # Ouchi Masahiro / Naito Hironori executed
+	}
+	1497.9.30={
+		holder = 10057201 # Naito Hiroharu
+	}
+	1502.12.26={
+		holder = 10057200 # Naito Okimori
+	}
+	1555.1.7={
+		holder = 10057251 # Naito Takayo
+	}
+	1557.4.30={
+		liege="d_nmih_aki"
+		holder=10057202 # Naito Takaharu
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1600.9.1={
+		liege="d_nmih_nagato"
+		holder=10057253 # Naito Motomori
+	}
+	1603.3.24={
+		liege="d_nmih_nagato"
+		holder=10056030 # Mori Hidemoto
+	}
+}

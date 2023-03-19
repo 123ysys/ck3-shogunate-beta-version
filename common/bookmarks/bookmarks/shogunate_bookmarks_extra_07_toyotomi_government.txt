@@ -1,0 +1,724 @@
+﻿bm_extra1582_1 = {
+	start_date = 1582.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_2 = {
+	start_date = 1582.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_3 = {
+	start_date = 1582.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_4 = {
+	start_date = 1582.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_5 = {
+	start_date = 1582.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_6 = {
+	start_date = 1582.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_7 = {
+	start_date = 1582.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_8 = {
+	start_date = 1582.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_9 = {
+	start_date = 1582.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_10 = {
+	start_date = 1582.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_11 = {
+	start_date = 1582.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1582_12 = {
+	start_date = 1582.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_1 = {
+	start_date = 1583.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_2 = {
+	start_date = 1583.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_3 = {
+	start_date = 1583.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_4 = {
+	start_date = 1583.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_5 = {
+	start_date = 1583.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_6 = {
+	start_date = 1583.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_7 = {
+	start_date = 1583.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_8 = {
+	start_date = 1583.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_9 = {
+	start_date = 1583.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_10 = {
+	start_date = 1583.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_11 = {
+	start_date = 1583.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1583_12 = {
+	start_date = 1583.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_1 = {
+	start_date = 1584.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_2 = {
+	start_date = 1584.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_3 = {
+	start_date = 1584.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_4 = {
+	start_date = 1584.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_5 = {
+	start_date = 1584.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_6 = {
+	start_date = 1584.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_7 = {
+	start_date = 1584.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_8 = {
+	start_date = 1584.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_9 = {
+	start_date = 1584.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_10 = {
+	start_date = 1584.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_11 = {
+	start_date = 1584.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1584_12 = {
+	start_date = 1584.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_1 = {
+	start_date = 1585.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_2 = {
+	start_date = 1585.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_3 = {
+	start_date = 1585.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_4 = {
+	start_date = 1585.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_5 = {
+	start_date = 1585.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_6 = {
+	start_date = 1585.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_7 = {
+	start_date = 1585.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_8 = {
+	start_date = 1585.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_9 = {
+	start_date = 1585.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_10 = {
+	start_date = 1585.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_11 = {
+	start_date = 1585.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1585_12 = {
+	start_date = 1585.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_1 = {
+	start_date = 1586.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_2 = {
+	start_date = 1586.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_3 = {
+	start_date = 1586.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_4 = {
+	start_date = 1586.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_5 = {
+	start_date = 1586.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_6 = {
+	start_date = 1586.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_7 = {
+	start_date = 1586.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_8 = {
+	start_date = 1586.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_9 = {
+	start_date = 1586.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_10 = {
+	start_date = 1586.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_11 = {
+	start_date = 1586.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1586_12 = {
+	start_date = 1586.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_1 = {
+	start_date = 1587.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_2 = {
+	start_date = 1587.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_3 = {
+	start_date = 1587.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_4 = {
+	start_date = 1587.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_5 = {
+	start_date = 1587.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_6 = {
+	start_date = 1587.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_7 = {
+	start_date = 1587.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_8 = {
+	start_date = 1587.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_9 = {
+	start_date = 1587.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_10 = {
+	start_date = 1587.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_11 = {
+	start_date = 1587.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1587_12 = {
+	start_date = 1587.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_1 = {
+	start_date = 1588.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_2 = {
+	start_date = 1588.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_3 = {
+	start_date = 1588.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_4 = {
+	start_date = 1588.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_5 = {
+	start_date = 1588.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_6 = {
+	start_date = 1588.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_7 = {
+	start_date = 1588.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_8 = {
+	start_date = 1588.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_9 = {
+	start_date = 1588.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_10 = {
+	start_date = 1588.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_11 = {
+	start_date = 1588.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1588_12 = {
+	start_date = 1588.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_1 = {
+	start_date = 1589.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_2 = {
+	start_date = 1589.2.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_3 = {
+	start_date = 1589.3.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_4 = {
+	start_date = 1589.4.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_5 = {
+	start_date = 1589.5.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_6 = {
+	start_date = 1589.6.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_7 = {
+	start_date = 1589.7.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_8 = {
+	start_date = 1589.8.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_9 = {
+	start_date = 1589.9.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_10 = {
+	start_date = 1589.10.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_11 = {
+	start_date = 1589.11.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1589_12 = {
+	start_date = 1589.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1590_1 = {
+	start_date = 1590.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1591_1 = {
+	start_date = 1591.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1592_1 = {
+	start_date = 1592.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1593_1 = {
+	start_date = 1593.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1594_1 = {
+	start_date = 1594.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1595_1 = {
+	start_date = 1595.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1596_1 = {
+	start_date = 1596.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+bm_extra1597_1 = {
+	start_date = 1597.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1598_1 = {
+	start_date = 1598.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1599_1 = {
+	start_date = 1599.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1600_1 = {
+	start_date = 1600.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1601_1 = {
+	start_date = 1601.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1602_1 = {
+	start_date = 1602.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1603_1 = {
+	start_date = 1603.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1604_1 = {
+	start_date = 1604.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1605_1 = {
+	start_date = 1605.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1606_1 = {
+	start_date = 1606.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1607_1 = {
+	start_date = 1607.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1608_1 = {
+	start_date = 1608.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1609_1 = {
+	start_date = 1609.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1610_1 = {
+	start_date = 1610.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1611_1 = {
+	start_date = 1611.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1612_1 = {
+	start_date = 1612.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1613_1 = {
+	start_date = 1613.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}
+
+bm_extra1614_1 = {
+	start_date = 1614.1.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}

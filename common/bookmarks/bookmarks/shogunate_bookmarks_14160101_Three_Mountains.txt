@@ -1,0 +1,5 @@
+﻿bm_threemountain_1416 = {
+	start_date = 1416.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}

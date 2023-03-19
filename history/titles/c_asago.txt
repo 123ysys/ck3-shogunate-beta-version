@@ -1,0 +1,180 @@
+c_nmih_asago = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_asago1={
+				set_title_name=b_nmih_asago2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_asago1={
+				set_title_name=b_nmih_asago3
+			}
+		}
+	}
+	1431.1.1={
+		effect={
+			title:b_nmih_asago1={
+				set_title_name=b_nmih_asago1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 10 }
+	1431.1.1 = { change_development_level = 10 }
+	1534.1.1 = { change_development_level = 20 }
+	1542.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	698.1.1={
+		holder=10240020 # Kusakabe Arashima
+	}
+	710.1.1={
+		holder=10240021 # Kusakabe Harunaga
+	}
+	723.1.1={
+		holder=10240023 # Kusakabe Oimaro
+	}
+	770.1.1={
+		holder=10240027 # Kusakabe Kunimori
+	}
+	863.1.1={
+		holder=10240031 # Kusakabe Munenaga
+	}
+	865.1.1={
+		holder=10240042 # Kusakabe Sadane
+	}
+	869.11.25={
+		holder=10240035 # Kusakabe Ujiyasu
+	}
+	891.1.1={
+		holder=10240036 # Kusakabe Tsunesane
+	}
+	912.1.1={
+		holder=10240043 # Kusakabe Toshizane
+	}
+	925.1.1={
+		holder=10240046 # Kusakabe Kimimoto
+	}
+	950.1.1={
+		holder=10240048 # Kusakabe Suketoo
+	}
+	990.1.1={
+		holder=10240039 # Kusakabe Morisuke
+	}
+	1020.1.1={
+		holder=10240041 # Kusakabe Yorifushi
+	}
+	1053.1.1={
+		holder=10240040 # Kusakabe Aitsugi
+	}
+	1084.1.1={
+		holder=10240051 # Kusakabe Iesada
+	}
+	1110.6.4={
+		holder=10240052 # Kusakabe Ietsugu
+	}
+	1161.4.2={
+		holder=10240053 # Kusakabe Iechika
+	}
+	1180.1.1={
+		liege="d_nmih_tajima"
+	}
+	1182.7.8={
+		holder=10240054 # Kusakabe Iehira
+	}
+	1185.4.25={
+		liege="d_nmih_tajima"
+		holder=10240065 # Asakura Takakiyo
+	}
+	1213.1.1={
+		holder=10240068 # Asakura Nobutaka
+	}
+	1240.1.1={
+		holder=10240069 # Asakura Yasunobu
+	}
+	1260.1.1={
+		holder=10240074 # Asakura Hironobu
+	}
+	1290.1.1={
+		holder=10030001 # Asakura Hirokage
+	}
+	1333.7.4={
+		liege=0
+	}
+	1336.1.1={
+		liege="d_nmih_owari"
+	}
+	1336.7.22={
+		liege="d_nmih_echizen"
+	}
+	1337.1.1={
+		liege="d_nmih_tajima"
+		holder=10050138 # Otagaki Mitsuyoshi
+	}
+	1380.1.1={
+		holder=10050139 # Otagaki Mitsunari
+	}
+	1390.1.1={
+		holder=10050140 # Otagaki Michiyasu
+	}
+	1410.1.1={
+		holder=10050145 # Otagaki Michimitsu
+	}
+	1420.1.1={
+		liege="d_nmih_tajima"
+		holder=10050130 # Otagaki Mitsukage
+	}
+	1450.1.1={
+		holder=10050127 # Otagaki Kagechika
+	}
+	1479.1.1={
+		holder=10050125 # Otagaki Munetomo
+	}
+	1492.1.1={
+		holder=10050124 # Otagaki Tomosada
+	}
+	1521.1.1={
+		holder=10050123 # Otagaki Munetoshi
+	}
+	1538.1.1={
+		holder=10050122 # Otagaki Tomonobu
+	}
+	1570.1.1={
+		holder=10050120 # Otagaki Terunobu
+	}
+	1580.7.2={
+		liege="d_nmih_harima"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1580.7.3={
+		holder=10029401 # Hashiba Hidenaga
+	}
+	1582.7.16={
+		liege="d_nmih_tajima"
+	}
+	1583.6.14={
+		holder=10093900 # Kuwayama Shigeharu
+	}
+	1585.5.11={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.8.10={
+		holder=10053542 # Akamatsu(Saimura) Masahiro
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029457 # Sugihara Nagafusa
+	}
+}

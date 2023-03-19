@@ -1,0 +1,342 @@
+﻿# Dates are in lunar calendar
+
+shogunate_japanese_date = {
+	type = character
+
+	# Heian Era
+
+	text = {
+		trigger = {
+			current_date >= 1177.8.4
+			current_date <  1181.7.14
+		}
+		localization_key = shogunate_date_1177
+	}
+	text = {
+		trigger = {
+			current_date >= 1181.7.14
+			current_date <  1182.5.27
+		}
+		localization_key = shogunate_date_1181
+	}
+	text = {
+		trigger = {
+			current_date >= 1182.5.27
+			current_date <  1184.4.16
+		}
+		localization_key = shogunate_date_1182
+	}
+	text = {
+		trigger = {
+			current_date >= 1184.4.16
+			current_date <  1185.8.14
+		}
+		localization_key = shogunate_date_1184
+	}
+
+	# Kamakura Era
+
+	text = {
+		trigger = {
+			current_date >= 1185.8.14
+			current_date <  1190.4.11
+		}
+		localization_key = shogunate_date_1185
+	}
+	text = {
+		trigger = {
+			current_date >= 1190.4.11
+			current_date <  1199.4.27
+		}
+		localization_key = shogunate_date_1190
+	}
+	text = {
+		trigger = {
+			current_date >= 1199.4.27
+			current_date <  1201.2.13
+		}
+		localization_key = shogunate_date_1199
+	}
+	text = {
+		trigger = {
+			current_date >= 1201.2.13
+			current_date <  1204.2.20
+		}
+		localization_key = shogunate_date_1201
+	}
+	text = {
+		trigger = {
+			current_date >= 1204.2.20
+			current_date <  1206.4.27
+		}
+		localization_key = shogunate_date_1204
+	}
+	text = {
+		trigger = {
+			current_date >= 1206.4.27
+			current_date <  1207.10.25
+		}
+		localization_key = shogunate_date_1206
+	}
+	text = {
+		trigger = {
+			current_date >= 1207.10.25
+			current_date <  1211.3.9
+		}
+		localization_key = shogunate_date_1207
+	}
+	text = {
+		trigger = {
+			current_date >= 1211.3.9
+			current_date <  1213.12.6
+		}
+		localization_key = shogunate_date_1211
+	}
+	text = {
+		trigger = {
+			current_date >= 1213.12.6
+			current_date <  1219.4.12
+		}
+		localization_key = shogunate_date_1213
+	}
+	text = {
+		trigger = {
+			current_date >= 1219.4.12
+			current_date <  1222.4.13
+		}
+		localization_key = shogunate_date_1219
+	}
+
+	# Sengoku Era
+
+	text = {
+		trigger = {
+			current_date >= 1467.3.5
+			current_date <  1469.4.28
+		}
+		localization_key = shogunate_date_1467
+	}
+	text = {
+		trigger = {
+			current_date >= 1469.4.28
+			current_date <  1487.7.20
+		}
+		localization_key = shogunate_date_1469
+	}
+	text = {
+		trigger = {
+			current_date >= 1487.7.20
+			current_date <  1489.8.21
+		}
+		localization_key = shogunate_date_1487
+	}
+	text = {
+		trigger = {
+			current_date >= 1489.8.21
+			current_date <  1492.7.19
+		}
+		localization_key = shogunate_date_1489
+	}
+	text = {
+		trigger = {
+			current_date >= 1492.7.19
+			current_date <  1501.2.29
+		}
+		localization_key = shogunate_date_1492
+	}
+	text = {
+		trigger = {
+			current_date >= 1501.2.29
+			current_date <  1504.2.30
+		}
+		localization_key = shogunate_date_1501
+	}
+	text = {
+		trigger = {
+			current_date >= 1504.2.30
+			current_date <  1521.8.23
+		}
+		localization_key = shogunate_date_1504
+	}
+	text = {
+		trigger = {
+			current_date >= 1521.8.23
+			current_date <  1528.8.20
+		}
+		localization_key = shogunate_date_1521
+	}
+	text = {
+		trigger = {
+			current_date >= 1528.8.20
+			current_date <  1532.7.29
+		}
+		localization_key = shogunate_date_1528
+	}
+	text = {
+		trigger = {
+			current_date >= 1532.7.29
+			current_date <  1555.10.23
+		}
+		localization_key = shogunate_date_1532
+	}
+	text = {
+		trigger = {
+			current_date >= 1555.10.23
+			current_date <  1558.2.28
+		}
+		localization_key = shogunate_date_1555
+	}
+	text = {
+		trigger = {
+			current_date >= 1558.2.28
+			current_date <  1570.4.23
+		}
+		localization_key = shogunate_date_1558
+	}
+	text = {
+		trigger = {
+			current_date >= 1570.4.23
+			current_date <  1573.7.28
+		}
+		localization_key = shogunate_date_1570
+	}
+
+	# Azuchi-Momoyama Era
+
+	text = {
+		trigger = {
+			current_date >= 1573.7.28
+			current_date <  1592.12.8
+		}
+		localization_key = shogunate_date_1573
+	}
+	text = {
+		trigger = {
+			current_date >= 1592.12.8
+			current_date <  1596.10.27
+		}
+		localization_key = shogunate_date_1592
+	}
+	text = {
+		trigger = {
+			current_date >= 1596.10.27
+			current_date <  1615.7.13
+		}
+		localization_key = shogunate_date_1596
+	}
+
+	# Edo Era
+
+	text = {
+		trigger = {
+			current_date >= 1615.7.13
+			current_date <  1624.2.30
+		}
+		localization_key = shogunate_date_1615
+	}
+	text = {
+		trigger = {
+			current_date >= 1624.2.30
+			current_date <  1644.12.16
+		}
+		localization_key = shogunate_date_1624
+	}
+	text = {
+		trigger = {
+			current_date >= 1644.12.16
+			current_date <  1648.2.15
+		}
+		localization_key = shogunate_date_1644
+	}
+	text = {
+		trigger = {
+			current_date >= 1648.2.15
+			current_date <  1652.9.18
+		}
+		localization_key = shogunate_date_1648
+	}
+	text = {
+		trigger = {
+			current_date >= 1652.9.18
+			current_date <  1655.4.13
+		}
+		localization_key = shogunate_date_1652
+	}
+	text = {
+		trigger = {
+			current_date >= 1655.4.13
+			current_date <  1658.7.23
+		}
+		localization_key = shogunate_date_1655
+	}
+	text = {
+		trigger = {
+			current_date >= 1658.7.23
+			current_date <  1661.4.25
+		}
+		localization_key = shogunate_date_1658
+	}
+	text = {
+		trigger = {
+			current_date >= 1661.4.25
+			current_date <  1673.9.21
+		}
+		localization_key = shogunate_date_1661
+	}
+	text = {
+		trigger = {
+			current_date >= 1673.9.21
+			current_date <  1681.9.29
+		}
+		localization_key = shogunate_date_1673
+	}
+	text = {
+		trigger = {
+			current_date >= 1681.9.29
+			current_date <  1684.2.21
+		}
+		localization_key = shogunate_date_1681
+	}
+	text = {
+		trigger = {
+			current_date >= 1684.2.21
+			current_date <  1688.9.30
+		}
+		localization_key = shogunate_date_1684
+	}
+	text = {
+		trigger = {
+			current_date >= 1688.9.30
+			current_date <  1704.3.13
+		}
+		localization_key = shogunate_date_1688
+	}
+	text = {
+		trigger = {
+			current_date >= 1704.3.13
+			current_date <  1711.4.25
+		}
+		localization_key = shogunate_date_1704
+	}
+	text = {
+		trigger = {
+			current_date >= 1711.4.25
+			current_date <  1716.6.22
+		}
+		localization_key = shogunate_date_1711
+	}
+	text = {
+		trigger = {
+			current_date >= 1716.6.22
+			current_date <  1736.4.28
+		}
+		localization_key = shogunate_date_1716
+	}
+
+	# Fallback
+
+	text = {
+		fallback = yes
+		localization_key = shogunate_date_default
+	}
+}

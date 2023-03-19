@@ -1,0 +1,160 @@
+c_nmih_kagawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kagawa1={
+				set_title_name=b_nmih_kagawa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kagawa1={
+				set_title_name=b_nmih_kagawa9
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_kagawa1={
+				set_title_name=B_NMIH_KAGAWA9_1185
+			}
+		}
+	}
+	1590.1.1={
+		effect={
+			title:b_nmih_kagawa1={
+				set_title_name=b_nmih_kagawa5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1179.12.17 = { change_development_level = 20 }
+	1185.3.22 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 30 }
+	1420.1.1 = { change_development_level = 40 }
+	1590.1.1 = { change_development_level = 40 }
+
+	100.1.1={
+		liege="d_nmih_sanuki"
+	}
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110025 # Taira Kiyomori
+	}
+	1181.3.20={
+		holder=10110042 # Taira Munemori
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_sanuki"
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_sanuki"
+		holder=10130173 # Goto Motokiyo
+	}
+	1199.3.12={
+		holder=10130535 # Kondo Kunihira
+	}
+	1200.1.1={
+		holder=12211040 # Miura Yoshimura
+	}
+	1221.6.6={
+		holder=12211043 # Miura Taneyoshi
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_sanuki"
+		holder=12211040 # Miura Yoshimura
+	}
+	1239.12.31={
+		holder=12211052 # Miura Mitsumura
+	}
+	1247.7.9={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1256.4.7={
+		holder=10131670 # Hojo [Igu] Aritoki
+	}
+	1270.3.23={
+		holder=10131728 # Hojo [Igu] Michitoki
+	}
+	1293.1.1={
+		holder=10131895 # Hojo [Igu] Naritoki
+	}
+	1329.9.26={
+		holder=10132063 # Hojo [Igu] Tokikuni
+	}
+	1333.7.4={
+		liege="d_nmih_sanuki"
+		holder=12420400 # Funaki Yorishige
+	}
+	1336.3.1={
+		liege="d_nmih_sanuki"
+		holder=10040579 # Hosokawa Akiuji
+	}
+	1352.1.1={
+		holder=10040580 # Hosokawa Shigeuji
+	}
+	1359.1.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.3.25={
+		holder=10040538 # Hosokawa Mitsumoto
+	}
+	1426.11.15={
+		holder=10040541 # Hosokawa Mochimoto
+	}
+	1429.8.14={
+		holder=10040539 # Hosokawa Mochiyuki
+	}
+	1442.9.8={
+		holder=10040543 # Hosokawa Katsumoto
+	}
+	1473.6.6={
+		holder=10040544 # Hosokawa Masamoto
+	}
+	1507.8.1={
+		holder=10040567 # Hosokawa Sumiyuki
+	}
+	1507.9.7={
+		holder=10040501 # Hosokawa Sumimoto
+	}
+	1508.7.28={
+		holder=10040566 # Hosokata Takakuni
+	}
+	1527.1.1={
+		liege="k_nmih_southern_kinai"
+		holder=10040500 # Hosokawa Harumoto
+	}
+	1527.3.14={
+		liege="d_nmih_sanuki"
+	}
+	1534.1.1={
+		holder = 10059011 # Sogo(Miyoshi) Kazumasa
+	}
+	1561.4.2={
+		holder=10059019 # Sogo Masayasu
+	}
+	1584.7.8={
+		liege="d_nmih_tosa"
+		holder=10059111 # Chosokabe Chikatake
+	}
+	1585.8.10={
+		holder=10029670 # Sengoku Hidehisa
+		liege="e_nmih_japan"
+	}
+	1587.1.20={
+		holder=10025980 # Ikoma Chikamasa
+	}
+	1603.3.24={
+		liege="d_nmih_sanuki"
+		holder=10025980 # Ikoma Chikamasa
+	}
+	1603.3.25={
+		holder=10025981 # Ikoma Kazumasa
+	}
+	1610.5.11={
+		holder=10025982 # Ikoma Masatoshi
+	}
+}

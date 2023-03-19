@@ -1,0 +1,289 @@
+d_nmih_echizen = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0759.11.29={
+		holder=11005112 # Fujiwara Hiroo {Echizen no Kami}
+	}
+	0764.2.28={
+		holder=11005113 # Fujiwara Shikachi {Echizen no Kami}
+	}
+	0764.10.7={
+		holder=11005008 # Fujiwara Tsugutada {Echizen no Kami}
+	}
+	0770.10.2={
+		holder=0 #  
+	}
+	0781.6.7={
+		holder=11004500 # Fujiwara Takatori {Echizen no Kami}
+	}
+	0782.8.7={
+		holder=0 #  
+	}
+	0786.3.3={
+		holder=11000024 # Fujiwara Uchimaro {Echizen no Kami}
+	}
+	0793.3.16={
+		holder=0 #  
+	}
+	0797.3.15={
+		holder=11005037 # Fujiwara Takatoshi {Echizen no Kami}
+	}
+	0835.1.1={
+		holder=11000030 # Fujiwara Nagaoka {Echizen no Kami}
+	}
+	0839.1.1={
+		holder=0 #  
+	}
+	0849.2.13={
+		holder=11004528 # Fujiwara Takafusa {Echizen no Kami}
+	}
+	0849.7.25={
+		holder=0 #  
+	}
+	0948.2.28={
+		holder=11005250 # Fujiwara Moriyoshi {Echizen no Kami}
+	}
+	0967.9.18={
+		holder=0 #  
+	}
+	1028.8.4={
+		holder=11005660 # Fujiwara Tamemori {Echizen no Kami}
+	}
+	1029.1.1={
+		holder=0 #  
+	}
+	1058.12.2={
+		holder=11003041 # Fujiwara Sadanari {Echizen no Kami}
+	}
+	1063.6.1={
+		holder=0 #  
+	}
+	1120.12.24={
+		holder=10110026 # Taira Tadamori {Echizen no Kami}
+	}
+	1128.1.30={
+		holder=11006011 # Fujiwara Akiyoshi {Echizen no Kami}
+	}
+	1132.5.27={
+		holder=0
+	}
+	1140.2.1={
+		holder=11006740 # Fujiwara Akiyasu {Echizen no Kami}
+	}
+	1142.1.7={
+		holder=11006031 # Fujiwara Korekata {Echizen no Kami}
+	}
+	1145.1.31={
+		holder=11006720 # Fujiwara Toshimori {Echizen no Kami}
+	}
+	1160.5.21={
+		holder=11006722 # Fujiwara Sueyoshi {Echizen no Kami}
+	}
+	1161.2.3={
+		holder=10110041 # Taira Motomori {Echizen no Kami}
+	}
+	1162.5.2={
+		holder=0
+	}
+	1163.3.7={
+		holder=10110121 # Taira Yasumori {Echizen no Kami}
+	}
+	1167.1.29={
+		holder=10110061 # Taira Sukemori {Echizen no Kami}
+	}
+	1176.3.19={
+		holder=10110110 # Taira Michimori {Echizen no Kami}
+	}
+	1179.12.18={
+		liege="k_nmih_hokuriku"
+		holder=10110032 # Taira Norimori
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="k_nmih_shinano"
+		holder=10131301 # Saito Tomozane
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+	}
+	1185.11.10={
+		liege="k_nmih_northern_kinai"
+	}
+	1185.11.26={
+		liege="e_nmih_japan"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		liege="e_nmih_joko"
+		holder=10243075 # Takashina Yasutsune
+	}
+	1195.1.1={
+		holder=11006346 # Bomon Taneko
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1227.10.1={
+		holder=10060034 # Shimazu Tadatoki
+	}
+	1228.1.1={
+		holder=10130206 # Goto Mototsuna
+	}
+	1256.12.23={
+		holder=10130211 # Goto Motomasa
+	}
+	1267.7.16={
+		holder=10130218 # Goto Motoyori
+	}
+	1275.12.1={
+		holder=12395020 # Kira Mitsuuji
+	}
+	1285.12.14={
+		holder=10130218 # Goto Motoyori
+	}
+	1301.12.19={
+		holder=10130221 # Goto Motomune
+	}
+	1308.1.1={
+		holder=10130223 # Goto Motoo
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12185200 # Horiguchi Sadayoshi
+	}
+	1334.8.1={
+		liege="k_nmih_western_kanto"
+		holder=12139049 # Shiba Takatsune
+	}
+	1335.2.1={
+		liege="e_nmih_nancho"
+		holder=12185040 # Nitta Yoshisada
+	}
+	1335.8.14={
+		liege="k_nmih_hokuriku"
+	}
+	1336.7.22={
+		liege="e_nmih_japan"
+		holder=12139049 # Shiba Takatsune
+	}
+	1341.2.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+		holder=12139049 # Shiba Takatsune
+	}
+	1351.8.23={
+		liege="e_nmih_japan"
+	}
+	1366.9.13={
+		holder=10048109 # Hatakeyama Yoshifuka
+	}
+	1379.1.1={
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1379.2.1={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1396.3.1={
+		holder=10029011 # Shiba Yoshishige
+	}
+	1418.9.10={
+		holder=10029012 # Shiba Yoshiatsu
+	}
+	1434.1.11={
+		holder=10029013 # Shiba Yoshisato
+	}
+	1436.1.18={
+		holder=10029016 # Shiba Yoshitake
+	}
+	1452.10.13={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1460.1.1={
+		holder=10029021 # Shiba Yoshihiro
+	}
+	1461.9.6={
+		liege="e_nmih_japan"
+		holder=10057621 # Shiba Yoshikado
+	}
+	1466.9.2={
+		liege="e_nmih_japan"
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1466.10.23={
+		liege="e_nmih_japan"
+		holder=10057621 # Shiba Yoshikado
+	}
+	1467.6.27={ # Onin War
+		liege="k_nmih_sanin"
+	}
+	1471.6.9={
+		liege="e_nmih_japan"
+		holder=10030007 # Asakura Takakage
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
+	1481.8.21={
+		holder=10030008 # Asakura Ujikage
+	}
+	1486.8.3={
+		holder=10030010 # Asakura Sadakage
+	}
+	1512.4.11={
+		holder=10030000 # Asakura Takakage
+	}
+	1548.4.30={
+		holder=10030011 # Asakura Yoshikage
+	}
+	1573.9.16={
+		holder=0 # 
+	}
+	1573.9.24={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10030100 # Maeba Yoshitsugu
+	}
+	1574.2.10={
+		liege=0 # 
+		holder=0 # 
+	}
+	1574.9.1={
+		government = theocracy_government
+		liege="k_nmih_honganji" # 
+		holder=10042324 # Shimotsuma Raisho
+	}
+	1575.10.1={
+		government = feudal_government
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029280 # Shibata Katsuie
+	}
+	1583.6.14={ 
+		holder=10029310 # Niwa Nagahide
+	}
+	1585.5.15={ 
+		holder=10029313 # Niwa Nagashige
+	}
+	1585.7.27={ 
+		liege="e_nmih_japan"
+	}
+	1585.9.9={ 
+		holder=10025963 # Hori Hidemasa
+	}
+	1590.6.28={ 
+		holder=10025964 # Hori Hideharu
+	}
+	1598.3.1={
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1599.2.19={
+		holder=10093106 # Aoki Kazunori
+	}
+	1603.3.24={
+		holder=10024030 # Yuki Hideyasu
+	}
+	1607.6.2={
+		holder=10024042 # Matsudaira Tadanao
+	}
+}

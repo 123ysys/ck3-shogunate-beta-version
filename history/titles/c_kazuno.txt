@@ -1,0 +1,114 @@
+c_nmih_kazuno = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kazuno1={
+				set_title_name=b_nmih_kazuno9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kazuno1={
+				set_title_name=b_nmih_kazuno9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kazuno1={
+				set_title_name=b_nmih_kazuno1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1180.1.1={
+		liege="d_nmih_ugo"
+		holder=12030050 # Fujiwara Kunihira
+	}
+	1189.9.21={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.10.14={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=12205605 # Narita Suketsuna
+	}
+	1220.1.1={
+		holder=12205610 # Narita Sukeyasu
+	}
+	1221.7.6={
+		liege="d_nmih_musashi"
+		holder=12205615 # Narita Tadatsuna
+	}
+	1280.1.1={
+		holder=12205620 # Narita Ietsuna
+	}
+	1310.1.1={
+		holder=12205625 # Narita Ietoki
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=12205630 # Narita Yoritoki
+	}
+	1341.1.1={
+		liege="d_nmih_mutsu"
+		holder=12040156 # Nanbu Masanaga
+	}
+	1360.1.1={
+		holder=12040305 # Nanbu Nobumitsu
+	}
+	1376.2.13={
+		holder=12040306 # Nanbu Masamitsu
+	}
+	1392.1.1={
+		liege="d_nmih_mutsu"
+		holder=12040190 # Nanbu Moriyuki
+	}
+	1437.5.13={
+		holder=12040200 # Nanbu Yoshimasa
+	}
+	1440.8.9={
+		holder=12040201 # Nanbu Masamori
+	}
+	1445.1.1={
+		holder=10003130 # Nanbu Mitsumasa
+	}
+	1449.1.1={
+		holder=10003131 # Nanbu Tokimasa
+	}
+	1473.4.2={
+		holder=10003132 # Nanbu Michitsugu
+	}
+	1483.1.1={
+		holder=10003133 # Nanbu Nobutoki
+	}
+	1502.1.11={
+		holder=10003134 # Nanbu Nobuyoshi
+	}
+	1503.6.18={
+		holder=10003135 # Nanbu Masayasu
+	}
+	1507.3.23={
+		holder=10003101 # Nanbu Yasunobu
+	}
+	1530.1.1={
+		liege="d_nmih_mutsu"
+		holder=10003139 # Kemanai Hidenori
+	}
+	1585.1.1={
+		holder=10003150 # Kemanai Masatsugu
+	}
+}

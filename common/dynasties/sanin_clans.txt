@@ -1,0 +1,116 @@
+﻿10000500 = {
+	name=dynasty_name_10000500
+	culture = sanin
+	motto = dynn_10000500_motto
+}
+10000501 = {
+	name=dynasty_name_10000501#coat_of_arms = #Ken Tomoe
+	culture = western_chugoku
+}
+10000502 = {
+	name=dynasty_name_10000502
+	culture = western_chugoku
+}
+10000503 = {
+	name=dynasty_name_10000503
+	culture = sanin
+}
+10000504={
+	name=dynasty_name_10000504
+	culture=sanin
+}
+10000505={
+	name=dynasty_name_10000505
+	culture=sanin
+}
+10000506={
+	name=dynasty_name_10000506
+	culture=sanin
+}
+10000507={
+	name=dynasty_name_10000507
+	culture=sanin
+}
+10000508={
+	name=dynasty_name_10000508
+	culture=sanin
+}
+10000509={
+	name=dynasty_name_10000509
+	culture=sanin
+}
+10000510={
+	name=dynasty_name_10000510
+	culture=sanin
+}
+10000511={
+	name=dynasty_name_10000511
+	culture=sanin
+}
+10000512={
+	name=dynasty_name_10000512
+	culture=sanin
+}
+10000513={
+	name=dynasty_name_10000513
+	culture=sanin
+}
+10000514={
+	name=dynasty_name_10000514
+	culture=sanin
+}
+10000515 = {
+	name=dynasty_name_10000515
+	culture = sanin
+	motto = dynn_10000515_motto
+}
+10000516 = {
+	name=dynasty_name_10000516
+	culture = sanin
+	motto = dynn_10000516_motto
+}
+10000517 = {
+	name=dynasty_name_10000517
+	culture = sanin
+}
+10000518 = {
+	name=dynasty_name_10000518 #In historical fact, Yugao
+	culture = sanin
+}
+10000519={
+	name=dynasty_name_10000519
+	culture=sanin
+	motto = dynn_10000519_motto
+}
+10000521={
+	name=dynasty_name_10000521
+	culture=sanin
+}
+10000522={
+	name=dynasty_name_10000522
+	culture=sanin
+}
+10000523={
+	name=dynasty_name_10000523
+	culture=sanin
+}
+10000524={
+	name=dynasty_name_10000524
+	culture=sanin
+}
+10000525={
+	name=dynasty_name_10000525
+	culture=sanin
+}
+10000526={
+	name=dynasty_name_10000526
+	culture=sanin
+}
+10000527={
+	name=dynasty_name_10000527
+	culture=sanin
+}
+10000528={
+	name=dynasty_name_10000528
+	culture=sanin
+}

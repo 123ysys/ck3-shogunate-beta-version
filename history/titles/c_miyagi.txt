@@ -1,0 +1,142 @@
+c_nmih_miyagi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_miyagi1={
+				set_title_name=b_nmih_miyagi1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_miyagi1={
+				set_title_name=b_nmih_miyagi4
+			}
+		}
+	}
+	1337.2.9={
+		effect={
+			title:b_nmih_miyagi1={
+				set_title_name=b_nmih_miyagi1
+			}
+		}
+	}
+	1600.12.1={
+		effect={
+			title:b_nmih_miyagi1={
+				set_title_name=B_NMIH_MIYAGI1_1600
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1337.2.9 = { change_development_level = 30 }
+	1600.12.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1187.11.30={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_rikuzen"
+		holder=12080005 # Isawa Iekage
+	}
+	1221.10.29={
+		holder=12080010 # Rusu Iemoto
+	}
+	1240.1.1={
+		holder=12080015 # Rusu Iehiro
+	}
+	1285.1.1={
+		holder=12080020 # Rusu Tsuneie
+	}
+	1290.1.1={
+		holder=12080025 # Rusu Ienobu
+	}
+	1300.1.1={
+		holder=12080030 # Rusu Iesuke
+	}
+	1320.1.1={
+		holder=12080035 # Rusu Ietaka
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=10125125 # Kitabatake Akiie
+	}
+	1337.2.9={
+		liege="d_nmih_oshu_shugo"
+		holder=10029006 # Shiba Ienaga
+	}
+	1338.1.16={
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1345.1.1={
+		holder=10007311 # Hatakeyama Kuniuji
+	}
+	1351.3.18={
+		liege="k_nmih_oshu_kanrei"
+		holder=12395015 # Kira Sadaie
+	}
+	1351.10.1={
+		liege="k_nmih_mutsu_shogun"
+		holder=10125126 # Kitabatake Akinobu
+	}
+	1352.3.1={
+		liege="k_nmih_oshu_kanrei"
+		holder=12395015 # Kira Sadaie
+	}
+	1354.1.1={
+		holder=10018306 # Kira Mitsuie
+	}
+	1356.11.1={
+		liege="k_nmih_oshu_tandai"
+		holder=12080045 # Rusu Ieto
+	}
+	1380.1.1={
+		holder=12080050 # Rusu Iemasa
+	}
+	1390.1.1={
+		holder=12080055 # Rusu Ieaki
+	}
+	1392.1.1={
+		liege=0
+	}
+	1400.1.1={
+		holder=12080060 # Rusu Akiie
+	}
+	1410.1.1={
+		liege=0
+		holder=12080061 # Rusu Mochiie
+	}
+	1469.1.1={
+		holder=10006402 # Rusu Kunimune
+	}
+	1495.10.22={
+		holder=10006401 # Rusu Kagemune
+	}
+	1542.6.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1554.1.1={
+		holder=10006404 # Rusu Akimune
+	}
+	1567.1.1={
+		holder=10001022 # Rusu Masakage
+	}
+	1591.8.12={
+		liege="d_nmih_rikuzen"
+	}
+	1603.3.24={
+		holder=10001035 # Date Masamune
+	}
+}

@@ -1,0 +1,55 @@
+k_nmih_kanrei = {
+	1000.1.1={
+	}
+	1000.1.1={
+		liege="e_nmih_japan"
+	}
+	1366.9.13={
+		liege="e_nmih_japan"
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.3.25={
+		holder=10040536 # Hosokawa Yorimoto
+	}
+	1397.6.2={
+		holder=10040538 # Hosokawa Mitsumoto
+	}
+	1426.11.15={
+		holder=10040541 # Hosokawa Mochimoto
+	}
+	1429.8.14={
+		holder=10040539 # Hosokawa Mochiyuki
+	}
+	1442.9.8={
+		holder=10040543 # Hosokawa Katsumoto
+	}
+	1467.6.27={ # Onin war
+		liege="e_nmih_japan"
+	}
+	1473.6.6={ # De facto
+		holder = 10040544 # Hosokawa Masamoto
+	}
+	1507.8.1 = {
+		holder = 10040567 # Hosokawa Sumiyuki
+	}
+	1507.9.7 = {
+		holder = 10040501 # Hosokawa Sumimoto
+	}
+	1508.7.18 = {
+		holder = 10040566 # Hosokawa Takakuni
+	}
+	1527.1.1={
+		liege=0
+	}
+	1527.3.14={
+		liege=0
+		holder = 10040500 # Hosokawa Harumoto, De-Facto Kanrei
+	}
+	1534.1.1={
+		liege="e_nmih_japan"
+	}
+	1549.7.18={
+		holder=0
+	}
+
+}

@@ -1,0 +1,111 @@
+c_nmih_kami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kami1={
+				set_title_name=b_nmih_kami9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kami1={
+				set_title_name=b_nmih_kami9
+			}
+		}
+	}
+	1308.1.1={
+		effect={
+			title:b_nmih_kami1={
+				set_title_name=b_nmih_kami5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1308.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1150.1.1={
+		liege=0
+		holder=12690700 # Aki Hiroyasu
+	}
+	1184.11.20={
+		liege="d_nmih_tosa"
+	}
+	1190.1.1={
+		holder=12690703 # Aki Sanetsune
+	}
+	1205.1.1={
+		holder=12690704 # Aki Sanekiyo
+	}
+	1225.1.1={
+		holder=12690705 # Aki Sanekuni
+	}
+	1245.1.1={
+		holder=12690706 # Aki Sanetada
+	}
+	1265.1.1={
+		holder=12690707 # Aki Sanenobu
+	}
+	1288.1.1={
+		holder=12690708 # Aki Tomonobu
+	}
+	1305.1.1={
+		holder=12690720 # Aki Tomochika
+	}
+	1330.1.1={
+		holder=12690721 # Aki Chikauji
+	}
+	1333.7.4={
+		liege="d_nmih_tosa"
+	}
+	1355.1.1={
+		holder=12690722 # Aki Tadachika
+	}
+	1380.1.1={
+		holder=12690723 # Aki Tadayuki
+	}
+	1405.1.1={
+		holder=12690724 # Aki Motoshige
+	}
+	1430.1.1={
+		holder=12690725 # Aki Motozane
+	}
+	1439.1.1={
+		holder=12690739 # Aki Motonobu
+	}
+	1467.6.27={
+		liege=0
+	}
+	1470.1.1={
+		holder=10058203 # Aki Motomori
+	}
+	1500.1.1={
+		holder=10058201 # Aki Motochika
+	}
+	1528.1.1={
+		holder=10058200 # Aki Motoyasu
+	}
+	1558.1.1={
+		holder=10058202 # Aki Kunitora
+	}
+	1569.9.21={
+		holder=10059104 # Chosokabe Motoshika
+	}
+	1570.1.1={
+		holder=10059115 # Kasokabe Chikayasu
+		liege=d_nmih_tosa
+	}
+	1593.1.1={
+		holder=10059132 # Kosokabe Sadachika
+	}
+	1603.3.24={
+		holder=10029587 # Yamauchi Kazutoyo
+	}
+	1605.11.1={
+		holder=10029593 # Yamauchi Tadayoshi
+	}
+}

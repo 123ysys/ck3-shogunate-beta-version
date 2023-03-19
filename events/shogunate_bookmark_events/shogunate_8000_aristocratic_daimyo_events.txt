@@ -1,0 +1,85 @@
+﻿namespace = shogunate_bookmark
+
+# Aristocratic Daimyo
+shogunate_bookmark.8000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Asakura Takakage
+
+		if = {
+			limit = {
+				game_start_date >= 1512.4.11								# Succession
+				game_start_date <  1548.4.30								# Death of Asakura Takakage
+			}
+
+			shogunate_historical_culture_effect = {
+				CHAR = 10030000												# Asakura Takakage
+				CULTURE = aristocrats
+			}
+		}
+
+
+		# Asakura Yoshikage
+
+		if = {
+			limit = {
+				game_start_date >= 1533.10.12								# Birth of Asakura Yoshikage
+				game_start_date <  1573.9.16								# Death of Asakura Yoshikage
+			}
+
+			shogunate_historical_culture_effect = {
+				CHAR = 10030011												# Asakura Yoshikage
+				CULTURE = aristocrats
+			}
+		}
+
+
+		# Ouchi Yoshitaka
+
+		if = {
+			limit = {
+				game_start_date >= 1529.1.29								# Succession
+				game_start_date <  1551.9.30								# Death of Ouchi Yoshitaka
+			}
+
+			shogunate_historical_culture_effect = {
+				CHAR = 10057002												# Ouchi Yoshitaka
+				CULTURE = aristocrats
+			}
+		}
+
+
+		# Imagawa Yoshimoto
+
+		if = {
+			limit = {
+				game_start_date >= 1536.4.7									# Succession
+				game_start_date <  1560.6.12								# Death of Imagawa Yoshimoto
+			}
+
+			shogunate_historical_culture_effect = {
+				CHAR = 10023010												# Imagawa Yoshimoto
+				CULTURE = aristocrats
+			}
+		}
+
+
+		# Imagawa Ujizane
+
+		if = {
+			limit = {
+				game_start_date >= 1538.1.1									# Birth of Imagawa Ujizane
+				game_start_date <  1615.1.27								# Death of Imagawa Ujizane
+			}
+
+			shogunate_historical_culture_effect = {
+				CHAR = 10023017												# Imagawa Ujizane
+				CULTURE = aristocrats
+			}
+		}
+
+	}
+}

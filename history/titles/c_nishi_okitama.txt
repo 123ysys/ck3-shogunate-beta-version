@@ -1,0 +1,116 @@
+c_nmih_nishi_okitama = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nishi_okitama1={
+				set_title_name=b_nmih_nishi_okitama5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nishi_okitama1={
+				set_title_name=b_nmih_nishi_okitama5
+			}
+		}
+	}
+	1385.1.1={
+		effect={
+			title:b_nmih_nishi_okitama1={
+				set_title_name=b_nmih_nishi_okitama1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1385.1.1 = { change_development_level = 10 }
+
+	0712.10.1={
+		liege="k_nmih_dewa"
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu" # Fujiwara Hidehira
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1180.1.1={
+		liege="d_nmih_uzen"
+		holder=12030040 # Fujiwara [Hizume] Toshihira
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_uzen"
+		holder=10220001 # Oe Hiromoto
+	}
+	1225.7.16={
+		holder=12221011 # Oe Tokihiro
+	}
+	1241.7.8={
+		holder=12221015 # Nagai Yasuhide
+	}
+	1254.1.11={
+		holder=12221021 # Nagai Tokihide
+	}
+	1290.1.1={
+		holder=12221025 # Nagai Munehide
+	}
+	1327.12.20={
+		holder=12221041 # Nagai Hirohide
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1358.1.1={
+		holder=12221059 # Nagai Hirofusa
+	}
+	1385.1.1={
+		liege="d_nmih_oshu_shugo"
+		holder=12071030 # Date Masamune
+	}
+	1405.10.7={
+		holder=12071033 # Date Ujimune
+	}
+	1412.8.24={
+		liege="d_nmih_date"
+		holder=12071035 # Date Mochimune
+	}
+	1469.2.19={
+		holder=12071040 # Date Narimune
+	}
+	1487.10.11={
+		holder=12071045 # Date Hisamune
+	}
+	1514.5.28={
+		holder=10001001 # Date Tanemune
+	}
+	1522.1.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1542.6.1={
+		liege="d_nmih_oshu_shugo" # Tenbun War
+		holder=10001002 # Date Harumune
+	}
+	1564.1.1={
+		holder=10001021 # Date Terumune
+	}
+	1584.10.6={
+		holder=10001035 # Date Masamune
+	}
+	1591.8.12={
+		liege="k_nmih_southern_oshu"
+		holder=10044515 # Gamo Satoyasu
+	}
+	1598.3.1={
+		holder=10032672 # Naoe kanetsugu
+	}
+	1603.3.24={
+		liege="d_nmih_iwashiro"
+		holder=10032032 # Uesugi Kagekatsu
+	}
+}

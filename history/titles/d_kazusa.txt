@@ -1,0 +1,201 @@
+d_nmih_kazusa = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0759.11.29={
+		holder=11000018 # Fujiwara Uona {Kazusa no Suke}
+	}
+	0761.2.26={
+		holder=0 #  
+	}
+	0780.5.26={
+		holder=11005111 # Fujiwara Yoshio {Kazusa no Suke}
+	}
+	0783.6.4={
+		holder=0 #  
+	}
+	0889.6.17={
+		holder=10110001 # Taira Takamochi {Kazusa no Suke}
+	}
+	0892.4.17={
+		holder=10120000 # Yamato Sadazumi {Kazusa Taishu}
+	}
+	0901.2.28={
+		holder=0 #  
+	}
+	0912.1.27={
+		holder=11004699 # Fujiwara Toshihito {Kazusa no Suke}
+	}
+	0914.6.8={
+		holder=0 #  
+	}
+	1114.11.22={
+		holder=11001049 # Fujiwara Suekane {Kazusa no Suke}
+	}
+	1149.5.4={
+		holder=0 #  
+	}
+	1176.6.13={
+		holder=11003918 # Fujiwara Tameyasu {Kazusa no Suke}
+	}
+	1179.12.18={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=10131576 # Fujiwara [Ito] Tadakiyo {Kazusa no Suke}
+	}
+	1180.1.1={
+		liege=0
+		holder=12155017 # Kazusa Hirotsune
+	}
+	1180.10.9={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo. served to MINAMOTO no Yoritomo
+	}
+	1184.2.3={
+		liege="k_nmih_western_kanto"
+		holder=12211501 # Wada Yoshimori # De Facto
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1213.5.23={
+		liege=0
+	}
+	1213.5.24={
+		liege="e_nmih_japan"
+		holder=12150131 # Sakai Tsunehide # De Facto
+	}
+	1235.1.1={
+		holder=12151200 # Sakai Hidetane # De Facto
+	}
+	1247.7.8={
+		liege=0
+	}
+	1247.7.10={
+		liege="e_nmih_japan"
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.8.1={
+		holder=12139003 # Ashikaga Yoshiuji # De Facto
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1333.6.10={
+		liege=0
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+	}
+	1335.8.14={
+		holder=12139567 # Kou Moronao
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1351.3.15={
+		holder=10044204 # Kyogoku Hidetsuna
+	}
+	1352.3.12={
+		liege="k_nmih_kamakura_kubo"
+		holder=12150166 # Chiba Ujitane
+	}
+	1355.5.1={
+		liege="e_nmih_japan"
+		holder=10044203 # Kyogoku Takauji
+	}
+	1356.4.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12150166 # Chiba Ujitane
+	}
+	1364.4.1={
+		holder=12187025 # Iwamatsu Yoshimasa
+	}
+	1364.12.1={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017046 # Uesugi Tomofusa
+	}
+	1370.1.1={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1409.1.1={
+		holder=10017048 # Uesugi Zenshu
+	}
+	1415.6.8={
+		liege=0
+	}
+	1417.1.27={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1418.1.1={
+		holder=12130120 # Utsunomiya Mochitsuna
+	}
+	1422.1.1={
+		liege=0
+	}
+	1423.9.13={
+		liege="k_nmih_kamakura_kubo"
+		holder=10017061 # Uesugi Sadayori
+	}
+	1430.1.1={
+		holder=10011611 # Chiba Tanenao
+	}
+	1438.9.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1439.3.24={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1441.1.1={
+		holder=10011612 # Chiba Tanemasa
+	}
+	1454.7.18={
+		holder=10011613 # Chiba Tanenobu
+	}
+	1455.1.15={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1455.9.23={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040059 # Ashikaga Shigeuji
+	}
+	1456.1.1={
+		liege=0
+		holder=10011809 # Takeda Nobunaga
+	}
+	1477.1.1={
+		holder=10011808 # Takeda Nobutaka
+	}
+	1480.1.1={
+		holder=10011810 # Takeda Michinobu, Chonan Branch
+	}
+	1484.1.1={
+		holder=10011811 # Takeda Munenobu, Chonan Branch
+	}
+	1517.1.1={
+		liege=0
+		holder=10040051 # Ashikaga Yoshiaki, Oyumi-Kubo
+	}
+	1538.10.29={
+		holder=0 # Ashikaga Yoshiaki died. Kazusa-Takeda clan lost its power.
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024803 # Honda Tadakatsu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024807 # Honda Tadatomo
+	}
+	1615.6.3={
+		holder=10024811 # Honda Masatomo
+	}
+}

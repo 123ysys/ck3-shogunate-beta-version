@@ -1,0 +1,40 @@
+d_nmih_sakai = {
+	1.1.1={
+		government = republic_government
+	}
+	1000.1.1={
+	}
+	1440.1.1={
+		holder=10042860 # Yukawa Sena
+	}
+	1483.5.17={
+		holder=10042861 # Yukawa Shinbee
+	}
+	1510.1.1={
+		holder=10042890 # Sen (Tanaka) Yohyoe
+	}
+	1530.1.1={
+		holder=10042830 # Takeno Joo
+	}
+	1538.1.1={
+		liege=0
+	}
+	1555.12.12={
+		holder=10042881 # Imai Sokyu
+	}
+	1569.3.8={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1570.1.1={
+		holder=10042801 # Tsuda Sokyu
+	}
+	1574.1.1={
+		holder=10042891 # Sen Soeki
+	}
+	1575.8.18={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1591.4.21={
+		holder=0
+	}
+}

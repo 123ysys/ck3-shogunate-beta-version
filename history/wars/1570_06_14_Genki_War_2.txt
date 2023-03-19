@@ -1,0 +1,12 @@
+war = {
+	name = "war_1570_genki_war"
+	start_date = 1573.9.16
+	end_date = 1573.10.6
+	targeted_titles = {
+		c_nmih_azai
+	}
+	casus_belli = event_claim_cb
+	claimant = 10029120 # Oda Nobunaga
+	attackers = { 10029120 10024006 } # Oda Nobunaga, Tokugawa Ieyasu
+	defenders = { 10043015 } # Azai Nagamasa
+}

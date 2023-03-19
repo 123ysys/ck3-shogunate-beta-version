@@ -1,0 +1,14 @@
+29 = {
+
+	culture = northern_kanto
+	religion = shinto
+	holding = castle_holding
+	1172.1.1={
+	}
+	1343.1.1={
+	}
+	1343.11.11={
+	}
+	1455.4.1={
+	}
+}

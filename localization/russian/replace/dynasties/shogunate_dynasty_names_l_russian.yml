@@ -1,0 +1,404 @@
+﻿l_russian:
+
+# Minamoto, Seiwa-Gen Ji
+ dynn_Shida:0 "Сида"
+ dynn_Obu:0 "Обу"
+ dynn_Shingu:0 "Сингу"
+ dynn_Tada:0 "Тада"
+ dynn_Ike:0 "Икэ"
+ dynn_Komatsu:0 "Комацу"
+ dynn_Sugimoto:0 "Сугимото"
+ dynn_Wada:0 "Вада"
+ dynn_Oba:0 "Оба"
+ dynn_Nagao:0 "Нагао"
+ dynn_Kajiwara:0 "Кадзивара"
+ dynn_Kagawa:0 "Кагава"
+ dynn_Nagae:0 "Нагаэ"
+ dynn_Toyota:0 "Тоёта"
+ dynn_Matano:0 "Матано"
+ dynn_Dohi:0 "Дохи"
+ dynn_Ninomiya:0 "Ниномия"
+ dynn_Sanada:0 "Санада"
+ dynn_Tuchiya:0 "Тутия"
+ dynn_Kawamura:0 "Кавамура"
+ dynn_Yasuda:0 "Ясуда"
+ dynn_Henmi:0 "Хэмми"
+ dynn_Takeda:0 "Такэда"
+ dynn_Kagami:0 "Кагами"
+ dynn_Asari:0 "Асари"
+ dynn_Ichijo:0 "Итидзё"
+ dynn_Itagaki:0 "Итагаки"
+ dynn_Akiyama:0 "Акияма"
+ dynn_Nitta:0 "Нитта"
+ dynn_Satomi:0 "Сатоми"
+ dynn_Yamana:0 "Ямана"
+ dynn_Ashikaga:0 "Асикага"
+ dynn_Sonoda:0 "Сонода"
+ dynn_Ogo:0 "Ого"
+ dynn_Yamagami:0 "Ямагами"
+ dynn_Sano:0 "Сано"
+ dynn_Asonuma:0 "Асонума"
+ dynn_Kimura:0 "Кимура"
+ dynn_Hayashi:0 "Хаяси"
+ dynn_Sanuki:0 "Сануки"
+ dynn_Nawa:0 "Нава"
+ dynn_Ota:0 "Ота"
+ dynn_Oyama:0 "Ояма"
+ dynn_Shimokobe:0 "Симокобэ"
+ dynn_Naganuma:0 "Наганума"
+ dynn_Yuki:0 "Юки"
+ dynn_Okawado:0 "Окавадо"
+ dynn_Seki:0 "Сэки"
+ dynn_Sato:0 "Сато"
+ dynn_Bito:0 "Бито"
+ dynn_Ito:0 "Ито"
+ dynn_Tomura:0 "Томура"
+ dynn_Okuyama:0 "Окуяма"
+ dynn_Ajiki:0 "Адзики"
+ dynn_Akamatsu:0 "Акамацу"
+ dynn_Harada:0 "Харада"
+ dynn_Mike:0 "Микэ"
+ dynn_Akizuki:0 "Акидзуки"
+ dynn_Takahashi:0 "Такахаси"
+ dynn_Amakusa:0 "Амакуса"
+ dynn_Itai:0 "Итаи"
+ dynn_Uku:0 "Юку"
+ dynn_Ouchi:0 "Оути"
+ dynn_Migita:0 "Мигита"
+ dynn_Yoshiki:0 "Ёсики"
+ dynn_Uno:0 "Уно"
+ dynn_Toida:0 "Тоида"
+ dynn_Washizu:0 "Васидзу"
+ dynn_Masunari:0 "Масунари"
+ dynn_Konoe:0 "Коноэ"
+ dynn_Kujo:0 "Кудзё"
+ dynn_Watanabe:0 "Ватанабэ"
+ dynn_Teshima:0 "Тэсима"
+ dynn_Hatakeyama:0 "Хатакэяма"
+ dynn_Oyamada:0 "Оямада"
+ dynn_Inage:0 "Инагэ"
+ dynn_Kawagoe:0 "Кавагоэ"
+ dynn_ChichibuEdo:0 "Эдо"
+ dynn_Kasai:0 "Касаи"
+
+# Chiba
+ dynn_Soma:0 "Сома"
+ dynn_Takeishi:0 "Такэиси"
+ dynn_Osuga:0 "Осуда"
+ dynn_Kokubu:0 "Кокубу"
+ dynn_To:0 "То"
+ dynn_Shiina:0 "Сиина"
+ dynn_Sosa:0 "Соса"
+ dynn_Unakami:0 "Унаками"
+ dynn_Iwase:0 "Ивасэ"
+ dynn_Kataoka:0 "Катаока"
+ dynn_Usui:0 "Усуй"
+ dynn_Makuwari:0 "Макувари"
+ dynn_Hara:0 "Хара"
+ dynn_Chiba:0 "Тиба"
+ dynn_Chida:0 "Тида"
+
+ # Uesugi
+ dynn_Ogigayatsu:0 "Огигаяцу-Уэсуги"
+ dynn_YamauchiUesugi:0 "Ямаути-Уэсуги"
+ dynn_Kobanawa:0 "Кобанава"
+ dynn_EchigoUesugi:0 "Этиго-Уэсуги"
+ dynn_InugakeUesugi:0 "Инугакэ-Уэсуги"
+
+ # Ashikaga
+ dynn_KamakuraAshikaga:0 "Асикага"
+
+ # Hosokawa
+ dynn_YashuHosokawa:0 "Хосокава-Ясю"
+ dynn_KeichoHosokawa:0 "Хосокава-Кэйтё"
+ dynn_TenkyuHosokawa:0 "Хосокава-Тэнкю"
+ dynn_IzumiKamiHosokawa:0 "Хосокава-Идзуми Ками"
+ dynn_IzumiShimoHosokawa:0 "Хосокава-Идзуми Симо"
+ dynn_SanshuHosokawa:0 "Хосокава-Сансю"
+ dynn_BicchuHosokawa:0 "Хосокава-Биттю"
+ dynn_EnshuHosokawa:0 "Хосокава-Энсю"
+ dynn_AwajiHosokawa:0 "Хосокава-Авадзи"
+ dynn_Nagaoka:0 "Нагаока"
+
+ # Imagawa
+ dynn_Oshika:0 "Осика"
+ dynn_ImagawaSena:0 "Сэна"
+ dynn_Horikoshi:0 "Хорикоси"
+ dynn_kambara:0 "Камбара"
+
+ # Takeda
+ dynn_AkiTakeda:0 "Такэда"
+ dynn_Mariyatsu:0 "Марияцу"
+ dynn_Chonan:0 "Тёнан"
+ dynn_Oi:0 "Ои"
+ dynn_Imai:0 "Имаи"
+ dynn_Anayama:0 "Анаяма"
+ dynn_Aburakawa:0 "Абуракава"
+ dynn_Katsunuma:0 "Кацунума"
+ dynn_Nishina:0 "Нисина"
+ dynn_Katsurayama:0 "Кацураяма"
+ dynn_Mochizuki:0 "Мотидзуки"
+
+ # Hatakeyama
+ dynn_Nihonmatsu:0 "Нихоммацу"
+ dynn_NotoHatakeyama:0 "Хатакэяма"
+ dynn_HatakeyamaSoshu:0 "Хатакэяма"
+ dynn_HatakeyamaBishu:0 "Хатакэяма"
+
+ # Murakami Genji [Minamoto]
+ dynn_Tsuchimikado:0 "Цутимикадо"
+ dynn_Koga:0 "Кога"
+ dynn_Nakanoin:0 "Наканоин"
+ dynn_Kitabatake:0 "Китабатакэ"
+ dynn_Namioka:0 "Намиока"
+ dynn_Rokujo:0 "Рокудзё"
+ dynn_Chigusa:0 "Тигуса"
+ dynn_Okawachi:0 "Окавати"
+ dynn_Tamaru:0 "Тамару"
+ dynn_Kozukuri:0 "Кодзукури"
+ dynn_Hoshiai:0 "Хосиай"
+
+ # Shimazu
+ dynn_ShimazuIzaku:0 "Симацу"
+ dynn_ShimazuSoshu:0 "Симацу"
+ dynn_ShimazuSasshu:0 "Симацу"
+ dynn_ShimazuHosshu:0 "Симацу"
+ dynn_ShimazuHongo:0 "Хонго"
+ dynn_ShimazuIjuin:0 "Идзюин"
+
+ # Kono
+ dynn_KonoYoshu:0 "Коно-Ёсю"
+
+ # Akamatsu
+ dynn_Arima:0 "Арима"
+ dynn_Shichijo:0 "Ситидзё"
+ dynn_Arita:0 "Арита"
+ dynn_AkamatsuIzu:0 "Акамацу-Идзу"
+ dynn_Ueno:0 "Уэно"
+ dynn_Okochi:0 "Окоти"
+ dynn_Bessho:0 "Бэссё"
+
+ # Yamana
+ dynn_Yamana:0 "Ямана"
+
+ # Ogasawara
+ dynn_Ogasawara:0 "Огасавара"
+ dynn_Tomono:0 "Томоно"
+ dynn_Ogasawara_Oi:0 "Ои"
+
+ # Sasaki
+ dynn_Rokkaku:0 "Роккаку"
+ dynn_Takashima:0 "Такасима"
+ dynn_Kaji:0 "Кадзи"
+ dynn_Kyogoku:0 "Кёгоку"
+ dynn_Kutsuki:0 "Куцуки"
+ dynn_Shibata1:0 "Сибата"
+ dynn_Taga:0 "Тага"
+ dynn_Amago:0 "Амаго"
+ dynn_Oki:0 "Оки"
+ dynn_Obara:0 "Обара"
+ dynn_SasakiKagami:0 "Кагами"
+ dynn_Isobe:0 "Исобэ"
+ dynn_Kurata:0 "Курата"
+ dynn_Togo:0 "Того"
+ dynn_Akura:0 "Акура"
+
+ # Nagao
+ dynn_Nagao:0 "Нагао"
+ dynn_Uesugi:0 "Уэсуги"
+
+ # Muto
+ dynn_Shoni:0 "Сёни"
+ dynn_Daihoji:0 "Дайходзи"
+ dynn_Kenmotsu:0 "Кэммоцу"
+ dynn_Nabeshima:0 "Набэсима"
+ dynn_Baba:0 "Баба"
+ dynn_Yokodake:0 "Ёкодакэ"
+ dynn_Tsukushi:0 "Цукуси"
+ dynn_Sagoshi:0 "Сагоси"
+ dynn_Shokoji:0 "Сёкодзи"
+ dynn_Kokyoji:0 "Кокёдзи"
+ dynn_Ganshoji:0 "Гансёдзи"
+ dynn_Honsenji:0 "Хонсэндзи"
+ dynn_Choshoji:0 "Тёсёдзи"
+ dynn_shokoji2:0 "Сёкодзи"
+
+ # Otomo
+ dynn_Tahara:0 "Тахара"
+ dynn_Tachibana:0 "Татибана"
+ dynn_Bekki:0 "Бэкки"
+ dynn_Shiga:0 "Сига"
+ dynn_Ichimata:0 "Итимата"
+ dynn_Yoshihiro:0 "Ёсихиро"
+ dynn_Usuki:0 "Усуки"
+ dynn_Takahashi:0 "Такахаси"
+
+ # Matsura
+ dynn_Hata:0 "Хата"
+ dynn_Shisa:0 "Сиса"
+ dynn_Tamanoura:0 "Таманоура"
+ dynn_Matsura:0 "Мацура"
+ dynn_Yamashiro:0 "Ямасиро"
+ dynn_Arita:0 "Арита"
+
+ # Daijo
+ dynn_Namegata:0 "Намэгата"
+ dynn_Kashima:0 "Касима"
+ dynn_Makabe:0 "Макабэ"
+ dynn_Oguri:0 "Огури"
+ dynn_Shimazaki:0 "Симадзаки"
+
+ # Murakami
+ dynn_Tokui:0 "Токуй"
+
+ # Utsunomiya
+ dynn_Nimo:0 "Нимо"
+ dynn_Aso:0 "Асо"
+ dynn_Shionoya:0 "Сионоя"
+
+ # Date
+ dynn_Rusu:0 "Русу"
+ dynn_Date:0 "Датэ"
+ dynn_Watari:0 "Ватари"
+ dynn_Koyanagawa:0 "Коянагава"
+ dynn_Oeda:0 "Оэда"
+ dynn_Senoue:0 "Сэноуэ"
+ dynn_Shiroishi:0 "Сироиси"
+ dynn_Kori:0 "Кори"
+ dynn_Iida:0 "Иида"
+ dynn_Ishida:0 "Исида"
+ dynn_Yabe:0 "Ябэ"
+ dynn_Hienuki:0 "Хиэнуки"
+
+ # Kasai
+ dynn_Usuginu:0 "Усугину"
+ dynn_Hamada:0 "Хамада"
+
+ # Shiba
+ dynn_Osaki:0 "Осаки"
+ dynn_OshuShiba:0 "Сиба"
+ dynn_Mogami:0 "Могами"
+ dynn_Tsugawa:0 "Цугава"
+ dynn_ShibaMori:0 "Мори"
+ dynn_Hachiya:0 "Хатия"
+ dynn_Kurokawa:0 "Курокава"
+ dynn_Narisawa:0 "Нарисава"
+ dynn_Tateoka:0 "Татэока"
+ dynn_Tendo:0 "Тэндо"
+ dynn_Shimizu:0 "Симицу"
+
+ # Nambu
+ dynn_Ishikawa:0 "Исикава"
+ dynn_Minami:0 "Минами"
+ dynn_Ishigame:0 "Исигами"
+ dynn_Kemanai:0 "Кэманай"
+ dynn_Kita:0 "Кита"
+ dynn_Oura:0 "Оура"
+ dynn_Niida:0 "Ниида"
+ dynn_Nambu:0 "Намбу"
+ dynn_Hachinohe:0 "Хатинохэ"
+ dynn_Hakii:0 "Хакии"
+
+ # Chosokabe
+ dynn_Kira:0 "Кира"
+ dynn_Kosokabe:0 "Косокабэ"
+ dynn_Kagawa:0 "Кагава"
+
+ # Miyoshi
+ dynn_Akutagawa:0 "Акутагава"
+ dynn_Sogo:0 "Сого"
+ dynn_Atagi:0 "Атаги"
+
+ # Ouchi
+ dynn_Washizu:0 "Васидзу"
+ dynn_Yata:0 "Ята"
+ dynn_Suetake:0 "Суэтакэ"
+ dynn_Kurokawa:0 "Курокава"
+ dynn_Egi:0 "Эги"
+ dynn_Reizei:0 "Рэйдзэй"
+ dynn_Kakinami:0 "Какинами"
+ dynn_Wanishi:0 "Ваниси"
+
+ # Kikuchi
+ dynn_Uto:0 "Уто"
+ dynn_Kai:0 "Кай"
+ dynn_Akahoshi:0 "Акахоси"
+ dynn_Jo:0 "Дзё"
+ dynn_Koshi:0 "Коси"
+ dynn_Yamaga:0 "Ямага"
+
+ # Oda
+ dynn_Tsuda:0 "Цуда"
+
+ # Toki
+ dynn_Iga:0 "Ига"
+ dynn_Akechi:0 "Акэти"
+ dynn_Iwade:0 "Ивадэ"
+ dynn_Tokihara:0 "Токихара"
+
+ # Yuki
+ dynn_Shirakawa:0 "Сиракава"
+ dynn_Tagaya:0 "Тагая"
+
+ # Matsudaira
+ dynn_Tokugawa:0 "Токугава"
+
+ # Suwa
+ dynn_Chino:0 "Тино"
+ dynn_Takato:0 "Такато"
+ dynn_Fujisawa:0 "Фудзисава"
+
+ # Murakami
+ dynn_Yashiro:0 "Ясиро"
+ dynn_Muroga:0 "Мурога"
+
+ # Ando
+ dynn_Shimokuni:0 "Симокуни"
+
+ # Asakura
+ dynn_Nakano:0 "Накано"
+ dynn_Matsuo:0 "Мацуо"
+ dynn_Abaga:0 "Абага"
+ dynn_Mukai:0 "Мукай"
+ dynn_Sadagasaki:0 "Садагасаки"
+ dynn_Nakajima:0 "Накадзима"
+ dynn_Kitanosho:0 "Китаносё"
+ dynn_Toba:0 "Тоба"
+ dynn_Minowa:0 "Минова"
+ dynn_Yagi:0 "Яги"
+ dynn_Shorenge:0 "Сёрэнгэ"
+ dynn_Jishiin:0 "Дзисиин"
+ dynn_Hatano:0 "Хатано"
+ dynn_Tsuchihashi:0 "Цутихаси"
+ dynn_Ago:0 "Аго"
+
+ # Misawa
+ dynn_Nunohiro:0 "Нунохиро"
+
+ # Mori
+ dynn_Kikkawa:0 "Киккава"
+ dynn_Kobayakawa:0 "Кобаякава"
+ dynn_Fukubara:0 "Фукубара"
+ dynn_Saka:0 "Сака"
+ dynn_Kitajo:0 "Китадзё"
+ dynn_Mori1:0 "Мори"
+ dynn_Katsura:0 "Кацура"
+ dynn_Shiji:0 "Сидзи"
+ dynn_Kuchiha:0 "Кутиха"
+
+ # Kikkawa
+ dynn_Ichikawa:0 "Итикава"
+
+ # Kobayakawa
+ dynn_Nomi:0 "Номи"
+
+ # Sano
+ dynn_Kiryu:0 "Кирю"
+
+ # Ashina
+ dynn_Tomita:0 "Томита"
+ dynn_Inawashiro:0 "Инавасиро"
+
+ # Hatta & Oda
+ dynn_Oda1:0 "Ода"
+ dynn_Shishido:0 "Сисидо"

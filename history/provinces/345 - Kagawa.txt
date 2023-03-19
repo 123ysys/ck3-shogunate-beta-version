@@ -1,0 +1,21 @@
+345 = {
+
+	culture = shikoku
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1179.12.17={
+	}
+	1185.3.22={
+	}
+	1221.7.6={
+	}
+	1420.1.1={
+	}
+	1549.1.1 = {
+		religion = ikkoshu
+	}
+	1590.1.1={
+	}
+}

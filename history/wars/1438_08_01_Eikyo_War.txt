@@ -1,0 +1,17 @@
+war = {
+	name = "war_1438_eikyo_war"
+	start_date = 1438.8.1
+	end_date = 1439.3.24
+	targeted_titles = {
+		k_nmih_kamakura_kubo c_nmih_kamakura c_nmih_makabe
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040006 # Ashikaga Yoshinori
+	attackers = {
+		10040006	# Ashikaga Yoshinori
+		10017020	# Uesugi Norizane
+	}
+	defenders = {
+		10040061	# Ashikaga Mochiuji
+	}
+}

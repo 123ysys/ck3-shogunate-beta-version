@@ -1,0 +1,115 @@
+c_nmih_kuga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kuga1={
+				set_title_name=b_nmih_kuga2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1186.4.1 = { change_development_level = 20 }
+	1215.8.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_suo"
+	}
+	1180.1.1={
+		liege="d_nmih_suo"
+		holder=12660801 # Iwakuni Kanehide
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_suo"
+		holder=12510063 # Sasaki Takatsuna
+	}
+	1186.4.1={
+		holder=10241549 # Ki Chogen
+	}
+	1206.7.12={
+		holder=10260104 # Kaya Eisai
+	}
+	1215.8.1={
+		holder=11001149 # Saionji Kintsune
+	}
+	1220.1.1={
+		holder=11007601 # Shijo Takahira
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_suo"
+		holder=12668300 # Fujiwara Chikazane
+	}
+	1252.1.1={
+		holder=12221016 # Nagai Yasushige
+	}
+	1275.12.1={
+		holder=10132000 # Hojo Muneyori
+	}
+	1279.7.15={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1281.9.14={
+		holder=10132156 # Hojo Morotoki
+	}
+	1282.1.1={
+		holder=10131715 # Hojo Tadatoki
+	}
+	1284.11.10={
+		holder=10131932 # Hojo [Kanesawa] Sanemasa
+	}
+	1296.7.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1300.1.1={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1307.1.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1320.1.1={
+		holder=10131933 # Hojo [Kanesawa] Tokinao
+	}
+	1330.1.1={
+		liege="d_nmih_suo"
+	}
+	1350.1.1={
+		holder=10056909 # Hironaka Kaneyoshi
+	}
+	1380.1.1={
+		holder=10056910 # Hironaka Kanesada
+	}
+	1400.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056911 # Hironaka Kanekatsu
+	}
+	1440.1.1={
+		holder=10056912 # Hironaka Takemune
+	}
+	1490.1.1={
+		holder=10056902 # Hironaka Hironobu
+	}
+	1520.1.1={
+		holder=10056900 # Hironaka Okikatsu
+	}
+	1542.1.1={
+		holder=10056901 # Hironaka Takakane
+	}
+	1555.10.28={
+		liege="d_nmih_aki"
+		holder=10056004 # Mori Motonari
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1571.7.6={
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="d_nmih_nagato"
+		holder=10056246 # Kikkawa Hiroie
+	}
+}

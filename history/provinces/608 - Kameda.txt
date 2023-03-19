@@ -1,0 +1,45 @@
+608 = {
+
+	culture = donan_ainu
+	religion = ainu
+	holding = tribal_holding
+	100.1.1 = {
+		culture = hokkaido_ainu
+	}
+	900.1.1 = {
+		culture = donan_ainu
+	}
+	1200.1.1 = {
+	}
+	1432.1.1 = {
+		culture = hokkaido_wajin
+		religion = shinto
+		holding = castle_holding
+	}
+	1457.1.1 = {
+	}
+	1512.5.1 = {
+		culture = donan_ainu
+		religion = ainu
+		holding = tribal_holding
+	}
+	1613.1.1 = {
+		culture = hokkaido_wajin
+		religion = shinto
+		holding = castle_holding
+	}
+	1700.1.1 = {
+	}
+	1800.1.1 = {
+	}
+	1864.6.15 = {
+		buildings = {
+			castle_04
+		}
+	}
+	1869.6.27 = {
+		buildings = {
+			castle_01
+		}
+	}
+}

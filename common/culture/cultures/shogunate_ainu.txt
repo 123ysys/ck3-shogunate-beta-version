@@ -1,0 +1,207 @@
+﻿hokkaido_ainu = {
+	color = { 0.22 0.49 0.22 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_forest_folk
+	}
+
+	name_list = name_list_hokkaido_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}
+
+dohoku_ainu = {
+	color = { 0.67 0.81 0.33 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_forest_folk
+	}
+
+	name_list = name_list_dohoku_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}
+
+doto_ainu = {
+	color = { 0.40 0.67 0.19 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_pastoralists
+	}
+
+	name_list = name_list_doto_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}
+
+doo_ainu = {
+	color = { 0.41 0.51 0.11 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_pastoralists
+	}
+
+	name_list = name_list_doo_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}
+
+donan_ainu = {
+	color = { 0.2 0.48 0.32 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_forest_folk
+	}
+
+	name_list = name_list_donan_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}
+
+chishima_ainu = {
+	color = { 1.0 0.86 0.0 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_pastoralists
+	}
+
+	name_list = name_list_chishima_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}
+
+karafuto_ainu = {
+	color = { 0.97 0.89 0.55 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_forest_folk
+	}
+
+	name_list = name_list_karafuto_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}
+
+tohoku_ainu = {
+	color = { 0.41 0.69 0.46 }
+
+	ethos = ethos_communal
+	heritage = heritage_ainu
+	language = language_ainu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_storytellers
+		tradition_tribe_unity
+		tradition_winter_warriors
+		tradition_forest_folk
+	}
+
+	name_list = name_list_tohoku_ainu
+
+	coa_gfx = { ainu_group_coa_gfx }
+	building_gfx = { indian_building_gfx }
+	clothing_gfx = { ainu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = ainu
+	}
+}

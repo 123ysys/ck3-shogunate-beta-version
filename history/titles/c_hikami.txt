@@ -1,0 +1,156 @@
+c_nmih_hikami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hikami1={
+				set_title_name=b_nmih_hikami2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_hikami1={
+				set_title_name=b_nmih_hikami2
+			}
+		}
+	}
+	1215.1.1={
+		effect={
+			title:b_nmih_hikami1={
+				set_title_name=b_nmih_hikami5
+			}
+		}
+	}
+	1557.3.6={
+		effect={
+			title:b_nmih_hikami1={
+				set_title_name=b_nmih_hikami1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1215.1.1 = { change_development_level = 20 }
+	1557.3.6 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_tanba"
+	}
+	1180.1.1={
+		liege=0
+		holder=12480200 # Ashida Michiie
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_tanba"
+	}
+	1185.1.1={
+		holder=12480201 # Ashida Tadaie
+	}
+	1195.1.1={
+		holder=12480202 # Ashida Masaie
+	}
+	1210.1.1={
+		holder=12480203 # Ashida Tomoie
+	}
+	1215.1.1={
+		holder=12480205 # Akai Tameie
+	}
+	1260.1.1={
+		holder=12480210 # Akai Iemochi
+	}
+	1300.1.1={
+		holder=12480215 # Akai Motoie
+	}
+	1333.7.4={
+		liege="d_nmih_tanba"
+		holder=12480650 # Ogino Tomotada
+	}
+	1344.1.1={
+		liege="d_nmih_tanba"
+		holder=12480220 # Akai Iekiyo
+	}
+	1360.1.1={
+		holder=12480225 # Akai Iemoto
+	}
+	1385.1.1={
+		holder=12480230 # Akai Mitsuie
+	}
+	1410.1.1={
+		holder=12480235 # Akai Tadaie
+	}
+	1435.1.1={
+		holder=12480240 # Akai Chikaie
+	}
+	1460.1.1={
+		liege="d_nmih_tanba"
+		holder=10042060 # Akai Naoie
+	}
+	1500.1.1={
+		holder=10042061 # Akai tadaie
+	}
+	1527.3.14={
+		liege="d_nmih_tanba"
+	}
+	1534.5.1={
+		liege="k_nmih_northern_kinai"
+		holder=10042084 # Hatano Motohide
+	}
+	1536.9.14={
+		liege="d_nmih_tanba"
+		holder=10042063 # Akai Tokiie
+	}
+	1540.6.13={
+		holder=10042065 # Akai Iekiyo
+	}
+	1557.3.6={
+		holder=10042066 # Akai Naomasa
+	}
+	1565.1.1={
+		liege=0
+	}
+	1576.2.10={
+		liege="d_nmih_tanba"
+	}
+	1578.4.8={
+		holder=10042069 # Akai Tadaie
+	}
+	1579.6.24={
+		liege=0
+	}
+	1579.8.30={
+		liege="d_nmih_tanba"
+		holder=10025632 # Akechi Mitsuhide
+	}
+	1580.1.1={
+		holder=10025615 # Saito Toshimitsu
+	}
+	1582.7.2={
+		liege="d_nmih_tanba"
+		holder=10029641 # Horio Yoshiharu
+	}
+	1585.9.9={
+		liege="e_nmih_japan"
+		holder=10029163 # Hashiba Hidekatsu
+	}
+	1586.1.29={
+		holder=10029412 # Toyotomi Hidekatsu(Kokichi)
+	}
+	1587.5.18={
+		liege="d_nmih_kii"
+		holder=10029401 # Hashiba Hidenaga
+	}
+	1589.1.1={
+		liege="d_nmih_tanba"
+		holder=10029466 # Hashiba Hidetoshi
+	}
+	1595.8.20={
+		holder=10029144 # Oda Nobukane
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.8.22={
+		holder=10029208 # Oda Nobunori
+	}
+}

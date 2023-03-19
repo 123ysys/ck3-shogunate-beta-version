@@ -1,0 +1,88 @@
+﻿namespace = shogunate_bookmark
+
+# Toyotomi (Hashiba) Clan
+shogunate_bookmark.3010 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# High Crown Autority of the Toyotomi Administration (Sobuji-rei Peace Edict)
+
+		if = {
+			limit = {
+				game_start_date >= 1586.12.1								# Tokugawa Ieyasu Become Vassal
+				game_start_date <  1598.9.18								# Death of Toyotomi Hideyoshi
+			}
+
+			shogunate_historical_realm_law_effect = {
+				CHAR = 10029400												# Toyotomi Hideyoshi
+				LAW  = crown_authority_3
+			}
+		}
+
+
+		# Five Elders of the Toyotomi Administration
+
+		if = {
+			limit = {
+				game_start_date >= 1586.12.1								# Tokugawa Ieyasu Become Vassal
+				game_start_date <  1600.7.2									# Battle of Sekigahara (Aizu Conquest)
+			}
+
+			shogunate_historical_vassal_contract_effect = {
+				CHAR  = 10024006											# Tokugawa Ieyasu
+				LEVEL = 0
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1585.7.25								# Mori Terumoto Become Vassal
+				game_start_date <  1600.7.2									# Battle of Sekigahara (Aizu Conquest)
+			}
+
+			shogunate_historical_vassal_contract_effect = {
+				CHAR  = 10056025											# Mori Terumoto
+				LEVEL = 0
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1585.7.27								# Uesugi Kagekatsu Become Vassal
+				game_start_date <  1600.7.2									# Battle of Sekigahara (Aizu Conquest)
+			}
+
+			shogunate_historical_vassal_contract_effect = {
+				CHAR  = 10032032											# Uesugi Kagekatsu
+				LEVEL = 0
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1585.7.27								# Maeda Toshiie Become Vassal
+				game_start_date <  1599.4.27								# Death of Maeda Toshiie
+			}
+
+			shogunate_historical_vassal_contract_effect = {
+				CHAR  = 10029360											# Maeda Toshiie
+				LEVEL = 0
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1585.7.27								# Ukita Hideie Become Vassal
+				game_start_date <  1600.7.2									# Battle of Sekigahara (Aizu Conquest)
+			}
+
+			shogunate_historical_vassal_contract_effect = {
+				CHAR  = 10055101											# Ukita Hideie
+				LEVEL = 0
+			}
+		}
+
+	}
+}

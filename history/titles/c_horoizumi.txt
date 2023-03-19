@@ -1,0 +1,73 @@
+c_nmih_horoizumi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_horoizumi1={
+				set_title_name=b_nmih_horoizumi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	900.1.1 = { change_development_level = 0 }
+	1799.1.1 = { change_development_level = 0 }
+
+	0100.1.1={
+	}
+	1066.1.1={
+		holder=10150200 # Okikirmuy
+	}
+	1130.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1170.1.1={
+		liege="d_nmih_menasi_kur"
+		holder=10151600 # Tanroin
+	}
+	1200.1.1={
+		holder=10151610
+	}
+	1230.1.1={
+		holder=10151611
+	}
+	1260.1.1={
+		holder=10151612
+	}
+	1290.1.1={
+		holder=10151613
+	}
+	1320.1.1={
+		holder=10151614
+	}
+	1350.1.1={
+		holder=10151615
+	}
+	1370.1.1={
+		liege=d_nmih_menasi_kur
+		holder=10151550
+	}
+	1400.1.1={
+		holder=10151555
+	}
+	1430.1.1={
+		holder=10151551
+	}
+	1450.1.1={
+		holder=10151556
+	}
+	1490.1.1={
+		holder=10151500
+	}
+	1530.1.1={
+		holder=10151501
+	}
+	1550.1.1={
+		holder=10151502
+	}
+	1590.1.1={
+		holder=10151503
+	}
+
+}

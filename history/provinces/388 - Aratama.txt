@@ -1,0 +1,8 @@
+388 = {
+
+	culture = tokai
+	religion = shinto
+	holding = castle_holding
+	0733.1.1={
+	}
+}

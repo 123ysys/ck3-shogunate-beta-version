@@ -1,0 +1,164 @@
+c_nmih_tagata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tagata1={
+				set_title_name=b_nmih_tagata10
+			}
+		}
+	}
+	1180.6.15={
+		effect={
+			title:b_nmih_tagata1={
+				set_title_name=b_nmih_tagata9
+			}
+		}
+	}
+	1333.7.4={
+		effect={
+			title:b_nmih_tagata1={
+				set_title_name=b_nmih_tagata2
+			}
+		}
+	}
+	1560.1.1={
+		effect={
+			title:b_nmih_tagata1={
+				set_title_name=b_nmih_tagata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1000.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 30 }
+	1180.6.15 = { change_development_level = 20 }
+	1333.7.4 = { change_development_level = 20 }
+	1493.10.1 = { change_development_level = 10 }
+	1560.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_izu"
+	}
+	1005.1.1={
+	    holder=10130038 # Kudo Korekage
+	}
+	1045.1.1={
+	    holder=10130039 # Kudo Koretomo
+	}
+	1075.1.1={
+	    holder=10130043 # Kudo Koretsugu
+	}
+	1115.1.1={
+	    holder=10130044 # Kudo Ietsugu
+	}
+	1146.1.1={
+	    holder=10130050 # Kudo Shigemitsu
+	}
+	1180.6.15={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1180.10.26={
+		liege="d_nmih_izu"
+		holder=10131650 # Hojo Tokimasa / Yoritomo's conquest of Kamakura 
+	}
+	1205.9.5={
+		liege="d_nmih_izu"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1221.1.1={
+		holder=10110264 # Taira Moritsuna
+	}
+	1250.1.1={
+		holder=10110265 # Taira Moritoki
+	}
+	1270.1.1={
+		holder=10110266 # Taira Yoritsuna
+	}
+	1293.5.29={
+		holder=10110271 # Nagasaki Mitsutsuna
+	}
+	1297.8.25={
+		holder=10110272 # Nagasaki Enki
+	}
+	1333.7.4={
+		liege="d_nmih_izu"
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1338.1.1={
+		holder=10017029 # Uesugi Shigeyoshi
+	}
+	1349.10.21={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1352.3.12={
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1362.9.1={
+		holder=12201907 # Takasaka Ujishige
+	}
+	1368.7.2={
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1376.5.1={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017016 # Uesugi Norisada
+	}
+	1413.1.20={
+		holder=10017018 # Uesugi Norimoto
+	}
+	1418.2.9={
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1458.6.1={
+		liege="d_nmih_izu" # Ashikaga Masatomo
+		holder=10040037 # Ashikaga Masatomo
+	}
+	1491.5.11={
+		holder=10040038 # Ashikaga Chachamaru
+	}
+	1493.10.1={
+		holder=10016001 # Hojo Soun
+	}
+	1519.9.8={
+		holder=10016000 # Hojo Ujitsuna
+	}
+	1541.8.10={
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1571.10.21={
+		holder=10016014 # Hojo Ujimasa
+	}
+	1590.7.25={
+		liege="d_nmih_izu"
+		holder=10092100 # Naito Nobunari
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10205400 # Sano Masashige
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

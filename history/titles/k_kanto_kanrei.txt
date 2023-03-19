@@ -1,0 +1,75 @@
+k_nmih_kanto_kanrei = {
+	1000.1.1={
+	}
+	1367.5.25={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1378.5.14={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1405.9.1={
+		holder=10017016 # Uesugi Norisada
+	}
+	1411.3.3={
+		holder=10017048 # Uesugi Ujinori (Zenshu)
+	}
+	1415.6.8={
+		holder=10017018 # Uesugi Norimoto
+	}
+	1418.2.9={
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		liege=0
+		liege = 0
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1466.2.26={
+		holder=10017024 # Uesugi Akisada
+	}
+	1510.7.25={
+		holder=10040060 # Uesugi Akizane
+	}
+	1515.1.1={
+		holder=10017026 # Uesugi Norifusa
+	}
+	1525.4.7={
+		holder=10017027 # Uesugi Norihiro
+	}
+	1531.1.1={
+		holder=10017000 # Uesugi Norimasa
+	}
+	1552.3.1={
+		liege=0
+		holder=0 # Yamanouchi-Uesughi Norimasa Lost
+	}
+	1561.5.10={
+		holder=10032011 # 10032011 Uesugi Kenshin
+	}
+	1578.4.19={
+		holder=10032032 # Uesugi Kagekatsu (Not officially, but some daimyos approved him as Kenshin's successor and the Kanto Kanrei.)
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1598.3.1={
+		holder=0
+	}
+}

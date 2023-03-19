@@ -1,0 +1,16 @@
+war = {
+	name = "war_1531_battle_of_daimotsu"
+	start_date = 1530.7.1
+	end_date = 1531.7.14
+	targeted_titles = {
+		k_nmih_kanrei d_nmih_awa d_nmih_sanuki d_nmih_settsu d_nmih_yamashiro d_nmih_tanba c_nmih_itano c_nmih_kagawa c_nmih_otagi
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040566 # Hosokawa Takakuni
+	attackers = {
+		10040566	# Hosokawa Takakuni
+	}
+	defenders = {
+		10040500	# Hosokawa Harumoto
+	}
+}

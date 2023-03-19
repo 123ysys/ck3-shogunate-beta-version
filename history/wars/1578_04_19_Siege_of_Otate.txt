@@ -1,0 +1,12 @@
+war = {
+	name = "war_1578_siege_of_otate"
+	start_date = 1578.4.19
+	end_date = 1579.4.19
+	targeted_titles = {
+		k_nmih_kanto_kanrei
+	}
+	casus_belli = event_claim_cb
+	claimant = 10016020 # Uesugi Kagetora
+	attackers = { 10016020 } # Uesugi Kagetora
+	defenders = { 10032032 } # Uesugi Kagekatsu
+}

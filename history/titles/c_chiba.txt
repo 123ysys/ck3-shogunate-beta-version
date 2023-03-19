@@ -1,0 +1,122 @@
+c_nmih_chiba = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_chiba1={
+				set_title_name=b_nmih_chiba3
+			}
+		}
+	}
+	1456.1.1={
+		effect={
+			title:b_nmih_chiba1={
+				set_title_name=b_nmih_chiba1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1180.1.1 = { change_development_level = 20 }
+	1200.1.1 = { change_development_level = 30 }
+	1456.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_shimousa"
+	}
+	1108.3.23={
+		holder=12150100 # Chiba Tsunekane
+	}
+	1126.4.4={
+		holder=12150110 # Chiba Tsuneshige
+	}
+	1146.1.1={
+		holder=12150120 # Chiba Tsunetane
+	}
+	1180.1.1={
+		liege="d_nmih_kazusa"
+	}
+	1180.10.4={
+		liege="d_nmih_shimousa" # Chiba Tsunetane / served under Yoritomo
+	}
+	1201.4.28={
+		holder=12150123 # Chiba Tanemasa
+	}
+	1203.8.28={
+		holder=12150130 # Chiba Tanenari
+	}
+	1218.5.6={
+		holder=12150135 # Chiba Tanetsuna
+	}
+	1228.7.1={
+		holder=12150140 # Chiba Tokitane
+	}
+	1241.10.23={
+		holder=12150145 # Chiba Yoritane
+	}
+	1275.9.7={
+		holder=12150151 # Chiba Tanemune
+	}
+	1312.5.5={
+		holder=12150160 # Chiba Sadatane
+	}
+	1351.1.28={
+		holder=12150166 # Chiba Ujitane
+	}
+	1365.9.28={
+		holder=12150170 # Chiba Mitsutane
+	}
+	1417.1.27={
+		holder=12150175 # Chiba Kanetane
+	}
+	1430.7.7={
+		holder=10011611 # Chiba Tanenao
+	}
+	1441.1.1={
+		holder=10011612 # Chiba Tanemasa
+	}
+	1454.7.18={
+		holder=10011613 # Chiba Tanenobu
+	}
+	1455.9.23={
+		holder=12150176 # Chiba Yasutane
+	}
+	1456.11.28={
+		holder=10011672 # Hara Tanefusa
+	}
+	1471.10.22={
+		holder=10011670 # Hara Tanetaka
+	}
+	1517.1.1={
+		holder=10040051
+		liege="d_nmih_kazusa"
+	}
+	1538.10.29={
+		holder=10011671 # Hara Tanekiyo
+		liege="d_nmih_shimousa"
+	}
+	1556.3.23={
+		holder=10011674 # Hara Tanesada
+		liege="d_nmih_shimousa"
+	}
+	1575.1.1={
+		holder=10011675 # Hara Tanehide
+	}
+	1590.1.1={
+		holder=10011677 # Hara Taneyoshi
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu 
+	}
+	1601.1.1={
+		holder=10203812 # Saigo Tadakazu
+	}
+	1601.6.27={
+		holder=10203813 # Saigo Yasukazu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1613.8.4={
+		holder=10203814 # Saigo Masakazu
+	}
+}

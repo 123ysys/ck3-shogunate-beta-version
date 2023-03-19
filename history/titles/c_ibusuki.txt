@@ -1,0 +1,116 @@
+c_nmih_ibusuki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ibusuki1={
+				set_title_name=b_nmih_ibusuki1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ibusuki1={
+				set_title_name=b_nmih_ibusuki2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	10.1.1={
+	}
+	20.1.1={
+		holder=10290300 # Sori
+	}
+	70.1.1={
+		holder=10290301 # Kibe
+	}
+	100.1.1={
+		holder=10290302 # Toki
+	}
+	150.1.1={
+		holder=10290307 # Ishikori
+	}
+	170.1.1={
+		holder=10290310 # Morohito
+	}
+	220.1.1={
+		holder=10290311 # Imashiri
+	}
+	250.1.1={
+		holder=10290312 # Yamatoko
+	}
+	1180.1.1={
+		liege="d_nmih_satsuma"
+		holder=12810508 # Ibusuki Tadamitsu
+	}
+	1210.1.1={
+		holder=12810509 # Ibusuki Tadamoto
+	}
+	1230.1.1={
+		holder=12811200 # Ibusuki Tadahide
+	}
+	1235.1.1={
+		holder=12811201 # Ibusuki Tadanari
+	}
+	1280.1.1={
+		holder=12811203 # Ibusuki Tadatsura
+	}
+	1310.1.1={
+		holder=12811207 # Ibusuki Tadaatsu
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.8.14={
+		liege="d_nmih_osumi"
+	}
+	1342.1.1={
+		liege="k_nmih_seisei_shogun"
+	}
+	1363.1.1={
+		holder=12811211 # Ibusuki Tadakatsu
+	}
+	1376.1.1={
+		holder=12811213 # Ibusuki Masatada
+	}
+	1380.1.1={
+		holder=12811217 # Ibusuki Tadayoshi
+	}
+	1392.11.12={
+		liege=0
+	}
+	1409.1.1={
+		liege="d_nmih_satsuma"
+		holder=12811220 # Ibusuki Yoritada
+	}
+	1440.1.1={
+		holder=12811223 # Ibusuki Tomotada
+	}
+	1476.1.1={
+		holder=10060009 # Shimazu Tomohisa
+	}
+	1493.3.27={
+		holder=10060021 # Shimazu Yukihisa
+	}
+	1512.1.1={
+		holder=10060023 # Shimazu Tadayoshi
+	}
+	1527.4.1={
+		holder=10060000 # Shimazu Takahisa
+	}
+	1566.1.1={
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1600.4.18={
+		holder=10060816 # Ijuin Tadazane
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+		holder=10060092 # Shimazu Tadanaga
+	}
+	1610.12.23={
+		holder=10060094 # Shimazu Hisamoto
+	}
+}

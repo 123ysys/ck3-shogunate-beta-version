@@ -1,0 +1,154 @@
+c_nmih_nose = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nose1={
+				set_title_name=b_nmih_nose3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nose1={
+				set_title_name=b_nmih_nose4
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_nose1={
+				set_title_name=b_nmih_nose1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_settsu"
+	}
+	1180.1.1={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=12520102 # Tada Takayori
+	}
+	1180.12.19={
+		liege="e_nmih_japan"
+		holder=12421001 # Nose Kunimoto
+	}
+	1183.8.17={
+		liege="d_nmih_settsu"
+		holder=12421001 # Nose Kunimoto
+	}
+	1195.1.1={
+		holder=12520300 # Nose Kuniyoshi
+	}
+	1240.1.1={
+		holder=12520305 # Nose Yasuyori
+	}
+	1280.1.1={
+		holder=12520310 # Nose Yorisada
+	}
+	1333.7.4={
+		liege="d_nmih_settsu"
+	}
+	1336.7.4={
+		liege="e_nmih_nancho"
+	}
+	1343.1.1={
+		liege="d_nmih_settsu"
+		holder=12520315 # Nose Yorinaka
+	}
+	1360.1.1={
+		holder=12520320 # Nose Nagayori
+	}
+	1380.1.1={
+		holder=12520325 # Nose Yorito
+	}
+	1400.1.1={
+		holder=12520330 # Nose Yoritsura
+	}
+	1420.1.1={
+		holder=12520335 # Nose Yorizumi
+	}
+	1440.1.1={
+		holder=12520340 # Nose Yoritoki
+	}
+	1460.1.1={
+		holder=12520345 # Nose Yukiyori
+	}
+	1480.1.1={
+		holder=12520350 # Nose Motoyori
+	}
+	1500.1.1={
+		holder=12520356 # Nose Yoritoyo
+	}
+	1508.1.1={
+		liege="k_nmih_northern_kinai"
+	}
+	1508.7.28={
+		liege="d_nmih_settsu"
+	}
+	1520.1.1={
+		holder=12520360 # Nose Yoriaki
+	}
+	1527.3.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1536.9.14={
+		liege="d_nmih_settsu"
+	}
+	1543.1.1={
+		liege="k_nmih_northern_kinai"
+	}
+	1549.7.18 ={
+		liege="k_nmih_southern_kinai"
+	}
+	1565.6.17={
+		liege=0
+	}
+	1567.10.19={
+		liege=0
+		holder=10040860 # Nose Yoriyuki
+	}
+	1568.11.7={
+		liege="e_nmih_japan"
+	}
+	1572.9.26={
+		holder=10040861 # Nose Yorimichi
+	}
+	1573.8.25={
+		liege=0
+	}
+	1574.11.28={
+		liege="d_nmih_settsu" # 45700 Araki Murashige
+	}
+	1580.8.12={
+		liege=0
+	}
+	1580.9.17={
+		holder=10040862 # Nose Yoritsugu
+	}
+	1581.1.1={
+		liege="d_nmih_tanba"
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+		holder=10040880 # Shiokawa Nagamitsu
+	}
+	1586.11.15={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		liege="k_nmih_southern_kinai"
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1614.10.24={
+		holder=10206001 # Ono Harunaga
+	}
+	1615.6.4={
+		liege="e_nmih_japan"
+		holder=10024337 # Matsudaira Tadaaki
+	}
+}

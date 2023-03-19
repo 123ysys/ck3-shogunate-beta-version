@@ -1,0 +1,26 @@
+﻿#### FOI MUSC
+
+mx_IberiaWar = {
+	music = "event:/DLC/FP2/MUSIC/cuetracks/mx_Iberia_War"
+	pause_factor = 35
+}
+
+mx_Struggle_ending_compromise = {
+	music = "event:/DLC/FP2/MUSIC/cuetracks/mx_Struggle_ending_compromise"
+	pause_factor = 30
+}
+
+mx_Struggle_ending_conciliation = {
+	music = "event:/DLC/FP2/MUSIC/cuetracks/mx_Struggle_ending_conciliation"
+	pause_factor = 30
+}
+
+mx_Struggle_ending_hostility = {
+	music = "event:/DLC/FP2/MUSIC/cuetracks/mx_Struggle_ending_hostility"
+	pause_factor = 30
+}
+
+mx_Struggle_Opening = {
+	music = "event:/DLC/FP2/MUSIC/cuetracks/mx_Struggle_Opening"
+	pause_factor = 30
+}

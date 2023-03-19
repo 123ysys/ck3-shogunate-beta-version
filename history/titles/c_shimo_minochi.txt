@@ -1,0 +1,135 @@
+c_nmih_shimo_minochi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shimo_minochi1={
+				set_title_name=b_nmih_shimo_minochi9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shimo_minochi1={
+				set_title_name=b_nmih_shimo_minochi9
+			}
+		}
+	}
+	1184.3.4={
+		effect={
+			title:b_nmih_shimo_minochi1={
+				set_title_name=B_NMIH_SHIMO_MINOCHI9_1184
+			}
+		}
+	}
+	1400.9.1={
+		effect={
+			title:b_nmih_shimo_minochi1={
+				set_title_name=b_nmih_shimo_minochi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1400.9.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12388500 # Kasahara Yorinao
+	}
+	1181.7.26={
+		liege="d_nmih_shinano"
+		holder=12387010 # Takanashi Tadanao / Battle of Yokota-gawara
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_shinano"
+		holder=12387300 # Nakano Yoshinari
+	}
+	1250.1.1={
+		holder=12387305 # Nakano Tadayoshi
+	}
+	1272.1.1={
+		holder=12387320 # Ichikawa Shigefusa
+	}
+	1290.1.1={
+		holder=12387321 # Ichikawa Morifusa
+	}
+	1321.1.1={
+		holder=12387322 # Ichikawa Sukefusa
+	}
+	1333.7.4={
+		liege="d_nmih_shinano"
+	}
+	1343.1.1={
+		holder=12387325 # Ichikawa Yorifusa
+	}
+	1400.9.1={
+		liege=0
+		holder=12387065 # Takanashi Tomohide
+	}
+	1420.1.1={
+		holder=12387070 # Takanashi Takakage
+	}
+	1440.1.1={
+		holder=10021606 # Takanashi Norihide
+	}
+	1460.7.1={
+		liege=0
+		holder=10021605 # Takanashi Masataka
+	}
+	1468.1.1={
+		holder=10021601 # Takanashi Masamori
+	}
+	1513.5.31={
+		holder=10021600 # Takanashi Sumiyori
+	}
+	1547.1.1={
+		holder=10021602 # Takanashi Masayori
+	}
+	1559.3.1={
+		liege="d_nmih_echigo"
+		holder=10021602 # Takanashi Masayori
+	}
+	1576.1.1={
+		holder=10021613 # Takanashi Yorichika
+	}
+	1578.6.12={
+		liege="d_nmih_shinano"
+		holder=12380480 # Nedu Masanao
+	}
+	1582.4.3={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="k_nmih_chubu" # 29160 Oda Nobutada
+		holder=10025421 # Mori Nagayoshi
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_echigo"
+		holder=10033960 # Iwai Nobuyoshi
+	}
+	1598.3.1={
+		liege="e_nmih_japan"
+		holder=10026142 # Tamaru Naomasa
+	}
+	1600.3.5={
+		holder=10025426 # Mori Tadamasa
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10011306 # Minakawa Hiroteru
+	}
+	1609.11.13={
+		holder=10024035 # Matsudaira Tadateru
+	}
+	1610.3.16={
+		holder=10025968 # Hori Naoyori
+	}
+}

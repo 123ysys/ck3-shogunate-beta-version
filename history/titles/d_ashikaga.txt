@@ -1,0 +1,50 @@
+d_nmih_ashikaga = {
+	1000.1.1={
+	}
+	1077.1.1={
+		holder=12180100 # Ashikaga Nariyuki
+	}
+	1110.1.1={
+		holder=12180102 # Ashikaga Ietsuna
+	}
+	1138.1.1={
+		holder=12180110 # Ashikaga Toshitsuna
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+	}
+	1183.3.18={
+		liege = 0
+		liege="k_nmih_western_kanto"
+		holder=10120075 # Minamoto Yoritomo / Battle of Nogimiya
+	}
+	1183.9.1={
+		holder=12139000 # Ashikaga Yoshikane
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1199.4.5={
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1333.6.10={
+		liege=0
+	}
+	1333.7.4={
+		holder=0 # 
+	}
+
+}

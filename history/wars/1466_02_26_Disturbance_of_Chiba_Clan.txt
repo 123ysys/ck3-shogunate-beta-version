@@ -1,0 +1,12 @@
+war = {
+	name = "war_1466_disturbance_of_chiba_clan"
+	start_date = 1466.2.26
+	end_date = 1467.10.4
+	targeted_titles = {
+		c_nmih_katsushika
+	}
+	casus_belli = event_claim_cb
+	claimant = 10011606 # Chiba Suketane
+	attackers = { 10011606 } # Chiba Suketane
+	defenders = { 10017037 } # Uesugi [Ogigayatsu] Mochitomo
+}

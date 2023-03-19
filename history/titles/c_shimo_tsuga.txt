@@ -1,0 +1,121 @@
+c_nmih_shimo_tsuga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shimo_tsuga1={
+				set_title_name=b_nmih_shimo_tsuga1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_shimotsuke"
+	}
+	0916.1.1={
+		liege="d_nmih_shimotsuke"
+		holder=11004609 # Fujiwara Hidesato
+	}
+	0950.1.1={
+		holder=11004621 # Fujiwara Shitsune
+	}
+	0981.1.1={
+		holder=11004665 # Fujiwara Fuminaga
+	}
+	1018.3.3={
+		holder=11004666 # Fujiwara Fumiyuki
+	}
+	1020.1.1={
+		holder=11004667 # Fujiwara Kanemitsu
+	}
+	1037.1.1={
+		holder=11004687 # Fujiwara Yoriyuki
+	}
+	1057.1.1={
+		holder=11004689 # Fujiwara Yukinori
+	}
+	1061.1.1={
+		holder=11004694 # Fujiwara Takeyuki
+	}
+	1079.1.1={
+		holder=10130353 # Fujiwara [Ota] Yukitaka
+	}
+	1121.1.1={
+		holder=10130354 # Fujiwara [Ota] Yukimasa
+	}
+	1151.1.1={
+		liege="d_nmih_oyama"
+		holder=12135000 # Oyama Masamitsu
+	}
+	1191.1.1={
+		holder=12135001 # Oyama Tomomasa
+	}
+	1238.5.15={
+		holder=12135010 # Oyama Nagamura
+	}
+	1269.8.15={
+		holder=12135015 # Oyama Tokinaga
+	}
+	1276.1.1={
+		holder=12135020 # Oyama Munenaga
+	}
+	1315.1.1={
+		holder=12135025 # Oyama Sadatomo
+	}
+	1330.1.1={
+		holder=12135030 # Oyama Hidetomo
+	}
+	1335.8.2={
+		holder=12135035 # Oyama Tomosato
+	}
+	1346.5.4={
+		holder=12135036 # Oyama Ujimasa
+	}
+	1355.8.31={
+		holder=10011209 # Oyama Yoshimasa
+	}
+	1382.5.24={
+		holder=12209000 # Kido Sadanori
+	}
+	1387.1.1={
+		holder=10010214 # Oyama Yasutomo
+	}
+	1413.1.1={
+		holder=10011208 # Oyama Mitsuyasu
+	}
+	1430.6.1={
+		holder=10011207 # Oyama Mochimasa
+	}
+	1471.1.1={
+		holder=10011206 # Oyama Shigenaga
+	}
+	1516.1.1={
+		holder=10011205 # Oyama Masanaga
+	}
+	1534.1.1={
+		holder=10011201 # Oyama Takatomo
+	}
+	1560.1.1={
+		holder=10011202 # Oyama Hidetsuna
+	}
+	1576.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10016014 # Hojo Ujimasa
+	}
+	1582.5.18={
+		holder=10011202 # Oyama Hidetsuna
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10011204 # Yuki Harutomo
+	}
+	1591.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10024030 # Yuki Hideyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024881 # Honda Masazumi
+	}
+}

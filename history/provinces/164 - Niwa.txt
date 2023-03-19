@@ -1,0 +1,10 @@
+164 = {
+
+	culture = western_chubu
+	religion = shinto
+	holding = castle_holding
+	1331.1.1={
+	}
+	1559.3.1={
+	}
+}

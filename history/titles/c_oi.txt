@@ -1,0 +1,183 @@
+c_nmih_oi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_oi1={
+				set_title_name=b_nmih_oi9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_oi1={
+				set_title_name=b_nmih_oi9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_oi1={
+				set_title_name=b_nmih_oi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_tango"
+	}
+	1179.12.18={
+		liege="d_nmih_wakasa"
+		holder=10110101 #  Taira Tsunetoshi
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_wakasa"
+		holder=12480100 # Inaba Tokisada
+	}
+	1196.8.1={
+		liege="d_nmih_wakasa"
+		holder=12480800 # Wakasa Tadasue
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1220.1.1={
+		holder=12480800 # Wakasa Tadasue
+	}
+	1221.6.6={
+		liege="d_nmih_wakasa"
+		holder=11000156 # Matsudono Motofusa
+	}
+	1221.7.6={
+		liege="d_nmih_wakasa"
+		holder=12480400 # Mimasaka Tomochika
+	}
+	1230.1.1={
+		holder=12480401 # Mimasaka Ariyasu
+	}
+	1238.1.1={
+		holder=12480403 # Hongo Sukeyasu
+	}
+	1290.1.1={
+		holder=12480407 # Hongo Yasutomo
+	}
+	1320.1.1={
+		holder=12480410 # Hongo Takayasu
+	}
+	1330.1.1={
+		holder=12480413 # Hongo Sadayasu
+	}
+	1333.7.4={
+		liege="d_nmih_wakasa"
+	}
+	1336.1.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="d_nmih_wakasa"
+	}
+	1350.12.20={
+		liege="e_nmih_japan"
+	}
+	1351.8.23={
+		liege="d_nmih_wakasa"
+	}
+	1370.1.1={
+		holder=12480416 # Hongo Ieyasu
+	}
+	1390.1.1={
+		liege="d_nmih_wakasa"
+		holder=10049507 # Isshiki Akinori
+	}
+	1406.6.22={
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1440.6.14={
+		liege="d_nmih_wakasa"
+		holder=10042001 # Takeda Nobuhide
+	}
+	1440.6.15={
+		holder=10042021 # Henmi Sanemasa
+	}
+	1474.9.1={
+		holder=10042023 # Henmi Kunikiyo
+	}
+	1500.1.1={
+		holder=10042024 # Henmi Takakiyo
+	}
+	1540.1.1={
+		liege="d_nmih_wakasa"
+		holder=10042020 # Henmi Masatsune
+	}
+	1558.1.1={
+		liege=0 # 
+	}
+	1560.1.1={
+		liege="d_nmih_awaji" # 59007 Miyoshi Nagayoshi
+		holder=10042020 # Henmi Masatsune
+	}
+	1561.6.19={
+		liege="d_nmih_wakasa" # 42006 Takeda Yoshizumi
+		holder=10042006 # Takeda Yoshizumi
+	}
+	1565.1.1={
+		holder=10042020 # Henmi Masatsune
+	}
+	1566.6.1={
+		liege="d_nmih_wakasa" # 42006 Takeda Yoshizumi
+		holder=10042006 # Takeda Yoshizumi
+	}
+	1567.5.16={
+		holder=10042012 # Takeda Motoaki
+	}
+	1568.6.1={
+		liege=0 # 
+		holder=10042020 # Henmi Masatsune
+	}
+	1569.1.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1573.9.16={
+		liege="d_nmih_wakasa" # 29310 Niwa Nagahide
+	}
+	1581.4.29={
+		holder=10029120 # Oda Nobunaga
+	}
+	1581.5.1={
+		liege="d_nmih_wakasa" # 29310 Niwa Nagahide
+		holder=10042012 # Takeda Motoaki
+	}
+	1582.6.21={
+		liege="k_nmih_northern_kinai" # 25632 Akechi Mitsuhide
+	}
+	1582.8.7={
+		liege="d_nmih_wakasa" # Niwa Nagahide
+		holder=10029310 # Niwa Nagahide
+	}
+	1585.5.15={
+		holder=10029313 # Niwa Nagashige
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10294390 # Asano Nagamasa
+	}
+	1594.1.1={
+		holder=10029463 # Kinoshita Toshifusa
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_wakasa"
+		holder=10044219 # Kyogoku Takatsugu
+	}
+	1609.6.4={
+		holder=10044225 # Kyogoku Tadataka
+	}
+}

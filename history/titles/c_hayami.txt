@@ -1,0 +1,129 @@
+c_nmih_hayami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hayami1={
+				set_title_name=b_nmih_hayami1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_hayami1={
+				set_title_name=b_nmih_hayami2
+			}
+		}
+	}
+	1394.1.1={
+		effect={
+			title:b_nmih_hayami1={
+				set_title_name=b_nmih_hayami3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1394.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	230.1.1={
+		holder=10290070 # Oshikaoku
+	}
+	295.1.1={
+		holder=10290071 # Oshikaomi
+	}
+	1180.1.1={
+		liege="d_nmih_bungo"
+		holder=12780100 # Ogata Koreyoshi
+	}
+	1185.12.16={
+		liege="d_nmih_bungo"
+		holder=10230555 # Nakahara Chikayoshi
+	}
+	1196.1.1={
+		holder=10130538 # Otomo Yoshinao
+	}
+	1223.12.20={
+		holder=10064005 # Otomo Chikahide
+	}
+	1236.1.1={
+		holder=10064006 # Otomo Yoriyasu
+	}
+	1285.1.1={
+		holder=10064007 # Otomo Chikatoki
+	}
+	1295.7.5={
+		holder=10064008 # Otomo Sadachika
+	}
+	1311.9.2={
+		holder=10064009 # Otomo Sadamune
+	}
+	1333.7.4={
+		liege="d_nmih_bungo"
+	}
+	1334.1.9={
+		holder=10064013 # Otomo Yoriyasu
+	}
+	1352.1.1={
+		holder=10064014 # Otomo Ujitoki
+	}
+	1364.1.1={
+		holder=10064015 # Otomo Ujitsugu
+	}
+	1368.4.8={
+		holder=10064016 # Otomo Chikayo
+	}
+	1401.1.1={
+		liege="d_nmih_bungo"
+		holder=10064017 # Otomo Chikaaki
+	}
+	1423.1.1={
+		holder=10064018 # Otomo Mochinao
+	}
+	1431.1.1={
+		holder=10064021 # Otomo Chikatsuna
+	}
+	1439.1.1={
+		holder=10064020 # Otomo Chikataka
+	}
+	1444.1.1={
+		holder=10064020 # Otomo Chikashige
+	}
+	1476.1.1={
+		holder=10064022 # Otomo Masachika
+	}
+	1484.1.1={
+		holder=10064024 # Otomo Yoshisuke
+	}
+	1496.7.7={
+		holder=10064022 # Otomo Masachika
+	}
+	1496.7.20={
+		holder=10064023 # Otomo Chikaharu
+	}
+	1497.1.1={
+		holder=10064001 # Otomo Yoshinaga
+	}
+	1515.1.1={
+		holder=10064000 # Otomo Yoshiaki
+	}
+	1550.2.12={
+		holder=10064002 # Otomo Yoshishige(Sorin)
+	}
+	1587.6.11={
+		holder=10064025 # Otomo Yoshimune
+	}
+	1593.5.21={
+		liege="e_nmih_japan"
+		holder=10029457 # Sugihara Nagafusa
+	}
+	1598.1.1={
+		holder=10040220 # Hosokawa Tadaoki
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029464 # Kinoshita Nobutoshi
+	}
+}

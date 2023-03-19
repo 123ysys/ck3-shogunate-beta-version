@@ -1,0 +1,116 @@
+c_nmih_hitachi_naka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hitachi_naka1={
+				set_title_name=b_nmih_hitachi_naka6
+			}
+		}
+	}
+	1336.12.1={
+		effect={
+			title:b_nmih_hitachi_naka1={
+				set_title_name=b_nmih_hitachi_naka1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1250.1.1 = { change_development_level = 20 }
+	1317.1.1 = { change_development_level = 30 }
+	1336.12.1 = { change_development_level = 30 }
+	1426.1.1 = { change_development_level = 20 }
+
+	335.1.1={
+		holder=10041309 # Takekarima
+	}
+	340.1.1={
+		holder=10041311 # Takemizuwake
+	}
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1100.1.1={
+		holder=12125020 # Naka Michisuke
+	}
+	1125.1.1={
+		holder=12125030 # Naka Michikane
+	}
+	1150.1.1={
+		holder=12125040 # Naka Michimune
+	}
+	1187.1.1={
+		holder=12125050 # Naka Michiyasu
+	}
+	1210.1.1={
+		holder=12125060 # Naka Kagemichi
+	}
+	1240.1.1={
+		holder=12125070 # Naka Michishige
+	}
+	1265.1.1={
+		holder=12125080 # Naka Michiaki
+	}
+	1300.1.1={
+		holder=12125090 # Naka Michitatsu
+	}
+	1333.7.4={
+		liege="d_nmih_tsukuba"
+		holder=12125090 # Naka Michitatsu
+	}
+	1336.12.1={
+		liege="d_nmih_hitachi"
+		holder=12122110 # Satake Sadayoshi
+	}
+	1352.10.18={
+		holder=12122121 # Satake Moroyoshi
+	}
+	1397.1.1={
+		liege=0 # Yamairi Rebellion
+		holder=12122200 # Satake Tomoyoshi
+	}
+	1422.11.27={
+		holder=12122205 # Satake Yoshisato
+	}
+	1423.1.1={
+		holder=12122206 # Satake Sukeyoshi
+	}
+	1460.1.1={
+		holder=12122210 # Satake Yoshitomo
+	}
+	1478.1.1={
+		holder=12122211 # Satake Yoshizane
+	}
+	1480.1.1={
+		holder=12122216 # Satake Yoshifuji
+	}
+	1492.1.1={
+		holder=12122220 # Satake Ujiyoshi
+	}
+	1493.1.1={
+		liege="d_nmih_hitachi"
+		holder=10010803 # Satake Yoshikiyo
+	}
+	1517.4.3={
+		holder=10010801 # Satake Yoshiatsu
+	}
+	1545.5.19={
+		holder=10010802 # Satake Yoshiaki
+	}
+	1565.11.25={
+		holder=10010830 # Satake Yoshishige
+	}
+	1589.1.1={
+		holder=10010836 # Satake Yoshinobu
+	}
+	1603.3.24={
+		liege="d_nmih_hitachi"
+		holder=10024034 # Takeda Nobuyoshi
+	}
+	1603.10.15={
+		holder=10024049 # Tokugawa Yorinobu
+	}
+	1609.12.27={
+		holder=10024050 # Tokugawa Yorifusa
+	}
+}

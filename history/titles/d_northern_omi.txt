@@ -1,0 +1,121 @@
+d_nmih_northern_omi = {
+	100.1.1={
+	}
+	1184.3.4={
+		liege="e_nmih_joko"
+		holder=12515013 # Nishigori Yoshitaka
+	}
+	1211.1.1={
+		holder=12515080 # Nishigori Yoshitsugu
+	}
+	1221.7.6={
+		liege=0
+		holder=0 # 
+	}
+	1242.4.7={
+		liege="e_nmih_japan"
+		holder=12510083 # Kyogoku Ujinobu
+	}
+	1295.6.16={
+		holder=12510090 # Kyogoku Munetsuna
+	}
+	1297.10.27={
+		holder=12510100 # Kyogoku Sadamune
+	}
+	1305.5.31={
+		holder=10044201 # Kyogoku Muneuji
+	}
+	1329.8.11={
+		holder=10044203 # Kyogoku Takauji
+	}
+	1333.6.10={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10044203 # Kyogoku Takauji
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1368.1.1={
+		holder=10044205 # Kyogoku Takahide
+	}
+	1379.2.1={
+		holder=10044206 # Kyogoku Takanori
+	}
+	1381.7.1={
+		holder=10044205 # Kyogoku Takahide
+	}
+	1391.11.7={
+		holder=10044206 # Kyogoku Takanori
+	}
+	1401.10.14={
+		holder=10044207 # Kyogoku Takamitsu
+	}
+	1413.9.14={
+		holder=10044209 # Kyogoku Mochitaka
+	}
+	1439.1.29={
+		holder=10044208 # Kyogoku Takakazu
+	}
+	1441.7.12={
+		holder=10044210 # Kyogoku Mochikiyo
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan" # Onin War
+	}
+	1470.8.30={
+		holder=10044215 # Kyogoku Magodojimaru
+	}
+	1471.1.1={
+		liege = 0
+		holder=10044213 # Kyogoku Masatsune
+	}
+	1472.9.1={
+		holder=10044214 # Kyogoku Takakiyo
+	}
+	1524.1.1={
+		holder=10044217 # Kyogoku Takanobu
+	}
+	1534.1.1={ # Northern Omi was controlled by the Azai Clan
+		liege=0
+		holder=10043000 # Azai Sukemasa
+	}
+	1542.1.21={
+		holder=10043006 # Azai Hisamasa
+	}
+	1560.8.1={
+		holder=10043015 # Azai Nagamasa
+	}
+	1573.10.6={
+		holder=0 # 
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10045820 # Ishida Mitsunari
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10023306 # Ii Naomasa
+	}
+	1602.3.24={
+		holder=10023312 # Ii Naokatsu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1615.1.1={
+		holder=10023313 # Ii Naotaka
+	}
+}

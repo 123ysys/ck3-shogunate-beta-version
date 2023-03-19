@@ -1,0 +1,6 @@
+﻿l_russian:
+ LOWBORN:0 ""
+ HOUSE_CADET_BRANCH_NAME_FORMAT:1 "$DYNASTY$"
+ SCOPE_CULTURE:0 "#L [ROOT.Culture.GetName]#! культура:"
+ SCOPE_CULTURE_GROUP:0 "#L культурная группа [ROOT.CultureGroup.GetName]#!:"
+ CHARACTER_DEFAULT_TOOLTIP:0 "[CHARACTER.GetUIName]\n[CHARACTER.PlayerName|D]\nID: [CHARACTER.GetID|V]\nИсторический ID: [CHARACTER.GetSlowHistoryIdForDebug|V]\nДинастия: [CHARACTER.GetDynastyName|V]\nКультура: #V [CHARACTER.GetCulture.GetName]#!\nПлодовитость: [CHARACTER.GetFertility|%0V]\nЗдоровье: [CHARACTER.GetHealth|1V]\n"

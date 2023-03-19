@@ -1,0 +1,5 @@
+﻿bm_eikyowar_1438 = {
+	start_date = 1438.8.1
+	is_playable = yes
+	group = bm_group_muromachi
+}

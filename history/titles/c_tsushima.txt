@@ -1,0 +1,117 @@
+c_nmih_tsushima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsushima1={
+				set_title_name=b_nmih_tsushima9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tsushima1={
+				set_title_name=b_nmih_tsushima9
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_tsushima1={
+				set_title_name=b_nmih_tsushima7
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	235.1.2={
+		holder=10290050 # Sayaku
+		liege=d_nmih_chikuzen
+	}
+	764.11.6={
+		liege=0
+	}
+	1180.1.1={
+		liege="d_nmih_tsushima"
+		holder=11004037 # Hino Chikamitsu
+	}
+	1185.4.5={
+		liege="d_nmih_tsushima"
+		holder=10120121 # Kochi Yoshinaga
+	}
+	1192.1.1={
+		holder=12770000 # Abiru Akiyori
+	}
+	1220.1.1={
+		holder=12770001 # Abiru Kuninobu
+	}
+	1246.1.1={
+		liege="d_nmih_tsushima"
+		holder=10069240 # So Shigehisa
+	}
+	1261.1.1={
+		holder=10069245 # So Sukekuni
+	}
+	1274.11.4={
+		holder=11050400 # Khudun Hindus
+	}
+	1274.11.20={
+		holder=10069246 # So Moriaki
+	}
+	1281.6.9={
+		holder=11050400 # Khudun Hindus
+	}
+	1281.8.22={
+		holder=10069246 # So Moriaki
+	}
+	1300.1.1={
+		holder=10069248 # So Morikuni
+	}
+	1333.7.4={
+		liege="d_nmih_tsushima"
+	}
+	1350.1.1={
+		holder=10069249 # So Tsuneshige
+	}
+	1380.1.1={
+		holder=10069205 # So Sadashige
+	}
+	1418.4.1={
+		holder=10069207 # So Yorishige
+	}
+	1452.6.22={
+		holder=10069208 # So Shigemoto
+	}
+	1467.1.1={
+		liege="d_nmih_tsushima"
+		holder=10069203 # So Sadakuni
+	}
+	1492.1.1={
+		holder=10069212 # So Kimori
+	}
+	1507.3.6={
+		holder=10069213 # So Yoshimori
+	}
+	1520.12.6={
+		holder=10069215 # So Morinaga
+	}
+	1526.10.10={
+		holder=10069200 # So Masamori
+	}
+	1539.1.1={
+		holder=10069218 # So Haruyasu
+	}
+	1553.1.1={
+		holder=10069219 # So Yoshishige
+	}
+	1589.1.28={
+		holder=10069222 # So Yoshitomo
+	}
+	1615.1.31={
+		holder=10069223 # So Yoshinari
+	}
+}

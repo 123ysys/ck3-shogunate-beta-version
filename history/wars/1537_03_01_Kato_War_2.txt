@@ -1,0 +1,12 @@
+war = {
+	name = "war_1537_kato_war"
+	start_date = 1537.4.1
+	end_date = 1545.11.1
+	targeted_titles = {
+		c_nmih_sunto
+	}
+	casus_belli = event_claim_cb
+	claimant = 10023010 # Imagawa Yoshimoto
+	attackers = { 10023010 } # Imagawa Yoshimoto
+	defenders = { 10016000 } # Hojo Ujitsuna
+}

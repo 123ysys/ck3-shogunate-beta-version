@@ -1,0 +1,163 @@
+﻿bm_genpeiwar1180 = {
+	start_date = 1180.11.10
+	is_playable = yes
+	group = bm_group_kamakura
+
+	weight = {
+		value = 100
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_minamoto_yoritomo"
+		dynasty = 10001200
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1147.5.9
+		title = k_nmih_western_kanto
+		government = feudal_government
+		culture = southern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10120075
+		position = { 400 200 }
+
+		animation = personality_rational
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_minamoto_yoshinaka"
+		dynasty = 10001200
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1154.1.1
+		title = k_nmih_shinano
+		government = feudal_government
+		culture = koshin
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10120084
+		position = { 750 200 }
+
+		animation = personality_greedy
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_takeda_nobuyoshi"
+		dynasty = 10000200
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1128.9.11
+		title = d_nmih_kai
+		government = feudal_government
+		culture = koshin
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10120111
+		position = { 1100 200 }
+
+		animation = personality_honorable
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_taira_kiyomori"
+		dynasty = 10001100
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1118.1.1
+		title = e_nmih_japan
+		government = feudal_government
+		culture = central_kinai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10110025
+		position = { 400 500 }
+
+		animation = personality_callous
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_harada_tanenao"
+		dynasty = 10000676
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1140.1.1
+		title = d_nmih_chikuzen
+		government = feudal_government
+		culture = northern_kyushu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 12750100
+		position = { 750 500 }
+
+		animation = personality_content
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_fujiwara_hidehira"
+		dynasty = 10001300
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1122.1.1
+		title = k_nmih_northern_oshu
+		government = feudal_government
+		culture = northern_oshu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 12030020
+		position = { 1100 500 }
+
+		animation = personality_cynical
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_hojo_tokimasa"
+		dynasty = 10006129
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1138.1.1
+		title = c_nmih_tagata
+		government = feudal_government
+		culture = southern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10131650
+		position = { 400 800 }
+
+		animation = personality_compassionate
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_miura_yoshizumi"
+		dynasty = 10007063
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1127.1.1
+		title = d_nmih_boshu
+		government = feudal_government
+		culture = southern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 12211030
+		position = { 750 800 }
+
+		animation = personality_dishonorable
+	}
+
+	character = {
+		name = "bm_genpeiwar1180_kazusa_hirotsune"
+		dynasty = 10007009
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1124.1.1
+		title = d_nmih_kazusa
+		government = feudal_government
+		culture = eastern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 12155017
+		position = { 1100 800 }
+
+		animation = personality_bold
+	}
+
+}

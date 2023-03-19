@@ -1,0 +1,8 @@
+﻿shogunate_artifact_region_modifier = {
+	modifier = {
+		add = $ADD$
+		scope:location.title_province = {
+			geographical_region = $REGION$
+		}
+	}
+}

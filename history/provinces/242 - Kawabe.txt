@@ -1,0 +1,28 @@
+242 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1.1.1={
+		special_building_slot = tada_copper_mines_01
+	}
+	1037.1.1={
+		special_building = tada_copper_mines_01
+	}
+	1330.1.1={
+	}
+	1460.1.1 = {
+		religion = hokkeshu
+	}
+
+	1574.11.28={
+		buildings = {
+			castle_03
+		}
+	}
+	1583.1.1={
+		buildings = {
+			castle_01
+		}
+	}
+}

@@ -1,0 +1,20 @@
+war = {
+	name = "war_1352_battle_of_musashino"
+	start_date = 1352.3.13
+	end_date = 1352.4.26
+	targeted_titles = {
+		d_nmih_sagami
+	}
+	casus_belli = event_nanbokucho_invasion_war_duchy
+	attackers = {
+		12185045	# Nitta Yoshimune
+		10017006	# Uesugi Noriaki
+		10041903	# Prince Muneyoshi
+		12070016	# Ashina Tadamori
+		10125126	# Kitabatake Akinobu
+		10132313	# Hojo Tokiyuki
+	}
+	defenders = {
+		12139028	# Ashikaga Takauji
+	}
+}

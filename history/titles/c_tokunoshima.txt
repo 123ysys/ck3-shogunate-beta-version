@@ -1,0 +1,82 @@
+c_nmih_tokunoshima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tokunoshima1={
+				set_title_name=b_nmih_tokunoshima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+
+	0100.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=10148510 # Kamiyaki Kamiyaki
+	}
+	1210.1.1={
+		holder=10148511 # Kamiyaki Kamiyaki
+	}
+	1240.1.1={
+		holder=10148512 # Kamiyaki Kamiyaki
+	}
+	1263.1.1={
+		holder=10142120 # Shunten Gihon
+	}
+	1266.1.1={
+		holder=10142130 # Shunten Urasii
+	}
+	1270.1.1={
+		holder=10148100 # Shunten Keiko
+	}
+	1320.1.1={
+		holder=10148520 # Shimaji Shimaji
+	}
+	1350.1.1={
+		holder=10148521 # Fuugushiku Tokuwan
+	}
+	1380.1.1={
+		holder=10148522 # Fuugushiku Maushi
+	}
+	1410.1.1={
+		holder=10148523 # Isin Goran
+	}
+	1430.1.1={
+		liege="k_nmih_chuzan"
+		holder=10141005 # Sho Hashi
+	}
+	1430.1.2={
+		holder=10141232 # Yuntanza Gusamaru
+	}
+	1458.8.1={
+		holder=10141015 # Sho Taikyu
+	}
+	1459.1.1={
+		holder=10140004 # Sho En
+	}
+	1469.6.1={
+		liege="k_nmih_chuzan"
+		holder=10140200 # Tumai Soju
+	}
+	1514.10.13={
+		holder=10140007
+	}
+	1527.1.12={
+		holder=10140000
+	}
+	1555.7.13={
+		holder=10140027
+	}
+	1572.5.12={
+		holder=10140045
+	}
+	1589.1.11={
+		holder=10140061
+	}
+	1609.4.27={
+		liege="d_nmih_satsuma"
+		holder=10060050 # Shimazu Iehisa
+	}
+}

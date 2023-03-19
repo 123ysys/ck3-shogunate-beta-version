@@ -1,0 +1,99 @@
+c_nmih_kaifu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kaifu1={
+				set_title_name=b_nmih_kaifu6
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kaifu1={
+				set_title_name=b_nmih_kaifu6
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kaifu1={
+				set_title_name=B_NMIH_KAIFU6_1331
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+		liege="d_nmih_awa"
+	}
+	1180.1.1={
+		liege="d_nmih_awa"
+		holder=12690001 # Awata Shigeyoshi
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_awa"
+		holder=12510061 # Sasaki Tsunetaka
+	}
+	1216.1.1={
+		holder=12510150 # Sasaki Takashige
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_awa"
+		holder=12360501 # Ogasawara Nagakiyo
+	}
+	1223.1.1={
+		holder=12360600 # Ogasawara Nagatsune
+	}
+	1247.12.3={
+		holder=12360680 # Ogasawara Nagafusa
+	}
+	1276.12.2={
+		holder=10055742 # Ogasawara Nagahisa
+	}
+	1290.1.1={
+		holder=12691500 # Ogasawara Nagayoshi
+	}
+	1320.1.1={
+		liege="d_nmih_awa"
+		holder=10058405 # Kaifu TajimaNoKami
+	}
+	1336.3.1={
+		liege="d_nmih_awa"
+		holder=10058435 # Shingai Saneyuki
+	}
+	1370.1.1={
+		holder=10058436 # Shingai Tadashige
+	}
+	1400.1.1={
+		holder=10058437 # Shingai Tadamune
+	}
+	1430.1.1={
+		holder=10058438 # Shingai TotomiNoKami
+	}
+	1460.1.1={
+		holder=10058430 # Shingai Mochizane
+	}
+	1490.1.1={
+		holder=10058431 # Shingai Yukizane
+	}
+	1530.1.1={
+		holder=10058432 # Shingai Motozane
+	}
+	1560.1.1={
+		holder=10058433 # Shingai Sanetsuna
+	}
+	1580.1.1={
+		liege="d_nmih_tosa"
+		holder=10059115 # Kosokabe Chikayasu
+	}
+	1585.8.10={
+		liege="d_nmih_awa"
+		holder=10029612 # Hachisuka Iemasa
+	}
+	1603.3.24={
+		holder=10029613 # Hachisuka Yoshishige
+	}
+}

@@ -1,0 +1,120 @@
+c_nmih_niihari = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_niihari1={
+				set_title_name=b_nmih_niihari9
+			}
+		}
+	}
+	1214.1.1={
+		effect={
+			title:b_nmih_niihari1={
+				set_title_name=b_nmih_niihari1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 30 }
+	1214.1.1 = { change_development_level = 20 }
+	1343.11.11 = { change_development_level = 10 }
+	1430.1.1 = { change_development_level = 20 }
+	1591.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1160.1.1={
+		holder=12121101 # Kudara Masanari
+	}
+	1180.1.1={
+		liege="d_nmih_hitachi"
+		holder=12121101 # Kudara Masanari
+	}
+	1210.1.1={
+		holder=12120160 # Daijo Sukemoto
+	}
+	1230.1.1={
+		holder=12120170 # Daijo Tomomoto
+	}
+	1250.1.1={
+		holder=12120180 # Daijo Norimoto
+	}
+	1289.4.27={
+		holder=12120200 # Daijo Tokimoto
+	}
+	1320.1.1={
+		holder=12120210 # Daijo Morimoto
+	}
+	1330.1.1={
+		holder=12120220 # Daijo Takamoto
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.7.1={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="e_nmih_nancho"
+	}
+	1335.11.1={
+		liege="d_nmih_tsukuba"
+	}
+	1337.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1382.1.1={
+		holder=12120230 # Daijo Akikuni
+	}
+	1386.3.1={
+		holder=12120231 # Daijo Mitsumoto
+	}
+	1415.6.8={
+		liege="d_nmih_musashi"
+	}
+	1417.1.27={
+		liege="e_nmih_japan"
+	}
+	1430.1.7={
+		liege="d_nmih_hitachi"
+		holder=10010816 # Satake Yoshihito
+	}
+	1441.1.1={
+		liege=0
+		holder=10010606 # Daijo Yorimoto
+	}
+	1460.1.1={
+		holder=10010605 # Daijo Mochimoto
+	}
+	1467.1.1={
+		holder=10010604 # Daijo Kiyomoto
+	}
+	1500.1.1={
+		holder=10010603 # Daijo Takamoto
+	}
+	1525.1.1={
+		holder=10010602 # Daijo Tsunemoto
+	}
+	1540.1.1={
+		holder=10010601 # Daijo Norimoto
+	}
+	1564.1.1={
+		holder=10010627 # Daijo Sadakuni
+	}
+	1578.1.1={
+		holder=10010628 # Daijo Kiyomoto
+	}
+	1590.12.31={
+		holder=10010836 # Satake Yoshinobu
+		liege="d_nmih_hitachi"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029329 # Takigawa Katsutoshi
+	}
+	1610.3.21={
+		holder=10029328 # Takigawa Masatoshi
+	}
+}

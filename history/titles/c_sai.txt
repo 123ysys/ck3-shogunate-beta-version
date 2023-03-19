@@ -1,0 +1,130 @@
+c_nmih_sai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sai1={
+				set_title_name=b_nmih_sai2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_sai1={
+				set_title_name=b_nmih_sai2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1336.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1070.1.1={
+		holder=11004693 # Fujiwara Kaneyuki
+	}
+	1077.1.1={
+		holder=12180100 # Ashikaga Nariyuki
+	}
+	1110.1.1={
+		holder=12180102 # Ashikaga Ietsuna
+	}
+	1138.1.1={
+		holder=12180110 # Ashikaga Toshitsuna
+	}
+	1180.1.1={
+		liege=0
+		holder=10130445 # Nawa Hirozumi
+	}
+	1180.9.27={
+		liege="k_nmih_shinano" # Minamoto Yoshinaka
+	}
+	1183.8.17={
+		liege="e_nmih_japan" # Minamoto Yoshinaka
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+		holder=10130447 # Nawa Munezumi / Battle of Awazu
+	}
+	1205.1.1={
+		holder=12221012 # Nawa Masahiro
+	}
+	1250.1.1={
+		holder=12191000 # Nawa Masashige
+	}
+	1263.1.1={
+		holder=12191002 # Nawa Yorihiro
+	}
+	1330.1.1={
+		holder=12191012 # Nawa Masaie
+	}
+	1333.6.17={
+		liege="d_nmih_nitta"
+	}
+	1335.7.1={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="d_nmih_nitta"
+		holder=12185040 # Nitta Yoshisada
+	}
+	1335.11.1={
+		holder=12189020 # Eda Yukiyoshi
+	}
+	1338.8.17={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1338.9.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12191010 # Nawa Munehiro
+	}
+	1400.1.1={
+		holder=12191015 # Nawa Muneshige
+	}
+	1410.1.1={
+		holder=12191018 # Nawa Munemoto
+	}
+	1439.3.24={
+		liege="d_nmih_kozuke"
+		holder=12191025 # Nawa Katsumune
+	}
+	1480.1.1={
+		holder=10017201 # Nawa Munemasa
+	}
+	1520.1.1={
+		holder=10017200 # Nawa Munetoshi
+	}
+	1552.3.1={
+		liege="k_nmih_western_kanto"
+	}
+	1560.12.1={
+		liege="d_nmih_echigo"
+		holder=10032011 # Uesugi Kenshin
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1561.11.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1566.9.1={
+		liege="k_nmih_western_kanto"
+	}
+	1574.1.1={
+		holder=10017123 # Yura Kunishige
+	}
+	1582.4.15={
+		liege="d_nmih_kozuke"
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10023306 # Ii Naomasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024259 # Sakai Ietsugu
+	}
+}

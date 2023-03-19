@@ -1,0 +1,205 @@
+c_nmih_kadono = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kadono1={
+				set_title_name=b_nmih_kadono3
+			}
+		}
+	}
+	0794.1.1={
+		effect={
+			title:b_nmih_kadono1={
+				set_title_name=b_nmih_kadono9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	0794.1.1 = { change_development_level = 40 }
+	1336.7.22 = { change_development_level = 50 }
+	1399.1.1 = { change_development_level = 50 }
+	1467.6.27 = { change_development_level = 50 }
+	1573.8.25 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_yamashiro"
+	}
+	1179.12.18={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=10110025 # Taira Kiyomori
+	}
+	1181.3.20={
+		liege="e_nmih_japan" # Taira Munemori
+		holder=10110042 # Taira Munemori
+	}
+	1183.8.17={
+		liege="e_nmih_japan" # Minamoto Yoshinaka
+		holder=10120084 # Minamoto Yoshinaka. Taira's escape to the west
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="e_nmih_joko"
+		holder=10041054 # Emperor Go-Shirakawa
+	}
+	1192.4.26={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1221.7.6={
+		liege="d_nmih_yamashiro"
+		holder=10131666 # Hojo Yasutoki
+	}
+	1224.7.1={
+		holder=10131688 # Hojo Tokiuji
+	}
+	1230.7.29={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1240.1.1={
+		holder=12517400 # Saburi Chikakiyo
+	}
+	1270.2.18={
+		holder=10131878 # Hojo [Akahashi] Yoshimune
+	}
+	1277.9.16={
+		holder=10131747 # Hojo Tokimura
+	}
+	1287.9.22={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1293.4.14={
+		holder=10132044 # Hojo [Akahashi] Hisatoki
+	}
+	1297.7.8={
+		holder=10132163 # Hojo Munekata
+	}
+	1301.1.5={
+		holder=10132050 # Hojo [Fuonji] Mototoki
+	}
+	1303.11.29={
+		holder=10131881 # Hojo [Tokiwa] Tokinori
+	}
+	1307.9.11={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1315.8.11={
+		holder=10131921 # Hojo Tokiatsu
+	}
+	1320.7.8={
+		holder=10132047 # Hojo [Tokiwa] Norisada
+	}
+	1331.2.4={
+		holder=10132207 # Hojo [Fuonji] Nakatoki
+	}
+	1333.6.19={
+		liege="e_nmih_nancho"
+		holder=10041075 # Emperor Go-Daigo
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=11005900 # Madenokoji Nobufusa
+	}
+	1336.7.22={
+		liege="e_nmih_japan"
+		holder=12220245 # Nikaido Yukitomo
+	}
+	1340.1.1={
+		holder=12220276 # Nikaido Yukinao
+	}
+	1348.6.5={
+		holder=12220245 # Nikaido Yukitomo
+	}
+	1353.10.22={
+		holder=12220278 # Nikaido Yukimoto
+	}
+	1379.1.1={
+		holder=10040124 # Ise Sadatsugu
+	}
+	1391.5.3={
+		holder=10040126 # Ise Sadayuki
+	}
+	1410.8.5={
+		holder=10040127 # Ise Sadatsune
+	}
+	1431.1.1={
+		holder=10040103 # Ise Sadakuni
+	}
+	1454.7.2={
+		holder=10040102 # Ise Sadachika
+	}
+	1466.10.15={
+		holder=10050039 # Yamana Mochitiyo
+	}
+	1467.6.27={
+		liege="k_nmih_sanin"
+		holder=10050039 # Yamana Mochitiyo
+	}
+	1473.4.15={
+		holder=10050044 # Yamana Masatoyo
+	}
+	1474.4.19={
+		liege="k_nmih_western_chugoku"
+		holder=10057007 # Ouchi Masahiro
+	}
+	1477.12.16={
+		liege="d_nmih_yamashiro"
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1486.5.1={
+		liege="e_nmih_japan"
+		holder=10040100 # Ise Sadamichi
+	}
+	1521.9.17={
+		holder=10040104 # Ise Sadatada
+	}
+	1535.12.8={
+		holder=10040105 # Ise Sadataka
+	}
+	1549.7.18={
+		liege="d_nmih_yamashiro"
+	}
+	1562.10.8={
+		liege="e_nmih_japan"
+		holder=10040040 # Ashikaga Yoshiteru
+	}
+	1565.6.17={
+		liege="d_nmih_yamashiro"
+		holder=10059006 # Miyoshi Nagayasu
+	}
+	1568.10.19={
+		liege="d_nmih_yamashiro"
+		holder=10029120 # Oda Nobunaga
+	}
+	1568.11.7={
+		liege="e_nmih_japan" # 40042 Ashikaga Yoshiaki
+		holder=10040042 # Ashikaga Yoshiaki
+	}
+	1570.11.28={
+		holder=10040113 # Ise Sadaoki
+	}
+	1573.8.25={
+		liege="d_nmih_yamashiro"
+		holder=10029200 # Murai Sadakatsu
+	}
+	1582.6.21={
+		liege="d_nmih_yamashiro"
+		holder=10040113 # Ise Sadaoki
+	}
+	1582.7.2={
+		liege="d_nmih_yamashiro"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.8.1={
+		holder=10029439 # Asano Nagayoshi
+	}
+	1583.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10025950 # Maeda Geni
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="d_nmih_yamashiro"
+		holder=10201700 # Itakura Katsushige
+	}
+}

@@ -1,0 +1,154 @@
+c_nmih_kariwa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kariwa1={
+				set_title_name=b_nmih_kariwa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kariwa1={
+				set_title_name=b_nmih_kariwa9
+			}
+		}
+	}
+	1444.1.1={
+		effect={
+			title:b_nmih_kariwa1={
+				set_title_name=b_nmih_kariwa1
+			}
+		}
+	}
+	1544.1.1={
+		effect={
+			title:b_nmih_kariwa1={
+				set_title_name=b_nmih_kariwa5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1444.1.1 = { change_development_level = 20 }
+	1544.1.1 = { change_development_level = 20 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege=0
+		holder=12270210 # Oguni Muneyori
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="d_nmih_echigo"
+	}
+	1195.1.1={
+		holder=12270232 # Oguni Yoritsura
+	}
+	1221.7.6={
+		liege="d_nmih_hida"
+		holder=12221013 # Mori Suemitsu
+	}
+	1247.7.9={
+		liege="e_nmih_japan"
+		holder=12221103 # Mori Tsunemitsu
+	}
+	1270.1.1={
+		liege="d_nmih_echigo"
+	}
+	1300.1.1={
+		holder=12270780 # Mori Motochika
+	}
+	1326.12.18={
+		holder=12270800 # Mori Tokimoto
+	}
+	1331.1.1={
+		holder=12270820 # Mori Tsunetaka
+	}
+	1333.7.4={
+		liege="d_nmih_echigo"
+		holder=12185043 # Nitta Yoshiaki
+	}
+	1337.4.7={
+		holder=12185040 # Nitta Yoshisada
+	}
+	1338.8.17={
+		liege="d_nmih_echigo"
+		holder=12139566 # Kou Moroyasu
+	}
+	1341.6.1={
+		holder=10017006 # Uesugi Noriaki
+	}
+	1352.3.12={
+		holder=12130055 # Utsunomiya Ujitsuna
+	}
+	1363.3.1={
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		liege="d_nmih_echigo"
+		holder=10032801 # Uesugi Noriyoshi
+	}
+	1386.1.1={
+		holder=10017015 # Uesugi Fusakata
+	}
+	1421.12.4={
+		holder=10032803 # Uesugi Tomokata
+	}
+	1422.10.29={
+		holder=10032806 # Uesugi Fusatomo
+	}
+	1449.3.21={
+		holder=10032808 # Uesugi Fusasada
+	}
+	1494.11.14={
+		holder=10032811 # Uesugi Fusayoshi
+	}
+	1506.10.5={
+		liege=0
+	}
+	1507.9.13={
+		holder=10032812 # Uesugi Sadazane
+	}
+	1515.1.1={
+		holder=10032800 # Uesugi Sadanori
+	}
+	1544.1.1={
+		liege="d_nmih_echigo" # 32009 Nagao Harukage
+		holder=10032523 # Kitajo Takahiro
+	}
+	1554.1.1={
+		liege=0
+		holder=10032523 # Kitajo Takahiro
+	}
+	1555.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1567.1.1={
+		liege=0 
+	}
+	1569.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1578.4.19={
+		liege="d_nmih_kozuke" # Uesugi Kagetora
+	}
+	1579.2.28={
+		liege="d_nmih_echigo" # 32032 Uesugi Kagekatsu
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1598.3.1={
+		holder=10025964 # Hori Hideharu
+	}
+	1603.3.24={
+		liege="d_nmih_echigo"
+	}
+	1606.7.1={
+		holder=10025969 # Hori Tadatoshi
+	}
+	1610.3.16={
+		holder=10024035 # Matsudaira Tadateru
+	}
+}

@@ -1,0 +1,214 @@
+﻿l_french:
+
+ unlock_tribal_economic_buildings:0 "Déverrouille tout les [economic_buildings|E] de l'ère Muromachi"
+ unlock_tribal_military_buildings:0 "Déverrouille tout les [military_buildings|E] de l'ère Muromachi"
+ unlock_tribal_fortification_buildings:0 "Déverrouille tout les [fortification_buildings|E] de l'ère Muromachi"
+ unlock_early_medieval_economic_buildings:0 "Déverrouille tout les [economic_buildings|E] du début de l'ère Sengoku"
+ unlock_early_medieval_military_buildings:0 "Déverrouille tous les [military_buildings|E] du début de l'ère Sengoku"
+ unlock_early_medieval_fortification_buildings:0 "Déverrouille tous les [fortification_buildings|E] du début de l'ère Sengoku"
+ unlock_high_medieval_economic_buildings:0 "Déverrouille tous les [economic_buildings|E] du milieu de l'ère Sengoku"
+ unlock_high_medieval_military_buildings:0 "Déverrouille tous les [military_buildings|E] du milieu de l'ère Sengoku"
+ unlock_high_medieval_fortification_buildings:0 "Déverrouille tous les [fortification_buildings|E] du milieu de l'ère Sengoku"
+ unlock_late_medieval_economic_buildings:0 "Déverrouille tous les [economic_buildings|E] de la fin de l'ère Sengoku"
+ unlock_late_medieval_military_buildings:0 "Déverrouille tous les [military_buildings|E] de la fin de l'ère Sengoku"
+ unlock_late_medieval_fortification_buildings:0 "Déverrouille tous les [fortification_buildings|E] de la fin de l'ère Sengoku"
+
+##############
+# Tribal Era #
+##############
+
+ # Military
+
+ innovation_motte:0 "Résidences des samouraïs"
+ innovation_motte_desc:0 "Les résidences de samouraïs, ou Tachi, sont des petits forts qui protèges un point stratégique. Ils sont entourés de fossés, de remblais et de murs."
+
+ innovation_catapult:0 "Boucliers organisés"
+ innovation_catapult_desc:0 "Les boucliers organisés, ou Kaidate, consistent à disposés de nombreux boucliers au sol. Ils permettent de protéger les soldats des projectiles ennemis."
+
+ innovation_barracks:0 "Conseil des samouraïs"
+ innovation_barracks_desc:0 "Le conseil des samouraïs, ou Samurai-dokoro, est l'organisation qui remplit un rôle à la fois militaire et policier dans le shogunat de Kamakura et de Muromachi."
+
+ innovation_mustering_grounds:0 "Gokenin"
+ innovation_mustering_grounds_desc:0 "Le Gokenin est un samouraï qui fait partie du personnel du shogunat de Kamakura. En échange de leur patronage, ils ont le devoir de servir le shogun sur le plan militaire et politique."
+
+ innovation_bannus:0 "Décret de Tokuseirei"
+ innovation_bannus_desc:0 "Le Tokuseirei est un décret ordonnant la restitution des terres vendues et l'annulation des dettes. Les révoltes paysannes qui le réclament augmentent dans la période ultérieure."
+
+ innovation_quilted_armor:0 "Faveur et service"
+ innovation_quilted_armor_desc:0 "La faveur et le service, ou Go-on et Hōkō, désigne le concept de relation maître/serviteur chez les samouraïs dans le Japon médiéval."
+
+ # Civic
+
+ innovation_gavelkind:0 "Système Sōryō"
+ innovation_gavelkind_desc:0 "Le système Sōryō est une sorte de système de succession. Bien qu'il s'agisse d'une succession divisée, le chef de famille appelé Sōryō a un certain niveau de contrôle sur les autres membres de la famille."
+
+ innovation_crop_rotation:0 "Double culture"
+ innovation_crop_rotation_desc:0 "La double culture, ou Nimōsaku, est la pratique consistant à faire pousser deux cultures différentes au cours d'une année. Le riz et l'orge sont cultivés après l'ère Kamakura."
+
+ innovation_city_planning:0 "Système Shōen-Kōryō"
+ innovation_city_planning_desc:0 "Le système Shōen-kōryō est une structure de gouvernance foncière qui reposait sur les Shōen (domaines privés) et les Kōryō (terres publiques)."
+
+ innovation_casus_belli:0 "Gouvernement des samouraïs"
+ innovation_casus_belli_desc:0 "Le gouvernement des samouraïs, ou Buke Seiji, est une domination de la classe des samouraïs. Il se poursuivit depuis le shogunat de Kamakura jusqu'au shogunat d'Edo."
+
+ innovation_plenary_assemblies:0 "Shugo Daimyō"
+ innovation_plenary_assemblies_desc:0 "Le Shugo Daimyō est un Shugo (gouverneur de province) qui eut acquit non seulement le pouvoir militaire mais également le pouvoir économique durant l'ère Muromachi."
+
+ innovation_development_01:0 "Prêteurs sur gages"
+ innovation_development_01_desc:0 "Les prêteurs sur gages, ou Dosō, prêtent une somme d'argent équivalente à la valeur de l'objet mis en gage, moyennant des intérêts élevés. De nombreux Sakaya (marchands de saké) gèrent de telles entreprises de prêt d'argent."
+
+ innovation_currency_01:0 "Devise importée"
+ innovation_currency_01_desc:0 "La monnaie importée, ou Torai-sen, est largement utilisée dans le Japon médiéval. Elle est principalement importée de Chine."
+
+ innovation_ledger:0 "Grand livre"
+ innovation_ledger_desc:0 "Le grand livre, ou Ōta-bumi, fut créé durant l'ère Kamakura. Ce fut le registre des propriétés privées et des terres publiques de la province."
+
+######################
+# Early Medieval Era #
+###################### 
+ 
+ # Military 
+
+ innovation_battlements:0 "Murs de terre"
+ innovation_battlements_desc:0 "Des murs en terre, ou Dobei, sont construits sur la base entourant le château. Ils remplacent les murs en bois."
+
+ innovation_mangonel:0 "Tours de siège"
+ innovation_mangonel_desc:0 "Une tour appelée Seirō est une sorte de tour de guet faite de bois ou de bambou. Elle est également utilisée comme simple tour de siège."
+
+ innovation_burhs:0 "Ashigaru"
+ innovation_burhs_desc:0 "L'ashigaru est un type de fantassin de bas rang. Pendant la période Sengoku, les unités d'ashigaru étaient équipées de Yari (lances), de Yumi (arcs) et de Teppō (arquebuses)."
+
+ innovation_house_soldiers:0 "Gardes à cheval"
+ innovation_house_soldiers_desc:0 "Les gardes à cheval, ou Umamawari, sont des samouraïs à cheval qui accompagnaient le cheval de leur commandant en tant que gardes du corps ou messagers lors des guerres."
+
+ innovation_horseshoes:0 "Sandales en paille"
+ innovation_horseshoes_desc:0 "Les sandales de paille, ou Zōri, sont un type de chaussure traditionnelle japonaise ressemblant à des sandales. Elles étaient largement portées dans le Japon médiéval."
+
+ innovation_arched_saddle:0 "Lances"
+ innovation_arched_saddle_desc:0 "Les cavaliers japonais utilisaient des Yumi (arcs) à l'époque de Kamakura, puis ils sont passés aux armes à perche comme les Naginata. Aujourd'hui, ils préfèrent les Yari (lances)."
+
+ # Civic
+
+ innovation_hereditary_rule:0 "Règle héréditaire"
+ innovation_hereditary_rule_desc:0 "Le système Sōryō est démantelé et une succession divisée se transforme en une succession unique au début de l'ère Muromachi."
+
+ innovation_manorialism:0 "Arpentage"
+ innovation_manorialism_desc:0 "Les enquêtes foncières ou \"Kenchi\" sont des relevés de la taille des champs et du rendement des cultures. Certains daimyo effectuent des relevés de terrain pour créer un système de taxation".
+
+ innovation_royal_prerogative:0 "Daimyō Sengoku"
+ innovation_royal_prerogative_desc:0 "Un Daimyō Sengoku est un seigneur de guerre japonais de la période Sengoku. Beaucoup d'entre eux sont à l'origine des Shugo Daimyō, tandis que d'autres obtiennent leur place en renversant leurs seigneurs."
+
+ innovation_chronicle_writing:0 "Le faible renverse le fort"
+ innovation_chronicle_writing_desc:0 "Le faible qui renverse le fort, ou Gekokujō, est une situation dans laquelle une personne de rang inférieur renverse une personne de rang supérieur, politiquement ou militairement, grâce à ses capacités."
+
+ innovation_armilary_sphere:0 "Marine de Suigun"
+ innovation_armilary_sphere_desc:0 "Le suigun est la marine traditionnelke. Le Daimyo organise activement une flotte de Suigun en vue de la puissance militaire et de la force de transport."
+
+ innovation_baliffs:0 "Samurai Local"
+ innovation_baliffs_desc:0 "Les samouraïs locaux, ou Jizamurai, sont des agriculteurs puissants qui ont atteint la position de samouraï. La majorité d'entre eux restent dans leurs villages en y étant des chefs."
+
+ innovation_development_02:0 "Communauté Sōson"
+ innovation_development_02_desc:0 "Les Sōson sont des associations indépendantes de paysans. Ils se révoltaient régulièrement."
+
+ innovation_currency_02:0 "Interdiction d'Erizenirei"
+ innovation_currency_02_desc:0 "L'Erizenirei est une interdiction d'accepter uniquement des pièces de haute qualité. Elle est imposée à la population par le shogunat ou le daimyo."
+
+#####################
+# High Medieval Era #
+#####################
+
+ # Military
+
+ innovation_hoardings:0 "Tourelles Tamon"
+ innovation_hoardings_desc:0 "La tourelle tamon, ou Tamon Yagura, est une tourelle en forme de maison. Elle sert également de résidence pour les soldats."
+
+ innovation_trebuchet:0 "Boucliers de bambou"
+ innovation_trebuchet_desc:0 "Le bouclier de bambou, ou Taketaba, est un bouclier fabriqué en bambou. Il peut arrêter non seulement les flèches mais aussi les munitions des arquebuses."
+
+ innovation_castle_baileys:0 "Service militaire"
+ innovation_castle_baileys_desc:0 "Les paysans effectuent un service militaire ou \"Gunyaku\" en échange d'une exemption d'une partie de l'impôt foncier."
+
+ innovation_men_at_arms:0 "Vassaux héréditaires"
+ innovation_men_at_arms_desc:0 "Les vassaux héréditaires, ou Fudai, sont des vassaux qui servent la même Maison-mère pendant des générations. Les autre vassaux sont appelés Tozama."
+
+ innovation_knighthood:0 "Pages"
+ innovation_knighthood_desc:0 "Les pages, ou Koshō, sont de jeunes samouraïs qui servent à proximité de leurs seigneurs et s'occupent des tâches et des affaires quotidiennes."
+
+ innovation_advanced_bowmaking:0 "Arquebuse"
+ innovation_advanced_bowmaking_desc:0 "L'arquebuse, ou Teppō, est introduite au Japon en 1543 par les Portugais. On le nomme également Hinawajū ou Tanegashima."
+
+ # Civic
+
+ innovation_heraldry:0 "Nobles et humbles"
+ innovation_heraldry_desc:0 "Les biographies des nobles et des humbles, ou Sonpi Bunmyaku, est un texte qui recense les descendances de l'aristocratie. Il est considéré comme une source historique de très grande valeur."
+
+ innovation_windmills:0 "Lois de Bunkokuhō"
+ innovation_windmills_desc:0 "Les Bunkokuhō sont des lois établies par les daimyo pour gouverner leurs domaines. Les Bunkokuhō affectent les lois plus tardives de la période Edo."
+
+ innovation_divine_right:0 "Négociation directe"
+ innovation_divine_right_desc:0 "Les daimyos tentent souvent de négocier directement, ou Jikisō, avec la cour impériale et reçoivent le rang officiel. Le rang est utile pour gagner du prestige et créer des Casus Belli."
+
+ innovation_land_grants:0 "Sceau vermillon"
+ innovation_land_grants_desc:0 "Le certificat de sceau de vermeil, ou Shuinjō, est un document officiel. Il s'agit d'un certificat foncier ou d'une charte relative au commerce extérieur."
+
+ innovation_scutage:0 "Fonds de guerre"
+ innovation_scutage_desc:0 "Le shogunat et les daimyo imposent des financements de guerre supplémentaires, ou Yasen. Le montant est basé sur la taille des champs dans une région agricole et le nombre de maisons dans une ville."
+
+ innovation_guilds:0 "dissolution des guildes"
+ innovation_guilds_desc:0 "Marchés libres et guildes ouvertes, ou Rakuichi Rakuza, est une politique économique. Elle vise à la création de marchés libres et à la dissolution des guildes."
+
+ innovation_development_03:0 "Ville autonome"
+ innovation_development_03_desc:0 "Une ville autonome, ou Jichi Toshi, est une ville autogérée qui est indépendante des seigneurs féodaux. Sakai et Hakata en sont des exemples durant l'ère Sengoku."
+
+ innovation_currency_03:0 "Coupellation"
+ innovation_currency_03_desc:0 "La coupellation, ou Haifukihō, est une sorte de processus de raffinage. Il fait son apparition au Japon pendant l'ère Sengoku et augmente considérablement le taux de production d'or et d'argent."
+
+#####################
+# Late Medieval Era #
+##################### 
+ 
+ # Military
+
+ innovation_machicolations:0 "Murs de pierre"
+ innovation_machicolations_desc:0 "La propagation des arquebuses nécessite des murs de pierre, ou Ishigaki, comme base de structures solides résistant aux attaques des arquebuses."
+
+ innovation_bombard:0 "Canons"
+ innovation_bombard_desc:0 "Les canons, ou Ōzutsu, sont introduits dans la guerre japonaise à la fin de l'ère Sengoku. Ce sont des armes redoutables lors des sièges et des batailles navales."
+
+ innovation_royal_armory:0 "Samouraïs et paysans"
+ innovation_royal_armory_desc:0 "Les Daimyo entreprennent la séparation des samouraïs et des paysans, ou Heinō Bunri. Cela inclut l'arpentage des terres et la chasse au sabre."
+
+ innovation_standing_armies:0 "Hatamoto"
+ innovation_standing_armies_desc:0 "Les Hatamoto sont les vassaux qui sont sous le contrôle direct d'un seigneur lige. Ils sont majoritairement constitués de vassaux."
+
+ innovation_sappers:0 "Sapeurs"
+ innovation_sappers_desc:0 "Les sapeurs sont capables de creuser des tunnels sous un château ou un camp ennemi, et de les détruire. Ces techniques sont appelées Mogura-zeme ou Kanehori-zeme."
+
+ innovation_plate_armor:0 "Armure Tōsei-Gusoku"
+ innovation_plate_armor_desc:0 "Le Tōsei-gusoku est un type d'armure. Il a été affecté par la diffusion des arquebuses, les batailles à grande échelle et les armures occidentales."
+
+ # Civic
+
+ innovation_primogeniture:0 "Primogéniture"
+ innovation_primogeniture_desc:0 "La primogéniture se répand dans la classe des samouraïs après l'ère Edo. Elle devient un système de succession commun après l'ère Meiji."
+
+ innovation_cranes:0 "Génie civil"
+ innovation_cranes_desc:0 "Un chantier de construction à grande échelle, ou Tetsudai Fushin, est réalisé par de nombreux daimyo sous les ordres du Shogunat. Cela met à rude épreuve leur statut financier."
+
+ innovation_noblesse_oblige:0 "Cérémonie du thé"
+ innovation_noblesse_oblige_desc:0 "La cérémonie du thé, ou Chanoyu, est une tradition culturelle japonaise qui se développa considérablement durant l'ère Sengoku. Les Daimyo la pratiquaient souvent et gardaient précieusement les ustensiles à thé."
+
+ innovation_rightful_ownership:0 "Unification du Japon"
+ innovation_rightful_ownership_desc:0 "Oda Nobunaga se bat pour l'unification du Japon, ou Tenka Tōitsu. Après sa mort, Toyotomi Hideyoshi atteignit cet objectif en 1590."
+
+ innovation_ermine_cloaks:0 "Crêtes de Paulownia"
+ innovation_ermine_cloaks_desc:0 "Les armoiries avec des motifs de paulownia ou \"Kiri-monas\" sont utilisées par la famille impériale, le shogunat Muromati, Toyotomi Hideyoshi et le gouvernement japonais actuel."
+
+ innovation_court_officials:0 "Magistrats"
+ innovation_court_officials_desc:0 "Les magistrats, ou Bugyō, sont des personnes chargées des affaires publiques. Ce terme est utilisé pour divers postes à l'époque d'Edo."
+
+ innovation_development_04:0 "Commerce Nanban"
+ innovation_development_04_desc:0 "Le commerce avec les barbares du sud ou \"Nanban Bōeki\" était un commerce entre le Japon et le Portugal ou l'Espagne. Il apporta les arquebuses et le christianisme au Japon."
+
+ innovation_currency_04:0 "Billets à ordre"
+ innovation_currency_04_desc:0 "Le billet à ordre, ou Saifu, est un certificat-timbre utilisé pour régler les transactions monétaires entre pays éloignés. Il devient l'origine des échanges monétaires."

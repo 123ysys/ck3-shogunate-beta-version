@@ -1,0 +1,197 @@
+c_nmih_enuma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_enuma1={
+				set_title_name=b_nmih_enuma4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_enuma1={
+				set_title_name=b_nmih_enuma4
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_enuma1={
+				set_title_name=b_nmih_enuma1
+			}
+		}
+	}
+	1481.1.1={
+		effect={
+			title:b_nmih_enuma1={
+				set_title_name=b_nmih_enuma7
+			}
+		}
+	}
+	1575.9.27={
+		effect={
+			title:b_nmih_enuma1={
+				set_title_name=b_nmih_enuma1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+	1460.1.1 = { change_development_level = 30 }
+	1481.1.1 = { change_development_level = 30 }
+	1575.9.27 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_echizen"
+	}
+	0823.1.1={
+		liege="d_nmih_kaga"
+	}
+	1174.1.1={
+		liege="k_nmih_southern_kinai"
+		holder=11006545 # Jimyoin Yasuie
+	}
+	1181.7.1={
+		holder = 10110033 # Taira Yorimori
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_kaga"
+		holder=10130716 # Hayashi Mitsuaki
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_kaga"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		liege="d_nmih_kaga"
+		holder=10125051 # Tsuchimikado Michichika
+	}
+	1199.9.1={
+		holder=10125052 # Minamoto Michisuke
+	}
+	1205.7.25={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1216.1.1={
+		holder=11006060 # Hamuro Muneyuki
+	}
+	1221.7.6={
+		liege="d_nmih_kaga"
+		holder=12310500 # Kano Mitsuhiro
+	}
+	1230.1.1={
+		holder=12310501 # Kano Tadahiro
+	}
+	1240.1.1={
+		holder=12310505 # Kano Tamehiro
+	}
+	1280.1.1={
+		holder=12310510 # Kano Tadamochi
+	}
+	1320.1.1={
+		holder=12310515 # Kano Yorihiro
+	}
+	1333.7.4={
+		liege="d_nmih_kaga"
+	}
+	1340.1.1={
+		liege="d_nmih_kaga"
+		holder=12310530 # Kano Yoshimochi
+	}
+	1370.1.1={
+		holder=12310535 # Kano Yoshisuke
+	}
+	1390.1.1={
+		holder=12310536 # Kano Mochishige
+	}
+	1410.1.1={
+		holder=12310540 # Kano Mochitoyo
+	}
+	1441.7.6={
+		holder=12310182 # Togashi Yasutaka
+	}
+	1442.7.31={
+		liege="k_nmih_kanrei"
+	}
+	1445.1.1={
+		liege="d_nmih_kaga"
+	}
+	1464.8.1={
+		holder=12310195 # Togashi Masachika
+	}
+	1471.1.1={
+		liege=0
+		holder=12310196 # Togashi Kochiyo
+	}
+	1474.1.1={
+		liege="d_nmih_kaga"
+		holder=12310195 # Togashi Masachika
+	}
+	1481.1.1={
+		government = theocracy_government
+		liege="k_nmih_honganji"
+		holder=10042207 # Kokyoji Rensei
+	}
+	1488.7.17={
+		liege="d_nmih_kaga"
+	}
+	1531.11.26={
+		holder=10030500 # Choshoji Jikken
+	}
+	1542.8.20={
+		holder=10030501 # Choshoji Jisho
+	}
+	1548.1.1={
+		holder=10030502 # Choshoji Kenyu
+	}
+	1566.1.1={
+		holder=10042311 # Shimotsuma Raiso
+	}
+	1570.7.1={
+		holder=10042350 # Shichiri Yorichika
+	}
+	1575.9.27={
+		government = feudal_government
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.10.6={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029270 # Yanada Hiromasa
+	}
+	1576.10.1={
+		liege="d_nmih_echizen" # 29280 Shibata Katsuie
+		holder=10029514 # Sakuma Morimasa
+	}
+	1580.12.7={
+		liege="d_nmih_kaga" # 29280 Shibata Katsuie
+		holder=10029257 # Haigo Ieyoshi
+	}
+	1583.6.14={
+		liege="k_nmih_hokuriku"
+		holder=10093500 # Mizoguchi Hidekatsu
+	}
+	1585.9.9={
+		liege="d_nmih_echizen"
+	}
+	1598.3.1={
+		holder=10096700 # Yamaguchi Munenaga
+	}
+	1599.2.19={
+		liege="e_nmih_japan"
+	}
+	1600.9.10={
+		liege="d_nmih_kaga"
+		holder=10029374 # Maeda Toshinaga
+	}
+	1603.3.24={
+		liege="d_nmih_kaga"
+		holder=10029374 # Maeda Toshinaga
+	}
+	1612.1.1={
+		holder=10024882 # Honda Masashige
+	}
+}

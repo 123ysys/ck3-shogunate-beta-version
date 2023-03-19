@@ -1,0 +1,6 @@
+﻿#### TNL MUSC
+
+mx_raid = {
+	music = "event:/DLC/FP1/MUSIC/cuetracks/mx_raid"
+	pause_factor = 35
+}

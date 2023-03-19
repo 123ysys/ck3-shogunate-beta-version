@@ -1,0 +1,8 @@
+﻿shogunate_unique_artifact_trigger = {
+
+	any_artifact = {
+		count < 1
+		has_variable = $NAME$
+	}
+
+}

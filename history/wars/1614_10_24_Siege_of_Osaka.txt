@@ -1,0 +1,16 @@
+war = {
+	name = "war_1614_siege_of_osaka"
+	start_date = 1614.10.24
+	end_date = 1615.6.4
+	targeted_titles = {
+		k_nmih_southern_kinai c_nmih_higashinari c_nmih_muko c_nmih_yatabe
+	}
+	casus_belli = event_claim_cb
+	claimant = 10024006 # Tokugawa Ieyasu
+	attackers = {
+		10024006	# Tokugawa Ieyasu
+	}
+	defenders = {
+		10029415	# Toyotomi Hideyori
+	}
+}

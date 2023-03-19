@@ -1,0 +1,210 @@
+c_nmih_suwa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_suwa1={
+				set_title_name=b_nmih_suwa1
+			}
+		}
+	}
+	691.8.1={
+		effect={
+			title:b_nmih_suwa1={
+				set_title_name=b_nmih_suwa2
+			}
+		}
+	}
+	1401.1.1={
+		effect={
+			title:b_nmih_suwa1={
+				set_title_name=b_nmih_suwa1
+			}
+		}
+	}
+	1549.1.1={
+		effect={
+			title:b_nmih_suwa1={
+				set_title_name=b_nmih_suwa4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	691.8.1 = { change_development_level = 20 }
+	1401.1.1 = { change_development_level = 20 }
+	1549.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	250.1.1={
+		holder=10041306 # Takeiotake
+	}
+	290.1.1={
+		holder=10041406 # Takeinase
+	}
+	320.1.1={
+		holder=10041407 # Takemikatomi
+	}
+	350.1.1={
+		holder=10041408 # Takemorohiko
+	}
+	390.1.1={
+		holder=10041410 # Takerotori
+	}
+	415.1.1={
+		holder=10041415 # Inuko
+	}
+	460.1.1={
+		holder=10041416 # Yosohiko
+	}
+	490.1.1={
+		holder=10041417 # Oiwa
+	}
+	540.1.1={
+		holder=10041418 # Kanayamayumi
+	}
+	560.1.1={
+		holder=10041423 # Asase
+	}
+	600.1.1={
+		holder=10041424 # Kuratari
+	}
+	630.1.1={
+		holder=10041425 # Momoe
+	}
+	670.1.1={
+		holder=10041426 # Uome
+	}
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	1175.1.1={
+		liege="d_nmih_shinano"
+		holder=12375910 # Suwa Atsumitsu
+	}
+	1180.6.15={
+		liege="d_nmih_shinano"
+		holder=12375910 # Suwa Atsumitsu
+	}
+	1220.1.1={
+		holder=12375920 # Suwa Atsutada
+	}
+	1224.7.1={
+		liege="d_nmih_southern_shinano"
+	}
+	1230.1.1={
+		holder=12375960 # Suwa Morishige
+	}
+	1260.1.1={
+		holder=12375958 # Suwa Moritsune
+	}
+	1280.1.1={
+		holder=12375959 # Suwa Munetsune
+	}
+	1333.7.4={
+		liege="d_nmih_hojo"
+		holder=12375961 # Suwa Yorishige
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="d_nmih_hojo"
+		holder=12375971 # Suwa Yoritsugu
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+		holder=12375990 # Suwa Tadayori
+	}
+	1352.3.12={
+		liege="k_nmih_seito_shogun"
+	}
+	1358.1.1={
+		liege="d_nmih_shinano"
+	}
+	1395.6.1={
+		holder=12375991 # Suwa Nobuari
+	}
+	1401.2.1={
+		liege=0
+	}
+	1443.1.1={
+		liege=0
+		holder=12375993 # Suwa Aritsugu
+	}
+	1470.1.1={
+		holder=12375994 # Suwa Nobumitsu
+	}
+	1480.1.1={
+		holder=12376000 # Suwa Masamitsu
+	}
+	1483.1.18={
+		holder=12376007 # Suwa Yorimitsu
+	}
+	1534.1.1={
+		holder=10021000 # Suwa Yorishige
+	}
+	1542.8.31={
+		liege="d_nmih_kai" # 20010 Takeda Harunobu
+		holder=10020010 # Takeda Harunobu
+	}
+	1542.10.18={
+		liege=0
+		holder=12375984 # Takato Yoritsugu
+	}
+	1542.11.02={
+		liege="d_nmih_kai" # 20010 Takeda Harunobu
+		holder=10020010 # Takeda Harunobu / Battle of Ankokuji
+	}
+	1543.4.1={
+		holder=10020065 # Itagaki Nobukata
+	}
+	1548.3.23={
+		holder=10020010 # Takeda Harunobu / Battle of Uedahara
+	}
+	1548.9.1={
+		holder=10020220 # Nagasaka Torafusa [Mitsutaka|Chokansai]
+	}
+	1559.1.1={
+		liege="d_nmih_shinano" # 20010 Takeda Harunobu
+		holder=10020010 # Takeda Shingen
+	}
+	1570.1.1={
+		holder=10020225 # Ichikawa Masafusa
+	}
+	1575.6.29={
+		holder=10020238 # Imafuku Masakazu
+	}
+	1582.3.25={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="d_nmih_kai" # Kawajiri Hidetaka
+		holder=10029251 # Kawajiri Hidetaka
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+		holder=10021007 # Suwa Yoritada
+	}
+	1582.8.1={
+		liege="k_nmih_western_kanto"
+	}
+	1582.11.14={
+		liege="k_nmih_tokai"
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10025563 # Hineno Takayoshi
+	}
+	1600.8.5={
+		holder=10025564 # Hineno Yoshiaki
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10021014 # Suwa Yorimizu
+	}
+}

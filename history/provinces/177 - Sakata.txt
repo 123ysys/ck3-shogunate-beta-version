@@ -1,0 +1,29 @@
+177 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1.1.1={
+		special_building_slot = kunitomo_gunsmiths_01
+	}
+	1100.1.1={
+	}
+	1184.3.4={
+	}
+	1490.1.1 = {
+		religion = ikkoshu
+	}
+	1550.1.1={
+		special_building = kunitomo_gunsmiths_01
+	}
+	1573.10.7={
+		buildings = {
+			castle_03
+		}
+	}
+	1580.2.2={
+		buildings = {
+			castle_02
+		}
+	}
+}

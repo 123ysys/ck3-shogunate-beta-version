@@ -1,0 +1,126 @@
+c_nmih_tasai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tasai1={
+				set_title_name=b_nmih_tasai9
+			}
+		}
+	}
+	1521.1.1={
+		effect={
+			title:b_nmih_tasai1={
+				set_title_name=b_nmih_tasai2
+			}
+		}
+	}
+	1571.1.1={
+		effect={
+			title:b_nmih_tasai1={
+				set_title_name=b_nmih_tasai1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1521.1.1 = { change_development_level = 10 }
+	1571.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1180.1.1={
+		liege="d_nmih_eastern_sagami"
+		holder=12205040 # Yokoyama Tokihiro
+	}
+	1189.1.1={
+		liege="d_nmih_eastern_sagami"
+		holder=12205050 # Yokoyama Tokikane
+	}
+	1213.5.24={
+		liege="e_nmih_japan"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1213.6.1={
+		liege="d_nmih_uzen"
+		holder=10220001 # Oe Hiromoto
+	}
+	1225.7.16={
+		holder=12221011 # Oe Tokihiro
+	}
+	1241.7.8={
+		holder=12221015 # Nagai Yasuhide
+	}
+	1254.1.11={
+		holder=12221021 # Nagai Tokihide
+	}
+	1271.1.1={
+		liege="d_nmih_eastern_sagami"
+		holder=12517000 # Settsu Chikamune
+	}
+	1303.5.1={
+		holder=12517001 # Settsu Chikaaki
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+	}
+	1347.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		holder=10017009 # Uesugi Norimasa
+	}
+	1352.3.12={
+		holder=12396020 # Nikki Yoriaki
+	}
+	1352.12.1={
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1356.5.1={
+		holder=10018460 # Oishi Nobushige
+	}
+	1415.6.8={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1418.2.9={
+		liege="d_nmih_musashi"
+	}
+	1424.1.1={
+		holder=10018461 # Oishi Norishige
+	}
+	1429.1.1={
+		holder=10018462 # Oishi Noriyoshi
+	}
+	1441.1.1={
+		holder=10018463 # Oishi Fusashige
+	}
+	1455.2.7={
+		holder=10018464 # Oishi Akishige
+	}
+	1457.1.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1490.1.1={
+		holder=10018465 # Oishi Sadashige
+	}
+	1527.11.3={
+		holder=10018466 # Oishi Sadashige
+	}
+	1546.5.19={
+		liege="d_nmih_musashi"
+		holder=10018467 # Oishi Sadanaka
+	}
+	1559.1.1={
+		holder=10016015 # Hojo Ujiteru
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

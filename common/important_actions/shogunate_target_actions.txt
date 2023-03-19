@@ -1,0 +1,26 @@
+﻿shogunate_action_global_coalition = {
+	type = action
+	priority = 0
+	combine_into_one = yes
+
+	check_create_action = {
+		every_in_global_list = {
+			variable = shogunate_target_global_coalition
+			limit = {
+				is_alive = yes
+				is_landed = yes
+			}
+			try_create_important_action = {
+				important_action_type = shogunate_action_global_coalition
+				actor = root
+				recipient = this
+			}
+		}
+	}
+
+	effect = {
+		scope:recipient = {
+			open_view_data = character
+		}
+	}
+}

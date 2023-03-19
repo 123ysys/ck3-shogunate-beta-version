@@ -1,0 +1,179 @@
+c_nmih_tosa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tosa1={
+				set_title_name=b_nmih_tosa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tosa1={
+				set_title_name=b_nmih_tosa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_tosa1={
+				set_title_name=B_NMIH_TOSA9_1331
+			}
+		}
+	}
+	1507.8.1={
+		effect={
+			title:b_nmih_tosa1={
+				set_title_name=B_NMIH_TOSA9_1507
+			}
+		}
+	}
+	1555.2.24={
+		effect={
+			title:b_nmih_tosa1={
+				set_title_name=b_nmih_tosa2
+			}
+		}
+	}
+	1603.1.1={
+		effect={
+			title:b_nmih_tosa1={
+				set_title_name=b_nmih_tosa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1555.2.24 = { change_development_level = 20 }
+	1603.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_tosa"
+		holder=10120077 # Minamoto Mareyoshi
+	}
+	1180.9.8={
+		liege="d_nmih_awa"
+		holder=12690900 # Hasuike Ietsuna
+	}
+	1184.11.20={
+		liege="d_nmih_tosa"
+		holder=12691400 # Yasu Yukimune
+	}
+	1212.1.1={
+		holder=12211040 # Miura Yoshimura
+	}
+	1221.7.6={
+		holder=12211052 # Miura Mitsumura
+	}
+	1247.7.9={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1256.12.10={
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1264.7.27={
+		holder=10131671 # Hojo Masamura
+	}
+	1268.4.18={
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1301.9.24={
+		holder=10132156 # Hojo Morotoki
+	}
+	1311.11.13={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1312.7.6={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1315.8.11={
+		holder=10132050 # Hojo [Fuonji] Mototoki
+	}
+	1316.7.28={
+		holder=10132268 # Hojo Takatoki
+	}
+	1326.4.19={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1326.5.26={
+		holder=10132197 # Hojo [Akahashi] Moritoki
+	}
+	1333.6.30={
+		holder=10132229 # Hojo [Kanesawa] Sadayuki
+	}
+	1333.7.4={
+		liege="d_nmih_tosa"
+		holder=10130342 # Iga Kanemitsu
+	}
+	1336.3.1={
+		liege="d_nmih_tosa"
+		holder=10040579 # Hosokawa Akiuji
+	}
+	1338.9.1={
+		liege="e_nmih_nancho"
+		holder=10041909 # Prince Mitsuyoshi
+	}
+		liege="d_nmih_tosa"
+		holder=10040598 # Hosokawa Kokai
+	}
+	1347.12.28={
+		holder=12139595 # Kou Joshin
+	}
+	1351.3.15={
+		holder=10040579 # Hosokawa Akiuji
+	}
+	1352.8.15={
+		holder=10040580 # Hosokawa Shigeuji
+	}
+	1359.1.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1360.1.1={
+		liege="d_nmih_tosa"
+		holder=10040586 # Hosokawa Yorimasu
+	}
+	1408.1.1={
+		holder=10040587 # Hosokawa Mitsumasu
+	}
+	1440.1.1={
+		holder=10040588 # Hosokawa Mochimasu
+	}
+	1468.1.2={
+		holder=10040589 # Hosokawa Katsumasu
+	}
+	1502.7.8={
+		holder=10040591 # Hosokawa Masamasu
+	}
+	1507.8.1={
+		liege=0
+		holder=10058001 # Motoyama Yasuaki
+	}
+	1531.1.1={
+		holder=10058000 # Motoyama Shigemune
+	}
+	1555.2.24={
+		liege=0
+		holder=10059102 # Chosokabe Kunichika
+	}
+	1560.7.8={
+		holder=10059104 # Chosokabe Motochika
+	}
+	1569.9.21={
+		liege="d_nmih_tosa"
+	}
+	1599.7.11={
+		holder=10059124 # Chosokabe Morichika
+	}
+	1603.3.24={
+		holder=10029587 # Yamauchi Kazutoyo
+	}
+	1605.11.1={
+		holder=10029593 # Yamauchi Tadayoshi
+	}
+}

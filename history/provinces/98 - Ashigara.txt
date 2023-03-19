@@ -1,0 +1,31 @@
+98 = {
+
+	culture = southern_kanto
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1374.1.1={
+	}
+	1417.2.1={
+	}
+	1498.1.1={
+	}
+	1518.1.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1570.1.1={
+		buildings = {
+			castle_04
+		}
+	}
+	1590.7.5={
+		buildings = {
+			castle_03
+		}
+	}
+	1591.1.1={
+	}
+}

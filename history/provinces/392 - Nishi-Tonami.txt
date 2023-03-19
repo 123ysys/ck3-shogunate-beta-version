@@ -1,0 +1,17 @@
+392 = {
+
+	culture = eastern_hokuriku
+	religion = shinto
+	holding = castle_holding
+	1180.1.1={
+	}
+	1331.1.1={
+	}
+	1460.1.1={ # Nishi-Tonami converted to Ikko-Shu
+		religion = ikkoshu
+	}
+	1493.6.9={
+	}
+	1581.4.1={
+	}
+}

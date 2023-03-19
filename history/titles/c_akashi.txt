@@ -1,0 +1,169 @@
+c_nmih_akashi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_akashi1={
+				set_title_name=b_nmih_akashi1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_akashi1={
+				set_title_name=b_nmih_akashi1
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_akashi1={
+				set_title_name=b_nmih_akashi3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1179.12.18={
+		liege="k_nmih_sanyo"
+		holder=10110042 # Taira Munemori
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_harima"
+		holder=10110061 # Taira Sukemori
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_harima"
+		holder=12215110 # Kajiwara Kagetoki
+	}
+	1199.12.18={
+		holder=12135001 # Oyama Tomomasa
+	}
+	1213.1.1={
+		holder=10130173 # Goto Motokiyo
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_harima"
+		holder=12205703 # Abo Sanekazu
+	}
+	1223.1.1={
+		holder=12135001 # Oyama Tomomasa
+	}
+	1238.5.15={
+		holder=12135010 # Oyama Nagamura
+	}
+	1269.8.15={
+		holder=12135015 # Oyama Tokinaga
+	}
+	1275.12.1={
+		holder=10131998 # Hojo Tokimune
+	}
+	1281.7.1={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1293.4.14={
+		holder=10132044 # Hojo [Akahashi] Hisatoki
+	}
+	1297.7.8={
+		holder=10132163 # Hojo Munekata
+	}
+	1301.1.5={
+		holder=10132050 # Hojo [Fuonji] Mototoki
+	}
+	1303.11.29={
+		holder=10131881 # Hojo [Tokiwa] Tokinori
+	}
+	1307.9.11={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1315.8.11={
+		holder=10131921 # Hojo Tokiatsu
+	}
+	1320.7.8={
+		holder=10132047 # Hojo [Tokiwa] Norisada
+	}
+	1331.2.4={
+		holder=10132207 # Hojo [Fuonji] Nakatoki
+	}
+	1333.1.1={
+		liege="d_nmih_harima"
+		holder=10053500 # Akamatsu Norimura
+	}
+	1350.2.18={
+		holder=10053501 # Akamatsu Norisuke
+	}
+	1351.5.4={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1372.1.13={
+		holder=10053507 # Akamatsu Yoshinori
+	}
+	1427.10.11={
+		holder=10053511 # Akamatsu  Mitsusuke
+	}
+	1441.9.25={
+		liege="e_nmih_japan"
+	}
+	1444.1.1={
+		liege=0
+	}
+	1445.5.30={
+		liege="d_nmih_harima"
+		holder=10050152 # Kakiya Hirotsugu
+	}
+	1467.6.27={
+		liege="d_nmih_harima"
+		holder=10053518 # Akamatsu Masanori
+	}
+	1487.1.1={
+		holder=10053564 # Bessho Noriharu
+	}
+	1513.11.12={
+		holder=10053561 # Bessho Norisada
+	}
+	1520.1.1={
+		liege=0
+		holder=10053562 # Bessho Noriharu
+	}
+	1556.1.1={
+		holder=10053563 # Bessho Yasuharu
+	}
+	1568.10.22={
+		liege="k_nmih_chubu"
+	}
+	1570.1.1={
+		holder=10053568 # Bessho Nagaharu
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+	}
+	1577.10.1={
+		liege=0
+	}
+	1580.2.2={
+		liege="d_nmih_harima"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1585.8.10={
+		liege="e_nmih_japan"
+		holder=10045721 # Takayama Shigetomo
+	}
+	1587.6.19={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		liege="d_nmih_settsu"
+		holder=10043202 # Katagiri Sadataka
+	}
+	1603.3.24={
+		liege="d_nmih_harima"
+		holder=10029566 # Ikeda Toshimasa
+	}
+	1613.3.16={
+		holder=10029562 # Ikeda Yoshiyuki
+	}
+}

@@ -1,0 +1,209 @@
+c_nmih_nagusa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nagusa1={
+				set_title_name=b_nmih_nagusa7
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nagusa1={
+				set_title_name=b_nmih_nagusa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_nagusa1={
+				set_title_name=B_NMIH_NAGUSA9_1331
+			}
+		}
+	}
+	1510.1.1={
+		effect={
+			title:b_nmih_nagusa1={
+				set_title_name=B_NMIH_NAGUSA9_1510
+			}
+		}
+	}
+	1585.5.11={
+		effect={
+			title:b_nmih_nagusa1={
+				set_title_name=b_nmih_nagusa8
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1510.1.1 = { change_development_level = 30 }
+	1585.5.11 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_kii"
+	}
+	1179.12.18={
+		liege="d_nmih_kii"
+		holder = 10110033 # Taira Yorimori
+	}
+	1181.7.1={
+		holder=11006545 # Jimyoin Yasuie
+	}
+	1183.8.17={
+		liege="d_nmih_izumi"
+		holder=10120072 # Minamoto Yukiie
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_kii"
+		holder=12555000 # Yuasa Muneshige
+	}
+	1186.1.1={
+		liege="d_nmih_kii"
+		holder=12201020 # Toshima Aritsune
+	}
+	1191.10.1={
+		holder=12211035 # Sahara Yoshitsura
+	}
+	1203.6.27={
+		holder=12211204 # Sahara Ietsura
+	}
+	1207.6.1={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1207.7.1={
+		holder=11006775 # Fujiwara Chikazane
+	}
+	1215.1.1={
+		holder=10125601 # Minamoto Kanesada
+	}
+	1216.7.2={
+		holder=10243095 # Takashina Tsunetoki
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_kii"
+		holder=12211040 # Miura Yoshimura
+	}
+	1223.1.1={
+		holder=12211204 # Sahara Ietsura
+	}
+	1240.1.1={
+		holder=12211216 # Sahara Mitsutsura
+	}
+	1247.7.9={
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1256.12.10={
+		holder=10131712 # Hojo [Tokiwa] Tokishige
+	}
+	1270.2.18={
+		holder=10131878 # Hojo [Akahashi] Yoshimune
+	}
+	1280.7.1={
+		holder=10132044 # Hojo [Akahashi] Hisatoki
+	}
+	1291.10.1={
+		holder=10131886 # Hojo [Fuonji] Tokikane
+	}
+	1296.7.15={
+		holder=10132050 # Hojo [Fuonji] Mototoki
+	}
+	1333.7.4={
+		liege="d_nmih_kii"
+		holder=10041901 # Prince Moriyoshi
+	}
+	1334.11.19={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.8.14={
+		holder=11007606 # Shijo Takasuke
+	}
+	1336.7.22={
+		liege="d_nmih_kii"
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1352.3.12={
+		liege="d_nmih_kii"
+		holder=11007606 # Shijo Takasuke
+	}
+	1352.6.22={
+		holder=11007609 # Shijo Takatoshi
+	}
+	1373.8.28={
+		liege="d_nmih_kii"
+		holder=10040570 # Hosokawa Ujiharu
+	}
+	1378.12.1={
+		holder=10050008 # Yamana Yoshitada/Yoshimasa
+	}
+	1392.1.24={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		liege="d_nmih_kii"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1406.2.5={
+		holder=10031001 # Hatakeyama Mitsunori
+	}
+	1408.10.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1433.10.31={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1441.1.1={
+		holder=10048113 # Hatakeyama Mochinaga
+	}
+	1441.7.1={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12 ={
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1460.10.4={
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1493.6.9={
+		holder=10048123 # Hatakeyama Hisanobu
+	}
+	1510.1.1={
+		government = republic_government
+		liege=0 # Saika-shu
+		holder=10048551 # Suzuki Sadayu
+	}
+	1557.1.1={
+		holder=10048550 # Suzuki Magoichi
+	}
+	1570.10.11={
+		liege="k_nmih_honganji"
+	}
+	1580.9.20={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege=0
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.5.11={
+		government = feudal_government
+		liege="d_nmih_kii"
+		holder=10093900 # Kuwayama Shigeharu
+	}
+	1589.6.14={
+		holder=10093902 # Kuwayama Kazuharu
+	}
+	1595.5.24={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="d_nmih_kii"
+		holder=10029440 # Asano Yukinaga
+	}
+	1613.10.9={
+		holder=10029441 # Asano Nagaakira
+	}
+}

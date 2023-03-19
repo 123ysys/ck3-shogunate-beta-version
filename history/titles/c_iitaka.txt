@@ -1,0 +1,136 @@
+c_nmih_iitaka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iitaka1={
+				set_title_name=b_nmih_iitaka9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_iitaka1={
+				set_title_name=b_nmih_iitaka1
+			}
+		}
+	}
+	1576.1.1={
+		effect={
+			title:b_nmih_iitaka1={
+				set_title_name=b_nmih_iitaka2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+	1576.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_ise"
+	}
+	1180.1.1={
+		liege="d_nmih_shima" # Ito Tadakiyo
+		holder=10131576 # Ito Tadakiyo
+	}
+	1185.6.15={
+		holder=10131584 # Ito Kagekiyo
+	}
+	1196.1.1={
+		holder=10131588 # Ito [Wakana] Moritaka
+	}
+	1204.5.10={
+		liege="d_nmih_ise"
+		holder=12370013 # Hiraga Tomomasa
+	}
+	1205.9.16={
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.7.6={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131760 # Hojo [Kanesawa] Sanetoki
+	}
+	1276.11.30={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1331.1.1={
+		holder=10132230 # Hojo [Kanesawa] Sadafuyu
+	}
+	1333.7.4={
+		liege="d_nmih_shima"
+		holder=11003499 # Yoshida Sadafusa
+	}
+	1336.1.1={
+		liege="d_nmih_shima"
+		holder=10125126 # Kitabatake Akinobu
+	}
+	1338.6.10={
+		holder=10125127 # Kitabatake Akiyoshi
+	}
+	1383.7.1={
+		holder=10026050 # Kitabatake Akiyasu
+	}
+	1402.10.1={
+		holder=10026052 # Kitabatake Mitsumasa
+	}
+	1415.1.1={
+		liege="d_nmih_shima"
+		holder=10026053 # Okawachi Akimasa
+	}
+	1450.1.1={
+		holder=10026120 # Okawachi Chikasato
+	}
+	1495.1.1={
+		holder=10026121 # Okawachi Chikatada
+	}
+	1526.1.1={
+		holder=10026122 # Okawachi Yorifusa
+	}
+	1557.1.1={
+		holder=10026130 # Hoshiai Tomokazu
+	}
+	1568.1.1={
+		holder=10026007 # Kitabatake Tomofusa
+	}
+	1569.11.21={
+		liege="d_nmih_shima" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.1.1={
+		liege="d_nmih_shima" # 29161 Oda Nobukatsu
+		holder=10029161 # Oda Nobukatsu
+	}
+	1582.6.21={
+		liege="d_nmih_shima"
+		holder=10029027 # Tsugawa Yoshifuyu
+	}
+	1584.4.16={
+		holder=10029329 # Takigawa Katsutoshi
+	}
+	1584.12.3={
+		liege="d_nmih_ise"
+		holder=10044508 # Gamo Ujisato
+	}
+	1590.8.28={
+		liege="d_nmih_owari"
+		holder=10094900 # Hattori Kazutada
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+		holder=10029751 # Furuta Shigekatsu
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1606.7.20={
+		holder=10029753 # Furuta Shigeharu
+	}
+}

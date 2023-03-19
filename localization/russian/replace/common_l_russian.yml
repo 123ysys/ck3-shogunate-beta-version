@@ -1,0 +1,5 @@
+﻿l_russian:
+ FAITH_COOLTIP_WINDOW:0 "#L [Faith.GetAdjective]#!"
+ CULTURE_COOLTIP_WINDOW:0 "#L [Culture.GetName]#!"
+ CULTURE_COOLTIP_GETNAME:0 "#T [Culture.GetNameNoTooltip|T]#!"
+

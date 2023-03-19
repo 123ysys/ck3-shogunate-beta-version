@@ -1,0 +1,18 @@
+263 = {
+
+	culture = sanyo
+	religion = shinto
+	holding = castle_holding
+	1000.1.1={
+	}
+	1331.1.1={
+	}
+	1460.1.1 = {
+		religion = hokkeshu
+	}
+	1544.1.1={
+	}
+	1573.1.1={
+	}
+
+}

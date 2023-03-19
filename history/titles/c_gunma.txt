@@ -1,0 +1,151 @@
+c_nmih_gunma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_gunma1={
+				set_title_name=b_nmih_gunma4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_gunma1={
+				set_title_name=b_nmih_gunma9
+			}
+		}
+	}
+	1336.3.10={
+		effect={
+			title:b_nmih_gunma1={
+				set_title_name=B_NMIH_GUNMA6_1336
+			}
+		}
+	}
+	1480.7.1={
+		effect={
+			title:b_nmih_gunma1={
+				set_title_name=b_nmih_gunma1
+			}
+		}
+	}
+	1598.1.1={
+		effect={
+			title:b_nmih_gunma1={
+				set_title_name=b_nmih_gunma5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+	1336.3.10 = { change_development_level = 40 }
+	1400.1.1 = { change_development_level = 40 }
+	1480.7.1 = { change_development_level = 40 }
+	1598.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1180.1.1={
+		liege="d_nmih_nitta"
+		holder=10120056 # Nitta [Minamoto] Yoshishige
+	}
+	1202.2.8={
+		liege="d_nmih_nitta"
+		holder=12185002 # Nitta Yoshikane
+	}
+	1206.4.17={
+		holder=12185012 # Nitta Masayoshi
+	}
+	1257.1.1={
+		holder=12185015 # Nitta Masauji
+	}
+	1271.3.30={
+		holder=12185020 # Nitta Motouji
+	}
+	1324.7.2={
+		holder=12185040 # Nitta Yoshisada
+	}
+	1335.11.1={
+		liege="d_nmih_kozuke"
+		holder=10017005 # Uesugi Norifusa
+	}
+	1336.3.10={
+		holder=10017006 # Uesugi Noriaki
+	}
+	1338.9.1={
+		liege="d_nmih_uesugi"
+		holder=12215325 # Nagao Kagetada
+	}
+	1363.3.1={
+		liege="d_nmih_kozuke"
+	}
+	1370.1.1={
+		holder=10017318 # Nagao Kiyokage
+	}
+	1410.1.1={
+		holder=10017319 # Nagao Kagemori
+	}
+	1420.1.1={
+		holder=10017320 # Nagao Kagenaka
+	}
+	1463.10.8={
+		holder=10017321 # Nagao Kagenobu
+	}
+	1473.7.18={
+		holder=10017324 # Nagao Kageharu
+	}
+	1477.2.10={
+		liege=0
+	}
+	1480.6.1={
+		liege="d_nmih_kozuke"
+		holder=10017024 # Uesugi Akisada
+	}
+	1480.7.1={
+		holder=10017253 # Nagano Norikage
+	}
+	1500.1.1={
+		holder=10017251 # Nagano Norinari
+	}
+	1530.11.16={
+		holder=10017250 # Nagano Narimasa
+	}
+	1552.3.1={
+		liege=0
+	}
+	1560.11.1={
+		liege="d_nmih_echigo"
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017261 # Nagano Narimori
+	}
+	1566.11.10={
+		liege="d_nmih_kai"
+		holder=10020010 # Takeda Shingen
+	}
+	1570.1.1={
+		holder=10020093 # Naito Masatoyo
+	}
+	1575.6.29={
+		holder=10020095 # Naito Masaaki
+	}
+	1582.4.3={
+		liege=0
+	}
+	1582.4.15={
+		liege="d_nmih_kozuke"
+	}
+	1582.7.8={
+		liege="d_nmih_kozuke"
+		holder=10016016 # Hojo Ujikuni
+	}
+	1590.7.25={
+		holder=10023306 # Ii Naomasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024259 # Sakai Ietsugu
+	}
+}

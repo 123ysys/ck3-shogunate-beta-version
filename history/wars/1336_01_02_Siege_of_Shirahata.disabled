@@ -1,0 +1,16 @@
+war = {
+	name = "war_1336_siege_of_shirahata"
+	start_date = 1336.1.2
+	end_date = 1336.7.22
+	targeted_titles = {
+		d_nmih_harima
+	}
+	casus_belli = event_nanbokucho_invasion_war_duchy
+	attackers = {
+		10041075	# Emperor Go-Daigo
+		12185040	# Nitta Yoshisada
+	}
+	defenders = {
+		10053500	# Akamatsu Norimura
+	}
+}

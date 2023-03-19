@@ -1,0 +1,141 @@
+﻿# Global coalition
+
+shogunate_global_coalition_wars_score_multiplier = {
+	value = 1
+
+	# Only when there are any targets of the global coalition in the Unification phase
+	if = {
+		limit = {
+			shogunate_exists_target_trigger = {
+				LIST = global_coalition
+			}
+		}
+
+		# If the attacker is a target of the coalition, do nothing
+		if = {
+			limit = {
+				shogunate_is_target_trigger = {
+					LIST   = global_coalition
+					TARGET = scope:attacker
+				}
+			}
+
+			# do nothing
+		}
+
+		# If the attacker is a member of the coalition...
+		else = {
+
+			# If the defender is a target of the coalition, give more priority
+			if = {
+				limit = {
+					shogunate_is_target_trigger = {
+						LIST   = global_coalition
+						TARGET = scope:defender
+					}
+				}
+
+				multiply = {
+					value = 100
+					desc = CB_SHOGUNATE_COALITION_TARGET
+				}
+			}
+
+			# If the defender is NOT a target of the coalition...
+			else = {
+
+				# If the attacker is a neighbor of any coalition targets, give less priority
+				if = {
+					limit = {
+						shogunate_neighbor_target_trigger = {
+							LIST   = global_coalition
+							TARGET = scope:attacker
+						}
+					}
+
+					multiply = {
+						value = 1
+						desc = CB_SHOGUNATE_NOT_COALITION_TARGET
+					}
+				}
+
+				# If the attacker is NOT a neighbor of any coalition targets, do nothing
+				else = {
+					# do nothing
+				}
+
+			}
+		}
+	}
+}
+
+
+shogunate_global_coalition_wars_cost_multiplier = {
+	value = 1
+
+	# Only when there are any targets of the global coalition
+	if = {
+		limit = {
+			shogunate_exists_target_trigger = {
+				LIST = global_coalition
+			}
+		}
+
+		# If the attacker is a target of the coalition, do nothing
+		if = {
+			limit = {
+				shogunate_is_target_trigger = {
+					LIST   = global_coalition
+					TARGET = scope:attacker
+				}
+			}
+
+			# do nothing
+		}
+
+		# If the attacker is a member of the coalition...
+		else = {
+
+			# If the defender is a target of the coalition, discount a war cost
+			if = {
+				limit = {
+					shogunate_is_target_trigger = {
+						LIST   = global_coalition
+						TARGET = scope:defender
+					}
+				}
+
+				multiply = {
+					value = 0
+					desc = CB_SHOGUNATE_COALITION_TARGET
+				}
+			}
+
+			# If the defender is NOT a target of the coalition...
+			else = {
+
+				# If the attacker is a neighbor of any coalition targets, raise a war cost (AI only)
+				if = {
+					limit = {
+						scope:attacker = { is_ai = yes }
+						shogunate_neighbor_target_trigger = {
+							LIST   = global_coalition
+							TARGET = scope:attacker
+						}
+					}
+
+					multiply = {
+						value = 1
+						desc = CB_SHOGUNATE_NOT_COALITION_TARGET
+					}
+				}
+
+				# If the attacker is NOT a neighbor of any coalition targets, do nothing
+				else = {
+					# do nothing
+				}
+
+			}
+		}
+	}
+}

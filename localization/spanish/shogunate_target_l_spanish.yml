@@ -1,0 +1,28 @@
+﻿l_spanish:
+
+ CB_SHOGUNATE_COALITION_TARGET:0 "Objetivo de la Coalición"
+ CB_SHOGUNATE_NOT_COALITION_TARGET:0 "No objetivo de la coalición"
+
+ shogunate_action_global_coalition:0 "Coalición contra [recipient.GetFullNameNoTooltip]"
+ shogunate_action_global_coalition_label:0 "La coalición existe"
+ shogunate_action_global_coalition_desc:0 "[recipient.GetFullName] es un objetivo de la coalición. Una vez formada la coalición, es más probable que otros personajes [recipient.GetHerHim] ataquen."
+ shogunate_action_global_coalition_click:0 "#Hago clic para ver#!"
+ shogunate_action_global_coalition_combined_label:0 "[recipient.GetFullNameNoTooltip]"
+ shogunate_action_global_coalition_combined_group_label:0 "Las coaliciones existen"
+ shogunate_action_global_coalition_combined_group_name:0 "Las coaliciones existen"
+ shogunate_action_global_coalition_combined_group_description:0 "Hay algunas coaliciones. Una vez apuntados, es más probable que otros personajes los ataquen."
+
+ shogunate_target.0011.t:0 "Coalición contra [target.GetFirstNameNoTooltip]"
+ shogunate_target.0011.desc:0 "Frente al poderoso [target.GetUINameNotMe], se ha formado la coalición en su contra. La [target.GetFirstNameNoTooltip] debe enfrentar la mayor crisis de su vida, con la supervivencia del clan [target.GetHouse.GetNameNoTooltip] en juego."
+ shogunate_target.0011.a:0 "Nada arriesgado, nada ganado."
+ shogunate_target.0011.b:0 "La [target.GetFirstNameNoTooltip] no es gran cosa."
+
+ shogunate_target.0012.t:0 "Coalición disuelta"
+ shogunate_target.0012.desc:0 "El ataque hizo colapsar a las fuerzas de [target.GetUINamePossessive] y disolvió la coalición contra [target.GetFirstNameNoTooltip], que había cumplido su papel."
+ shogunate_target.0012.a:0 "Yo debería volver."
+ shogunate_target.0012.b:0 "Este es el final de [target.GetFirstNameNoTooltip]."
+
+ shogunate_target.0013.t:0 "Coalición colapsada"
+ shogunate_target.0013.desc:0 "A pesar de la embestida, la expansión de [target.GetUINamePossessive] fue imparable y la coalición contra [target.GetFirstNameNoTooltip] finalmente colapsó."
+ shogunate_target.0013.a:0 "Finalmente, he escapado de las fauces de la muerte."
+ shogunate_target.0013.b:0 "¿No hay nadie que detenga a [target.GetHerHim]?"

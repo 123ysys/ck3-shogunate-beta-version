@@ -1,0 +1,17 @@
+war = {
+	name = "war_1582_conquest_of_kai"
+	start_date = 1582.2.25
+	end_date = 1582.4.3
+	targeted_titles = {
+		k_nmih_tokai
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = {
+		10029120	# Oda Nobunaga
+		10029160	# Oda Nobutada
+		10024006	# Tokugawa Ieyasu
+	}
+	defenders = {
+		10020033	# Takeda Katsuyori
+	}
+}

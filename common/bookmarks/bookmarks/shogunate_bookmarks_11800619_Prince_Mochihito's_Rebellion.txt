@@ -1,0 +1,5 @@
+﻿bm_hidden1180 = {
+	start_date = 1180.6.19
+	is_playable = yes
+	group = bm_group_kamakura
+}

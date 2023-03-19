@@ -1,0 +1,12 @@
+war = {
+	name = "war_1488_siege_of_tako_castle"
+	start_date = 1488.6.1
+	end_date = 1488.7.17
+	targeted_titles = {
+		d_nmih_kaga
+	}
+	casus_belli = event_claim_cb
+	claimant = 10042201 # Honganji Rennyo
+	attackers = { 10042201 } # Honganji Rennyo
+	defenders = { 12310195 } # Togashi Masachika
+}

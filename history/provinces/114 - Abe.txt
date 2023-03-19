@@ -1,0 +1,39 @@
+114 = {
+
+	culture = tokai
+	religion = shinto
+	holding = castle_holding
+	0701.1.1={# Taiho Code
+	}
+	1331.1.1={
+	}
+	1340.1.1={
+	}
+	1487.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1536.7.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1560.6.12={
+		buildings = {
+			castle_02
+		}
+	}
+	1568.12.13={
+		buildings = {
+			castle_01
+		}
+	}
+	1585.1.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1610.1.1={
+	}
+}

@@ -1,0 +1,187 @@
+c_nmih_wakae = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_wakae1={
+				set_title_name=b_nmih_wakae2
+			}
+		}
+	}
+	1180.1.1={
+		effect={
+			title:b_nmih_wakae1={
+				set_title_name=b_nmih_wakae2
+			}
+		}
+	}
+	1382.1.1={
+		effect={
+			title:b_nmih_wakae1={
+				set_title_name=b_nmih_wakae1
+			}
+		}
+	}
+	1573.12.10={
+		effect={
+			title:b_nmih_wakae1={
+				set_title_name=b_nmih_wakae3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1180.1.1 = { change_development_level = 10 }
+	1382.1.1 = { change_development_level = 20 }
+	1573.12.10 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_kawachi"
+	}
+	1180.1.1={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=12531000 # Mizuhai Suetada
+	}
+	1183.8.17={
+		liege=0
+	}
+	1184.1.1={
+		holder=12531001 # Mizuhai Yasutada
+	}
+	1184.3.4={
+		liege="e_nmih_joko"
+	}
+	1186.6.1={
+		liege="d_nmih_kawachi"
+	}
+	1210.1.1={
+		holder=12531002 # Mizuhai Yasutsuna
+	}
+	1240.1.1={
+		holder=12531003 # Mizuhai Yasutaka
+	}
+	1270.1.1={
+		holder=12531004 # Mizuhai Tadashige
+	}
+	1290.1.1={
+		holder=12531005 # Mizuhai Tadatake
+	}
+	1333.1.1={
+		liege="d_nmih_kawachi"
+		holder=12531008 # Mizuhai Yasumasa
+	}
+	1336.5.25={
+		holder=12531009 # Mizuhai Tadana
+	}
+	1348.2.4={
+		liege="e_nmih_japan"
+	}
+	1353.8.2={
+		holder=12531010 # Mizuhai Tadanatsu
+	}
+	1369.1.1={
+		liege="d_nmih_kawachi"
+	}
+	1382.1.1={
+		liege="d_nmih_etchu"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1392.11.12={
+		liege="d_nmih_kawachi"
+	}
+	1406.2.5={
+		holder=10031001 # Hatakeyama Mitsunori
+	}
+	1408.10.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1433.10.31={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1441.1.1={
+		holder=10048113 # Hatakeyama Mochinaga
+	}
+	1441.7.1={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12 ={
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1460.10.4={
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1464.1.1={
+		holder=10048702 # Yusa Naganao
+	}
+	1466.10.1={
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1476.4.1={
+		liege="d_nmih_kii"
+		holder=10048702 # Yusa Naganao
+	}
+	1476.10.1={
+		liege="d_nmih_kawachi"
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1491.1.21={
+		holder=10048116 # Hatakeyama Yoshitoyo
+	}
+	1497.10.1={
+		liege="d_nmih_kii"
+		holder=10048123 # Hatakeyama Hisanobu
+	}
+	1498.1.1={
+		holder=10048701 # Yusa Norimori
+	}
+	1528.1.1={
+		holder=10048700 # Yusa Naganori
+	}
+	1534.1.1={
+		liege="d_nmih_kawachi"
+	}
+	1542.1.1={
+		liege="d_nmih_kii"
+	}
+	1551.6.8={
+		holder=10048703 # Yusa Nobunori
+	}
+	1560.7.25={
+		liege="k_nmih_southern_kinai"
+		holder=10059007 # Miyoshi Nagayoshi
+	}
+	1564.8.10={
+		holder=10059014 # Miyoshi Yoshitsugu
+	}
+	1573.12.10={
+		liege="d_nmih_kawachi"
+		holder=10045605 # Ikeda Norimasa
+	}
+	1580.8.1={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege="d_nmih_harima"
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+		holder=10029411 # Hashiba Hidetsugu
+	}
+	1583.6.14={
+		liege="d_nmih_settsu"
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		liege="k_nmih_southern_kinai"
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1614.10.24={
+		holder=10059124 # Chosokabe Morichika
+	}
+	1615.6.4={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

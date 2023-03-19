@@ -1,0 +1,176 @@
+d_nmih_shimousa = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0767.8.9={
+		holder=11005151 # Fujiwara Korekimi {Shimousa no Kami}
+	}
+	0770.6.1={
+		holder=0 #  
+	}
+	0774.4.21={
+		holder=11005009 # Fujiwara Ototada {Shimousa no Kami}
+	}
+	0776.10.8={
+		holder=0 #  
+	}
+	0785.11.22={
+		holder=11005164 # Fujiwara Matomo {Shimousa no Kami}
+	}
+	0786.2.14={
+		holder=0 #  
+	}
+	0788.3.21={
+		holder=11005037 # Fujiwara Takatoshi {Shimousa no Kami}
+	}
+	0790.4.2={
+		holder=0 #  
+	}
+	0795.3.1={
+		holder=11005164 # Fujiwara Matomo {Shimousa no Kami}
+	}
+	0799.7.27={
+		holder=0 #  
+	}
+	0828.2.5={
+		holder=11000032 # Fujiwara Chikanari {Shimousa no Kami}
+	}
+	0832.2.10={
+		holder=0 #  
+	}
+	0879.2.5={
+		holder=11005205 # Fujiwara Kiyonatsu {Shimousa no Kami}
+	}
+	0883.2.15={
+		holder=0 #  
+	}
+	1167.3.21={
+		holder=11001102 # Fujiwara Sanenaka {Shimousa no Kami}
+	}
+	1167.10.1={
+		holder=0 #  
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12160120 # Chida Chikamasa
+	}
+	1180.10.4={
+		liege=0
+		liege = 0
+		holder=12150120 # Chiba Tsunetane
+	}
+	1180.10.7={
+		liege="k_nmih_western_kanto" # served to MINAMOTO no Yoritomo
+	}
+	1184.3.4={
+		liege="e_nmih_japan" # Minamoto Yoritomo
+	}
+	1201.4.28={
+		holder=12150123 # Chiba Tanemasa
+	}
+	1203.8.28={
+		holder=12150130 # Chiba Naritane
+	}
+	1218.5.6={
+		holder=12150135 # Chiba Tanetsuna
+	}
+	1228.7.1={
+		holder=12150140 # Chiba Tokitane
+	}
+	1241.10.23={
+		holder=12150145 # Chiba Yoritane
+	}
+	1275.9.7={
+		holder=12150151 # Chiba Tanemune
+	}
+	1312.5.5={
+		holder=12150160 # Chiba Sadatane
+	}
+	1333.6.17={
+		liege=0
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+	}
+	1336.12.22={
+		liege = 0
+		liege="k_nmih_kamakura_kubo"
+	}
+	1351.1.28={
+		holder=12150166 # Chiba Ujitane
+	}
+	1365.9.28={
+		liege="k_nmih_kamakura_kubo"
+		holder=12150170 # Chiba Mitsutane
+	}
+	1415.6.8={
+		liege=0
+	}
+	1417.1.27={
+		liege="k_nmih_kamakura_kubo"
+		holder=12150175 # Chiba Kanetane
+	}
+	1430.7.7={
+		holder=10011611 # Chiba Tanenao
+	}
+	1438.9.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1439.3.24={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1441.1.1={
+		holder=10011612 # Chiba Tanemasa
+	}
+	1454.7.18={
+		holder=10011613 # Chiba Tanenobu
+	}
+	1455.1.15={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1455.9.23={
+		liege="k_nmih_kamakura_kubo"
+		holder=12150176 # Chiba Yasutane
+	}
+	1456.11.28={
+		holder=10011606 # Chiba Suketane
+	}
+	1492.3.13={
+		holder=10011605 # Chiba Noritane
+	}
+	1505.9.26={
+		liege=0
+		holder=10011604 # Chiba Katsutane
+	}
+	1532.6.24={
+		holder=10011601 # Chiba Masatane
+	}
+	1546.2.7={
+		holder=10011602 # Chiba Toshitsane
+	}
+	1547.7.28={
+		holder=10011673 # Chiba Chikatane
+	}
+	1557.8.30={
+		holder=10011603 # Chiba Tanetomi
+	}
+	1565.11.1={
+		holder=10011618 # Chiba Yoshitane
+	}
+	1570.1.1={
+		holder=10011619 # Chiba Kunitane
+	}
+	1585.6.4={
+		liege="k_nmih_western_kanto"
+		holder=10016032 # Chiba Naoshige, son of Hojo Ujimasa
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=0 #
+	}
+}

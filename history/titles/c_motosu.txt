@@ -1,0 +1,130 @@
+c_nmih_motosu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_motosu1={
+				set_title_name=b_nmih_motosu2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_motosu1={
+				set_title_name=b_nmih_motosu4
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_motosu1={
+				set_title_name=b_nmih_motosu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mino"
+	}
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10120425 # Minamoto Norikiyo
+	}
+	1180.1.1={
+		liege="d_nmih_mino"
+		holder=12422400 # Takakuwa Daishogun
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_mino"
+		holder=10130326 # Iga Mitsusuke
+	}
+	1230.1.1={
+		holder=10130334 # Iga Mitsufusa
+	}
+	1250.1.1={
+		holder=10130335 # Iga Mitsuari
+	}
+	1280.1.1={
+		holder=10130336 # Iga Mitsuyuki
+	}
+	1300.1.1={
+		holder=12427014 # Iga Mitsuyoshi
+	}
+	1324.1.1={
+		holder=12427016 # Iga Mitsusada
+	}
+	1333.7.4={
+		liege="d_nmih_mino"
+	}
+	1356.1.1={
+		liege="d_nmih_mino"
+		holder=12427018 # Iga Mitsunao
+	}
+	1388.1.1={
+		holder=12427020 # Iga Mitsutada
+	}
+	1420.1.1={
+		holder=12427022 # Iga Mitsusuke
+	}
+	1452.1.1={
+		holder=10025654 # Iga Mitsunari
+	}
+	1500.1.1={
+		holder=10025653 # Iga Sadanari
+	}
+	1510.1.1={
+		holder=10025652 # Iga Sadashige
+	}
+	1528.1.1={
+		holder=10025651 # Ando Morinari
+	}
+	1567.9.1={
+		liege="d_nmih_owari" # Oda Nobunaga
+		holder=10025651 # Ando Morinari
+	}
+	1567.10.1={
+		liege="d_nmih_mino" # Oda Nobunaga
+	}
+	1580.8.1={
+		holder=10025701 # Inaba Ittetsu
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+		holder=10025651 # Ando Morinari
+	}
+	1582.6.27={
+		liege=0
+		holder=10025701 # Inaba Ittetsu
+	}
+	1582.7.16={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1588.1.1={
+		holder=10092200 # Nishio Mitsunori
+	}
+	1592.10.14={
+		holder=10029184 # Oda Hidenobu
+	}
+	1594.1.1={
+		holder=10094001 # Kato Sadayasu
+	}
+	1600.9.20={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10094001 # Kato Sadayasu
+	}
+	1609.6.12={
+		holder=10024332 # Okudaira Tadamasa
+	}
+	1614.8.7={
+		holder=10024336 # Okudaira Tadataka
+	}
+}

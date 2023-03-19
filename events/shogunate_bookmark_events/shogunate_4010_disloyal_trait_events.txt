@@ -1,0 +1,318 @@
+﻿namespace = shogunate_bookmark
+
+# Disloyal Trait
+shogunate_bookmark.4010 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Nanbu Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10003165												# Oura Tamenobu
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10003201												# Kunohe Masazane
+			TRAIT = disloyal
+		}
+
+		# Date Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10001105												# Nakano Munetoki
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10001107												# Makino Hisanaka
+			TRAIT = disloyal
+		}
+
+		# Ashina Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10007802												# Inawashiro Morikuni
+			TRAIT = disloyal
+		}
+
+		# Uesugi Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10017324												# Nagao Kageharu
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10032000												# Nagao Tamekage
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10032025												# Nagao Masakage
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10032523												# Kitajo Takahiro
+			TRAIT = disloyal
+		}
+
+		# Utsunomiya Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10015003												# Mibu Tsunafusa
+			TRAIT = disloyal
+		}
+
+		# Iwamatsu Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10017119												# Yokose Narishige
+			TRAIT = disloyal
+		}
+
+		# Satomi Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10011901												# Satomi Yoshitaka
+			TRAIT = disloyal
+		}
+
+		# Takeda Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10020056												# Anayama Nobutada
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10020130												# Oyamada Nobushige
+			TRAIT = disloyal
+		}
+
+		# Tokugawa Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10024035												# Matsudaira Tadateru
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10024042												# Matsudaira Tadanao
+			TRAIT = disloyal
+		}
+
+		# Kira Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10023003												# Imagawa Ujichika
+			TRAIT = disloyal
+		}
+
+		# Oda Clan (Chubu)
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10029118												# Oda Nobusada
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10045700												# Araki Murashige
+			TRAIT = disloyal
+		}
+
+		# Toyotomi Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10029466												# Kobayakawa Hideaki
+			TRAIT = disloyal
+		}
+
+		# Shiba Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10030000												# Asakura Takakage
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10030008												# Asakura Ujikage
+			TRAIT = disloyal
+		}
+
+		# Toki Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10025451												# Saito Dosan
+			TRAIT = disloyal
+		}
+
+		# Asakura Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10030022												# Asakura Kageakira
+			TRAIT = disloyal
+		}
+
+		# Ashikaga Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10016001												# Ise Moritoki a.k.a. Hojo Soun
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10040544												# Hosokawa Masamoto
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10059006												# Miyoshi Nagayasu
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10059014												# Miyoshi Yoshitsugu
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10059026												# Miyoshi Masakatsu a.k.a. Soi
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10045220												# Iwanari Tomomichi
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10045402												# Matsunaga Nagayori
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10045403												# Matsunaga Hisamichi
+			TRAIT = disloyal
+		}
+
+		# Hosokawa Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10059012												# Miyoshi Masanaga
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10059007												# Miyoshi Nagayoshi
+			TRAIT = disloyal
+		}
+
+		# Hatakeyama Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10031108												# Nukui Fusasada
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10031150												# Yusa Tsugumitsu
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10031202												# Jinbo Yoshimune
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10040831												# Kizawa Nagamasa
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10048700												# Yusa Naganori
+			TRAIT = disloyal
+		}
+
+		# Kyogoku Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10043000												# Azai Sukemasa
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10051501												# Amago Tsunehisa
+			TRAIT = disloyal
+		}
+
+		# Akamatsu Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 12641133												# Uragami Muramune
+			TRAIT = disloyal
+		}
+
+		# Uragami Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10055100												# Ukita Naoie
+			TRAIT = disloyal
+		}
+
+		# Mori Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10057924												# Inoue Motokane
+			TRAIT = disloyal
+		}
+
+		# Amago Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10051507												# Amago Kunihisa
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10051511												# Enya Okihisa
+			TRAIT = disloyal
+		}
+
+		# Ouchi Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10056004												# Mori Motonari
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10057102												# Sue Harukata
+			TRAIT = disloyal
+		}
+
+		# Chosokabe Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10059242												# Hisatake Chikanao
+			TRAIT = disloyal
+		}
+
+		# Ichijo Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10059104												# Chosokabe Motochika
+			TRAIT = disloyal
+		}
+
+		# Shoni Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10068320												# Ryuzoji Takanobu
+			TRAIT = disloyal
+		}
+
+		# Ryuzoji Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10068105												# Nabeshima Naoshige
+			TRAIT = disloyal
+		}
+		shogunate_historical_trait_effect = {
+			CHAR  = 10068108												# Nabeshima Katsushige
+			TRAIT = disloyal
+		}
+
+		# Shimazu Clan
+
+		shogunate_historical_trait_effect = {
+			CHAR  = 10060023												# Shimazu Tadayoshi a.k.a Jisshinsai
+			TRAIT = disloyal
+		}
+
+	}
+}

@@ -1,0 +1,13 @@
+d_nmih_eastern_honganji = {
+	1.1.1={
+		government = theocracy_government
+	}
+	1000.1.1={
+	}
+	1602.1.1={
+		holder=10042211 # Honganji Kyonyo
+	}
+	1614.11.6={
+		holder=10042276 # Honganji Sennyo
+	}
+}

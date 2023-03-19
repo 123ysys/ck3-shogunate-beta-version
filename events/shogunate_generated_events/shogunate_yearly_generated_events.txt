@@ -1,0 +1,3014 @@
+﻿namespace = shogunate_yearly
+
+# Historical Title Change for Baronies (on yearly)
+shogunate_yearly.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		create_character = {
+			gender_female_chance = 50
+			template = peasant_character
+			save_scope_as = temp_character
+		}
+
+		scope:temp_character = {
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_abe1 = { set_title_name = b_nmih_abe1 }
+			}
+
+			if = {
+				limit = { current_year = 1450 }
+				title:b_nmih_abu1 = { set_title_name = b_nmih_abu4 }
+			}
+
+			if = {
+				limit = { current_year = 1604 }
+				title:b_nmih_abu1 = { set_title_name = b_nmih_abu1 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_agawa1 = { set_title_name = B_NMIH_AGAWA1_1400 }
+			}
+
+			if = {
+				limit = { current_year = 1546 }
+				title:b_nmih_agawa1 = { set_title_name = b_nmih_agawa9 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ahachi1 = { set_title_name = b_nmih_ahachi2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ahai1 = { set_title_name = b_nmih_ahai1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_aichi1 = { set_title_name = b_nmih_aichi9 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_aichi1 = { set_title_name = b_nmih_aichi1 }
+			}
+
+			if = {
+				limit = { current_year = 1548 }
+				title:b_nmih_aichi1 = { set_title_name = B_NMIH_AICHI1_1548 }
+			}
+
+			if = {
+				limit = { current_year = 1609 }
+				title:b_nmih_aichi1 = { set_title_name = b_nmih_aichi3 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_aiko1 = { set_title_name = B_NMIH_AIKO9_1221 }
+			}
+
+			if = {
+				limit = { current_year = 1440 }
+				title:b_nmih_aiko1 = { set_title_name = B_NMIH_AIKO9_1439 }
+			}
+
+			if = {
+				limit = { current_year = 1495 }
+				title:b_nmih_aiko1 = { set_title_name = B_NMIH_AIKO9_1494 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_aimi1 = { set_title_name = b_nmih_aimi1 }
+			}
+
+			if = {
+				limit = { current_year = 1601 }
+				title:b_nmih_aimi1 = { set_title_name = b_nmih_aimi3 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_aizu1 = { set_title_name = b_nmih_aizu1 }
+			}
+
+			if = {
+				limit = { current_year = 1591 }
+				title:b_nmih_aizu1 = { set_title_name = B_NMIH_AIZU1_1590 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_akasaka1 = { set_title_name = b_nmih_akasaka2 }
+			}
+
+			if = {
+				limit = { current_year = 1554 }
+				title:b_nmih_akasaka1 = { set_title_name = B_NMIH_AKASAKA2_1554 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_akasaka1 = { set_title_name = B_NMIH_AKASAKA2_1575 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_akashi1 = { set_title_name = b_nmih_akashi3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_aki1 = { set_title_name = B_NMIH_AKI9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1333 }
+				title:b_nmih_ako1 = { set_title_name = B_NMIH_AKO4_1333 }
+			}
+
+			if = {
+				limit = { current_year = 1467 }
+				title:b_nmih_ako1 = { set_title_name = b_nmih_ako8 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_akumi1 = { set_title_name = b_nmih_akumi1 }
+			}
+
+			if = {
+				limit = { current_year = 1444 }
+				title:b_nmih_amaha1 = { set_title_name = b_nmih_amaha1 }
+			}
+
+			if = {
+				limit = { current_year = 1461 }
+				title:b_nmih_amaha1 = { set_title_name = b_nmih_amaha2 }
+			}
+
+			if = {
+				limit = { current_year = 1205 }
+				title:b_nmih_amakusa1 = { set_title_name = B_NMIH_AMAKUSA2_1205 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_amata1 = { set_title_name = b_nmih_amata2 }
+			}
+
+			if = {
+				limit = { current_year = 1580 }
+				title:b_nmih_amata1 = { set_title_name = b_nmih_amata1 }
+			}
+
+			if = {
+				limit = { current_year = 1185 }
+				title:b_nmih_ano1 = { set_title_name = b_nmih_ano5 }
+			}
+
+			if = {
+				limit = { current_year = 1309 }
+				title:b_nmih_ano1 = { set_title_name = b_nmih_ano1 }
+			}
+
+			if = {
+				limit = { current_year = 1564 }
+				title:b_nmih_ano1 = { set_title_name = b_nmih_ano2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_anou1 = { set_title_name = b_nmih_anou1 }
+			}
+
+			if = {
+				limit = { current_year = 1570 }
+				title:b_nmih_anou1 = { set_title_name = b_nmih_anou2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_aomi1 = { set_title_name = b_nmih_aomi1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_araki1 = { set_title_name = b_nmih_araki3 }
+			}
+
+			if = {
+				limit = { current_year = 1460 }
+				title:b_nmih_araki1 = { set_title_name = b_nmih_araki1 }
+			}
+
+			if = {
+				limit = { current_year = 1401 }
+				title:b_nmih_arida1 = { set_title_name = b_nmih_arida8 }
+			}
+
+			if = {
+				limit = { current_year = 1520 }
+				title:b_nmih_arida1 = { set_title_name = b_nmih_arida5 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_arima1 = { set_title_name = b_nmih_arima1 }
+			}
+
+			if = {
+				limit = { current_year = 1358 }
+				title:b_nmih_asa1 = { set_title_name = b_nmih_asa4 }
+			}
+
+			if = {
+				limit = { current_year = 1431 }
+				title:b_nmih_asago1 = { set_title_name = b_nmih_asago1 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_asaka1 = { set_title_name = b_nmih_asaka1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_asakuchi1 = { set_title_name = b_nmih_asakuchi1 }
+			}
+
+			if = {
+				limit = { current_year = 1203 }
+				title:b_nmih_asakura1 = { set_title_name = B_NMIH_ASAKURA2_1203 }
+			}
+
+			if = {
+				limit = { current_year = 1334 }
+				title:b_nmih_ashida1 = { set_title_name = B_NMIH_ASHIDA9_1334 }
+			}
+
+			if = {
+				limit = { current_year = 1418 }
+				title:b_nmih_ashigara1 = { set_title_name = b_nmih_ashigara1 }
+			}
+
+			if = {
+				limit = { current_year = 1465 }
+				title:b_nmih_ashikaga1 = { set_title_name = b_nmih_ashikaga2 }
+			}
+
+			if = {
+				limit = { current_year = 1500 }
+				title:b_nmih_ashikaga1 = { set_title_name = b_nmih_ashikaga1 }
+			}
+
+			if = {
+				limit = { current_year = 1595 }
+				title:b_nmih_aso1 = { set_title_name = b_nmih_aso1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_asukabe1 = { set_title_name = b_nmih_asukabe3 }
+			}
+
+			if = {
+				limit = { current_year = 1479 }
+				title:b_nmih_asukabe1 = { set_title_name = b_nmih_asukabe1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_asuwa1 = { set_title_name = b_nmih_asuwa1 }
+			}
+
+			if = {
+				limit = { current_year = 1574 }
+				title:b_nmih_asuwa1 = { set_title_name = B_NMIH_ASUWA1_1573 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_asuwa1 = { set_title_name = b_nmih_asuwa2 }
+			}
+
+			if = {
+				limit = { current_year = 1602 }
+				title:b_nmih_asuwa1 = { set_title_name = B_NMIH_ASUWA2_1601 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_atsumi1 = { set_title_name = b_nmih_atsumi6 }
+			}
+
+			if = {
+				limit = { current_year = 1548 }
+				title:b_nmih_atsumi1 = { set_title_name = b_nmih_atsumi1 }
+			}
+
+			if = {
+				limit = { current_year = 1486 }
+				title:b_nmih_awa1 = { set_title_name = b_nmih_awa1 }
+			}
+
+			if = {
+				limit = { current_year = 1541 }
+				title:b_nmih_awa1 = { set_title_name = B_NMIH_AWA1_1541 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_aya1 = { set_title_name = B_NMIH_AYA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1597 }
+				title:b_nmih_aya1 = { set_title_name = b_nmih_aya6 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_azai1 = { set_title_name = b_nmih_azai1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_azumi1 = { set_title_name = b_nmih_azumi1 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_chiba1 = { set_title_name = b_nmih_chiba1 }
+			}
+
+			if = {
+				limit = { current_year = 1481 }
+				title:b_nmih_chichibu1 = { set_title_name = B_NMIH_CHICHIBU9_1480 }
+			}
+
+			if = {
+				limit = { current_year = 1542 }
+				title:b_nmih_chiisagata1 = { set_title_name = b_nmih_chiisagata1 }
+			}
+
+			if = {
+				limit = { current_year = 1552 }
+				title:b_nmih_chiisagata1 = { set_title_name = B_NMIH_CHIISAGATA1_1551 }
+			}
+
+			if = {
+				limit = { current_year = 1585 }
+				title:b_nmih_chiisagata1 = { set_title_name = b_nmih_chiisagata4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_chita1 = { set_title_name = b_nmih_chita6 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_date1 = { set_title_name = b_nmih_date2 }
+			}
+
+			if = {
+				limit = { current_year = 1532 }
+				title:b_nmih_date1 = { set_title_name = b_nmih_date1 }
+			}
+
+			if = {
+				limit = { current_year = 1549 }
+				title:b_nmih_date1 = { set_title_name = b_nmih_date2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_echi1 = { set_title_name = b_nmih_echi1 }
+			}
+
+			if = {
+				limit = { current_year = 1604 }
+				title:b_nmih_ena1 = { set_title_name = b_nmih_ena2 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_enuma1 = { set_title_name = b_nmih_enuma1 }
+			}
+
+			if = {
+				limit = { current_year = 1481 }
+				title:b_nmih_enuma1 = { set_title_name = b_nmih_enuma7 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_enuma1 = { set_title_name = b_nmih_enuma1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_eso1 = { set_title_name = b_nmih_eso2 }
+			}
+
+			if = {
+				limit = { current_year = 1324 }
+				title:b_nmih_eso1 = { set_title_name = b_nmih_eso1 }
+			}
+
+			if = {
+				limit = { current_year = 1194 }
+				title:b_nmih_fuchi1 = { set_title_name = b_nmih_fuchi1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_fuchi1 = { set_title_name = b_nmih_fuchi1 }
+			}
+
+			if = {
+				limit = { current_year = 1570 }
+				title:b_nmih_fuchi1 = { set_title_name = b_nmih_fuchi2 }
+			}
+
+			if = {
+				limit = { current_year = 1570 }
+				title:b_nmih_fuji1 = { set_title_name = b_nmih_fuji3 }
+			}
+
+			if = {
+				limit = { current_year = 1457 }
+				title:b_nmih_fukushima1 = { set_title_name = b_nmih_fukushima4 }
+			}
+
+			if = {
+				limit = { current_year = 1525 }
+				title:b_nmih_fukushima1 = { set_title_name = b_nmih_fukushima3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_funai1 = { set_title_name = b_nmih_funai1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_fuwa1 = { set_title_name = B_NMIH_FUWA9_1221 }
+			}
+
+			if = {
+				limit = { current_year = 1469 }
+				title:b_nmih_fuwa1 = { set_title_name = b_nmih_fuwa1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_gamo1 = { set_title_name = b_nmih_gamo1 }
+			}
+
+			if = {
+				limit = { current_year = 1580 }
+				title:b_nmih_gamo1 = { set_title_name = B_NMIH_GAMO1_1579 }
+			}
+
+			if = {
+				limit = { current_year = 1351 }
+				title:b_nmih_goto1 = { set_title_name = b_nmih_goto3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_gujo1 = { set_title_name = b_nmih_gujo1 }
+			}
+
+			if = {
+				limit = { current_year = 1541 }
+				title:b_nmih_gujo1 = { set_title_name = B_NMIH_GUJO1_1541 }
+			}
+
+			if = {
+				limit = { current_year = 1337 }
+				title:b_nmih_gunma1 = { set_title_name = B_NMIH_GUNMA6_1336 }
+			}
+
+			if = {
+				limit = { current_year = 1481 }
+				title:b_nmih_gunma1 = { set_title_name = b_nmih_gunma1 }
+			}
+
+			if = {
+				limit = { current_year = 1598 }
+				title:b_nmih_gunma1 = { set_title_name = b_nmih_gunma5 }
+			}
+
+			if = {
+				limit = { current_year = 1362 }
+				title:b_nmih_haga1 = { set_title_name = b_nmih_haga1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_haguri1 = { set_title_name = b_nmih_haguri1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hakui1 = { set_title_name = b_nmih_hakui7 }
+			}
+
+			if = {
+				limit = { current_year = 1360 }
+				title:b_nmih_hakusan1 = { set_title_name = b_nmih_hakusan8 }
+			}
+
+			if = {
+				limit = { current_year = 1488 }
+				title:b_nmih_hakusan1 = { set_title_name = b_nmih_hakusan2 }
+			}
+
+			if = {
+				limit = { current_year = 1210 }
+				title:b_nmih_hanishina1 = { set_title_name = B_NMIH_HANISHINA4_1210 }
+			}
+
+			if = {
+				limit = { current_year = 1390 }
+				title:b_nmih_hanishina1 = { set_title_name = b_nmih_hanishina1 }
+			}
+
+			if = {
+				limit = { current_year = 1560 }
+				title:b_nmih_hanishina1 = { set_title_name = B_NMIH_HANISHINA1_1560 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hanzawa1 = { set_title_name = b_nmih_hanzawa3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hata1 = { set_title_name = b_nmih_hata5 }
+			}
+
+			if = {
+				limit = { current_year = 1394 }
+				title:b_nmih_hayami1 = { set_title_name = b_nmih_hayami3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hazu1 = { set_title_name = b_nmih_hazu2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_heguri1 = { set_title_name = b_nmih_heguri9 }
+			}
+
+			if = {
+				limit = { current_year = 1420 }
+				title:b_nmih_hei1 = { set_title_name = b_nmih_hei1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hidaka1 = { set_title_name = b_nmih_hidaka8 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hida_ono1 = { set_title_name = B_NMIH_HIDA_ONO1_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1575 }
+				title:b_nmih_hida_ono1 = { set_title_name = b_nmih_hida_ono2 }
+			}
+
+			if = {
+				limit = { current_year = 1588 }
+				title:b_nmih_hida_ono1 = { set_title_name = B_NMIH_HIDA_ONO2_1588 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_hienuki1 = { set_title_name = b_nmih_hienuki2 }
+			}
+
+			if = {
+				limit = { current_year = 1341 }
+				title:b_nmih_hienuki1 = { set_title_name = b_nmih_hienuki1 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_higashinari1 = { set_title_name = b_nmih_higashinari5 }
+			}
+
+			if = {
+				limit = { current_year = 1460 }
+				title:b_nmih_higashinari1 = { set_title_name = b_nmih_higashinari7 }
+			}
+
+			if = {
+				limit = { current_year = 1252 }
+				title:b_nmih_higashi_kanbara1 = { set_title_name = b_nmih_higashi_kanbara2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_higashi_kubiki1 = { set_title_name = b_nmih_higashi_kubiki1 }
+			}
+
+			if = {
+				limit = { current_year = 1607 }
+				title:b_nmih_higashi_kubiki1 = { set_title_name = b_nmih_higashi_kubiki6 }
+			}
+
+			if = {
+				limit = { current_year = 1614 }
+				title:b_nmih_higashi_kubiki1 = { set_title_name = b_nmih_higashi_kubiki5 }
+			}
+
+			if = {
+				limit = { current_year = 1481 }
+				title:b_nmih_higashi_tonami1 = { set_title_name = b_nmih_higashi_tonami1 }
+			}
+
+			if = {
+				limit = { current_year = 1582 }
+				title:b_nmih_higashi_tonami1 = { set_title_name = b_nmih_higashi_tonami8 }
+			}
+
+			if = {
+				limit = { current_year = 1215 }
+				title:b_nmih_hikami1 = { set_title_name = b_nmih_hikami5 }
+			}
+
+			if = {
+				limit = { current_year = 1558 }
+				title:b_nmih_hikami1 = { set_title_name = b_nmih_hikami1 }
+			}
+
+			if = {
+				limit = { current_year = 1399 }
+				title:b_nmih_hiki1 = { set_title_name = b_nmih_hiki1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_himi1 = { set_title_name = B_NMIH_HIMI9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_hinai1 = { set_title_name = b_nmih_hinai1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hine1 = { set_title_name = b_nmih_hine1 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_hine1 = { set_title_name = b_nmih_hine2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hino1 = { set_title_name = b_nmih_hino1 }
+			}
+
+			if = {
+				limit = { current_year = 1270 }
+				title:b_nmih_hioki1 = { set_title_name = B_NMIH_HIOKI1_1270 }
+			}
+
+			if = {
+				limit = { current_year = 1337 }
+				title:b_nmih_hitachi_naka1 = { set_title_name = b_nmih_hitachi_naka1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hiyama1 = { set_title_name = b_nmih_hiyama1 }
+			}
+
+			if = {
+				limit = { current_year = 1443 }
+				title:b_nmih_hiyama11 = { set_title_name = b_nmih_hiyama11 }
+			}
+
+			if = {
+				limit = { current_year = 1473 }
+				title:b_nmih_hiyama11 = { set_title_name = B_NMIH_HIYAMA11_1473 }
+			}
+
+			if = {
+				limit = { current_year = 1514 }
+				title:b_nmih_hiyama11 = { set_title_name = B_NMIH_HIYAMA11_1473 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_hoi1 = { set_title_name = b_nmih_hoi5 }
+			}
+
+			if = {
+				limit = { current_year = 1493 }
+				title:b_nmih_hoi1 = { set_title_name = b_nmih_hoi1 }
+			}
+
+			if = {
+				limit = { current_year = 1184 }
+				title:b_nmih_houmi1 = { set_title_name = b_nmih_houmi2 }
+			}
+
+			if = {
+				limit = { current_year = 1352 }
+				title:b_nmih_houmi1 = { set_title_name = B_NMIH_HOUMI2_1352 }
+			}
+
+			if = {
+				limit = { current_year = 1520 }
+				title:b_nmih_houmi1 = { set_title_name = b_nmih_houmi1 }
+			}
+
+			if = {
+				limit = { current_year = 1195 }
+				title:b_nmih_ibaraki1 = { set_title_name = b_nmih_ibaraki1 }
+			}
+
+			if = {
+				limit = { current_year = 1467 }
+				title:b_nmih_ibo1 = { set_title_name = b_nmih_ibo6 }
+			}
+
+			if = {
+				limit = { current_year = 1499 }
+				title:b_nmih_ibo1 = { set_title_name = b_nmih_ibo1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ichishi1 = { set_title_name = b_nmih_ichishi1 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_igu1 = { set_title_name = B_NMIH_IGU9_1189 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ihara1 = { set_title_name = b_nmih_ihara1 }
+			}
+
+			if = {
+				limit = { current_year = 1570 }
+				title:b_nmih_ihara1 = { set_title_name = b_nmih_ihara2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_iitaka1 = { set_title_name = b_nmih_iitaka1 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_iitaka1 = { set_title_name = b_nmih_iitaka2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ika1 = { set_title_name = b_nmih_ika1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ikaruga1 = { set_title_name = b_nmih_ikaruga1 }
+			}
+
+			if = {
+				limit = { current_year = 1565 }
+				title:b_nmih_ikaruga1 = { set_title_name = b_nmih_ikaruga4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ikeda1 = { set_title_name = b_nmih_ikeda1 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_iki1 = { set_title_name = B_NMIH_IKI9_1300 }
+			}
+
+			if = {
+				limit = { current_year = 1313 }
+				title:b_nmih_ikuha1 = { set_title_name = B_NMIH_IKUHA9_1313 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_imadachi1 = { set_title_name = b_nmih_imadachi1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_imizu1 = { set_title_name = B_NMIH_IMIZU9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1350 }
+				title:b_nmih_inaba1 = { set_title_name = b_nmih_inaba1 }
+			}
+
+			if = {
+				limit = { current_year = 1469 }
+				title:b_nmih_inaba1 = { set_title_name = b_nmih_inaba4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_inabe1 = { set_title_name = b_nmih_inabe1 }
+			}
+
+			if = {
+				limit = { current_year = 1443 }
+				title:b_nmih_inaka1 = { set_title_name = b_nmih_inaka1 }
+			}
+
+			if = {
+				limit = { current_year = 1603 }
+				title:b_nmih_inaka1 = { set_title_name = b_nmih_inaka2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_inukami1 = { set_title_name = b_nmih_inukami6 }
+			}
+
+			if = {
+				limit = { current_year = 1571 }
+				title:b_nmih_inukami1 = { set_title_name = b_nmih_inukami1 }
+			}
+
+			if = {
+				limit = { current_year = 1603 }
+				title:b_nmih_inukami1 = { set_title_name = b_nmih_inukami4 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_isawa1 = { set_title_name = b_nmih_isawa1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_ishikawa1 = { set_title_name = b_nmih_ishikawa2 }
+			}
+
+			if = {
+				limit = { current_year = 1581 }
+				title:b_nmih_ishikawa1 = { set_title_name = b_nmih_ishikawa3 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_isumi1 = { set_title_name = b_nmih_isumi1 }
+			}
+
+			if = {
+				limit = { current_year = 1591 }
+				title:b_nmih_isumi1 = { set_title_name = b_nmih_isumi2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_itano1 = { set_title_name = B_NMIH_ITANO9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1249 }
+				title:b_nmih_ito1 = { set_title_name = B_NMIH_ITO9_1249 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_iwafune1 = { set_title_name = b_nmih_iwafune1 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_iwai1 = { set_title_name = b_nmih_iwai2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_iwaki1 = { set_title_name = b_nmih_iwaki1 }
+			}
+
+			if = {
+				limit = { current_year = 1602 }
+				title:b_nmih_iwaki1 = { set_title_name = b_nmih_iwaki2 }
+			}
+
+			if = {
+				limit = { current_year = 1200 }
+				title:b_nmih_iwami-naka1 = { set_title_name = b_nmih_iwami-naka8 }
+			}
+
+			if = {
+				limit = { current_year = 1290 }
+				title:b_nmih_iwami-ochi1 = { set_title_name = b_nmih_iwami-ochi1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_iwata1 = { set_title_name = b_nmih_iwata3 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_iwate1 = { set_title_name = b_nmih_iwate3 }
+			}
+
+			if = {
+				limit = { current_year = 1335 }
+				title:b_nmih_iwate1 = { set_title_name = b_nmih_iwate1 }
+			}
+
+			if = {
+				limit = { current_year = 1598 }
+				title:b_nmih_iwate1 = { set_title_name = b_nmih_iwate5 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_iyo1 = { set_title_name = B_NMIH_IYO9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1596 }
+				title:b_nmih_iyo1 = { set_title_name = b_nmih_iyo5 }
+			}
+
+			if = {
+				limit = { current_year = 1604 }
+				title:b_nmih_iyo1 = { set_title_name = B_NMIH_IYO5_1603 }
+			}
+
+			if = {
+				limit = { current_year = 1494 }
+				title:b_nmih_izu_naka1 = { set_title_name = b_nmih_izu_naka1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_joto1 = { set_title_name = b_nmih_joto5 }
+			}
+
+			if = {
+				limit = { current_year = 1544 }
+				title:b_nmih_joto1 = { set_title_name = b_nmih_joto4 }
+			}
+
+			if = {
+				limit = { current_year = 1573 }
+				title:b_nmih_joto1 = { set_title_name = b_nmih_joto2 }
+			}
+
+			if = {
+				limit = { current_year = 1185 }
+				title:b_nmih_kaga1 = { set_title_name = b_nmih_kaga2 }
+			}
+
+			if = {
+				limit = { current_year = 1442 }
+				title:b_nmih_kaga1 = { set_title_name = b_nmih_kaga6 }
+			}
+
+			if = {
+				limit = { current_year = 1546 }
+				title:b_nmih_kaga1 = { set_title_name = b_nmih_kaga1 }
+			}
+
+			if = {
+				limit = { current_year = 1587 }
+				title:b_nmih_kaga1 = { set_title_name = b_nmih_kaga4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kagami1 = { set_title_name = b_nmih_kagami4 }
+			}
+
+			if = {
+				limit = { current_year = 1542 }
+				title:b_nmih_kagami1 = { set_title_name = b_nmih_kagami1 }
+			}
+
+			if = {
+				limit = { current_year = 1568 }
+				title:b_nmih_kagami1 = { set_title_name = B_NMIH_KAGAMI1_1567 }
+			}
+
+			if = {
+				limit = { current_year = 1601 }
+				title:b_nmih_kagami1 = { set_title_name = b_nmih_kagami7 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_kagawa1 = { set_title_name = B_NMIH_KAGAWA9_1185 }
+			}
+
+			if = {
+				limit = { current_year = 1590 }
+				title:b_nmih_kagawa1 = { set_title_name = b_nmih_kagawa5 }
+			}
+
+			if = {
+				limit = { current_year = 1210 }
+				title:b_nmih_kagoshima1 = { set_title_name = b_nmih_kagoshima5 }
+			}
+
+			if = {
+				limit = { current_year = 1397 }
+				title:b_nmih_kagoshima1 = { set_title_name = B_NMIH_KAGOSHIMA5_1397 }
+			}
+
+			if = {
+				limit = { current_year = 1550 }
+				title:b_nmih_kagoshima1 = { set_title_name = B_NMIH_KAGOSHIMA5_1550 }
+			}
+
+			if = {
+				limit = { current_year = 1602 }
+				title:b_nmih_kagoshima1 = { set_title_name = b_nmih_kagoshima2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kaifu1 = { set_title_name = B_NMIH_KAIFU6_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kaisei1 = { set_title_name = b_nmih_kaisei1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kaito1 = { set_title_name = B_NMIH_KAITO9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_kaito1 = { set_title_name = b_nmih_kaito1 }
+			}
+
+			if = {
+				limit = { current_year = 1567 }
+				title:b_nmih_kaito1 = { set_title_name = b_nmih_kaito5 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_kama1 = { set_title_name = b_nmih_kama8 }
+			}
+
+			if = {
+				limit = { current_year = 1181 }
+				title:b_nmih_kamakura1 = { set_title_name = b_nmih_kamakura9 }
+			}
+
+			if = {
+				limit = { current_year = 1513 }
+				title:b_nmih_kamakura1 = { set_title_name = b_nmih_kamakura1 }
+			}
+
+			if = {
+				limit = { current_year = 1432 }
+				title:b_nmih_kameda1 = { set_title_name = b_nmih_kameda8 }
+			}
+
+			if = {
+				limit = { current_year = 1865 }
+				title:b_nmih_kameda1 = { set_title_name = b_nmih_kameda7 }
+			}
+
+			if = {
+				limit = { current_year = 1870 }
+				title:b_nmih_kameda1 = { set_title_name = b_nmih_kameda1 }
+			}
+
+			if = {
+				limit = { current_year = 1308 }
+				title:b_nmih_kami1 = { set_title_name = b_nmih_kami5 }
+			}
+
+			if = {
+				limit = { current_year = 1432 }
+				title:b_nmih_kamiiso1 = { set_title_name = b_nmih_kamiiso2 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_kami_adachi1 = { set_title_name = B_NMIH_KAMI_ADACHI9_1400 }
+			}
+
+			if = {
+				limit = { current_year = 1334 }
+				title:b_nmih_kami_ina1 = { set_title_name = B_NMIH_KAMI_INA7_1333 }
+			}
+
+			if = {
+				limit = { current_year = 1374 }
+				title:b_nmih_kami_ina1 = { set_title_name = b_nmih_kami_ina1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kami_niikawa1 = { set_title_name = b_nmih_kami_niikawa1 }
+			}
+
+			if = {
+				limit = { current_year = 1543 }
+				title:b_nmih_kami_niikawa1 = { set_title_name = B_NMIH_KAMI_NIIKAWA1_1543 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_kami_tsuga1 = { set_title_name = b_nmih_kami_tsuga1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_kamo1 = { set_title_name = B_NMIH_KAMO2_1221 }
+			}
+
+			if = {
+				limit = { current_year = 1440 }
+				title:b_nmih_kamo1 = { set_title_name = b_nmih_kamo1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kanbara1 = { set_title_name = b_nmih_kanbara3 }
+			}
+
+			if = {
+				limit = { current_year = 1339 }
+				title:b_nmih_kani1 = { set_title_name = b_nmih_kani2 }
+			}
+
+			if = {
+				limit = { current_year = 1557 }
+				title:b_nmih_kani1 = { set_title_name = B_NMIH_KANI3_1537 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kanra1 = { set_title_name = b_nmih_kanra3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kanzaki1 = { set_title_name = b_nmih_kanzaki4 }
+			}
+
+			if = {
+				limit = { current_year = 1467 }
+				title:b_nmih_kanzaki1 = { set_title_name = b_nmih_kanzaki1 }
+			}
+
+			if = {
+				limit = { current_year = 1444 }
+				title:b_nmih_kariwa1 = { set_title_name = b_nmih_kariwa1 }
+			}
+
+			if = {
+				limit = { current_year = 1544 }
+				title:b_nmih_kariwa1 = { set_title_name = b_nmih_kariwa5 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kasa1 = { set_title_name = b_nmih_kasa1 }
+			}
+
+			if = {
+				limit = { current_year = 1580 }
+				title:b_nmih_kasa1 = { set_title_name = b_nmih_kasa2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kasugai1 = { set_title_name = b_nmih_kasugai1 }
+			}
+
+			if = {
+				limit = { current_year = 1330 }
+				title:b_nmih_kasuya1 = { set_title_name = B_NMIH_KASUYA1_1330 }
+			}
+
+			if = {
+				limit = { current_year = 1588 }
+				title:b_nmih_kasuya1 = { set_title_name = B_NMIH_KASUYA3_1587 }
+			}
+
+			if = {
+				limit = { current_year = 1189 }
+				title:b_nmih_kato1 = { set_title_name = b_nmih_kato1 }
+			}
+
+			if = {
+				limit = { current_year = 1533 }
+				title:b_nmih_kato1 = { set_title_name = B_NMIH_KATO1_1533 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_katori1 = { set_title_name = b_nmih_katori2 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_katori1 = { set_title_name = B_NMIH_KATORI3_1207 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_katsuge1 = { set_title_name = b_nmih_katsuge1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_katsujo1 = { set_title_name = b_nmih_katsujo1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_katsumata1 = { set_title_name = b_nmih_katsumata1 }
+			}
+
+			if = {
+				limit = { current_year = 1479 }
+				title:b_nmih_katsushika1 = { set_title_name = b_nmih_katsushika1 }
+			}
+
+			if = {
+				limit = { current_year = 1188 }
+				title:b_nmih_katta1 = { set_title_name = b_nmih_katta1 }
+			}
+
+			if = {
+				limit = { current_year = 1330 }
+				title:b_nmih_kawabe1 = { set_title_name = b_nmih_kawabe1 }
+			}
+
+			if = {
+				limit = { current_year = 1361 }
+				title:b_nmih_kawamura1 = { set_title_name = b_nmih_kawamura1_1 }
+			}
+
+			if = {
+				limit = { current_year = 1472 }
+				title:b_nmih_kawamura1 = { set_title_name = b_nmih_kawamura3 }
+			}
+
+			if = {
+				limit = { current_year = 1286 }
+				title:b_nmih_kawanabe1 = { set_title_name = B_NMIH_KAWANABE1_1285 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kawanuma1 = { set_title_name = b_nmih_kawanuma1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kawawa1 = { set_title_name = b_nmih_kawawa1 }
+			}
+
+			if = {
+				limit = { current_year = 1239 }
+				title:b_nmih_kaya1 = { set_title_name = b_nmih_kaya1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kazuno1 = { set_title_name = b_nmih_kazuno1 }
+			}
+
+			if = {
+				limit = { current_year = 1202 }
+				title:b_nmih_kesen1 = { set_title_name = b_nmih_kesen1 }
+			}
+
+			if = {
+				limit = { current_year = 1478 }
+				title:b_nmih_kii1 = { set_title_name = b_nmih_kii2 }
+			}
+
+			if = {
+				limit = { current_year = 1533 }
+				title:b_nmih_kii1 = { set_title_name = b_nmih_kii1 }
+			}
+
+			if = {
+				limit = { current_year = 1476 }
+				title:b_nmih_kikou1 = { set_title_name = b_nmih_kikou1 }
+			}
+
+			if = {
+				limit = { current_year = 1569 }
+				title:b_nmih_kiku1 = { set_title_name = B_NMIH_KIKU1_1568 }
+			}
+
+			if = {
+				limit = { current_year = 1346 }
+				title:b_nmih_kikuchi1 = { set_title_name = B_NMIH_KIKUCHI1_1346 }
+			}
+
+			if = {
+				limit = { current_year = 1373 }
+				title:b_nmih_kinosaki1 = { set_title_name = B_NMIH_KINOSAKI9_1372 }
+			}
+
+			if = {
+				limit = { current_year = 1569 }
+				title:b_nmih_kinosaki1 = { set_title_name = B_NMIH_KINOSAKI9_1569 }
+			}
+
+			if = {
+				limit = { current_year = 1478 }
+				title:b_nmih_kisai1 = { set_title_name = b_nmih_kisai1 }
+			}
+
+			if = {
+				limit = { current_year = 1532 }
+				title:b_nmih_kiso1 = { set_title_name = b_nmih_kiso1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kita-uwa1 = { set_title_name = b_nmih_kita-uwa2 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_kita1 = { set_title_name = b_nmih_kita1 }
+			}
+
+			if = {
+				limit = { current_year = 1532 }
+				title:b_nmih_kita_koma1 = { set_title_name = b_nmih_kita_koma1 }
+			}
+
+			if = {
+				limit = { current_year = 1582 }
+				title:b_nmih_kita_koma1 = { set_title_name = B_NMIH_KITA_KOMA1_1582 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kita_uonuma1 = { set_title_name = b_nmih_kita_uonuma1 }
+			}
+
+			if = {
+				limit = { current_year = 1550 }
+				title:b_nmih_kochi1 = { set_title_name = b_nmih_kochi1 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_kodama1 = { set_title_name = B_NMIH_KODAMA9_1455 }
+			}
+
+			if = {
+				limit = { current_year = 1478 }
+				title:b_nmih_kodama1 = { set_title_name = b_nmih_kodama1 }
+			}
+
+			if = {
+				limit = { current_year = 1467 }
+				title:b_nmih_kojima1 = { set_title_name = b_nmih_kojima1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_koka1 = { set_title_name = b_nmih_koka1 }
+			}
+
+			if = {
+				limit = { current_year = 1231 }
+				title:b_nmih_koma1 = { set_title_name = b_nmih_koma5 }
+			}
+
+			if = {
+				limit = { current_year = 1532 }
+				title:b_nmih_koma1 = { set_title_name = b_nmih_koma1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_koshi1 = { set_title_name = b_nmih_koshi2 }
+			}
+
+			if = {
+				limit = { current_year = 1504 }
+				title:b_nmih_koshi1 = { set_title_name = b_nmih_koshi1 }
+			}
+
+			if = {
+				limit = { current_year = 1335 }
+				title:b_nmih_koyu1 = { set_title_name = b_nmih_koyu7 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_kuboya1 = { set_title_name = b_nmih_kuboya1 }
+			}
+
+			if = {
+				limit = { current_year = 1575 }
+				title:b_nmih_kuboya1 = { set_title_name = b_nmih_kuboya2 }
+			}
+
+			if = {
+				limit = { current_year = 1205 }
+				title:b_nmih_kuma1 = { set_title_name = b_nmih_kuma2 }
+			}
+
+			if = {
+				limit = { current_year = 1284 }
+				title:b_nmih_kumano1 = { set_title_name = b_nmih_kumano3 }
+			}
+
+			if = {
+				limit = { current_year = 1467 }
+				title:b_nmih_kume1 = { set_title_name = b_nmih_kume1 }
+			}
+
+			if = {
+				limit = { current_year = 1500 }
+				title:b_nmih_kunisaki1 = { set_title_name = B_NMIH_KUNISAKI9_1500 }
+			}
+
+			if = {
+				limit = { current_year = 1470 }
+				title:b_nmih_kunohe1 = { set_title_name = b_nmih_kunohe1 }
+			}
+
+			if = {
+				limit = { current_year = 1438 }
+				title:b_nmih_kuraki1 = { set_title_name = b_nmih_kuraki1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_kurate1 = { set_title_name = B_NMIH_KURATE2_1185 }
+			}
+
+			if = {
+				limit = { current_year = 1354 }
+				title:b_nmih_kurihara1 = { set_title_name = b_nmih_kurihara1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kurita1 = { set_title_name = b_nmih_kurita5 }
+			}
+
+			if = {
+				limit = { current_year = 1455 }
+				title:b_nmih_kurokawa1 = { set_title_name = b_nmih_kurokawa1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_kuwada1 = { set_title_name = B_NMIH_KUWADA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_kuwada1 = { set_title_name = b_nmih_kuwada4 }
+			}
+
+			if = {
+				limit = { current_year = 1578 }
+				title:b_nmih_kuwada1 = { set_title_name = b_nmih_kuwada1 }
+			}
+
+			if = {
+				limit = { current_year = 1492 }
+				title:b_nmih_kuwana1 = { set_title_name = b_nmih_kuwana4 }
+			}
+
+			if = {
+				limit = { current_year = 1575 }
+				title:b_nmih_kuwana1 = { set_title_name = b_nmih_kuwana3 }
+			}
+
+			if = {
+				limit = { current_year = 1601 }
+				title:b_nmih_kuwana1 = { set_title_name = b_nmih_kuwana1 }
+			}
+
+			if = {
+				limit = { current_year = 1344 }
+				title:b_nmih_makabe1 = { set_title_name = B_NMIH_MAKABE3_1343 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_makabe1 = { set_title_name = b_nmih_makabe1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_manda1 = { set_title_name = b_nmih_manda4 }
+			}
+
+			if = {
+				limit = { current_year = 1467 }
+				title:b_nmih_manda1 = { set_title_name = b_nmih_manda1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mashima1 = { set_title_name = b_nmih_mashima1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mashita1 = { set_title_name = b_nmih_mashita2 }
+			}
+
+			if = {
+				limit = { current_year = 1352 }
+				title:b_nmih_mashizu1 = { set_title_name = b_nmih_mashizu1 }
+			}
+
+			if = {
+				limit = { current_year = 1206 }
+				title:b_nmih_masuta1 = { set_title_name = b_nmih_masuta1 }
+			}
+
+			if = {
+				limit = { current_year = 1552 }
+				title:b_nmih_masuta1 = { set_title_name = B_NMIH_MASUTA1_1552 }
+			}
+
+			if = {
+				limit = { current_year = 1438 }
+				title:b_nmih_midono1 = { set_title_name = b_nmih_midono1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mie1 = { set_title_name = B_NMIH_MIE9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1369 }
+				title:b_nmih_mie1 = { set_title_name = b_nmih_mie5 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_mihara1 = { set_title_name = B_NMIH_MIHARA1_1186 }
+			}
+
+			if = {
+				limit = { current_year = 1517 }
+				title:b_nmih_mihara1 = { set_title_name = B_NMIH_MIHARA1_1517 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mii1 = { set_title_name = B_NMIH_MII9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_mikasa1 = { set_title_name = b_nmih_mikasa2 }
+			}
+
+			if = {
+				limit = { current_year = 1604 }
+				title:b_nmih_mikasa1 = { set_title_name = B_NMIH_MIKASA1_1603 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mikata1 = { set_title_name = b_nmih_mikata1 }
+			}
+
+			if = {
+				limit = { current_year = 1500 }
+				title:b_nmih_mike1 = { set_title_name = b_nmih_mike2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mima1 = { set_title_name = B_NMIH_MIMA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_minagi1 = { set_title_name = b_nmih_minagi1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_minami1 = { set_title_name = b_nmih_minami1 }
+			}
+
+			if = {
+				limit = { current_year = 1460 }
+				title:b_nmih_minami_aizu1 = { set_title_name = b_nmih_minami_aizu1 }
+			}
+
+			if = {
+				limit = { current_year = 1375 }
+				title:b_nmih_minami_murayama1 = { set_title_name = b_nmih_minami_murayama1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_minami_uonuma1 = { set_title_name = b_nmih_minami_uonuma1 }
+			}
+
+			if = {
+				limit = { current_year = 1200 }
+				title:b_nmih_mine1 = { set_title_name = b_nmih_mine1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mino_kamo1 = { set_title_name = b_nmih_mino_kamo3 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_mishima1 = { set_title_name = b_nmih_mishima9 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mishima1 = { set_title_name = b_nmih_mishima7 }
+			}
+
+			if = {
+				limit = { current_year = 1482 }
+				title:b_nmih_mishima1 = { set_title_name = b_nmih_mishima1 }
+			}
+
+			if = {
+				limit = { current_year = 1569 }
+				title:b_nmih_mishima1 = { set_title_name = b_nmih_mishima5 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_mitsugi1 = { set_title_name = b_nmih_mitsugi1 }
+			}
+
+			if = {
+				limit = { current_year = 1560 }
+				title:b_nmih_mitsugi1 = { set_title_name = B_NMIH_MITSUGI1_1560 }
+			}
+
+			if = {
+				limit = { current_year = 1248 }
+				title:b_nmih_miura1 = { set_title_name = b_nmih_miura1 }
+			}
+
+			if = {
+				limit = { current_year = 1338 }
+				title:b_nmih_miyagi1 = { set_title_name = b_nmih_miyagi1 }
+			}
+
+			if = {
+				limit = { current_year = 1601 }
+				title:b_nmih_miyagi1 = { set_title_name = B_NMIH_MIYAGI1_1600 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_miyako1 = { set_title_name = B_NMIH_MIYAKO9_1185 }
+			}
+
+			if = {
+				limit = { current_year = 1333 }
+				title:b_nmih_miyazaki1 = { set_title_name = b_nmih_miyazaki5 }
+			}
+
+			if = {
+				limit = { current_year = 1588 }
+				title:b_nmih_miyazaki1 = { set_title_name = B_NMIH_MIYAZAKI9_1458 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_miyoshi1 = { set_title_name = B_NMIH_MIYOSHI9_1185 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_miyoshi1 = { set_title_name = b_nmih_miyoshi3 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_mizuma1 = { set_title_name = B_NMIH_MIZUMA9_1185 }
+			}
+
+			if = {
+				limit = { current_year = 1356 }
+				title:b_nmih_mogami1 = { set_title_name = b_nmih_mogami1 }
+			}
+
+			if = {
+				limit = { current_year = 1375 }
+				title:b_nmih_morokata1 = { set_title_name = B_NMIH_MOROKATA9_1375 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_motosu1 = { set_title_name = b_nmih_motosu1 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_mouda1 = { set_title_name = b_nmih_mouda1 }
+			}
+
+			if = {
+				limit = { current_year = 1541 }
+				title:b_nmih_mouda1 = { set_title_name = b_nmih_mouda2 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_mugi1 = { set_title_name = b_nmih_mugi1 }
+			}
+
+			if = {
+				limit = { current_year = 1557 }
+				title:b_nmih_mugi1 = { set_title_name = b_nmih_mugi2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_muko1 = { set_title_name = b_nmih_muko5 }
+			}
+
+			if = {
+				limit = { current_year = 1516 }
+				title:b_nmih_muko1 = { set_title_name = b_nmih_muko4 }
+			}
+
+			if = {
+				limit = { current_year = 1583 }
+				title:b_nmih_munakata1 = { set_title_name = b_nmih_munakata4 }
+			}
+
+			if = {
+				limit = { current_year = 1474 }
+				title:b_nmih_murayama1 = { set_title_name = b_nmih_murayama1 }
+			}
+
+			if = {
+				limit = { current_year = 1284 }
+				title:b_nmih_muro1 = { set_title_name = b_nmih_muro1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_muro1 = { set_title_name = B_NMIH_MURO1_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_musa1 = { set_title_name = b_nmih_musa1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_naga1 = { set_title_name = B_NMIH_NAGA9_1186 }
+			}
+
+			if = {
+				limit = { current_year = 1510 }
+				title:b_nmih_naga1 = { set_title_name = b_nmih_naga1 }
+			}
+
+			if = {
+				limit = { current_year = 1333 }
+				title:b_nmih_nagara1 = { set_title_name = b_nmih_nagara2 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_nagara1 = { set_title_name = b_nmih_nagara1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nagusa1 = { set_title_name = B_NMIH_NAGUSA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1510 }
+				title:b_nmih_nagusa1 = { set_title_name = B_NMIH_NAGUSA9_1510 }
+			}
+
+			if = {
+				limit = { current_year = 1586 }
+				title:b_nmih_nagusa1 = { set_title_name = b_nmih_nagusa8 }
+			}
+
+			if = {
+				limit = { current_year = 1429 }
+				title:b_nmih_nakagami1 = { set_title_name = b_nmih_nakagami2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nakashima1 = { set_title_name = b_nmih_nakashima3 }
+			}
+
+			if = {
+				limit = { current_year = 1560 }
+				title:b_nmih_nakashima1 = { set_title_name = B_NMIH_NAKASHIMA3_1560 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nakata1 = { set_title_name = B_NMIH_NAKATA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1586 }
+				title:b_nmih_nakata1 = { set_title_name = B_NMIH_NAKATA9_1586 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_namegata1 = { set_title_name = b_nmih_namegata3 }
+			}
+
+			if = {
+				limit = { current_year = 1592 }
+				title:b_nmih_namegata1 = { set_title_name = b_nmih_namegata6 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nanjo1 = { set_title_name = b_nmih_nanjo1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_naoiri1 = { set_title_name = B_NMIH_NAOIRI9_1185 }
+			}
+
+			if = {
+				limit = { current_year = 1428 }
+				title:b_nmih_nasu1 = { set_title_name = b_nmih_nasu1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nei1 = { set_title_name = b_nmih_nei1 }
+			}
+
+			if = {
+				limit = { current_year = 1440 }
+				title:b_nmih_nei1 = { set_title_name = B_NMIH_NEI1_1440 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nihonmatsu1 = { set_title_name = b_nmih_nihonmatsu1 }
+			}
+
+			if = {
+				limit = { current_year = 1214 }
+				title:b_nmih_niihari1 = { set_title_name = b_nmih_niihari1 }
+			}
+
+			if = {
+				limit = { current_year = 1470 }
+				title:b_nmih_ninohe1 = { set_title_name = b_nmih_ninohe1 }
+			}
+
+			if = {
+				limit = { current_year = 1443 }
+				title:b_nmih_nishi1 = { set_title_name = b_nmih_nishi1 }
+			}
+
+			if = {
+				limit = { current_year = 1526 }
+				title:b_nmih_nishi1 = { set_title_name = b_nmih_nishi1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nishikibe1 = { set_title_name = B_NMIH_NISHIKIBE2_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1392 }
+				title:b_nmih_nishikibe1 = { set_title_name = b_nmih_nishikibe8 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nishinari1 = { set_title_name = b_nmih_nishinari4 }
+			}
+
+			if = {
+				limit = { current_year = 1573 }
+				title:b_nmih_nishinari1 = { set_title_name = b_nmih_nishinari2 }
+			}
+
+			if = {
+				limit = { current_year = 1581 }
+				title:b_nmih_nishinari1 = { set_title_name = b_nmih_nishinari4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nishi_kubiki1 = { set_title_name = b_nmih_nishi_kubiki4 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_nishi_matsura1 = { set_title_name = b_nmih_nishi_matsura2 }
+			}
+
+			if = {
+				limit = { current_year = 1385 }
+				title:b_nmih_nishi_okitama1 = { set_title_name = b_nmih_nishi_okitama1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nishi_tonami1 = { set_title_name = b_nmih_nishi_tonami8 }
+			}
+
+			if = {
+				limit = { current_year = 1494 }
+				title:b_nmih_nishi_tonami1 = { set_title_name = b_nmih_nishi_tonami1 }
+			}
+
+			if = {
+				limit = { current_year = 1582 }
+				title:b_nmih_nishi_tonami1 = { set_title_name = b_nmih_nishi_tonami6 }
+			}
+
+			if = {
+				limit = { current_year = 1469 }
+				title:b_nmih_nitta1 = { set_title_name = B_NMIH_NITTA9_1469 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_niu1 = { set_title_name = b_nmih_niu1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_niwa1 = { set_title_name = b_nmih_niwa2 }
+			}
+
+			if = {
+				limit = { current_year = 1560 }
+				title:b_nmih_niwa1 = { set_title_name = b_nmih_niwa1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_nogi1 = { set_title_name = b_nmih_nogi1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_nogi1 = { set_title_name = B_NMIH_NOGI1_1221 }
+			}
+
+			if = {
+				limit = { current_year = 1481 }
+				title:b_nmih_nomi1 = { set_title_name = b_nmih_nomi8 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_nomi1 = { set_title_name = b_nmih_nomi3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nose1 = { set_title_name = b_nmih_nose1 }
+			}
+
+			if = {
+				limit = { current_year = 1500 }
+				title:b_nmih_noto1 = { set_title_name = b_nmih_noto1 }
+			}
+
+			if = {
+				limit = { current_year = 1401 }
+				title:b_nmih_nukata1 = { set_title_name = b_nmih_nukata1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_nutari1 = { set_title_name = B_NMIH_NUTARI9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1568 }
+				title:b_nmih_nutari1 = { set_title_name = b_nmih_nutari2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ochi1 = { set_title_name = B_NMIH_OCHI7_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1554 }
+				title:b_nmih_ogachi1 = { set_title_name = b_nmih_ogachi1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_ohara1 = { set_title_name = B_NMIH_OHARA9_1221 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_oi1 = { set_title_name = b_nmih_oi1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_oita1 = { set_title_name = b_nmih_oita2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_oki1 = { set_title_name = B_NMIH_OKI9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1385 }
+				title:b_nmih_okitama1 = { set_title_name = b_nmih_okitama1 }
+			}
+
+			if = {
+				limit = { current_year = 1532 }
+				title:b_nmih_oku1 = { set_title_name = B_NMIH_OKU1_1532 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_oku1 = { set_title_name = B_NMIH_OKU1_1576 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_ono1 = { set_title_name = b_nmih_ono1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_onsen1 = { set_title_name = B_NMIH_ONSEN9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_onyu1 = { set_title_name = b_nmih_onyu1 }
+			}
+
+			if = {
+				limit = { current_year = 1601 }
+				title:b_nmih_onyu1 = { set_title_name = b_nmih_onyu2 }
+			}
+
+			if = {
+				limit = { current_year = 1476 }
+				title:b_nmih_osato1 = { set_title_name = b_nmih_osato1 }
+			}
+
+			if = {
+				limit = { current_year = 1334 }
+				title:b_nmih_otagi1 = { set_title_name = B_NMIH_OTAGI9_1334 }
+			}
+
+			if = {
+				limit = { current_year = 1378 }
+				title:b_nmih_otagi1 = { set_title_name = b_nmih_otagi1 }
+			}
+
+			if = {
+				limit = { current_year = 1559 }
+				title:b_nmih_otagi1 = { set_title_name = B_NMIH_OTAGI1_1559 }
+			}
+
+			if = {
+				limit = { current_year = 1457 }
+				title:b_nmih_otokuni1 = { set_title_name = b_nmih_otokuni4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_otori1 = { set_title_name = b_nmih_otori2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_ouchi1 = { set_title_name = b_nmih_ouchi1 }
+			}
+
+			if = {
+				limit = { current_year = 1440 }
+				title:b_nmih_oura1 = { set_title_name = b_nmih_oura3 }
+			}
+
+			if = {
+				limit = { current_year = 1410 }
+				title:b_nmih_saba1 = { set_title_name = b_nmih_saba6 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_saeki1 = { set_title_name = B_NMIH_SAEKI2_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1590 }
+				title:b_nmih_saeki1 = { set_title_name = B_NMIH_SAEKI2_1590 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_saga1 = { set_title_name = b_nmih_saga1 }
+			}
+
+			if = {
+				limit = { current_year = 1547 }
+				title:b_nmih_saga1 = { set_title_name = b_nmih_saga2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_sagara1 = { set_title_name = b_nmih_sagara1 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_sagara1 = { set_title_name = b_nmih_sagara4 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_saitama1 = { set_title_name = b_nmih_saitama5 }
+			}
+
+			if = {
+				limit = { current_year = 1478 }
+				title:b_nmih_saitama1 = { set_title_name = b_nmih_saitama1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_sakai1 = { set_title_name = b_nmih_sakai1 }
+			}
+
+			if = {
+				limit = { current_year = 1185 }
+				title:b_nmih_sakata1 = { set_title_name = b_nmih_sakata7 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_sakata1 = { set_title_name = B_NMIH_SAKATA7_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1524 }
+				title:b_nmih_sakata1 = { set_title_name = B_NMIH_SAKATA7_1524 }
+			}
+
+			if = {
+				limit = { current_year = 1574 }
+				title:b_nmih_sakata1 = { set_title_name = b_nmih_sakata1 }
+			}
+
+			if = {
+				limit = { current_year = 1185 }
+				title:b_nmih_saku1 = { set_title_name = B_NMIH_SAKU8_1184 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_saku1 = { set_title_name = B_NMIH_SAKU8_1221 }
+			}
+
+			if = {
+				limit = { current_year = 1286 }
+				title:b_nmih_saku1 = { set_title_name = b_nmih_saku7 }
+			}
+
+			if = {
+				limit = { current_year = 1510 }
+				title:b_nmih_saku1 = { set_title_name = B_NMIH_SAKU7_1510 }
+			}
+
+			if = {
+				limit = { current_year = 1583 }
+				title:b_nmih_saku1 = { set_title_name = B_NMIH_SAKU7_1582 }
+			}
+
+			if = {
+				limit = { current_year = 1450 }
+				title:b_nmih_sano1 = { set_title_name = b_nmih_sano1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_santo1 = { set_title_name = b_nmih_santo4 }
+			}
+
+			if = {
+				limit = { current_year = 1556 }
+				title:b_nmih_sarashina1 = { set_title_name = B_NMIH_SARASHINA1_1260 }
+			}
+
+			if = {
+				limit = { current_year = 1390 }
+				title:b_nmih_sashima1 = { set_title_name = b_nmih_sashima1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_sawata1 = { set_title_name = b_nmih_sawata1 }
+			}
+
+			if = {
+				limit = { current_year = 1336 }
+				title:b_nmih_sayo1 = { set_title_name = b_nmih_sayo1 }
+			}
+
+			if = {
+				limit = { current_year = 1337 }
+				title:b_nmih_seta1 = { set_title_name = b_nmih_seta7 }
+			}
+
+			if = {
+				limit = { current_year = 1563 }
+				title:b_nmih_seta1 = { set_title_name = B_NMIH_SETA9_1400 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_shibata1 = { set_title_name = b_nmih_shibata1 }
+			}
+
+			if = {
+				limit = { current_year = 1572 }
+				title:b_nmih_shiga1 = { set_title_name = b_nmih_shiga2 }
+			}
+
+			if = {
+				limit = { current_year = 1586 }
+				title:b_nmih_shiga1 = { set_title_name = b_nmih_shiga4 }
+			}
+
+			if = {
+				limit = { current_year = 1601 }
+				title:b_nmih_shiga1 = { set_title_name = b_nmih_shiga5 }
+			}
+
+			if = {
+				limit = { current_year = 1333 }
+				title:b_nmih_shikama1 = { set_title_name = B_NMIH_SHIKAMA9_1333 }
+			}
+
+			if = {
+				limit = { current_year = 1491 }
+				title:b_nmih_shikama1 = { set_title_name = B_NMIH_SHIKAMA9_1491 }
+			}
+
+			if = {
+				limit = { current_year = 1581 }
+				title:b_nmih_shikama1 = { set_title_name = B_NMIH_SHIKAMA9_1580 }
+			}
+
+			if = {
+				limit = { current_year = 1310 }
+				title:b_nmih_shiki1 = { set_title_name = b_nmih_shiki2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_shima1 = { set_title_name = b_nmih_shima5 }
+			}
+
+			if = {
+				limit = { current_year = 1398 }
+				title:b_nmih_shimajiri1 = { set_title_name = b_nmih_shimajiri5 }
+			}
+
+			if = {
+				limit = { current_year = 1429 }
+				title:b_nmih_shimajiri1 = { set_title_name = b_nmih_shimajiri2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_shimane1 = { set_title_name = b_nmih_shimane1 }
+			}
+
+			if = {
+				limit = { current_year = 1568 }
+				title:b_nmih_shimane1 = { set_title_name = b_nmih_shimane3 }
+			}
+
+			if = {
+				limit = { current_year = 1611 }
+				title:b_nmih_shimane1 = { set_title_name = b_nmih_shimane4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_shimo_ina1 = { set_title_name = b_nmih_shimo_ina3 }
+			}
+
+			if = {
+				limit = { current_year = 1185 }
+				title:b_nmih_shimo_minochi1 = { set_title_name = B_NMIH_SHIMO_MINOCHI9_1184 }
+			}
+
+			if = {
+				limit = { current_year = 1401 }
+				title:b_nmih_shimo_minochi1 = { set_title_name = b_nmih_shimo_minochi1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_shimo_niikawa1 = { set_title_name = b_nmih_shimo_niikawa1 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_shinobu1 = { set_title_name = b_nmih_shinobu1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_shirakawa1 = { set_title_name = b_nmih_shirakawa1 }
+			}
+
+			if = {
+				limit = { current_year = 1604 }
+				title:b_nmih_shirakawa1 = { set_title_name = B_NMIH_SHIRAKAWA1_1603 }
+			}
+
+			if = {
+				limit = { current_year = 1390 }
+				title:b_nmih_shita1 = { set_title_name = b_nmih_shita1 }
+			}
+
+			if = {
+				limit = { current_year = 1507 }
+				title:b_nmih_shitara1 = { set_title_name = b_nmih_shitara6 }
+			}
+
+			if = {
+				limit = { current_year = 1574 }
+				title:b_nmih_shitara1 = { set_title_name = b_nmih_shitara5 }
+			}
+
+			if = {
+				limit = { current_year = 1576 }
+				title:b_nmih_shitara1 = { set_title_name = B_NMIH_SHITARA5_1576 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_shitsumi1 = { set_title_name = b_nmih_shitsumi2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_soejimo1 = { set_title_name = b_nmih_soejimo1 }
+			}
+
+			if = {
+				limit = { current_year = 1569 }
+				title:b_nmih_soekami1 = { set_title_name = b_nmih_soekami4 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_soma1 = { set_title_name = b_nmih_soma1 }
+			}
+
+			if = {
+				limit = { current_year = 1591 }
+				title:b_nmih_soma1 = { set_title_name = b_nmih_soma2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_sonoki1 = { set_title_name = b_nmih_sonoki4 }
+			}
+
+			if = {
+				limit = { current_year = 1564 }
+				title:b_nmih_sonoki1 = { set_title_name = B_NMIH_SONOKI4_1564 }
+			}
+
+			if = {
+				limit = { current_year = 1200 }
+				title:b_nmih_soo1 = { set_title_name = B_NMIH_SOO1_1200 }
+			}
+
+			if = {
+				limit = { current_year = 1250 }
+				title:b_nmih_sosa1 = { set_title_name = b_nmih_sosa2 }
+			}
+
+			if = {
+				limit = { current_year = 1560 }
+				title:b_nmih_sosa1 = { set_title_name = b_nmih_sosa1 }
+			}
+
+			if = {
+				limit = { current_year = 1475 }
+				title:b_nmih_suchi1 = { set_title_name = b_nmih_suchi2 }
+			}
+
+			if = {
+				limit = { current_year = 1487 }
+				title:b_nmih_sunto1 = { set_title_name = b_nmih_sunto2 }
+			}
+
+			if = {
+				limit = { current_year = 1401 }
+				title:b_nmih_suwa1 = { set_title_name = b_nmih_suwa1 }
+			}
+
+			if = {
+				limit = { current_year = 1549 }
+				title:b_nmih_suwa1 = { set_title_name = b_nmih_suwa4 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_suzu1 = { set_title_name = b_nmih_suzu1 }
+			}
+
+			if = {
+				limit = { current_year = 1265 }
+				title:b_nmih_suzuka1 = { set_title_name = b_nmih_suzuka2 }
+			}
+
+			if = {
+				limit = { current_year = 1348 }
+				title:b_nmih_taga1 = { set_title_name = b_nmih_taga2 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_taga1 = { set_title_name = b_nmih_taga1 }
+			}
+
+			if = {
+				limit = { current_year = 1181 }
+				title:b_nmih_tagata1 = { set_title_name = b_nmih_tagata9 }
+			}
+
+			if = {
+				limit = { current_year = 1334 }
+				title:b_nmih_tagata1 = { set_title_name = b_nmih_tagata2 }
+			}
+
+			if = {
+				limit = { current_year = 1560 }
+				title:b_nmih_tagata1 = { set_title_name = b_nmih_tagata1 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_tagawa1 = { set_title_name = b_nmih_tagawa10 }
+			}
+
+			if = {
+				limit = { current_year = 1533 }
+				title:b_nmih_tagawa1 = { set_title_name = b_nmih_tagawa1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_taka1 = { set_title_name = b_nmih_taka1 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_takada1 = { set_title_name = b_nmih_takada1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_takada1 = { set_title_name = B_NMIH_TAKADA3_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1185 }
+				title:b_nmih_takai1 = { set_title_name = B_NMIH_TAKAI5_1184 }
+			}
+
+			if = {
+				limit = { current_year = 1467 }
+				title:b_nmih_takai1 = { set_title_name = B_NMIH_TAKAI5_1467 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_takaichi1 = { set_title_name = b_nmih_takaichi5 }
+			}
+
+			if = {
+				limit = { current_year = 1219 }
+				title:b_nmih_takaku1 = { set_title_name = B_NMIH_TAKAKU9_1219 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_takakusa1 = { set_title_name = b_nmih_takakusa1 }
+			}
+
+			if = {
+				limit = { current_year = 1563 }
+				title:b_nmih_takakusa1 = { set_title_name = b_nmih_takakusa2 }
+			}
+
+			if = {
+				limit = { current_year = 1579 }
+				title:b_nmih_takashima1 = { set_title_name = B_NMIH_TAKASHIMA4_1578 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_taki1 = { set_title_name = b_nmih_taki3 }
+			}
+
+			if = {
+				limit = { current_year = 1480 }
+				title:b_nmih_taki1 = { set_title_name = b_nmih_taki1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_takuma1 = { set_title_name = b_nmih_takuma1 }
+			}
+
+			if = {
+				limit = { current_year = 1521 }
+				title:b_nmih_takuma1 = { set_title_name = b_nmih_takuma2 }
+			}
+
+			if = {
+				limit = { current_year = 1606 }
+				title:b_nmih_takuma1 = { set_title_name = B_NMIH_TAKUMA2_1606 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_tamatsukuri1 = { set_title_name = b_nmih_tamatsukuri1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_tamura1 = { set_title_name = b_nmih_tamura1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_tanegashima1 = { set_title_name = b_nmih_tanegashima2 }
+			}
+
+			if = {
+				limit = { current_year = 1521 }
+				title:b_nmih_tasai1 = { set_title_name = b_nmih_tasai2 }
+			}
+
+			if = {
+				limit = { current_year = 1571 }
+				title:b_nmih_tasai1 = { set_title_name = b_nmih_tasai1 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_tato1 = { set_title_name = b_nmih_tato4 }
+			}
+
+			if = {
+				limit = { current_year = 1478 }
+				title:b_nmih_tato1 = { set_title_name = b_nmih_tato1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_teshima1 = { set_title_name = b_nmih_teshima1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_tetta1 = { set_title_name = b_nmih_tetta1 }
+			}
+
+			if = {
+				limit = { current_year = 1354 }
+				title:b_nmih_toda1 = { set_title_name = b_nmih_toda1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_tomata1 = { set_title_name = b_nmih_tomata1 }
+			}
+
+			if = {
+				limit = { current_year = 1545 }
+				title:b_nmih_tomata1 = { set_title_name = b_nmih_tomata2 }
+			}
+
+			if = {
+				limit = { current_year = 1603 }
+				title:b_nmih_tomata1 = { set_title_name = B_NMIH_TOMATA3_1603 }
+			}
+
+			if = {
+				limit = { current_year = 1190 }
+				title:b_nmih_tome1 = { set_title_name = b_nmih_tome1 }
+			}
+
+			if = {
+				limit = { current_year = 1185 }
+				title:b_nmih_tone1 = { set_title_name = b_nmih_tone1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_tosa1 = { set_title_name = B_NMIH_TOSA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1508 }
+				title:b_nmih_tosa1 = { set_title_name = B_NMIH_TOSA9_1507 }
+			}
+
+			if = {
+				limit = { current_year = 1556 }
+				title:b_nmih_tosa1 = { set_title_name = b_nmih_tosa2 }
+			}
+
+			if = {
+				limit = { current_year = 1603 }
+				title:b_nmih_tosa1 = { set_title_name = b_nmih_tosa1 }
+			}
+
+			if = {
+				limit = { current_year = 1369 }
+				title:b_nmih_toshima1 = { set_title_name = b_nmih_toshima1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_toyota1 = { set_title_name = B_NMIH_TOYOTA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1378 }
+				title:b_nmih_toyoura1 = { set_title_name = b_nmih_toyoura3 }
+			}
+
+			if = {
+				limit = { current_year = 1469 }
+				title:b_nmih_tsudaka1 = { set_title_name = b_nmih_tsudaka1 }
+			}
+
+			if = {
+				limit = { current_year = 1443 }
+				title:b_nmih_tsugaru1 = { set_title_name = b_nmih_tsugaru1 }
+			}
+
+			if = {
+				limit = { current_year = 1514 }
+				title:b_nmih_tsugaru11 = { set_title_name = b_nmih_tsugaru15 }
+			}
+
+			if = {
+				limit = { current_year = 1600 }
+				title:b_nmih_tsugaru11 = { set_title_name = b_nmih_tsugaru15 }
+			}
+
+			if = {
+				limit = { current_year = 1195 }
+				title:b_nmih_tsuiki1 = { set_title_name = b_nmih_tsuiki4 }
+			}
+
+			if = {
+				limit = { current_year = 1459 }
+				title:b_nmih_tsukama1 = { set_title_name = b_nmih_tsukama1 }
+			}
+
+			if = {
+				limit = { current_year = 1551 }
+				title:b_nmih_tsukama1 = { set_title_name = b_nmih_tsukama4 }
+			}
+
+			if = {
+				limit = { current_year = 1583 }
+				title:b_nmih_tsukama1 = { set_title_name = b_nmih_tsukama6 }
+			}
+
+			if = {
+				limit = { current_year = 1194 }
+				title:b_nmih_tsukuba1 = { set_title_name = b_nmih_tsukuba1 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_tsuna1 = { set_title_name = b_nmih_tsuna1 }
+			}
+
+			if = {
+				limit = { current_year = 1526 }
+				title:b_nmih_tsuna1 = { set_title_name = b_nmih_tsuna2 }
+			}
+
+			if = {
+				limit = { current_year = 1222 }
+				title:b_nmih_tsuno1 = { set_title_name = b_nmih_tsuno4 }
+			}
+
+			if = {
+				limit = { current_year = 1354 }
+				title:b_nmih_tsuno1 = { set_title_name = B_NMIH_TSUNO1_1354 }
+			}
+
+			if = {
+				limit = { current_year = 1343 }
+				title:b_nmih_tsuru1 = { set_title_name = b_nmih_tsuru1 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_tsushima1 = { set_title_name = b_nmih_tsushima7 }
+			}
+
+			if = {
+				limit = { current_year = 1569 }
+				title:b_nmih_tsuzuki1 = { set_title_name = b_nmih_tsuzuki1 }
+			}
+
+			if = {
+				limit = { current_year = 1334 }
+				title:b_nmih_uda1 = { set_title_name = b_nmih_uda1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_uma1 = { set_title_name = b_nmih_uma3 }
+			}
+
+			if = {
+				limit = { current_year = 1561 }
+				title:b_nmih_uma1 = { set_title_name = b_nmih_uma3 }
+			}
+
+			if = {
+				limit = { current_year = 1200 }
+				title:b_nmih_unakami1 = { set_title_name = b_nmih_unakami1 }
+			}
+
+			if = {
+				limit = { current_year = 1456 }
+				title:b_nmih_unakami1 = { set_title_name = b_nmih_unakami2 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_usa1 = { set_title_name = b_nmih_usa3 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_usa1 = { set_title_name = B_NMIH_USA3_1185 }
+			}
+
+			if = {
+				limit = { current_year = 1455 }
+				title:b_nmih_usui1 = { set_title_name = b_nmih_usui1 }
+			}
+
+			if = {
+				limit = { current_year = 1441 }
+				title:b_nmih_usuki1 = { set_title_name = B_NMIH_USUKI9_1441 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_uta1 = { set_title_name = b_nmih_uta1 }
+			}
+
+			if = {
+				limit = { current_year = 1611 }
+				title:b_nmih_uta1 = { set_title_name = b_nmih_uta2 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_uwa1 = { set_title_name = B_NMIH_UWA9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1534 }
+				title:b_nmih_uwa1 = { set_title_name = B_NMIH_UWA9_1534 }
+			}
+
+			if = {
+				limit = { current_year = 1595 }
+				title:b_nmih_uwa1 = { set_title_name = B_NMIH_UWA9_1594 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_waga1 = { set_title_name = b_nmih_waga1 }
+			}
+
+			if = {
+				limit = { current_year = 1382 }
+				title:b_nmih_wakae1 = { set_title_name = b_nmih_wakae1 }
+			}
+
+			if = {
+				limit = { current_year = 1574 }
+				title:b_nmih_wakae1 = { set_title_name = b_nmih_wakae3 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_watarai1 = { set_title_name = b_nmih_watarai1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_yabu1 = { set_title_name = B_NMIH_YABU9_1331 }
+			}
+
+			if = {
+				limit = { current_year = 1186 }
+				title:b_nmih_yakami1 = { set_title_name = b_nmih_yakami1 }
+			}
+
+			if = {
+				limit = { current_year = 1182 }
+				title:b_nmih_yama1 = { set_title_name = b_nmih_yama1 }
+			}
+
+			if = {
+				limit = { current_year = 1330 }
+				title:b_nmih_yamabe1 = { set_title_name = b_nmih_yamabe4 }
+			}
+
+			if = {
+				limit = { current_year = 1560 }
+				title:b_nmih_yamabe1 = { set_title_name = B_NMIH_YAMABE4_1560 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_yamada1 = { set_title_name = b_nmih_yamada1 }
+			}
+
+			if = {
+				limit = { current_year = 1300 }
+				title:b_nmih_yamagata1 = { set_title_name = b_nmih_yamagata3 }
+			}
+
+			if = {
+				limit = { current_year = 1370 }
+				title:b_nmih_yamagata1 = { set_title_name = b_nmih_yamagata1 }
+			}
+
+			if = {
+				limit = { current_year = 1550 }
+				title:b_nmih_yamagata1 = { set_title_name = b_nmih_yamagata2 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_yamaka1 = { set_title_name = b_nmih_yamaka6 }
+			}
+
+			if = {
+				limit = { current_year = 1424 }
+				title:b_nmih_yamamoto1 = { set_title_name = b_nmih_yamamoto1 }
+			}
+
+			if = {
+				limit = { current_year = 1465 }
+				title:b_nmih_yamanashi1 = { set_title_name = B_NMIH_YAMANASHI9_1465 }
+			}
+
+			if = {
+				limit = { current_year = 1519 }
+				title:b_nmih_yamanashi1 = { set_title_name = b_nmih_yamanashi1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_yasu1 = { set_title_name = b_nmih_yasu1 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_yasuna1 = { set_title_name = b_nmih_yasuna1 }
+			}
+
+			if = {
+				limit = { current_year = 1284 }
+				title:b_nmih_yatabe1 = { set_title_name = b_nmih_yatabe8 }
+			}
+
+			if = {
+				limit = { current_year = 1399 }
+				title:b_nmih_yatabe1 = { set_title_name = b_nmih_yatabe1 }
+			}
+
+			if = {
+				limit = { current_year = 1574 }
+				title:b_nmih_yatabe1 = { set_title_name = b_nmih_yatabe7 }
+			}
+
+			if = {
+				limit = { current_year = 1331 }
+				title:b_nmih_yosa1 = { set_title_name = b_nmih_yosa1 }
+			}
+
+			if = {
+				limit = { current_year = 1581 }
+				title:b_nmih_yosa1 = { set_title_name = b_nmih_yosa2 }
+			}
+
+			if = {
+				limit = { current_year = 1400 }
+				title:b_nmih_yoshida1 = { set_title_name = b_nmih_yoshida1 }
+			}
+
+			if = {
+				limit = { current_year = 1360 }
+				title:b_nmih_yoshiki1 = { set_title_name = b_nmih_yoshiki1 }
+			}
+
+			if = {
+				limit = { current_year = 1478 }
+				title:b_nmih_yoshino1 = { set_title_name = b_nmih_yoshino1 }
+			}
+
+			if = {
+				limit = { current_year = 1450 }
+				title:b_nmih_yuri1 = { set_title_name = b_nmih_yuri1 }
+			}
+
+		}
+
+		scope:temp_character = {
+			death = { death_reason = death_vanished }
+		}
+	}
+}

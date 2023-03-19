@@ -1,0 +1,16 @@
+war = {
+	name = "war_1416_conquest_of_hokuzan"
+	start_date = 1416.1.1
+	end_date = 1416.2.1
+	targeted_titles = {
+		k_nmih_hokuzan c_nmih_kunigami
+	}
+	casus_belli = event_claim_cb
+	claimant = 10141002 # Sho Shisho
+	attackers = {
+		10141002	# Sho Shisho
+	}
+	defenders = {
+		10141140	# Haniji Hananchi
+	}
+}

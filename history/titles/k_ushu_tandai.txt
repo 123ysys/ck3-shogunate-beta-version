@@ -1,0 +1,51 @@
+k_nmih_ushu_tandai = {
+	1000.1.1={
+	}
+	1354.1.1={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12139050 # Shiba Iekane
+	}
+	1356.1.1={
+		holder=12015000 #Mogami Kaneyori, the 1st header of the Mogami family.
+	}
+	1379.7.21={
+		holder=12015001 # Mogami Naoie, the 2nd header of the Mogami family.
+	}
+	1399.1.1={
+		liege = 0
+	}
+	1410.2.9={
+		holder=12015002 # Mogami Mitsunao, the 3rd header of the Mogami family.
+	}
+	1416.8.25={
+		holder=12015008 # Mogami Mitsuie, the 4th header of the Mogami family.
+	}
+	1443.4.23={
+		holder=12015013 # Mogami Yoshiharu, the 5th header of the Mogami family.
+	}
+	1474.4.7={
+		holder=12015014 # Mogami Yoshiaki, the 6th header of the Mogami family.
+	}
+	1480.4.6={
+		holder=12015015 #Mogami Mitsuuji, the 7th header of the Mogami family.
+	}
+	1494.8.14={
+		holder=12015016 #Mogami Yoshiatsu, the 8th header of the Mogami family.
+	}
+	1504.10.16={
+		holder=12015019 #Mogami Yoshisada, the 9th header of the Mogami family.
+	}
+	1520.2.20={
+		holder=0
+	}
+	1522.1.2={
+		holder=10000701 #Mogami Yoshimori, the 10th header of the Mogami family.
+	}
+	1574.9.10={
+		holder=10000716 # Mogami Yoshiaki
+	}
+	1590.8.28={
+		holder=0
+	}
+}

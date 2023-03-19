@@ -1,0 +1,15 @@
+war = {
+	name = "war_1350_siege_of_iwakiri"
+	start_date = 1350.12.20
+	end_date = 1351.3.15
+	targeted_titles = {
+		d_nmih_rikuzen
+	}
+	casus_belli = event_nanbokucho_invasion_war_duchy
+	attackers = {
+		12395015	# Kira Sadaie
+	}
+	defenders = {
+		10007311	# Hatakeyama Kuniuji
+	}
+}

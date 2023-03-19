@@ -1,0 +1,105 @@
+c_nmih_yakami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yakami1={
+				set_title_name=b_nmih_yakami9
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_yakami1={
+				set_title_name=b_nmih_yakami1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1185.4.25 = { change_development_level = 10 }
+	1200.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_sanin"
+		holder=12600100 # Saji Michisada
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_inaba"
+	}
+	1185.1.1={
+		liege="d_nmih_inaba"
+		holder=12600101 # Saji Yasusada
+	}
+	1213.5.24={
+		liege="d_nmih_hoki"
+		holder=12600102 # Saji Shigesada
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_inaba"
+	}
+	1234.1.1={
+		liege="d_nmih_yamashiro"
+		holder=12600103 # Saji Shigeie
+	}
+	1270.1.1={
+		liege="d_nmih_inaba"
+		holder=10050185 # Mori InabaNoKami
+	}
+	1300.1.1={
+		holder=10050186 # Mori InabaNoKami
+	}
+	1330.1.1={
+		liege="d_nmih_inaba"
+		holder=10050187 # Mori InabaNoKami
+	}
+	1360.1.1={
+		holder=10050188 # Mori InabaNoKami
+	}
+	1390.1.1={
+		holder=10050189 # Mori InabaNoKami
+	}
+	1420.1.1={
+		liege="d_nmih_inaba"
+		holder=10050180 # Mori ShuriNoSuke
+	}
+	1460.1.1={
+		holder=10050181 # Mori Sadamoto
+	}
+	1489.11.1={
+		holder=10050182 # Mori MinbuTaiyu
+	}
+	1540.1.1={
+		holder=10050183 # Mori ShinanoNoKami
+	}
+	1570.1.1={
+		holder=10050184 # Mori Toyomoto
+	}
+	1573.6.1={
+		liege="d_nmih_amago_revival_army"
+		holder=10051516 # Amago Katsuhisa
+	}
+	1576.5.1={
+		liege="d_nmih_inaba"
+		holder=10050184 # Mori Toyomoto
+	}
+	1580.1.1={
+		liege="d_nmih_harima"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.7.16={
+		liege="d_nmih_inaba"
+		holder=10043400 # Miyabe Keijun
+	}
+	1599.4.20={
+		holder=10043401 # Miyabe Nagafusa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029555 # Ikeda Nagayoshi
+	}
+	1614.10.27={
+		holder=10029569 # Ikeda Nagayuki
+	}
+}

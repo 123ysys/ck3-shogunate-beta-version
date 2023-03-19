@@ -1,0 +1,57 @@
+﻿imperial_family = {
+	color = { 0.9 0.1 0.2 }
+
+	ethos = ethos_courtly
+	heritage = heritage_imperial_court
+	language = language_imperial_court
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_stalwart_defenders
+		tradition_staunch_traditionalists
+		tradition_isolationist
+	}
+
+	name_list = name_list_imperial_family
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+aristocrats = {
+	color = { 0.85 0.1 0.15 }
+
+	ethos = ethos_courtly
+	heritage = heritage_imperial_court
+	language = language_imperial_court
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hereditary_hierarchy
+		tradition_stalwart_defenders
+		tradition_staunch_traditionalists
+		tradition_isolationist
+	}
+
+	name_list = name_list_aristocrats
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}

@@ -1,0 +1,157 @@
+c_nmih_shimo_niikawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shimo_niikawa1={
+				set_title_name=b_nmih_shimo_niikawa3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shimo_niikawa1={
+				set_title_name=b_nmih_shimo_niikawa3
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_shimo_niikawa1={
+				set_title_name=b_nmih_shimo_niikawa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 40 }
+
+	0702.10.14={
+		liege="d_nmih_etchu"
+	}
+	0764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege=0
+		holder=12280010 # Miyazaki Nagayasu
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_etchu"
+	}
+	1195.1.1={
+		liege="d_nmih_etchu"
+		holder=12280020 # Miyazaki Tamenao
+	}
+	1215.1.1={
+		holder=12280030 # Miyazaki Sadanori
+	}
+	1221.6.29={
+		liege="d_nmih_etchu"
+		holder=12150660 # Shiina Yoshinari
+	}
+	1245.1.1={
+		holder=12150662 # Shiina Jiro
+	}
+	1270.1.1={
+		holder=12150663 # Shiina Yoshiaki
+	}
+	1275.1.1={
+		holder=12281000 # Shiina Hachiro
+	}
+	1310.1.1={
+		holder=12281001 # Shiina Yoritane
+	}
+	1333.7.4={
+		liege="d_nmih_etchu"
+	}
+	1336.1.2={
+		liege="k_nmih_hokuriku"
+	}
+	1338.8.17={
+		liege="d_nmih_etchu"
+	}
+	1358.7.3={
+		holder=12281002 # Shiina Jiro
+	}
+	1380.1.1={
+		liege="d_nmih_etchu"
+		holder=12281003 # Shiina Nagatane
+	}
+	1405.1.1={
+		holder=12281004 # Shiina Jiro
+	}
+	1430.1.1={
+		holder=12281005 # Shiina Yasutsune
+	}
+	1473.1.1={
+		holder=12281006 # Shiina Nagatane
+	}
+	1491.1.1={
+		holder=12281007 # Shiina Tsugutane
+	}
+	1516.1.1={
+		holder=12281008 # Shiina Yoshitane
+	}
+	1519.1.1={
+		liege=0
+	}
+	1520.1.1={
+		liege="d_nmih_echigo" # 32000 Nagao Tamekage
+		holder=12281009 # Shiina Nagatsune
+	}
+	1532.1.1={
+		holder=10031403 # Shiina Yasutane
+	}
+	1543.1.29={
+		liege=0
+	}
+	1560.3.1={
+		liege="d_nmih_echigo"
+	}
+	1568.7.1={
+		liege=0 # 
+	}
+	1570.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1573.5.1={
+		liege=0 # 
+	}
+	1574.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+		holder=10032011 # Uesugi Kenshin
+	}
+	1574.1.2={
+		holder=10032621 # Kawata Nagachika
+	}
+	1581.4.27={
+		holder=10032609 # Nakajo Kageyasu
+	}
+	1582.06.22={
+		liege="d_nmih_etchu"
+		holder=10029350 # Sassa Narimasa
+	}
+	1582.6.25={
+		liege="d_nmih_echigo"
+		holder=10021800 # Suda Mitsuchika
+	}
+	1583.1.1={
+		holder=10029350 # Sassa Narimasa
+		liege="d_nmih_etchu"
+	}
+	1585.9.9={
+		liege="d_nmih_echigo"
+		holder=10033802 # Kakizaki Noriie
+	}
+	1598.3.1={
+		liege="d_nmih_etchu"
+		holder=10093700 # Aoyama Yoshitsugu
+	}
+	1603.3.24={
+		liege="d_nmih_kaga"
+	}
+	1612.1.1={
+		holder=10093701 # Aoyama Nagamasa
+	}
+}

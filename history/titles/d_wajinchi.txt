@@ -1,0 +1,18 @@
+d_nmih_wajinchi = {
+	1.1.1={
+		government = republic_government
+	}
+	100.1.1={
+	}
+	1455.1.1={
+		liege="k_nmih_wajinchi"
+		holder=10159001 # Kakizaki Nobuhiro
+	}
+	1493.6.23={
+		holder=10159002 # Kakizaki Mitsuhiro
+	}
+	1514.1.1={
+		holder=0
+	}
+
+}

@@ -1,0 +1,48 @@
+d_nmih_ugo = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12030050 # Fujiwara Kunihira
+	}
+	1189.9.21={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.10.14={
+		liege=0
+		holder=0 # 
+	}
+	1190.4.16={
+		liege="e_nmih_japan"
+		holder=12690610 # Tachibana Kiminari
+	}
+	1218.4.6={
+		holder=12220001 # Adachi Kagemori
+	}
+	1225.8.16={
+		holder=12220011 # Adachi Yoshikage
+	}
+	1253.6.30={
+		holder=12220017 # Adachi Yasumori
+	}
+	1285.12.14={
+		holder=10110266 # Taira Yoritsuna
+	}
+	1293.5.29={
+		holder=12220055 # Adachi Tokiaki
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=11007509 # Hamuro Mitsuaki
+	}
+	1336.1.1={
+		liege = 0
+		holder=0 # 
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10010836 # Satake Yoshinobu
+	}
+}

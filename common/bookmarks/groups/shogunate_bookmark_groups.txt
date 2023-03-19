@@ -1,0 +1,7 @@
+﻿bm_group_kamakura = {}
+bm_group_nanbokucho = {}
+bm_group_muromachi = {}
+bm_group_early_sengoku = {}
+bm_group_mid_sengoku = {}
+bm_group_oda_government = {}
+bm_group_toyotomi_government = {}

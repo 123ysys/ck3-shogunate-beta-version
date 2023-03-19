@@ -1,0 +1,83 @@
+﻿namespace = shogunate_bookmark
+
+# Surprise attacks
+shogunate_bookmark.1100 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Battle of Kawagoe
+
+		if = {
+			limit = {
+				game_start_date >= 1545.10.31								# Start of Siege of Kawagoe Castle
+				game_start_date <  1546.5.19								# End of Siege of Kawagoe Castle
+			}
+
+			shogunate_historical_surprise_attack_effect = {
+				CHAR  = 10016004											# Hojo Ujiyasu
+				MONTH = 60
+			}
+		}
+
+
+		# Battle of Itsukushima
+
+		if = {
+			limit = {
+				game_start_date >= 1555.10.6								# Start of Battle of Itsukushima
+				game_start_date <  1555.10.16								# End of Battle of Itsukushima
+			}
+
+			shogunate_historical_surprise_attack_effect = {
+				CHAR  = 10056004											# Mori Motonari
+				MONTH = 60
+			}
+		}
+
+
+		# Battle of Okehazama
+
+		if = {
+			limit = {
+				game_start_date >= 1560.5.12								# Start of Battle of Okehazama
+				game_start_date <  1560.6.12								# End of Battle of Okehazama
+			}
+
+			shogunate_historical_surprise_attack_effect = {
+				CHAR  = 10029120											# Oda Nobunaga
+				MONTH = 60
+			}
+		}
+
+
+		# Battle of Yamazaki (Chugoku Ogaeshi)
+
+		if = {
+			limit = {
+				game_start_date >= 1582.6.21								# Honnoji Incident
+				game_start_date <  1582.7.2									# Battle of Yamazaki
+			}
+
+			shogunate_historical_surprise_attack_effect = {
+				CHAR  = 10029400											# Hashiba Hideyoshi
+				MONTH = 60
+			}
+
+			character:10029400 = {											# Hashiba Hideyoshi
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = trebuchet
+						stacks = 10
+					}
+				}
+			}
+		}
+
+	}
+}

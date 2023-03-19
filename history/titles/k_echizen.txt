@@ -1,0 +1,43 @@
+k_nmih_echizen = {
+	100.1.1={
+	}
+	1362.1.1={
+		liege="e_nmih_japan"
+		holder=12139049 # Shiba Takatsune
+	}
+	1366.9.13={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1396.3.1={
+		holder=10029011 # Shiba Yoshishige
+	}
+	1418.9.10={
+		holder=10029012 # Shiba Yoshiatsu
+	}
+	1434.1.11={
+		holder=10029013 # Shiba Yoshisato
+	}
+	1436.1.18={
+		holder=10029016 # Shiba Yoshitake
+	}
+	1452.10.13={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1460.1.1={
+		holder=10029021 # Shiba Yoshihiro
+	}
+	1461.9.6={
+		holder=10057621 # Shiba Yoshikado
+	}
+	1466.9.2={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1466.10.23={
+		holder=10057621 # Shiba Yoshikado
+	}
+	1467.6.27={
+		liege=0
+		holder=0 # 
+	}
+
+}

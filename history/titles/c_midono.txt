@@ -1,0 +1,184 @@
+c_nmih_midono = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_midono1={
+				set_title_name=b_nmih_midono2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_midono1={
+				set_title_name=b_nmih_midono2
+			}
+		}
+	}
+	1438.1.1={
+		effect={
+			title:b_nmih_midono1={
+				set_title_name=b_nmih_midono1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1438.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1180.1.1={
+		holder=12185001 # Yamana Yoshinari
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+	}
+	1219.1.1={
+		holder=12186202 # Yamana Shigekuni
+	}
+	1249.1.1={
+		holder=12186220 # Yamana Tomoie
+	}
+	1272.1.1={
+		holder=12186225 # Yamana Yoshiyuki
+	}
+	1287.1.1={
+		holder=12186226 # Yamana Yukiuji
+	}
+	1297.1.1={
+		holder=12186227 # Yamana Toshiyuki
+	}
+	1301.8.25={
+		holder=12186250 # Yamana Yoshitoshi
+	}
+	1320.1.1={
+		holder=12186255 # Yamana Masauji
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12186256 # Yamana Tokiuji
+	}
+	1335.8.7={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+		holder=10132269 # Hojo Yasuie
+	}
+	1335.9.6={
+		liege="k_nmih_western_kanto"
+		holder=12186256 # Yamana Tokiuji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1337.3.1={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1367.5.25={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1368.10.31={
+		holder=10017046 # Uesugi Tomofusa
+	}
+	1370.1.1={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1377.1.1={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.1.1={
+		holder=10017011 # Uesugi Norikata
+	}
+	1392.1.1={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1405.1.1={
+		holder=10017016 # Uesugi Norisada
+	}
+	1411.1.1={
+		holder=10017048 # Uesugi Ujinori (Zenshu)
+	}
+	1415.5.2={
+		holder=10017018 # Uesugi Norimoto
+	}
+	1418.2.9={
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1466.2.26={
+		holder=10017024 # Uesugi Akisada
+	}
+	1510.7.25={
+		holder=10040060 # Uesugi Akizane
+	}
+	1515.1.1={
+		holder=10017026 # Uesugi Norifusa
+	}
+	1525.4.7={
+		holder=10017027 # Uesugi Norihiro
+	}
+	1531.1.1={
+		holder=10017000 # Uesugi Norimasa
+	}
+	1552.3.1={
+		liege="k_nmih_western_kanto"
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1553.1.1={
+		liege="k_nmih_western_kanto" # 16004 Hojo Ujiyasu
+		holder=10016003 # Hojo Genan
+	}
+	1560.11.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+		holder=10032011 # Uesugi Kenshin
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+		holder=10032011 # Uesugi Kenshin
+	}
+	1563.1.1={
+		liege="d_nmih_kai"
+		holder=10020010 # Takeda Shingen
+	}
+	1570.1.1={
+		holder=10020093 # Naito Masatoyo
+	}
+	1575.6.29={
+		holder=10020095 # Naito Masaaki
+	}
+	1582.4.3={
+		liege=0
+	}
+	1582.4.15={
+		liege="d_nmih_kozuke"
+		holder=10029330 # Takigawa Kazumasu
+	}
+	1582.7.8={
+		liege="d_nmih_kozuke"
+		holder=10016016 # Hojo Ujikuni
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024480 # Hiraiwa Chikayoshi
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024227 # Sakai Shigetada
+	}
+}

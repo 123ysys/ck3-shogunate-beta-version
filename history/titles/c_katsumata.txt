@@ -1,0 +1,97 @@
+c_nmih_katsumata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_katsumata1={
+				set_title_name=b_nmih_katsumata6
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_katsumata1={
+				set_title_name=b_nmih_katsumata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1185.4.25 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_mimasaka"
+		holder=12630300 # Emi Morinobu
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_mimasaka"
+		holder=10210707 # Sugawara Nakayori
+	}
+	1195.1.1={
+		holder=10210709 # Sugawara Mitsusuke
+	}
+	1233.10.6={
+		holder=12635100 # Arimoto Tadakatsu
+	}
+	1260.1.1={
+		holder=12635101 # Arimoto Sukemori
+	}
+	1290.1.1={
+		holder=12635102 # Arimoto Suketaka
+	}
+	1320.1.1={
+		holder=12635103 # Arimoto Sukehiro
+	}
+	1333.5.17={
+		holder=12635104 # Arimoto Sukeaki
+	}
+	1333.7.4={
+		liege="d_nmih_mimasaka"
+	}
+	1336.1.2={
+		liege="d_nmih_harima"
+	}
+	1336.1.24={
+		liege="d_nmih_mimasaka"
+	}
+	1361.1.1={
+		liege="e_nmih_japan"
+		holder=12635105 # Arimoto Sukehisa
+	}
+	1420.1.1={
+		holder=12635106 # Arimoto Sukekuni
+	}
+	1467.6.27={
+		liege="d_nmih_mimasaka"
+		holder=12635107 # Arimoto Sukeuji
+	}
+	1532.1.1={
+		liege="d_nmih_mimasaka"
+		holder=10053900 # Emi Hisamori
+	}
+	1560.1.1={
+		liege="d_nmih_bizen"
+		holder=10053950 # Goto Katsumoto
+	}
+	1575.10.1={
+		liege=0
+	}
+	1579.5.27={
+		liege="d_nmih_bizen"
+		holder=10055100 # Ukita Naoie
+	}
+	1582.2.1={
+		holder=10055101 # Ukita Hideie
+	}
+	1601.1.1={
+		liege="d_nmih_mimasaka"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10025426 # Mori Tadamasa
+	}
+	1612.1.1={
+		holder=10025434 # Mori Yoshimasa
+	}
+}

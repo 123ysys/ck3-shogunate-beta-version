@@ -1,0 +1,109 @@
+c_nmih_mine = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mine1={
+				set_title_name=b_nmih_mine2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mine1={
+				set_title_name=b_nmih_mine2
+			}
+		}
+	}
+	1200.1.1={
+		effect={
+			title:b_nmih_mine1={
+				set_title_name=b_nmih_mine1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1200.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_nagato"
+	}
+	1180.1.1={
+		liege="d_nmih_nagato"
+		holder=12660900 # Toyota Tanehiro
+	}
+	1186.7.30={
+		holder=12660900 # Toyota Tanehiro
+	}
+	1200.1.1={
+		holder=12660901 # Toyota Tanetaka
+	}
+	1230.1.1={
+		holder=12660905 # Toyota Tanetsuna
+	}
+	1260.1.1={
+		holder=12660907 # Toyota Taneuji
+	}
+	1290.1.1={
+		holder=12660909 # Toyota Tanesada
+	}
+	1320.1.1={
+		holder=12660920 # Toyota Tanenaga
+	}
+	1333.7.4={
+		liege="d_nmih_nagato"
+		holder=12660920 # Toyota Tanenaga
+	}
+	1350.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=12660925 # Toyota Tanefuji
+	}
+	1358.1.1={
+		liege="d_nmih_nagato"
+	}
+	1380.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		holder=10057010 # Ouchi Moriharu
+	}
+	1431.8.6={
+		holder=10057015 # Ouchi Mochiyo
+	}
+	1441.8.14={
+		holder=10057008 # Ouchi Norihiro
+	}
+	1465.9.23={
+		liege="d_nmih_nagato" # Ouchi Masahiro
+		holder=10057009 #　Ouchi Doton [Noriyuki]
+	}
+	1472.1.1={
+		holder=10057007 # Ouchi Masahiro
+	}
+	1495.10.6={
+		holder= 10057001 # Ouchi Yoshioki
+	}
+	1529.1.29={
+		holder = 10057002 # Ouchi Yoshitaka
+	}
+	1551.9.30={
+		liege="k_nmih_western_chugoku"
+		holder=10057500 # Aokage Takaakira
+	}
+	1556.1.1={
+		holder=10064003 # Ouchi Yoshinaga
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056228 # Ichikawa Tsuneyoshi
+	}
+	1584.12.1={
+		holder=10056251 # Ichikawa Motoyoshi
+	}
+	1603.3.24={
+		liege="d_nmih_nagato"
+		holder=10055953 # Masuda Motonaga
+	}
+}

@@ -1,0 +1,99 @@
+﻿# Nanboku-cho Period Triggers
+
+shogunate_nanbokucho_period_start_date_trigger = {
+	game_start_date >= 1333.7.4			# End of the Kamakura Shogunate
+}
+
+shogunate_nanbokucho_period_end_date_trigger = {
+	game_start_date >= 1392.11.19		# Unification of the Two Courts
+}
+
+shogunate_is_nanbokucho_period_trigger = {
+	exists = global_var:shogunate_global_nanbokucho_start_flag
+	NOT = { exists = global_var:shogunate_global_nanbokucho_end_flag }
+}
+
+shogunate_before_nanbokucho_period_trigger = {
+	NOT = { exists = global_var:shogunate_global_nanbokucho_start_flag }
+}
+
+shogunate_after_nanbokucho_period_trigger = {
+	exists = global_var:shogunate_global_nanbokucho_end_flag
+}
+
+shogunate_check_nanbokucho_period_start_trigger = {
+}
+
+shogunate_check_nanbokucho_period_end_trigger = {
+
+	shogunate_is_nanbokucho_period_trigger = yes
+	NAND = {
+		exists = title:e_nmih_japan
+		exists = title:e_nmih_japan.holder
+		exists = title:e_nmih_nancho
+		exists = title:e_nmih_nancho.holder
+		title:e_nmih_japan.holder = {
+			domain_size > 0
+		}
+		title:e_nmih_nancho.holder = {
+			domain_size > 0
+		}
+	}
+
+}
+
+
+# Sengoku Period Triggers
+
+shogunate_sengoku_period_start_date_trigger = {
+	game_start_date >= 1467.6.27		# Start of the Onin War
+}
+
+shogunate_sengoku_period_end_date_trigger = {
+	game_start_date >= 1615.6.4			# End of the Siege of Osaka
+}
+
+shogunate_is_sengoku_period_trigger = {
+	exists = global_var:shogunate_global_sengoku_start_flag
+	NOT = { exists = global_var:shogunate_global_sengoku_end_flag }
+}
+
+shogunate_before_sengoku_period_trigger = {
+	NOT = { exists = global_var:shogunate_global_sengoku_start_flag }
+}
+
+shogunate_after_sengoku_period_trigger = {
+	exists = global_var:shogunate_global_sengoku_end_flag
+}
+
+shogunate_check_sengoku_period_start_trigger = {
+
+	shogunate_after_nanbokucho_period_trigger = yes
+	shogunate_before_sengoku_period_trigger = yes
+	OR = {
+		AND = {
+			exists = global_var:shogunate_global_nanbokucho_northern_court_won_flag
+			NAND = {
+				exists = title:e_nmih_japan
+				exists = title:e_nmih_japan.holder
+				title:e_nmih_japan.holder = {
+					domain_size > 0
+				}
+			}
+		}
+		AND = {
+			exists = global_var:shogunate_global_nanbokucho_southern_court_won_flag
+			NAND = {
+				exists = title:e_nmih_tenno
+				exists = title:e_nmih_tenno.holder
+				title:e_nmih_tenno.holder = {
+					domain_size > 0
+				}
+			}
+		}
+	}
+
+}
+
+shogunate_check_sengoku_period_end_trigger = {
+}

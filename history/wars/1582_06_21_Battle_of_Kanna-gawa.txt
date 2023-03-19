@@ -1,0 +1,11 @@
+war = {
+	name = "war_1582_battle_of_kannagawa"
+	start_date = 1582.6.21
+	end_date = 1582.7.8
+	targeted_titles = {
+		d_nmih_kozuke
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10016014 } # Hojo Ujimasa
+	defenders = { 10029330 } # Takigawa Kazumasu
+}

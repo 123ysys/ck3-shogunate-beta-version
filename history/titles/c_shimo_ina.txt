@@ -1,0 +1,156 @@
+c_nmih_shimo_ina = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shimo_ina1={
+				set_title_name=b_nmih_shimo_ina2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shimo_ina1={
+				set_title_name=b_nmih_shimo_ina9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_shimo_ina1={
+				set_title_name=b_nmih_shimo_ina3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+	1554.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12388500 # Kasahara Yorinao
+	}
+	1180.9.30={
+		liege="d_nmih_shinano"
+		holder=10120084 # Minamoto Yoshinaka
+	}
+	1180.10.1={
+		holder=12380111 # Imai Kanehira
+	}
+	1183.8.17={ # Taira's escape to the west
+		holder=12380517 # Nenoi [Mochizuki] Yukichika
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_izu"
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={
+		liege="d_nmih_shinano"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		liege="d_nmih_etchu"
+		holder=10131667 # Hojo Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo Mitsutoki
+	}
+	1246.7.22={
+		holder=10131832 # Hojo [Ema] Masatoshi
+	}
+	1309.7.16={
+		holder=10132012 # Hojo [Ema] Munetomo
+	}
+	1318.1.1={
+		holder=10132178 # Hojo [Ema] Toshikane
+	}
+	1333.7.4={
+		liege="d_nmih_shinano"
+		holder=12360710 # Ogasawara Sadamune
+	}
+	1347.7.5={
+		holder=12360720 # Ogasawara Masanaga
+	}
+	1365.4.12={
+		holder=12360730 # Ogasawara Nagamoto
+	}
+	1400.2.1={
+		holder=12360741 # Ogasawara Nagahide
+	}
+	1405.1.1={
+		holder=12360740 # Ogasawara Masayasu
+	}
+	1442.9.13={
+		liege=0
+		holder=10021431 # Ogasawara Muneyasu
+	}
+	1446.8.31={
+		holder=10021432 # Matsuo=Ogasawara Mitsuyasu
+	}
+	1467.1.1={
+		holder=10021461 # Matsuo=Ogasawara Ienaga
+	}
+	1480.1.1={
+		liege=0
+		holder=10021462 # Matsuo=Ogasawara Sadamoto
+	}
+	1511.9.15={
+		holder=10021463 # Matsuo=Ogasawara Sadatada
+	}
+	1534.1.1={
+		holder=10021400 # Fuchu=Ogasawara Nagamune
+	}
+	1542.10.28={
+		holder=10021402 # Fuchu=Ogasawara Nagatoki
+	}
+	1554.01.01={
+		liege="d_nmih_kai" # 20010 Takeda Shingen
+		holder=10021464 # Matsuo=Ogasawara Nobutaka
+	}
+	1555.1.1={
+		holder=10020060 # Akiyama Torashige
+	}
+	1559.1.1={
+		liege="d_nmih_shinano" # Takeda Shingen
+	}
+	1575.12.23={
+		holder=10020012 # Takeda Nobukado
+	}
+	1582.03.08={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="k_nmih_chubu" # 29160 Oda Nobutada
+		holder=10029025 # Mori Hideyori
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="k_nmih_tokai"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10029025 # Mori Hideyori
+	}
+	1593.11.9={
+		holder=10044221 # Kyogoku Takatomo
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10021470 # Ogasawara Hidemasa
+	}
+	1613.11.20={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

@@ -1,0 +1,26 @@
+﻿l_french:
+
+ # Base MaA
+ light_footmen:0 "Élite Yari Ashigaru"
+ bowmen:0 "Élite Yumi Ashigaru"
+ crossbowmen:0 "Élite Teppo Ashigaru"
+ armored_footmen:0 "Samouraï"
+ armored_horsemen:0 "Kiba Musha"
+
+ # Siege MaA
+ onager:0 "Kaidate"
+ mangonel:0 "Seiro"
+ trebuchet:0 "Taketaba"
+ bombard:0 "Ozutsu"
+
+ # MaA Descriptions
+ light_footmen_flavor:1 "#F Les tirailleurs vétérans sont de précieux harasseurs, qui perturbent les flancs ennemis et sapent le moral des troupes.#!"
+ bowmen_flavor:1 "#F Les archers professionnels remplissent l'air de flèches, dévastant les troupes ennemies les plus avancées.#!"
+ crossbowmen_flavor:0 "#F Bien que lentes à recharger, les arquebuses sont faciles à utiliser et tirent des balles qui peuvent percer la plupart des armures à bonne distance.#!"
+ armored_footmen_flavor:1 "#F Lourdement armées et bien entraînées, ces troupes sont spécialisées dans l'élimination de l'infanterie en masse.#!"
+ armored_horsemen_flavor:0 "#F Lourdement armés et blindés, ces cavaliers dominent la guerre dans les plaines ouvertes.#!"
+
+ onager_flavor:0 "#F Le kaidate consiste en de nombreux boucliers disposés sur le sol. Il protège les soldats des projectiles ennemis.#!"
+ mangonel_flavor:0 "#F Le seiro est une sorte de tour de guet faite de bois ou de bambou. Il est également utilisé comme une simple tour de siège.#!"
+ trebuchet_flavor:0 "#F Le Taketaba est un bouclier fait de bambou. Il peut arrêter non seulement les flèches mais aussi les balles d'arquebuses.#!"
+ bombard_flavor:0 "#F L'Ozutsu est une sorte de canon. Bien qu'il soit coûteux et peu nombreux, il peut traverser les fortifications avec facilité.#!"

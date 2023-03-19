@@ -1,0 +1,169 @@
+﻿shogunate_nanbokucho_split_title_effect = {
+
+	$TARGET_TITLE$.holder = {
+		save_scope_as = leader
+
+		add_trait = $TRAIT$
+		primary_title = {
+			shogunate_map_color_copy_effect = { FROM = $LEADER_TITLE$ }
+		}
+
+		every_vassal_or_below = {
+			add_trait = $TRAIT$
+			primary_title = {
+				shogunate_map_color_copy_effect = { FROM = $LEADER_TITLE$ }
+			}
+		}
+
+		create_title_and_vassal_change = {
+			type = independency
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+
+		every_held_title = {
+			limit = {
+				NOT = { this = $TARGET_TITLE$ }
+			}
+			add_to_list = title_list
+		}
+
+		every_vassal = {
+			save_scope_as = supporter
+			if = {
+				limit = {
+					primary_title.tier >= $TIER$
+					NOT = {
+						any_in_list = {
+							list = title_list
+							any_dejure_vassal_title_holder = {
+								this = scope:supporter
+							}
+						}
+					}
+				}
+				scope:supporter = {
+					becomes_independent = {
+						change = scope:change
+					}
+				}
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+
+}
+
+shogunate_nanbokucho_remove_modifier_effect = {
+
+	hidden_effect = {
+		remove_character_modifier = shogunate_nanbokucho_leader_5_times_modifier
+		remove_character_modifier = shogunate_nanbokucho_leader_10_times_modifier
+		remove_character_modifier = shogunate_nanbokucho_leader_15_times_modifier
+		remove_character_modifier = shogunate_nanbokucho_leader_20_times_modifier
+		remove_character_modifier = shogunate_nanbokucho_leader_30_times_modifier
+		remove_character_modifier = shogunate_nanbokucho_leader_40_times_modifier
+		remove_character_modifier = shogunate_nanbokucho_leader_50_times_modifier
+	}
+
+}
+
+shogunate_nanbokucho_add_modifier_effect = {
+
+	hidden_effect = {
+		save_scope_as = calc_scope
+
+		set_variable = {
+			name = shogunate_nanbokucho_direct_control_county
+			value = 0
+		}
+		set_variable = {
+			name = shogunate_nanbokucho_indirect_control_county
+			value = 0
+		}
+
+		title:e_nmih_japan = {
+			every_de_jure_county = {
+				holder = {
+					if = {
+						limit = {
+							has_trait = $TRAIT$
+						}
+						if = {
+							limit = {
+								top_liege = $TITLE$.holder
+							}
+							scope:calc_scope = {
+								change_variable = {
+									name = shogunate_nanbokucho_direct_control_county
+									add = 1
+								}
+							}
+						}
+						else = {
+							scope:calc_scope = {
+								change_variable = {
+									name = shogunate_nanbokucho_indirect_control_county
+									add = 1
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		if = {
+			limit = {
+				var:shogunate_nanbokucho_direct_control_county > 0
+			}
+			change_variable = {
+				name = shogunate_nanbokucho_indirect_control_county
+				divide = var:shogunate_nanbokucho_direct_control_county
+			}
+			if = {
+				limit = {
+					var:shogunate_nanbokucho_indirect_control_county > 50
+				}
+				add_character_modifier = shogunate_nanbokucho_leader_50_times_modifier
+			}
+			else_if = {
+				limit = {
+					var:shogunate_nanbokucho_indirect_control_county > 40
+				}
+				add_character_modifier = shogunate_nanbokucho_leader_40_times_modifier
+			}
+			else_if = {
+				limit = {
+					var:shogunate_nanbokucho_indirect_control_county > 30
+				}
+				add_character_modifier = shogunate_nanbokucho_leader_30_times_modifier
+			}
+			else_if = {
+				limit = {
+					var:shogunate_nanbokucho_indirect_control_county > 20
+				}
+				add_character_modifier = shogunate_nanbokucho_leader_20_times_modifier
+			}
+			else_if = {
+				limit = {
+					var:shogunate_nanbokucho_indirect_control_county > 15
+				}
+				add_character_modifier = shogunate_nanbokucho_leader_15_times_modifier
+			}
+			else_if = {
+				limit = {
+					var:shogunate_nanbokucho_indirect_control_county > 10
+				}
+				add_character_modifier = shogunate_nanbokucho_leader_10_times_modifier
+			}
+			else_if = {
+				limit = {
+					var:shogunate_nanbokucho_indirect_control_county > 5
+				}
+				add_character_modifier = shogunate_nanbokucho_leader_5_times_modifier
+			}
+		}
+	}
+
+}

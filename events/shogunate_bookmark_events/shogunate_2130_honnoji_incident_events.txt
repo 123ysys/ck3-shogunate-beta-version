@@ -1,0 +1,53 @@
+﻿namespace = shogunate_bookmark
+
+# Honno-ji Incident
+shogunate_bookmark.2130 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Rivalry with Akechi Mitsuhide (After Honno-ji Incident)
+
+		if = {
+			limit = {
+				game_start_date >= 1582.6.21								# Death of Oda Nobunaga
+				game_start_date <  1582.7.2									# Death of Akechi Mitsuhide
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029400											# Hashiba Hideyoshi
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10024006											# Tokugawa Ieyasu
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029280											# Shibata Katsuie
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029310											# Niwa Nagahide
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029330											# Takigawa Kazumasu
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029280											# Oda Hidenobu
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029161											# Oda Nobukatsu
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029162											# Oda Nobutaka
+				CHAR2 = 10025632											# Akechi Mitsuhide
+			}
+		}
+
+	}
+}

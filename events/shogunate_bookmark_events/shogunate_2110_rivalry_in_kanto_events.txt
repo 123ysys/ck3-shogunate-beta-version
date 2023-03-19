@@ -1,0 +1,91 @@
+﻿namespace = shogunate_bookmark
+
+# Rivalry in the Kanto Region
+shogunate_bookmark.2110 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Kyotoku War
+
+		if = {
+			limit = {
+				game_start_date >= 1466.2.26								# Death of Uesugi [Yamanouchi] Fusaaki
+				game_start_date <  1497.10.25								# Death of Ashikaga Shigeuji
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10040059											# Ashikaga Shigeuji
+				CHAR2 = 10017024											# Uesugi [Yamanouchi] Akisada
+			}
+		}
+
+
+		# Chokyo War
+
+		if = {
+			limit = {
+				game_start_date >= 1487.1.1									# Start of Chokyo War
+				game_start_date <  1494.11.20								# Death of Uesugi [Ogigayatsu] Sadamasa
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10017024											# Uesugi [Yamanouchi] Akisada
+				CHAR2 = 10017040											# Uesugi [Ogigayatsu] Sadamasa
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1494.11.20								# Death of Uesugi [Ogigayatsu] Sadamasa
+				game_start_date <  1510.7.25								# Death of Uesugi [Yamanouchi] Akisada
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10017024											# Uesugi [Yamanouchi] Akisada
+				CHAR2 = 10017043											# Uesugi [Ogigayatsu] Tomoyoshi
+			}
+		}
+
+
+		# Eisho War
+
+		if = {
+			limit = {
+				game_start_date >= 1506.10.5								# Conquest of Echigo
+				game_start_date <  1510.7.25								# Death of Uesugi [Yamanouchi] Akisada
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10017024											# Uesugi [Yamanouchi] Akisada
+				CHAR2 = 10032000											# Nagao Tamekage
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1510.7.25								# Death of Uesugi [Yamanouchi] Akisada
+				game_start_date <  1515.1.1									# Death of Uesugi [Yamanouchi] Akizane
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10017026											# Uesugi [Yamanouchi] Norifusa
+				CHAR2 = 10040060											# Uesugi [Yamanouchi] Akizane
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1506.1.1									# Start of Conflict
+				game_start_date <  1518.1.1									# End of Conflict
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10040058											# Ashikaga Masauji
+				CHAR2 = 10040050											# Ashikaga Takamoto
+			}
+		}
+
+	}
+}

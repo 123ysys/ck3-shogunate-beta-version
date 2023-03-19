@@ -1,0 +1,130 @@
+c_nmih_tamana = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tamana1={
+				set_title_name=b_nmih_tamana1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1300.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	230.1.1={
+		holder=10290330 # Tsurara
+		liege=d_nmih_higo
+	}
+	295.1.1={
+		holder=10041357 # Takekunitake
+	}
+	330.1.1={
+		holder=10041358 # Takeoshihiko
+	}
+	350.1.1={
+		holder=10041359 # Takekawana
+	}
+	390.1.1={
+		holder=10041360 # Takekuwae
+	}
+	1180.1.1={
+		liege="d_nmih_higo"
+		holder=12780650 # Kikuchi Takanaga
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_chikugo"
+		holder=12800550 # Kawajiri Saneaki
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_higo"
+		holder=12800550 # Kawajiri Saneaki
+	}
+	1230.1.1={
+		holder=12800551 # Kawajiri Saburo
+	}
+	1250.1.1={
+		holder=12800552 # Kawajiri Saburo
+	}
+	1270.1.1={
+		holder=12800553 # Kawajiri Yasuaki
+	}
+	1310.1.1={
+		holder=12800554 # Kawajiri Saburo
+	}
+	1330.1.1={
+		liege="d_nmih_higo"
+		holder=12800555 # Kawajiri Yukitoshi
+	}
+	1350.9.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1352.3.12={
+		liege="d_nmih_higo"
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1373.12.29={
+		liege="d_nmih_higo"
+		holder=10066021 # Kikuchi Takemasa
+	}
+	1374.7.6={
+		holder=10066020 # Kikuchi Taketomo
+	}
+	1407.4.25={
+		liege="d_nmih_higo"
+		holder=10066019 # Kikuchi Kanetomo
+	}
+	1431.1.1={
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1440.1.1={
+		liege="d_nmih_higo"
+		holder=12800400 # Kumabe Tadanao
+	}
+	1494.1.1={
+		holder=12800401 # Kumabe Motonari
+	}
+	1500.1.1={
+		holder=12800402 # Kumabe Chikatomo
+	}
+	1510.1.1={
+		holder=12800403 # Kumabe Takeharu
+	}
+	1520.1.1={
+		holder=12800404 # Kumabe Sadaaki
+	}
+	1534.1.1={
+		liege="d_nmih_bungo"
+	}
+	1537.1.1={
+		holder=12800405 # Kumabe Chikaie
+	}
+	1550.1.1={
+		holder=12800406 # Kumabe Chikanaga
+	}
+	1578.12.10={
+		liege="d_nmih_hizen"
+	}
+	1584.9.17={
+		liege="d_nmih_satsuma"
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1587.7.25={
+		liege=0
+	}
+	1588.6.20={
+		liege="d_nmih_higo"
+		holder=10029350 # Sassa Narimasa
+	}
+	1588.7.7={
+		liege="d_nmih_northern_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1603.3.24={
+		liege="d_nmih_higo"
+		holder=10029715 # Kato Masatsugu
+	}
+}

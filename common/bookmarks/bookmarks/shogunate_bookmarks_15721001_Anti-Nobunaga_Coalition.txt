@@ -1,0 +1,158 @@
+﻿bm_sengoku1572 = {
+	start_date = 1572.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+
+	character = {
+		name = "bm_sengoku1572_oda_nobunaga"
+		dynasty = 10000280
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1534.6.23
+		title = k_nmih_chubu
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10029120
+		position = { 400 200 }
+
+		animation = personality_rational
+	}
+
+	character = {
+		name = "bm_sengoku1572_tokugawa_ieyasu"
+		dynasty = 10000239
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1543.1.31
+		title = d_nmih_mikawa
+		government = feudal_government
+		culture = tokai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10024006
+		position = { 750 200 }
+
+		animation = personality_content
+	}
+
+	character = {
+		name = "bm_sengoku1572_takeda_shingen"
+		dynasty = 10000200
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1521.12.1
+		title = k_nmih_tokai
+		government = feudal_government
+		culture = koshin
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10020010
+		position = { 1100 200 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "bm_sengoku1572_asakura_yoshikage"
+		dynasty = 10000350
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1533.10.12
+		title = d_nmih_echizen
+		government = feudal_government
+		culture = aristocrats
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10030011
+		position = { 400 500 }
+
+		animation = personality_irrational
+	}
+
+	character = {
+		name = "bm_sengoku1572_azai_nagamasa"
+		dynasty = 10000440
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1545.1.1
+		title = d_nmih_northern_omi
+		government = feudal_government
+		culture = central_kinai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10043015
+		position = { 750 500 }
+
+		animation = personality_callous
+	}
+
+	character = {
+		name = "bm_sengoku1572_ashikaga_yoshiaki"
+		dynasty = 10000400
+		dynasty_splendor_level = 5
+		type = male
+		birth = 1537.12.15
+		title = e_nmih_japan
+		government = feudal_government
+		culture = central_kinai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10040042
+		position = { 1100 500 }
+
+		animation = personality_vengeful
+	}
+
+	character = {
+		name = "bm_sengoku1572_satake_yoshishige"
+		dynasty = 10000108
+		dynasty_splendor_level = 3
+		type = male
+		birth = 1547.3.7
+		title = d_nmih_hitachi
+		government = feudal_government
+		culture = northern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10010830
+		position = { 400 800 }
+
+		animation = personality_honorable
+	}
+
+	character = {
+		name = "bm_sengoku1572_oura_tamenobu"
+		dynasty = 10000033
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1550.1.18
+		title = c_nmih_tsugaru
+		government = feudal_government
+		culture = northern_oshu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10003165
+		position = { 750 800 }
+
+		animation = personality_dishonorable
+	}
+
+	character = {
+		name = "bm_sengoku1572_takahashi_shigetane"
+		dynasty = 10000648
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1548.1.1
+		title = c_nmih_mii
+		government = feudal_government
+		culture = central_kyushu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10064822
+		position = { 1100 800 }
+
+		animation = personality_compassionate
+	}
+}

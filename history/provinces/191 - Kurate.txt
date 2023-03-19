@@ -1,0 +1,12 @@
+191 = {
+
+	culture = northern_kyushu
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1570.1.1 = {
+		religion = ikkoshu
+	}
+
+}

@@ -1,0 +1,13 @@
+198 = {
+
+	culture = northern_kinai
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1400.1.1={
+	}
+	1577.10.1={
+	}
+
+}

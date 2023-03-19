@@ -1,0 +1,61 @@
+c_nmih_kushunnai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kushunnai1={
+				set_title_name=b_nmih_kushunnai1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	1200.1.1 = { change_development_level = 0 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		liege="d_nmih_esutoru"
+		holder=10156600 # Chiuere
+	}
+	1210.1.1={
+		holder=10156601
+	}
+	1240.1.1={
+		holder=10156602
+	}
+	1270.1.1={
+		holder=10157222
+	}
+	1310.1.1={
+		holder=10156610
+	}
+	1320.1.1={
+		holder=10156611
+	}
+	1370.1.1={
+		holder=10156612
+	}
+	1400.1.1={
+		holder=10156613
+	}
+	1430.1.1={
+		holder=10156614
+	}
+	1435.1.1={
+		liege="d_nmih_esutoru"
+		holder=10156500
+	}
+	1495.1.1={
+		holder=10156501
+	}
+	1535.1.1={
+		holder=10156502
+	}
+	1555.1.1={
+		holder=10156503
+	}
+	1590.1.1={
+		holder=10156504
+	}
+}

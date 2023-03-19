@@ -1,0 +1,86 @@
+d_nmih_shimotsuke = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0807.1.1={
+		holder=11005168 # Fujiwara Tomohito {Shimotsuke no Kami}
+	}
+	0808.6.15={
+		holder=0 #  
+	}
+	0842.3.8={
+		holder=11003512 # Fujiwara Sekio {Shimotsuke no Kami}
+	}
+	0843.2.7={
+		holder=0 #  
+	}
+	0847.2.5={
+		holder=11000035 # Fujiwara Tasuku {Shimotsuke no Kami}
+	}
+	0849.2.1={
+		holder=0 #  
+	}
+	0910.1.15={
+		holder=0 #  
+	}
+	0940.4.24={
+		holder=11004609 # Fujiwara Hidesato {Shimotsuke no Kami}
+	}
+	0950.1.1={
+		holder=0 #  
+	}
+	1070.9.14={
+		holder=10120040 # Minamoto Yoshiie {Shimotsuke no Kami}
+	}
+	1077.12.20={
+		holder=10120041 # Minamoto Yoshitsuna {Shimotsuke no Kami}
+	}
+	1081.1.1={
+		holder=0 #  
+	}
+	1153.4.30={
+		holder=10120063 # Minamoto Yoshitomo {Shimotsuke no Kami}
+	}
+	1161.4.14={
+		liege=0
+		holder=0 #  
+	}
+	1471.1.1={
+		liege=0
+		holder=10010902 # Utsunomiya Masatsuna
+	}
+	1477.10.7={
+		holder=10010903 # Utsunomiya Shigetsuna
+	}
+	1516.12.1={
+		holder=10010904 # Utsunomiya Tadatsuna
+	}
+	1527.8.12={
+		holder=10010901 # Utsunomiya Okitsuna
+	}
+	1536.9.1={
+		holder=10010932 # Utsunomiya Hisatsuna
+	}
+	1549.10.7={
+		holder=10010933 # Utsunomiya Hirotsuna
+	}
+	1576.8.30={
+		holder=10010934 # Utsunomiya Kunitsuna
+	}
+	1590.6.18={
+		liege="e_nmih_japan"
+	}
+	1597.11.22={
+		holder=10044512 # Gamo Hideyuki
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024330 # Okudaira Iemasa
+	}
+	1614.11.11={
+		holder=10024335 # Okudaira Tadamasa
+	}
+}

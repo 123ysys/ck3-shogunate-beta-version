@@ -1,0 +1,142 @@
+c_nmih_uwa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_uwa1={
+				set_title_name=b_nmih_uwa3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_uwa1={
+				set_title_name=b_nmih_uwa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_uwa1={
+				set_title_name=B_NMIH_UWA9_1331
+			}
+		}
+	}
+	1534.1.1={
+		effect={
+			title:b_nmih_uwa1={
+				set_title_name=B_NMIH_UWA9_1534
+			}
+		}
+	}
+	1594.12.4={
+		effect={
+			title:b_nmih_uwa1={
+				set_title_name=B_NMIH_UWA9_1594
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1483.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12690607 # Tachibana Kiminaga
+	}
+	1181.1.6={
+		liege="d_nmih_awa"
+		holder=12690001 # Awata Shigeyoshi
+	}
+	1185.1.1={
+		liege="e_nmih_japan"
+		holder=12690610 # Tachibana Kiminari
+	}
+	1236.1.1={
+		liege="d_nmih_southern_iyo"
+		holder=11001149 # Saionji Kintsune
+	}
+	1244.10.2={
+		holder=11001200 # Saionji Saneuji
+	}
+	1260.1.1={
+		holder=11001222 # Saionji Kinsuke
+	}
+	1267.10.30={
+		holder=11001242 # Saionji Sanekane
+	}
+	1300.1.1={
+		holder=11001255 # Saionji Kinhira
+	}
+	1315.10.23={
+		holder=11001267 # Saionji Sanehira
+	}
+	1326.12.13={
+		holder=11001273 # Saionji Kinmune
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=11001274 # Saionji Kinshige
+	}
+	1367.9.27={
+		holder=10058705 # Saionji Kintoshi
+	}
+	1379.2.1={
+		liege="d_nmih_iyo"
+	}
+	1379.12.15={
+		holder=10058706 # Saionji Sanefusa
+	}
+	1440.1.1={
+		holder=10058707 # Saionji Kintoshi
+	}
+	1467.6.27={
+		liege=0
+	}
+	1480.1.1={
+		holder=10058701 # Saionji Kinsue
+	}
+	1504.1.1={
+		holder=10058700 # Saionji Kinie
+	}
+	1544.1.1={
+		holder=10058702 # Saionji Sanemitsu
+	}
+	1565.1.1={
+		holder=10058714 # Saionji Kinhiro
+	}
+	1584.11.11={
+		liege="d_nmih_tosa"
+	}
+	1585.8.10={
+		liege="d_nmih_iyo"
+	}
+	1588.1.9={
+		holder=10094401 # Toda Katsutaka
+	}
+	1594.12.4={
+		holder=10043302 # Todo Takatora
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="d_nmih_southern_iyo"
+	}
+	1608.6.1={
+		holder=10097001 # Tomita Nobutaka
+	}
+	1613.11.9={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1615.1.17={
+		liege="d_nmih_southern_iyo"
+		holder=10001038 # Date Hidemune
+	}
+}

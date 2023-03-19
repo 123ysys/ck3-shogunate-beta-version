@@ -1,0 +1,11 @@
+d_nmih_northern_ise = {
+	100.1.1={
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024803 # Honda Tadakatsu
+	}
+	1610.12.3={
+		holder=10024806 # Honda Tadamasa
+	}
+}

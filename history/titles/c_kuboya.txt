@@ -1,0 +1,132 @@
+c_nmih_kuboya = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kuboya1={
+				set_title_name=b_nmih_kuboya6
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kuboya1={
+				set_title_name=b_nmih_kuboya7
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_kuboya1={
+				set_title_name=b_nmih_kuboya1
+			}
+		}
+	}
+	1575.1.1={
+		effect={
+			title:b_nmih_kuboya1={
+				set_title_name=b_nmih_kuboya2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1300.1.1 = { change_development_level = 20 }
+	1575.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_bitchu"
+	}
+	1180.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630700 # Senoo Kaneyasu
+	}
+	1183.11.28={
+		holder=10110110 # Taira Michimori
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bitchu"
+		holder=12216002 # Dohi Sanehira
+	}
+	1191.12.13={
+		holder=11007299 # Kasannoin Kanemasa
+	}
+	1199.1.1={
+		holder=11006891 # Fujiwara Norisue
+	}
+	1205.5.30={
+		holder=11006900 # Takakura Norimochi
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_bitchu"
+		holder=12180700 # Asonuma Tomotsuna
+	}
+	1238.1.1={
+		holder=12180710 # Asonuma Mitsutsuna
+	}
+	1258.1.1={
+		holder=12208033 # Sho Tomotsugu
+	}
+	1260.1.1={
+		holder=12208034 # Sho Tokitsugu
+	}
+	1290.1.1={
+		holder=12208035 # Sho Aritsugu
+	}
+	1310.1.1={
+		holder=12208036 # Sho Sukefusa
+	}
+	1333.6.20={
+		liege="d_nmih_bitchu"
+		holder=12208037 # Sho Sukeuji
+	}
+	1335.8.14={
+		liege="d_nmih_bizen"
+	}
+	1336.3.24={
+		liege="d_nmih_bitchu"
+	}
+	1350.1.1={
+		holder=12208038 # Sho Sukemasa
+	}
+	1380.1.1={
+		liege="d_nmih_bitchu"
+		holder=10055002 # Ishikawa Hisatsune
+	}
+	1440.1.1={
+		holder=10055001 # Ishikawa Hidehisa
+	}
+	1460.1.1={
+		holder=10055000 # Ishikawa Michitsune
+	}
+	1493.1.1={
+		liege=0
+	}
+	1510.1.1={
+		holder=10055003 # Ishikawa Iehisa
+	}
+	1540.1.1={
+		holder=10055004 # Ishikawa Hisatomo
+	}
+	1561.3.1={
+		liege="d_nmih_bitchu"
+	}
+	1567.8.1={
+		holder=10055005 # Ishikawa Hisanori
+	}
+	1575.7.9={
+		liege="d_nmih_bingo"
+		holder=10055150 # Shimizu Muneharu
+	}
+	1582.6.23={
+		liege="d_nmih_bizen"
+		holder=10055286 # Hanabusa Masanari
+	}
+	1599.1.1={
+		holder=10055260 # Akashi Zento
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10055141 # Togawa Michiyasu
+	}
+}

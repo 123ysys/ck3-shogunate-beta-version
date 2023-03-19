@@ -1,0 +1,16 @@
+﻿l_german:
+
+ # Bookmark Modifiers
+
+ shogunate_surprise_attack_modifier:0 "Surprise Attack"
+ shogunate_surprise_attack_modifier_desc:0 "This character is preparing for a surprise attack."
+
+ # Target Modifiers
+
+ shogunate_global_coalition_target_modifier:0 "Coalition Target"
+ shogunate_global_coalition_target_modifier_desc:0 "This character is a target of the coalition."
+
+ # AI Personality Modifiers
+
+ shogunate_personality_10029120_modifier:0 "Tenka Fubu (AI Personality)"
+ shogunate_personality_10029120_modifier_desc:0 "This character aims to unify Japan by force."

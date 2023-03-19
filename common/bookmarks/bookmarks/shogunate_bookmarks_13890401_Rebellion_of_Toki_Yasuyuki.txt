@@ -1,0 +1,5 @@
+﻿bm_hidden1389 = {
+	start_date = 1389.4.1
+	is_playable = yes
+	group = bm_group_nanbokucho
+}

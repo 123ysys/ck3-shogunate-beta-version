@@ -1,0 +1,31 @@
+k_nmih_honganji = {
+	1.1.1={
+		government = theocracy_government
+	}
+	1000.1.1={
+	}
+	1440.11.8={
+		holder=10042220 # Honganji Zonnyo
+	}
+	1453.7.9={
+		holder=10042201 # Honganji Rennyo
+	}
+	1489.1.1={
+		holder=10042203 # Honganji Jitsunyo
+	}
+	1525.3.5={
+		holder=10042200 # Honganji Shonyo
+	}
+	1554.9.9={
+		holder=10042210 # Honganji Kennyo
+	}
+	1592.12.27={
+		holder=10042211 # Honganji Kyonyo
+	}
+	1593.11.9={
+		holder=10042212 # Honganji Junnyo
+	}
+	1602.1.1={
+		holder=0
+	}
+}

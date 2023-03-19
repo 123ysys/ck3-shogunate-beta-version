@@ -1,0 +1,138 @@
+c_nmih_kawawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kawawa1={
+				set_title_name=b_nmih_kawawa2
+			}
+		}
+	}
+	1180.1.1={
+		effect={
+			title:b_nmih_kawawa1={
+				set_title_name=b_nmih_kawawa3
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kawawa1={
+				set_title_name=b_nmih_kawawa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1180.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_ise"
+	}
+	1174.8.10={
+		liege="d_nmih_izumi" # Taira Nobukane {Izumi no Kami}
+		holder=10110235 # Taira Nobukane {Izumi no Kami}
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_ise"
+		holder=10110235 # Taira [Seki] Nobukane
+	}
+	1184.9.2={
+		liege="d_nmih_shima"
+		holder=10131576 # Ito Tadakiyo
+	}
+	1185.6.15={
+		holder=10131582 # Ito Tadamitsu
+	}
+	1192.1.1={
+		holder=10131588 # Ito [Wakana] Moritaka
+	}
+	1204.5.10={
+		liege="d_nmih_ise"
+		holder=10130081 # Kudo [Nagano] Sukenaga
+	}
+	1239.1.1={
+		holder=10026510 # Nagano Sukemasa
+	}
+	1280.1.1={
+		holder=10026511 # Nagano Sukefuji
+	}
+	1305.1.1={
+		holder=10026512 # Nagano Sukefusa
+	}
+	1333.7.4={
+		liege="d_nmih_ise"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.2.23={
+		liege="d_nmih_ise"
+	}
+	1340.1.1={
+		holder=10026513 # Nagano Fujifusa
+	}
+	1355.1.1={
+		holder=10026514 # Nagano Toyofuji
+	}
+	1380.1.1={
+		holder=10026515 # Nagano Tsunefuji
+	}
+	1405.1.1={
+		liege="d_nmih_ise"
+		holder=10027013 # Seki Morinobu
+	}
+	1430.1.1={
+		holder=10027014 # Seki Nobumasa
+	}
+	1460.1.1={
+		holder=10027004 # Seki Morimoto
+	}
+	1478.1.1={
+		liege=0
+	}
+	1490.1.1={
+		liege=0
+		holder=10027002 # Seki Toshimori
+	}
+	1510.1.1={
+		liege="d_nmih_shima"
+		holder=10026002 # Kanbe Tomomori
+	}
+	1551.1.1={
+		holder=10026200 # Kanbe Nagamori
+	}
+	1555.1.1={
+		holder=10026201 # Kanbe Toshimori
+	}
+	1559.1.1={
+		holder=10026202 # Kanbe Tomomori
+	}
+	1569.1.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1571.1.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029162 # Oda Nobutaka
+	}
+	1582.7.16={
+		liege="d_nmih_mino"
+	}
+	1582.10.28={
+		liege="d_nmih_owari"
+		holder=10029329 # Takigawa Katsutoshi
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10094102 # Hitotsuyanagi Naomori
+	}
+}

@@ -1,0 +1,123 @@
+c_nmih_shimajiri = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shimajiri1={
+				set_title_name=b_nmih_shimajiri1
+			}
+		}
+	}
+	1398.1.1={
+		effect={
+			title:b_nmih_shimajiri1={
+				set_title_name=b_nmih_shimajiri5
+			}
+		}
+	}
+	1429.1.1={
+		effect={
+			title:b_nmih_shimajiri1={
+				set_title_name=b_nmih_shimajiri2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1398.1.1 = { change_development_level = 40 }
+	1429.1.1 = { change_development_level = 40 }
+	1453.5.26 = { change_development_level = 40 }
+	1456.2.1 = { change_development_level = 40 }
+
+	0100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_chuzan"
+		holder=10142100 # Shunten
+	}
+	1186.1.1={
+		liege=0
+	}
+	1187.1.1={
+		liege="k_nmih_chuzan"
+	}
+	1195.1.1={
+		holder=10142014 # Tenson Maguru
+	}
+	1228.1.1={
+		holder=10142141 # Shunten Ufusatu
+	}
+	1270.1.1={
+		liege="k_nmih_chuzan"
+		holder=10142205 # Eiso Ufusatu
+	}
+	1310.1.1={
+		holder=10141300 # Ufusatu Ufusatu
+	}
+	1340.1.1={
+		liege="k_nmih_nanzan"
+		holder=10141305 # Ufusatu Ufusatu
+	}
+	1370.1.1={
+		holder=10141310 # Ufusatu Ufusatu
+	}
+	1380.1.1={
+		holder=10141315 # Ufusatu Ufusatu
+	}
+	1398.10.15={
+		holder=10141311 # Ufusatu Yeeji
+	}
+	1402.1.1={
+		holder=10141321 # Ufusatu Uusu
+	}
+	1413.1.1={
+		holder=10141320 # Ufusatu Tafuchi
+	}
+	1414.1.1={
+		holder=10141330 # Ufusatu Tarumui
+	}
+	1429.1.1={
+		liege="k_nmih_chuzan"
+		holder=10141005 # Sho Hashi
+	}
+	1439.6.1={
+		holder=10141010 # Sho Chu
+	}
+	1444.12.3={
+		holder=10141020 # Sho Shitatsu
+	}
+	1449.10.29={
+		holder=10141013 # Sho Kimpuku
+	}
+	1453.5.26={
+		holder=10141023 # Sho Shiro
+	}
+	1454.1.1={
+		holder=10141015 # Sho Taikyu
+	}
+	1460.6.23={
+		holder=10141025 # Sho Toku
+	}
+	1469.6.1={
+		liege="k_nmih_chuzan"
+		holder=10140004
+	}
+	1476.1.1={
+		holder=10140005
+	}
+	1477.1.1={
+		holder=10140007
+	}
+	1527.1.12={
+		holder=10140000
+	}
+	1555.7.13={
+		holder=10140027
+	}
+	1572.5.12={
+		holder=10140045
+	}
+	1589.1.11={
+		holder=10140061
+	}
+
+}

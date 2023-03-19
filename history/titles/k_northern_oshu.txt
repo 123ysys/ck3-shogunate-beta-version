@@ -1,0 +1,15 @@
+k_nmih_northern_oshu = {
+	0001.1.1={
+		liege=0
+		holder=0
+	}
+	1157.4.29={
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1187.11.30={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.10.3={
+		holder=0 # Fall of Hiraizumi
+	}
+}

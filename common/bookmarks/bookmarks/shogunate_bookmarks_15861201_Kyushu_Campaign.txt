@@ -1,0 +1,158 @@
+﻿bm_kyushucampaign1586 = {
+	start_date = 1586.12.1
+	is_playable = yes
+	group = bm_group_toyotomi_government
+
+	character = {
+		name = "bm_kyushucampaign1586_shimazu_yoshihisa"
+		dynasty = 10000600
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1533.3.4
+		title = k_nmih_southern_kyushu
+		government = feudal_government
+		culture = southern_kyushu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10060024
+		position = { 400 200 }
+
+		animation = personality_vengeful
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_otomo_sorin"
+		dynasty = 10000640
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1530.1.31
+		title = k_nmih_kyushu_tandai
+		government = feudal_government
+		culture = central_kyushu
+		religion = catholic
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10064002
+		position = { 750 200 }
+
+		animation = personality_zealous
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_tachibana_muneshige"
+		dynasty = 10000674
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1567.9.20
+		title = d_nmih_chikugo
+		government = feudal_government
+		culture = central_kyushu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10067408
+		position = { 1100 200 }
+
+		animation = personality_honorable
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_toyotomi_hidetsugu"
+		dynasty = 10000284
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1568.1.1
+		title = d_nmih_omi
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10029411
+		position = { 400 500 }
+
+		animation = personality_cynical
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_toyotomi_hidekatsu"
+		dynasty = 10000284
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1569.1.1
+		title = d_nmih_tanba
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10029412
+		position = { 750 500 }
+
+		animation = personality_greedy
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_hachisuka_iemasa"
+		dynasty = 10000741
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1558.1.1
+		title = d_nmih_awa
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10029612
+		position = { 1100 500 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_kanamori_nagachika"
+		dynasty = 10000288
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1524.1.1
+		title = d_nmih_hida
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10025930
+		position = { 400 800 }
+
+		animation = personality_callous
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_ikeda_terumasa"
+		dynasty = 10000705
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1565.1.31
+		title = d_nmih_mino
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10029554
+		position = { 750 800 }
+
+		animation = personality_compassionate
+	}
+
+	character = {
+		name = "bm_kyushucampaign1586_kakizaki_yoshihiro"
+		dynasty = 10001660
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1548.10.4
+		title = d_nmih_oshima
+		government = feudal_government
+		culture = hokkaido_wajin
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10159034
+		position = { 1100 800 }
+
+		animation = personality_rational
+	}
+}

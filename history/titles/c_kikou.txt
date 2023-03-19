@@ -1,0 +1,129 @@
+c_nmih_kikou = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kikou1={
+				set_title_name=b_nmih_kikou4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kikou1={
+				set_title_name=b_nmih_kikou4
+			}
+		}
+	}
+	1476.1.1={
+		effect={
+			title:b_nmih_kikou1={
+				set_title_name=b_nmih_kikou1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+	1476.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_totomi"
+	}
+	1176.1.1={
+		liege=0
+		holder=12390230 # Yokochi Nagashige
+	}
+	1180.11.9={
+		liege="d_nmih_totomi" # Battle of Fujikawa
+	}
+	1222.1.1={
+		holder=12390235 # Yokochi Naganao
+	}
+	1276.1.1={
+		holder=12390240 # Yokochi Moroshige
+	}
+	1277.1.1={
+		holder=12390245 # Yokochi Moronaga
+	}
+	1307.1.1={
+		holder=12390250 # Yokochi Nagakuni
+	}
+	1332.1.1={
+		liege="d_nmih_totomi"
+		holder=12390255 # Yokochi Naganori
+	}
+	1361.1.1={
+		liege="d_nmih_totomi"
+		holder=12390260 # Yokochi Ienaga
+	}
+	1409.1.1={
+		holder=12390265 # Yokochi Nagatoyo
+	}
+	1437.1.1={
+		holder=12390270 # Yokochi Nagayasu
+	}
+	1439.1.1={
+		holder=12390275 # Yokochi Nagahide
+	}
+	1476.1.1={
+		liege="d_nmih_suruga"
+		holder=10023250 # Kushima Sukeharu
+	}
+	1508.8.1={
+		liege="d_nmih_totomi"
+	}
+	1521.1.1={
+		holder=10023251 # Kushima EchizenNoKami
+	}
+	1536.4.7={
+		liege=0
+		holder=10023008 # Imagawa Etan
+	}
+	1536.6.28={
+		liege="d_nmih_totomi"
+		holder=10024750 # Ogasawara Haruyoshi
+	}
+	1542.1.1={
+		holder=10024755 # Ogasawara Ujioki
+	}
+	1569.7.24={
+		holder=10024759 # Ogasawara Nobuoki
+	}
+	1574.6.18={
+		liege="d_nmih_suruga" # 20033 Takeda Katsuyori
+		holder=10020033 # Takeda Katsuyori
+	}
+	1575.1.1={
+		holder=10023163 # Okabe Motonobu
+	}
+	1581.4.25={
+		liege="d_nmih_totomi"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1589.8.4={ 
+		holder=10024901 # Osuka Tadamasa
+	}
+	1590.7.25={ 
+		holder=10017131 # Yura Shigeaki
+		liege="k_nmih_chubu"
+	}
+	1595.1.1={
+		holder=10098108 # Arima Toyouji
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024901 # Osuka Tadamasa
+	}
+	1607.10.31={
+		holder=10024905 # Osuka Tadatsugu
+	}
+	1615.6.23={
+		liege="d_nmih_suruga"
+		holder=10024049 # Tokugawa Yorinobu
+	}
+}

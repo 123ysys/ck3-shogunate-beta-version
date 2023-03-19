@@ -1,0 +1,8 @@
+105 = {
+
+	culture = koshin
+	religion = shinto
+	holding = castle_holding
+	1343.1.1={
+	}
+}

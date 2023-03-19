@@ -1,0 +1,423 @@
+﻿namespace = shogunate_gekokujo
+
+# Get meritocracy perk
+shogunate_gekokujo.0001 = {
+	type = character_event
+	title = shogunate_gekokujo.0001.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					has_trait = ambitious
+				}
+				desc = shogunate_gekokujo.0001.desc_ambitious
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait = content
+				}
+				desc = shogunate_gekokujo.0001.desc_content
+			}
+			desc = shogunate_gekokujo.0001.desc
+		}
+	}
+
+	theme = intrigue
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+
+	trigger = {
+		NOT = { has_perk = meritocracy_perk }
+		NOT = { has_character_flag = got_gekokujo_perk }
+		shogunate_is_sengoku_period_trigger = yes
+		shogunate_has_struggle_feature_trigger = no
+	}
+
+	immediate = {
+		add_character_flag = got_gekokujo_perk
+	}
+
+	option = {
+		name = shogunate_gekokujo.0001.a
+
+		add_perk = meritocracy_perk
+	}
+}
+
+# Prevent invincible Emperor
+shogunate_gekokujo.0002 = {
+	hidden = yes
+
+	trigger = {
+		OR = {
+			primary_title = title:e_nmih_tenno
+			scope:title   = title:e_nmih_tenno
+		}
+		exists = primary_heir
+	}
+
+	immediate = {
+		create_title_and_vassal_change = {
+			type = granted
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		every_held_title = {
+			limit = {
+				NOR = {
+					this = title:e_nmih_tenno
+					this = title:k_nmih_gosho
+					this = title:d_nmih_gosho
+					this = title:c_nmih_gosho
+					this = title:b_nmih_gosho
+				}
+			}
+			change_title_holder = {
+				holder = root.primary_heir
+				change = scope:change
+			}
+		}
+		every_vassal = {
+			change_liege = {
+				liege = root.primary_heir
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		create_title_and_vassal_change = {
+			type = independency
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		root.primary_heir = {
+			if = {
+				limit = {
+					is_vassal_or_below_of = root
+				}
+				becomes_independent = {
+					change = scope:change
+				}
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+	}
+}
+
+# Fall of Shogunate
+shogunate_gekokujo.0003 = {
+	hidden = yes
+
+	trigger = {
+		scope:title = title:e_nmih_japan
+		NOT = { has_character_flag = shogunate_founder }
+		NOT = { dynasty = scope:previous_holder.dynasty }
+		OR = {
+			AND = {
+				shogunate_after_nanbokucho_period_trigger = yes
+				is_ai = yes
+			}
+			has_title = title:e_nmih_tenno
+			has_title = title:e_nmih_joko
+			has_title = title:e_nmih_nancho
+		}
+	}
+
+	immediate = {
+		trigger_event = shogunate_gekokujo.0005
+		destroy_title = scope:title
+	}
+}
+
+# Destroy special titles
+shogunate_gekokujo.0004 = {
+	hidden = yes
+
+	trigger = {
+		OR = {
+			AND = {
+				scope:title = {
+					shogunate_is_imperial_special_title_trigger = yes
+				}
+				NOT = { dynasty = dynasty:10000420 }							# Yamato clan (Imperial family)
+			}
+			AND = {
+				scope:title = {
+					shogunate_is_major_playable_special_title_trigger = yes
+				}
+				NOT = { shogunate_can_gain_special_title_trigger = { TITLE = scope:title DYNASTY = dynasty HOUSE = house } }
+				NOT = { dynasty = scope:previous_holder.dynasty }
+				OR = {
+					is_ai = yes
+					AND = {
+						NOT = { scope:transfer_type = flag:conquest_claim }
+						NOT = { scope:transfer_type = flag:faction_demand }
+					}
+				}
+			}
+			AND = {
+				scope:title = {
+					shogunate_is_minor_playable_special_title_trigger = yes
+				}
+				NOT = { dynasty = scope:previous_holder.dynasty }
+				OR = {
+					is_ai = yes
+					AND = {
+						NOT = { scope:transfer_type = flag:conquest_claim }
+						NOT = { scope:transfer_type = flag:faction_demand }
+					}
+				}
+			}
+			AND = {
+				scope:title = {
+					shogunate_is_unplayable_special_title_trigger = yes
+				}
+				AND = {
+					NOT = { scope:transfer_type = flag:inheritance }
+					NOT = { scope:transfer_type = flag:abdication }
+				}
+			}
+		}
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					NOT = { scope:title = title:k_nmih_kanto_kanrei }
+					NOT = { has_character_flag = shogunate_got_kanto_kanrei_by_decision }
+				}
+			}
+			trigger_event = shogunate_gekokujo.0005
+			destroy_title = scope:title
+		}
+	}
+
+}
+
+# Notify destroyed special title (trigger)
+shogunate_gekokujo.0005 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				scope:title = {
+					shogunate_is_major_special_title_trigger = yes
+				}
+			}
+			add_character_flag = {
+				flag = shogunate_title_destroyer
+				days = 1
+			}
+
+			# avoid duplicated nortifications (see also shogunate_gekokujo.0006)
+			if = {
+				limit = {
+					scope:title.tier <= scope:previous_holder.primary_title.tier
+				}
+				save_scope_as = new_holder
+				every_ruler = {
+					trigger_event = shogunate_gekokujo.0007
+				}
+			}
+		}
+	}
+}
+
+# Notify destroyed special title (trigger)
+shogunate_gekokujo.0006 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				scope:title = {
+					shogunate_is_major_special_title_trigger = yes
+				}
+				NOT = { exists = scope:title.holder }
+				NOT = { has_character_flag = shogunate_title_destroyer }
+			}
+			save_scope_as = previous_holder
+			every_ruler = {
+				trigger_event = shogunate_gekokujo.0007
+			}
+		}
+	}
+}
+
+# Notify destroyed special title (notification)
+shogunate_gekokujo.0007 = {
+	type = character_event
+	title = shogunate_gekokujo.0007.t
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { exists = scope:new_holder }
+				desc = shogunate_gekokujo.0007.with_holder.desc
+			}
+			desc = shogunate_gekokujo.0007.without_holder.desc
+		}
+	}
+
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = scope:previous_holder
+		animation = shock
+	}
+	override_background = { event_background = burning_building }
+
+	option = {
+		name = shogunate_gekokujo.0007.a
+	}
+}
+
+# The new Shogunate (notification)
+shogunate_gekokujo.0008 = {
+	type = character_event
+
+	title = shogunate_gekokujo.0008.t
+	desc = shogunate_gekokujo.0008.desc
+
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = scope:founder
+		animation = personality_bold
+	}
+	override_background = { event_background = throne_room }
+
+	immediate = {
+		scope:founder.capital_barony = {
+			save_scope_as = capital
+		}
+	}
+
+	option = {
+		name = shogunate_gekokujo.0008.a
+		trigger = {
+			scope:founder = root.top_liege
+		}
+	}
+
+	option = {
+		name = shogunate_gekokujo.0008.b
+		trigger = {
+			NOT = { scope:founder = root.top_liege }
+		}
+	}
+}
+
+# Destroy the Unifier title
+shogunate_gekokujo.0009 = {
+	hidden = yes
+
+	trigger = {
+		exists = title:e_nmih_unifier
+		exists = title:e_nmih_unifier.holder
+		OR = {
+			NOT = { exists = title:e_nmih_japan }
+			NOT = { exists = title:e_nmih_japan.holder }
+		}
+	}
+
+	immediate = {
+		destroy_title = title:e_nmih_unifier
+	}
+}
+
+# Transfer the Unifier title (case 1)
+shogunate_gekokujo.0010 = {
+	hidden = yes
+
+	trigger = {
+		scope:title = title:e_nmih_japan
+		exists = title:e_nmih_unifier
+		exists = title:e_nmih_unifier.holder
+		NOT = { title:e_nmih_japan.holder = title:e_nmih_unifier.holder }
+	}
+
+	immediate = {
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:e_nmih_unifier = {
+			change_title_holder = {
+				holder = title:e_nmih_japan.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+		title_to_kamon_coa_effect = yes
+	}
+}
+
+# Transfer the Unifier title (case 2)
+shogunate_gekokujo.0011 = {
+	hidden = yes
+
+	trigger = {
+		scope:title = title:e_nmih_unifier
+		exists = title:e_nmih_japan
+		exists = title:e_nmih_japan.holder
+		NOT = { title:e_nmih_japan.holder = title:e_nmih_unifier.holder }
+	}
+
+	immediate = {
+		create_title_and_vassal_change = {
+			type = swear_fealty
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:e_nmih_japan.holder = {
+			save_scope_as = previous_holder
+			every_vassal = {
+				change_liege = {
+					liege = title:e_nmih_unifier.holder
+					change = scope:change
+				}
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = change
+			add_claim_on_loss = no
+		}
+		title:e_nmih_japan = {
+			change_title_holder = {
+				holder = title:e_nmih_unifier.holder
+				change = scope:change
+			}
+		}
+		resolve_title_and_vassal_change = scope:change
+
+		if = {
+			limit = {
+				scope:previous_holder.primary_title.tier < title:e_nmih_unifier.holder.primary_title.tier
+			}
+			create_title_and_vassal_change = {
+				type = swear_fealty
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			scope:previous_holder = {
+				change_liege = {
+					liege = title:e_nmih_unifier.holder
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+
+		title:e_nmih_unifier.holder = {
+			set_primary_title_to = title:e_nmih_japan
+		}
+		title_to_kamon_coa_effect = yes
+	}
+}

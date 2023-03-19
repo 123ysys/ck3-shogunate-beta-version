@@ -1,0 +1,24 @@
+172 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1221.7.6={
+	}
+	1490.1.1 = {
+		religion = ikkoshu
+	}
+
+	1525.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1573.9.1={
+		buildings = {
+			castle_01
+		}
+	}
+}

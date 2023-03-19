@@ -1,0 +1,3 @@
+﻿l_russian:
+ HIRED_TROOPS_VIEW_LIST_HO_HEADER:1 "#L [GetPlayer.GetFaith.GetName]#! [holy_orders|El]"
+ HIRED_TROOPS_VIEW_LIST_HO_NO_HOS:0 "Нет священных орденов #L [GetPlayer.GetFaith.GetName|l]#!"

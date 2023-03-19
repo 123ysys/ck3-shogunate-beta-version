@@ -1,0 +1,82 @@
+﻿# Override 01_ep1_custom_loc.txt
+
+InspirationAdventureDestination = {
+	type = character
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:kinai
+		}
+		localization_key = world_circuit_kinai
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:tokaido
+		}
+		localization_key = world_circuit_tokaido
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:tosando
+		}
+		localization_key = world_circuit_tosando
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:hokurikudo
+		}
+		localization_key = world_circuit_hokurikudo
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:sanindo
+		}
+		localization_key = world_circuit_sanindo
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:sanyodo
+		}
+		localization_key = world_circuit_sanyodo
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:nankaido
+		}
+		localization_key = world_circuit_nankaido
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:saikaido
+		}
+		localization_key = world_circuit_saikaido
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:hokkaido
+		}
+		localization_key = world_circuit_hokkaido
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:karafuto
+		}
+		localization_key = world_circuit_karafuto
+	}
+
+	text = {
+		trigger = {
+			var:adventure_destination = flag:ryukyu
+		}
+		localization_key = world_circuit_ryukyu
+	}
+}

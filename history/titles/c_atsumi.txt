@@ -1,0 +1,154 @@
+c_nmih_atsumi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_atsumi1={
+				set_title_name=b_nmih_atsumi9
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_atsumi1={
+				set_title_name=b_nmih_atsumi6
+			}
+		}
+	}
+	1547.6.1={
+		effect={
+			title:b_nmih_atsumi1={
+				set_title_name=b_nmih_atsumi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 10 }
+	1493.1.1 = { change_development_level = 20 }
+	1547.6.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1179.12.18={
+		liege="d_nmih_mikawa" # Taira Tomonori
+		holder=10110049 # Taira Tomonori
+	}
+	1180.11.9={
+		holder=10120072 # Minamoto Yukiie / Battle of Fujikawa
+	}
+	1181.4.25={ # Battle of Sunomata
+		liege="d_nmih_mikawa"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1184.7.21={
+		holder=10120078 # Minamoto Noriyori
+	}
+	1193.9.14={
+		holder=12202006 # Adachi Morinaga
+	}
+	1200.6.9={
+		holder=12220001 # Adachi Kagemori
+	}
+	1221.7.6={
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		liege="d_nmih_mikawa"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1336.7.22={
+		liege="d_nmih_mikawa"
+		holder=12139585 # Kou Morokane
+	}
+	1351.3.15={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1360.7.1={
+		holder=12186615 # Oshima Yoshitaka
+	}
+	1379.4.1={
+		liege="d_nmih_mikawa"
+		holder=10049505 # Isshiki Norimitsu
+	}
+	1388.3.4={
+		holder=10049507 # Isshiki Akinori
+	}
+	1406.6.22={
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1440.6.14={
+		liege="d_nmih_mikawa"
+		holder=10040526 # Hosokawa Mochitsune
+	}
+	1450.1.28={
+		holder=10040528 # Hosokawa Shigeyuki
+	}
+	1451.12.21={
+		liege="d_nmih_tango"
+		holder=10049515 # Isshiki Yoshinao
+	}
+	1474.4.1={
+		holder=10049516 # Isshiki Yoshiharu
+	}
+	1479.1.1={
+		liege=0
+		holder=10024205 # Toda Munemitsu
+	}
+	1508.7.6={
+		holder=10024204 # Toda Norimitsu
+	}
+	1520.1.1={
+		holder=10024201 # Toda Masamitsu
+	}
+	1529.1.1={
+		holder=10024200 # Toda Yasumitsu
+	}
+	1547.1.1={
+		liege=0 # 29100 Oda Nobuhide
+		holder=10024200 # Toda Yasumitsu
+	}
+	1547.6.1={
+		liege="d_nmih_suruga"
+		holder=10023010 # Imagawa Yoshimoto
+	}
+	1548.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1560.6.12={
+		holder=10023017 # Imagawa Ujizane
+	}
+	1565.1.1={
+		liege=0
+		holder=10024006 # Matsudaira Motoyasu (Tokugawa Ieyasu)
+	}
+	1566.1.1={
+		liege="d_nmih_mikawa" # 24006 Matsudaira Motoyasu (Tokugawa Ieyasu)
+		holder=10024257 # Sakai Tadatsugu
+	}
+	1590.7.25={ 
+		liege="d_nmih_eastern_mikawa"
+		holder=10029554 # Ikeda Terumasa
+	}
+	1595.8.20={ 
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1612.5.20={
+		holder=10024080 # Matsudaira Tadatoshi
+	}
+}

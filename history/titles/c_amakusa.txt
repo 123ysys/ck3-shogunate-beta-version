@@ -1,0 +1,155 @@
+c_nmih_amakusa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_amakusa1={
+				set_title_name=b_nmih_amakusa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_amakusa1={
+				set_title_name=b_nmih_amakusa2
+			}
+		}
+	}
+	1205.1.1={
+		effect={
+			title:b_nmih_amakusa1={
+				set_title_name=B_NMIH_AMAKUSA2_1205
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi a.k.a Kukuchihiko
+	}
+	250.1.1={
+		holder=10041353 # Takemorokumi
+	}
+	290.1.1={
+		holder=10041357 # Takekunitake
+	}
+	330.1.1={
+		holder=10041358 # Takeoshihiko
+	}
+	350.1.1={
+		holder=10041359 # Takekawana
+	}
+	390.1.1={
+		holder=10041360 # Takekuwae
+	}
+	1180.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12781000 # Amakusa Tanesada
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_hizen"
+		holder=12781000 # Amakusa Tanesada
+	}
+	1205.1.1={
+		holder=12781001 # Amakusa Taneari
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_higo"
+	}
+	1235.1.1={
+		holder=12781003 # Amakusa Tanehide
+	}
+	1265.1.1={
+		holder=12781004 # Amakusa Tanesuke
+	}
+	1267.1.1={
+		holder=12781005 # Amakusa Tanemasu
+	}
+	1295.1.1={
+		liege="d_nmih_northern_higo"
+		holder=12780690 # Kikuchi Tokitaka
+	}
+	1304.10.12={
+		holder=10066032 # Kikuchi Taketoki
+	}
+	1333.4.27={
+		holder=10066023 # Kikuchi Takeshige
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+	}
+	1338.1.1={
+		holder=10066024 # Kikuchi Takehito
+	}
+	1343.1.1={
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1373.12.29={
+		holder=10066021 # Kikuchi Takemasa
+	}
+	1374.7.6={
+		holder=10066020 # Kikuchi Taketomo
+	}
+	1407.4.25={
+		liege="d_nmih_higo"
+		holder=10066019 # Kikuchi Kanetomo
+	}
+	1431.1.1={
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1446.8.20={
+		holder=10066006 # Kikuchi Tamekuni
+	}
+	1466.1.1={
+		holder=10066005 # Kikuchi Shigetomo
+	}
+	1493.12.7={
+		holder=10066004 # Kikuchi Yoshiyuki
+	}
+	1504.3.1={
+		holder=10066003 # Kikuchi Masataka
+	}
+	1505.9.15={
+		liege=0
+	}
+	1509.9.30={
+		liege="d_nmih_higo"
+		holder=10066203 # Kikuchi Taketsune(Aso Korenaga)
+	}
+	1511.1.1={
+		holder=10066001 # Kikuchi Takekane
+	}
+	1520.1.1={
+		holder=10066000 # Kikuchi Yoshitake
+	}
+	1554.12.14={
+		liege=0
+		holder=10066404 # Sagara Haruhiro
+	}
+	1555.8.28={
+		holder=10066424 # Sagara Yoshihi
+	}
+	1581.9.1={
+		liege="d_nmih_hizen"
+		holder=10068320 # Ryuzoji Takanobu
+	}
+	1584.5.4={
+		liege="d_nmih_satsuma"
+		holder=10068603 # Omura Sumitada
+	}
+	1587.5.18={
+		liege="d_nmih_higo"
+		holder=10029350 # Sassa Narimasa
+	}
+	1588.7.7={
+		liege="d_nmih_southern_higo"
+		holder=10042923 # Konishi Yukinaga
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10094500 # Terasawa Hirotaka
+	}
+}

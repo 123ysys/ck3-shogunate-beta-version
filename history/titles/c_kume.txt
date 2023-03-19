@@ -1,0 +1,127 @@
+c_nmih_kume = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kume1={
+				set_title_name=b_nmih_kume5
+			}
+		}
+	}
+	1467.1.1={
+		effect={
+			title:b_nmih_kume1={
+				set_title_name=b_nmih_kume1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1467.1.1 = { change_development_level = 10 }
+	1570.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_mimasaka"
+		holder=10210706 # Harada Kanetomo
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_mimasaka"
+		holder=12635200 # Harada Tomosada
+	}
+	1220.1.1={
+		holder=12635201 # Harada Tomoaki
+	}
+	1250.1.1={
+		holder=12635205 # Harada Tomokuni
+	}
+	1260.1.1={
+		holder=12635206 # Harada Tomosuke
+	}
+	1290.1.1={
+		holder=12635210 # Harada Sukefusa
+	}
+	1320.1.1={
+		holder=12635215 # Harada Sukehide
+	}
+	1333.5.17={
+		liege="d_nmih_mimasaka"
+		holder=12635220 # Harada Sukemasa
+	}
+	1356.6.1={
+		liege="d_nmih_mimasaka"
+		holder=10053505 # Akamatsu Sadanori
+	}
+	1361.1.1={
+		liege="d_nmih_hoki"
+		holder=12186256 # Yamana Tokiuji
+	}
+	1363.9.1={
+		liege="d_nmih_mimasaka"
+		holder=10050011 # Yamana Tokiyoshi
+	}
+	1366.5.1={
+		holder=10050008 # Yamana Yoshitada
+	}
+	1392.1.24={
+		holder=10053566 # Akamatsu Mochisuke
+	}
+	1430.1.1={
+		holder=10053595 # Akamatsu Suketoshi
+	}
+	1441.9.25={
+		liege="e_nmih_japan"
+	}
+	1467.6.27={
+		liege="d_nmih_mimasaka"
+		holder=10053597 # Akamatsu Norizane
+	}
+	1520.1.1={
+		liege=0
+		holder=10053801 # Nakamura Norihisa
+	}
+	1520.11.1={
+		liege="d_nmih_harima"
+	}
+	1522.1.1={
+		liege="d_nmih_mimasaka"
+		holder=10053800 # Nakamura Noriharu
+	}
+	1544.11.1={
+		liege="k_nmih_sanin"
+	}
+	1567.1.8={
+		liege=0
+	}
+	1568.1.1={
+		holder=10055251 # Ashida Hideie
+	}
+	1570.1.1={
+		holder=10055250 # Ashida Masaie
+	}
+	1574.3.1={
+		liege=0
+		holder=10055100 # Ukita Naoie
+	}
+	1575.10.1={
+		liege="d_nmih_bizen"
+	}
+	1581.6.25={
+		liege="k_nmih_western_chugoku"
+		holder=10053802 # Nakamura Yorimune
+	}
+	1584.7.27={
+		liege="d_nmih_bizen"
+		holder=10055284 # Hanabusa Motohide
+	}
+	1599.1.1={
+		holder=10055260 # Akashi Zento
+	}
+	1601.1.1={
+		liege="d_nmih_mimasaka"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10025426 # Mori Tadamasa
+	}
+}

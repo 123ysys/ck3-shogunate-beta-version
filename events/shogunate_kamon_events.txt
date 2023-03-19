@@ -1,0 +1,51 @@
+﻿namespace = shogunate_kamon
+
+shogunate_kamon.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		every_county = {
+			generate_coa = yes
+		}
+		every_duchy = {
+			generate_coa = yes
+		}
+		every_kingdom = {
+			generate_coa = yes
+		}
+		every_empire = {
+			generate_coa = yes
+		}
+		every_ruler = {
+			limit = {
+				primary_title.tier > tier_barony
+			}
+			add_to_list = convert_coa
+		}
+		every_in_list = {
+			list = convert_coa
+			title_to_kamon_coa_effect = yes
+		}
+	}
+
+}
+
+shogunate_kamon.0002 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		every_ruler = {
+			limit = {
+				primary_title.tier > tier_barony
+			}
+			add_to_list = convert_coa
+		}
+		every_in_list = {
+			list = convert_coa
+			title_to_kamon_coa_effect = yes
+		}
+	}
+
+}

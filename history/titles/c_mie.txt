@@ -1,0 +1,149 @@
+c_nmih_mie = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mie1={
+				set_title_name=b_nmih_mie9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_mie1={
+				set_title_name=B_NMIH_MIE9_1331
+			}
+		}
+	}
+	1369.1.1={
+		effect={
+			title:b_nmih_mie1={
+				set_title_name=b_nmih_mie5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+	1369.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_ise"
+	}
+	1180.1.1={
+		liege="d_nmih_ise"
+		holder=12433000 # Tomida Iesuke
+	}
+	1184.9.2={ # Failure of Taira's Three-day rebellion
+		liege="d_nmih_shima"
+		holder=12433001 # Tomida Motonori
+	}
+	1204.2.1={
+		liege="d_nmih_ise"
+	}
+	1204.5.10={
+		liege="d_nmih_ise"
+		holder=12370013 # Hiraga Tomomasa
+	}
+	1205.9.16={
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.7.6={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131760 # Hojo [Kanesawa] Sanetoki
+	}
+	1276.11.30={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1331.1.1={
+		holder=10132230 # Hojo [Kanesawa] Sadafuyu
+	}
+	1333.7.4={
+		liege="d_nmih_ise"
+		holder=12433400 # Kasukabe Akiyoshi
+	}
+	1336.2.23={
+		liege="d_nmih_shima"
+	}
+	1340.1.1={
+		holder=12433401 # Kasukabe Iemune
+	}
+	1369.1.1={
+		liege="d_nmih_shima"
+		holder=10125170 # Chigusa Akitsune
+	}
+	1377.10.6={
+		holder=10026400 # Chigusa Masamitsu
+	}
+	1420.1.1={
+		holder=10026401 # Chigusa Mitsukiyo
+	}
+	1450.1.1={
+		holder=10026402 # Chigusa Haruyasu
+	}
+	1478.1.1={
+		liege=0
+	}
+	1480.1.1={
+		liege=0
+		holder=10026403 # Chigusa Michiharu
+	}
+	1505.1.1={
+		holder=10026404 # Chigusa Takamichi
+	}
+	1530.1.1={
+		holder=10026405 # Chigusa Harukiyo
+	}
+	1545.1.1={
+		holder=10026406 # Chigusa Tadaharu
+	}
+	1555.1.1={
+		liege="d_nmih_southern_omi"
+	}
+	1568.1.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1574.11.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029330 # Takigawa Kazumasu
+	}
+	1575.12.9={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1582.04.15={
+		liege="d_nmih_kozuke" # 29330 Takigawa Kazumasu
+	}
+	1582.7.8={
+		liege=0
+	}
+	1583.6.14={
+		liege="d_nmih_owari"
+		holder=10029329 # Takigawa Katsutoshi
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=10097000 # Tomita Ippaku
+	}
+	1599.12.15={
+		holder=10097001 # Tomita Nobutaka
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="d_nmih_northern_ise"
+		holder=10024803 # Honda Tadakatsu
+	}
+	1610.12.3={
+		holder=10024806 # Honda Tadamasa
+	}
+}

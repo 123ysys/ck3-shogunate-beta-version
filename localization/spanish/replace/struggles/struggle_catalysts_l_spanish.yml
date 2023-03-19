@@ -1,0 +1,7 @@
+﻿l_spanish:
+
+ ##################################################
+ # Catalyst Names
+
+ catalyst_usurp_title_desc:0 "Usurpa un nuevo [title|E] ue es parte del [de_jure|E] de $e_nmih_japan$"
+ catalyst_gain_claim_on_title_desc:1 "Adquirir un [claim|E] sobre un [title|E] bajo el [de_jure|E] de $e_nmih_japan$"

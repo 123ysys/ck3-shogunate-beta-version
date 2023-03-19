@@ -1,0 +1,39 @@
+d_nmih_northern_shinano = {
+	100.1.1={
+	}
+	1528.1.1={
+		liege=0
+		holder=10021500 # Murakami Yoshikiyo
+	}
+	1553.9.1={
+		liege=0
+		holder=0 # 
+	}
+	1570.1.1={
+		liege="k_nmih_tokai"
+		holder=10020080 # Kasuga Toratsuna
+	}
+	1578.6.12={
+		holder=10020082 # Kasuga Masamoto
+	}
+	1582.4.3={
+		liege=0
+		holder=0 # 
+	}
+	1582.4.15={
+		liege="e_nmih_japan"
+		holder=10025421 # Mori Nagayoshi
+	}
+	1582.6.21={
+		liege=0
+		holder=0 # 
+	}
+	1600.3.5={
+		liege="e_nmih_japan"
+		holder=10025426 # Mori Tadamasa
+	}
+	1609.11.13={
+		liege=0
+		holder=0 # 
+	}
+}

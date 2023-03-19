@@ -1,0 +1,50 @@
+﻿namespace = shogunate_bookmark
+
+# Historical Capitals
+shogunate_bookmark.9600 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Southern Court
+
+		if = {
+			limit = {
+				game_start_date >= 1337.1.1									# Emperor Go-Daigo's Escape to Yoshino
+				game_start_date <  1392.11.19								# Unification of the Two Courts
+			}
+
+			shogunate_historical_duchy_capital_effect = {
+				TITLE = c_nmih_yoshino										# Yoshino Palace
+			}
+		}
+
+		# Kusunoki Clan
+
+		if = {
+			limit = {
+				game_start_date >= 1331.1.1									# Siege of Akasaka Castle
+				game_start_date <  1392.11.19								# Unification of the Two Courts
+			}
+
+			shogunate_historical_duchy_capital_effect = {
+				TITLE = c_nmih_nishikibe									# Chihaya Castle (include Akasaka Castle)
+			}
+		}
+
+		# Akamatsu Clan
+
+		if = {
+			limit = {
+				game_start_date >= 1333.1.1									# Akamatsu Enshin's Rising
+				game_start_date <  1441.9.25								# Kakitsu War
+			}
+
+			shogunate_historical_duchy_capital_effect = {
+				TITLE = c_nmih_ako											# Shirahata Castle
+			}
+		}
+
+	}
+}

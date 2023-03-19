@@ -1,0 +1,26 @@
+e_nmih_nancho = {
+	1333.1.1={
+		holder = 10041075 # Emperor Go-Daigo
+	}
+	1339.11.6={
+		holder = 10041077 # Emperor Go-Murakami
+	}
+	1368.3.29={
+		holder = 10041078 # Emperor Chokei
+	}
+	1383.12.1={
+		holder = 10041079 # Emperor Go-Kameyama
+	}
+	1392.11.19={
+		holder = 0
+	}
+	1443.10.16={
+		holder = 10041941 # Yamato Konzosu
+	}
+	1443.10.19={
+		holder = 10041943 # Yamato Takahide
+	}
+	1457.12.18={
+		holder = 0
+	}
+}

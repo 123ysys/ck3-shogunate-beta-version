@@ -1,0 +1,128 @@
+c_nmih_date = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_date1={
+				set_title_name=b_nmih_date2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_date1={
+				set_title_name=b_nmih_date9
+			}
+		}
+	}
+	1189.9.21={
+		effect={
+			title:b_nmih_date1={
+				set_title_name=b_nmih_date2
+			}
+		}
+	}
+	1532.1.1={
+		effect={
+			title:b_nmih_date1={
+				set_title_name=b_nmih_date1
+			}
+		}
+	}
+	1548.9.1={
+		effect={
+			title:b_nmih_date1={
+				set_title_name=b_nmih_date2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1189.9.21 = { change_development_level = 30 }
+	1532.1.1 = { change_development_level = 30 }
+	1548.9.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_iwaki"
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1187.11.30={
+		liege="d_nmih_iwashiro"
+		holder=12030060 # Fujiwara [Sugime] Yukinobu
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_date"
+		holder=12121000 # Date Nensai
+	}
+	1199.10.23={
+		holder=12121002 # Date Tameshige
+	}
+	1251.11.17={
+		holder=12071005 # Date Masayori
+	}
+	1301.8.13={
+		holder=12071010 # Date Munetsuna
+	}
+	1317.3.20={
+		holder=12071015 # Date Motomune
+	}
+	1333.7.4={
+		liege="d_nmih_date"
+		holder=12071020 # Date Yukitomo
+	}
+	1348.6.6={
+		holder=12071025 # Date Munetoo
+	}
+	1385.6.28={
+		holder=12071030 # Date Masamune
+	}
+	1405.10.7={
+		holder=12071033 # Date Ujimune
+	}
+	1412.8.24={
+		holder=12071035 # Date Mochimune
+	}
+	1469.2.19={
+		holder=12071040 # Date Narimune
+	}
+	1487.10.11={
+		holder=12071045 # Date Hisamune
+	}
+	1514.5.28={
+		holder=10001001 # Date Tanemune
+	}
+	1522.1.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1542.6.1={
+		liege="d_nmih_iwaki" # Tenbun War
+		holder=10001001 # Date Tanemune
+	}
+	1548.9.1={
+		liege="d_nmih_oshu_shugo"
+		holder=10001002 # Date Harumune
+	}
+	1564.1.1={
+		holder=10001021 # Date Terumune
+	}
+	1584.10.6={
+		holder=10001035 # Date Masamune
+	}
+	1591.8.12={
+		liege="k_nmih_southern_oshu"
+		holder=10044513 # Gamo Yorisato
+	}
+	1598.3.1={
+		holder=10021802 # Suda Nagayoshi
+	}
+	1603.3.24={
+		liege="d_nmih_iwashiro"
+		holder=10032672 # Naoe Kanetsugu
+	}
+}

@@ -1,0 +1,13 @@
+113 = {
+
+	culture = koshin
+	religion = shinto
+	holding = castle_holding
+	691.8.1={
+	}
+	1401.1.1={
+	}
+	1549.1.1={
+	}
+
+}

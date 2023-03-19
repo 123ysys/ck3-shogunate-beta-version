@@ -1,0 +1,17 @@
+war = {
+	name = "war_1352_invasion_of_suo"
+	start_date = 1352.3.13
+	end_date = 1352.11.1
+	targeted_titles = {
+		d_nmih_suo
+	}
+	casus_belli = event_claim_cb
+	claimant = 10057018 # Ouchi Hiroyuki
+	attackers = {
+		10057018	# Ouchi Hiroyuki
+	}
+	defenders = {
+		10057151	# Washizu Hironao
+#		12139028	# Ashikaga Takauji
+	}
+}

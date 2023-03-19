@@ -1,0 +1,261 @@
+d_nmih_tanba = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0841.6.6={
+		holder=11004530 # Fujiwara Miyafusa {Tanba no Kami}
+	}
+	0845.2.24={
+		holder=0 #  
+	}
+	0957.3.6={
+		holder=11005250 # Fujiwara Moriyoshi {Tanba no Kami}
+	}
+	0961.2.18={
+		holder=11003328 # Fujiwara Tamesuke {Tanba no Kami}
+	}
+	0962.3.5={
+		holder=0 #  
+	}
+	0972.1.24={
+		holder=10110009 # Taira Sadamori
+	}
+	1020.3.3={
+		holder=11003607 # Fujiwara Sukenari {Tanba no Kami}
+	}
+	1024.3.11={
+		holder=0 #  
+	}
+	1108.11.25={
+		holder=11003810 # Fujiwara Atsumune {Tanba no Kami}
+	}
+	1111.10.20={
+		holder=0 #  
+	}
+	1111.12.4={
+		holder=11006301 # Fujiwara Tadataka {Tanba no Kami}
+	}
+	1119.1.19={
+		holder=11006701 # Fujiwara Ieyasu {Tanba no Kami}
+	}
+	1121.8.17={
+		holder=0
+	}
+	1123.5.9={
+		holder=11006010 # Fujiwara Akitaka {Tanba no Kami}
+	}
+	1127.3.10={
+		holder=11001095 # Fujiwara Kinmichi {Tanba no Kami}
+	}
+	1132.1.1={
+		holder=0 #  
+	}
+	1149.10.8={
+		holder=11001068 # Fujiwara Narikane {Tanba no Kami}
+	}
+	1155.1.1={
+		holder=0
+	}
+	1158.1.26={
+		holder=11006480 # Ichijo Yoshiyasu {Tanba no Kami}
+	}
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110141 # Taira Kiyokuni
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="e_nmih_japan"
+		holder=12139060 # Ashikaga Yoshikiyo
+	}
+	1183.11.17={
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12370010 # Ouchi Koreyoshi
+	}
+	1198.1.1={
+		liege="e_nmih_joko"
+		holder=10041060 # Emperor Go-Toba
+	}
+	1221.6.6={
+		holder=11007504 # Hamuro Mitsuchika
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=10131655 # Hojo Tokifusa
+	}
+	1224.7.1={
+		holder=10131680 # Hojo [Sasuke] Tokimori
+	}
+	1264.7.27={
+		holder=10131997 # Hojo Tokisuke
+	}
+	1272.3.15={
+		holder=10131680 # Hojo [Sasuke] Tokimori
+	}
+	1275.12.1={
+		holder=10131978 # Hojo [Sasuke] Tokikuni
+	}
+	1284.11.18={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1287.9.22={
+		holder=10131985 # Hojo [Sasuke] Morifusa
+	}
+	1297.7.29={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1302.2.15={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1309.1.1={
+		holder=10131950 # Hojo [Osaragi] Sadafusa
+	}
+	1310.1.3={
+		holder=10131921 # Hojo Tokiatsu
+	}
+	1315.8.11={
+		holder=10132114 # Hojo [Osaragi] Koresada
+	}
+	1324.9.6={
+		holder=10132229 # Hojo [Kanesawa] Sadayuki
+	}
+	1330.8.25={
+		holder=10132083 # Hojo Tokimasu
+	}
+	1333.6.19={
+		liege=0
+		holder=12139028 # Ashikaga Takauji
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=10125166 # Chigusa Tadaaki
+	}
+	1336.7.15={
+		liege="e_nmih_japan"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1336.7.22={
+		holder=12396020 # Nikki Yoriaki
+	}
+	1343.12.1={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+	}
+	1351.8.23={
+		liege="e_nmih_japan"
+		holder=12396020 # Nikki Yoriaki
+	}
+	1352.11.1={
+		holder=12536206 # Kou Moroakira
+	}
+	1353.7.13={
+		holder=12396020 # Nikki Yoriaki
+	}
+	1359.11.4={
+		holder=12396025 # Nikki Yoshitada
+	}
+	1363.9.1={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1371.4.14={
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1391.11.1={
+		liege=0
+	}
+	1392.1.24={
+		liege="k_nmih_kanrei"
+		holder=10040536 # Hosokawa Yorimoto
+	}
+	1397.6.2={
+		holder=10040538 # Hosokawa Mitsumoto
+	}
+	1426.11.15={
+		holder=10040541 # Hosokawa Mochimoto
+	}
+	1429.8.14={
+		holder=10040539 # Hosokawa Mochiyuki
+	}
+	1442.9.8={
+		liege="e_nmih_japan"
+		holder=10040543 # Hosokawa Katsumoto
+	}
+	1467.6.27={ # Onin war
+		liege="k_nmih_kanrei"
+	}
+	1473.6.6={
+		holder=10040544 # Hosokawa Masamoto
+	}
+	1506.1.1={
+		liege="k_nmih_kanrei"
+		holder=10040567 # Hosokawa Sumiyuki
+	}
+	1507.9.7={
+		holder=10040501 # Hosokawa Sumimoto
+	}
+	1508.7.18={
+		holder=10040566 # Hosokata Takakuni
+	}
+	1526.8.20={
+		liege=0
+		holder=10042082 # Yanagimoto Kataharu
+	}
+	1527.3.14={
+		liege="k_nmih_kanrei"
+	}
+	1530.8.2={
+		holder=10040500 # Hosokawa Harumoto
+	}
+	1549.7.18 ={
+		liege="e_nmih_japan"
+	}
+	1557.1.1={
+		liege="k_nmih_southern_kinai"
+		holder=10045402 # Naito Munekatsu, De facto
+	}
+	1565.8.27={
+		liege=0
+		holder=0 # 
+	}
+	1576.2.10={
+		liege=0
+		holder=10042086 # Hatano Hideharu
+	}
+	1579.6.24={
+		liege="e_nmih_japan"
+		holder=10025632 # Akechi Mitsuhide
+	}
+	1582.6.21={
+		liege="k_nmih_northern_kinai"
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.7.16={
+		holder=10029163 # Hashiba Hidekatsu
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1586.1.29={
+		holder=10029412 # Toyotomi Hidekatsu(Kokichi)
+	}
+	1587.5.18={
+		holder=0
+	}
+	1589.1.1={
+		liege="e_nmih_japan"
+		holder=10029466 # Hashiba Hidetoshi
+	}
+	1595.8.20={
+		holder=10025950 # Maeda Geni
+	}
+	1603.3.24={
+		holder=0 #
+	}
+}

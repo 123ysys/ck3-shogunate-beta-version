@@ -1,0 +1,105 @@
+d_nmih_southern_omi = {
+	100.1.1={
+	}
+	1242.4.7={
+		liege="e_nmih_japan"
+		holder=10044004 # Rokkaku Yasutsuna
+	}
+	1270.1.1={
+		holder=10044005 # Rokkaku Yoritsuna
+	}
+	1311.1.22={
+		holder=10044006 # Rokkaku Tokinobu
+	}
+	1333.6.19={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10044006 # Rokkaku Tokinobu
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+		holder=10044007 # Rokkaku Ujiyori
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1351.8.23={
+		holder=10044050 # Yamauchi Nobuakira
+	}
+	1352.7.1={
+		holder=10044009 # Rokkaku Yoshinobu
+	}
+	1354.10.1={
+		holder=10044007 # Rokkaku Ujiyori
+	}
+	1370.6.30={
+		holder=10044008 # Rokkaku Mitsutaka
+	}
+	1416.12.6={
+		holder=10044010 # Rokkaku Mitsutsuna
+	}
+	1441.10.1={
+		liege=0
+		holder=10044013 # Rokkaku Mochitsuna
+	}
+	1445.3.1={
+		holder=10044012 # Rokkaku Tokitsuna
+	}
+	1446.10.4={
+		liege="e_nmih_japan"
+		holder=10044011 # Rokkaku Hisayori
+	}
+	1456.11.8={
+		holder=10044001 # Rokkaku Takayori
+	}
+	1467.6.27={ # Onin war
+		liege = "k_nmih_sanin" # Onin War
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
+	1478.1.1={
+		liege="e_nmih_japan"
+	}
+	1487.9.28={
+		liege=0
+	}
+	1495.12.1={
+		liege="e_nmih_japan"
+	}
+	1507.8.1={
+		liege=0
+	}
+	1508.7.28={
+		liege="k_nmih_southern_kinai"
+	}
+	1511.9.6={
+		liege=0
+	}
+	1520.12.9={
+		holder=10044000 # Rokkaku Sadayori
+	}
+	1552.1.21={
+		holder=10044003 # Rokkaku Yoshikata
+	}
+	1575.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+		holder=10043380 # Natsuka Masaie
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		holder=0 #
+	}
+}

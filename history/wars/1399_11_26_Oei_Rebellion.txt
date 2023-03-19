@@ -1,0 +1,17 @@
+war = {
+	name = "war_1399_oei_rebellion"
+	start_date = 1399.11.26
+	end_date = 1400.1.17
+	targeted_titles = {
+		e_nmih_japan c_nmih_kii c_nmih_otagi c_nmih_otokuni
+	}
+	casus_belli = event_claim_cb
+	claimant = 10057013 # Ouchi Yoshihiro
+	attackers = {
+		10057013	# Ouchi Yoshihiro
+		10040064	# Ashikaga Mitsukane
+	}
+	defenders = {
+		10040003	# Ashikaga Yoshimitsu
+	}
+}

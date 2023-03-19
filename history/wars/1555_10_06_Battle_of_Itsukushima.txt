@@ -1,0 +1,11 @@
+war = {
+	name = "war_1555_battle_of_itsukushima"
+	start_date = 1555.10.6
+	end_date = 1555.10.16
+	targeted_titles = {
+		d_nmih_aki
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10064003 } # Ouchi Yoshinaga
+	defenders = { 10056004 } # Mori Motonari
+}

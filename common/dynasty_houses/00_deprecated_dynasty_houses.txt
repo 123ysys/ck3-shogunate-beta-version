@@ -1,0 +1,1 @@
+﻿# For removed or *drastically* edited house storage, so that they're easier to revert if necessary.

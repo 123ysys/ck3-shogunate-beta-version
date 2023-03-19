@@ -1,0 +1,12 @@
+war = {
+	name = "war_1467_onin_war"
+	start_date = 1473.4.15
+	end_date = 1477.12.16
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040010 # Ashikaga Yoshimi
+	attackers = { 10050044 10057007 10048115 } # Yamana Masatoyo, Ouchi Masahiro, Hatakeyama Yoshihiro
+	defenders = { 10040008 } # Ashikaga Yoshimasa
+}

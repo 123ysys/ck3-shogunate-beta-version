@@ -1,0 +1,215 @@
+c_nmih_otokuni = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_otokuni1={
+				set_title_name=b_nmih_otokuni1
+			}
+		}
+	}
+	1457.1.1={
+		effect={
+			title:b_nmih_otokuni1={
+				set_title_name=b_nmih_otokuni4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1457.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_yamashiro"
+	}
+	1179.12.18={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=10110060 # Taira Koremori
+	}
+	1183.8.17={
+		liege="d_nmih_yamashiro"
+		holder=10120084 # Minamoto Yoshinaka. Taira's escape to the west
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_yamashiro"
+		holder=10120081 # Minamoto Yoshitsune
+	}
+	1185.11.26={
+		holder=10131650 # Hojo Tokimasa
+	}
+	1186.4.1={
+		holder=11006480 # Ichijo Yoshiyasu
+	}
+	1197.11.23={
+		holder=11006483 # Ichijo Takayoshi
+	}
+	1198.10.19={
+		holder=10230555 # Nakahara Chikayoshi
+	}
+	1203.10.13={
+		holder=12370013 # Hiraga Tomomasa
+	}
+	1205.9.16={
+		holder=10230556 # Nakahara Suetoki
+	}
+	1219.2.13={
+		holder=10130324 # Iga Mitsusue
+	}
+	1221.6.6={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1221.7.6={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1221.8.1={
+		holder=12219046 # Hatano Yoshishige
+	}
+	1258.4.2={
+		holder=12360690 # Ogasawara Nagamasa
+	}
+	1294.8.26={
+		holder=12360694 # Ogasawara Nagauji
+	}
+	1310.9.16={
+		holder=12360701 # Ogasawara Munenaga
+	}
+	1330.10.18={
+		holder=12360710 # Ogasawara Sadamune
+	}
+	1333.6.10={
+		holder=12360710 # Ogasawara Sadamune
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=11000718 # Nijo Moromoto
+	}
+	1336.7.22={
+		liege="d_nmih_yamashiro"
+		holder=12139052 # Ishibashi Kazuyoshi
+	}
+	1363.8.1={
+		holder=10040002 # Ashikaga Yoshiakira
+	}
+	1367.12.28={
+		holder=10040003 # Ashikaga Yoshimitsu
+	}
+	1408.5.31={
+		liege="e_nmih_japan"
+		holder=10040004 # Ashikaga Yoshimochi
+	}
+	1423.3.18={
+		holder=10040005 # Ashikaga Yoshikazu
+	}
+	1425.3.17={
+		holder=10040004 # Ashikaga Yoshimochi
+	}
+	1429.3.15={
+		holder=10040006 # Ashikaga Yoshinori
+	}
+	1441.7.12={
+		holder=10040007 # Ashikaga Yoshikatsu
+	}
+	1442.9.8={
+		liege="d_nmih_settsu"
+		holder=10040543 # Hosokawa Katsumoto
+	}
+	1469.4.1={
+		liege="d_nmih_kawachi"
+		holder=10048115 # Hatakeyama Yoshinari
+	}
+	1477.12.16={
+		liege="d_nmih_settsu"
+		holder=10040544 # Hosokawa Masamoto
+	}
+	1497.1.1={
+		liege="k_nmih_kanrei"
+		holder=10040700 # Kozai Motonaga
+	}
+	1507.9.7={
+		holder=10040501 # Hosokawa Sumimoto
+	}
+	1508.7.28={
+		holder=10040566 # Hosokawa Takakuni
+	}
+	1508.8.1={
+		holder=10040590 # Hosokawa Motoharu
+	}
+	1527.3.14={
+		holder=10042082 # Yanagimoto Kataharu
+	}
+	1528.7.1={
+		holder=10059003 # Miyoshi Motonaga
+	}
+	1529.8.1={
+		holder=10042082 # Yanagimoto Kataharu
+	}
+	1530.8.2={
+		holder=10040901 # Yanagimoto Jinjiro
+	}
+	1531.2.1={
+		holder=10059003 # Miyoshi Motonaga
+	}
+	1532.7.22={
+		holder=10040911 # Takabatake Naganobu
+	}
+	1540.1.1={
+		holder=10040912 # Takabatake Naganao
+	}
+	1543.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10040594 # Hosokawa Kuniyoshi
+	}
+	1547.11.18={
+		holder=10040554 # Hosokawa Ujitsuna
+	}
+	1548.10.28={
+		liege="k_nmih_southern_kinai"
+	}
+	1564.1.4={
+		holder=10059007 # Miyoshi Nagayoshi
+	}
+	1564.8.10={
+		holder=10059014 # Miyoshi Yoshitsugu
+	}
+	1565.6.17={
+		liege="d_nmih_yamashiro"
+		holder=10045220 # Iwanari Tomomichi
+	}
+	1568.10.19={
+		liege="d_nmih_awa"
+	}
+	1573.8.29={
+		liege="k_nmih_chubu"
+		holder=10040203 # Hosokawa Fujitaka
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+	}
+	1580.1.1={
+		liege="d_nmih_yamashiro"
+		holder=10029200 # Murai Sadakatsu
+	}
+	1582.6.21={
+		liege="d_nmih_yamashiro"
+		holder=10040251 # Mimaki Kageshige
+	}
+	1582.7.2={
+		liege="d_nmih_yamashiro"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.8.1={
+		holder=10029439 # Asano Nagayoshi
+	}
+	1583.1.1={
+		holder=10025950 # Maeda Geni
+	}
+	1595.8.20={
+		holder=10045820 # Ishida Mitsunari
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

@@ -1,0 +1,99 @@
+c_nmih_kuji = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kuji1={
+				set_title_name=b_nmih_kuji1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1336.1.1 = { change_development_level = 40 }
+	1400.1.1 = { change_development_level = 50 }
+	1504.1.1 = { change_development_level = 40 }
+	1602.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1133.4.4={
+		holder=10120130 # Satake Masayoshi
+	}
+	1147.1.1={
+		holder=12122002 # Satake Takayoshi
+	}
+	1180.11.22={
+		liege=0 # Siege of Kanasa Castle
+	}
+	1183.6.11={
+		liege="d_nmih_hitachi"
+		holder=12122050 # Satake Hideyoshi / served under Yoritomo
+	}
+	1226.1.17={
+		holder=12122080 # Satake Yoshishige
+	}
+	1252.4.5={
+		holder=12122082 # Satake Nagayoshi
+	}
+	1272.1.1={
+		holder=12122090 # Satake Yoshitane
+	}
+	1278.4.30={
+		holder=12122100 # Satake Yukiyoshi
+	}
+	1305.7.15={
+		holder=12122110 # Satake Sadayoshi
+	}
+	1352.10.18={
+		holder=12122120 # Satake Yoshiatsu
+	}
+	1362.2.7={
+		holder=12122130 # Satake Yoshinobu
+	}
+	1389.8.5={
+		holder=10010821 # Satake Yoshimori
+	}
+	1407.10.22={
+		holder=10010816 # Satake Yoshihito
+	}
+	1467.1.1={
+		holder=10010815 # Satake Yoshitoshi
+	}
+	1477.12.29={
+		holder=10010808 # Satake Yoshiharu
+	}
+	1490.5.14={
+		liege=0 # Yamairi Rebellion
+		holder=12122216 # Satake Yoshifuji
+	}
+	1492.1.1={
+		holder=12122220 # Satake Ujiyoshi
+	}
+	1504.1.1={
+		liege="d_nmih_hitachi"
+		holder=10010803 # Satake Yoshikiyo
+	}
+	1517.4.3={
+		holder=10010801 # Satake Yoshiatsu
+	}
+	1545.5.19={
+		holder=10010802 # Satake Yoshiaki
+	}
+	1565.11.25={
+		holder=10010830 # Satake Yoshishige
+	}
+	1589.1.1={
+		holder=10010836 # Satake Yoshinobu
+	}
+	1603.3.24={
+		liege="d_nmih_hitachi"
+		holder=10024034 # Takeda Nobuyoshi
+	}
+	1603.10.15={
+		holder=10024049 # Tokugawa Yorinobu
+	}
+	1609.12.27={
+		holder=10024050 # Tokugawa Yorifusa
+	}
+}

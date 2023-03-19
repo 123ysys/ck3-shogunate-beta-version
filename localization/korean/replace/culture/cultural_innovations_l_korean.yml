@@ -1,0 +1,214 @@
+﻿l_korean:
+
+ unlock_tribal_economic_buildings:0 "카마쿠라-무로마치 시대의 모든 [economic_buildings|E]를 해금"
+ unlock_tribal_military_buildings:0 "카마쿠라-무로마치 시대의 모든 [military_buildings|E]를 해금"
+ unlock_tribal_fortification_buildings:0 "카마쿠라-무로마치 시대의 모든 [fortification_buildings|E]를 해금"
+ unlock_early_medieval_economic_buildings:0 "초기 센고쿠시대의 모든 [economic_buildings|E]를 해금"
+ unlock_early_medieval_military_buildings:0 "초기 센고쿠시대의 모든 [military_buildings|E]를 해금"
+ unlock_early_medieval_fortification_buildings:0 "초기 센고쿠 시대의 모든 [fortification_buildings|E]를 해금"
+ unlock_high_medieval_economic_buildings:0 "중기 센고쿠 시대의 모든 [economic_buildings|E]를 해금"
+ unlock_high_medieval_military_buildings:0 "중기 센고쿠 시대의 모든 [military_buildings|E]를 해금"
+ unlock_high_medieval_fortification_buildings:0 "중기 센고쿠 시대의 모든 [fortification_buildings|E]를 해금"
+ unlock_late_medieval_economic_buildings:0 "후기 센고쿠 시대의 모든 [economic_buildings|E]를 해금"
+ unlock_late_medieval_military_buildings:0 "후기 센고쿠 시대의 모든 [military_buildings|E]를 해금"
+ unlock_late_medieval_fortification_buildings:0 "후기 센고쿠 시대의 모든 [fortification_buildings|E]를 해금"
+
+##############
+# Tribal Era #
+##############
+
+ # Military
+
+ innovation_motte:0 "야카타"
+ innovation_motte_desc:0 "지방 호족들의 거처인 소규모 성채. 야카타의 주위에는 해자와 도랑을 만들고 담장과 토루를 둘렀다."
+
+ innovation_catapult:0 "카이다테"
+ innovation_catapult_desc:0 "적의 화살을 막기 위해 방패를 울타리처럼 세운 것. 병사들을 투사체로부터 보호한다."
+
+ innovation_barracks:0 "사무라이도코로"
+ innovation_barracks_desc:0 "카마쿠라-무로마치 막부에서 고케닌과 무사를 통솔하는 군사, 경찰조직. 마도코로, 문츄죠 등과 같은 막부의 주요 기관이다."
+
+ innovation_mustering_grounds:0 "고케닌"
+ innovation_mustering_grounds_desc:0 "쇼군에게 충성을 맹세하고 주종 관계를 맺은 무사. 영지의 소유권을 인정받은 대가로 군역 등의 여러 봉공을 이행했다."
+
+ innovation_bannus:0 "덕정령"
+ innovation_bannus_desc:0 "채권자나 금융업자에 대해서 채권, 채무의 파기를 명한 법령. 나중에는 이를 요구하는 민중들의 잇키가 빈번하게 일어났다."
+
+ innovation_quilted_armor:0 "어은과 봉공"
+ innovation_quilted_armor_desc:0 "중세 일본에서 무사의 주종관계를 나타내는 개념. 주인이 종자에게 주는 이익을 어은, 종자가 주인에게 주는 이익을 봉공이라고 한다."
+
+ # Civic
+
+ innovation_gavelkind:0 "총령제"
+ innovation_gavelkind_desc:0 "일족을 통솔하는 총령이 영지의 주요 부분을 상속하고 나머지를 총령 이외의 남자나 여자가 상속받는 분할 상속제도. 막부는 총령을 통해 일족을 지배하였다."
+
+ innovation_crop_rotation:0 "이모작"
+ innovation_crop_rotation_desc:0 "같은 경작지에 1년에 두 종류의 다른 작물을 재배하는 것. 카마쿠라 시대부터 벼와 보리의 이모작이 보급되었다."
+
+ innovation_city_planning:0 "장원공령제"
+ innovation_city_planning_desc:0 "장원(기진지)과 공령(국아령)을 바탕으로 한 토지 지배 구조. 카마쿠라 시대에 최성기를 맞이했다."
+
+ innovation_casus_belli:0 "무가정권"
+ innovation_casus_belli_desc:0 "무사계급이 독자적인 권력과 조직을 가지고 행한 정치적 지배. 카마쿠라 막부부터 에도 막부까지의 시대를 가리킨다."
+
+ innovation_plenary_assemblies:0 "슈고 다이묘"
+ innovation_plenary_assemblies_desc:0 "무로마치 시대의 슈고 가운데 군사, 경찰권 뿐만 아니라 경제적 권력도 장악해 영지의 지배를 강화한 자."
+
+ innovation_development_01:0 "도소"
+ innovation_development_01_desc:0 "카마쿠라-무로마치 시대의 금융업자. 물품을 담보로 금전을 고금리로 융자했다. 주로 술집을 겸업하는 경우가 많았다."
+
+ innovation_currency_01:0 "도래전"
+ innovation_currency_01_desc:0 "일본 국내에서 유통된 외국제 화폐로 중세 일본은 화폐주조 능력이 떨어져 송나라나 명나라로부터 수입한 화폐를 사용하였다."
+
+ innovation_ledger:0 "오오타부미"
+ innovation_ledger_desc:0 "카마쿠라 시대에 작성된 토지 대장. 장원, 공령별 토지면적, 소유관계 등을 기재하였다. 즈덴쵸라고도 한다."
+
+######################
+# Early Medieval Era #
+###################### 
+ 
+ # Military 
+
+ innovation_battlements:0 "도베이"
+ innovation_battlements_desc:0 "성을 에워싼 이시가키나 도루이 위에 세워지는 벽. 도베이는 판자로 만든 벽인 이타베이를 대체하였으며 중세 이후 주류를 이루었다."
+
+ innovation_mangonel:0 "세이로"
+ innovation_mangonel_desc:0 "나무와 대나무로 짜맞추어 만든 망루. 성내의 정찰이나 제압 등 간단한 공성탑으로도 기능한다."
+
+ innovation_burhs:0 "아시가루"
+ innovation_burhs_desc:0 "신분이 낮은 보병. 전국시대에 들어서면서 집단전이 본격화되자 훈련된 아시가루들이 장창, 활, 철포 등의 부대로 조직되어 활약하게 되었다."
+
+ innovation_house_soldiers:0 "우마마와리"
+ innovation_house_soldiers_desc:0 "대장의 호위와 전령을 맡은 기마 무사. 무예가 뛰어난 자들이 모이는 친위대적 존재였다."
+
+ innovation_horseshoes:0 "조리"
+ innovation_horseshoes_desc:0 "헤이안 시대에 등장한 조리는 일상생활과 여행에서 모두 사용할 수 있는 신발로서 무가사회에 널리 유행했다."
+
+ innovation_arched_saddle:0 "마상창"
+ innovation_arched_saddle_desc:0 "카마쿠라 시대의 기마무사는 활이 주무장이었으나 곧이어 타치, 나기나타, 나가마키로 대체되었고 전국시대에는 창이 주류를 이루었다."
+
+ # Civic
+
+ innovation_hereditary_rule:0 "세습지배"
+ innovation_hereditary_rule_desc:0 "무로마치 시대에 접어들어 그전까지의 분할 상속에서 적자에 의한 단독 상속으로 변화되면서 총령제는 사장되었다."
+
+ innovation_manorialism:0 "검지"
+ innovation_manorialism_desc:0 "전답의 면적이나 수량을 조사하는 것. 센고쿠 다이묘는 지배하는 지역에 세금을 거둘 목적으로 검지를 실시하였다."
+
+ innovation_royal_prerogative:0 "센고쿠 다이묘"
+ innovation_royal_prerogative_desc:0 "전국 시대의 전란 속에서 각지에 할거한 독립 세력. 센고쿠 다이묘 중 일부는 슈고 다이묘 출신이었으나, 하극상에 의해 센고쿠 다이묘가 된 사람도 많다."
+
+ innovation_chronicle_writing:0 "하극상"
+ innovation_chronicle_writing_desc:0 "사회적으로 신분이 낮은 사람이 신분이 높은 사람을 실력으로 쓰러뜨려 권력을 손에 넣는 풍조. 센고쿠 시대에 많이 볼 수 있었다."
+
+ innovation_armilary_sphere:0 "수군"
+ innovation_armilary_sphere_desc:0 "물 위의 전통적인 군사 집단. 센고쿠 다이묘는 적극적으로 수군을 편성해 가신단에 편입시켰다. 카이조쿠슈, 케이고슈라고도 불렸다."
+
+ innovation_baliffs:0 "지자무라이"
+ innovation_baliffs_desc:0 "슈고 다이묘나 고쿠진 영주와 주종 관계를 맺어 사무라이 신분을 획득한 유력 묘슈. 묘슈란 농민들로부터 연공 등을 징수하여 영주에게 바치던 중간관리자를 의미한다. 지자무라이 다수는 마을에 거주하며 계속 묘슈로 활동했다."
+
+ innovation_development_02:0 "소손"
+ innovation_development_02_desc:0 "중세 농민들의 자치적인 공동조직. 때로는 여러 소손들이 연합하여 잇키를 일으키는 경우도 있었다."
+
+ innovation_currency_02:0 "에리제니 금지"
+ innovation_currency_02_desc:0 "막부나 다이묘가 에리제니를 금지한 명령. 에리제니란 백성이 거래할 때 품질이 낮은 동전을 가려내는 행위다."
+
+#####################
+# High Medieval Era #
+#####################
+
+ # Military
+
+ innovation_hoardings:0 "타몬야구라"
+ innovation_hoardings_desc:0 "나가야식 망루로 병사의 숙소인 나가야를 망루로도 사용할 수 있도록 석축의 끝에 지은 것이다."
+
+ innovation_trebuchet:0 "타케타바"
+ innovation_trebuchet_desc:0 "대나무를 묶어서 방패막이로 만든 것. 기존에는 막을 수 없었던 철포의 탄환도 효과적으로 방어한다."
+
+ innovation_castle_baileys:0 "군야쿠슈"
+ innovation_castle_baileys_desc:0 "연공을 일부 면제받는 대신 군역을 맡은 농민. 센고쿠 다이묘의 전력의 일부를 담당하였다."
+
+ innovation_men_at_arms:0 "후다이"
+ innovation_men_at_arms_desc:0 "주가를 대대로 섬긴 가신의 가계. 후다이에 대응되는 일반 가신은 토자마라고 부른다."
+
+ innovation_knighthood:0 "코쇼"
+ innovation_knighthood_desc:0 "주군을 보좌하며 허드렛일을 하던 어린 무사. 대부분 소년들이었고 성장한 후에 측근으로 활약하기도 했다."
+
+ innovation_advanced_bowmaking:0 "철포"
+ innovation_advanced_bowmaking_desc:0 "화승총의 일종으로 1543년 타네가시마에서 전래되어 타네가시마라고도 불렸다."
+
+ # Civic
+
+ innovation_heraldry:0 "존비분맥"
+ innovation_heraldry_desc:0 "겐페이토키츠 등 여러 가문의 족보를 집성한 것. 많은 이본이 있지만 역사적 가치가 높다."
+
+ innovation_windmills:0 "분국법"
+ innovation_windmills_desc:0 "센고쿠 다이묘가 영국을 지배하기 위해 제정한 법령. 에도 시대의 막부와 번들의 법에 영향을 주었다."
+
+ innovation_divine_right:0 "직소"
+ innovation_divine_right_desc:0 "다이묘가 조정과 직접 교섭하여 관위를 얻는 것. 관위는 영국 지배의 정당성이나 전쟁의 대의명분으로 이용되었다."
+
+ innovation_land_grants:0 "슈인죠"
+ innovation_land_grants_desc:0 "화압 대신 주인이 찍힌 공문서. 영지의 소유권을 인정받거나 도항 허가에 이용되었다."
+
+ innovation_scutage:0 "야센"
+ innovation_scutage_desc:0 "막부나 센고쿠 다이묘가 임시로 부과한 군용금. 농촌에서는 토지 면적별로, 도시에서는 가구별로 부과되었다."
+
+ innovation_guilds:0 "라쿠이치 라쿠자"
+ innovation_guilds_desc:0 "센고쿠 다이묘에 의한 경제정책. 시장세 등의 면제와 그동안 여러 산업을 독점하던 '자'의 시장독점 특권을 폐지했다."
+
+ innovation_development_03:0 "자치도시"
+ innovation_development_03_desc:0 "봉건 영주의 지배를 벗어나 자치권을 획득한 도시. 센고쿠 시대에는 사카이나 하카타가 자치도시였다."
+
+ innovation_currency_03:0 "회취법"
+ innovation_currency_03_desc:0 "금이나 은광석을 납에 녹여 추출하는 기술. 센고쿠 시대에 전래되어 금과 은의 산출량을 비약적으로 증대시켰다."
+
+#####################
+# Late Medieval Era #
+##################### 
+ 
+ # Military
+
+ innovation_machicolations:0 "이시가키"
+ innovation_machicolations_desc:0 "뎃포의 전래 이후 그 공격을 막는 중량 구조물을 건축하기 위한 기초로서 채용되었다."
+
+ innovation_bombard:0 "오오즈츠"
+ innovation_bombard_desc:0 "센고쿠 시대의 대포의 일종. 센고쿠 시대 후기부터 사용되어 공성전이나 해전에서 위력을 발휘했다."
+
+ innovation_royal_armory:0 "병농분리"
+ innovation_royal_armory_desc:0 "무사 계급과 그 이외의 계급과의 신분을 분리하는 정책. 검지와 카타나기리를 통해 진행됐다."
+
+ innovation_standing_armies:0 "하타모토"
+ innovation_standing_armies_desc:0 "주군의 직속부대에 속한 가신. 주로 후다이로 구성되었으며, 전투 시에는 본진에 배치되었다."
+
+ innovation_sappers:0 "모구라제메"
+ innovation_sappers_desc:0 "적의 진지와 성 아래까지 굴을 뚫어 목표를 파괴하는 전술. 카네호리제메라고도 한다."
+
+ innovation_plate_armor:0 "토세이구소쿠"
+ innovation_plate_armor_desc:0 "갑주의 형식중 하나. 철포의 전래와 전투의 대규모화, 서양 갑옷의 영향을 받아 만들어졌다."
+
+ # Civic
+
+ innovation_primogeniture:0 "장자상속"
+ innovation_primogeniture_desc:0 "무가 사회에 장자 상속이 퍼지는 것은 에도시대 이후, 제도화되는 것은 메이지 시대부터다."
+
+ innovation_cranes:0 "테츠다이후신"
+ innovation_cranes_desc:0 "토요토미 정권이나 에도 막부가 여러 다이묘들에게 명한 대규모 토목 공사. 여러 국의 재정을 크게 악화시켰다."
+
+ innovation_noblesse_oblige:0 "차노유"
+ innovation_noblesse_oblige_desc:0 "손님을 초대하여 차를 대접하는 일본 문화. 센고쿠 시대에 무장들 사이에서 널리 퍼지면서 다도구가 귀하게 여겨졌다."
+
+ innovation_rightful_ownership:0 "천하통일"
+ innovation_rightful_ownership_desc:0 "천하통일을 추진한 오다 노부나가 사후 그 정책을 계승한 토요토미 히데요시가 1590년 일본 통일을 달성했다."
+
+ innovation_ermine_cloaks:0 "키리몬"
+ innovation_ermine_cloaks_desc:0 "오동나무 잎과 꽃을 도안화한 가몬. 무로마치 막부나 도요토미 정권 외에 황실이나 현대 일본 정부에서도 이용된다."
+
+ innovation_court_officials:0 "부교"
+ innovation_court_officials_desc:0 "정무를 맡아 집행하는 사람을 의미. 토요토미 정권에서는 고부교을 두었고, 에도 막부에서는 많은 직명에 사용되었다."
+
+ innovation_development_04:0 "남만무역"
+ innovation_development_04_desc:0 "포르투갈인, 스페인인의 내항을 계기로 일본과 해외 사이에 행해진 무역. 쇄국으로 종료되었다."
+
+ innovation_currency_04:0 "사이후"
+ innovation_currency_04_desc:0 "멀리 떨어진 지역에 송금이나 상업 거래의 결제에 이용된 환어음. 일본의 환전 제도의 토대가 되었다."

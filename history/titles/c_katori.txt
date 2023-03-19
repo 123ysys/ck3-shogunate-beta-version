@@ -1,0 +1,129 @@
+c_nmih_katori = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_katori1={
+				set_title_name=b_nmih_katori5
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_katori1={
+				set_title_name=b_nmih_katori2
+			}
+		}
+	}
+	1455.10.17={
+		effect={
+			title:b_nmih_katori1={
+				set_title_name=B_NMIH_KATORI3_1207
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1190.1.1 = { change_development_level = 30 }
+	1250.1.1 = { change_development_level = 40 }
+	1400.1.1 = { change_development_level = 40 }
+	1455.10.17 = { change_development_level = 30 }
+	1460.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_shimousa"
+	}
+	1135.1.1={
+		holder=12160100 # Chida [Fujiwara] Chikamichi
+	}
+	1140.1.1={
+		holder=12160110 # Chiba [Fujiwara] Chikamori
+	}
+	1170.1.1={
+		holder=12160120 # Chiba [Fujiwara] Chikamasa
+	}
+	1180.10.4={
+		liege="d_nmih_shimousa"
+		holder=12150120 # Chiba Tsunetane
+	}
+	1201.4.28={
+		holder=12150123 # Chiba Tanemasa
+	}
+	1203.8.28={
+		holder=12150130 # Chiba Naritane
+	}
+	1218.5.6={
+		holder=12150135 # Chiba Tanetsuna
+	}
+	1228.7.1={
+		holder=12150141 # Chiba Yasutane
+	}
+	1251.1.1={
+		holder=12150145 # Chiba Yoritane
+	}
+	1275.9.7={
+		liege="e_nmih_japan"
+		holder=12150150 # Chiba Munetane
+	}
+	1294.2.12={
+		holder=12150155 # Chiba Tanesada
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.12.22={
+		liege="d_nmih_shimousa"
+		holder=12150187 # Chiba Tanetsugu
+	}
+	1370.1.1={
+		holder=12150490 # Kokubu Taneaki
+	}
+	1380.1.1={
+		holder=12150495 # Kokubu Tadatane
+	}
+	1420.1.1={
+		holder=12150500 # Kokubu Noritane
+	}
+	1460.1.1={
+		holder=12150505 # Kokubu Yukitane
+	}
+	1490.1.1={
+		holder=12150510 # Kokubu Tanemori
+	}
+	1520.1.1={
+		holder=12150515 # Kokubu Tanesuke
+	}
+	1540.1.1={
+		holder=12150520 # Kokubu Tomotane
+	}
+	1550.1.1={
+		holder=12150526 # Kokubu Tanenori
+	}
+	1562.5.1={
+		holder=12150530 # Kokubu Tanemasa
+	}
+	1585.1.1={
+		holder=12150535 # Kokubu Tanemitsu
+	}
+	1590.7.25={
+		holder=10024952 # Torii Mototada
+	}
+	1600.9.8={
+		holder=10024953 # Torii Tadamasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10202802 # Ando Shigenobu
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

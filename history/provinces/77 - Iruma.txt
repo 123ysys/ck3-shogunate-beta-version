@@ -1,0 +1,8 @@
+77 = {
+
+	culture = western_kanto
+	religion = shinto
+	holding = castle_holding
+	1599.1.1={
+	}
+}

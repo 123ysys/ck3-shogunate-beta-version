@@ -1,0 +1,17 @@
+595 = {
+
+	culture = okinawa
+	religion = ryukyuan
+	holding = castle_holding
+	1398.1.1={ # Kingdom of Nanzan moved its capital from Shimasoe-Ozato (Ozato) to Shimajiri-Ozato (Itoman)
+	}
+	1429.1.1={ # Kingdom of Chuzan conquested Nanzan and moved its capital from Urasoe to Shuri
+		buildings = {
+			castle_03
+		}
+	}
+	1453.5.26={
+	}
+	1456.2.1={
+	}
+}

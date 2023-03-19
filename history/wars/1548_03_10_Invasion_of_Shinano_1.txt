@@ -1,0 +1,12 @@
+war = {
+	name = "war_1548_invasion_of_shinano"
+	start_date = 1548.3.10
+	end_date = 1550.9.5
+	targeted_titles = {
+		c_nmih_chiisagata
+	}
+	casus_belli = event_claim_cb
+	claimant = 10020010 # Takeda Harunobu(Shingen)
+	attackers = { 10020010 } # Takeda Harunobu(Shingen)
+	defenders = { 10021500 10021602 10021402 } # Murakami Yoshikiyo, Takanashi Masayori, Ogasawara Nagatoki
+}

@@ -1,0 +1,173 @@
+c_nmih_kurate = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kurate1={
+				set_title_name=b_nmih_kurate2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kurate1={
+				set_title_name=b_nmih_kurate2
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_kurate1={
+				set_title_name=B_NMIH_KURATE2_1185
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	160.1.1={
+		holder=10290011 # Ubako
+		liege=d_nmih_chikuzen
+	}
+	220.1.1={
+		holder=10290012 # Iguro
+	}
+	250.1.1={
+		holder=10290013 # Ateri
+	}
+	280.1.1={
+		holder=10290014 # Fuku
+	}
+	310.1.1={
+		holder=10290115 # Wani
+	}
+	1180.1.1={
+		liege="d_nmih_buzen"
+		holder=12780700 # Yamaga Hideto
+	}
+	1185.3.4={
+		liege="k_nmih_western_chugoku" # Battle of Ashiya-no-ura
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_chikuzen"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.11.13={
+		holder=12230101 # Amano Tokage
+	}
+	1190.1.1={
+		liege="d_nmih_chikuzen"
+		holder=10068500 # Aso Iemasa
+	}
+	1230.1.1={
+		holder=10068501 # Aso Tokiie
+	}
+	1250.1.1={
+		holder=10068507 # Aso Suketoki
+	}
+	1280.1.1={
+		holder=10068508 # Aso Sukeuji
+	}
+	1320.1.1={
+		holder=10068510 # Aso Masauji
+	}
+	1330.1.1={
+		holder=10068514 # Aso Iemune
+	}
+	1333.7.4={
+		liege="d_nmih_chikuzen"
+	}
+	1334.1.1={
+		liege="d_nmih_buzen"
+	}
+	1334.7.1={
+		liege="d_nmih_chikuzen"
+	}
+	1336.7.22={
+		liege="k_nmih_kyushu_tandai"
+	}
+	1350.1.1={
+		holder=10068533 # Aso Ienaga
+	}
+	1355.1.1={
+		liege="e_nmih_japan"
+	}
+	1370.1.1={
+		liege="k_nmih_kyushu_tandai"
+		holder=10068516 # Aso Yoshisuke
+	}
+	1400.1.1={
+		holder=10068520 # Aso Ieharu
+	}
+	1400.1.17={
+		liege="k_nmih_western_chugoku"
+	}
+	1436.6.1={
+		holder=10068524 # Aso Hiroie
+	}
+	1480.1.1={
+		holder=10068525 # Aso Hirokuni
+	}
+	1500.1.1={
+		holder=10068526 # Aso Hirokuni
+	}
+	1520.1.1={
+		holder=10068527 # Aso Ieshige
+	}
+	1540.1.1={
+		holder=10068528 # Aso Okimasu
+	}
+	1549.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10066457 # Sagara Taketoo
+	}
+	1551.9.30={
+		holder=10068528 # Aso Okimasu
+	}
+	1558.6.1={
+		holder=10068530 # Aso Takasane
+	}
+	1559.1.1={
+		liege="d_nmih_bungo"
+		holder=10068537 # Aso Shigesato
+	}
+	1561.10.1={
+		liege="k_nmih_western_chugoku"
+		holder=10068530 # Aso Takasane
+	}
+	1564.8.1={
+		liege="d_nmih_bungo"
+		holder=10068537 # Aso Shigesato
+	}
+	1567.1.1={
+		liege="d_nmih_chikugo"
+		holder=10068530 # Aso Takasane
+	}
+	1569.8.1={
+		liege="d_nmih_chikuzen"
+	}
+	1571.12.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1587.5.18={
+		liege="d_nmih_chikuzen"
+	}
+	1590.1.1={
+		holder=10068531 # Aso Ieuji
+	}
+	1598.3.1={
+		liege="e_nmih_japan"
+	}
+	1600.1.1={
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1603.3.24={
+		liege="d_nmih_chikuzen"
+		holder=10207800 # Mori Tomonobu
+	}
+	1606.1.1={
+		holder=10207600 # Inoue Yukifusa
+	}
+}

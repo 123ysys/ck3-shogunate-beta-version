@@ -1,0 +1,230 @@
+c_nmih_yamabe = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yamabe1={
+				set_title_name=b_nmih_yamabe4
+			}
+		}
+	}
+	1180.1.1={
+		effect={
+			title:b_nmih_yamabe1={
+				set_title_name=b_nmih_yamabe9
+			}
+		}
+	}
+	1330.1.1={
+		effect={
+			title:b_nmih_yamabe1={
+				set_title_name=b_nmih_yamabe4
+			}
+		}
+	}
+	1560.1.1={
+		effect={
+			title:b_nmih_yamabe1={
+				set_title_name=B_NMIH_YAMABE4_1560
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1180.1.1 = { change_development_level = 30 }
+	1330.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_yamato"
+	}
+	1179.5.20={
+		government = theocracy_government
+		liege="d_nmih_kofukuji" # Genen
+		holder=12570101 # Genen
+	}
+	1181.1.12={
+		liege="d_nmih_kofukuji" # Shinen
+		holder=11000162 # Shinen. Siege of Nara
+	}
+	1189.7.13={
+		holder=11006929 # [45] Kakuken
+	}
+	1199.1.18={
+		holder=10125050 # [47] Gaen
+	}
+	1207.2.20={
+		holder=11000605 # [48] Ryoen
+	}
+	1208.2.28={
+		holder=10125050 # [49] Gaen
+	}
+	1214.1.16={
+		holder=11006930 # [50] Shinken
+	}
+	1218.1.10={
+		holder=10125050 # [51] Gaen
+	}
+	1219.1.14={
+		holder=11000605 # [52] Ryoen
+	}
+	1220.2.21={
+		holder=10125050 # [53] Gaen
+	}
+	1226.1.1={
+		holder=11000461 # [55] Jitsuson
+	}
+	1230.5.5={
+		holder=11000216 # [56] Jitsushin
+	}
+	1233.1.1={
+		holder=11000216 # [58] Jitsushin
+	}
+	1235.1.1={
+		holder=11000634 # [59] Enjitsu
+	}
+	1244.1.1={
+		holder=11000216 # [61][63] Jitsushin
+	}
+	1250.1.1={
+		holder=11001127 # [65] Kinen
+	}
+	1251.1.1={
+		holder=11000216 # [66] Jitsushin
+	}
+	1253.1.1={
+		holder=10125067 # [67] Shinen
+	}
+	1258.11.14={
+		holder=11000634 # [69] Enjitsu
+	}
+	1260.1.4={
+		holder=11000627 # [70] Sonshin
+	}
+	1266.8.3={
+		holder=11004139 # [71] Raien
+	}
+	1273.5.9={
+		holder=11000246 # [73] Shinsho
+	}
+	1278.2.10={
+		holder=11000627 # [75] Sonshin
+	}
+	1280.1.13={
+		holder=11000246 # [76] Shinsho
+	}
+	1281.4.30={
+		holder=11000657 # [77][80][83][85] Jishin 
+	}
+	1295.1.1={
+		holder=10125308 # [86] Kenkaku
+	}
+	1297.3.27={
+		holder=11000657 # [90] Jishin
+	}
+	1303.12.10={
+		holder=11000252 # [93] Kakusho
+	}
+	1305.1.25={
+		holder=11000683 # [94] Jinkaku
+	}
+	1307.1.1={
+		holder=11000414 # [97] Ryoshin
+	}
+	1308.1.1={
+		holder=11000683 # [99] Jinkaku
+	}
+	1310.1.1={
+		holder=11000414 # [100] Ryoshin
+	}
+	1315.1.1={
+		holder=11000683 # [103] Jinkaku
+	}
+	1316.1.1={
+		holder=11000414 # [105] Ryoshin
+	}
+	1317.1.1={
+		holder=11000260 # [106][108][110] Ryokaku
+	}
+	1318.1.1={
+		holder=11000414 # [114] Ryoshin
+	}
+	1319.1.1={
+		holder=11000260 # [117][119] Ryokaku
+	}
+	1330.1.1={
+		liege="d_nmih_kofukuji"
+		holder=10048907 # Furuichi TajimaNoKimi
+	}
+	1370.1.1={
+		liege="d_nmih_kofukuji"
+		holder=10048905 # Furuichi Inken
+	}
+	1400.1.1={
+		holder=10048906 # Furuichi Inken
+	}
+	1430.1.1={
+		holder=10048900 # Furuichi Insen
+	}
+	1453.8.8={
+		holder=10048901 # Furuichi Inei
+	}
+	1466.10.1={
+		liege="d_nmih_kawachi"
+	}
+	1475.1.1={
+		holder=10048902 # Furuichi Choin
+	}
+	1506.7.1={
+		liege="k_nmih_kanrei"
+	}
+	1508.8.22={
+		liege="d_nmih_kawachi"
+		holder=10048903 # Furuichi Koin
+	}
+	1521.1.1={
+		liege="d_nmih_kii"
+		holder=10048402 # Tsutsui Junko
+	}
+	1534.1.1={
+		liege="d_nmih_yamato"
+		holder=10048403 # Tsutsui Junsho
+	}
+	1550.8.2={
+		liege="d_nmih_yamato"
+		holder=10048413 # Tsutsui Junkei
+	}
+	1560.1.1={ # Matsunaga Hisahide's invation of Yamato
+		government = feudal_government
+		liege="d_nmih_yamato"
+		holder=10045400 # Matsunaga Hisahide
+	}
+	1573.12.10={ # Matsunaga surrendered to Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.5.15={
+		holder=10029390 # Ban Naomasa
+	}
+	1576.5.30={
+		holder=10029120 # Oda Nobunaga
+	}
+	1576.6.6={
+		government = theocracy_government
+		holder=10048413 # Tsutsui Junkei
+	}
+	1584.9.15={
+		government = feudal_government
+		holder=10048415 # Tsutsui Sadatsugu
+	}
+	1585.9.14={
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1591.2.15={
+		holder=10029413 # Toyotomi Hideyasu
+	}
+	1595.5.24={
+		holder=10043370 # Mashita Nagamori
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10049005 # Yagyu Munenori
+	}
+}

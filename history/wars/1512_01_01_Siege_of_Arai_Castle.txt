@@ -1,0 +1,12 @@
+war = {
+	name = "war_1512_siege_of_arai_castle"
+	start_date = 1512.1.1
+	end_date = 1516.8.19
+	targeted_titles = {
+		c_nmih_miura
+	}
+	casus_belli = event_claim_cb
+	claimant = 10016001 # Hojo Soun
+	attackers = { 10016001 } # Hojo Soun
+	defenders = { 10017043 } # Uesugi [Ogigaya] Tomoyoshi
+}

@@ -1,0 +1,26 @@
+﻿l_spanish:
+
+ # Base MaA
+ light_footmen:0 "Yari Ashigaru de elite"
+ bowmen:0 "Yumi Ashigaru de elite"
+ crossbowmen:0 "Teppo Ashigaru de elite"
+ armored_footmen:0 "Samurai"
+ armored_horsemen:0 "Kiba Musha"
+
+ # Siege MaA
+ onager:0 "Kaidate"
+ mangonel:0 "Seiro"
+ trebuchet:0 "Taketaba"
+ bombard:0 "Ozutsu"
+
+ # MaA Descriptions
+ light_footmen_flavor:1 "#F Los escaramuzadores veteranos son hostigadores invaluables, desorganizando los flancos enemigos y minando la moral.#!"
+ bowmen_flavor:1 "#F Los arqueros profesionales llenan el aire de flechas, devastando a las primeras tropas enemigas.#!"
+ crossbowmen_flavor:0 "#F Aunque tardan en recargarse, los arcabuces son fáciles de usar y disparan balas que pueden atravesar la mayoría de las armaduras a una buena distancia.#!"
+ armored_footmen_flavor:1 "#F Fuertemente armadas y bien entrenadas, estas tropas se especializan en aplastar infantería en masa.#!"
+ armored_horsemen_flavor:0 "#F Fuertemente armados y blindados, estos jinetes dominan la guerra en las llanuras abiertas.#!"
+
+ onager_flavor:0 "#F Kaidate consta de muchos escudos dispuestos en el suelo. Protege a los soldados de los proyectiles enemigos.#!"
+ mangonel_flavor:0 "#F Seiro es una especie de torre de vigilancia hecha de madera o bambú. También se usa como una simple torre de asedio..#!"
+ trebuchet_flavor:0 "#F Taketaba es un escudo hecho de bambú. Puede detener no solo flechas sino también balas de arcabuces.#!"
+ bombard_flavor:0 "#F Ozutsu es una especie de cañón. Aunque caro y escaso, puede atravesar fortificaciones con facilidad.#!"

@@ -1,0 +1,174 @@
+c_nmih_ono = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ono1={
+				set_title_name=b_nmih_ono9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ono1={
+				set_title_name=b_nmih_ono9
+			}
+		}
+	}
+	1190.1.1={
+		effect={
+			title:b_nmih_ono1={
+				set_title_name=b_nmih_ono1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1190.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_echizen"
+	}
+	1180.1.1={
+		liege=0
+		holder=10131297 # Saito Seimei
+	}
+	1181.7.26={
+		liege="d_nmih_kaga" # Battle of Yokota-gawara
+	}
+	1183.5.20={
+		liege="d_nmih_echizen" # Siege of Hiuchi Castle
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_echizen"
+		holder=10131324 # Yasuhara Jitsusen
+	}
+	1190.1.1={
+		liege="d_nmih_echizen"
+		holder=12301100 # Tosa Hiroyoshi
+	}
+	1221.7.6={
+		liege="d_nmih_tanba"
+		holder=10131680 # Hojo [Sasuke] Tokimori
+	}
+	1270.1.1={
+		holder=10131806 # Hojo [Sasuke] Tokiharu
+	}
+	1279.1.1={
+		liege="d_nmih_yamashiro"
+		holder=10132323 # Hojo UkyoNoSuke
+	}
+	1333.6.24={
+		liege="d_nmih_echizen"
+		holder=10130223 # Goto Motoo
+	}
+	1333.7.4={
+		liege="d_nmih_echizen"
+		holder=12185200 # Horiguchi Sadayoshi
+	}
+	1334.8.1={
+		holder=12139049 # Shiba Takatsune
+	}
+	1335.2.1={
+		liege="d_nmih_nitta"
+		holder=12185203 # Horiguchi Sadamitsu
+	}
+	1338.2.1={
+		holder=12185211 # Horiguchi Sadasuke
+	}
+	1339.1.1={
+		liege="d_nmih_echizen"
+		holder=12139049 # Shiba Takatsune
+	}
+	1341.2.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1350.12.20={
+		holder=12139049 # Shiba Takatsune
+	}
+	1366.9.13={
+		holder=10048109 # Hatakeyama Yoshifuka
+	}
+	1379.1.1={
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1379.2.1={
+		liege="d_nmih_echizen"
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1380.1.1={
+		holder=10029010 # Shiba Yoshitane
+	}
+	1408.3.8={
+		holder=10029017 # Shiba Mitsutane
+	}
+	1427.7.30={
+		holder=10029018 # Shiba Mochitane
+	}
+	1452.10.13={
+		holder=10029019 # Shiba Yoshitoshi
+	}
+	1467.6.27={
+		liege="d_nmih_totomi"
+	}
+	1475.1.1={
+		liege="d_nmih_echizen"
+		holder=10030007 # Asakura Takakage
+	}
+	1475.1.2={
+		holder=10030068 # Asakura Kokyu
+	}
+	1494.2.10={
+		holder=10030010 # Asakura Sadakage
+	}
+	1512.4.11={
+		holder=10030000 # Asakura Takakage
+	}
+	1527.1.1={
+		holder=10030012 # Asakura Kagetaka
+	}
+	1540.8.1={
+		holder=10030022 # Asakura Kageakira
+	}
+	1573.9.16={
+		holder=10029120 # Oda Nobunaga
+	}
+	1573.9.24={
+		holder=10030100 # Maeba Yoshitsugu
+	}
+	1574.2.10={
+		liege=0
+		holder=10030120 # Toda Nagashige
+	}
+	1574.3.7={
+		government = theocracy_government
+		holder=10042324 # Shimotsuma Raisho
+	}
+	1574.9.1={
+		liege="d_nmih_echizen" # 42324 Shimotsuma Raisho
+		holder=10042351 # Sugiura Gento
+	}
+	1575.9.25={
+		government = feudal_government
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.10.6={
+		liege="d_nmih_echizen" # 29280 Shibata Katsuie
+		holder=10025930 # Kanamori Nagachika
+	}
+	1583.6.14={
+		liege="e_nmih_japan"
+		holder=10025930 # Kanamori Nagachika
+	}
+	1585.9.9={
+		holder=10093106 # Aoki Kazunori
+	}
+	1593.8.5={
+		holder=10029193 # Oda Hidekatsu
+	}
+	1603.3.24={
+		liege="d_nmih_echizen"
+		holder=12386671 # Yoda Yasukatsu (Kato Yasuhiro)
+	}
+}

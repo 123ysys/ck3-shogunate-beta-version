@@ -1,0 +1,108 @@
+c_nmih_musa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_musa1={
+				set_title_name=b_nmih_musa1
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_musa1={
+				set_title_name=b_nmih_musa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1300.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 20 }
+	1490.1.1 = { change_development_level = 20 }
+	1500.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_kazusa"
+	}
+	1180.1.1={
+		liege="d_nmih_kazusa" # Kazusa Hirotsune
+		holder=12155017 # Kazusa Hirotsune
+	}
+	1184.2.3={
+		holder=12211801 # Tsuchiya Yoshikiyo
+	}
+	1213.5.24={
+		holder=12155460 # Into Tsunenao
+	}
+	1247.7.10={
+		liege="d_nmih_shimousa"
+		holder=12150145 # Chiba Yoritane
+	}
+	1275.9.7={
+		holder=12150151 # Chiba Tanemune
+	}
+	1312.5.5={
+		holder=12150160 # Chiba Sadatane
+	}
+	1333.7.4={
+		liege="d_nmih_northern_omi"
+		holder=10044203 # Kyogoku Takauji
+	}
+	1356.4.1={
+		liege="d_nmih_shimousa"
+		holder=12150166 # Chiba Ujitane
+	}
+	1365.9.28={
+		holder=12150170 # Chiba Mitsutane
+	}
+	1417.1.27={
+		holder=12150175 # Chiba Kanetane
+	}
+	1430.7.7={
+		holder=10011611 # Chiba Tanenao
+	}
+	1441.1.1={
+		holder=10011612 # Chiba Tanemasa
+	}
+	1454.7.18={
+		holder=10011613 # Chiba Tanenobu
+	}
+	1455.9.23={
+		holder=12150176 # Chiba Yasutane
+	}
+	1456.11.28={
+		holder=10011606 # Chiba Suketane
+	}
+	1466.1.1={
+		liege=0
+		holder=10011705 # Sakai Sadataka
+	}
+	1490.1.1={
+		holder=10011706 # Sakai Sadaharu
+	}
+	1505.1.1={
+		holder=10011701 # Sakai Tsuneharu
+	}
+	1555.1.1={
+		holder=10011709 # Sakai Taneharu
+	}
+	1576.1.1={
+		liege="k_nmih_western_kanto" # vassal of Hojo
+	}
+	1577.6.9={
+		holder=10011710 # Sakai Yasuharu
+	}
+	1590.7.25={
+		holder=10024161 # Ishikawa Yasumichi
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1605.6.2={
+		holder=10024031 # Tokugawa Hidetada
+	}
+	1615.1.1={
+		holder=10024286 # Okubo Tadanari
+	}
+}

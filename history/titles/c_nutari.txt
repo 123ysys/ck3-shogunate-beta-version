@@ -1,0 +1,136 @@
+c_nmih_nutari = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nutari1={
+				set_title_name=b_nmih_nutari3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nutari1={
+				set_title_name=b_nmih_nutari9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_nutari1={
+				set_title_name=B_NMIH_NUTARI9_1331
+			}
+		}
+	}
+	1568.1.1={
+		effect={
+			title:b_nmih_nutari1={
+				set_title_name=b_nmih_nutari2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1300.1.1 = { change_development_level = 40 }
+	1534.1.1 = { change_development_level = 40 }
+	1568.1.1 = { change_development_level = 40 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12270160 # Okuyama Gonnokami
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="d_nmih_northern_echigo"
+		holder=12270131 # Jo Nagamochi
+	}
+	1201.3.28={
+		liege="d_nmih_northern_echigo"
+		holder=12270140 # Jo Sukemori
+	}
+	1201.6.11={
+		liege="d_nmih_kazusa"
+		holder=12211502 # Wada Yoshimochi
+	}
+	1209.1.1={
+		holder=12211506 # Wada Shigemochi
+	}
+	1213.5.23={
+		liege="d_nmih_echigo"
+		holder=12211506 # Wada Shigemochi
+	}
+	1213.5.24={
+		liege="d_nmih_echigo"
+		holder=12271400 # Wada Tokimochi
+	}
+	1280.1.1={
+		holder=12271405 # Wada Mochitsura
+	}
+	1310.1.1={
+		holder=12271410 # Nakajo Mochiaki
+	}
+	1333.7.4={
+		liege=0
+		holder=12271416 # Nakajo Mochitsugu
+	}
+	1335.8.14={
+		liege="d_nmih_sado"
+	}
+	1338.8.17={
+		liege="d_nmih_echigo"
+		holder=12271416 # Nakajo Mochitsugu
+	}
+	1340.1.1={
+		liege="d_nmih_echigo"
+		holder=12271415 # Nakajo Mochisuke
+	}
+	1370.1.1={
+		holder=12271420 # Nakajo Masasuke
+	}
+	1400.1.1={
+		holder=12271425 # Nakajo Samusuke
+	}
+	1420.1.1={
+		holder=12271430 # Nakajo Fusasuke
+	}
+	1450.1.1={
+		holder=12271435 # Nakajo Tomofusa
+	}
+	1480.1.1={
+		holder=10032606 # Nakajo Sadasuke
+	}
+	1494.1.1={
+		holder=10032601 # Nakajo Fujisuke
+	}
+	1530.1.1={
+		liege=0
+	}
+	1531.1.1={
+		liege="d_nmih_echigo" # 32000 Nagao Tamekage
+	}
+	1568.1.1={
+		holder=10032319 # Shibata Naganori
+	}
+	1580.1.1={
+		holder=10032320 # Shibata Shigeie
+	}
+	1581.6.16={
+		liege=0 # Shibata Shigeie rebellion
+		holder=10032320 # Shibata Shigeie
+	}
+	1587.11.25={
+		liege="d_nmih_echigo"
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1598.3.1={
+		holder=10093500 # Mizoguchi Hidekatsu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1610.11.13={
+		holder=10093501 # Mizoguchi Nobukatsu
+	}
+}

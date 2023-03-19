@@ -1,0 +1,16 @@
+﻿namespace = shogunate_bookmark
+
+# AI Personality
+shogunate_bookmark.9500 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		shogunate_ai_personality_effect = {
+			CHAR  = 10029120											# Oda Nobunaga
+			YEARS = 100
+		}
+
+	}
+}

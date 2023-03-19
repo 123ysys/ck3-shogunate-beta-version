@@ -1,0 +1,180 @@
+﻿namespace = shogunate_achievement
+
+# Unlock Achievement (notify)
+shogunate_achievement.0001 = {
+	type = character_event
+
+	title = shogunate_achievement.0001.t
+	desc = {
+		desc = shogunate_achievement.0001.desc.opening
+		first_valid = {
+
+			# Hard
+			triggered_desc = {
+				trigger = { scope:achievement = flag:dream_within_a_dream }
+				desc = shogunate_achievement.0001.desc.dream_within_a_dream
+			}
+			triggered_desc = {
+				trigger = { scope:achievement = flag:1180_minamoto_yoritomo_vassal }
+				desc = shogunate_achievement.0001.desc.1180_minamoto_yoritomo_vassal
+			}
+
+			# Very Hard
+			triggered_desc = {
+				trigger = { scope:achievement = flag:1614_toyotomi_hideyori_vassal }
+				desc = shogunate_achievement.0001.desc.1614_toyotomi_hideyori_vassal
+			}
+			triggered_desc = {
+				trigger = { scope:achievement = flag:defender_of_the_faith }
+				desc = shogunate_achievement.0001.desc.defender_of_the_faith
+			}
+
+			# Insane
+			triggered_desc = {
+				trigger = { scope:achievement = flag:1591_kunohe_masazane }
+				desc = shogunate_achievement.0001.desc.1591_kunohe_masazane
+			}
+
+			desc = shogunate_achievement.0001.desc.default
+		}
+		desc = shogunate_achievement.0001.desc.ending
+	}
+
+	theme = party
+	left_portrait = {
+		character = scope:achiever
+		animation = happiness
+	}
+
+	option = {
+		name = shogunate_achievement.0001.a
+	}
+}
+
+# End of War (trigger)
+shogunate_achievement.1000 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_multiple_players = no
+			}
+
+			# Very Hard
+
+			if = {
+				limit = {
+					shogunate_achievement_enable_trigger = {
+						ACHIEVEMENT = 1614_toyotomi_hideyori_vassal
+					}
+					shogunate_achievement_win_war_third_trigger = {
+						WAR = siege_of_osaka
+						CHAR = 10029415										# Toyotomi Hideyori
+					}
+				}
+				every_player = {
+					shogunate_achievement_unlock_effect = {
+						ACHIEVEMENT = 1614_toyotomi_hideyori_vassal
+					}
+				}
+			}
+
+			# Insane
+
+			if = {
+				limit = {
+					shogunate_achievement_enable_trigger = {
+						ACHIEVEMENT = 1591_kunohe_masazane
+					}
+					shogunate_achievement_win_war_trigger = {
+						WAR = revolt_of_kunohe_masazane
+					}
+				}
+				every_player = {
+					shogunate_achievement_unlock_effect = {
+						ACHIEVEMENT = 1591_kunohe_masazane
+					}
+				}
+			}
+		}
+	}
+}
+
+# Change of Title (trigger)
+shogunate_achievement.1100 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_multiple_players = no
+			}
+
+			# Hard
+
+			if = {
+				limit = {
+					shogunate_achievement_enable_trigger = {
+						ACHIEVEMENT = dream_within_a_dream
+					}
+					any_player = {
+						has_title = title:e_nmih_unifier
+					}
+				}
+				every_player = {
+					shogunate_achievement_unlock_effect = {
+						ACHIEVEMENT = dream_within_a_dream
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					shogunate_achievement_enable_trigger = {
+						ACHIEVEMENT = 1180_minamoto_yoritomo_vassal
+					}
+					any_player = {
+						has_title = title:e_nmih_japan
+					}
+				}
+				every_player = {
+					shogunate_achievement_unlock_effect = {
+						ACHIEVEMENT = 1180_minamoto_yoritomo_vassal
+					}
+				}
+			}
+
+			# Very Hard
+
+			if = {
+				limit = {
+					shogunate_achievement_enable_trigger = {
+						ACHIEVEMENT = defender_of_the_faith
+					}
+					title:c_nmih_otagi = {									# Kyoto
+						holder.faith = faith:catholic
+					}
+					title:c_nmih_higashinari = {							# Osaka
+						holder.faith = faith:catholic
+					}
+					title:c_nmih_oita = {									# Funai
+						holder.faith = faith:catholic
+					}
+					title:c_nmih_sonoki = {									# Nagasaki
+						holder.faith = faith:catholic
+					}
+					title:c_nmih_takaku = {									# Shimabara
+						holder.faith = faith:catholic
+					}
+				}
+				every_player = {
+					shogunate_achievement_unlock_effect = {
+						ACHIEVEMENT = defender_of_the_faith
+					}
+				}
+			}
+
+		}
+	}
+}

@@ -1,0 +1,66 @@
+d_nmih_eastern_shinano = {
+	100.1.1={
+	}
+	1180.6.15={
+		liege="k_nmih_shinano"
+		holder=12380517 # Nenoi [Mochizuki] Yukichika
+	}
+	1183.8.17={
+		liege=0
+		holder=0 # 
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12370002 # Hiraga Yoshinobu
+	}
+	1207.2.1={
+		liege=0
+		holder=0 # 
+	}
+	1273.6.13={
+		liege="e_nmih_japan"
+		holder=10131714 # Hojo [Shiota] Yoshimasa
+	}
+	1282.1.8={
+		holder=10131888 # Hojo [Shiota] Kunitoki
+	}
+	1333.7.4={
+		liege=0
+		holder=0 # 
+	}
+	1570.1.1={
+		liege="k_nmih_tokai"
+		holder=10021148 # Sanada Nobutsuna
+	}
+	1575.6.29={
+		holder=10021150 # Sanada Masayuki
+	}
+	1582.4.3={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege=0
+	}
+	1582.7.13={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1582.7.28={
+		liege="k_nmih_western_kanto"
+	}
+	1582.10.11={
+		liege="k_nmih_tokai"
+	}
+	1582.11.14={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10021163 # Sanada Nobuyuki
+	}
+}

@@ -1,0 +1,137 @@
+c_nmih_makabe = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_makabe1={
+				set_title_name=b_nmih_makabe3
+			}
+		}
+	}
+	1343.11.11={
+		effect={
+			title:b_nmih_makabe1={
+				set_title_name=B_NMIH_MAKABE3_1343
+			}
+		}
+	}
+	1455.4.1={
+		effect={
+			title:b_nmih_makabe1={
+				set_title_name=b_nmih_makabe1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1172.1.1 = { change_development_level = 30 }
+	1343.1.1 = { change_development_level = 30 }
+	1343.11.11 = { change_development_level = 20 }
+	1455.4.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1132.1.1={
+		holder=11005786 # Isa Tomomune
+	}
+	1172.1.1={
+		holder=12121000 # Date [Isa] Nensei
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1180.11.22={
+		liege="d_nmih_hitachi" # Siege of Kanasa Castle
+	}
+	1189.11.1={
+		holder=12121001 # Isa Tamemune
+	}
+	1221.7.5={
+		holder=12121012 # Isa Tametsuna
+	}
+	1250.1.1={
+		holder=12121014 # Isa Muneyuki
+	}
+	1280.1.1={
+		holder=12121015 # Isa Yukikata
+	}
+	1310.1.1={
+		holder=12121016 # Isa Tokikata
+	}
+	1333.7.4={
+		liege="d_nmih_tsukuba"
+		holder=12136025 # Seki Munesuke
+	}
+	1343.11.28={
+		liege="k_nmih_kamakura_kubo"
+		holder=12120730 # Oguri Shigemasa
+	}
+	1350.1.1={
+		holder=12120735 # Oguri Shigesada
+	}
+	1380.1.1={
+		holder=12120740 # Oguri Akishige
+	}
+	1410.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12120746 # Oguri Mitsushige
+	}
+	1411.10.1={
+		liege=0
+	}
+	1423.9.13={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1439.3.24={
+		liege="k_nmih_kanto_kanrei"
+		holder=12120750 # Oguri Sukeshige
+	}
+	1455.4.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10010706 # Tagaya Ujiie
+	}
+	1465.7.12={
+		holder=10010712 # Tagaya Takatsune
+	}
+	1482.1.1={
+		holder=10010705 # Tagaya Ietane
+	}
+	1500.1.1={
+		holder=10010704 # Tagaya Ieshige
+	}
+	1530.1.1={
+		holder=10010703 # Tagaya Shigemasa
+	}
+	1534.1.1={
+		liege=0
+		holder=10010703 # Tagaya Shigemasa
+	}
+	1550.1.1={
+		holder=10010701 # Tagaya Masatsune
+	}
+	1580.1.1={
+		holder=10010702 # Tagaya Shigetsune
+	}
+	1591.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1592.1.1={
+		holder=10010839 # Tagaya Nobuie(Iwaki Nobutaka)
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024050 # Tokugawa Yorifusa
+	}
+	1609.12.27={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+	1615.6.4={
+		liege="e_nmih_japan"
+		holder=10024043 # Matsudaira Tadamasa
+	}
+}

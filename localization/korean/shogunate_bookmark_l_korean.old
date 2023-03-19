@@ -1,0 +1,422 @@
+﻿l_korean:
+
+ BOOKMARK_SHOW_ALL:0 "시작년도를 전부 표시"
+ BOOKMARK_SHOW_MORE:0 "시작년도를 더 표시"
+ BOOKMARK_SHOW_LESS:0 "처음 표시로 복원"
+
+ #
+ # 1180 : Prince Mochihito's Rebellion
+ #
+
+ bm_pmrta1180:0 "모치히토 왕의 거병"
+ bm_pmrta1180_desc:0 "호겐의 난(1156)과 헤이지의 난(1159)이후, 타이라(헤이시)씨가 조정을 장악했습니다. 타이라노 키요모리는 조정의 최고직인 태정대신에 올랐으며 그의 가문은 수많은 봉토를 차지해 \"헤이케가 아니면 사람도 아니다\" 라는 말까지 생겨납니다.\n\n그러나, 키요모리와 고시라카와 법황의 갈등은 1170년대 이후로 격화되어 갔으며 헤이시에 반대하는 세력들은 음모를 꾸미기 시작합니다."
+
+ bm_pmrta1180_prince_mochihito:0 "모치히토 왕"
+ bm_pmrta1180_prince_mochihito_desc:0 "모치히토 왕\n1151-1180\n\n고시라카와 텐노의 황자. 미나모토노 요리마사의 권유로 인접국의 겐지에게 헤이케 토벌을 명했습니다. 몸소 거병했으나, 패배하여 전사했습니다."
+ bm_pmrta1180_taira_kiyomori:0 "타이라노 키요모리"
+ bm_pmrta1180_taira_kiyomori_desc:0 "타이라노 키요모리\n1118-1181\n\n타이라의 동량이며 호겐, 헤이지의 난 이후 겐지를 꺾고 출세가도를 달려 다이죠다이진이 되면서 헤이시 정권을 수립했습니다. 여식인 토쿠코가 타카쿠라 텐노의 황후가 되었으며, 헤이케는 관직을 독점하는 등의 영화를 누렸습니다.\n\n그러나, 말년에 겐지의 봉기에 휘말리고 열병으로 사망했습니다. 또한 그는 일송무역을 진흥한 사람으로도 알려져 있습니다."
+ bm_pmrta1180_taira_munemori:0 "타이라노 무네모리"
+ bm_pmrta1180_taira_munemori_desc:0 "타이라노 무네모리\n1147-1185\n\n타이라노 키요모리의 아들이며 그의 사후 가독을 이어 헤이케를 이끌고 각지에서 거병한 겐지와 싸웠습니다.\n\n단노우라 전투에서 미나모토노 요시츠네에게 붙잡혀 처형되었습니다."
+ bm_pmrta1180_minamoto_yorimasa:0 "미나모노토 요리마사"
+ bm_pmrta1180_minamoto_yorimasa_desc:0 "미나모노토 요리마사\n1104-1180\n\n모치히토 왕에게 헤이케 타도를 권하고 거병했지만, 패배한 후 자결했습니다.\n\n그는 활의 명수로, 가인으로도 알려져 있습니다."
+ bm_pmrta1180_minamoto_yoritomo:0 "미나모토노 요리토모"
+ bm_pmrta1180_minamoto_yoritomo_desc:0 "미나모토노 요리토모\n1147-1199\n\n카마쿠라 막부 초대 쇼군으로, 헤이지의 난때 패해 이즈로 유배되나, 모치히토 왕의 명에 따라 거병했습니다.\n\n카마쿠라를 거점으로 세력을 넓히자, 미나모토노 요시나카·헤이케·오슈 후지와라 씨를 멸망시키고 전국을 평정했습니다. 슈고·지토를 설치해 무가 정권의 기초를 확립하고 세이이다이쇼군이 되어 막부를 열었습니다."
+ bm_pmrta1180_minamoto_yoshinaka:0 "미나모노토 요시나카"
+ bm_pmrta1180_minamoto_yoshinaka_desc:0 "미나모토노 요시나카\n1154-1184\n\n키소 요시나카라고도 불리우며 모치히토 왕의 영지에 따라 키소에서 거병했습니다.\n\n쿠리카라 고개 전투에서 헤이케를 꺾고 교토를 점령하였으며, 미나모토노 요리토모, 헤이케와 천하를 삼분하게 됩니다. 그러나 고시라카와 법황과 대립하게 되었고, 미나모토노 요리토모의 명을 받은 미나모토노 노리요리와 요시츠네에게 패해 전사했습니다."
+ bm_pmrta1180_fujiwara_hidehira:0 "후지와라노 히데히라"
+ bm_pmrta1180_fujiwara_hidehira_desc:0 "후지와라노 히데히라\n생몰년 미상\n\n오슈 후지와라 씨의 3대 당주로, 전성기를 이룩했습니다. 미나모토노 요리토모의 거병 이후 헤이케로부터 요리토모의 토벌을 명령받았으나 움직이지 않고, 헤이케의 멸망 후 요리토모와 대립한 미나모토노 요시츠네를 숨겨주었습니다. 유해는 주손지 곤지키도에 모셔져 있다고 합니다."
+ bm_pmrta1180_kikuchi_takanao:0 "키쿠치 타카나오"
+ bm_pmrta1180_kikuchi_takanao_desc:0 "키쿠치 타카나오\n생몰년 미상\n\n히고의 무장. 헤이케의 큐슈 지배에 반발해 거병했다.\n\n한때 다자이후까지 진격했으나 결국 항복하고 헤이케의 휘하에 들어가게 된다. 후일 다자이후로 달아난 안토쿠 텐노와 동행한다."
+ bm_pmrta1180_kono_michikiyo:0 "코노 미치키요"
+ bm_pmrta1180_kono_michikiyo_desc:0 "코노 미치키요\n?-1181\n\n"
+
+ #
+ # 1180 : Genpei War
+ #
+
+ bm_genpeiwar1180:0 "겐페이 전쟁"
+ bm_genpeiwar1180_desc:0 "때는 1180년, 헤이케의 지원으로 두 살밖에 되지 않은 안토쿠 텐노이 즉위했습니다. 고시라카와 법황의 황자이자 새 텐노의 숙부인 모치히토 왕은 겐지에게 영지를 내려 헤이케에 대한 거병을 촉구했습니다.\n\n거병 자체는 모치히토 왕의 전사로 끝났으나, 그 영지는 인접군의 겐지가 거병하는 계기가 되었습니다. 그중 한 명인 미나모토노 요리토모는 칸토 남부 무사의 동량이 되어 카마쿠라에 거점을 마련하였습니다."
+ 
+ bm_genpeiwar1180_taira_kiyomori:0 "타이라노 키요모리"
+ bm_genpeiwar1180_taira_kiyomori_desc:0 "타이라노 키요모리\n1118-1181\n\n타이라의 동량이며 호겐, 헤이지의 난 이후 겐지를 꺾고 출세가도를 달려 다이죠다이진이 되면서 헤이시 정권을 수립했습니다. 여식인 토쿠코가 타카쿠라 텐노의 황후가 되었으며, 헤이케는 관직을 독점하는 등의 영화를 누렸습니다.\n\n그러나, 말년에 겐지의 봉기에 휘말리고 열병으로 사망했습니다. 또한 그는 일송무역을 진흥한 사람으로도 알려져 있습니다."
+ bm_genpeiwar1180_taira_munemori:0 "타이라노 무네모리"
+ bm_genpeiwar1180_taira_munemori_desc:0 "타이라노 무네모리\n1147-1185\n\n타이라노 키요모리의 아들이며 그의 사후 가독을 이어 헤이케를 이끌고 각지에서 거병한 겐지와 싸웠습니다.\n\n단노우라 전투에서 미나모토노 요시츠네에게 붙잡혀 처형되었습니다."
+ bm_genpeiwar1180_harada_tanenao:0 "하라다 타네나오"
+ bm_genpeiwar1180_harada_tanenao_desc:0 "하라다 타네나오\n생몰년 미상\n\n다자이후의 유력 부관으로, 헤이케의 규슈 지배를 지지했습니다.\n\n규슈에서 거병한 키쿠치 타카나오, 미나모토노 요리토모 군의 미나모토노 노리요리 등과 싸우나 단노우라 전투에서 패해 미나모토 씨에게 항복했습니다."
+ bm_genpeiwar1180_minamoto_yoritomo:0 "미나모토노 요리토모"
+ bm_genpeiwar1180_minamoto_yoritomo_desc:0 "미나모토노 요리토모\n1147-1199\n\n카마쿠라 막부 초대 쇼군으로, 헤이지의 난때 패해 이즈로 유배되나, 모치히토 왕의 명에 따라 거병했습니다.\n\n카마쿠라를 거점으로 세력을 넓히자, 미나모토노 요시나카와 헤이케, 오슈 후지와라 씨를 멸망시키고 전국을 평정했습니다. 슈고·지토를 설치해 무가 정권의 기초를 확립하고 세이이다이쇼군이 되어 막부를 열었습니다."
+ bm_genpeiwar1180_minamoto_yoshinaka:0 "미나모토노 요시나카"
+ bm_genpeiwar1180_minamoto_yoshinaka_desc:0 "미나모토노 요시나카\n1154-1184\n\n키소 요시나카라고도 불리우며 모치히토 왕의 영지에 따라 키소에서 거병했습니다.\n\n쿠리카라 고개 전투에서 헤이케를 꺾고 교토를 점령하였으며, 미나모토노 요리토모, 헤이케와 천하를 삼분하게 됩니다. 그러나 고시라카와 법황과 대립하게 되었고, 미나모토노 요리토모의 명을 받은 미나모토노 노리요리와 요시츠네에게 패해 전사했습니다."
+ bm_genpeiwar1180_takeda_nobuyoshi:0 "타케다 노부요시"
+ bm_genpeiwar1180_takeda_nobuyoshi_desc:0 "타케다 노부요시\n1128-1186\n\n카이 겐지 씨로, 모치히토 왕의 영지를 받들어 카이에서 거병했습니다.\n\n후지카와 전투에서 헤이케군을 물리치고 미나모토노 요리토모에게 중용되나, 후에 모반이 의심돼 자식이 모살되었습니다."
+ bm_genpeiwar1180_yamamoto_yoshitsune:0 "야마모토 요시츠네"
+ bm_genpeiwar1180_yamamoto_yoshitsune_desc:0 "야마모토 요시츠네\n생몰년 미상\n\n오미 겐지 씨로, 겐지의 거병에 호응하여 오미에서 거병하였습니다.\n\n미나모토노 요시나카와 함께 교토로 들어가 치안유지를 담당하였습니다."
+ bm_genpeiwar1180_toki_mitsunaga:0 "토키 미츠나가"
+ bm_genpeiwar1180_toki_mitsunaga_desc:0 "토키 미츠나가\n생몰년 미상\n\n미노 겐지 씨로, 겐지의 거병에 호응하여 미노에서 거병하였습니다.\n\n미나모토노 요시나카와 함게 교토에 입성했습니다."
+ bm_genpeiwar1180_fujiwara_hidehira:0 "후지와라노 히데히라"
+ bm_genpeiwar1180_fujiwara_hidehira_desc:0 "후지와라노 히데히라\n생몰년 미상\n\n오슈 후지와라 씨의 3대 당주로, 전성기를 이룩했습니다. 미나모토노 요리토모의 거병 이후 헤이케로부터 요리토모의 토벌을 명령받았으나 움직이지 않고, 헤이케의 멸망 후 요리토모와 대립한 미나모토노 요시츠네를 숨겨주었습니다. 유해는 주손지 곤지키도에 모셔져 있다고 합니다."
+ 
+ #
+ # 1467 : Onin War
+ #
+
+ bm_oninwar1467:0 "오닌의 난"
+ bm_oninwar1467_desc:0 "오닌의 난은 1467년부터 1477년까지 10년간 계속된 내란입니다.\n\n칸레이 호소카와 카츠모토와 유력자 야마나 소젠의 권력투쟁은 막부와 각지의 다이묘들을 아우르는 전국적 규모의 내란으로 발전했습니다.\n\n이 대란은 전국시대가 시작되는 계기중 하나였으며, 오랜 세월을 걸쳐 다이묘들이 서로 싸우는 시대의 개막이 되었습니다."
+ 
+ bm_oninwar1467_hosokawa_katsumoto:0 "호소카와 카츠모토"
+ bm_oninwar1467_hosokawa_katsumoto_desc:0 ""
+ bm_oninwar1467_hatakeyama_masanaga:0 "하타케야마 마사나가"
+ bm_oninwar1467_hatakeyama_masanaga_desc:0 ""
+ bm_oninwar1467_akamatsu_masanori:0 "아카마츠 마사노리"
+ bm_oninwar1467_akamatsu_masanori_desc:0 ""
+ bm_oninwar1467_yamana_sozen:0 "야마나 소젠"
+ bm_oninwar1467_yamana_sozen_desc:0 ""
+ bm_oninwar1467_hatakeyama_yoshihiro:0 "하타케야마 요시히로"
+ bm_oninwar1467_hatakeyama_yoshihiro_desc:0 ""
+ bm_oninwar1467_ouchi_masahiro:0 "오오우치 마사히로"
+ bm_oninwar1467_ouchi_masahiro_desc:0 ""
+ bm_oninwar1467_asakura_takakage:0 "아사쿠라 타카카게"
+ bm_oninwar1467_asakura_takakage_desc:0 ""
+ bm_oninwar1467_imagawa_yoshitada:0 "이마가와 요시타다"
+ bm_oninwar1467_imagawa_yoshitada_desc:0 ""
+ bm_oninwar1467_ota_sukenaga:0 "오오타 스케나가"
+ bm_oninwar1467_ota_sukenaga_desc:0 ""
+
+ #
+ # 1493 : Meiou Coup
+ #
+
+ bm_meioucoup1493:0 "메이오 정변"
+ bm_meioucoup1493_desc:0 "오닌의 난은 종결되고, 아시카가 막부의 권위는 회복된 것처럼 보였습니다.\n\n그러나 하극상의 움직임은 꾸준히 일본 전국으로 퍼져나갔고, 야마시로 국 잇키나 카가 잇코잇키 등 슈고 다이묘에 반항하는 현지 세력이 일부 지역을 지배하기도 했습니다. 아시카가 씨나 유력 다이묘가의 계승 문제도 완벽히 해결되지 않았습니다.\n\n1493년, 칸레이 호소카와 마사모토는 쇼군 아시카가 요시키（훗날 요시타네）를 추방하고, 아시카가 요시즈미를 차기 쇼군으로 옹립하는 메이오 정변을 일으켰습니다. 이 정변은 성공했으나 요시키는 하타케야마 히사노부의 영지인 엣츄로 탈출했고, 두 쇼군에 의한 내란은 수 년에 걸쳐 계속되었습니다. \n\n또한 이 해에는 이세 모리토키（훗날 호죠 소운）에 의한 이즈, 사가미 침입이 시작되는 등 수 많은 센고쿠 다이묘가 대두한 시기이기도 했습니다."
+
+ bm_meioucoup1493_hosokawa_masamoto:0 "호소카와 마사모토"
+ bm_meioucoup1493_hosokawa_masamoto_desc:0 ""
+ bm_meioucoup1493_hatakeyama_yoshitoyo:0 "하타케야마 요시토요"
+ bm_meioucoup1493_hatakeyama_yoshitoyo_desc:0 ""
+ bm_meioucoup1493_hatakeyama_hisanobu:0 "하타케야마 히사노부"
+ bm_meioucoup1493_hatakeyama_hisanobu_desc:0 ""
+ bm_meioucoup1493_ouchi_masahiro:0 "오오우치 마사히로"
+ bm_meioucoup1493_ouchi_masahiro_desc:0 ""
+ bm_meioucoup1493_akamatsu_masanori:0 "아카마츠 마사노리"
+ bm_meioucoup1493_akamatsu_masanori_desc:0 ""
+ bm_meioucoup1493_ashikaga_yoshiki:0 "아시카가 요시키"
+ bm_meioucoup1493_ashikaga_yoshiki_desc:0 ""
+ bm_meioucoup1493_amago_tsunehisa:0 "아마고 츠네히사"
+ bm_meioucoup1493_amago_tsunehisa_desc:0 ""
+ bm_meioucoup1493_ise_moritoki:0 "이세 모리토키"
+ bm_meioucoup1493_ise_moritoki_desc:0 ""
+ bm_meioucoup1493_ashikaga_shigeuji:0 "아시카가 시게우지"
+ bm_meioucoup1493_ashikaga_shigeuji_desc:0 ""
+
+ #
+ # 1507 : Rise of Hojo Soun
+ #
+
+ bm_endeikyo1507:0 "호죠 소운의 진출"
+ bm_endeikyo1507_desc:0 "호죠 소운은 전국시대 후호죠 씨의 초대 당주입니다. 본명은 이세 모리토키(신쿠로) 라고 하며, 헤이시의 피를 이어받은 쇼군 가의 가신으로 고명한 일족의 출신이었습니다."
+
+ bm_endeikyo1507_ise_moritoki:0 "이세 모리토키"
+ bm_endeikyo1507_ise_moritoki_desc:0 ""
+ bm_endeikyo1507_uesugi_tomoyoshi:0 "우에스기 토모요시"
+ bm_endeikyo1507_uesugi_tomoyoshi_desc:0 ""
+ bm_endeikyo1507_uesugi_akisada:0 "우에스기 아키사다"
+ bm_endeikyo1507_uesugi_akisada_desc:0 ""
+ bm_endeikyo1507_miura_yoshiatsu:0 "미우라 요시타츠"
+ bm_endeikyo1507_miura_yoshiatsu_desc:0 ""
+ bm_endeikyo1507_imagawa_ujichika:0 "이마가와 우지치카"
+ bm_endeikyo1507_imagawa_ujichika_desc:0 ""
+ bm_endeikyo1507_nagao_tamekage:0 "나가오 타메카게"
+ bm_endeikyo1507_nagao_tamekage_desc:0 ""
+ bm_endeikyo1507_satomi_yoshimichi:0 "사토미 요시미치"
+ bm_endeikyo1507_satomi_yoshimichi_desc:0 ""
+ bm_endeikyo1507_ashikaga_masauji:0 "아시카가 마사우지"
+ bm_endeikyo1507_ashikaga_masauji_desc:0 ""
+ bm_endeikyo1507_ashikaga_yoshizumi:0 "아시카가 요시즈미"
+ bm_endeikyo1507_ashikaga_yoshizumi_desc:0 ""
+
+ #
+ # 1511 : Battle of Funaokayama
+ #
+
+ bm_funaokayama1511:0 "후나오카야마 전투"
+ bm_funaokayama1511_desc:0 "1511년 쇼군 아시카가 요시타네를 옹립한 호소카와 타카쿠니, 오오우치 요시오키의 군세와 전 쇼군 아시카가 요시즈미를 지지하는 호소카와 스미모토의 군세 사이에서 아시카가 막부의 주도권을 놓고 전투가 벌어졌는데, 이를 후나오카야마 전투라 불렀습니다."
+
+ bm_funaokayama1511_ashikaga_yoshitada:0 "아시카가 요시타다"
+ bm_funaokayama1511_ashikaga_yoshitada_desc:0 ""
+ bm_funaokayama1511_hosokawa_takakuni:0 "호소카와 타카쿠니"
+ bm_funaokayama1511_hosokawa_takakuni_desc:0 ""
+ bm_funaokayama1511_ouchi_yoshioki:0 "오오우치 요시오키"
+ bm_funaokayama1511_ouchi_yoshioki_desc:0 ""
+ bm_funaokayama1511_hosokawa_sumimoto:0 "호소카와 스미모토"
+ bm_funaokayama1511_hosokawa_sumimoto_desc:0 ""
+ bm_funaokayama1511_miyoshi_yukinaga:0 "미요시 유키나가"
+ bm_funaokayama1511_miyoshi_yukinaga_desc:0 ""
+ bm_funaokayama1511_akamatsu_yoshimura:0 "아카마츠 요시무라"
+ bm_funaokayama1511_akamatsu_yoshimura_desc:0 ""
+ bm_funaokayama1511_takeda_nobutora:0 "타케다 노부토라"
+ bm_funaokayama1511_takeda_nobutora_desc:0 ""
+ bm_funaokayama1511_azai_sukemasa:0 "아자이 스케마사"
+ bm_funaokayama1511_azai_sukemasa_desc:0 ""
+ bm_funaokayama1511_asakura_norikage:0 "아사쿠라 노리카게"
+ bm_funaokayama1511_asakura_norikage_desc:0 ""
+
+ #
+ # 1523 : Mori's Successor
+ #
+
+ bm_motonari1523:0 "모리의 후계자"
+ bm_motonari1523_desc:0 "모리 씨는 아키 국의 코쿠진입니다. 모리 히로모토의 아들 쇼쥬마루는 아버지를 이른 나이에 여의었으며, 그 소년시절은 고난의 연속이었습니다.\n\n쇼쥬마루는 겐푸쿠를 치루고 이름을 모토나리로 바꾸고, 1523년에 가독을 이었습니다. 이후 전국시대에서 손에 꼽을 정도의 거대한 세력을 구축하게 됩니다."
+
+ bm_motonari1523_mori_motonari:0 "모리 모토나리"
+ bm_motonari1523_mori_motonari_desc:0 "모리 모토나리\n1497-1571\n\n처음엔 아마고 씨, 이후 오오우치 씨를 섬겼습니다.\n\n오오우치 요시타카가 가신 스에 하루카타에게 죽자 이츠쿠시마 전투에서 하루카타를 토벌하고 세력을 확대했습니다. 또한 아마고 씨를 멸망시키고 츄고쿠 지방 전역을 지배하는 센고쿠 다이묘가 되었습니다.\n\n세 아들에게 결속을 당부한 세 자루의 화살 이야기로도 유명합니다."
+ bm_motonari1523_amago_tsunehisa:0 "아마고 츠네히사"
+ bm_motonari1523_amago_tsunehisa_desc:0 ""
+ bm_motonari1523_ouchi_yoshioki:0 "오오우치 요시오키"
+ bm_motonari1523_ouchi_yoshioki_desc:0 ""
+ bm_motonari1523_kikkawa_kunitsune:0 "킷카와 쿠니츠네"
+ bm_motonari1523_kikkawa_kunitsune_desc:0 ""
+ bm_motonari1523_sue_okifusa:0 "스에 오키후사"
+ bm_motonari1523_sue_okifusa_desc:0 ""
+ bm_motonari1523_takeda_mitsukazu:0 "타케다 미츠카즈"
+ bm_motonari1523_takeda_mitsukazu_desc:0 ""
+ bm_motonari1523_miyoshi_motonaga:0 "미요시 모토나가"
+ bm_motonari1523_miyoshi_motonaga_desc:0 ""
+ bm_motonari1523_rokkaku_sadayori:0 "롯카쿠 사다요리"
+ bm_motonari1523_rokkaku_sadayori_desc:0 ""
+ bm_motonari1523_date_tanemune:0 "다테 타네무네"
+ bm_motonari1523_date_tanemune_desc:0 ""
+
+ #
+ # 1534 : Day of Fathers
+ #
+
+ bm_sengoku1534:0 "아버지의 시대"
+ bm_sengoku1534_desc:0 "1534년 초여름, 훗날 삼영걸 중 하나로 알려지게 되는 오다 노부나가가 태어납니다.\n\n당시엔 아직 무로마치 시대 말기로, 아시카가 막부의 권위와 체제는 완전히 없어지지는 않았습니다. 16세기 후반의 유력 다이묘 가는 이미 대두하고 있었으나, 타케다 신겐이나 우에스기 겐신 같은 전국시대의 영웅들은 아직 젊었습니다.\n\n때는 영웅들의 아버지의 시대였습니다."
+
+ bm_sengoku1534_oda_nobuhide:0 "오다 노부히데"
+ bm_sengoku1534_oda_nobuhide_desc:0 ""
+ bm_sengoku1534_mori_motonari:0 "모리 모토나리"
+ bm_sengoku1534_mori_motonari_desc:0 "모리 모토나리\n1497-1571\n\n처음엔 아마고 씨, 이후 오오우치 씨를 섬겼습니다.\n\n오오우치 요시타카가 가신 스에 하루카타에게 죽자 이츠쿠시마 전투에서 하루카타를 토벌하고 세력을 확대했습니다. 또한 아마고 씨를 멸망시키고 츄고쿠 지방 전역을 지배하는 센고쿠 다이묘가 되었습니다.\n\n세 아들에게 결속을 당부한 세 자루의 화살 이야기로도 유명합니다."
+ bm_sengoku1534_miyoshi_nagayoshi:0 "미요시 나가요시"
+ bm_sengoku1534_miyoshi_nagayoshi_desc:0 ""
+ bm_sengoku1534_nagao_tamekage:0 "나가오 타메카게"
+ bm_sengoku1534_nagao_tamekage_desc:0 ""
+ bm_sengoku1534_takeda_nobutora:0 "타케다 노부토라"
+ bm_sengoku1534_takeda_nobutora_desc:0 ""
+ bm_sengoku1534_hojo_ujitsuna:0 "호죠 우지츠나"
+ bm_sengoku1534_hojo_ujitsuna_desc:0 ""
+ bm_sengoku1534_imagawa_ujiteru:0 "이마가와 우지테루"
+ bm_sengoku1534_imagawa_ujiteru_desc:0 ""
+ bm_sengoku1534_date_tanemune:0 "다테 타네무네"
+ bm_sengoku1534_date_tanemune_desc:0 ""
+ bm_sengoku1534_shimazu_takahisa:0 "시마즈 타카히사"
+ bm_sengoku1534_shimazu_takahisa_desc:0 ""
+
+ #
+ # 1546 : Battle of Kawagoe
+ #
+
+ bm_sengoku1546:0 "카와고에성 전투"
+ bm_sengoku1546_desc:0 "호죠 소운(이세 모리토키)의 이즈 습격 후, 후호죠 씨는 그 세력을 칸토로 확대해 나갔습니다.\n\n하지만, 2대 당주 우지츠나 사후 우에스기 씨와 카마쿠라 쿠보 등 이전의 대세력은 젊은 당주 호죠 우지야스에 대항하는 동맹을 맺어, 카와고에 성을 포위했습니다. 칸토 전역을 무대로 한 결전이 다가오고 있습니다. 
+
+ bm_sengoku1546_hojo_ujiyasu:0 "호죠 우지야스"
+ bm_sengoku1546_hojo_ujiyasu_desc:0 ""
+ bm_sengoku1546_imagawa_yoshimoto:0 "이마가와 요시모토"
+ bm_sengoku1546_imagawa_yoshimoto_desc:0 "이마가와 요시모토\n1519-1560\n\n어릴 적에 출가했으나, 형인 우지테루의 사후에 환속하여 가독을 계승했습니다.\n\n스루가, 도토미에 더에 미카와를 제압하고 "도카이 제일의 무사" 라는 별명을 얻습니다.\n\n타케다 신겐, 호죠 우지야스와 삼국동맹을 맺고 대군을 이끌어 오와리를 침공하지만 오케하자마 전투에서 전사했습니다."
+ bm_sengoku1546_takeda_harunobu:0 "타케다 하루노부"
+ bm_sengoku1546_takeda_harunobu_desc:0 "타케다 하루노부\n1521-1573\n\n훗날 타케다 신겐으로 천하에 이름을 떨칩니다.\n\n아버지 노부토라를 추방하고 자립했으며 시나노를 침공하던 우에스기 겐신과 대립해 여러 차례 카와나카지마 전투에서 격돌했습니다.\n\n노부나가 포위망에 가담해 미카타가하라 전투에서 토쿠가와 이에야스를 무찌르나, 진중에서 병사하고 맙니다.\n\n"카이의 호랑이" 라는 별명을 가진 인물이기도 합니다."
+ bm_sengoku1546_uesugi_norimasa:0 "우에스기 노리마사"
+ bm_sengoku1546_uesugi_norimasa_desc:0 ""
+ bm_sengoku1546_uesugi_tomosada:0 "우에스기 토모사다"
+ bm_sengoku1546_uesugi_tomosada_desc:0 ""
+ bm_sengoku1546_ashikaga_haruuji:0 "아시카가 하루우지"
+ bm_sengoku1546_ashikaga_haruuji_desc:0 ""
+ bm_sengoku1546_nagao_harukage:0 "나가오 하루카게"
+ bm_sengoku1546_nagao_harukage_desc:0 ""
+ bm_sengoku1546_murakami_yoshikiyo:0 "무라카미 요시키요"
+ bm_sengoku1546_murakami_yoshikiyo_desc:0 ""
+ bm_sengoku1546_saito_toshimasa:0 "사이토 토시마사"
+ bm_sengoku1546_saito_toshimasa_desc:0 ""
+
+ #
+ # 1555 : Battle of Itsukushima
+ #
+
+ bm_sengoku1555:0 "이츠쿠시마 전투"
+ bm_sengoku1555_desc:0 "1551년, 오오우치 씨 가신 스에 하루카타는 주군 요시타카를 타이네이지에서 죽이고 오오우치 씨의 실권을 장악했습니다. 일련의 사건으로 오오우치 씨 가신들은 혼란에 빠졌으며, 그중 모리 모토나리는 오오우치 씨로부터 독립을 선언했습니다.\n\n오오우치 씨와 아마고 씨의 충돌 속에서 모토나리는 오오우치 씨의 성을 공략해 아키 국을 통일했습니다. 스에 하루카타는 그 반역을 토벌하기 위해 이츠쿠시마 신사가 있는 미야지마에 군사를 상륙시켰습니다."
+
+ bm_sengoku1555_mori_motonari:0 "모리 모토나리"
+ bm_sengoku1555_mori_motonari_desc:0 "모리 모토나리\n1497-1571\n\n처음엔 아마고 씨, 이후 오오우치 씨를 섬겼습니다.\n\n오오우치 요시타카가 가신 스에 하루카타에게 죽자 이츠쿠시마 전투에서 하루카타를 토벌하고 세력을 확대했습니다. 또한 아마고 씨를 멸망시키고 츄고쿠 지방 전역을 지배하는 센고쿠 다이묘가 되었습니다.\n\n세 아들에게 결속을 당부한 세 자루의 화살 이야기로도 유명합니다."
+ bm_sengoku1555_sue_harukata:0 "스에 하루카타"
+ bm_sengoku1555_sue_harukata_desc:0 ""
+ bm_sengoku1555_amago_haruhisa:0 "아마고 하루히사"
+ bm_sengoku1555_amago_haruhisa_desc:0 ""
+ bm_sengoku1555_otomo_yoshishige:0 "오오토모 요시시게"
+ bm_sengoku1555_otomo_yoshishige_desc:0 ""
+ bm_sengoku1555_ryuzoji_takanobu:0 "류조지 타카노부"
+ bm_sengoku1555_ryuzoji_takanobu_desc:0 ""
+ bm_sengoku1555_ashikaga_yoshiteru:0 "아시카가 요시테루"
+ bm_sengoku1555_ashikaga_yoshiteru_desc:0 ""
+ bm_sengoku1555_oda_nobunaga:0 "오다 노부나가"
+ bm_sengoku1555_oda_nobunaga_desc:0 ""
+ bm_sengoku1555_nagao_kagetora:0 "나가오 카게토라"
+ bm_sengoku1555_nagao_kagetora_desc:0 ""
+ bm_sengoku1555_date_harumune:0 "다테 하루무네"
+ bm_sengoku1555_date_harumune_desc:0 ""
+
+ #
+ # 1560 : Battle of Okehazama
+ #
+
+ bm_sengoku1560:0 "오케하자마 전투"
+ bm_sengoku1560_desc:0 "1540~50년대, 이마가와 씨와 오다 씨는 수 차례 충돌했습니다. 타케다 신겐, 호죠 우지야스와 삼국 동맹을 맺은 이마가와 요시모토는 오랜 적과의 대결에 종지부를 찍고 상락을 시도하려 했습니다.\n\n1560년, 이마가와 요시모토는 오다 가문을 통일시킨 오다 노부나가를 격파하기 위해 2만명 이상의 군세를 소집했습니다."
+
+ bm_sengoku1560_oda_nobunaga:0 "오다 노부나가"
+ bm_sengoku1560_oda_nobunaga_desc:0 "오다 노부나가\n1534-1582\n\n오케하자마 전투에서 이마가와 군을 무찔렀습니다. 토쿠가와 이에야스와 동맹하여 사이토 씨를 멸망시키고, 기후에 거점을 두었습니다.\n\n아시카가 요시아키를 옹립하기 위해 상락하나 후에 대립하게 되자 추방하고 무로마치 막부를 멸했습니다. 아네가와 전투에서 아자이·아사쿠라 군을 꺾고 나가시노 전투에서 타케다 군을 물리칩니다.\n\n아즈치 성을 쌓고 천하통일에 나서나, 아케치 미츠히데의 모반으로 혼노지에서 사망했습니다."
+ bm_sengoku1560_imagawa_yoshimoto:0 "이마가와 요시모토"
+ bm_sengoku1560_imagawa_yoshimoto_desc:0 "이마가와 요시모토\n1519-1560\n\n어릴 적에 출가했으나, 형인 우지테루의 사후 환속하여 가독을 계승했습니다.\n\n스루가, 도토미에 더해 미카와를 제압하고 "도카이 제일의 무사" 라는 별명을 얻습니다.\n\n타케다 신겐, 호죠 우지야스와 삼국동맹을 맺고 대군을 이끌어 오와리를 침공하지만 오케하자마 전투에서 전사했습니다."
+ bm_sengoku1560_matsudaira_motoyasu:0 "마츠다이라 모토야스"
+ bm_sengoku1560_matsudaira_motoyasu_desc:0 "마츠다이라 모토야스\n1543-1616\n\n훗날의 토쿠가와 이에야스이며, 그는 유년기를 오다와 이마가와의 인질로 보냈습니다.\n\n오케하자마 전투 이후, 이마가와로부터 독립해 오다 노부나가와 동맹을 맺지만 서서히 종속적인 지위로 전락했습니다.\n\n노부나가의 사후 토요토미 히데요시에게 종속되나 히데요시 사후 세키가하라 전투에 승리해 에도 막부를 수립했습니다."
+ bm_sengoku1560_takeda_shingen:0 "타케다 신겐"
+ bm_sengoku1560_takeda_shingen_desc:0 "타케다 신겐\n1521-1573\n\n아버지 노부토라를 추방하고 자립했으며 시나노를 침공하던 우에스기 겐신과 대립해 여러차례 카와나카지마 전투에서 격돌했습니다.\n\n노부나가 포위망에 가담해 미카타가하라 전투에서 토쿠가와 이에야스를 무찌르나, 진중에서 병사하고 맙니다.\n\n"카이의 호랑이" 라는 별명을 가진 인물이기도 합니다."
+ bm_sengoku1560_nagao_kagetora:0 "나가오 카게토라"
+ bm_sengoku1560_nagao_kagetora_desc:0 "나가오 카게토라\n1530-1578\n\n훗날 우에스기 켄신으로 이름을 바꾸게 됩니다.\n\n타케다 신겐에게 패한 무라카미 요시키요, 호죠 우지야스에게 쫒긴 우에스기 노리마사를 보호했습니다. 노리마사로부터 우에스기 씨와 칸토 칸레이를 물려받아 시나노를 둘러싸고 있던 신겐과 칸토를 둘러싸고 있던 우지야스와 싸웁니다.\n\n군신이나 "에치고의 용" 이라는 별명을 가지기도 했으며, 출병 직전에 병사했습니다."
+ bm_sengoku1560_hojo_ujiyasu:0 "호죠 우지야스"
+ bm_sengoku1560_hojo_ujiyasu_desc:0 "호죠 우지야스\n1515-1571\n\n후호죠 씨의 3대 당주로, 그 전성기를 구축했습니다.\n\n카와고에 전투에서 대승을 거두어 오기가야츠 우에스기 씨를 멸망시키고 칸토 칸레이인 우에스기 노리마사를 에치고로 쫒아냈습니다.\n\n검지나 세제개혁을 실시해 영토 경영의 기초를 닦고, 아들 우지마사에게 가독을 물려준 뒤 병사했습니다." 
+ bm_sengoku1560_saito_yoshitatsu:0 "사이토 요시타츠"
+ bm_sengoku1560_saito_yoshitatsu_desc:0 "사이토 요시타츠\n1527-1561\n\n사이토 도산의 아들인 토키 요리아키의 아들이라는 설도 있습니다.\n\n도산의 은거하면서 가독을 이었고, 이후 양자의 대립이 심화되어 요시타츠는 나가라가와 전투에서 도산을 죽입니다.\n\n오다 노부나가의 미노 침공이 거세지는 가운데 병사하고 맙니다."
+ bm_sengoku1560_azai_hisamasa:0 "아자이 히사마사"
+ bm_sengoku1560_azai_hisamasa_desc:0 "아자이 히사마사\n?-1573\n\n아자이 스케마사의 아들이며, 아자이 나가마사의 아버지입니다.\n\n교고쿠 씨, 롯카쿠 씨에 밀려 대외적으로는 부진한 것으로 알려져 있습니다.\n\n가독을 나가마사에게 물려주고 은거한 후 거성 오타니 성이 오다 군에게 공격을 받자 스스로 목숨을 끊었습니다."
+ bm_sengoku1560_asakura_yoshikage:0 "아사쿠라 요시카게"
+ bm_sengoku1560_asakura_yoshikage_desc:0 "아사쿠라 요시카게\n1533-1573\n\n아시카가 요시아키가 사후, 동생 아시카가 요시아키를 맞이하나 상락의 의지가 없어 요시아키는 오다 노부나가에게 떠나고 맙니다\n\n상락한 노부나가의 공격을 받자 아자이 나가마사, 타케다 신겐, 혼간지와 동맹을 맺어 싸웁니다.\n\n아네가와 전투에서 패한 뒤 거성 이치죠다니 성을 공격받자 목숨을 끊었습니다."
+
+ #
+ # 1568 : Tenka Fubu
+ #
+
+ bm_sengoku1568:0 "천하포무"
+ bm_sengoku1568_desc:0 "오케하자마 전투 이후, 오다 노부나가는 훗날 토쿠가와 이에야스라 불리는 마츠다이라 모토야스와 동맹을 맺고 장인 사이토 도산의 영지인 미노를 침공했습니다. 1567년, 미노를 제압한 노부나가는 거점을 이나바야마로 옮기고 그 일대를 기후라고 개명했습니다.\n\n그 무렵, 쇼군 아시카가 요시테루가 암살되고 정통성있는 통치자가 부재하게 되는 등 키나이의 정국은 혼란으로 치닫습니다. 이러한 상황을 타개하기 위해 노부나가는 그 유명한 "천하포무" 정책을 채용하고, 상락의 때를 기다렸습니다."
+
+ bm_sengoku1568_oda_nobunaga:0 "오다 노부나가"
+ bm_sengoku1568_oda_nobunaga_desc:0 "오다 노부나가\n1534-1582\n\n오케하자마 전투에서 이마가와 군을 무찔렀습니다. 토쿠가와 이에야스와 동맹을 맺은 후 사이토 씨를 멸망시키고, 기후에 거점을 두었습니다.\n\n아시카가 요시아키를 옹립하기 위해 상락하나 후에 대립하게 되자 그를 추방하고 무로마치 막부를 멸망시켰습니다. 아네가와 전투에서 아자이·아사쿠라 군을 꺾고 나가시노 전투에서 타케다 군을 물리칩니다.\n\n아즈치 성을 쌓고 천하통일에 나서나, 아케치 미츠히데의 모반으로 혼노지에서 사망했습니다."
+ bm_sengoku1568_tokugawa_ieyasu:0 "토쿠가와 이에야스"
+ bm_sengoku1568_tokugawa_ieyasu_desc:0 "토쿠가와 이에야스\n1543-1616\n\n그는 유년기를 오다와 이마가와의 인질로 보냈습니다.\n\n오케하자마 전투 이후, 이마가와로부터 독립해 오다 노부나가와 동맹을 맺지만 서서히 종속적인 지위로 전락했습니다.\n\n노부나가의 사후 토요토미 히데요시에게 종속되나 히데요시 사후 세키가하라 전투에 승리해 에도 막부를 수립했습니다."
+ bm_sengoku1568_takeda_shingen:0 "타케다 신겐"
+ bm_sengoku1568_takeda_shingen_desc:0 "타케다 신겐\n1521-1573\n\n아버지 노부토라를 추방하고 자립했으며 시나노를 침공하던 우에스기 겐신과 대립해 여러차례 카와나카지마 전투에서 격돌했습니다.\n\n노부나가 포위망에 가담해 미카타가하라 전투에서 토쿠가와 이에야스를 무찌르나, 진중에서 병사하고 맙니다.\n\n"카이의 호랑이" 라는 별명을 가진 인물이기도 합니다."
+ bm_sengoku1568_uesugi_terutora:0 "우에스기 테루토라"
+ bm_sengoku1568_uesugi_terutora_desc:0 "우에스기 테루토라\n1530-1578\n\n훗날 우에스기 켄신으로 이름을 바꾸게 됩니다.\n\n타케다 신겐에게 패한 무라카미 요시키요, 호죠 우지야스에게 쫒긴 우에스기 노리마사를 보호했습니다. 노리마사로부터 우에스기 씨와 칸토 칸레이를 물려받아 시나노를 둘러싸고 있던 신겐과 칸토를 둘러싸고 있던 우지야스와 싸웁니다.\n\n군신이나 "에치고의 용" 이라는 별명을 가지기도 했으며, 출병 직전에 병사했습니다."
+ bm_sengoku1568_hojo_ujiyasu:0 "호죠 우지야스"
+ bm_sengoku1568_hojo_ujiyasu_desc:0 "호죠 우지야스\n1515-1571\n\n후호죠 씨의 3대 당주로, 그 전성기를 구축했습니다.\n\n카와고에 전투에서 대승을 거두어 오기가야츠 우에스기 씨를 멸망시키고 칸토 칸레이인 우에스기 노리마사를 에치고로 쫒아냈습니다.\n\n검지나 세제개혁을 실시해 영토 경영의 기초를 닦고, 아들 우지마사에게 가독을 물려준 뒤 병사했습니다."
+ bm_sengoku1568_mori_motonari:0 "모리 모토나리"
+ bm_sengoku1568_mori_motonari_desc:0 "모리 모토나리\n1497-1571\n\n처음엔 아마고 씨, 훗날엔 오오우치 씨를 섬겼습니다.\n\n오오우치 요시타카가 가신 스에 하루카타에게 죽자 이츠쿠시마 전투에서 하루카타를 토벌하고 세력을 확대했습니다. 또한 아마고 씨를 멸망시키고 츄고쿠 지방 전역을 지배하는 센고쿠 다이묘가 되었습니다.\n\n세 아들에게 결속을 설파한 교훈장으로도 유명합니다."
+ bm_sengoku1568_chosokabe_motochika:0 "쵸소카베 모토치카"
+ bm_sengoku1568_chosokabe_motochika_desc:0 "쵸소카베 모토치카\n1539-1599\n\n토사의 통일 후 시코쿠 전역으로 세력을 확대했습니다.\n\n토요토미 히데요시가 시코쿠 정벌을 감행하자 항복하여 토사 일국만을 인정받았습니다. 후에 큐슈 정벌, 오다와라 정벌, 임진왜란에 참전했습니다.\n\n분국법의 "쵸소카베 모토치카 백개조" 가 유명합니다."
+ bm_sengoku1568_otomo_sorin:0 "오오토모 소린"
+ bm_sengoku1568_otomo_sorin_desc:0 "오오토모 소린\n1530-1587\n\n큐슈 6개국의 슈고와 큐슈 탄다이를 겸해, 오오토모 씨의 전성기를 구축했습니다.\n\n기독교를 보호하고 남만 교역을 했으며 로마로 소년사절을 파견하기도 했습니다. 세례명은 프란시스코로 알려져 있습니다.\n\n시마즈 씨에게 패한 후 쇠퇴해, 토요토미 히데요시에게 구원을 요청했습니다."
+ bm_sengoku1568_shimazu_yoshihisa:0 "시마즈 요시히사"
+ bm_sengoku1568_shimazu_yoshihisa_desc:0 ""
+# bm_sengoku1568_honganji_kennyo:0 "혼간지 켄뇨"
+# bm_sengoku1568_honganji_kennyo_desc:0 "혼간지 켄뇨\n1543-1592\n\n혼간지의 11대 호슈입니다.\n\n오다 노부나가가 상락하자 적대, 잇코잇키를 조직해 타케다 씨, 아자이 씨, 아사쿠라 씨와 동맹을 맺었습니다. 모리 씨의 지원을 받아 이시야마 전투를 계속했습니다.\n\n오오기마치 텐노의 중개로 강제 화친을 맺었습니다. 노부나가의 사후, 토요토미 히데요시로부터 교토 호리카와 땅을 기부받아 혼간지를 다시 세웠습니다."
+
+ #
+ # 1575 : Battle of Nagashino
+ #
+
+ bm_sengoku1575:0 "나가시노 전투"
+ bm_sengoku1575_desc:0 "오다 노부나가는 자신에 대한 포위망을 뚫어 나갔습니다. 아사쿠라 씨와 아자이 씨는 멸망하고, 쇼군 아시카가 요시아키는 추방됐으며 최대 난적인 타케다 신겐은 세상을 떠났습니다.\n\n하지만, 신겐의 아들 카츠요리는 아버지의 야심을 이어 강력한 기마대를 이끌고 노부나가의 맹우인 토쿠가와 이에야스의 영지를 자주 침공했습니다 타케다 기마군단을 격하파기 위해, 노부나가는 뎃포대의 활용을 결단하게 됩니다."
+
+ bm_sengoku1575_oda_nobunaga:0 "오다 노부나가"
+ bm_sengoku1575_oda_nobunaga_desc:0 "오다 노부나가\n1534-1582\n\n오케하자마 전투에서 이마가와 군을 무찔렀습니다. 토쿠가와 이에야스와 동맹을 맺은 후 사이토 씨를 멸망시키고, 기후에 거점을 두었습니다.\n\n아시카가 요시아키를 옹립하기 위해 상락하나 후에 대립하게 되자 그를 추방하고 무로마치 막부를 멸망시켰습니다. 아네가와 전투에서 아자이·아사쿠라 군을 꺾고 나가시노 전투에서 타케다 군을 물리칩니다.\n\n아즈치 성을 쌓고 천하통일에 나서나, 아케치 미츠히데의 모반으로 혼노지에서 사망했습니다."
+ bm_sengoku1575_tokugawa_ieyasu:0 "토쿠가와 이에야스"
+ bm_sengoku1575_tokugawa_ieyasu_desc:0 "토쿠가와 이에야스\n1543-1616\n\n그는 유년기를 오다와 이마가와의 인질로 보냈습니다.\n\n오케하자마 전투 이후, 이마가와로부터 독립해 오다 노부나가와 동맹을 맺지만 서서히 종속적인 지위로 전락했습니다.\n\n노부나가의 사후 토요토미 히데요시에게 종속되나 히데요시 사후 세키가하라 전투에 승리해 에도 막부를 수립했습니다."
+ bm_sengoku1575_takeda_katsuyori:0 "타케다 카츠요리"
+ bm_sengoku1575_takeda_katsuyori_desc:0 ""
+ bm_sengoku1575_mori_terumoto:0 "모리 테루모토"
+ bm_sengoku1575_mori_terumoto_desc:0 ""
+ bm_sengoku1575_uesugi_kenshin:0 "우에스기 켄신"
+ bm_sengoku1575_uesugi_kenshin_desc:0 "우에스기 켄신\n1530-1578\n\n타케다 신겐에게 패한 무라카미 요시키요, 호죠 우지야스에게 쫒긴 우에스기 노리마사를 보호했습니다. 노리마사로부터 우에스기 씨와 칸토 칸레이를 물려받아 시나노를 둘러싸고 있던 신겐과 칸토를 둘러싸고 있던 우지야스와 싸웁니다.\n\n군신이나 "에치고의 용" 이라는 별명을 가지기도 했으며, 출병 직전에 병사했습니다."
+ bm_sengoku1575_hojo_ujimasa:0 "호죠 우지마사"
+ bm_sengoku1575_hojo_ujimasa_desc:0 ""
+ bm_sengoku1575_chosokabe_motochika:0 "쵸소카베 모토치카"
+ bm_sengoku1575_chosokabe_motochika_desc:0 "쵸소카베 모토치카\n1539-1599\n\n토사의 통일 후 시코쿠 전역으로 세력을 확대했습니다.\n\n토요토미 히데요시가 시코쿠 정벌을 감행하자 항복하여 토사 일국만을 인정받았습니다. 후에 큐슈 정벌, 오다와라 정벌, 임진왜란에 참전했습니다.\n\n분국법의 "쵸소카베 모토치카 백개조" 가 유명합니다."
+ bm_sengoku1575_otomo_sorin:0 "오오토모 소린"
+ bm_sengoku1575_otomo_sorin_desc:0 "오오토모 소린\n1530-1587\n\n큐슈 6개국의 슈고와 큐슈 탄다이를 겸해, 오오토모 씨의 전성기를 구축했습니다.\n\n기독교를 보호하고 남만 교역을 했으며 로마로 소년사절을 파견하기도 했습니다. 세례명은 프란시스코로 알려져 있습니다.\n\n시마즈 씨에게 패한 후 쇠퇴해, 토요토미 히데요시에게 구원을 요청했습니다."
+ bm_sengoku1575_shimazu_yoshihisa:0 "시마즈 요시히사"
+ bm_sengoku1575_shimazu_yoshihisa_desc:0 ""
+
+ #
+ # 1578 : 3rd Restoration of Amago
+ #
+
+ bm_sengoku1578:0 "제3차 아마고 재흥 운동"
+ bm_sengoku1578_desc:0 "1566년, 모리 씨의 갓산토다 성 공략으로 아마고 씨는 멸망했습니다. 그러나, 그 잔당 중에는 가문 재건을 위해 활동하는 이도 있었습니다.\n\n1578년, 아마고 잔당은 키나이에서 대두하는 오다 노부나가의 지원을 받아 모리 씨와의 전투를 벌이게 됩니다. 아마도, 아마고를 재흥하는 마지막 기회가 될 것입니다."
+ bm_sengoku1578_oda_nobunaga:0 "오다 노부나가"
+ bm_sengoku1578_oda_nobunaga_desc:0 ""오다 노부나가\n1534-1582\n\n오케하자마 전투에서 이마가와 군을 무찔렀습니다. 토쿠가와 이에야스와 동맹을 맺은 후 사이토 씨를 멸망시키고, 기후에 거점을 두었습니다.\n\n아시카가 요시아키를 옹립하기 위해 상락하나 후에 대립하게 되자 그를 추방하고 무로마치 막부를 멸망시켰습니다. 아네가와 전투에서 아자이·아사쿠라 군을 꺾고 나가시노 전투에서 타케다 군을 물리칩니다.\n\n아즈치 성을 쌓고 천하통일에 나서나, 아케치 미츠히데의 모반으로 혼노지에서 사망했습니다."
+ bm_sengoku1578_oda_nobutada:0 "오다 노부타다"
+ bm_sengoku1578_oda_nobutada_desc:0 ""
+ bm_sengoku1578_tokugawa_ieyasu:0 "토쿠가와 이에야스"
+ bm_sengoku1578_tokugawa_ieyasu_desc:0 "토쿠가와 이에야스\n1543-1616\n\n그의 유년기는 오다와 이마가와의 인질로 보냈습니다.\n\n오케하자마 전투 이후, 이마가와로부터 독립해 오다 노부나가와 동맹을 맺지만 서서히 종속적인 지위로 전락했습니다.\n\n노부나가의 사후 토요토미 히데요시에게 종속되나 히데요시 사후 세키가하라 전투에 승리해 에도 막부를 수립했습니다."
+ bm_sengoku1578_shibata_katsuie:0 "시바타 카츠이에"
+ bm_sengoku1578_shibata_katsuie_desc:0 ""
+ bm_sengoku1578_hashiba_hideyoshi:0 "하시바 히데요시"
+ bm_sengoku1578_hashiba_hideyoshi_desc:0 ""
+ bm_sengoku1578_akechi_mitsuhide:0 "아케치 미츠히데"
+ bm_sengoku1578_akechi_mitsuhide_desc:0 ""
+ bm_sengoku1578_bessho_nagaharu:0 "벳쇼 나가하루"
+ bm_sengoku1578_bessho_nagaharu_desc:0 ""
+ bm_sengoku1578_hatano_hideharu:0 "하타노 히데하루"
+ bm_sengoku1578_hatano_hideharu_desc:0 ""
+ bm_sengoku1578_araki_murashige:0 "아라키 무라시게"
+ bm_sengoku1578_araki_murashige_desc:0 ""
+
+ #
+ # 1582 : Fall of Takeda
+ #
+
+ bm_sengoku1582:0 "타케다 정벌"
+ bm_sengoku1582_desc:0 "오다 노부나가는 나가시노 전투에서 타케다 카츠요리와 타케다 기마군단을 격파했습니다. 노부나가와 그 휘하인 하시바 히데요시, 시바타 카츠이에, 아케치 미츠히데는 다른 다이묘들을 누르고 천하에 무위를 떨쳤습니다. \b\b1582년, 노부나가는 타케다 씨를 정벌하기 위해 군사를 움직였습니다. 카이를 400년에 걸쳐 지배한 타케다 씨의 멸망이 코 앞으로 다가오고 있었습니다. 그러나, 노부나가 또한 몇 달 후에 살해되리라곤 그 누구도 생각하지 못한 일이었습니다."
+
+ bm_sengoku1582_oda_nobunaga:0 "오다 노부나가"
+ bm_sengoku1582_oda_nobunaga_desc:0 ""오다 노부나가\n1534-1582\n\n오케하자마 전투에서 이마가와 군을 무찔렀습니다. 토쿠가와 이에야스와 동맹을 맺은 후 사이토 씨를 멸망시키고, 기후에 거점을 두었습니다.\n\n아시카가 요시아키를 옹립하기 위해 상락하나 후에 대립하게 되자 그를 추방하고 무로마치 막부를 멸망시켰습니다. 아네가와 전투에서 아자이·아사쿠라 군을 꺾고 나가시노 전투에서 타케다 군을 물리칩니다.\n\n아즈치 성을 쌓고 천하통일에 나서나, 아케치 미츠히데의 모반으로 혼노지에서 사망했습니다."
+ bm_sengoku1582_oda_nobutada:0 "오다 노부타다"
+ bm_sengoku1582_oda_nobutada_desc:0 ""
+ bm_sengoku1582_tokugawa_ieyasu:0 "토쿠가와 이에야스"
+ bm_sengoku1582_tokugawa_ieyasu_desc:0 "토쿠가와 이에야스\n1543-1616\n\n그의 유년기는 오다와 이마가와의 인질로 보냈습니다.\n\n오케하자마 전투 이후, 이마가와로부터 독립해 오다 노부나가와 동맹을 맺지만 서서히 종속적인 지위로 전락했습니다.\n\n노부나가의 사후 토요토미 히데요시에게 종속되나 히데요시 사후 세키가하라 전투에 승리해 에도 막부를 수립했습니다."
+ bm_sengoku1582_shibata_katsuie:0 "시바타 카츠이에"
+ bm_sengoku1582_shibata_katsuie_desc:0 ""
+ bm_sengoku1582_hashiba_hideyoshi:0 "하시바 히데요시"
+ bm_sengoku1582_hashiba_hideyoshi_desc:0 ""
+ bm_sengoku1582_akechi_mitsuhide:0 "아케치 미츠히데"
+ bm_sengoku1582_akechi_mitsuhide_desc:0 ""
+ bm_sengoku1582_takeda_katsuyori:0 "타케다 카츠요리"
+ bm_sengoku1582_takeda_katsuyori_desc:0 ""
+ bm_sengoku1582_uesugi_kagekatsu:0 "우에스기 카게카츠"
+ bm_sengoku1582_uesugi_kagekatsu_desc:0 ""
+ bm_sengoku1582_mori_terumoto:0 "모리 테루모토"
+ bm_sengoku1582_mori_terumoto_desc:0 ""
+
+ #
+ # 1582 : Honno-ji Incident
+ #
+
+ bm_honnoji1582:0 "혼노지의 변"
+ bm_honnoji1582_desc:0 "1582년, 아케치 미츠히데는 모리 씨와 대치 중인 하시바 히데요시의 원군으로서 출병할 것을 명령받았습니다.\n\n6월 21일 미츠히데는 명령에 반하여 1만 3천명의 병사와 함께 노부나가의 거처인 혼노지로 진군하였고, 이때 미츠히데는 "적은 혼노지에 있다" 라고 외쳤다고 합니다. 혼노지를 포위한 병사는 불을 질렀고 오다 노부나가는 그 중 전사했다고도, 자결했다고도 전해집니다.\n\n미츠히데의 역모는 교토에 크나큰 충격을 줬으며 그는 입지를 확립하기 위해 서둘러 움직여야 했습니다. 한편, 그 무렵 하시바 히데요시와 시바타 카츠이에는 주군 노부나가의 원수를 갚기 위해 진군을 개시하고 있었습니다."
+
+ bm_honnoji1582_akechi_mitsuhide:0 "아케치 미츠히데"
+ bm_honnoji1582_akechi_mitsuhide_desc:0 ""
+ bm_honnoji1582_hashiba_hideyoshi:0 "하시바 히데요시"
+ bm_honnoji1582_hashiba_hideyoshi_desc:0 ""
+ bm_honnoji1582_shibata_katsuie:0 "시바타 카츠이에"
+ bm_honnoji1582_shibata_katsuie_desc:0 ""
+ bm_honnoji1582_tokugawa_ieyasu:0 "토쿠가와 이에야스"
+ bm_honnoji1582_tokugawa_ieyasu_desc:0 "토쿠가와 이에야스\n1543-1616\n\n그의 유년기는 오다와 이마가와의 인질로 보냈습니다.\n\n오케하자마 전투 이후, 이마가와로부터 독립해 오다 노부나가와 동맹을 맺지만 서서히 종속적인 지위로 전락했습니다.\n\n노부나가의 사후 토요토미 히데요시에게 종속되나 히데요시 사후 세키가하라 전투에 승리해 에도 막부를 수립했습니다."
+ bm_honnoji1582_hojo_ujimasa:0 "호죠 우지마사"
+ bm_honnoji1582_hojo_ujimasa_desc:0 ""
+ bm_honnoji1582_uesugi_kagekatsu:0 "우에스기 카게카츠"
+ bm_honnoji1582_uesugi_kagekatsu_desc:0 ""
+ bm_honnoji1582_sanada_masayuki:0 "사나다 마사유키"
+ bm_honnoji1582_sanada_masayuki_desc:0 ""
+ bm_honnoji1582_oda_nobukatsu:0 "오다 노부카츠"
+ bm_honnoji1582_oda_nobukatsu_desc:0 ""
+ bm_honnoji1582_oda_nobutaka:0 "오다 노부타카"
+ bm_honnoji1582_oda_nobutaka_desc:0 ""

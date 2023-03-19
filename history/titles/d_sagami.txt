@@ -1,0 +1,165 @@
+d_nmih_sagami = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0800.1.1={
+		holder=11005168 # Fujiwara Tomohito {Sagami no Kami}
+	}
+	0822.9.4={
+		holder=0 #  
+	}
+	0849.2.1={
+		holder=11000045 # Fujiwara Yoshimi {Sagami no Kami}
+	}
+	0850.7.4={
+		holder=0 #  
+	}
+	0887.3.4={
+		holder=11003302 # Fujiwara Toshimoto {Sagami no Kami}
+	}
+	0887.3.19={
+		holder=0 #  
+	}
+	0969.12.6={
+		holder=11005297 # Fujiwara Yasuchika {Sagami no Kami}
+	}
+	0973.1.1={
+		holder=0 #  
+	}
+	1036.11.10={
+		holder=10120035 # Minamoto Yoriyoshi {Sagami no Kami}
+	}
+	1040.1.1={
+		holder=0 #  
+	}
+	1133.3.24={
+		holder=11003590 # Fujiwara Takamori {Sagami no Kami}
+	}
+	1135.2.21={
+		holder=0 #  
+	}
+	1152.3.13={
+		holder=11005391 # Fujiwara Chikahiro {Sagami no Kami}
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12215207 # Oba Kagechika
+	}
+	1180.10.26={
+		liege = 0
+		liege="k_nmih_western_kanto"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1199.2.9={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1263.12.24={
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1335.8.14={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.9.6={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege=0
+		holder=0 # 
+	}
+	1351.3.15={
+		liege="k_nmih_western_kanto"
+		holder=12211275 # Miura Takamichi
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=12200175 # Kawagoe Tadashige
+	}
+	1363.3.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12211275 # Miura Takamichi
+	}
+	1376.1.1={
+		holder=12211280 # Miura Takatsura
+	}
+	1410.1.1={
+		holder=10016501 # Miura Takaaki
+	}
+	1417.1.27={
+		holder=10017061 # Uesugi Sadayori
+	}
+	1426.1.1={
+		holder=10049533 # Isshiki Tokiie
+	}
+	1439.3.24={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1449.1.1={
+		holder=10017038 # Uesugi Akifusa
+	}
+	1455.2.10={
+		liege=0
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1467.10.4={
+		holder=10017042 # Uesugi Masazane
+	}
+	1473.12.22={
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1494.11.20={
+		holder=10017043 # Uesugi Tomoyoshi
+	}
+	1516.8.19={
+		liege=0
+		holder=10016001 # Hojo Soun
+	}
+	1519.9.8={
+		holder=10016000 # Hojo Ujitsuna
+	}
+	1541.8.10={
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1546.5.19={
+		liege="k_nmih_western_kanto"
+	}
+	1571.10.21={
+		holder=10016014 # Hojo Ujimasa
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024283 # Okubo Tadachika
+	}
+	1614.2.17={
+		holder=0
+	}
+}

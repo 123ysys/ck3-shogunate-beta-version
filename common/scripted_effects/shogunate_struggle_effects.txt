@@ -1,0 +1,308 @@
+﻿# Catalyst Checkers
+
+shogunate_check_catalyst_effect = {
+
+	if = {
+		limit = {
+			$CHAR$ = {
+				any_character_struggle = {
+					involvement = involved
+					activate_struggle_catalyst_secondary_character_involvement_involved_trigger = {
+						CATALYST = $CATALYST$
+						CHAR = $CHAR$
+					}
+				}
+			}
+		}
+		$CHAR$ = {
+			every_character_struggle = {
+				involvement = involved
+				limit = {
+					activate_struggle_catalyst_secondary_character_involvement_involved_trigger = {
+						CATALYST = $CATALYST$
+						CHAR = $CHAR$
+					}
+				}
+				activate_struggle_catalyst = {
+					catalyst = $CATALYST$
+					character = $CHAR$
+				}
+			}
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_win_against_liege_effect = {
+
+	if = {
+		limit = {
+			scope:loser = scope:winner.liege
+		}
+		shogunate_check_catalyst_effect = {
+			CHAR = scope:winner
+			CATALYST = catalyst_shogunate_win_against_liege
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_start_any_war_effect = {
+
+	if = {
+		limit = {
+			scope:attacker.primary_title.tier >= tier_duchy
+			scope:defender.primary_title.tier >= tier_duchy
+		}
+		shogunate_check_catalyst_effect = {
+			CHAR = scope:attacker
+			CATALYST = catalyst_shogunate_start_any_war
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_convert_to_local_faith_effect = {
+	
+	if = {
+		limit = {
+			is_landed = yes
+			root.capital_province.faith = root.faith
+		}
+		shogunate_check_catalyst_effect = {
+			CHAR = root
+			CATALYST = catalyst_shogunate_convert_to_local_faith
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_forced_conversion_effect = {
+	
+	if = {
+		limit = {
+			is_landed = yes
+			NOT = { root.capital_province.faith = root.faith }
+		}
+		shogunate_check_catalyst_effect = {
+			CHAR = root
+			CATALYST = catalyst_shogunate_forced_conversion
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_unnatural_death_effect = {
+	
+	if = {
+		limit = {
+			is_landed = yes
+			exists = scope:killer
+		}
+		shogunate_check_catalyst_effect = {
+			CHAR = root
+			CATALYST = catalyst_shogunate_unnatural_death
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_claim_throne_effect = {
+
+	shogunate_check_catalyst_effect = {
+		CHAR = scope:owner
+		CATALYST = catalyst_shogunate_claim_throne
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_gain_higher_title_effect = {
+
+	if = {
+		limit = {
+			scope:title.tier >= tier_county		# Old title must be at least County-tier
+		}
+		shogunate_check_catalyst_effect = {
+			CHAR = root
+			CATALYST = catalyst_shogunate_gain_higher_title
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_grant_title_effect = {
+
+	if = {
+		limit = {
+			scope:transfer_type = flag:granted
+		}
+		shogunate_check_catalyst_effect = {
+			CHAR = scope:previous_holder
+			CATALYST = catalyst_shogunate_grant_title
+		}
+	}
+
+}
+
+
+shogunate_check_catalyst_shogunate_vassalize_effect = {
+
+	shogunate_check_catalyst_effect = {
+		CHAR = scope:actor
+		CATALYST = catalyst_shogunate_vassalize
+	}
+
+}
+
+
+# Sengoku Struggle
+
+shogunate_struggle_sengoku_on_start_effect = {
+
+	if = {
+		limit = {
+			shogunate_sengoku_period_start_date_trigger = yes
+		}
+		if = {
+			limit = {
+				current_date >= 1467.6.27									# Start of Onin War
+				current_date <  1478.1.1									# De Facto End of Kyotoku War
+			}
+			change_struggle_phase = struggle_shogunate_sengoku_phase_meritocracy_chaotic
+		}
+		else_if = {
+			limit = {
+				current_date >= 1478.1.1									# De Facto End of Kyotoku War
+				current_date <  1493.6.9									# Coup of Meio
+			}
+			change_struggle_phase = struggle_shogunate_sengoku_phase_meritocracy_ordered
+		}
+		else_if = {
+			limit = {
+				current_date >= 1493.6.9									# Coup of Meio
+				current_date <  1590.7.25									# End of Odawara Campaign
+			}
+			change_struggle_phase = struggle_shogunate_sengoku_phase_unification_chaotic
+		}
+		else_if = {
+			limit = {
+				current_date >= 1590.7.25									# End of Odawara Campaign
+			}
+			change_struggle_phase = struggle_shogunate_sengoku_phase_unification_ordered
+		}
+	}
+	else = {
+		change_struggle_phase = struggle_shogunate_sengoku_phase_unification_chaotic
+	}
+
+}
+
+
+shogunate_struggle_sengoku_on_change_effect = {
+
+	if = {
+		limit = {
+			shogunate_sengoku_period_start_date_trigger = yes
+		}
+		if = {
+			limit = { current_date >= 1474.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1478.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1482.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1486.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1490.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1494.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1498.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1502.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1506.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1510.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1514.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1518.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1522.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1526.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1530.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1534.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1538.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1542.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+		if = {
+			limit = { current_date >= 1546.1.1 }
+			activate_struggle_catalyst = catalyst_shogunate_historical_progress
+		}
+	}
+
+}
+
+
+shogunate_struggle_sengoku_on_join_effect = {
+
+	if = {
+		limit = {
+			is_ai = no
+		}
+
+		trigger_event = {
+			id = shogunate_struggle.0001
+		}
+	}
+
+}

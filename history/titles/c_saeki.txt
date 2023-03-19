@@ -1,0 +1,127 @@
+c_nmih_saeki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_saeki1={
+				set_title_name=b_nmih_saeki3
+			}
+		}
+	}
+	593.1.1={
+		effect={
+			title:b_nmih_saeki1={
+				set_title_name=b_nmih_saeki3
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_saeki1={
+				set_title_name=B_NMIH_SAEKI2_1331
+			}
+		}
+	}
+	1590.1.1={
+		effect={
+			title:b_nmih_saeki1={
+				set_title_name=B_NMIH_SAEKI2_1590
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	593.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 30 }
+	1541.5.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_aki"
+	}
+	1180.1.1={
+		holder=12660401 # Saeki Kagehiro
+	}
+	1200.1.1={
+		liege="d_nmih_aki"
+		holder=12660402 # Saeki Kagenobu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_aki"
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1248.12.21={
+		holder=12360112 # Takeda Nobumasa
+	}
+	1265.1.6={
+		holder=12360120 # Takeda Nobutoki
+	}
+	1289.3.2={
+		holder=12360132 # Takeda Tokitsuna
+	}
+	1307.8.1={
+		holder=12360155 # Takeda Nobumune
+	}
+	1330.12.19={
+		holder=12360160 # Takeda Nobutake
+	}
+	1333.7.4={
+		liege="d_nmih_aki"
+	}
+	1359.8.7={
+		liege="d_nmih_aki"
+		holder=12360171 # Takeda Ujinobu
+	}
+	1370.12.1={
+		liege="e_nmih_japan"
+	}
+	1380.6.11={
+		holder=10056107 # Takeda Nobuari
+	}
+	1403.1.1={
+		holder=10056106 # Takeda Nobumori
+	}
+	1418.1.1={
+		holder=10056105 # Takeda Nobushige
+	}
+	1440.1.1={
+		liege="d_nmih_wakasa"
+	}
+	1465.11.28={
+		holder=10056103 # Takeda Mototsuna
+	}
+	1471.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1483.1.1={
+		liege=0
+	}
+	1505.3.30={
+		holder=10056101 # Takeda Motoshige
+	}
+	1515.1.1={
+		liege="d_nmih_izumo"
+	}
+	1517.11.5={
+		holder=10056100 # Takeda Mitsukazu
+	}
+	1524.1.1={
+		liege="k_nmih_sanin"
+	}
+	1540.7.12={
+		holder=10056102 # Takeda Nobuzane
+	}
+	1541.5.1={
+		liege="d_nmih_aki"
+		holder=10056004 # Mori Motonari
+	}
+	1571.7.6={
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10029729 # Fukushima Masanobu
+	}
+	1607.1.1={
+		holder=10029720 # Fukushima Masanori
+	}
+}

@@ -1,0 +1,160 @@
+c_nmih_naga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_naga1={
+				set_title_name=b_nmih_naga2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_naga1={
+				set_title_name=b_nmih_naga9
+			}
+		}
+	}
+	1186.1.1={
+		effect={
+			title:b_nmih_naga1={
+				set_title_name=B_NMIH_NAGA9_1186
+			}
+		}
+	}
+	1510.1.1={
+		effect={
+			title:b_nmih_naga1={
+				set_title_name=b_nmih_naga1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	816.7.8 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1510.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_kii"
+	}
+	1180.1.1={
+		liege="d_nmih_kii"
+		holder=10130169 # Sato Nakakiyo
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="e_nmih_japan"
+		holder=10130237 # Bito Tomonobu
+	}
+	1186.1.1={
+		liege="d_nmih_kii"
+		holder=12555000 # Yuasa Muneshige
+	}
+	1195.1.1={
+		holder=12555004 # Yuasa Munemitsu
+	}
+	1240.1.1={
+		holder=12555021 # Yuasa Munenari
+	}
+	1275.1.1={
+		holder=12555045 # Yuasa Munechika
+	}
+	1300.1.1={
+		holder=12555050 # Yuasa Munekuni
+	}
+	1330.1.1={
+		holder=12555055 # Yuasa Munefuji
+	}
+	1333.7.4={
+		liege="d_nmih_kii"
+	}
+	1334.10.1={
+		liege=0
+		holder=10132226 # Hojo Kenpou
+	}
+	1335.2.1={
+		liege="d_nmih_kii"
+		holder=12555055 # Yuasa Munefuji
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1352.3.12={
+		liege="d_nmih_kii"
+	}
+	1360.1.1={
+		holder=11007609 # Shijo Takatoshi
+	}
+	1373.8.28={
+		liege="d_nmih_kii"
+		holder=10040570 # Hosokawa Ujiharu
+	}
+	1378.12.1={
+		holder=10050008 # Yamana Yoshitada/Yoshimasa
+	}
+	1392.1.24={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		liege="d_nmih_kii"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1406.2.5={
+		holder=10031001 # Hatakeyama Mitsunori
+	}
+	1408.10.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1433.10.31={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1441.1.1={
+		holder=10048113 # Hatakeyama Mochinaga
+	}
+	1441.7.1={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12 ={
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1460.10.4={
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1493.6.9={
+		holder=10048123 # Hatakeyama Hisanobu
+	}
+	1510.1.1={
+		government = theocracy_government
+		liege=0
+		holder=10048686 # Tsuda Kazunaga
+	}
+	1568.1.22={
+		holder=10048689 # Tsuda Kazumasa
+	}
+	1577.3.1={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege=0
+	}
+	1585.4.22={
+		government = feudal_government
+		liege="d_nmih_kii"
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1585.5.11={
+		holder=10093900 # Kuwayama Shigeharu
+	}
+	1595.5.24={
+		liege="e_nmih_japan"
+	}
+	1596.1.1={
+		holder=10093902 # Kuwayama Kazuharu
+	}
+	1603.3.24={
+		liege="d_nmih_kii"
+		holder=10029440 # Asano Yukinaga
+	}
+	1613.10.9={
+		holder=10029441 # Asano Nagaakira
+	}
+}

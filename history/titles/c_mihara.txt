@@ -1,0 +1,176 @@
+c_nmih_mihara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mihara1={
+				set_title_name=b_nmih_mihara5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mihara1={
+				set_title_name=b_nmih_mihara5
+			}
+		}
+	}
+	1186.1.1={
+		effect={
+			title:b_nmih_mihara1={
+				set_title_name=B_NMIH_MIHARA1_1186
+			}
+		}
+	}
+	1517.1.1={
+		effect={
+			title:b_nmih_mihara1={
+				set_title_name=B_NMIH_MIHARA1_1517
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1186.1.1 = { change_development_level = 10 }
+
+	0100.1.1={
+		liege="d_nmih_awaji"
+	}
+	1180.1.1={
+		liege=0
+		holder=10120380 # Minamoto Yoshitsugu
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_awaji"
+		holder=10120380 # Minamoto Yoshitsugu
+	}
+	1183.12.1={
+		liege="d_nmih_awaji"
+		holder=10110111 # Taira Noritsune
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_awaji"
+		holder=12205040 # Yokoyama Tokihiro
+	}
+	1189.1.1={
+		holder=12510061 # Sasaki Tsunetaka
+	}
+	1199.8.25={
+		holder=12205050 # Yokoyama Tokikane
+	}
+	1213.5.24={
+		holder=12510061 # Sasaki Tsunetaka
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_awaji"
+		holder=12135500 # Naganuma Munemasa
+	}
+	1241.1.2={
+		holder=12135501 # Naganuma 
+	}
+	1250.1.1={
+		holder=12135505 # Naganuma 
+	}
+	1285.1.1={
+		holder=12135510 # Naganuma 
+	}
+	1320.1.1={
+		liege="d_nmih_awaji"
+		holder=12135515 # Naganuma Hideyuki
+	}
+	1336.3.1={
+		liege="d_nmih_awaji"
+		holder=10040511 # Hosokawa Morouji
+	}
+	1348.6.20={
+		holder=10040570 # Hosokawa Ujiharu
+	}
+	1387.11.30={
+		holder=10040572 # Hosokawa Mitsuharu
+	}
+	1392.1.1={
+		holder=10040573 # Hosokawa Mitsutoshi
+	}
+	1402.1.1={
+		holder=10040525 # Hosokawa Mitsuhisa
+	}
+	1404.1.1={
+		holder=10040573 # Hosokawa Mitsutoshi
+	}
+	1441.1.1={
+		holder=10040575 # Hosokawa Mochichika
+	}
+	1467.1.1={
+		holder=10040577 # Hosokawa Shigeharu
+	}
+	1485.6.27={
+		holder=10040578 # Hosokawa Hisaharu
+	}
+	1517.9.1={
+		liege="d_nmih_awaji"
+		holder=10059001 # Miyoshi Yukinaga
+	}
+	1520.6.6={
+		holder=10059003 # Miyoshi Motonaga
+	}
+	1532.7.22={
+		holder=10059007 # Miyoshi Nagayoshi
+	}
+	1548.10.28={
+		holder=10059010 # Atagi Fuyuyasu
+	}
+	1564.6.17={
+		liege="d_nmih_awa"
+		holder=10058545 # Kan Michinaga
+	}
+	1576.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1581.11.1={
+		liege="d_nmih_harima"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.6.21={
+		liege=0
+		holder=10058545 # Kan Michinaga
+	}
+	1582.7.2={
+		liege="d_nmih_harima"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1583.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10029670 # Sengoku Hidehisa
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.8.10={
+		holder=10029730 # Kato Yoshiaki
+	}
+	1587.5.18={
+		holder=10058545 # Kan Michinaga
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_awaji"
+	}
+	1608.6.1={
+		liege="d_nmih_harima"
+		holder=10029554 # Ikeda Terumasa
+	}
+	1613.3.16={
+		liege="d_nmih_harima"
+		holder=10029572 # Ikeda Tadakatsu
+	}
+	1615.3.22={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1615.6.4={
+		liege="d_nmih_awa"
+		holder=10207300 # Inada Tanemoto
+	}
+}

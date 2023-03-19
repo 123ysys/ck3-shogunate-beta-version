@@ -1,0 +1,83 @@
+﻿l_spanish:
+
+ # Sengoku Struggle
+
+ shogunate_sengoku_struggle:0 "Contienda Sengoku"
+ shogunate_sengoku_struggle_desc:0 "La $shogunate_sengoku_struggle$ representa una guerra civil nacional en Japón durante más de 100 años durante los siglos XV y XVI. Fue una lucha de poder larga y prolongada entre los diversos Daimyo por el dominio de Japón. Una persona de menor rango a veces derrotó a un superior ya sea política o militarmente a través de la habilidad."
+
+ struggle_shogunate_sengoku_phase_meritocracy_ordered:0 "Meritocracia/Orden"
+ struggle_shogunate_sengoku_phase_meritocracy_ordered_desc:0 "La meritocracia, o Gekokujō, es una característica de este período. Una persona de menor rango derrota a un superior ya sea política o militarmente a través de la habilidad."
+ struggle_shogunate_sengoku_phase_meritocracy_chaotic:0 "Meritocracia/Caos"
+ struggle_shogunate_sengoku_phase_meritocracy_chaotic_desc:0 "La meritocracia, o Gekokujō, es una característica de este período. Una persona de menor rango derrota a un superior ya sea política o militarmente a través de la habilidad."
+ struggle_shogunate_sengoku_phase_unification_ordered:0 "Unificación/Orden"
+ struggle_shogunate_sengoku_phase_unification_ordered_desc:0 "Oda Nobunaga luchó por la unificación de Japón, llamado Tenka Tōitsu. Tras su muerte, Toyotomi Hideyoshi logró el objetivo en 1590."
+ struggle_shogunate_sengoku_phase_unification_chaotic:0 "Unificación/Caos"
+ struggle_shogunate_sengoku_phase_unification_chaotic_desc:0 "Oda Nobunaga luchó por la unificación de Japón, llamado Tenka Tōitsu. Tras su muerte, Toyotomi Hideyoshi logró el objetivo en 1590."
+
+ shogunate_struggle.0001.t:0 "La $shogunate_sengoku_struggle$"
+ shogunate_struggle.0001.desc:0 "La Guerra Onin y los disturbios posteriores iniciaron el período Sengoku. Fue una lucha de poder larga y prolongada entre los diversos Daimyo por el dominio de Japón.\n\n"
+ shogunate_struggle.0001.desc.involved:0 "No dejaré escapar mi visión de mi patria. Por [ROOT.Char.GetFaith.HighGodName], la Casa de [ROOT.Char.GetHouse.GetNameNoTooltip] resistirá la tormenta y verá mi voluntad cumplida.\n\n"
+ shogunate_struggle.0001.desc.interloper:0 "Ha llegado el momento de que me haga cargo de la situación y de mi destino. Veo todas las piezas dispuestas en el tablero. Conozco el camino a seguir y nadie detendrá a la casa [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"
+ shogunate_struggle.0001.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
+ shogunate_struggle.0001.a:0 "¡Sé dueño de tu propio destino!"
+
+ game_concept_shogunate_sengoku_struggle:0 "$shogunate_sengoku_struggle$"
+ game_concept_shogunate_sengoku_struggle_desc:0 "$shogunate_sengoku_struggle_desc$"
+
+
+ # Kanto Struggle
+
+ shogunate_kanto_struggle:0 "Contienda Kanto"
+ shogunate_kanto_struggle_desc:0 "La $shogunate_kanto_struggle$ describe una serie de conflictos en la región de Kanto que comenzaron antes de la Guerra Onin. Los clanes Kamakura-kubo, Kanto Kanrei y Hojo lucharon entre sí por el dominio de Kanto."
+ struggle_shogunate_kanto_phase_strife:0 "Lucha"
+ struggle_shogunate_kanto_phase_strife_desc:0 "Los samuráis de la región de Kanto están en conflicto interno entre sí."
+ struggle_shogunate_kanto_phase_solidarity:0 "Solidaridad"
+ struggle_shogunate_kanto_phase_solidarity_desc:0 "Los samuráis de la región de Kanto se solidarizan contra los enemigos extranjeros."
+
+ shogunate_struggle.0003.t:0 "La $shogunate_kanto_struggle$"
+ shogunate_struggle.0003.desc:0 "En la región de Kanto, Kamakura-kubo y Kanto Kanrei lucharon entre sí durante mucho tiempo. La Guerra de Kyotoku, que comenzó antes de la Guerra de Onin, intensificó la lucha interna en la región.\n\n"
+ shogunate_struggle.0003.desc.involved:0 "No dejaré escapar mi visión de mi patria. Por  [ROOT.Char.GetFaith.HighGodName], la Casa [ROOT.Char.GetHouse.GetNameNoTooltip] capeará la tormenta y verá cumplida mi voluntad.\n\n"
+ shogunate_struggle.0003.desc.interloper:0 "Ha llegado el momento de que me haga cargo de la situación y de mi destino. Veo todas las piezas dispuestas en el tablero. Conozco el camino a seguir, y nadie detendrá a la casa [ROOT.Char.GetHouse.GetNameNoTooltip].\n\n"
+ shogunate_struggle.0003.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
+ shogunate_struggle.0003.a:0 "¡Sé dueño de tu destino!"
+
+ game_concept_shogunate_kanto_struggle:0 "$shogunate_kanto_struggle$"
+ game_concept_shogunate_kanto_struggle_desc:0 "$shogunate_kanto_struggle_desc$"
+
+
+ # Catalysts
+
+ catalyst_shogunate_win_against_liege:0 "Ganó contra señor [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_win_against_liege_desc:0 "Gana una [war|E] contra tu [liege|E] como [war_leader|E]"
+
+ catalyst_shogunate_start_any_war:0 "Inició una guerra [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_start_any_war_desc:0 "Inició una [war|E] entre [duke|E] o mas alto-[title_tier|E] [rulers|E]"
+
+ catalyst_shogunate_convert_to_local_faith:0 "Convertido [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_convert_to_local_faith_desc:0 "Convertir a la [faith|E] local como [ruler|E]"
+
+ catalyst_shogunate_forced_conversion:0 "Conversión forzada [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_forced_conversion_desc:0 "Obligado a convertirse a [faith|E] como [ruler|E]"
+
+ catalyst_shogunate_historical_progress:0 "Progreso histórico [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_historical_progress_desc:0 "Progreso histórico"
+
+ catalyst_shogunate_claim_throne:0 "Reclamar trono [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_claim_throne_desc:0 "Tener éxito en [GetScheme('claim_throne').GetTypeName] [scheme|E] contra su [liege|E]"
+
+ catalyst_shogunate_unnatural_death:0 "Asesinado [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_unnatural_death_desc:0 "Asesinado por alguien como [ruler|E]"
+
+ catalyst_shogunate_gain_higher_title:0 "Adquirió un título superior [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_gain_higher_title_desc:0 "Adquirir un mayor-[title_tier|E] [primary_title|E]"
+
+ catalyst_shogunate_grant_title:0 "Concedió un título [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_grant_title_desc:0 "Concedió [title|E]"
+
+ catalyst_shogunate_vassalize:0 "Avasallado [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_vassalize_desc:0 "Vasalizar un [independent_ruler|E]"
+
+
+ # Parameters
+
+ struggle_parameter_shogunate_unlocks_sengoku_invasion_casus_belli:0 "Desbloquea Unificar Japón [casus_belli|E]"

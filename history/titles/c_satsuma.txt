@@ -1,0 +1,140 @@
+c_nmih_satsuma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_satsuma1={
+				set_title_name=b_nmih_satsuma9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_satsuma1={
+				set_title_name=b_nmih_satsuma1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 30 }
+
+	10.1.1={
+	}
+	20.1.1={
+		holder=10290300 # Sori
+	}
+	70.1.1={
+		holder=10290301 # Kibe
+	}
+	100.1.1={
+		holder=10290302 # Toki
+	}
+	150.1.1={
+		holder=10290307 # Ishikori
+	}
+	170.1.1={
+		holder=10290308 # Tomami
+	}
+	230.1.1={
+		holder=10290309 # Atasumi
+	}
+	1161.1.1={
+		liege="d_nmih_satsuma"
+		holder=12810512 # Taira Nobuzumi
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_satsuma"
+		holder=10120381 # Minamoto Yoshizane
+	}
+	1186.1.1={
+		liege="d_nmih_shimousa"
+		holder=12150120 # Chiba Tsunetane
+	}
+	1201.4.28={
+		holder=12150123 # Chiba Tanemasa
+	}
+	1203.8.28={
+		holder=12150131 # Sakai Tsunehide
+	}
+	1213.5.24={
+		liege="d_nmih_kazusa"
+	}
+	1235.1.1={
+		holder=12151200 # Sakai Hidetane
+	}
+	1247.7.8={
+		liege="d_nmih_satsuma"
+		holder=12210021 # Kedoin Saneshige
+	}
+	1260.1.1={
+		holder=12811500 # Kedoin Shigehisa
+	}
+	1330.1.1={
+		holder=12811501 # Kedoin Shigematsu
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12811503 # Kedoin Yukishige
+	}
+	1335.8.14={
+		liege="d_nmih_osumi"
+	}
+	1342.1.1={
+		liege="k_nmih_seisei_shogun"
+	}
+	1350.1.1={
+		holder=12811507 # Kedoin Shigezane
+	}
+	1360.1.1={
+		liege="d_nmih_satsuma"
+		holder=12811510 # Kedoin Shigenari
+	}
+	1370.1.1={
+		liege="k_nmih_kyushu_tandai"
+	}
+	1380.1.1={
+		holder=12811513 # Kedoin Shigemochi
+	}
+	1395.8.1={
+		liege="d_nmih_satsuma"
+	}
+	1420.1.1={
+		holder=12811517 # Kedoin Hisashige
+	}
+	1432.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060006 # Shimazu Mochihisa
+	}
+	1459.4.2={
+		liege=0
+		holder=10060014 # Shimazu Kunihisa
+	}
+	1498.8.16={
+		holder=10060015 # Shimazu Shigehisa
+	}
+	1504.1.1={
+		holder=10060016 # Shimazu Tadaoki
+	}
+	1525.11.4={
+		liege="d_nmih_satsuma"
+		holder=10060070 # Shimazu Sanehisa
+	}
+	1535.8.1={
+		liege=0
+	}
+	1553.8.30={
+		liege=0
+		holder=12811533 # Kedoin Yoshishige
+	}
+	1566.2.5={
+		liege="d_nmih_satsuma"
+		holder=10060046 # Shimazu Toshihisa
+	}
+	1592.8.25={
+		holder=12811340 # Niiro Tadamoto
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+		holder=10060261 # Hongo Mitsuhisa
+	}
+}

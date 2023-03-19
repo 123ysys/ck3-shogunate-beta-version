@@ -1,0 +1,11 @@
+war = {
+	name = "war_1542_1st_siege_of_gassan_toda"
+	start_date = 1542.1.26
+	end_date = 1543.6.27
+	targeted_titles = {
+		d_nmih_izumo
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10057002 } # Ouchi Yoshitaka
+	defenders = { 10051508 } # Amago Haruhisa
+}

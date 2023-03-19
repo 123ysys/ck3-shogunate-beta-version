@@ -1,0 +1,88 @@
+c_nmih_aki-kamo = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_aki-kamo1={
+				set_title_name=b_nmih_aki-kamo4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_aki-kamo1={
+				set_title_name=b_nmih_aki-kamo4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_aki"
+	}
+	1180.1.1={
+		liege = "d_nmih_aki"
+		holder=12660503 # Nuta Goro
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_aki"
+		holder=12668200 # Kumon Moriyasu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_aki"
+		holder=12390551 # Matsuba Sukemune
+	}
+	1266.2.12={
+		holder=10056412 # Hiraga Koreyasu
+	}
+	1293.1.1={
+		holder=10056411 # Hiraga Korekane
+	}
+	1310.1.1={
+		holder=10056410 # Hiraga Kanemune
+	}
+	1333.7.4={
+		liege="d_nmih_aki"
+	}
+	1350.1.1={
+		liege="d_nmih_aki"
+		holder=10056409 # Hiraga Sanemune
+	}
+	1392.2.7={
+		holder=10056408 # Hiraga Hiroaki
+	}
+	1402.9.16={
+		liege="k_nmih_western_chugoku" # Ouchi Moriharu
+		holder=10056406 # Hiraga Yorimune
+	}
+	1467.7.9={
+		liege="k_nmih_western_chugoku" # Ouchi Masahiro
+		holder=10056405 # Hiraga Hiromune
+	}
+	1470.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056401 # Hiraga Hiroyori
+	}
+	1492.6.5={
+		holder=10056400 # Hiraga Hiroyasu
+	}
+	1549.7.27={
+		liege="k_nmih_western_chugoku"
+		holder=10056901 # Hironaka Takakane
+	}
+	1555.10.28={
+		liege="d_nmih_aki"
+		holder=10056404 # Hiraga Hirosuke
+	}
+	1567.4.26={
+		holder=10056421 # Hiraga Motosuke
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10029733 # Fukushima Masamori
+	}
+	1614.1.1={
+		holder=10029720 # Fukushima Masanori
+	}
+}

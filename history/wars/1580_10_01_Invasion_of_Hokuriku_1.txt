@@ -1,0 +1,16 @@
+war = {
+	name = "war_1580_invasion_of_hokuriku"
+	start_date = 1580.9.11
+	end_date = 1582.6.20
+	targeted_titles = {
+		k_nmih_hokuriku
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = {
+		10029120	# Oda Nobunaga
+		10029280	# Shibata Katsuie
+	}
+	defenders = {
+		10032032	# Uesugi Kagekatsu
+	}
+}

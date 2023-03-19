@@ -1,0 +1,159 @@
+c_nmih_kagami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kagami1={
+				set_title_name=b_nmih_kagami2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kagami1={
+				set_title_name=b_nmih_kagami9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kagami1={
+				set_title_name=b_nmih_kagami4
+			}
+		}
+	}
+	1542.1.1={
+		effect={
+			title:b_nmih_kagami1={
+				set_title_name=b_nmih_kagami1
+			}
+		}
+	}
+	1567.10.1={
+		effect={
+			title:b_nmih_kagami1={
+				set_title_name=B_NMIH_KAGAMI1_1567
+			}
+		}
+	}
+	1601.1.1={
+		effect={
+			title:b_nmih_kagami1={
+				set_title_name=b_nmih_kagami7
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 50 }
+	1100.1.1 = { change_development_level = 50 }
+	1331.1.1 = { change_development_level = 50 }
+	1542.1.1 = { change_development_level = 50 }
+	1601.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_mino"
+	}
+	1180.1.1={
+		liege="d_nmih_mino"
+		holder=12430150 # Kida Shigekuni
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_mino"
+		holder=10025306 # Toki Mitsuyuki
+	}
+	1249.10.26={
+		holder=12130030 # Utsunomiya Yasutsuna
+	}
+	1260.11.24={
+		holder=10025308 # Toki Mitsusada
+	}
+	1281.9.25={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10131553 # Saito Toshiyuki
+	}
+	1339.4.1={
+		liege="d_nmih_mino"
+		holder=10025310 # Toki Yorito
+	}
+	1342.12.29={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1388.2.3={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1390.4.1={
+		holder=10025316 # Toki Yoritada
+	}
+	1395.10.1={
+		holder=10025320 # Toki Yorimasu
+	}
+	1414.4.23={
+		holder=10025322 # Toki Mochimasu
+	}
+	1456.1.1={
+		holder=10025324 # Toki Shigeyori
+	}
+	1497.5.5={
+		holder=10025302 # Toki Masafusa
+	}
+	1519.7.12={
+		holder=10025303 # Toki Yoritake
+	}
+	1525.6.1={
+		holder=10025301 # Toki Yorinori
+	}
+	1542.1.1={
+		holder=10025451 # Saito Dosan
+	}
+	1554.1.1={
+		holder=10025502 # Saito Yoshitatsu
+	}
+	1561.6.23={
+		holder=10025470 # Saito Tatsuoki
+	}
+	1567.10.1={
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.12.30={
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+		holder=10025456 # Saito Toshitaka
+	}
+	1582.7.16={
+		liege="k_nmih_chubu"
+		holder=10029184 # Oda Hidenobu
+	}
+	1582.10.28={
+		liege="d_nmih_mino"
+		holder=10029162 # Oda Nobutaka
+	}
+	1583.6.14={
+		liege="d_nmih_mino"
+		holder=10029553 # Ikeda Motosuke
+	}
+	1584.5.18={
+		holder=10029554 # Ikeda Terumasa
+	}
+	1590.7.25={
+		holder=10029412 # Toyotomi Hidekatsu
+	}
+	1592.10.14={
+		holder=10029184 # Oda Hidenobu
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10024325 # Okudaira Nobumasa
+	}
+	1602.1.1={
+		holder=10024332 # Okudaira Tadamasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.8.7={
+		holder=10024336 # Okudaira Tadataka
+	}
+}

@@ -1,0 +1,164 @@
+c_nmih_niwa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_niwa1={
+				set_title_name=b_nmih_niwa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_niwa1={
+				set_title_name=b_nmih_niwa2
+			}
+		}
+	}
+	1559.3.1={
+		effect={
+			title:b_nmih_niwa1={
+				set_title_name=b_nmih_niwa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+	1559.3.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	0870.1.1={
+		holder=12431000 # Mukuhashi Kuromaro {Dairyo}
+	}
+	0890.1.1={
+		holder=12431003 # Mukuhashi Tsunenori {Dairyo}
+	}
+	0918.1.29={
+		holder=12431005 # Mukuhashi Yoshiyo {Shoryo}
+	}
+	0926.1.1={
+		holder=12431006 # Mukuhashi Minami {Dairyo}
+	}
+	0955.1.1={
+		holder=0
+	}
+	1180.1.1={
+		liege="d_nmih_owari"
+		holder=12431087 # Tachikida Takamitsu
+	}
+	1216.1.1={
+		liege="d_nmih_owari"
+		holder=12430021 # Yamada Shigetada
+	}
+	1221.7.6={
+		liege="d_nmih_owari"
+		holder=12437400 # Kajiwara Kagetoshi
+	}
+	1250.1.1={
+		holder=12437401 # Kajiwara Kagetsuna
+	}
+	1280.1.1={
+		holder=12437403 # Kajiwara Motokage
+	}
+	1310.1.1={
+		holder=12437404 # Kajiwara Kagesuke
+	}
+	1330.1.1={
+		liege="d_nmih_owari"
+		holder=12437405 # Kajiwara Kageaki
+	}
+	1333.7.4={
+		liege="d_nmih_owari"
+		holder=12437406 # Kajiwara Kagehide
+	}
+	1380.1.1={
+		holder=12437407 # Kajiwara Kagehiro
+	}
+	1400.1.1={
+		holder=12437408 # Kajiwara Kagetoyo
+	}
+	1400.1.17={
+		liege="d_nmih_owari"
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.6.1={
+		liege="d_nmih_owari"
+		holder=12320001 # Kai Yukinori
+	}
+	1402.1.1={
+		holder=10029104 # Oda Josho
+	}
+	1429.1.1={
+		holder=10029106 # Oda Norinaga
+	}
+	1431.1.1={
+		holder=10029107 # Oda Satohiro
+	}
+	1451.1.1={
+		holder=10029108 # Oda Toshihiro
+	}
+	1478.1.1={
+		liege=0
+	}
+	1479.1.1={
+		liege="d_nmih_owari"
+	}
+	1481.3.1={
+		holder=10029110 # Oda Tohiro
+	}
+	1504.1.1={
+		holder=10029112 # Oda Hirotaka
+	}
+	1517.2.16={
+		holder=10029102 # Oda Nobuyasu
+	}
+	1558.01.01={
+		liege=0 #
+		holder=10029123 # Oda Nobukata
+	}
+	1559.03.01={
+		liege="d_nmih_owari" # 29120 Oda Nobunaga
+		holder=10029135 # Oda Nobukiyo
+	}
+	1562.01.01={
+		liege=0 #
+		holder=10029135 # Oda Nobukiyo
+	}
+	1564.08.07={
+		liege="d_nmih_owari" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1570.9.1={
+		holder=10029552 # Ikeda Tsuneoki
+	}
+	1580.9.1={
+		holder=10029160 # Oda Nobutada
+	}
+	1581.12.1={
+		holder=10029164 # Oda Nobufusa
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_owari"
+		holder=10029184 # Oda Hidenobu
+	}
+	1582.7.16={
+		liege="d_nmih_owari"
+		holder=10029161 # Oda Nobukatsu
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10094302 # Ishikawa Sadakiyo
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1607.4.1={
+		liege="d_nmih_owari"
+		holder=10024480 # Hiraiwa Chikayoshi
+	}
+	1612.2.1={
+		holder=10202501 # Naruse Masanari
+	}
+}

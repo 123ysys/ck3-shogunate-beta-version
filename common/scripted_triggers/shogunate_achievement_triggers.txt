@@ -1,0 +1,43 @@
+﻿shogunate_achievement_enable_trigger = {
+	exists = global_var:shogunate_achievement_$ACHIEVEMENT$
+}
+
+shogunate_achievement_disable_trigger = {
+	NOT = { exists = global_var:shogunate_achievement_$ACHIEVEMENT$ }
+}
+
+shogunate_achievement_win_war_trigger = {
+	scope:war = {
+		has_variable = shogunate_achievement_war_$WAR$
+	}
+	exists = scope:winner
+	scope:winner = { is_ai = no }
+}
+
+shogunate_achievement_win_war_third_trigger = {
+	scope:war = {
+		has_variable = shogunate_achievement_war_$WAR$
+	}
+	exists = scope:winner
+	scope:winner = character:$CHAR$
+}
+
+shogunate_achievement_win_character_trigger = {
+	exists = scope:winner
+	exists = scope:loser
+	scope:winner = { is_ai = no }
+	scope:loser = character:$CHAR$
+}
+
+shogunate_achievement_lose_character_trigger = {
+	OR = {
+		AND = {
+			exists = scope:winner
+			exists = scope:loser
+			scope:winner = character:$CHAR$
+			scope:loser= { is_ai = no }
+		}
+		NOT = { exists = scope:winner }				
+		NOT = { exists = scope:loser }				
+	}
+}

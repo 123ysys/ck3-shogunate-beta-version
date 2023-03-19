@@ -1,0 +1,10 @@
+88 = {
+
+	culture = dewa
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1189.10.14={
+	}
+}

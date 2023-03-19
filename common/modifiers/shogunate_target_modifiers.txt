@@ -1,0 +1,8 @@
+﻿# Global Coalition
+
+shogunate_global_coalition_target_modifier = {
+	icon = diplomacy_negative
+	independent_ruler_opinion = -50
+	ai_war_chance = 10
+	ai_war_cooldown = -1.0
+}

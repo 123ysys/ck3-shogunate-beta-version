@@ -1,0 +1,119 @@
+c_nmih_morokata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_morokata1={
+				set_title_name=b_nmih_morokata9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_morokata1={
+				set_title_name=b_nmih_morokata9
+			}
+		}
+	}
+	1375.1.1={
+		effect={
+			title:b_nmih_morokata1={
+				set_title_name=B_NMIH_MOROKATA9_1375
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi a.k.a Kukuchihiko
+	}
+	1180.1.1={
+		liege=0
+		holder=12810104 # Tomo Nobuaki
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_hyuga"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1261.11.26={
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1264.9.12={
+		holder=10131714 # Hojo [Shiota] Yoshimasa
+	}
+	1277.5.8={
+		holder=10131878 # Hojo [Akahashi] Yoshimune
+	}
+	1277.9.16={
+		holder=10132044 # Hojo [Akahashi] Hisatoki
+	}
+	1321.7.18={
+		holder=10132200 # Hojo Hidetoki
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12811901 # Nirei Yorinaka
+	}
+	1335.8.14={
+		liege="d_nmih_osumi"
+	}
+	1348.1.1={
+		liege="k_nmih_seisei_shogun"
+	}
+	1357.2.24={
+		liege="d_nmih_satsuma"
+		holder=10060258 # Hongo Suketada
+	}
+	1359.10.13={
+		holder=10060257 # Hongo Yoshihisa
+	}
+	1402.1.1={
+		holder=10060256 # Hongo Tomohisa
+	}
+	1420.1.1={
+		holder=10060255 # Hongo Mochihisa
+	}
+	1453.1.1={
+		holder=10060005 # Shimazu Tadakuni
+	}
+	1465.1.1={
+		holder=10060255 # Hongo Mochihisa
+	}
+	1470.1.1={
+		holder=10060254 # Hongo Toshihisa
+	}
+	1500.1.1={
+		liege=0
+		holder=10060251 # Hongo Kazuhisa
+	}
+	1521.1.1={
+		holder=10060250 # Hongo Tadasuke
+	}
+	1559.12.14={
+		liege="d_nmih_satsuma"
+		holder=10060252 # Hongo Tokihisa
+	}
+	1577.12.26={
+		liege="d_nmih_hyuga"
+	}
+	1587.5.18={
+		liege="d_nmih_osumi"
+		holder=10060049 # Shimazu Hisayasu
+	}
+	1593.10.2={
+		holder=10060050 # Shimazu Tadatsune
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+	}
+}

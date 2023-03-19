@@ -1,0 +1,10 @@
+28 = {
+
+	culture = northern_kanto
+	religion = shinto
+	holding = castle_holding
+	1348.1.1={
+	}
+	1400.1.1={
+	}
+}

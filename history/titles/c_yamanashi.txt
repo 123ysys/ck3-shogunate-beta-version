@@ -1,0 +1,172 @@
+c_nmih_yamanashi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yamanashi1={
+				set_title_name=b_nmih_yamanashi9
+			}
+		}
+	}
+	0701.1.1={
+		effect={
+			title:b_nmih_yamanashi1={
+				set_title_name=b_nmih_yamanashi2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yamanashi1={
+				set_title_name=b_nmih_yamanashi9
+			}
+		}
+	}
+	1465.1.1={
+		effect={
+			title:b_nmih_yamanashi1={
+				set_title_name=B_NMIH_YAMANASHI9_1465
+			}
+		}
+	}
+	1519.1.1={
+		effect={
+			title:b_nmih_yamanashi1={
+				set_title_name=b_nmih_yamanashi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0701.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 30 }
+	1330.1.1 = { change_development_level = 40 }
+	1498.1.1 = { change_development_level = 40 }
+	1508.10.27 = { change_development_level = 50 }
+	1519.1.1 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_kai"
+	}
+	1180.1.1={
+		liege="d_nmih_kai" # Takeda Nobuyoshi
+		holder=10120113 # Yasuda Yoshisada
+	}
+	1180.11.9={
+		liege="d_nmih_totomi" # Yasuda Yoshisada / Battle of Fujikawa 
+	}
+	1193.11.28={
+		liege="d_nmih_totomi"
+		holder=10130839 # Kato Kagekado
+	}
+	1199.12.18={
+		liege="e_nmih_japan"
+	}
+	1221.7.6={
+		liege="d_nmih_kai"
+		holder=12425100 # Toyama Kagetomo
+	}
+	1241.4.20 ={
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1248.12.21={
+		holder=12360112 # Takeda Nobumasa
+	}
+	1265.1.6={
+		holder=12360121 # Takeda Masatsuna
+	}
+	1293.1.1={
+		holder=12360140 # Takeda Nobuie
+	}
+	1300.1.1={
+		holder=12220371 # Nikaido Sadafuji
+	}
+	1331.1.1={
+		liege="d_nmih_kai"
+		holder=12360150 # Takeda Masayoshi
+	}
+	1343.1.1={
+		liege="d_nmih_kai"
+		holder=12360160 # Takeda Nobutake
+	}
+	1359.8.7={
+		holder=12360170 # Takeda Nobunari
+	}
+	1394.7.11={
+		holder=12360180 # Takeda Nobuharu
+	}
+	1413.11.16={
+		holder=12360190 # Takeda Nobumitsu
+	}
+	1417.2.22={
+		liege="k_nmih_kamakura_kubo"
+		holder=12361520 # Itsumi Arinao
+	}
+	1425.1.1={
+		liege=0
+		holder=12361300 # Atobe Myokai
+	}
+	1438.9.1={
+		liege="d_nmih_kai"
+		holder=12361300 # Atobe Myokai
+	}
+	1464.1.1={
+		holder=12361301 # Atobe Kageie
+	}
+	1465.1.1={
+		holder=12360220 # Takeda Nobumasa
+	}
+	1492.1.1={
+		liege=0
+		holder=12360231 # Aburakawa Nobuyoshi
+	}
+	1508.10.27={
+		liege="d_nmih_kai"
+		holder=10020000 # Takeda Nobutora
+	}
+	1541.6.14={
+		holder=10020010 # Takeda Shingen
+	}
+	1573.05.13={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1582.4.3={
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		holder=10029251 # Kawajiri Hidetaka
+	}
+	1582.7.7={
+		liege="d_nmih_kai"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1582.8.1={
+		holder=10024480 # Hiraiwa Chikayoshi
+	}
+	1590.7.25={
+		holder=10029412 # Toyotomi Hidekatsu
+	}
+	1591.4.14={
+		holder=10094000 # Kato Mitsuyasu
+	}
+	1593.9.24={
+		holder=10094001 # Kato Sadayasu
+	}
+	1594.1.1={
+		holder=10029439 # Asano Nagamasa
+	}
+	1599.10.9={
+		holder=10029440 # Asano Yukinaga
+	}
+	1603.3.24={
+		liege="d_nmih_kai"
+		holder=10024048 # Tokugawa Yoshinao
+	}
+	1607.4.1={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		liege="d_nmih_kai"
+		holder=10024055 # Tokugawa Tadanaga
+	}
+}

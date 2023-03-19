@@ -1,0 +1,214 @@
+c_nmih_soejimo = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_soejimo1={
+				set_title_name=b_nmih_soejimo7
+			}
+		}
+	}
+	607.1.1={
+		effect={
+			title:b_nmih_soejimo1={
+				set_title_name=b_nmih_soejimo9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_soejimo1={
+				set_title_name=b_nmih_soejimo1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	607.1.1 = { change_development_level = 20 }
+	670.1.1 = { change_development_level = 20 }
+	693.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_yamato"
+	}
+	1179.5.20={
+		government = theocracy_government
+		liege="d_nmih_kofukuji" # Genen
+		holder=12570101 # Genen
+	}
+	1181.1.12={
+		liege="d_nmih_kofukuji" # Shinen
+		holder=11000162 # Shinen. Siege of Nara
+	}
+	1189.7.13={
+		holder=11006929 # [45] Kakuken
+	}
+	1199.1.18={
+		holder=10125050 # [47] Gaen
+	}
+	1207.2.20={
+		holder=11000605 # [48] Ryoen
+	}
+	1208.2.28={
+		holder=10125050 # [49] Gaen
+	}
+	1214.1.16={
+		holder=11006930 # [50] Shinken
+	}
+	1218.1.10={
+		holder=10125050 # [51] Gaen
+	}
+	1219.1.14={
+		holder=11000605 # [52] Ryoen
+	}
+	1220.2.21={
+		holder=10125050 # [53] Gaen
+	}
+	1226.1.1={
+		holder=11000461 # [55] Jitsuson
+	}
+	1230.5.5={
+		holder=11000216 # [56] Jitsushin
+	}
+	1233.1.1={
+		holder=11000216 # [58] Jitsushin
+	}
+	1235.1.1={
+		holder=11000634 # [59] Enjitsu
+	}
+	1244.1.1={
+		holder=11000216 # [61][63] Jitsushin
+	}
+	1250.1.1={
+		holder=11001127 # [65] Kinen
+	}
+	1251.1.1={
+		holder=11000216 # [66] Jitsushin
+	}
+	1253.1.1={
+		holder=10125067 # [67] Shinen
+	}
+	1258.11.14={
+		holder=11000634 # [69] Enjitsu
+	}
+	1260.1.4={
+		holder=11000627 # [70] Sonshin
+	}
+	1266.8.3={
+		holder=11004139 # [71] Raien
+	}
+	1273.5.9={
+		holder=11000246 # [73] Shinsho
+	}
+	1278.2.10={
+		holder=11000627 # [75] Sonshin
+	}
+	1280.1.13={
+		holder=11000246 # [76] Shinsho
+	}
+	1281.4.30={
+		holder=11000657 # [77][80][83][85] Jishin 
+	}
+	1295.1.1={
+		holder=10125308 # [86] Kenkaku
+	}
+	1297.3.27={
+		holder=11000657 # [90] Jishin
+	}
+	1300.1.1={
+		liege="d_nmih_kofukuji"
+		holder=10048418 # Tsutsui ShimousaNoKimi
+	}
+	1340.1.1={
+		holder=10048419 # Tsutsui Junshin
+	}
+	1390.1.1={
+		holder=10048407 # Tsutsui Junkaku
+	}
+	1434.1.1={
+		holder=10048408 # Tsutsui Junko
+	}
+	1441.10.1={
+		holder=10048412 # Tsutsui Junei
+	}
+	1443.1.1={
+		liege=0
+	}
+	1454.1.1={
+		liege="d_nmih_kofukuji"
+	}
+	1460.10.4={
+		liege="d_nmih_kii"
+	}
+	1476.5.7={
+		holder=10048400 # Tsutsui Junson
+	}
+	1489.8.27={
+		holder=10048401 # Tsutsui Junken
+	}
+	1521.1.1={
+		holder=10048402 # Tsutsui Junko
+	}
+	1534.1.1={
+		liege="d_nmih_yamato"
+		holder=10048403 # Tsutsui Junsho
+	}
+	1550.8.2={
+		holder=10048413 # Tsutsui Junkei
+	}
+	1560.1.1={
+		liege=0
+	}
+	1565.11.18={
+		liege=0
+		holder=10045400 # Matsunaga Hisahide
+	}
+	1566.6.8={
+		liege=0
+		holder=10048413 # Tsutsui Junkei
+	}
+	1568.10.8={
+		government = feudal_government
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10045400 # Matsunaga Hisahide
+	}
+	1571.8.4={
+		government = theocracy_government
+		liege=0
+		holder=10048413 # Tsutsui Junkei
+	}
+	1571.10.25={
+		government = feudal_government
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1575.5.15={
+		liege="d_nmih_yamato"
+	}
+	1584.9.15={
+		holder=10048415 # Tsutsui Sadatsugu
+	}
+	1585.9.14={
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1591.2.15={
+		holder=10029413 # Toyotomi Hideyasu
+	}
+	1595.5.24={
+		holder=10043370 # Mashita Nagamori
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1614.3.1={
+		holder=10048416 # Tsutsui Sadayoshi
+	}
+	1615.5.13={
+		liege="k_nmih_southern_kinai"
+		holder=10206002 # Ono Harufusa
+	}
+	1615.6.4={
+		liege="e_nmih_japan"
+		holder=10024523 # Mizuno Katsunari
+	}
+}

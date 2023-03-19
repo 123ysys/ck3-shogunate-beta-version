@@ -1,0 +1,115 @@
+c_nmih_izumi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_izumi1={
+				set_title_name=b_nmih_izumi1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_izumi1={
+				set_title_name=b_nmih_izumi2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	10.1.1={
+	}
+	20.1.1={
+		holder=10290300 # Sori
+	}
+	70.1.1={
+		holder=10290301 # Kibe
+	}
+	100.1.1={
+		holder=10290302 # Toki
+	}
+	150.1.1={
+		holder=10290307 # Ishikori
+	}
+	170.1.1={
+		holder=10290308 # Tomami
+	}
+	230.1.1={
+		holder=10290309 # Atasumi
+	}
+	1161.1.1={
+		liege="d_nmih_satsuma"
+		holder=12810512 # Taira Nobuzumi
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_satsuma"
+		holder=10120381 # Minamoto Yoshizane
+	}
+	1186.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1227.8.1={
+		holder=10060034 # Shimazu Tadatoki
+	}
+	1265.1.1={
+		holder=10060033 # Shimazu Hisatsune
+	}
+	1284.5.7={
+		holder=10060032 # Shimazu Tadamune
+	}
+	1325.12.17={
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1333.7.4={
+		liege="d_nmih_satsuma"
+	}
+	1363.8.12={
+		holder=10060081 # Shimazu Morohisa
+	}
+	1376.4.10={
+		holder=10060082 # Shimazu Korehisa
+	}
+	1407.6.9={
+		holder=10060083 # Shimazu Morihisa
+	}
+	1422.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060004 # Shimazu Hisatoyo
+	}
+	1425.2.9={
+		holder=10060006 # Shimazu Mochihisa
+	}
+	1459.4.2={
+		liege=0
+		holder=10060014 # Shimazu Kunihisa
+	}
+	1498.8.16={
+		holder=10060015 # Shimazu Shigehisa
+	}
+	1504.1.1={
+		holder=10060016 # Shimazu Tadaoki
+	}
+	1525.11.4={
+		liege="d_nmih_satsuma"
+		holder=10060070 # Shimazu Sanehisa
+	}
+	1535.8.1={
+		liege=0
+	}
+	1553.8.30={
+		liege="d_nmih_satsuma"
+		holder=10060079 # Shimazu Yoshitora
+	}
+	1585.8.20={
+		holder=10060063 # Shimazu Tadatoki
+	}
+	1593.5.21={
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+		holder=10060050 # Shimazu Iehisa
+	}
+}

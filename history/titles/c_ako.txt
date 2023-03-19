@@ -1,0 +1,131 @@
+c_nmih_ako = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ako1={
+				set_title_name=b_nmih_ako4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ako1={
+				set_title_name=b_nmih_ako4
+			}
+		}
+	}
+	1333.1.1={
+		effect={
+			title:b_nmih_ako1={
+				set_title_name=B_NMIH_AKO4_1333
+			}
+		}
+	}
+	1467.1.1={
+		effect={
+			title:b_nmih_ako1={
+				set_title_name=b_nmih_ako8
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1467.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12630100 # Akamatsu Norikage
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_harima"
+	}
+	1222.1.1={
+		holder=12630101 # Akamatsu Ienori
+	}
+	1240.1.1={
+		holder=12630102 # Akamatsu Hisanori
+	}
+	1270.1.1={
+		holder=12630103 # Akamatsu Shigenori
+	}
+	1300.1.1={
+		holder=10053500 # Akamatsu Norimura
+	}
+	1333.1.1={
+		liege="d_nmih_harima"
+		holder=10053500 # Akamatsu Norimura
+	}
+	1350.2.18={
+		holder=10053501 # Akamatsu Norisuke
+	}
+	1351.5.4={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1372.1.13={
+		holder=10053507 # Akamatsu Yoshinori
+	}
+	1427.10.11={
+		holder=10053511 # Akamatsu Mitsusuke
+	}
+	1441.9.25={
+		liege="d_nmih_harima"
+		holder=10050130 # Otagaki Mitsukage
+	}
+	1448.9.15={
+		liege="e_nmih_japan"
+		holder=10053517 # Akamatsu Norinao
+	}
+	1454.1.1={
+		liege=0
+	}
+	1455.6.26={
+		liege="d_nmih_harima"
+		holder=10050041 # Yamana Koretoyo
+	}
+	1467.6.27={
+		liege="d_nmih_harima"
+		holder=12641126 # Uragami Norimune
+	}
+	1502.7.15={
+		holder=12641133 # Uragami Muramune
+	}
+	1518.1.1={
+		liege=0
+	}
+	1520.11.1={
+		liege="d_nmih_harima"
+	}
+	1530.7.1={
+		liege="d_nmih_bizen"
+	}
+	1531.7.17={
+		holder=10054404 # Uragami Masamune
+	}
+	1552.4.1={
+		liege="d_nmih_harima"
+	}
+	1564.2.23={
+		liege=0
+		holder=10053538 # Akamatsu Masahide
+	}
+	1569.11.1={
+		liege="d_nmih_bizen"
+		holder=10054407 # Uragami Munekage
+	}
+	1575.10.1={
+		holder=10055100 # Ukita Naoie
+	}
+	1582.2.1={
+		holder=10055101 # Ukita Hideie
+	}
+	1603.3.24={
+		liege="d_nmih_harima"
+		holder=10029568 # Ikeda Tadatsugu
+	}
+	1615.3.22={
+		holder=10029574 # Ikeda Masatsuna
+	}
+}

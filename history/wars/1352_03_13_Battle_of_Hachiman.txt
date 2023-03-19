@@ -1,0 +1,15 @@
+war = {
+	name = "war_1352_battle_of_hachiman"
+	start_date = 1352.3.13
+	end_date = 1352.6.24
+	targeted_titles = {
+		d_nmih_yamashiro
+	}
+	casus_belli = event_nanbokucho_invasion_war_duchy
+	attackers = {
+		10041077	# Emperor Go-Murakami
+	}
+	defenders = {
+		12139028	# Ashikaga Takauji
+	}
+}

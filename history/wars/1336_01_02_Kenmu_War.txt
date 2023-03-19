@@ -1,0 +1,21 @@
+war = {
+	name = "war_1336_kenmu_war"
+	start_date = 1336.1.2
+	end_date = 1336.7.22
+	targeted_titles = {
+		d_nmih_yamashiro
+	}
+	casus_belli = event_nanbokucho_invasion_war_duchy
+	attackers = {
+		12139028	# Ashikaga Takauji
+		12139029	# Ashikaga Tadayoshi
+		12139049	# Ashikaga Takatsune
+		12139567	# Kou Moronao
+		10044203	# Sasaki Doyo
+	}
+	defenders = {
+		10041075	# Emperor Go-Daigo
+		12185040	# Nitta Yoshisada
+		12130050	# Utsunomiya Kintsuna
+	}
+}

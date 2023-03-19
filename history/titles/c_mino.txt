@@ -1,0 +1,96 @@
+c_nmih_mino = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mino1={
+				set_title_name=b_nmih_mino1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1324.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12661200 # Masuda Kanehide
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_iwami"
+	}
+	1190.1.1={
+		holder=12661205 # Masuda Kanetaka
+	}
+	1200.1.1={
+		holder=12661210 # Masuda Kanesue
+	}
+	1220.1.1={
+		holder=12661215 # Masuda Kanetoki
+	}
+	1260.1.1={
+		holder=12661230 # Masuda Kanesuke
+	}
+	1310.1.1={
+		holder=10055932 # Masuda Kanehiro
+	}
+	1320.1.1={
+		holder=10055929 # Masuda Kanekata
+	}
+	1330.1.1={
+		holder=10055928 # Masuda Kanemi
+	}
+	1333.7.4={
+		liege="d_nmih_iwami"
+	}
+	1351.3.15={
+		liege="k_nmih_western_chugoku"
+	}
+	1363.9.1={
+		liege="d_nmih_suo"
+	}
+	1391.11.10={
+		holder=10055927 # Masuda Kaneyo
+	}
+	1399.11.26={
+		liege="k_nmih_western_chugoku"
+	}
+	1407.01.18={
+		holder=10055926 # Masuda Hidekane
+	}
+	1419.03.12={
+		liege="k_nmih_western_chugoku"
+		holder=10055920 # Masuda Kanemichi
+	}
+	1431.08.06={
+		holder=10055914 # Masuda Kanetaka
+	}
+	1461.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10055901 # Masuda Sadakane
+	}
+	1483.1.1={
+		holder=10055900 # Masuda Munekane
+	}
+	1544.2.12={
+		holder=10055903 # Masuda Fujikane
+	}
+	1551.9.30={
+		liege="k_nmih_western_chugoku"
+	}
+	1557.4.1={
+		liege="d_nmih_aki"
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1582.1.1={
+		holder=10055953 # Masuda Motonaga
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10055107 # Sakazaki Naomori
+	}
+
+}

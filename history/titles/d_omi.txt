@@ -1,0 +1,154 @@
+d_nmih_omi = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0712.8.1={
+		holder=11000007 # Fujiwara Muchimaro
+	}
+	0716.11.11={
+		holder=0 #  
+	}
+	0745.10.3={
+		holder=11005001 # Fujiwara Nakamaro
+	}
+	0766.5.10={
+		holder=11005010 # Fujiwara Tadamaro
+	}
+	0771.4.20={
+		holder=0 #  
+	}
+	0802.2.28={
+		holder=11005037 # Fujiwara Takatoshi
+	}
+	0806.6.18={
+		holder=0 #  
+	}
+	0814.1.1={
+		holder=0 #  
+	}
+	0816.2.15={
+		holder=11000027 # Fujiwara Fuyutsugu
+	}
+	0816.11.27={
+		holder=0 #  
+	}
+	0851.2.19={
+		holder=10242036 # Ono Takamura
+	}
+	0853.3.3={
+		holder=11000035 # Fujiwara Tasuku
+	}
+	0864.3.1={
+		holder=12433102 # Harusumi Yoshitada
+	}
+	0896.2.17={
+		holder=11003300 # Fujiwara Takafuji
+	}
+	0897.7.26={
+		holder=0 #  
+	}
+	0946.3.17={
+		holder=11003313 # Fujiwara Asatada
+	}
+	0947.1.10={
+		holder=0 #  
+	}
+	0960.9.7={
+		holder=11003314 # Fujiwara Asahira
+	}
+	0964.10.13={
+		holder=11005239 # Fujiwara Kunimitsu
+	}
+	0969.3.1={
+		holder=0 #  
+	}
+	1038.3.13={
+		holder=11003338 # Fujiwara Takasuke
+	}
+	1046.3.27={
+		holder=0 #  
+	}
+	1063.3.19={
+		holder=11003063 # Fujiwara Moronari
+	}
+	1068.12.24={
+		holder=0 #  
+	}
+	1072.8.16={
+		holder=11003788 # Fujiwara Sanemasa
+	}
+	1077.8.26={
+		holder=0 #  
+	}
+	1081.11.16={
+		holder=11000121 # Fujiwara Tadatsuna
+	}
+	1086.11.16={
+		holder=0 #  
+	}
+	1110.10.23={
+		holder=11003360 # Fujiwara Akitaka
+	}
+	1115.9.10={
+		holder=0 #  
+	}
+	1131.3.15={
+		holder=0 #  
+	}
+	1136.2.4={
+		holder=11003378 # Fujiwara Norikata
+	}
+	1180.1.1={
+		liege=0
+		holder=12515000 # Yamamoto Yoshitsune
+	}
+	1180.12.24={
+		holder=0
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+		holder=12515000 # Yamamoto Yoshitsune
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12510030 # Sasaki Hideyoshi
+	}
+	1184.8.26={
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1199.2.9={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=12510073 # Sasaki Nobutsuna
+	}
+	1242.4.7={
+		liege=0
+		holder=0 # 
+	}
+	1575.1.1={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.6.21={
+		liege=0
+		holder=0 # 
+	}
+	1585.8.10={
+		liege="e_nmih_japan"
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=0
+	}
+}

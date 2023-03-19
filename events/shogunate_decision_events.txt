@@ -1,0 +1,29 @@
+﻿namespace = shogunate_decision
+
+# Rename an adopted child  # based on birth.9003
+shogunate_decision.0001 = {
+	type = character_event
+	title = shogunate_decision.0001.t
+	desc = shogunate_decision.0001.desc
+	theme = family
+	override_background = { event_background = relaxing_room }
+	left_portrait = scope:child
+	right_portrait = {
+		character = scope:father
+		animation = happiness
+	}
+
+	#NAMING WIDGET
+	widgets = {
+		widget = {
+			gui = "event_window_widget_name_child"
+			container = "dynamic_birth_name"
+			controller = name_character
+			setup_scope = { scope:child = { save_scope_as = name_character_target } }
+		}
+	}
+	
+	option = {
+		name = shogunate_decision.0001.a
+	}
+}

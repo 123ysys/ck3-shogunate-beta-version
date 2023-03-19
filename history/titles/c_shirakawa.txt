@@ -1,0 +1,122 @@
+c_nmih_shirakawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shirakawa1={
+				set_title_name=b_nmih_shirakawa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shirakawa1={
+				set_title_name=b_nmih_shirakawa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_shirakawa1={
+				set_title_name=b_nmih_shirakawa1
+			}
+		}
+	}
+	1603.3.24={
+		effect={
+			title:b_nmih_shirakawa1={
+				set_title_name=B_NMIH_SHIRAKAWA1_1603
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+	1331.1.1 = { change_development_level = 40 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12060531 # Ishikawa Motomitsu
+	}
+	1183.3.19={
+		liege="k_nmih_western_kanto"
+	}
+	1189.11.15={
+		liege="d_nmih_iwaki"
+		holder=10010227 # Yuki Tomomitsu
+	}
+	1254.2.24={
+		holder=10010225 # Yuki Tomohiro
+	}
+	1274.11.3={
+		holder=12064000 # Yuki Sukehiro
+	}
+	1290.1.1={
+		holder=12064005 # Yuki Munehiro
+	}
+	1333.7.4={
+		liege="d_nmih_iwaki"
+	}
+	1339.1.1={
+		holder=12064010 # Yuki Chikatomo
+	}
+	1343.8.1={
+		liege="d_nmih_oshu_shugo"
+		holder=12064010 # Yuki Chikatomo
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1347.1.1={
+		holder=12064015 # Yuki Akitomo
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1370.1.1={
+		holder=12064020 # Yuki Mitsutomo
+	}
+	1399.1.1={
+		liege="d_nmih_iwashiro"
+	}
+	1420.1.1={
+		holder=12064025 # Yuki Ujitomo
+	}
+	1440.1.1={
+		liege=0
+		holder=10007104 # Shirakawa Naotomo
+	}
+	1493.1.1={
+		holder=10007103
+	}
+	1510.1.1={
+		holder=10007102
+	}
+	1522.1.2={
+		holder=10007101
+	}
+	1559.1.1={
+		holder=10007105 # Shirakawa Harutsuna
+	}
+	1573.1.1={
+		holder=10007106 # Shirakawa Yoshiaki
+	}
+	1575.1.1={
+		holder=10007107 # Shirakawa (Komine) Yoshichika
+	}
+	1590.8.28={
+		liege="k_nmih_southern_oshu"
+		holder=10027006 # Seki Kazumasa
+	}
+	1598.3.1={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1603.3.24={
+		liege="k_nmih_western_kanto"
+		holder=10067408 # Tachibana Muneshige
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

@@ -1,0 +1,140 @@
+c_nmih_shimane = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shimane1={
+				set_title_name=b_nmih_shimane2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shimane1={
+				set_title_name=b_nmih_shimane9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_shimane1={
+				set_title_name=b_nmih_shimane1
+			}
+		}
+	}
+	1568.1.1={
+		effect={
+			title:b_nmih_shimane1={
+				set_title_name=b_nmih_shimane3
+			}
+		}
+	}
+	1611.1.1={
+		effect={
+			title:b_nmih_shimane1={
+				set_title_name=b_nmih_shimane4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+	1568.1.1 = { change_development_level = 20 }
+	1611.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_izumo"
+	}
+	1180.1.1={
+		liege="d_nmih_izumo"
+		holder=12600900 # Ono Sueaki
+	}
+	1190.1.1={
+		liege="d_nmih_izumo"
+		holder=12600901 # Ono Sukekiyo
+	}
+	1220.1.1={
+		holder=12600903 # Ono Sueshige
+	}
+	1250.1.1={
+		holder=12600904 # Ono Akinaga
+	}
+	1280.1.1={
+		holder=12600905 # Ono Yasunaga
+	}
+	1310.1.1={
+		holder=12600906 # Ono Mitsushige
+	}
+	1340.1.1={
+		liege="d_nmih_izumo"
+		holder=12219271 # Matsuda Hideshige
+	}
+	1370.1.1={
+		holder=12601310 # Matsuda Tsuneshige
+	}
+	1410.1.1={
+		holder=12601311 # Matsuda Tsunetada
+	}
+	1440.1.1={
+		liege="d_nmih_izumo" # Kyogoku Mochikiyo
+		holder=12601312 # Matsuda Kimiyori
+	}
+	1468.6.20={
+		liege=0 # rebellion
+		holder=12601312 # Matsuda Kimiyori
+	}
+	1468.10.7={
+		holder=12601313 # Matsuda Mikawa no kami
+	}
+	1471.9.30={
+		liege="d_nmih_izumo"
+		holder=10051503 # Amago Kiyosada
+	}
+	1479.1.1={
+		holder=10051501 # Amago Tsunehisa, Kiyosada in retirement
+	}
+	1524.1.1={
+		liege="k_nmih_sanin"
+	}
+	1541.11.30={
+		holder=10051508 # Amago Haruhisa
+	}
+	1555.1.1={
+		holder=12601321 # Matsuda Mitsuhisa
+	}
+	1562.7.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1562.12.1={
+		liege="k_nmih_sanin"
+	}
+	1563.9.2={
+		liege="k_nmih_western_chugoku"
+		holder=10056004 # Mori Motonari
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+		holder=10056015 # Kikkawa Motoharu
+	}
+	1569.1.1={
+		holder=10056022 # Mori(Suetsugu) Motoyasu
+	}
+	1569.8.6={
+		liege="d_nmih_amago_revival_army"
+		holder=10051516 # Amago Katsuhisa
+	}
+	1571.9.8={
+		liege="d_nmih_izumo"
+		holder=10056022 # Mori(Suetsugu) Motoyasu
+	}
+	1591.1.1={
+		holder=10056246 # Kikkawa Hiroie
+	}
+	1603.3.24={
+		liege="d_nmih_izumo"
+		holder=10029642 # Horio Tadauji
+	}
+	1604.8.28={
+		holder=10029643 # Horio Tadaharu
+	}
+}

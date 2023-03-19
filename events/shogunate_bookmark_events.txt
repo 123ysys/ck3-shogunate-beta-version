@@ -1,0 +1,181 @@
+﻿namespace = shogunate_bookmark
+
+# Setup Historical Situation (on startup)
+shogunate_bookmark.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		### Wars
+
+		# Genpei War
+		trigger_event = shogunate_bookmark.1000
+
+		# Kenmu War
+		trigger_event = shogunate_bookmark.1010
+
+		# Nakasendai Rebellion
+		trigger_event = shogunate_bookmark.1020
+
+		# Kanno Disturbance
+		trigger_event = shogunate_bookmark.1030
+
+		# Surprise Attacks
+		trigger_event = shogunate_bookmark.1100
+
+		# Historical Wars
+		trigger_event = shogunate_bookmark.1200
+
+
+		### Alliances
+
+		# Historical Alliances
+		trigger_event = shogunate_bookmark.2000
+
+
+		### Rivalry
+
+		# Historical Rivalry
+		trigger_event = shogunate_bookmark.2100
+
+		# Rivalry in the Kanto Region
+		trigger_event = shogunate_bookmark.2110
+
+		# Coalition against Oda Nobunaga
+		trigger_event = shogunate_bookmark.2120
+
+		# Honno-ji Incident
+		trigger_event = shogunate_bookmark.2130
+
+		# Coalition against Taira Clan
+		trigger_event = shogunate_bookmark.2140
+
+
+		### Clans
+
+		# Oda Clan
+		trigger_event = shogunate_bookmark.3000
+
+		# Toyotomi (Hashiba) Clan
+		trigger_event = shogunate_bookmark.3010
+
+		# Tokugawa (Matsudaira) Clan
+		trigger_event = shogunate_bookmark.3020
+
+		# Hojo Clan
+		trigger_event = shogunate_bookmark.3100
+
+
+		### Traits
+
+		# Loyal Trait
+		trigger_event = shogunate_bookmark.4000
+
+		# Disloyal Trait
+		trigger_event = shogunate_bookmark.4010
+
+
+		### Struggles
+
+		# Sengoku Struggle
+		trigger_event = shogunate_bookmark.7000
+
+		# Kanto Struggle
+#		trigger_event = shogunate_bookmark.7020
+
+
+		### Misc
+
+		# Aristocratic Daimyo
+		trigger_event = shogunate_bookmark.8000
+
+		# Special Cultures
+		trigger_event = shogunate_bookmark.8100
+
+		# Backup Map Colors
+		shogunate_map_color_save_all_effect = yes
+	}
+}
+
+# Setup Historical Situation (on startup, after lobby)
+shogunate_bookmark.0002 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		### Artifacts
+
+		# Historical Artifacts
+		trigger_event = shogunate_bookmark.9000
+
+		### Achievements
+
+		# Achievements
+		trigger_event = shogunate_bookmark.9100
+
+		### Misc
+
+		# AI Personality
+		trigger_event = shogunate_bookmark.9500
+
+		# AI Ambition
+		trigger_event = shogunate_bookmark.9510
+
+		# Capitals
+		trigger_event = shogunate_bookmark.9600
+
+	}
+}
+
+# Setup Historical Periods (on startup)
+shogunate_bookmark.0003 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Nanboku-cho Period
+
+		if = {
+			limit = {
+				shogunate_nanbokucho_period_start_date_trigger = yes
+			}
+			set_global_variable = shogunate_global_nanbokucho_start_flag
+		}
+		if = {
+			limit = {
+				shogunate_nanbokucho_period_end_date_trigger = yes
+			}
+			set_global_variable = shogunate_global_nanbokucho_end_flag
+			set_global_variable = shogunate_global_nanbokucho_northern_court_won_flag
+		}
+
+		# Sengoku Period
+
+		if = {
+			limit = {
+				shogunate_sengoku_period_start_date_trigger = yes
+			}
+			set_global_variable = shogunate_global_sengoku_start_flag
+		}
+		if = {
+			limit = {
+				shogunate_sengoku_period_end_date_trigger = yes
+			}
+			set_global_variable = shogunate_global_sengoku_end_flag
+		}
+
+	}
+}
+
+# Setup Map Colors (on startup)
+shogunate_bookmark.0004 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		shogunate_map_color_save_all_effect = yes
+	}
+}

@@ -1,0 +1,133 @@
+d_nmih_mikawa = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0779.2.1={
+	    holder=11005014 # Fujiwara Nagayama  {Mikawa no kami}
+	}
+	0782.5.1={
+	    holder=0 #  
+	}
+	0869.1.1={
+	    holder=11005160 # Fujiwara Yoshitomo {Mikawa no kami}
+	}
+	0881.3.22={
+	    holder=11003542 # Fujiwara Tsugukage {Mikawa no kami}
+	}
+	0885.2.8={
+	    holder=0 #  
+	}
+	1004.4.20={
+	    holder=11005668 # Fujiwara Sukekimi {Mikawa no kami}
+	}
+	1008.2.16={
+	    holder=0 #  
+	}
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110049 # Taira Tomonori {Mikawa no kami}
+	}
+	1180.11.9={
+		liege=0
+		holder=10120072 # Minamoto Yukiie. Battle of Fujikawa
+	}
+	1181.4.25={ # Battle of Sunomata
+		liege="k_nmih_western_kanto"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1184.7.21={
+		holder=10120078 # Minamoto Noriyori {Mikawa no kami}
+	}
+	1193.9.14={
+		holder=12202006 # Adachi Morinaga
+	}
+	1200.6.9={
+		holder=12220001 # Adachi Kagemori
+	}
+	1221.7.6={
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1333.6.10={
+		liege=0
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1336.7.22={
+		holder=12139585 # Kou Morokane
+	}
+	1351.3.15={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1360.7.1={
+		holder=12186615 # Oshima Yoshitaka
+	}
+	1379.4.1={
+		liege="e_nmih_japan"
+		holder=10049505 # Isshiki Norimitsu
+	}
+	1388.3.4={
+		holder=10049507 # Isshiki Akinori
+	}
+	1406.6.22={
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1440.6.14={
+		liege="e_nmih_japan"
+		holder=10040526 # Hosokawa Mochitsune
+	}
+	1450.1.28={
+		liege="k_nmih_kanrei"
+		holder=10040528 # Hosokawa Shigeyuki
+	}
+	1478.1.1={
+		holder=0 # 
+	}
+	1529.11.24={
+		liege=0
+		holder=10024000 # Matsudaira Kiyoyasu
+	}
+	1535.12.29={
+		holder=0
+	}
+	1548.1.1={
+		holder=10023010 # Imagawa Yoshimoto
+	}
+	1560.6.12={
+		holder=10023017 # Imagawa Ujizane
+	}
+	1565.1.1={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1575.8.18={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1582.04.15={
+		liege=k_nmih_tokai
+	}
+	1590.7.25={ 
+		holder=0
+	}
+}

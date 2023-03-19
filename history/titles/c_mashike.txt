@@ -1,0 +1,68 @@
+c_nmih_mashike = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mashike1={
+				set_title_name=b_nmih_mashike1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	900.1.1 = { change_development_level = 0 }
+	1605.1.1 = { change_development_level = 10 }
+	1704.1.1 = { change_development_level = 10 }
+
+	0100.1.1={
+	}
+	1066.1.1={
+		holder=10150202 # Samayunkur
+	}
+	1130.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1170.1.1={
+		liege="d_nmih_ishikari"
+		holder=10154100 # Oko
+	}
+	1200.1.1={
+		holder=10154110
+	}
+	1230.1.1={
+		holder=10154111
+	}
+	1260.1.1={
+		holder=10154112
+	}
+	1270.1.1={
+		holder=10157202
+	}
+	1310.1.1={
+		holder=10154113
+	}
+	1360.1.1={
+		holder=10154114
+	}
+	1400.1.1={
+		holder=10154115
+	}
+	1430.1.1={
+		holder=10154116
+	}
+	1450.1.1={
+		liege="d_nmih_ishikari"
+		holder=10154002
+	}
+	1490.1.1={
+		holder=10154000
+	}
+	1540.1.1={
+		holder=10154001
+	}
+	1590.1.1={
+		holder=10154003
+	}
+
+}

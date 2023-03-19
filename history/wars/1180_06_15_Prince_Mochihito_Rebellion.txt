@@ -1,0 +1,11 @@
+war = {
+	name = "war_1180_prince_mochihito_rebellion"
+	start_date = 1180.6.15
+	end_date = 1180.6.20
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_genpei_war
+	attackers = { 10041091 } # Yamato Mochihito
+	defenders = { 10110025 } # Taira Kiyomori
+}

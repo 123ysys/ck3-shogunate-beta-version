@@ -1,0 +1,147 @@
+d_nmih_tsushima = {
+	0100.1.1={
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=11004037 # Hino Chikamitsu
+	}
+	1183.8.17={
+		liege=0
+		liege = 0
+	}
+	1185.4.5={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10120121 # Kochi Yoshinaga
+	}
+	1192.1.1={
+		holder=10130546 # Muto Sukeyori
+	}
+	1227.1.1={
+		holder=10130550 # Muto Sukeyoshi
+	}
+	1273.1.1={
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1274.11.4={
+		liege = 0
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1274.11.20={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1281.6.9={
+		liege = 0
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1281.8.22={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1292.9.14={
+		holder=10068025 # Shoni Moritsune
+	}
+	1308.2.17={
+		holder=10068020 # Shoni Sadatsune
+	}
+	1333.6.17={
+		liege = 0
+		liege=0
+		liege = "e_nmih_nancho"
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.4.11={
+		holder=10068018 # Shoni Yorihisa
+	}
+	1350.9.1={
+		liege = 0
+		liege="k_nmih_western_chugoku"
+	}
+	1352.3.12={
+		liege="k_nmih_seisei_shogun"
+		holder=10068018 # Shoni Yorihisa
+	}
+	1359.1.1={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1361.1.1={
+		holder=10068015 # Shoni Fuyusuke
+	}
+	1370.7.1={
+		liege = 0
+		liege="k_nmih_kyushu_tandai"
+		holder=10060029 # Imagawa Sadayo
+	}
+	1378.1.1={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10069251 # So Sumishige
+	}
+	1392.1.1={
+		liege = 0
+		holder=10069252 # So Yorishige
+	}
+	1400.1.1={
+		holder=10069205 # So Sadashige
+	}
+	1414.1.1={
+		holder=10069207 # So Sadamori
+	}
+	1452.6.22={
+		holder=10069208 # So Shigemoto
+	}
+	1467.1.1={
+		liege=0
+		holder=10069203 # So Sadakuni
+	}
+	1492.1.1={
+		holder=10069212 # So Kimori
+	}
+	1507.3.6={
+		holder=10069213 # So Yoshimori
+	}
+	1520.12.6={
+		holder=10069215 # So Morinaga
+	}
+	1526.10.10={
+		holder=10069200 # So Masamori
+	}
+	1539.1.1={
+		holder=10069218 # So Haruyasu
+	}
+	1553.1.1={
+		holder=10069219 # So Yoshishige
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1589.1.28={
+		holder=10069222 # So Yoshitomo
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1615.1.31={
+		holder=10069223 # So Yoshinari
+	}
+}

@@ -1,0 +1,21 @@
+war = {
+	name = "war_1415_rebellion_of_uesugi_zenshu"
+	start_date = 1416.1.1
+	end_date = 1417.1.27
+	targeted_titles = {
+		k_nmih_kamakura_kubo
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040069 # Ashikaga Mitsutaka
+	attackers = {
+		10017048	# Uesugi Zenshu
+		10010406	# Oda Mochiie
+		12070025	# Ashina Morimasa
+		12150170	# Chiba Mitsutane
+		12360190	# Takeda Nobumitsu
+	}
+	defenders = {
+		10040061	# Ashikaga Mochiuji
+		10017018	# Uesugi Norimoto
+	}
+}

@@ -1,0 +1,16 @@
+war = {
+	name = "war_1578_3rd_reconquest_of_amago_clan"
+	start_date = 1578.2.1
+	end_date = 1578.8.6
+	targeted_titles = {
+		c_nmih_oki c_nmih_shimane c_nmih_izumo c_nmih_ohara c_nmih_nogi c_nmih_aimi c_nmih_hino c_nmih_kawamura
+	}
+	casus_belli = event_claim_cb
+	claimant = 10051516 # Amago Katsuhisa
+	attackers = {
+		10051516	# Amago Katsuhisa
+	}
+	defenders = {
+		10056025	# Mori Terumoto
+	}
+}

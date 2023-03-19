@@ -1,0 +1,95 @@
+c_nmih_namegata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_namegata1={
+				set_title_name=b_nmih_namegata3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_namegata1={
+				set_title_name=b_nmih_namegata5
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_namegata1={
+				set_title_name=b_nmih_namegata3
+			}
+		}
+	}
+	1591.3.1={
+		effect={
+			title:b_nmih_namegata1={
+				set_title_name=b_nmih_namegata6
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1300.1.1 = { change_development_level = 20 }
+	1591.3.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1135.1.1={
+		liege="d_nmih_hitachi"
+		holder=12120600 # Namegata Kagemoto
+	}
+	1190.1.1={
+		holder=12120601 # Namegata Tamemoto
+	}
+	1210.1.1={
+		holder=12120610 # Namegata Tanemoto
+	}
+	1240.1.1={
+		holder=12120611 # Namegata Tanehira
+	}
+	1270.1.1={
+		holder=12120612 # Namegata Mototoki
+	}
+	1300.1.1={
+		holder=12120624 # Shimazaki Shigemoto
+	}
+	1333.7.4={
+		liege="d_nmih_hitachi"
+	}
+	1350.1.1={
+		holder=12120625 # Shimazaki Yoshimoto
+	}
+	1360.1.1={
+		holder=12120626 # Shimazaki Toshimoto
+	}
+	1417.1.1={
+		holder=12120627 # Shimazaki Nagakuni
+	}
+	1450.1.1={
+		liege=0
+		holder=12120628 # Shimazaki Tadamoto
+	}
+	1490.1.1={
+		holder=12120629 # Shimazaki Toshimoto
+	}
+	1540.1.1={
+		holder=12120630 # Shimazaki Ujimoto
+	}
+	1560.1.1={
+		holder=12120631 # Shimazaki Yasusada
+	}
+	1590.12.31={
+		holder=10010836 # Satake Yoshinobu
+		liege="d_nmih_hitachi"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10097100 # Shinjo Naoyori
+	}
+	1613.2.8={
+		holder=10097101 # Shinjo Naosada
+	}
+}

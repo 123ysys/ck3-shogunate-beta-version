@@ -1,0 +1,125 @@
+c_nmih_tome = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tome1={
+				set_title_name=b_nmih_tome3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tome1={
+				set_title_name=b_nmih_tome3
+			}
+		}
+	}
+	1189.9.21={
+		effect={
+			title:b_nmih_tome1={
+				set_title_name=b_nmih_tome1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1189.9.21 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1170.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12062200 # Terui Takaharu
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_rikuchu"
+		holder=12201022 # Kasai Kiyoshige
+	}
+	1238.10.23={
+		holder=12083000 # Kasai Kiyochika
+	}
+	1250.1.1={
+		holder=12083010 # Kasai Tokikiyo
+	}
+	1280.1.1={
+		holder=12083015 # Kasai Kiyotsune
+	}
+	1300.1.1={
+		holder=12083020 # Kasai Munekiyo
+	}
+	1310.1.1={
+		holder=12083025 # Kasai Kiyotaka
+	}
+	1330.1.1={
+		holder=12083030 # Kasai Takakiyo
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1365.5.8 ={
+		holder=10006110 # Kasai Akikiyo
+	}
+	1388.1.1={
+		holder=10006114 # Kasai Mitsunobu
+	}
+	1392.1.1={
+		liege=0
+	}
+	1420.1.1={
+		holder=10006116 # Kasai Mochinobu
+	}
+	1469.1.1={
+		holder=10006120 # Kasai Tomonobu
+	}
+	1480.1.1={
+		holder=10006122 # Kasai Hisanobu
+	}
+	1483.1.1={
+		holder=10006104 # Kasai Masanobu
+	}
+	1506.5.23={
+		holder=10006105 # Kasai Harushige
+	}
+	1520.1.1={
+		liege="d_nmih_rikuchu"
+	}
+	1534.1.5={
+		holder=10001006 # Kasai Harukiyo
+	}
+	1547.1.1={
+		holder=10006101 # Kasai Harutane
+	}
+	1555.1.1={
+		holder=10006102 # Kasai Chikanobu
+	}
+	1560.6.5={
+		holder=10006103 # Kasai Harunobu
+	}
+	1590.8.28={
+		holder=10045730 # Kimura Yoshikiyo
+	}
+	1591.8.12={
+		holder=10001035 # Date Masamune
+	}
+	1603.3.24={
+		liege="d_nmih_rikuzen"
+		holder=10001034 # Date(Shiraishi) Munenao
+	}
+}

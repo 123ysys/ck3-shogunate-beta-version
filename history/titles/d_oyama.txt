@@ -1,0 +1,102 @@
+d_nmih_oyama = {
+	1000.1.1={
+	}
+	1151.1.1={
+		holder=12135000 # Oyama Masamitsu
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.10.29={
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12135000 # Oyama Masamitsu
+	}
+	1191.1.1={
+		holder=12135001 # Oyama Tomomasa
+	}
+	1238.5.15={
+		holder=12135010 # Oyama Nagamura
+	}
+	1269.8.15={
+		holder=12135015 # Oyama Tokinaga
+	}
+	1276.1.1={
+		holder=12135020 # Oyama Munenaga
+	}
+	1315.1.1={
+		holder=12135025 # Oyama Sadatomo
+	}
+	1330.1.1={
+		holder=12135030 # Oyama Hidetomo
+	}
+	1333.6.17={
+		liege=0
+		liege = "e_nmih_nancho"
+	}
+	1335.7.1={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.8.2={
+		holder=12135035 # Oyama Tomosato
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1346.5.4={
+		liege="k_nmih_kamakura_kubo"
+		holder=12135036 # Oyama Ujimasa
+	}
+	1355.8.31={
+		holder=10011209 # Oyama Yoshimasa
+	}
+	1380.6.19={
+		liege=0
+	}
+	1382.5.24={
+		liege="k_nmih_kamakura_kubo"
+		holder=12209000 # Kido Sadanori
+	}
+	1387.1.1={
+		holder=10010213 # Yuki Motomitsu
+	}
+	1430.6.1={
+		holder=10011207 # Oyama Mochimasa
+	}
+	1471.1.1={
+		holder=10011206 # Oyama Shigenaga
+	}
+	1516.1.1={
+		holder=10011205 # Oyama Masanaga
+	}
+	1534.1.1={
+		holder=10010201 # Yuki Masakatsu
+	}
+	1546.5.19={
+		liege=0 # After the Battle of Kawagoe, the Kamakura Kubo lost his power
+	}
+	1559.9.2={
+		holder=10010228 # Yuki Akitomo
+	}
+	1559.9.3={
+		holder=10011204 # Yuki Harutomo
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+	}
+	1591.1.1={
+		holder=10024030 # Yuki Hideyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=0 #
+	}
+}

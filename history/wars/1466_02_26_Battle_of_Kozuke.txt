@@ -1,0 +1,11 @@
+war = {
+	name = "war_1466_battle_of_kozuke"
+	start_date = 1466.2.26
+	end_date = 1471.1.1
+	targeted_titles = {
+		c_nmih_oura
+	}
+	casus_belli = event_sengoku_invasion_war_county
+	attackers = { 10017337 10017321 10017322 12187050 } # Nagao Kagehito, Nagao Kagenobu, Nagao Tadakage, Iwamatsu Iezumi
+	defenders = { 10040059 } # Ashikaga Shigeuji
+}
