@@ -1,0 +1,188 @@
+d_nmih_etchu = {
+	0702.10.14={
+		liege="e_nmih_tenno"
+	}
+	0791.7.15={
+		holder=11005020 # Fujiwara Takakai {Etchu no Kami}
+	}
+	0795.1.1={
+		holder=0 #  
+	}
+	0812.3.2={
+		holder=11005020 # Fujiwara Takakai {Etchu no Kami}
+	}
+	0815.1.19={
+		holder=0 #  
+	}
+	1062.1.27={
+		holder=11003650 # Fujiwara Masaie {Etchu no Kami}
+	}
+	1066.1.1={
+		holder=0 #  
+	}
+	1130.2.16={
+		holder=11006012 # Fujiwara Akinaga {Etchu no Kami}
+	}
+	1154.2.20={
+		holder=11006310 # Fujiwara Takanori {Etchu no Kami}
+	}
+	1160.2.13={
+		holder=10110032 # Taira Norimori {Etchu no Kami}
+	}
+	1179.12.18={
+		liege="k_nmih_hokuriku"
+		holder=10110142 # Taira Nariie {Etchu no Kami}
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="k_nmih_shinano"
+		holder=12280010 # Miyazaki Nagayasu
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		liege="e_nmih_joko"
+		holder=11007036 # Fujiwara Mitsutaka
+	}
+	1195.1.1={
+		holder=11001910 # Fujiwara Sadayoshi
+	}
+	1198.1.1={
+		holder=11006762 # Fujiwara Sanenori
+	}
+	1214.1.1={
+		holder=11006356 # Fujiwara Nakatsune
+	}
+	1221.6.6={
+		holder=12219421 # Kasuya Arihisa
+	}
+	1221.6.29={
+		liege="e_nmih_japan"
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo [Nagoe] Mitsutoki
+	}
+	1246.7.22={
+		holder=10131697 # Hojo [Nagoe] Tokiaki
+	}
+	1272.3.11={
+		holder=10131840 # Hojo [Nagoe] Kimitoki
+	}
+	1296.2.10={
+		holder=10132014 # Hojo [Nagoe] Tokiie
+	}
+	1310.1.1={
+		holder=10132288 # Hojo [Nagoe] Takaie
+	}
+	1333.6.10={
+		holder=10132180 # Hojo [Nagoe] Tokiari
+	}
+	1333.6.29={
+		liege="k_nmih_southern_kinai"
+		holder=10125195 # Nakanoin Sadakiyo
+	}
+	1334.11.19={
+		liege="e_nmih_nancho"
+	}
+	1336.1.2={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12280900 # Inoue Toshikiyo
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1344.1.1={
+		holder=12187235 # Momonoi Tadatsune
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=12280900 # Inoue Toshikiyo
+	}
+	1359.10.1={
+		holder=10040603 # Hosokawa Yorikazu
+	}
+	1361.9.1={
+		holder=12139049 # Shiba Takatsune
+	}
+	1362.5.1={
+		liege="k_nmih_echizen"
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1366.9.13={
+		liege="e_nmih_japan"
+		holder=12187236 # Momonoi Tadanobu
+	}
+	1368.2.1={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1379.2.1={
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1406.2.5={
+		holder=10031001 # Hatakeyama Mitsunori
+	}
+	1408.10.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1433.10.31={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1441.1.1={
+		holder=10048113 # Hatakeyama Mochinaga
+	}
+	1441.7.1={
+		holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12={
+		holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1460.10.4={
+		holder=10048121 # Hatakeyama Masanaga
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan" # Onin War
+	}
+	1493.5.8={ # Meiou Coup
+		liege=0
+	}
+	1493.6.9={
+		holder=10048123 # Hatakeyama Hisanobu
+	}
+	1508.7.28={
+		liege="e_nmih_japan"
+	}
+	1522.9.7={
+		holder=0 # Hatakeyama Clan lost the control of Etchu
+		liege=0
+	}
+	1581.03.05={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029350 # Sassa Narimasa
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="k_nmih_hokuriku"
+	}
+	1583.6.14={ 
+		liege=0
+	}
+	1585.9.9={
+		liege="k_nmih_hokuriku"
+		holder=10029374 # Maeda Toshinaga
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.6.27={
+		holder=10029374 # Maeda Toshitsune
+	}
+}

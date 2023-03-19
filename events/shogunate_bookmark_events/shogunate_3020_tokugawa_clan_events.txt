@@ -1,0 +1,36 @@
+﻿namespace = shogunate_bookmark
+
+# Tokugawa (Matsudaira) Clan
+shogunate_bookmark.3020 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# High Crown Autority of the Tokugawa Administration
+
+		if = {
+			limit = {
+				game_start_date >= 1600.10.21								# Battle of Sekigahara
+				game_start_date <  1616.6.1									# Death of Tokugawa Ieyasu
+			}
+
+			shogunate_historical_realm_law_effect = {
+				CHAR = 10024006												# Tokugawa Ieyasu
+				LAW  = crown_authority_3
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1616.6.1									# Death of Tokugawa Ieyasu
+			}
+
+			shogunate_historical_realm_law_effect = {
+				CHAR = 10024031												# Tokugawa Hidetada
+				LAW  = crown_authority_3
+			}
+		}
+
+	}
+}

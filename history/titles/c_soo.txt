@@ -1,0 +1,143 @@
+c_nmih_soo = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_soo1={
+				set_title_name=b_nmih_soo9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_soo1={
+				set_title_name=b_nmih_soo9
+			}
+		}
+	}
+	1200.1.1={
+		effect={
+			title:b_nmih_soo1={
+				set_title_name=B_NMIH_SOO1_1200
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1200.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10290320 # Takekaya
+		liege=d_nmih_higo
+	}
+	270.1.1={
+		holder=10290321 # Atsukaya
+		liege=0
+	}
+	295.1.1={
+		holder=10290325 # Torishikaya
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12810905 # Kuwahata Kiyomichi
+	}
+	1183.8.17={
+		liege = 0
+		liege = "k_nmih_western_chugoku"
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege = 0
+		liege="d_nmih_osumi"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131697 # Hojo [Nagoe] Tokiaki
+	}
+	1272.3.11={
+		holder=10131840 # Hojo [Nagoe] Kimitoki
+	}
+	1284.1.1={
+		holder=12150150 # Chiba Munetane
+	}
+	1291.1.1={
+		holder=10131840 # Hojo [Nagoe] Kimitoki
+	}
+	1295.1.1={
+		holder=10131933 # Hojo [Kanesawa] Tokinao
+	}
+	1323.1.1={
+		holder=10132166 # Hojo [Sakurada] Moroyori
+	}
+	1333.7.4={
+		liege="d_nmih_satsuma"
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1342.1.1={
+		liege="k_nmih_seisei_shogun"
+		holder=10041908 # Prince Kaneyoshi
+	}
+	1348.1.1={
+		liege="d_nmih_hyuga"
+		holder=10048154 # Hatakeyama Tadaaki
+	}
+	1357.2.24={
+		liege="d_nmih_osumi"
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1363.8.12={
+		holder=10060029 # Shimazu Ujihisa
+	}
+	1387.6.20={
+		holder=10060030 # Shimazu Motohisa
+	}
+	1411.8.25={
+		holder=10060004 # Shimazu Hisatoyo
+	}
+	1425.2.9={
+		holder=10060005 # Shimazu Tadakuni
+	}
+	1450.1.1={
+		holder=10060108 # Kimotsuki Kanetada
+	}
+	1476.1.1={
+		liege=0
+	}
+	1484.4.6={
+		holder=10060107 # Kimotsuki Kanetsura
+	}
+	1490.1.1={
+		holder=10060101 # Kimotsuki Kanehisa
+	}
+	1523.1.1={
+		holder=10060102 # Kimotsuki Kaneoki
+	}
+	1533.1.1={
+		holder=10060100 # Kimotsuki Kanetsugu
+	}
+	1566.12.26={
+		holder=10060104 # Kimotsuki Yoshikane
+	}
+	1571.8.20={
+		holder=10060105 # Kimotsuki Kaneaki
+	}
+	1574.2.1={
+		liege="d_nmih_osumi"
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1587.5.18={
+		holder=10060045 # Shimazu Yoshihiro
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+		holder=10060286 # Hongo Tadayoshi
+	}
+}

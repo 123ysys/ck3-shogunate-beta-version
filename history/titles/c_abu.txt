@@ -1,0 +1,172 @@
+c_nmih_abu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_abu1={
+				set_title_name=b_nmih_abu9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_abu1={
+				set_title_name=b_nmih_abu9
+			}
+		}
+	}
+	1450.1.1={
+		effect={
+			title:b_nmih_abu1={
+				set_title_name=b_nmih_abu4
+			}
+		}
+	}
+	1604.1.1={
+		effect={
+			title:b_nmih_abu1={
+				set_title_name=b_nmih_abu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1450.1.1 = { change_development_level = 10 }
+	1604.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_nagato"
+	}
+	1180.1.1={
+		liege="d_nmih_nagato"
+		holder=12661100 # Kii Michisuke
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_nagato"
+		holder=10110043 # Taira Tomomori
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_nagato"
+		holder=12510063 # Sasaki Takatsuna
+	}
+	1193.1.1={
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_nagato"
+		holder=12690610 # Tachibana Kiminari
+	}
+	1222.1.1={
+		holder=12230105 # Amano Masakage
+	}
+	1242.1.1={
+		holder=12230114 # Amano Yoshikage
+	}
+	1252.1.1={
+		holder=12662300 # Mii Suehira
+	}
+	1275.12.1={
+		holder=10132000 # Hojo Muneyori
+	}
+	1279.7.15={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1281.9.14={
+		holder=10132156 # Hojo Morotoki
+	}
+	1282.1.1={
+		holder=10131715 # Hojo Tadatoki
+	}
+	1284.11.10={
+		holder=10131932 # Hojo [Kanesawa] Sanemasa
+	}
+	1296.7.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1300.1.1={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1307.1.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1320.1.1={
+		holder=10131933 # Hojo [Kanesawa] Tokinao
+	}
+	1333.7.4={
+		liege="d_nmih_nagato"
+		holder=12661020 # Koto Takezane
+	}
+	1348.4.4={
+		liege="d_nmih_nagato"
+		holder=12661025 # Koto Takemura
+	}
+	1349.4.1={
+		liege="k_nmih_western_chugoku"
+		holder=10040036 # Ashikaga Tadafuyu
+	}
+	1371.1.1={
+		liege="d_nmih_nagato"
+		holder=10057014 # Ouchi Hiroyo
+	}
+	1380.12.12={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		holder=10057011 # Ouchi Hiroshige
+	}
+	1402.2.1={
+		liege="k_nmih_western_chugoku"
+		holder=10057010 # Ouchi Moriharu
+	}
+	1431.8.6={
+		holder=10057015 # Ouchi Mochiyo
+	}
+	1432.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10057157 # Washizu Hirotada
+	}
+	1448.3.21={
+		holder=10057403 # Yoshimi Shigeyori
+	}
+	1470.1.1={
+		holder=10057404 # Yoshimi Nobuyori
+	}
+	1482.6.13={
+		holder=10057401 # Yoshimi Yorioki
+	}
+	1532.5.26={
+		holder=10057400 # Yoshimi Takayori
+	}
+	1540.11.14={
+		holder=10057402 # Yoshimi Masayori
+	}
+	1551.9.30={
+		liege=0
+	}
+	1555.10.16={
+		liege="d_nmih_aki"
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1588.6.15={
+		holder=10057451 # Yoshimi Hiroyori
+	}
+	1598.1.1={
+		holder=10057455 # Yoshimi Hironaga
+	}
+	1599.1.1={
+		liege="d_nmih_nagato"
+		holder=10056030 # Mori Hidemoto
+	}
+	1603.3.24={
+		liege="d_nmih_nagato"
+		holder=10056025 # Mori Terumoto
+	}
+}

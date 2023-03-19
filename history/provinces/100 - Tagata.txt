@@ -1,0 +1,18 @@
+100 = {
+
+	culture = southern_kanto
+	religion = shinto
+	holding = castle_holding
+	1000.1.1={
+	}
+	1100.1.1={
+	}
+	1180.6.15={
+	}
+	1333.7.4={
+	}
+	1493.10.1={
+	}
+	1560.1.1={
+	}
+}

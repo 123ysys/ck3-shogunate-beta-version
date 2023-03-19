@@ -1,0 +1,168 @@
+c_nmih_sakai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sakai1={
+				set_title_name=b_nmih_sakai1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_sakai1={
+				set_title_name=b_nmih_sakai9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_sakai1={
+				set_title_name=b_nmih_sakai1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+	1331.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_echizen"
+	}
+	1180.1.1={
+		liege=0
+		holder=10131105 # Hikita Toshinobu
+	}
+	1181.7.26={
+		liege="d_nmih_kaga" # Battle of Yokota-gawara
+	}
+	1183.5.20={
+		liege="d_nmih_echizen" # Siege of Hiuchi Castle
+		holder=10110032 # Taira Norimori
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_echizen"
+		holder=10131105 # Hikita Toshinobu
+	}
+	1189.1.1={
+		liege="d_nmih_echizen"
+		holder=10131124 # Hikita Mochiyori
+	}
+	1200.1.1={
+		holder=10131154 # Hikita Yorihisa
+	}
+	1204.1.1={
+		holder=10131165 # Hikita Mochitomo
+	}
+	1221.7.6={
+		holder=10131164 # Hikita Musashi
+	}
+	1228.1.1={
+		holder=10131146 # Hikita Naritada
+	}
+	1230.1.1={
+		holder=10131149 # Hikita Toshimitsu
+	}
+	1250.1.1={
+		holder=10131150 # Hikita Masayoshi
+	}
+	1280.1.1={
+		holder=10131151 # Hikita Masamochi
+	}
+	1300.1.1={
+		holder=10131152 # Hikita Mochiyoshi
+	}
+	1320.1.1={
+		holder=10131153 # Hikita Mochihide
+	}
+	1333.7.4={
+		liege="d_nmih_echizen"
+		holder=12185200 # Horiguchi Sadayoshi
+	}
+	1334.8.1={
+		holder=12139049 # Shiba Takatsune
+	}
+	1335.2.1={
+		liege="d_nmih_nitta"
+		holder=12189050 # Hata Tokiyoshi
+	}
+	1341.12.4={
+		liege="d_nmih_echizen"
+		holder=12139049 # Shiba Takatsune
+	}
+	1342.1.1={
+		holder=10030175 # Horie Iwaminokami
+	}
+	1360.1.1={
+		holder=10030176 # Horie Iwaminokami
+	}
+	1380.1.1={
+		holder=10030177 # Horie Tanemochi
+	}
+	1394.1.1={
+		holder=10030178 # Horie Katamitsu
+	}
+	1410.1.1={
+		holder=10030179 # Horie Norizane
+	}
+	1440.1.1={
+		holder=10030180 # Horie Toshizane
+	}
+	1459.9.7={
+		liege="d_nmih_yamato"
+		holder=11000774 # Kujo Kyokaku
+	}
+	1467.1.1={
+		government = theocracy_government
+		liege="k_nmih_honganji"
+		holder=10042201 # Honganji Rennyo
+	}
+	1475.8.1={
+		government = feudal_government
+		liege="d_nmih_echizen"
+		holder=10030170 # Horie Kagemochi
+	}
+	1490.1.1={
+		holder=10030171 # Horie Kagezane
+	}
+	1530.1.1={
+		holder=10030173 # Horie Kagetada
+	}
+	1573.9.16={
+		liege="k_nmih_chubu"
+		holder=10029120 # Oda Nobunaga
+	}
+	1573.9.24={
+		liege="d_nmih_echizen" # 30100 Maeba Yoshitsugu
+		holder=10030130 # Mizoe Kageyasu
+	}
+	1574.4.20={
+		government = theocracy_government
+		holder=10042324 # Shimotsuma Raisho
+	}
+	1575.9.25={
+		government = feudal_government
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.10.1={
+		liege="d_nmih_echizen" # 29280 Shibata Katsuie
+		holder=10029280 # Shibata Katsuie
+	}
+	1583.6.14={ 
+		liege="d_nmih_echizen"
+		holder=10093200 # Aoyama Munekatsu
+	}
+	1585.9.9={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="d_nmih_echizen"
+		holder=10024030 # Yuki Hideyasu
+	}
+	1607.6.2={
+		holder=10024042 # Matsudaira Tadanao
+	}
+	1612.1.1={
+		holder=10201305 # Honda Narishige
+	}
+}

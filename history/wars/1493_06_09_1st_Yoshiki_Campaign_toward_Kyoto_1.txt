@@ -1,0 +1,12 @@
+war = {
+	name = "war_1493_yoshiki_campaign_toward_kyoto"
+	start_date = 1493.6.9
+	end_date = 1497.9.15
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040011 # Ashikaga Yoshiki
+	attackers = { 10048123 10031004 } # Hatakeyama Hisanobu, Hatakeyama Yoshimune
+	defenders = { 10040012 10048116 } # Ashikaga Yoshizumi, Hatakeyama Yoshitoyo
+}

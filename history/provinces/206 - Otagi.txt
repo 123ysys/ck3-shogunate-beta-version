@@ -1,0 +1,45 @@
+206 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	794.11.22={
+	}
+	1121.1.1={
+	}
+	1179.12.18={
+		buildings = {
+			castle_02
+		}
+	}
+	1334.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1378.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1460.1.1={
+		religion = hokkeshu
+	}
+	1559.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1569.1.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1601.5.1={
+		buildings = {
+			castle_03
+		}
+	}
+	1602.1.1={
+	}
+}

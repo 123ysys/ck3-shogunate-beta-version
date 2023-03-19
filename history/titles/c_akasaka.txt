@@ -1,0 +1,174 @@
+c_nmih_akasaka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_akasaka1={
+				set_title_name=b_nmih_akasaka5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_akasaka1={
+				set_title_name=b_nmih_akasaka5
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_akasaka1={
+				set_title_name=b_nmih_akasaka2
+			}
+		}
+	}
+	1554.1.1={
+		effect={
+			title:b_nmih_akasaka1={
+				set_title_name=B_NMIH_AKASAKA2_1554
+			}
+		}
+	}
+	1575.10.1={
+		effect={
+			title:b_nmih_akasaka1={
+				set_title_name=B_NMIH_AKASAKA2_1575
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+	1534.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_bizen"
+		holder=10110046 # Taira Shigehira
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bizen"
+		holder=12216002 # Dohi Sanehira
+	}
+	1191.12.13={
+		holder=11006480 # Ichijo Yoshiyasu
+	}
+	1197.11.23={
+		holder=11007364 # Oinomikado Yorizane
+	}
+	1214.1.1={
+		holder=11006486 # Ichijo Soncho
+	}
+	1219.1.1={
+		holder=10130464 # Fujiwara Hideyasu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_bizen"
+		holder=12270400 # Kaji Nobuzane
+	}
+	1238.1.1={
+		holder=12083010 # Kasai Tokikiyo
+	}
+	1264.1.1={
+		holder=12221016 # Nagai Yasushige
+	}
+	1280.1.1={
+		holder=12665010 # Nagai Yorishige
+	}
+	1295.1.1={
+		holder=12665020 # Nagai Sadashige
+	}
+	1320.1.1={
+		holder=10130349 # Iga Mitsusada
+	}
+	1331.1.1={
+		holder=12270460 # Kaji Tokihide
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12631300 # Kojima Takanori
+	}
+	1336.5.1={
+		liege="d_nmih_bizen"
+		holder=12219230 # Matsuda Moritomo
+	}
+	1353.3.1={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1362.5.1={
+		holder=12219234 # Matsuda Nobushige
+	}
+	1363.12.1={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1365.1.1={
+		liege="d_nmih_harima"
+		holder=12641116 # Uragami Yukikage
+	}
+	1380.1.1={
+		holder=12641121 # Uragami Sukekage
+	}
+	1408.1.1={
+		holder=12641120 # Uragami Munetaka
+	}
+	1420.1.1={
+		holder=12641123 # Uragami Muneyasu
+	}
+	1430.1.1={
+		holder=12641125 # Uragami Norinaga
+	}
+	1441.9.25={
+		liege="e_nmih_japan"
+		holder=12641126 # Uragami Norimune
+	}
+	1467.6.27={
+		liege="d_nmih_harima"
+	}
+	1502.7.15={
+		holder=12641133 # Uragami Muramune
+	}
+	1518.1.1={
+		liege=0
+	}
+	1520.11.1={
+		liege="d_nmih_harima"
+	}
+	1530.7.1={
+		liege="d_nmih_bizen"
+	}
+	1531.7.17={
+		holder=10054404 # Uragami Masamune
+	}
+	1544.1.1={
+		liege="d_nmih_bizen"
+		holder=10054407 # Uragami Munekage
+	}
+	1575.10.1={
+		liege=0
+	}
+	1579.1.1={
+		liege="d_nmih_bizen"
+		holder=10055100 # Ukita Naoie
+	}
+	1579.1.2={
+		holder=10055135 # Oka Ietoshi
+	}
+	1592.10.28={
+		holder=10055136 # Oka Sadatsuna
+	}
+	1599.1.1={
+		holder=10055260 # Akashi Zento
+	}
+	1601.1.1={
+		liege="d_nmih_bizen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10029568 # Ikeda Tadatsugu
+	}
+	1615.3.22={
+		liege="e_nmih_japan"
+		holder=10029573 Ikeda Teruzumi
+	}
+}

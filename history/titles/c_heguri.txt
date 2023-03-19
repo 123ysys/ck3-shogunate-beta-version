@@ -1,0 +1,149 @@
+c_nmih_heguri = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_heguri1={
+				set_title_name=b_nmih_heguri1
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_heguri1={
+				set_title_name=b_nmih_heguri9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_yamato"
+	}
+	1180.1.1={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=12531000 # Mizuhai Suetada
+	}
+	1183.8.17={
+		liege=0
+	}
+	1184.1.1={
+		holder=12531001 # Mizuhai Yasutada
+	}
+	1184.3.4={
+		liege="e_nmih_joko"
+	}
+	1186.6.1={
+		liege="d_nmih_kawachi"
+	}
+	1210.1.1={
+		holder=12531002 # Mizuhai Yasutsuna
+	}
+	1240.1.1={
+		holder=12531003 # Mizuhai Yasutaka
+	}
+	1270.1.1={
+		holder=12531004 # Mizuhai Tadashige
+	}
+	1290.1.1={
+		holder=12531005 # Mizuhai Tadatake
+	}
+	1333.1.1={
+		liege="k_nmih_southern_kinai"
+		holder=10041901 # Prince Moriyoshi
+	}
+	1334.11.19={
+		government = theocracy_government
+		liege="d_nmih_kofukuji"
+		holder=10048418 # Tsutsui ShimousaNoKimi
+	}
+	1340.1.1={
+		holder=10048419 # Tsutsui Junshin
+	}
+	1390.1.1={
+		holder=10048407 # Tsutsui Junkaku
+	}
+	1434.1.1={
+		holder=10048408 # Tsutsui Junko
+	}
+	1441.10.1={
+		holder=10048412 # Tsutsui Junei
+	}
+	1443.1.1={
+		liege=0
+	}
+	1454.1.1={
+		liege="d_nmih_kofukuji"
+	}
+	1460.10.4={
+		liege="d_nmih_kii"
+	}
+	1476.5.7={
+		holder=10048400 # Tsutsui Junson
+	}
+	1489.8.27={
+		holder=10048401 # Tsutsui Junken
+	}
+	1521.1.1={
+		holder=10048402 # Tsutsui Junko
+	}
+	1534.1.1={
+		liege="d_nmih_yamato"
+		holder=10040831 # Kizawa Nagamasa
+	}
+	1542.4.2={
+		liege="d_nmih_yamato"
+		holder=10048403 # Tsutsui Junsho
+	}
+	1550.8.2={
+		holder=10048413 # Tsutsui Junkei
+	}
+	1559.8.1={
+		government = feudal_government
+		liege="k_nmih_southern_kinai"
+		holder=10045400 # Matsunaga Hisahide
+	}
+	1560.1.1={
+		liege="d_nmih_yamato" # Matsunaga Hisahide
+	}
+	1573.12.10={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1575.12.9={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1577.9.28={
+		liege=0
+	}
+	1577.11.19={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1578.1.1={
+		liege="d_nmih_yamato" # 48413 Tsutsui Junkei
+		holder=10048413 # Tsutsui Junkei
+	}
+	1584.9.15={
+		holder=10048415 # Tsutsui Sadatsugu
+	}
+	1585.9.14={
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1591.2.15={
+		holder=10029413 # Toyotomi Hideyasu
+	}
+	1595.5.24={
+		holder=10043370 # Mashita Nagamori
+	}
+	1603.3.24={
+		liege="k_nmih_southern_kinai"
+		holder=10043201 # Katagiri Katsumoto
+	}
+	1614.10.23={
+		liege="e_nmih_japan"
+	}
+	1615.6.24={
+		holder=10043203 # Katagiri Takatoshi
+	}
+}

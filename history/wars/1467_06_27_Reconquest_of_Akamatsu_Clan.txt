@@ -1,0 +1,12 @@
+war = {
+	name = "war_1466_reconquest_of_akamatsu_clan"
+	start_date = 1467.6.27
+	end_date = 1469.1.1
+	targeted_titles = {
+		c_nmih_tsudaka
+	}
+	casus_belli = event_claim_cb
+	claimant = 10053518 # Akamatsu Masanori
+	attackers = { 10053518 10040543 } # Akamatsu Masanori, Hosokawa Katsumoto
+	defenders = { 10050039 } # Yamana Mochitoyo
+}

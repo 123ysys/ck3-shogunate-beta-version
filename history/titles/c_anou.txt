@@ -1,0 +1,147 @@
+c_nmih_anou = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_anou1={
+				set_title_name=b_nmih_anou2
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_anou1={
+				set_title_name=b_nmih_anou1
+			}
+		}
+	}
+	1569.10.1={
+		effect={
+			title:b_nmih_anou1={
+				set_title_name=b_nmih_anou2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	800.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 40 }
+	1498.9.11 = { change_development_level = 40 }
+	1569.10.1 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_ise"
+	}
+	1180.1.1={
+		liege="d_nmih_ise" # Taira Moritoshi
+		holder=10110250 # Taira Moritoshi
+	}
+	1183.8.17={
+		liege="d_nmih_shima" # Ito Tadakiyo / Taira's escape to the west
+		holder=10131576 # Ito Tadakiyo
+	}
+	1185.6.15={
+		holder=10131582 # Ito Tadamitsu
+	}
+	1192.1.1={
+		holder=10131588 # Ito [Wakana] Moritaka
+	}
+	1204.5.10={
+		liege="d_nmih_ise"
+		holder=10130081 # Kudo Sukenaga
+	}
+	1239.1.1={
+		holder=10026510 # Nagano Sukemasa
+	}
+	1280.1.1={
+		holder=10026511 # Nagano Sukefuji
+	}
+	1305.1.1={
+		holder=10026512 # Nagano Sukefusa
+	}
+	1333.7.4={
+		liege="d_nmih_ise"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.2.23={
+		liege="d_nmih_ise"
+	}
+	1340.1.1={
+		holder=10026513 # Nagano Fujifusa
+	}
+	1355.1.1={
+		holder=10026514 # Nagano Toyofuji
+	}
+	1380.1.1={
+		liege="d_nmih_ise"
+		holder=10026515 # Nagano Tsunefuji
+	}
+	1405.1.1={
+		holder=10026516 # Nagano Yoshifuji
+	}
+	1430.1.1={
+		holder=10026517 # Nagano Mitsutada
+	}
+	1440.1.1={
+		holder=10026507 # Nagano Munetada
+	}
+	1455.1.1={
+		holder=10026506 # Nagano Masafuji
+	}
+	1462.1.1={
+		holder=10026505 # Nagano Fujitsugu
+	}
+	1478.1.1={
+		liege=0
+	}
+	1486.8.4={
+		liege=0
+		holder=10026504 # Nagano Fujinao
+	}
+	1514.12.1={
+		holder=10026501 # Nagano Michifuji
+	}
+	1530.6.30={
+		holder=10026500 # Nagano Tanefuji
+	}
+	1558.1.1={
+		liege="d_nmih_shima" # 
+		holder=10026008 # Nagano Tomofuji
+	}
+	1569.10.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029144 # Oda Nobukane
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_ise"
+	}
+	1582.7.16={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1594.10.4={
+		holder=10097000 # Tomita Ippaku
+	}
+	1599.12.15={
+		holder=10097001 # Tomita Nobutaka
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1608.6.1={
+		liege="d_nmih_ise"
+		holder=10043302 # Todo Takatora
+	}
+}

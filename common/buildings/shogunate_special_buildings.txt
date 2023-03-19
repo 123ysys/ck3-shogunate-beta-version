@@ -1,0 +1,1743 @@
+﻿##########
+# Iwami Silver Mines
+##########
+
+iwami_silver_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism	# Land Survey
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.05
+	}
+	
+	next_building = iwami_silver_mines_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+iwami_silver_mines_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_03	# Cupellation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.1
+	}
+	
+	next_building = iwami_silver_mines_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+iwami_silver_mines_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_03	# Cupellation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.15
+	}
+	
+	next_building = iwami_silver_mines_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+iwami_silver_mines_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Sado Gold Mines
+##########
+
+sado_gold_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.05
+	}
+	
+	next_building = sado_gold_mines_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+sado_gold_mines_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.1
+	}
+	
+	next_building = sado_gold_mines_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+sado_gold_mines_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_7_cost
+	
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.15
+	}
+	
+	next_building = sado_gold_mines_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+sado_gold_mines_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Innai Silver Mines
+##########
+
+innai_silver_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.05
+	}
+	
+	next_building = innai_silver_mines_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+innai_silver_mines_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.1
+	}
+	
+	next_building = innai_silver_mines_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+innai_silver_mines_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_7_cost
+	
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.15
+	}
+	
+	next_building = innai_silver_mines_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+innai_silver_mines_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Kurokawa Gold Mines
+##########
+
+kurokawa_gold_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism	# Land Survey
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.05
+	}
+	
+	next_building = kurokawa_gold_mines_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+kurokawa_gold_mines_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_03	# Cupellation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.1
+	}
+	
+	next_building = kurokawa_gold_mines_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+kurokawa_gold_mines_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_03	# Cupellation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.15
+	}
+	
+	next_building = kurokawa_gold_mines_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+kurokawa_gold_mines_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Ikuno Silver Mines
+##########
+
+ikuno_silver_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.05
+	}
+	
+	next_building = ikuno_silver_mines_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+ikuno_silver_mines_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_03	# Cupellation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.1
+	}
+	
+	next_building = ikuno_silver_mines_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+ikuno_silver_mines_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_03	# Cupellation
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.15
+	}
+	
+	next_building = ikuno_silver_mines_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+ikuno_silver_mines_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Nobesawa Silver Mines
+##########
+
+nobesawa_silver_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_manorialism	# Land Survey
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.05
+	}
+	
+	next_building = nobesawa_silver_mines_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+nobesawa_silver_mines_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.1
+	}
+	
+	next_building = nobesawa_silver_mines_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+nobesawa_silver_mines_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.15
+	}
+	
+	next_building = nobesawa_silver_mines_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+nobesawa_silver_mines_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Tada Copper Mines
+##########
+
+tada_copper_mines_01 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.05
+		levy_size = 0.1
+		development_growth_factor = 0.05
+	}
+	
+	next_building = tada_copper_mines_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+tada_copper_mines_02 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		levy_size = 0.2
+		development_growth_factor = 0.1
+	}
+	
+	next_building = tada_copper_mines_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+tada_copper_mines_03 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		levy_size = 0.3
+		development_growth_factor = 0.15
+	}
+	
+	next_building = tada_copper_mines_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+tada_copper_mines_04 = {
+
+	asset = {
+		type = pdxmesh
+		name = "building_special_mines_mesh"
+	}
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_structure_mines.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_cranes	# Civil Engineering
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		levy_size = 0.4
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Sakai Trade Port
+##########
+
+sakai_trade_port_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_currency_01	# Imported Currency
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.05
+	}
+	
+	next_building = sakai_trade_port_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+sakai_trade_port_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_02	# Erizenirei Ban
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.1
+	}
+	
+	next_building = sakai_trade_port_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+sakai_trade_port_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_development_03	# Self-governing City
+		}
+	}
+	
+	cost_gold = expensive_building_tier_7_cost
+	
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.15
+	}
+	
+	next_building = sakai_trade_port_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+sakai_trade_port_04 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_development_04	# Nanban Trade
+		}
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Hakata Trade Port
+##########
+
+hakata_trade_port_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.05
+	}
+	
+	next_building = hakata_trade_port_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+hakata_trade_port_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_02	# Erizenirei Ban
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.1
+	}
+	
+	next_building = hakata_trade_port_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+hakata_trade_port_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_development_03	# Self-governing City
+		}
+	}
+	
+	cost_gold = expensive_building_tier_7_cost
+	
+	county_modifier = {
+		tax_mult = 0.3
+		development_growth_factor = 0.15
+	}
+	
+	next_building = hakata_trade_port_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+hakata_trade_port_04 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_development_04	# Nanban Trade
+		}
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	county_modifier = {
+		tax_mult = 0.35
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Hyogo Trade Port
+##########
+
+hyogo_trade_port_01 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.05
+	}
+	
+	next_building = hyogo_trade_port_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+hyogo_trade_port_02 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_currency_02	# Erizenirei Ban
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.1
+	}
+	
+	next_building = hyogo_trade_port_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+hyogo_trade_port_03 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_development_03	# Self-governing City
+		}
+	}
+	
+	cost_gold = expensive_building_tier_7_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.15
+	}
+	
+	next_building = hyogo_trade_port_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+hyogo_trade_port_04 = {
+
+	construction_time = very_slow_construction_time
+
+	type_icon = "icon_building_tradeport.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_development_04	# Nanban Trade
+		}
+	}
+	
+	cost_gold = expensive_building_tier_8_cost
+	
+	county_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Kunitomo Gunsmiths
+##########
+
+kunitomo_gunsmiths_01 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth_factor = 0.05
+	}
+	
+	next_building = kunitomo_gunsmiths_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+kunitomo_gunsmiths_02 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+	}
+	
+	next_building = kunitomo_gunsmiths_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+kunitomo_gunsmiths_03 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.15
+	}
+	
+	next_building = kunitomo_gunsmiths_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+kunitomo_gunsmiths_04 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_bombard	# Cannons
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Negoro Gunsmiths
+##########
+
+negoro_gunsmiths_01 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth_factor = 0.05
+	}
+	
+	next_building = negoro_gunsmiths_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+negoro_gunsmiths_02 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+	}
+	
+	next_building = negoro_gunsmiths_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+negoro_gunsmiths_03 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.15
+	}
+	
+	next_building = negoro_gunsmiths_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+negoro_gunsmiths_04 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_bombard	# Cannons
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+##########
+# Saika Gunsmiths
+##########
+
+saika_gunsmiths_01 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	
+	county_modifier = {
+		tax_mult = 0.05
+		development_growth_factor = 0.05
+	}
+	
+	next_building = saika_gunsmiths_02
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+saika_gunsmiths_02 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	
+	county_modifier = {
+		tax_mult = 0.1
+		development_growth_factor = 0.1
+	}
+	
+	next_building = saika_gunsmiths_03
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+saika_gunsmiths_03 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_advanced_bowmaking	# Arquebus
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	
+	county_modifier = {
+		tax_mult = 0.15
+		development_growth_factor = 0.15
+	}
+	
+	next_building = saika_gunsmiths_04
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}
+
+saika_gunsmiths_04 = {
+
+	construction_time = slow_construction_time
+
+	type_icon = "icon_building_blacksmiths.dds"
+
+	can_construct_potential = {
+		building_requirement_tribal = no
+	}
+	can_construct = {
+		scope:holder.culture = {
+			has_innovation = innovation_bombard	# Cannons
+		}
+	}
+	
+	cost_gold = expensive_building_tier_6_cost
+	
+	county_modifier = {
+		tax_mult = 0.2
+		development_growth_factor = 0.2
+	}
+	
+	ai_value = {
+		base = 100
+	}
+	
+	type = special
+}

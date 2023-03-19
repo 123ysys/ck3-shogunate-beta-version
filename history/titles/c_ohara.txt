@@ -1,0 +1,130 @@
+c_nmih_ohara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ohara1={
+				set_title_name=b_nmih_ohara9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ohara1={
+				set_title_name=b_nmih_ohara9
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_ohara1={
+				set_title_name=B_NMIH_OHARA9_1221
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1221.7.6 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_izumo"
+	}
+	1180.1.1={
+		liege="d_nmih_izumo"
+		holder=12601000 # Asayama Koreyoshi
+	}
+	1200.1.1={
+		liege="d_nmih_izumo"
+		holder=12601001 # Asayama Yoshimura
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_izumo"
+		holder=12602005 # Iijima Tametada
+	}
+	1260.1.1={
+		holder=12602010 # Iijima Hirotada
+	}
+	1322.1.1={
+		holder=12602011 # Iijima Tamefusa
+	}
+	1347.1.1={
+		liege="d_nmih_izumo"
+		holder=12602016 # Misawa Tamenaga
+	}
+	1354.1.1={
+		holder=12602020 # Misawa Tametsune
+	}
+	1384.1.1={
+		holder=12602025 # Misawa Tametada
+	}
+	1392.1.24={
+		holder=12602035 # Misawa Tametoki
+	}
+	1422.1.1={
+		holder=12602040 # Misawa Tametada
+	}
+	1445.1.1={
+		liege="d_nmih_izumo" # Kyogoku Mochikiyo
+		holder=12602045 # Mizawa Tamekiyo
+	}
+	1468.6.20={
+		liege=0 # rebellion
+		holder=12602088 # Mizawa Tamenobu
+	}
+	1469.9.9={
+		liege="d_nmih_izumo" # Kyogoku Mochikiyo / surrender
+	}
+	1470.6.30={
+		liege=0 # Kuni ikki (provincial uprising)
+	}
+	1484.11.15={
+		liege="d_nmih_izumo" # Kyogoku Mochikiyo
+	}
+	1486.8.1={
+		liege=0
+	}
+	1488.1.1={
+		liege="d_nmih_izumo"
+	}
+	1496.1.1={
+		holder=12602050 # Mizawa Tametada / succession
+	}
+	1514.1.1={
+		liege="d_nmih_izumo" # Amago Tsunehisa
+	}
+	1530.4.1={
+		liege="d_nmih_izumo"
+		holder=12602060 # Misawa Tamekuni
+	}
+	1534.8.10={
+		liege="k_nmih_sanin"
+	}
+	1540.11.9={
+		holder=12602070 # Misawa Tamekiyo
+	}
+	1542.9.6={ # Ouchi Yoshitaka / The fall of Setoyama-jo Castle
+		liege="k_nmih_western_chugoku"
+	}
+	1543.6.9={ # Amago Haruhisa / Ouchi Yoshitaka fled from Tomita-jo Castle
+		liege="k_nmih_sanin"
+	}
+	1562.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+	}
+	1574.1.1={
+		holder=12602072 # Misawa Tametora
+	}
+	1589.1.1={
+		holder=10056246 # Kikkawa Hiroie
+	}
+	1603.3.24={
+		liege="d_nmih_izumo"
+		holder=10029641 # Horio Yoshiharu
+	}
+	1611.7.26={
+		holder=10029644 # Horio Tajima
+	}
+}

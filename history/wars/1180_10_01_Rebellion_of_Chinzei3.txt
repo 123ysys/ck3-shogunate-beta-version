@@ -1,0 +1,14 @@
+war = {
+	name = "war_1180_rebellion_of_chinzei_3"
+	start_date = 1180.10.1
+	end_date = 1182.4.1
+	casus_belli = tribal_subjugation_cb
+	attackers = {
+		12780100	# Ogata Koreyoshi
+		12780645	# Kikuchi Takanao
+		10240113	# Takagi Muneie
+	}
+	defenders = {
+		10260310	# Usa no Kimimichi
+	}
+}

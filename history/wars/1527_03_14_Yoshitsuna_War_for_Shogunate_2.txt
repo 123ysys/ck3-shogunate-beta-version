@@ -1,0 +1,12 @@
+war = {
+	name = "war_1527_yoshitsuna_war_for_the_shogunate"
+	start_date = 1530.7.1
+	end_date = 1534.1.1
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040013 # Ashikaga Yoshitsuna
+	attackers = { 10040500 } # Hosokawa Harumoto
+	defenders = { 10040000 } # Ashikaga Yoshiharu
+}

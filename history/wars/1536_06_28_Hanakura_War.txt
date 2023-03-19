@@ -1,0 +1,12 @@
+war = {
+	name = "war_1536_hanakura_war"
+	start_date = 1536.4.7
+	end_date = 1536.6.28
+	targeted_titles = {
+		d_nmih_suruga
+	}
+	casus_belli = event_claim_cb
+	claimant = 10023008 # Imagawa GenkoEtan
+	attackers = { 10023008 } # Imagawa GenkoEtan
+	defenders = { 10023010 } # Imagawa Yoshimoto
+}

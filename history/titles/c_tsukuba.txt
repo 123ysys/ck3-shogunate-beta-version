@@ -1,0 +1,87 @@
+c_nmih_tsukuba = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsukuba1={
+				set_title_name=b_nmih_tsukuba5
+			}
+		}
+	}
+	1193.7.29={
+		effect={
+			title:b_nmih_tsukuba1={
+				set_title_name=b_nmih_tsukuba1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1180.11.22 = { change_development_level = 20 }
+	1193.7.29 = { change_development_level = 20 }
+	1400.1.1 = { change_development_level = 30 }
+	1500.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1160.1.1={
+		holder=12120135 # Daijo Yoshimoto
+	}
+	1193.7.29={
+		holder=12130005 # Hatta Tomoie
+	}
+	1218.3.30={
+		holder=12127500 # Oda Tomoshige
+	}
+	1228.1.1={
+		holder=12127510 # Oda Yasutomo
+	}
+	1245.5.13={
+		holder=12127520 # Oda Tokitomo
+	}
+	1293.5.15={
+		holder=12127530 # Oda Munetomo
+	}
+	1306.12.6={
+		holder=12127541 # Oda Sadatomo
+	}
+	1333.7.4={
+		liege="d_nmih_tsukuba"
+		holder=10125187 # Kasuga Akikuni
+	}
+	1343.11.28={
+		liege="d_nmih_tsukuba"
+		holder=12127550 # Oda Haruhisa
+	}
+	1353.1.16={
+		holder=12127560 # Oda Takatomo
+	}
+	1414.7.3={
+		liege=0
+		holder=10010406 # Oda Mochiie
+	}
+	1440.1.1={
+		holder=10010405 # Oda Tomohisa
+	}
+	1455.6.5={
+		liege="d_nmih_tsukuba"
+		holder=10010403 # Oda Shigeharu
+	}
+	1514.1.1={
+		holder=10010401 # Oda Masaharu
+	}
+	1548.3.31={
+		holder=10010402 #Oda Ujiharu
+	}
+	1590.7.25={
+		liege="d_nmih_hitachi"
+		holder=10010836 # Satake Yoshinobu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029439 # Asano Nagamasa
+	}
+	1611.5.29={
+		holder=10029442 # Asano Nagashige
+	}
+}

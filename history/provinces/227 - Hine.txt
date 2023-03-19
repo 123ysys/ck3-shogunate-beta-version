@@ -1,0 +1,13 @@
+227 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	1180.1.1={capital=b_hine5} # Kogi
+	1331.1.1={
+	}
+	1530.1.1={
+	}
+	1576.1.1={
+	}
+}

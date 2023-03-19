@@ -1,0 +1,126 @@
+c_nmih_ibaraki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ibaraki1={
+				set_title_name=b_nmih_ibaraki9
+			}
+		}
+	}
+	1195.1.1={
+		effect={
+			title:b_nmih_ibaraki1={
+				set_title_name=b_nmih_ibaraki1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1195.1.1 = { change_development_level = 10 }
+	1203.1.1 = { change_development_level = 20 }
+	1336.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1180.1.1={
+		holder=12120155 # Daijo [Yoshida] Iemoto
+	}
+	1190.1.1={
+		holder=12120160 # Daijo [Baba] Sukemoto
+	}
+	1230.1.1={
+		holder=12120170 # Daijo Tomomoto
+	}
+	1250.1.1={
+		holder=12120180 # Daijo Norimoto
+	}
+	1289.4.27={
+		holder=12120200 # Daijo Tokimoto
+	}
+	1320.1.1={
+		holder=12120210 # Daijo Morimoto
+	}
+	1330.1.1={
+		holder=12120220 # Daijo Takamoto
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.7.1={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="e_nmih_nancho"
+	}
+	1335.11.1={
+		liege="d_nmih_tsukuba"
+	}
+	1337.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1382.1.1={
+		holder=12120230 # Daijo Akikuni
+	}
+	1386.3.1={
+		holder=12120231 # Daijo Mitsumoto
+	}
+	1415.6.8={
+		liege="d_nmih_musashi"
+	}
+	1417.1.27={
+		liege="e_nmih_japan"
+	}
+	1427.1.1={
+		liege="d_nmih_hitachi"
+		holder=10010106 # Edo Michifusa
+	}
+	1465.5.27={
+		holder=10010107 # Edo Michinaga
+	}
+	1467.1.1={
+		liege=0
+	}
+	1477.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1490.5.14={
+		liege=0
+	}
+	1492.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1494.12.9={
+		holder=10010105 # Edo Michimasa
+	}
+	1511.1.1={
+		liege=0
+		holder=10010105 # Edo Michimasa
+	}
+	1511.1.19={
+		holder=10010101 # Edo Michiyasu
+	}
+	1535.8.10={
+		holder=10010102 # Edo Tadamichi
+	}
+	1564.7.13={
+		holder=10010109 # Edo Michimasa
+	}
+	1567.8.20={
+		holder=10010110 # Edo Shigemichi
+	}
+	1591.1.4={
+		liege="d_nmih_hitachi"
+		holder=10010836 # Satake Yoshinobu
+	}
+	1603.3.24={
+		liege="d_nmih_hitachi"
+		holder=10024034 # Takeda Nobuyoshi
+	}
+	1603.10.15={
+		holder=10024049 # Tokugawa Yorinobu
+	}
+	1609.12.27={
+		holder=10024050 # Tokugawa Yorifusa
+	}
+}

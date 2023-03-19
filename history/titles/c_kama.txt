@@ -1,0 +1,150 @@
+c_nmih_kama = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kama1={
+				set_title_name=b_nmih_kama2
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_kama1={
+				set_title_name=b_nmih_kama8
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	180.1.1={
+		holder=10290001 # Himiko
+	}
+	1180.1.1={
+		liege="d_nmih_buzen"
+		holder=12780700 # Yamaga Hideto
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_chikuzen"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.11.13={
+		holder=12230101 # Amano Tokage
+	}
+	1192.1.1={
+		liege="d_nmih_chikuzen"
+		holder=10130546 # Muto Sukeyori
+	}
+	1227.1.1={
+		holder=10130550 # Muto Sukeyoshi
+	}
+	1273.1.1={
+		holder=10068030 # Shoni Kagesuke
+	}
+	1285.12.14={
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1292.9.14={
+		holder=10068025 # Shoni Moritsune
+	}
+	1308.2.17={
+		holder=10068020 # Shoni Sadatsune
+	}
+	1336.4.11={
+		holder=10068018 # Shoni Yorihisa
+	}
+	1361.1.1={
+		holder=10068015 # Shoni Fuyusuke
+	}
+	1375.9.22={
+		holder=10068014 # Shoni Yorizumi
+	}
+	1378.12.1={
+		holder=10068013 # Shoni Sadayori
+	}
+	1404.7.27={
+		holder=10068005 # Shoni Mitsusada
+	}
+	1429.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10057010 # Ouchi Moriharu
+	}
+	1431.8.6={
+		holder=10057015 # Ouchi Mochiyo
+	}
+	1441.8.14={
+		holder=10057008 # Ouchi Norihiro
+	}
+	1465.9.23={
+		holder=10057007 # Ouchi Masahiro
+	}
+	1478.1.1={
+		holder=10057101 # Sue Hiromori
+	}
+	1479.1.1={
+		holder=10057111 # Sue Hiroaki
+	}
+	1517.1.1={
+		holder=10067201 # Sugi Okinaga
+	}
+	1533.1.1={
+		holder=10067200 # Sugi Okikazu
+	}
+	1551.9.30={
+		holder=10057102 # Sue Harukata
+	}
+	1555.10.16={
+		holder=10057116 # Sue Nagafusa
+	}
+	1557.4.1={
+		liege="d_nmih_aki"
+		holder=10056004 # Mori Motonari
+	}
+	1557.5.1={
+		liege="d_nmih_bungo"
+		holder=10064002 # Otomo Yoshishige
+	}
+	1559.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10067505 # Akizuki Tanesane
+	}
+	1564.8.1={
+		liege="d_nmih_bungo"
+	}
+	1567.1.1={
+		liege="d_nmih_chikugo"
+	}
+	1569.8.1={
+		liege="d_nmih_chikuzen"
+	}
+	1578.12.10={
+		liege="d_nmih_chikuzen"
+	}
+	1587.5.18={
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1595.8.20={
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1598.3.1={
+		liege="e_nmih_japan"
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1599.2.19={
+		liege="d_nmih_chikuzen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1603.3.24={
+		liege="d_nmih_chikuzen"
+		holder=10055270 # Goto Mototsugu
+	}
+	1606.1.1={
+		holder=10207800 # Mori Tomonobu
+	}
+}

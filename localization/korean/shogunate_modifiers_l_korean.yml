@@ -1,0 +1,16 @@
+﻿l_korean:
+
+ # Bookmark Modifiers
+
+ shogunate_surprise_attack_modifier:0 "기습"
+ shogunate_surprise_attack_modifier_desc:0 "이 인물은 기습을 준비하고 있다."
+
+ # Target Modifiers
+
+ shogunate_global_coalition_target_modifier:0 "포위망의 표적"
+ shogunate_global_coalition_target_modifier_desc:0 "이 인물은 포위망의 표적이다."
+
+ # AI Personality Modifiers
+
+ shogunate_personality_10029120_modifier:0 "천하포무 (AI 성격)"
+ shogunate_personality_10029120_modifier_desc:0 "이 인물은 무력에 의한 천하통일을 목표로 하고 있다."

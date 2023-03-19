@@ -1,0 +1,201 @@
+d_nmih_bingo = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0826.1.1={
+		holder=11000033 # Fujiwara no Otsu
+	}
+	0830.1.1={
+		holder=11004528 # Fujiwara no Takafusa
+	}
+	0841.2.7={
+		holder=0
+	}
+	0846.2.12={
+		holder=10210537 # Oe no Naoomi
+	}
+	0855.2.6={
+		holder=0
+	}
+	0856.6.18={
+		holder=11005204 # Fujiwara no Aritoshi
+	}
+	0858.11.2={
+		holder=0
+	}
+	1089.1.1={
+		holder=11006757 # Fujiwara no Ieaki
+	}
+	1091.2.19={
+		holder=0
+	}
+	1120.2.28={
+		holder=11001031 # Fujiwara no Sanenobu
+	}
+	1128.1.10={
+		holder=0
+	}
+	1136.2.25={
+		holder=11006720 # Fujiwara no Toshimori
+	}
+	1136.6.11={
+		holder=0
+	}
+	1152.10.8={
+		holder=11006757 # Fujiwara no Ieaki
+	}
+	1160.2.29={
+		holder=0
+	}
+	1180.1.1={
+		liege = "k_nmih_sanyo"
+		holder=12660301 # Nuka Takanobu
+	}
+	1181.3.20={
+		liege = "e_nmih_japan"
+	}
+	1183.8.17={
+		liege= "k_nmih_western_chugoku"
+	}
+	1184.3.20={
+		liege="e_nmih_japan"
+		holder=12216002 # Dohi Sanehira
+	}
+	1191.12.13={
+		liege="e_nmih_joko"
+		holder=11003395 # Fujiwara Sadanaga
+	}
+	1195.12.14={
+		holder=11007502 # Hamuro Mitsumasa
+	}
+	1200.4.23={
+		holder=11007504 # Hamuro Mitsuchika
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=12221011 # Nagai Tokihiro
+	}
+	1238.1.1={
+		holder=12221015 # Nagai Yasuhide
+	}
+	1254.1.11={
+		holder=12221016 # Nagai Yasushige
+	}
+	1280.1.1={
+		holder=12665010 # Nagai Yorishige
+	}
+	1295.1.1={
+		holder=12665020 # Nagai Sadashige
+	}
+	1320.1.1={
+		holder=12665021 # Nagai Sadayori
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=12601005 # Asayama Yoshizumi
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+		holder=12601006 # Asayama Kagetsura
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1338.2.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1339.8.1={
+		holder=12139052 # Ishibashi Kazuyoshi
+	}
+	1340.11.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1342.8.1={
+		holder=12139566 # Kou Moroyasu
+	}
+	1349.3.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1351.3.15={
+		liege="k_nmih_western_kanto"
+		holder=10017073 # Uesugi Shigesue
+	}
+	1351.8.23={
+		liege="e_nmih_japan"
+		holder=12187027 # Iwamatsu Raiyu
+	}
+	1356.4.11={
+		liege="e_nmih_japan"
+		holder=10040512 # Hosokawa Yoriari
+	}
+	1365.9.1={
+		holder=10057611 # Shibukawa Yoshiyuki
+	}
+	1370.1.1={
+		liege="k_nmih_kyushu_tandai"
+		holder=12395221 # Imagawa Sadayo
+	}
+	1379.9.1={
+		liege="e_nmih_japan"
+		holder=10050011 # Yamana Tokiyoshi
+	}
+	1389.5.29={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1390.4.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.4.1={
+		holder=10040513 # Hosokawa Yorinaga
+	}
+	1401.8.1={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1433.10.1={
+		holder=10050039 # Yamana Mochitoyo
+	}
+	1454.12.1={
+		holder=10050040 # Yamana Noritoyo
+	}
+	1460.1.1={
+		holder=10050041 # Yamana Koretoyo
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan" # Onin War
+	}
+	1475.11.1={
+		liege=0 #　TODO
+		holder=10050044 # Yamana Masatoyo
+	}
+	1488.1.1={
+		liege=0
+		holder=10050059 # Yamana Toshitoyo
+	}
+	1497.1.1={
+		holder = 10050045 # Yamana Munetoyo
+	}
+	1512.1.1={
+		holder = 10050046 # Yamana Nobutoyo
+	}
+	1528.4.3={
+		holder=0 # 
+	}
+	1568.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1597.7.26={
+		holder=0
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029720 # Fukushima Masanori
+	}
+}

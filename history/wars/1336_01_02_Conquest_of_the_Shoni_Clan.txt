@@ -1,0 +1,15 @@
+war = {
+	name = "war_1336_conquest_of_the_shoni_clan"
+	start_date = 1336.1.2
+	end_date = 1336.4.11
+	targeted_titles = {
+		d_nmih_chikuzen
+	}
+	casus_belli = event_nanbokucho_invasion_war_duchy
+	attackers = {
+		10066023	# Kikuchi Takeshige
+	}
+	defenders = {
+		10068020	# Shoni Sadatsune
+	}
+}

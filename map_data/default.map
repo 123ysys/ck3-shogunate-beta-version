@@ -1,0 +1,51 @@
+#max_provinces = 722
+definitions = "definition.csv"
+provinces = "provinces.png"
+#positions = "positions.txt"
+rivers = "rivers.png"
+#terrain_definition = "terrain.txt"
+topology = "heightmap.heightmap"
+#tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+#climate = "climate.txt"
+island_region = "island_region.txt"
+seasons = "seasons.txt"
+
+# Ocean
+sea_zones = LIST { 423 }
+sea_zones = RANGE { 424 425 }
+sea_zones = RANGE { 426 453 }
+sea_zones = LIST { 454 }
+sea_zones = RANGE { 455 457 }
+sea_zones = LIST { 458 }
+sea_zones = LIST { 459 }
+sea_zones = RANGE { 460 463 }
+sea_zones = RANGE { 464 583 }
+sea_zones = RANGE { 584 586 }
+
+# Major Rivers
+river_provinces = RANGE { 460 463 }
+river_provinces = LIST { 424 425 454 458 584 585 586 }
+
+#ocean_region = {	# Ocean
+#	sea_zones = { 1 3 5 7 9 }
+#}
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+#tree = { 3 4 7 10 }
+#major_rivers = 
+#{
+#  #Yodogawa
+#	460 461 462 463
+#	#Inland Lake Without Biwa
+#	424 #Suwa
+#	425 #Inawashiro
+#	454 #Towada
+#	458 #Tazawa
+#	584 #Kussharo
+#	585 #Shikotsu
+#	586 #Toya
+#}
+#
+#externals = { }

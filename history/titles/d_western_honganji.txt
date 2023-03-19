@@ -1,0 +1,10 @@
+d_nmih_western_honganji = {
+	1.1.1={
+		government = theocracy_government
+	}
+	1000.1.1={
+	}
+	1602.1.1={
+		holder=10042212 # Honganji Junnyo
+	}
+}

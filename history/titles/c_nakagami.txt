@@ -1,0 +1,100 @@
+c_nmih_nakagami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nakagami1={
+				set_title_name=b_nmih_nakagami1
+			}
+		}
+	}
+	1429.1.1={
+		effect={
+			title:b_nmih_nakagami1={
+				set_title_name=b_nmih_nakagami2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1290.1.1 = { change_development_level = 40 }
+	1429.1.1 = { change_development_level = 40 }
+	1458.9.1 = { change_development_level = 50 }
+
+	0100.1.1={
+	}
+	1140.1.1={
+		liege="k_nmih_chuzan"
+		holder=10142003 # Tenson Umikanimatsu
+	}
+	1186.1.1={
+		holder=10142090 # Ri Yu
+	}
+	1187.1.1={
+		liege="k_nmih_chuzan"
+		holder=10142100 # Shunten Shunten
+	}
+	1237.1.1={
+		holder=10142110 # Shunten Shunbajunki
+	}
+	1248.1.1={
+		holder=10142120 # Shunten Gihon
+	}
+	1260.1.1={
+		liege="k_nmih_chuzan"
+		holder=10142200 # Eiso Eiso
+	}
+	1299.8.31={
+		holder=10142201 # Eiso Taisei
+	}
+	1309.1.19={
+		holder=10142211 # Eiso Eiji
+	}
+	1313.10.10={
+		holder=10142223 # Eiso Tamagushiku
+	}
+	1336.4.22={
+		holder=10142230 # Eiso Seii
+	}
+	1349.4.30={
+		liege="k_nmih_chuzan"
+		holder=10142301 # Satto Satto
+	}
+	1395.11.17={
+		holder=10142305 # Satto Bunei
+	}
+	1406.1.1={
+		liege="k_nmih_chuzan"
+		holder=10141002 # Sho Shisho
+	}
+	1421.1.1={
+		holder=10141005 # Sho Hashi
+	}
+	1430.1.1={
+		holder=10141232 # Yuntanza Gusamaru
+	}
+	1458.8.1={
+		holder=10141015 # Sho Taikyu
+	}
+	1459.1.1={
+		holder=10140004 # Sho En
+	}
+	1476.1.1={
+		holder=10140005
+	}
+	1477.1.1={
+		holder=10140007
+	}
+	1527.1.12={
+		holder=10140000
+	}
+	1555.7.13={
+		holder=10140027
+	}
+	1572.5.12={
+		holder=10140045
+	}
+	1589.1.11={
+		holder=10140061
+	}
+
+}

@@ -1,0 +1,5 @@
+﻿bm_hidden1570 = {
+	start_date = 1570.7.30
+	is_playable = yes
+	group = bm_group_oda_government
+}

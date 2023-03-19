@@ -1,0 +1,147 @@
+c_nmih_kasugai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kasugai1={
+				set_title_name=b_nmih_kasugai9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kasugai1={
+				set_title_name=b_nmih_kasugai1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	1180.1.1={
+		liege=0
+		holder=12430101 # Ajiki Shigetaka
+	}
+	1180.11.9={
+		liege="d_nmih_owari" # Battle of Fujikawa
+	}
+	1215.1.1={
+		liege="d_nmih_owari"
+		holder=12430104 # Ajiki Shigeyuki
+	}
+	1221.7.6={
+		liege="d_nmih_owari"
+		holder=12205405 # Chujo Iehira
+	}
+	1252.3.1={
+		holder=12205410 # Chujo Yorihira
+	}
+	1290.1.1={
+		holder=12205415 # Chujo Kagenaga
+	}
+	1314.9.1={
+		holder=10132288 # Hojo [Nagoe] Takaie
+	}
+	1317.4.1={
+		holder=10131857 # Hojo [Nagoe] Munenori
+	}
+	1333.7.4={
+		liege="d_nmih_owari"
+		holder=12139049 # Shiba Takatsune
+	}
+	1335.8.14={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.9.6={
+		holder=12139049 # Shiba Takatsune
+	}
+	1336.7.22={
+		liege="d_nmih_owari"
+		holder=12205416 # Chujo Hidenaga
+	}
+	1339.4.1={
+		holder=12139566 # Kou Moroyasu
+	}
+	1351.3.15={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1351.4.1={
+		liege="d_nmih_mino"
+		holder=10025315 # Toki Naouji
+	}
+	1380.12.11={
+		holder=10025319 # Toki Akinao
+	}
+	1390.4.1={
+		liege="d_nmih_owari"
+		holder=10025318 # Toki Mitsusada
+	}
+	1392.1.24={
+		holder=12395223 # Imagawa Nakaaki
+	}
+	1398.11.1={
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1400.1.17={
+		liege="d_nmih_owari"
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.6.1={
+		liege="d_nmih_owari"
+		holder=12320001 # Kai Yukinori
+	}
+	1402.1.1={
+		holder=10029104 # Oda Josho
+	}
+	1429.1.1={
+		holder=10029106 # Oda Norinaga
+	}
+	1431.1.1={
+		holder=10029107 # Oda Satohiro
+	}
+	1451.1.1={
+		holder=10029108 # Oda Toshihiro
+	}
+	1478.1.1={
+		holder=10029021 # Shiba Yoshihiro
+	}
+	1513.5.21={
+		holder=10029001 # Shiba Yoshitatsu
+	}
+	1521.11.1={
+		holder=10029000 # Shiba Yoshimune
+	}
+	1554.08.10={
+		holder=10029024 # Shiba Yoshikane
+	}
+	1555.01.01={
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.12.30={
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_owari"
+		holder=10029184 # Oda Hidenobu
+	}
+	1582.7.16={
+		liege="d_nmih_owari"
+		holder=10029161 # Oda Nobukatsu
+	}
+	1590.7.25={
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=10029720 # Fukushima Masanori
+	}
+	1603.3.24={
+		liege="d_nmih_owari"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

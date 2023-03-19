@@ -1,0 +1,146 @@
+c_nmih_kita_koma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kita_koma1={
+				set_title_name=b_nmih_kita_koma9
+			}
+		}
+	}
+	1531.2.18={
+		effect={
+			title:b_nmih_kita_koma1={
+				set_title_name=b_nmih_kita_koma1
+			}
+		}
+	}
+	1582.1.1={
+		effect={
+			title:b_nmih_kita_koma1={
+				set_title_name=B_NMIH_KITA_KOMA1_1582
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1465.1.1 = { change_development_level = 20 }
+	1531.2.18 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_kai"
+	}
+	1133.1.1={
+		holder=10120094 # Minamoto Yoshikiyo
+	}
+	1149.8.27={
+		holder=10120100 # Minamoto Kiyomitsu
+	}
+	1168.8.12={
+		holder=10120111 # Takeda Nobuyoshi
+	}
+	1180.1.1={
+		liege="d_nmih_kai"
+	}
+	1184.7.25={
+		liege="d_nmih_kai"
+		holder=12360102 # Takeda Ariyoshi
+	}
+	1200.1.1={
+		holder=12361500 # Henmi Arinobu
+	}
+	1260.1.1={
+		holder=12361501 # Henmi Aritomo
+	}
+	1300.1.1={
+		holder=12361505 # Henmi Aritsuna
+	}
+	1340.1.1={
+		liege="d_nmih_kai"
+		holder=12361510 # Henmi Arimasa
+	}
+	1380.1.1={
+		holder=12361515 # Henmi Arinobu
+	}
+	1410.1.1={
+		holder=12361520 # Henmi Arinao
+	}
+	1417.2.22={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1425.1.1={
+		liege=0
+		holder=12361300 # Atobe Myokai
+	}
+	1438.9.1={
+		liege="d_nmih_kai"
+	}
+	1464.1.1={
+		holder=12361301 # Atobe Kageie
+	}
+	1465.1.1 ={
+		holder=10020322 # Oi Nobufusa
+	}
+	1470.1.1={
+		holder=10020323 # Oi Nobukane
+	}
+	1500.1.1={
+		holder=10020324 # Oi Nobusato
+	}
+	1520.1.1={
+		holder=10020325 # Oi Nobunari
+	}
+	1531.2.18={
+		holder=10020000 # Takeda Nobutora
+	}
+	1541.6.14={
+		holder=10020010 # Takeda Shingen
+	}
+	1573.05.13={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1582.4.3={
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="d_nmih_kai"
+		holder=10029251 # Kawajiri Hidetaka
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+		holder=10020280 # Mitsui Masatake
+	}
+	1582.7.7={
+		liege="d_nmih_kai"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1587.7.12={
+		holder=10024034 # Takeda Nobuyoshi 
+	}
+	1590.7.25={
+		holder=10029412 # Toyotomi Hidekatsu
+	}
+	1591.4.14={
+		holder=10094000 # Kato Mitsuyasu
+	}
+	1593.9.24={
+		holder=10094001 # Kato Sadayasu
+	}
+	1594.1.1={
+		holder=10029439 # Asano Nagamasa
+	}
+	1599.10.9={
+		holder=10029440 # Asano Yukinaga
+	}
+	1603.3.24={
+		liege="d_nmih_kai"
+		holder=10024480 # Hiraiwa Chikayoshi
+	}
+	1607.4.1={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		liege="d_nmih_kai"
+		holder=10024055 # Tokugawa Tadanaga
+	}
+}

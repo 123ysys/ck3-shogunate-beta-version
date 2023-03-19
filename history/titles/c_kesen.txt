@@ -1,0 +1,126 @@
+c_nmih_kesen = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kesen1={
+				set_title_name=b_nmih_kesen2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kesen1={
+				set_title_name=b_nmih_kesen9
+			}
+		}
+	}
+	1201.4.4={
+		effect={
+			title:b_nmih_kesen1={
+				set_title_name=b_nmih_kesen1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1189.9.21 = { change_development_level = 20 }
+	1201.4.4 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12061910 # Kon Tametoshi
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_harima"
+		holder=12030053 # Fujiwara Takahira
+	}
+	1199.12.18={
+		liege="d_nmih_northern_echigo"
+	}
+	1201.4.4={
+		liege="d_nmih_rikuchu"
+		holder=12201022 # Kasai Kiyoshige
+	}
+	1238.10.23={
+		holder=12083001 # Kasai Tomokiyo
+	}
+	1250.1.1={
+		holder=12083100 # Kasai Kiyokazu
+	}
+	1270.1.1={
+		holder=12083105 # Kasai Tokikazu
+	}
+	1300.1.1={
+		holder=12083110 # Kasai Kiyomune
+	}
+	1325.1.1={
+		holder=12083115 # Kasai Kiyosada
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1343.1.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1360.1.1={
+		holder=12083120 # Kasai Yoshikiyo
+	}
+	1365.1.1={
+		holder=12083125 # Kasai Mitsuyoshi
+	}
+	1380.1.1={
+		holder=12083126 # Kasai Mitsukiyo
+	}
+	1392.1.1={
+		liege=0
+	}
+	1410.1.1={
+		holder=12083130 # Kasai Mochishige
+	}
+	1440.1.1={
+		holder=12083135 # Kasai Nobushige
+	}
+	1470.1.1={
+		holder=12083140 # Kasai Mitsushige
+	}
+	1480.1.1={
+		holder=10009700 # Hamada Mototsugu
+	}
+	1520.1.1={
+		liege="d_nmih_rikuchu"
+		holder=10009701 # Hamada Tokitane
+	}
+	1550.1.1={
+		holder=10009703 # Hamada Hirotsuna
+	}
+	1588.3.17={
+		holder=10009706 # Hamada Nobutsuna
+	}
+	1590.8.28={
+		holder=10045739 # Kimura Yoshikiyo
+	}
+	1590.11.3={
+		liege=0
+		holder=10009706 # Hamada Nobutsuna
+	}
+	1591.8.12={
+		liege="d_nmih_rikuchu"
+		holder=10001035 # Date Masamune
+	}
+	1603.3.24={
+		liege="d_nmih_rikuzen"
+	}
+}

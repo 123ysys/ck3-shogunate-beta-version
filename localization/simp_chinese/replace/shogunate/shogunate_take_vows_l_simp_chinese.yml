@@ -1,0 +1,6 @@
+﻿l_simp_chinese:
+ RELEASE_TAKE_VOWS:0 "出家"
+ take_vows_interaction:0 "要求出家"
+ demanded_taking_vows:0 "要求出家"
+ asked_me_to_take_vows_opinion:0 "要求出家"
+ culture_parameter_monastic_expectations:1 "这个[culture|E]的[characters|E]，特别是未成年的孩子，更容易接受出家"

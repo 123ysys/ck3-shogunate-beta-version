@@ -1,0 +1,220 @@
+d_nmih_kawachi = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0754.3.1={
+	    holder=11000018 # Fujiwara Uona {Kawachi no Kami}
+	}
+	0758.2.13={
+	    holder=0 #  
+	}
+	1031.4.26={
+	    holder=12532000 # Fujiwara Kinnori {Kawachi no Kami}
+	}
+	1043.8.21={
+	    holder=0 #  
+	}
+	1046.1.1={
+	    holder=10120013 # Minamoto Yorinobu {Kawachi no Kami}
+	}
+	1048.6.1={
+	    holder=0 #  
+	}
+	1167.4.21={
+	    holder=11003842 # Fujiwara Mitsunori {Kawachi no Kami}
+	}
+	1168.1.31={
+	    holder=0 #  
+	}
+	1168.2.17={
+		holder=10110235 # Taira Nobukane {Kawachi no Kami}
+	}
+	1172.1.1={
+		holder=0
+	}
+	1180.1.1={
+		liege=0
+		 holder=10120272 # Ishikawa [Minamoto] Yoshimoto
+	}
+	1181.1.1={
+		holder=0
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+		holder=10120072 # Minamoto Yukiie
+	}
+	1184.1.13={
+		liege=0
+	}
+	1185.11.10={
+		liege="k_nmih_northern_kinai"
+	}
+	1185.11.26={
+		liege=0
+	}
+	1186.6.1={
+		liege="e_nmih_joko"
+		holder=10041054 # Emperor Go-Shirakawa
+	}
+	1192.4.26={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1203.1.1={
+		holder=10130461 # Fujiwara Hidemune
+	}
+	1210.1.1={
+		holder=10130464 # Fujiwara Hideyasu {Kawachi no Kami}
+	}
+	1218.4.1={
+		holder=10130465 # Fujiwara Hideyoshi {Kawachi no Kami}
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=12211040 # Miura Yoshimura
+	}
+	1235.1.1={
+		holder=10131678 # Hojo [Osaragi] Tomonao
+	}
+	1240.1.1={
+		holder=12211050 # Miura Yasumura
+	}
+	1247.7.8={
+		liege=0
+	}
+	1247.7.9={
+		liege="e_nmih_japan"
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1256.12.10={
+		holder=10131712 # Hojo [Tokiwa] Tokishige
+	}
+	1270.2.18={
+		holder=10131878 # Hojo [Akahashi] Yoshimune
+	}
+	1280.1.1={
+		holder=10132044 # Hojo [Akahashi] Hisatoki
+	}
+	1307.12.23={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1315.8.11={
+		holder=10131921 # Hojo Tokiatsu
+	}
+	1320.7.8={
+		holder=10132047 # Hojo [Tokiwa] Norisada
+	}
+	1331.2.4={
+		holder=10132207 # Hojo [Fuonji] Nakatoki
+	}
+	1331.12.1={
+		liege=0
+		holder=12560001 # Kusunoki Masashige
+	}
+	1333.1.1={
+		liege="k_nmih_southern_kinai"
+	}
+	1334.11.19={
+		liege="e_nmih_nancho"
+	}
+	1336.7.4={
+		holder=12560005 # Kusunoki Masatsura
+	}
+	1348.2.4={
+		holder=12560007 # Kusunoki Masanori
+	}
+	1369.1.1={
+		liege="k_nmih_kanrei"
+	}
+	1382.1.1={
+		liege="e_nmih_nancho"
+	}
+	1389.1.1={
+		holder=12560010 # Kusunoki Masakatsu
+	}
+	1392.11.12={
+		liege="e_nmih_japan"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1398.6.1={
+		liege="k_nmih_kawachi"
+	}
+	1406.2.5={
+	    holder=10031001 # Hatakeyama Mitsuyoshi
+	}
+	1408.10.1={
+	    holder=10048111 # Hatakeyama Mitsuie
+	}
+	1433.10.31={
+	    holder=10048114 # Hatakeyama Mochikuni
+	}
+	1441.1.1={
+	    holder=10048113 # Hatakeyama Mochinaga
+	}
+	1441.7.1={
+	    holder=10048114 # Hatakeyama Mochikuni
+	}
+	1455.4.12={
+	    holder=10048115 # Hatakeyama Yoshihiro
+	}
+	1460.10.4={
+	    holder=10048121 # Hatakeyama Masanaga
+	}
+	1466.10.1={
+		liege=0
+		holder=10048115 # Hatakeyama Yoshinari
+	}
+	1491.1.21={
+		holder=10048116 # Hatakeyama Yoshitoyo, De facto
+	}
+	1499.3.20={
+		liege="k_nmih_kanrei"
+		holder=10048117 # Hatakeyama Yoshihide
+	}
+	1504.1.1={
+		liege="e_nmih_japan"
+	}
+	1508.7.28={
+		liege="k_nmih_southern_kinai"
+	}
+	1522.5.25={
+		holder=10048118 # Hatakeyama Yoshitaka
+	}
+	1527.3.14={
+		liege="k_nmih_kanrei"
+	}
+	1532.7.17={
+		holder=10040831 # Kizawa Nagamasa
+	}
+	1542.1.1={
+		liege=0
+	}
+	1542.4.2={
+		holder=10048119 # Hatakeyama Ariuji
+	}
+	1543.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10048100 # Hatakeyama Tanenaga
+	}
+	1545.6.23={
+		holder=10048125 # Hatakeyama Masakuni
+	}
+	1549.7.18={
+		liege=0
+		holder=10048127 # Hatakeyama Takamasa
+	}
+	1562.6.20={
+		holder=0 # 
+	}
+	1573.12.10={
+		liege="k_nmih_chubu"
+		holder=10029510 # Sakuma Nobumori
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+		holder=10029510 # Sakuma Nobumori
+	}
+	1580.8.1={
+		holder=0 # 
+	}
+
+}

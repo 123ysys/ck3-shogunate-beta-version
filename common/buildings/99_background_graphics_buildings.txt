@@ -1,0 +1,369 @@
+﻿# These buildings are only for showing background graphics, e.g. the walls around holdings
+
+# No Walls
+walls_00 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		name = "western_walls_00_mesh"
+	}
+	
+	is_enabled = {
+		OR = {
+			AND = {
+				scope:holder = {
+					has_government = tribal_government
+				}
+				is_county_capital = no
+				fort_level < 1
+			}
+			AND = {
+				scope:holder = {
+					NOT = { has_government = tribal_government }
+				}
+				NOR = {
+					has_building_or_higher = "palisades_05"
+					has_building_or_higher = "curtain_walls_05"
+					has_building_or_higher = "hill_forts_05"
+					has_building_or_higher = "ramparts_05"
+					has_building_or_higher = "watchtowers_05"
+				}
+			}
+		}
+	}
+}
+
+# Any city that must be sieged gets the basic walls
+walls_01_tribal = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"tribal_walls_01_a_mesh"
+		}
+	}
+	
+	is_enabled = {
+		OR = {
+			AND = {
+				scope:holder = {
+					has_government = tribal_government
+				}
+				OR = {
+					is_county_capital = yes
+					fort_level > 0
+				}
+			}
+			AND = {
+				scope:holder = {
+					NOT = { has_government = tribal_government }
+				}
+				OR = {
+					has_building_or_higher = "palisades_05"
+					has_building_or_higher = "curtain_walls_05"
+					has_building_or_higher = "hill_forts_05"
+					has_building_or_higher = "ramparts_05"
+					has_building_or_higher = "watchtowers_05"
+				}
+				NOR = {
+					has_building_or_higher = "palisades_06"
+					has_building_or_higher = "curtain_walls_06"
+					has_building_or_higher = "hill_forts_06"
+					has_building_or_higher = "ramparts_06"
+					has_building_or_higher = "watchtowers_06"
+				}
+			}
+		}
+	}
+}
+
+# Here the Fort Level building chains take control of the visuals
+walls_01 = {
+	is_graphical_background = yes
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_walls_01_a_mesh"
+			"western_walls_01_b_mesh"
+		}
+	}	
+	asset = {
+		type = pdxmesh
+		names = {
+			"mena_walls_01_a_mesh"
+			"mena_walls_01_b_mesh"
+
+		}
+		graphical_regions = { graphical_mena }
+	}
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_northern_lords
+		graphical_cultures = { norse_building_gfx }
+		names = {
+			"fp1_norse_walls_01_mesh"
+		}
+	}
+	
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_northern_lords
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_mena }
+		names = {
+			"fp1_norse_walls_01_mena_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_fate_of_iberia
+		graphical_cultures = { iberian_building_gfx }
+		#graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_western graphical_steppe }
+		names = {
+			"fp2_building_iberian_wall_01_mesh"
+		}
+	}
+	
+	is_enabled = {
+		fort_level >= 1
+		fort_level <  5
+		scope:holder = {
+			NOT = { has_government = tribal_government }
+		}
+	}
+}
+
+walls_02 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"western_walls_02_a_mesh"
+			"western_walls_02_a_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_mena }
+		names = {
+			"mena_walls_02_a_mesh"
+			"mena_walls_02_a_mesh"
+		}
+	}
+
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_northern_lords
+		graphical_cultures = { norse_building_gfx }
+		names = {
+			"fp1_norse_walls_02_mesh"
+		}
+	}	
+	
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_northern_lords
+		graphical_cultures = { norse_building_gfx }
+		graphical_regions = { graphical_mena }
+		names = {
+			"fp1_norse_walls_02_mena_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_fate_of_iberia
+		graphical_cultures = { iberian_building_gfx }
+		#graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_western graphical_steppe }
+		names = {
+			"fp2_building_iberian_wall_02_mesh"
+		}
+	}
+
+	is_enabled = {
+		AND = {
+			scope:holder = {
+				NOT = { has_government = tribal_government }
+			}
+			OR = {
+				has_building_or_higher = "palisades_06"
+				has_building_or_higher = "curtain_walls_06"
+				has_building_or_higher = "hill_forts_06"
+				has_building_or_higher = "ramparts_06"
+				has_building_or_higher = "watchtowers_06"
+			}
+			NOR = {
+				has_building_or_higher = "palisades_07"
+				has_building_or_higher = "curtain_walls_07"
+				has_building_or_higher = "hill_forts_07"
+				has_building_or_higher = "ramparts_07"
+				has_building_or_higher = "watchtowers_07"
+			}
+		}
+	}
+}
+
+walls_03 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_western graphical_steppe }
+		names = {
+			"western_walls_03_a_mesh"
+			"western_walls_03_a_mesh"
+		}
+	}
+	
+	
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_mediterranean }
+		names = {
+			"mediterranean_walls_03_a_mesh"
+			"mediterranean_walls_03_a_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_mena }
+		names = {
+			"mena_walls_03_a_mesh"
+			"mena_walls_03_a_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_india }
+		names = {
+			"india_walls_03_a_mesh"
+			"india_walls_03_a_mesh"
+		}
+	}
+
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_fate_of_iberia
+		graphical_cultures = { iberian_building_gfx }
+		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_western graphical_steppe }
+		names = {
+			"fp2_building_iberian_wall_03_mesh"
+		}
+	}
+	
+	### Shogunate ###
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { yamato_building_gfx }
+		names = {
+			"japanese_walls_03_mesh"
+		}
+	}
+	
+	is_enabled = {
+		AND = {
+			scope:holder = {
+				NOT = { has_government = tribal_government }
+			}
+			OR = {
+				has_building_or_higher = "palisades_07"
+				has_building_or_higher = "curtain_walls_07"
+				has_building_or_higher = "hill_forts_07"
+				has_building_or_higher = "ramparts_07"
+				has_building_or_higher = "watchtowers_07"
+			}
+			NOR = {
+				has_building_or_higher = "palisades_08"
+				has_building_or_higher = "curtain_walls_08"
+				has_building_or_higher = "hill_forts_08"
+				has_building_or_higher = "ramparts_08"
+				has_building_or_higher = "watchtowers_08"
+			}
+		}
+	}
+}
+
+walls_04 = {
+	is_graphical_background = yes
+
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_western graphical_steppe }
+		names = {
+			"western_walls_04_a_mesh"
+			"western_walls_04_a_mesh"
+		}
+	}
+	
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_mediterranean }
+		names = {
+			"mediterranean_walls_04_a_mesh"
+			"mediterranean_walls_04_a_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_mena }
+		names = {
+			"mena_walls_04_a_mesh"
+			"mena_walls_04_a_mesh"
+		}
+	}
+
+	asset = {
+		type = pdxmesh
+		graphical_regions = { graphical_india }
+		names = {
+			"india_walls_04_a_mesh"
+			"india_walls_04_a_mesh"
+		}
+	}
+
+
+	asset = {
+		type = pdxmesh
+		requires_dlc_flag = the_fate_of_iberia
+		graphical_cultures = { iberian_building_gfx }
+		graphical_regions = { graphical_mena graphical_india graphical_mediterranean graphical_western graphical_steppe }
+		names = {
+			"fp2_building_iberian_wall_04_mesh"
+		}
+	}
+	
+	### Shogunate ###
+	asset = {
+		type = pdxmesh
+		graphical_cultures = { yamato_building_gfx }
+		names = {
+			"japanese_walls_04_mesh"
+		}
+	}
+	
+	is_enabled = {
+		AND = {
+			scope:holder = {
+				NOT = { has_government = tribal_government }
+			}
+			OR = {
+				has_building_or_higher = "palisades_08"
+				has_building_or_higher = "curtain_walls_08"
+				has_building_or_higher = "hill_forts_08"
+				has_building_or_higher = "ramparts_08"
+				has_building_or_higher = "watchtowers_08"
+			}
+		}
+	}
+}

@@ -1,0 +1,138 @@
+c_nmih_yamaka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yamaka1={
+				set_title_name=b_nmih_yamaka9
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_yamaka1={
+				set_title_name=b_nmih_yamaka6
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_totomi"
+	}
+	1179.2.15={
+		liege="d_nmih_suruga" # Tachibana Tomochi
+		holder=12390103 # Tachibana Tomochi
+	}
+	1180.11.9={
+		liege="d_nmih_totomi" # Yasuda Yoshisada
+		holder=10120113 # Yasuda Yoshisada / Battle of Fujikawa
+	}
+	1193.11.28={
+		holder=10130839 # Kato Kagekado
+	}
+	1199.12.18={
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1222.1.1={
+		liege="d_nmih_nagato"
+		holder=12230105 # Amano Masakage
+	}
+	1242.1.1={
+		liege="d_nmih_totomi"
+		holder=12230115 # Amano Kagetsune
+	}
+	1270.1.1={
+		holder=12230120 # Amano Totoki
+	}
+	1310.1.1={
+		holder=12400400 # Amano Tsuneaki
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12390512 # Ii Yukinao
+	}
+	1338.9.1={
+		liege="k_nmih_seito_shogun"
+		holder=10041903 # Prince Muneyoshi
+	}
+	1360.1.1={
+		liege="d_nmih_totomi"
+		holder=12395214 # Imagawa Norikuni
+	}
+	1384.6.8={
+		holder=12395221 # Imagawa Sadayo
+	}
+	1400.1.17={
+		holder=12395226 # Imagawa Yasunori
+	}
+	1405.11.1={
+		liege="d_nmih_totomi"
+		holder=12320001 # Kai Yukinori
+	}
+	1420.1.1={
+		holder=12320005 # Kai Yukihisa
+	}
+	1459.9.8={
+		holder=12320010 # Kai Toshimitsu
+	}
+	1467.6.27={ # Onin War
+		liege="d_nmih_owari"
+	}
+	1475.2.19={
+		liege="d_nmih_totomi"
+	}
+	1490.1.1={
+		holder=10029021 # Shiba Yoshihiro
+	}
+	1501.3.1={
+		holder=10029023 # Shiba Yoshikatsu
+	}
+	1508.8.1={
+		liege="d_nmih_totomi"
+		holder=10023003 # Imagawa Ujichika
+	}
+	1514.1.1={
+		liege="d_nmih_totomi"
+		holder=10023202 # Matsui Nobushige
+	}
+	1528.3.1={
+		holder=10023203 # Matsui Munenobu
+	}
+	1560.6.12={
+		holder=10023205 # Matsui Munechika
+	}
+	1561.1.1={
+		holder=10023206 # Matsui Munetsune
+	}
+	1573.1.1={
+		liege=0
+		holder=10020010 # Takeda Shingen
+	}
+	1573.5.3={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1575.12.24={
+		liege="d_nmih_totomi" # 24006 Tokugawa Ieyasu
+		holder=10024274 # Okubo Tadayo, Futamata-Jo
+	}
+	1590.7.25={ 
+		holder=10029641 # Horio Yoshiharu
+		liege="d_nmih_totomi"
+	}
+	1599.11.8={
+		holder=10029642 # Horio Tadauji
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1609.12.27={
+		liege="d_nmih_suruga"
+		holder=10024049 # Tokugawa Yorinobu
+	}
+}

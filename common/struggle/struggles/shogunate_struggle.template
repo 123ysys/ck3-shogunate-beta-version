@@ -1,0 +1,248 @@
+﻿shogunate_xxx_struggle = {
+
+	##################################################
+	# Setup
+	##################################################
+
+	cultures = {
+	}
+	faiths = {
+	}
+	regions = { 
+	}
+
+	# A culture or faith becomes involved if 80% of the total number of counties belonging to it are inside the struggle region.
+	involvement_prerequisite_percentage = 0.8
+
+	on_start = {
+	}
+
+	on_change_phase = {
+	}
+	
+	# Root = the current struggle
+	# scope:character = the character which has joined the struggle
+ 	on_join = {
+ 	}  
+
+	##################################################
+	# Phases
+	##################################################
+
+	start_phase = struggle_shogunate_xxx_phase_1
+	
+	phase_list = {
+
+		struggle_shogunate_xxx_phase_1 = {
+
+			##################################################
+			# General Set-Up
+
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_opportunity_bg.dds"
+			
+			future_phases = {
+
+				struggle_shogunate_xxx_phase_2 = {						
+
+					catalysts = {
+					}
+
+				}
+
+			}
+
+			war_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			faith_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			culture_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			other_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			# We are listing all available decision to give players insights on how they can end the Struggle
+			ending_decisions = {
+			}
+		}
+
+		struggle_shogunate_xxx_phase_2 = {
+
+			##################################################
+			# General Set-Up
+
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_hostility_bg.dds"
+
+			future_phases = {
+
+				struggle_shogunate_xxx_phase_1 = {
+
+					catalysts = {
+					}
+
+				}
+
+			}
+
+			war_effects = {
+
+				###### Common
+				
+				# Nothing
+
+				##### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			faith_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			culture_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			other_effects = {
+
+				###### Common
+				
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			##################################################
+			# Ending
+
+			# We are listing all available decision to give players insights on how they can end the Struggle
+			ending_decisions = {
+			}
+
+		}
+
+	}
+
+}

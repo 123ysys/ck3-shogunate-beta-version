@@ -1,0 +1,80 @@
+c_nmih_kumejima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kumejima1={
+				set_title_name=b_nmih_kumejima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+
+	0100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_chuzan"
+		holder=10142090 # Ri Yu
+	}
+	1187.1.1={
+		holder=10142100 # Shunten
+	}
+	1237.1.1={
+		holder=10142110 # Shunbajunki
+	}
+	1248.1.1={
+		holder=10142120 # Gihon
+	}
+	1252.1.1={
+		holder=10142200 # Eiso Eiso
+	}
+	1299.8.31={
+		liege="k_nmih_chuzan"
+		holder=10142201 # Eiso Taisei
+	}
+	1309.1.19={
+		holder=10142211 # Eiso Eiji
+	}
+	1313.10.10={
+		holder=10142223 # Eiso Tamagushiku
+	}
+	1336.4.22={
+		holder=10142230 # Eiso Seii
+	}
+	1349.4.30={
+		liege=0
+		holder=10140310 # Yunanmi Yunanmi
+	}
+	1380.1.1={
+		holder=10140311 # Suhara Suhara
+	}
+	1410.1.1={
+		holder=10140312 # Suhara Suhara
+	}
+	1430.1.1={
+		holder=10140313 # Gushichaa Matafutsu
+	}
+	1460.1.1={
+		holder=10140314 # Gushichaa Makanikui
+	}
+	1480.1.1 ={
+		holder=10140300 # Chinaha Chinaha
+	}
+	1510.1.1={
+		liege="k_nmih_chuzan"
+		holder=10140007
+	}
+	1527.1.12={
+		holder=10140000
+	}
+	1555.7.13={
+		holder=10140027
+	}
+	1572.5.12={
+		holder=10140045
+	}
+	1589.1.11={
+		holder=10140061
+	}
+
+}

@@ -1,0 +1,139 @@
+c_nmih_kaya = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kaya1={
+				set_title_name=b_nmih_kaya9
+			}
+		}
+	}
+	1239.1.1={
+		effect={
+			title:b_nmih_kaya1={
+				set_title_name=b_nmih_kaya1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1239.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_bitchu"
+	}
+	1180.1.1={
+		liege="d_nmih_bitchu"
+		holder=10260103 # Kaya Sadayori
+	}
+	1199.1.1={
+		liege="d_nmih_bitchu"
+		holder=10260105 # Kaya Sadakatsu
+	}
+	1213.1.1={
+		holder=10260106 # Kaya Sadataka
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_bitchu"
+		holder=12630950 # Akiha Shigenobu
+	}
+	1240.1.1={
+		holder=12630952 # Akiha Shigeto
+	}
+	1285.1.1={
+		holder=12630953 # Akiha Yoshitsugu
+	}
+	1290.1.1={
+		holder=12630954 # Akiha Shigetomo
+	}
+	1310.1.1={
+		holder=12630955 # Akiha Nobumori
+	}
+	1355.1.1={
+		liege="d_nmih_bitchu"
+		holder=12139589	# Kou Morohide
+	}
+	1362.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630955	# Akiha Nobumori
+	}
+	1365.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630956	# Akiha Shigetsugu
+	}
+	1367.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630957	# Akiha Shigeaki
+	}
+	1370.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630958	# Akiha Yorishige
+	}
+	1405.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630959	# Akiha Yoritsugu
+	}
+	1440.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630960	# Akiha Motoaki
+	}
+	1509.1.1={
+		liege=0
+		holder=12630961	# Akiha Motoshige
+	}
+	1509.6.1={
+		liege="e_nmih_japan"
+		holder=10055063 # Ueno Yorihisa
+	}
+	1521.1.1={
+		liege=0
+		holder=10055066 # Ueno Yoriuji
+	}
+	1533.1.1={
+		liege=0
+		holder=10054801 # Sho Tamesuke
+	}
+	1540.1.1={
+		liege="k_nmih_sanin"
+	}
+	1553.2.15={
+		holder=10054804 # Sho Takasuke
+	}
+	1561.1.1={
+		liege="k_nmih_sanin"
+		holder=10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		holder=10051525 # Amago Yoshihisa
+	}
+	1561.3.1={
+		liege="d_nmih_bitchu"
+		holder=10054900 # Mimura Iechika
+	}
+	1566.2.24={
+		holder=10054906 # Mimura Motochika
+	}
+	1575.7.9={
+		liege="d_nmih_bingo"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1597.7.26={
+		liege="k_nmih_western_chugoku"
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029459 # Kinoshita Iesada
+	}
+	1608.10.4={
+		holder=10029462 # Kinoshita Katsutoshi
+	}
+	1609.9.1={
+		holder=10029441 # Asano Nagaakira
+	}
+	1613.10.9={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1615.6.4={
+		holder=10029463 # Kinoshita Toshifusa
+	}
+}

@@ -1,0 +1,273 @@
+﻿shogunate_building_controller_setup_effect = {
+
+	shogunate_building_controller_setup_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 01 }
+	shogunate_building_controller_setup_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 02 }
+	shogunate_building_controller_setup_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 03 }
+	shogunate_building_controller_setup_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 04 }
+
+}
+
+shogunate_building_controller_setup_with_tier_effect = {
+
+	if = {
+		limit = {
+			title:$TITLE$.title_province = { has_building = $NAME$_$TIER$ }
+		}
+		set_global_variable = {
+			name  = shogunate_$NAME$_controller
+			value = title:$TITLE$.holder.top_liege
+		}
+		set_global_variable = {
+			name  = shogunate_$NAME$_tier
+			value = $TIER$
+		}
+		global_var:shogunate_$NAME$_controller = {
+			add_character_modifier = shogunate_$NAME$_$TIER$_modifier
+		}
+	}
+
+}
+
+shogunate_building_controller_change_effect = {
+
+	shogunate_building_controller_change_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 01 TIER_PREV = 00 }
+	shogunate_building_controller_change_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 02 TIER_PREV = 01 }
+	shogunate_building_controller_change_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 03 TIER_PREV = 02 }
+	shogunate_building_controller_change_with_tier_effect = { TITLE = $TITLE$ NAME = $NAME$ TIER = 04 TIER_PREV = 03 }
+
+}
+
+shogunate_building_controller_change_with_tier_effect = {
+
+	if = {
+		limit = {
+			title:$TITLE$.title_province = { has_building = $NAME$_$TIER$ }
+		}
+		title:$TITLE$ = { save_scope_as = building_place }
+		if = {
+			limit = {
+				NOT = { exists = global_var:shogunate_$NAME$_tier }
+			}
+			flag:$NAME$ = { save_scope_as = building_name }
+			flag:$TIER$ = { save_scope_as = building_tier }
+			set_global_variable = {
+				name  = shogunate_$NAME$_controller
+				value = title:$TITLE$.holder.top_liege
+			}
+			set_global_variable = {
+				name  = shogunate_$NAME$_tier
+				value = $TIER$
+			}
+			global_var:shogunate_$NAME$_controller = {
+				if = {
+					limit = { is_alive = yes }
+				}
+				trigger_event = shogunate_building.0005
+			}
+		}
+		else_if = {
+			limit = {
+				exists = global_var:shogunate_$NAME$_controller
+				exists = global_var:shogunate_$NAME$_tier
+			}
+			if = {
+				limit = {
+					NOT = { global_var:shogunate_$NAME$_tier = $TIER$ }
+				}
+				global_var:shogunate_$NAME$_controller = {
+					if = {
+						limit = { is_alive = yes }
+					}
+					remove_character_modifier = shogunate_$NAME$_$TIER_PREV$_modifier
+					add_character_modifier = shogunate_$NAME$_$TIER$_modifier
+				}
+				set_global_variable = {
+					name  = shogunate_$NAME$_tier
+					value = $TIER$
+				}
+			}
+			if = {
+				limit = {
+					NOT = { global_var:shogunate_$NAME$_controller = title:$TITLE$.holder.top_liege }
+				}
+				global_var:shogunate_$NAME$_controller = { save_scope_as = previous_owner }
+				title:$TITLE$.holder.top_liege = { save_scope_as = new_owner }
+				flag:$NAME$ = { save_scope_as = building_name }
+				flag:$TIER$ = { save_scope_as = building_tier }
+				global_var:shogunate_$NAME$_controller = {
+					if = {
+						limit = { is_alive = yes }
+					}
+					trigger_event = shogunate_building.0006
+				}
+				set_global_variable = {
+					name  = shogunate_$NAME$_controller
+					value = title:$TITLE$.holder.top_liege
+				}
+				global_var:shogunate_$NAME$_controller = {
+					if = {
+						limit = { is_alive = yes }
+					}
+					trigger_event = shogunate_building.0005
+				}
+			}
+		}
+	}
+
+}
+
+shogunate_building_add_modifier_effect = {
+
+	if = {
+		limit = { scope:building_name = flag:iwami_silver_mines }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = iwami_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:sado_gold_mines }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = sado_gold_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:innai_silver_mines }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = innai_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:kurokawa_gold_mines }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = kurokawa_gold_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:ikuno_silver_mines }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = ikuno_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:nobesawa_silver_mines }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = nobesawa_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:tada_copper_mines }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = tada_copper_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:sakai_trade_port }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = sakai_trade_port }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:hakata_trade_port }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = hakata_trade_port }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:hyogo_trade_port }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = hyogo_trade_port }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:kunitomo_gunsmiths }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = kunitomo_gunsmiths }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:negoro_gunsmiths }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = negoro_gunsmiths }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:saika_gunsmiths }
+		shogunate_building_add_modifier_with_tier_effect = { NAME = saika_gunsmiths }
+	}
+
+}
+
+shogunate_building_remove_modifier_effect = {
+
+	if = {
+		limit = { scope:building_name = flag:iwami_silver_mines }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = iwami_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:sado_gold_mines }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = sado_gold_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:innai_silver_mines }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = innai_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:kurokawa_gold_mines }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = kurokawa_gold_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:ikuno_silver_mines }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = ikuno_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:nobesawa_silver_mines }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = nobesawa_silver_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:tada_copper_mines }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = tada_copper_mines }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:sakai_trade_port }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = sakai_trade_port }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:hakata_trade_port }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = hakata_trade_port }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:hyogo_trade_port }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = hyogo_trade_port }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:kunitomo_gunsmiths }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = kunitomo_gunsmiths }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:negoro_gunsmiths }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = negoro_gunsmiths }
+	}
+	else_if = {
+		limit = { scope:building_name = flag:saika_gunsmiths }
+		shogunate_building_remove_modifier_with_tier_effect = { NAME = saika_gunsmiths }
+	}
+
+}
+
+shogunate_building_add_modifier_with_tier_effect = {
+
+	if = {
+		limit = { scope:building_tier = flag:01 }
+		add_character_modifier = shogunate_$NAME$_01_modifier
+	}
+	else_if = {
+		limit = { scope:building_tier = flag:02 }
+		add_character_modifier = shogunate_$NAME$_02_modifier
+	}
+	else_if = {
+		limit = { scope:building_tier = flag:03 }
+		add_character_modifier = shogunate_$NAME$_03_modifier
+	}
+	else_if = {
+		limit = { scope:building_tier = flag:04 }
+		add_character_modifier = shogunate_$NAME$_04_modifier
+	}
+
+}
+
+shogunate_building_remove_modifier_with_tier_effect = {
+
+	if = {
+		limit = { scope:building_tier = flag:01 }
+		remove_character_modifier = shogunate_$NAME$_01_modifier
+	}
+	else_if = {
+		limit = { scope:building_tier = flag:02 }
+		remove_character_modifier = shogunate_$NAME$_02_modifier
+	}
+	else_if = {
+		limit = { scope:building_tier = flag:03 }
+		remove_character_modifier = shogunate_$NAME$_03_modifier
+	}
+	else_if = {
+		limit = { scope:building_tier = flag:04 }
+		remove_character_modifier = shogunate_$NAME$_04_modifier
+	}
+
+}

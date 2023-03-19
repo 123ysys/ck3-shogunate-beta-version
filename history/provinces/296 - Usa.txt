@@ -1,0 +1,10 @@
+296 = {
+
+	culture = northern_kyushu
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1185.3.4={
+	}
+}

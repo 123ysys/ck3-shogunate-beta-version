@@ -1,0 +1,12 @@
+war = {
+	name = "war_1467_war_of_satake_succession"
+	start_date = 1467.1.1
+	end_date = 1477.1.1
+	targeted_titles = {
+		d_nmih_hitachi
+	}
+	casus_belli = event_claim_cb
+	claimant = 10010822 # Satake Yoshisada
+	attackers = { 10010107 12122210 10017024 } # Edo Michinaga, Satake Yoshitomo, Uesugi [Yamanouchi] Akisada
+	defenders = { 10010815 12120490 12120628 10040059 } # Satake Yoshitoshi, Kashima Sanemoto, Shimazaki Tadamoto, Ashikaga Shigeuji
+}

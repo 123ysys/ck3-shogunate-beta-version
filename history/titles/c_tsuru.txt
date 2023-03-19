@@ -1,0 +1,132 @@
+c_nmih_tsuru = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsuru1={
+				set_title_name=b_nmih_tsuru9
+			}
+		}
+	}
+	1343.1.1={
+		effect={
+			title:b_nmih_tsuru1={
+				set_title_name=b_nmih_tsuru1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1343.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_kai"
+	}
+	1120.1.1={
+		liege=0
+		holder=12205034 # Yokoyama Tadashige
+	}
+	1160.1.1={
+		holder=12205044 # Furugori Tadataka
+	}
+	1180.1.1={
+		liege="d_nmih_eastern_sagami"
+		holder=12205044 # Furugori Tadataka
+	}
+	1186.1.1={
+		holder=12205200 # Furugori Yasutada
+	}
+	1213.5.25={
+		liege="d_nmih_kai"
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1248.12.21={
+		holder=12360112 # Takeda Nobumasa
+	}
+	1265.1.6={
+		holder=12360121 # Takeda Masatsuna
+	}
+	1293.1.1={
+		holder=12360140 # Takeda Nobuie
+	}
+	1305.1.1={
+		holder=12360145 # Takeda Sadanobu
+	}
+	1331.1.1={
+		holder=12360150 # Takeda Masayoshi
+	}
+	1343.1.1={
+		liege=0
+		holder=10020100 # Oyamada Yajiro
+	}
+	1350.1.1={
+		holder=10020102 # Oyamada Yajiro
+	}
+	1380.1.1={
+		holder=10020104 # Oyamada Nobusumi
+	}
+	1400.1.1={
+		holder=10020107 # Oyamada Yajiro
+	}
+	1435.1.1={
+		holder=10020109 # Oyamada Nobuzane
+	}
+	1455.1.1={
+		holder=10020111 # Oyamada Nobumitsu
+	}
+	1485.1.1={
+		holder=10020114 # Oyamada Nobunaga
+	}
+	1510.1.1={
+		holder=10020120 # Oyamada Nobuari
+	}
+	1541.3.9={
+		liege="d_nmih_kai"
+		holder=10020123 # Oyamada Nobuari
+	}
+	1552.2.17={
+		holder=10020129 # Oyamada Nobuari
+	}
+	1569.9.14={
+		holder=10020130 # Oyamada Nobushige
+	}
+	1582.4.3={
+		liege=0
+	}
+	1582.04.16={
+		liege="d_nmih_kai"
+		holder=10029251 # Kawajiri Hidetaka
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="k_nmih_western_kanto"
+		holder=10016014 # Hojo Ujimasa
+	}
+	1582.11.14={
+		liege="d_nmih_kai"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1590.7.25={
+		holder=10029412 # Toyotomi Hidekatsu
+	}
+	1591.4.14={
+		holder=10094000 # Kato Mitsuyasu
+	}
+	1593.9.24={
+		holder=10094001 # Kato Sadayasu
+	}
+	1594.1.1={
+		holder=10029439 # Asano Nagamasa
+	}
+	1599.10.9={
+		holder=10029440 # Asano Yukinaga
+	}
+	1603.3.24={
+		liege="d_nmih_kai"
+		holder=10024954 # Torii Naritsugu
+	}
+	1607.4.1={
+		liege="e_nmih_japan"
+	}
+	1616.6.1={
+		liege="d_nmih_kai"
+	}
+}

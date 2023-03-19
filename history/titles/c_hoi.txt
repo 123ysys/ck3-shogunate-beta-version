@@ -1,0 +1,149 @@
+c_nmih_hoi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hoi1={
+				set_title_name=b_nmih_hoi9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_hoi1={
+				set_title_name=b_nmih_hoi5
+			}
+		}
+	}
+	1493.1.1={
+		effect={
+			title:b_nmih_hoi1={
+				set_title_name=b_nmih_hoi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+	1493.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1180.1.1={
+		liege=0
+		holder=10120101 # Katahara Moromitsu
+	}
+	1180.11.9={
+		liege="d_nmih_mikawa" # Battle of Fujikawa
+	}
+	1185.1.1={
+		liege="d_nmih_mikawa"
+		holder=10120420 # Katahra Narimitsu
+	}
+	1193.9.14={
+		holder=12202006 # Adachi Morinaga
+	}
+	1200.6.9={
+		holder=12220001 # Adachi Kagemori
+	}
+	1221.7.6={
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1310.1.1={
+		liege="d_nmih_mikawa"
+		holder=10024408 # Makino Tokishige
+	}
+	1335.1.1={
+		holder=10024409 # Makino Takashige
+	}
+	1379.4.1={
+		liege="d_nmih_mikawa"
+		holder=10049505 # Isshiki Norimitsu
+	}
+	1388.3.4={
+		holder=10049507 # Isshiki Akinori
+	}
+	1406.6.22={
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1439.1.1={
+		holder=10049533 # Isshiki Tokiie
+	}
+	1440.6.14={
+		liege=0
+	}
+	1451.12.21={
+		liege="d_nmih_tango"
+	}
+	1477.1.1={
+		liege=0
+		holder=12410300 # Hatano Tokimasa
+	}
+	1493.1.1 ={
+		liege=0
+		holder=10024406 # Makino Shigetoki
+	}
+	1506.1.1={
+		holder=10024401 # Makino Shigetane
+	}
+	1521.1.1={
+		holder=10024400 # Makino Shigekatsu
+	}
+	1532.1.1={
+		liege="d_nmih_suruga" # 23006 Imagawa Ujiteru
+		holder=10024402 # Makino Sadanari
+	}
+	1532.6.1={
+		liege="d_nmih_mikawa" # Matsudaira Kiyoyasu
+		holder=10024402 # Makino Sadanari
+	}
+	1535.12.29={
+		liege=0 # Moriyama crumbling, Matsudaira Kiyoshi dead
+		holder=10024402 # Makino Sadanari
+	}
+	1537.1.1={
+		liege="d_nmih_suruga" # 23002 Imagawa Yoshimoto
+		holder=10024402 # Makino Sadanari
+	}
+	1556.1.1={
+		liege=0
+		holder=10024402 # Makino Sadanari
+	}
+	1557.1.1={
+		liege="d_nmih_suruga" # 23002 Imagawa Yoshimoto
+		holder=10024452 # Udono Nagateru
+	}
+	1562.3.8={
+		holder=10023017 # Imagawa Ujizane
+	}
+	1566.6.1={
+		liege="d_nmih_mikawa" # 24006 Matsudaira Motoyasu (Tokugawa Ieyasu)
+		holder=10024006 # Matsudaira Ieyasu
+	}
+	1590.7.25={ 
+		liege="d_nmih_eastern_mikawa"
+		holder=10029554 # Ikeda Terumasa
+	}
+	1595.8.20={ 
+		liege="e_nmih_japan"
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10024086 # Matsudaira Ienobu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

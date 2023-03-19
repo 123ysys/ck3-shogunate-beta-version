@@ -1,0 +1,12 @@
+war = {
+	name = "war_1530_revolt_of_enya_okihisa"
+	start_date = 1530.1.1
+	end_date = 1534.8.10
+	targeted_titles = {
+		k_nmih_sanin
+	}
+	casus_belli = event_claim_cb
+	claimant = 10051511 # Enya Okihisa
+	attackers = { 10051511 } # Enya Okihisa
+	defenders = { 10051501 } # Amago Tsunehisa
+}

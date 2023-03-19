@@ -1,0 +1,17 @@
+war = {
+	name = "war_1569_1st_reconquest_of_amago_clan"
+	start_date = 1569.6.1
+	end_date = 1571.9.8
+	targeted_titles = {
+		c_nmih_oki c_nmih_shimane c_nmih_izumo c_nmih_ohara c_nmih_nogi c_nmih_aimi c_nmih_hino c_nmih_kawamura
+	}
+	casus_belli = event_claim_cb
+	claimant = 10051516 # Amago Katsuhisa
+	attackers = {
+		10051516	# Amago Katsuhisa
+		10053901	# Emi Hisamori
+	}
+	defenders = {
+		10056004	# Mori Motonari
+	}
+}

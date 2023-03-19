@@ -1,0 +1,4 @@
+﻿l_russian:
+ same_culture_group_filter_option:0 "Группа [GetPlayer.GetCulture.GetGroup.GetName] "
+ CHARACTER_LIST_CULTURE_GROUP_TT:0 "#T [culture_group|E]: [PatternItem.GetCultureGroup.GetName]#!"
+ CULTURE_LISTS_WINDOW:0 "[Culture.GetNameNoTooltip]"

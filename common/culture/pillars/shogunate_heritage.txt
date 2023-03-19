@@ -1,0 +1,51 @@
+﻿heritage_tohoku = {
+	type = heritage
+}
+
+heritage_kanto = {
+	type = heritage
+}
+
+heritage_hokuriku = {
+	type = heritage
+}
+
+heritage_chubu = {
+	type = heritage
+}
+
+heritage_kinai = {
+	type = heritage
+}
+
+heritage_saigoku = {
+	type = heritage
+}
+
+heritage_kyushu = {
+	type = heritage
+}
+
+heritage_imperial_court = {
+	type = heritage
+}
+
+heritage_ryukyu = {
+	type = heritage
+}
+
+heritage_hokkaido = {
+	type = heritage
+}
+
+heritage_ainu = {
+	type = heritage
+}
+
+heritage_okhotsk = {
+	type = heritage
+}
+
+heritage_buddhist = {
+	type = heritage
+}

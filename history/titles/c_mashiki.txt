@@ -1,0 +1,146 @@
+c_nmih_mashiki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mashiki1={
+				set_title_name=b_nmih_mashiki9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mashiki1={
+				set_title_name=b_nmih_mashiki9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10290080 # Uchisatu
+		liege=d_nmih_higo
+	}
+	280.1.1={
+		liege=0
+	}
+	295.1.1={
+		holder=10290081 # Kubisatsu
+	}
+	1180.1.1={
+		liege="d_nmih_higo"
+		holder=12780652 # Kikuchi Hidenao
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_higo"
+		holder=12780651 # Kikuchi Takasada
+	}
+	1207.1.1={
+		liege="d_nmih_higo"
+		holder=10041449 # Aso Koretsugu
+	}
+	1227.1.1={
+		holder=10041460 # Aso Koreyoshi
+	}
+	1235.1.1={
+		holder=10041461 # Aso Korekage
+	}
+	1280.1.1={
+		holder=10041467 # Aso Koresuke
+	}
+	1285.1.1={
+		holder=10041462 # Aso Korekuni
+	}
+	1310.1.1={
+		holder=10041463 # Aso Koretoki
+	}
+	1333.1.1={
+		holder=10041464 # Aso Korenao
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+	}
+	1336.4.13={
+		liege="e_nmih_japan"
+		holder=10041465 # Aso Magokumamaru
+	}
+	1336.7.22={
+		liege="k_nmih_kyushu_tandai"
+	}
+	1340.1.1={
+		holder=10041463 # Aso Koretoki
+	}
+	1351.1.1={
+		holder=10041473 # Aso Koremura
+	}
+	1355.1.1={
+		liege="d_nmih_bungo"
+	}
+	1370.1.1={
+		liege="k_nmih_kyushu_tandai"
+	}
+	1392.11.12={
+		liege="d_nmih_higo"
+	}
+	1406.10.15={
+		holder=10041475 # Aso Koresato
+	}
+	1431.6.1={
+		liege="d_nmih_higo"
+		holder=10041476 # Aso Koretada
+	}
+	1485.6.13={
+		holder=10066202 # Aso Korenori
+	}
+	1500.1.1={
+		holder=10066203 # Aso Korenaga
+	}
+	1505.9.15={
+		holder=10066201 # Aso Koretoyo
+	}
+	1511.1.1={
+		liege=0
+	}
+	1513.3.1={
+		holder=10066200 # Aso Koresaki
+	}
+	1517.1.1={
+		holder=10066201 # Aso Koretoyo
+	}
+	1545.5.1={
+		liege="d_nmih_higo"
+	}
+	1554.12.14={
+		liege=0
+	}
+	1559.12.5={
+		holder=10066204 # Aso Koremasa
+	}
+	1581.1.1={
+		liege="d_nmih_hizen"
+	}
+	1583.12.15={
+		holder=10066205 # Aso Koretane
+	}
+	1584.9.17={
+		holder=10066206 # Aso Koremitsu
+	}
+	1585.9.13={
+		liege="d_nmih_satsuma"
+	}
+	1594.9.13={
+		liege="d_nmih_northern_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1603.3.24={
+		liege="d_nmih_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1611.8.2={
+		holder=10029712 # Kato Tadahiro
+	}
+}

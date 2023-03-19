@@ -1,0 +1,12 @@
+war = {
+	name = "war_1540_battle_of_anjo"
+	start_date = 1540.2.1
+	end_date = 1540.6.7
+	targeted_titles = {
+		c_nmih_aichi
+	}
+	casus_belli = event_claim_cb
+	claimant = 10024002 # Matsudaira Hirotada
+	attackers = { 10024002 } # Matsudaira Hirotada
+	defenders = { 10029100 } # Oda Nobuhide
+}

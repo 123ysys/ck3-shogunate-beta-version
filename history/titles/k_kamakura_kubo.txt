@@ -1,0 +1,51 @@
+k_nmih_kamakura_kubo = {
+	1000.1.1={
+	}
+	1336.7.22={
+		liege="e_nmih_japan"
+		holder=10040002 # Ashikaga Yoshiakira
+	}
+	1349.10.21={
+		holder=10040067 # Ashikaga Motouji
+	}
+	1367.5.25={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10040066 # Ashikaga Ujimitsu
+	}
+	1398.12.12={
+		liege = 0
+		holder=10040064 # Ashikaga Mitsukane
+	}
+	1409.9.1={
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1439.3.24={
+		holder=10040006 # Ashikaga Yoshinori
+	}
+	1441.7.12={
+		holder=10040007 # Ashikaga Yoshikatsu
+	}
+	1443.8.16={
+		holder=10040008 # Ashikaga Yoshimasa
+	}
+	1447.3.1={
+		holder=10040059 # Ashikaga Shigeuji
+	}
+	1455.7.30={
+		liege=0
+		holder=10040059 # Ashikaga Shigeuji
+	}
+	1497.10.25={
+		holder=10040058
+	}
+	1512.1.1={
+		holder=10040050
+	}
+	1535.11.3={
+		holder=10040052
+	}
+	1546.5.19={
+		holder=0 # After the Battle of Kawagoe, the Kamakura Kubo lost his power
+	}
+}

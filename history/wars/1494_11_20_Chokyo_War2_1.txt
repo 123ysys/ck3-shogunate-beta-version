@@ -1,0 +1,11 @@
+war = {
+	name = "war_1487_chokyo_war"
+	start_date = 1494.11.20
+	end_date = 1497.12.31
+	targeted_titles = {
+		d_nmih_musashi
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10017024 } # Uesugi [Yamauchi] Akisada
+	defenders = { 10017043 } # Uesugi [Ogigaya] Tomoyoshi
+}

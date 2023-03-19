@@ -1,0 +1,20 @@
+51 = {
+
+	culture = southern_oshu
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1189.9.21={
+	}
+	1460.1.1 = {
+		religion = hokkeshu
+	}
+	1534.1.1 = { culture = southern_oshu }
+
+	1590.8.25={
+		buildings = {
+			castle_03
+		}
+	}
+}

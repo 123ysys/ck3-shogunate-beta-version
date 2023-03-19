@@ -1,0 +1,167 @@
+c_nmih_ashikaga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ashikaga1={
+				set_title_name=b_nmih_ashikaga1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ashikaga1={
+				set_title_name=b_nmih_ashikaga1
+			}
+		}
+	}
+	1465.1.1={
+		effect={
+			title:b_nmih_ashikaga1={
+				set_title_name=b_nmih_ashikaga2
+			}
+		}
+	}
+	1500.1.1={
+		effect={
+			title:b_nmih_ashikaga1={
+				set_title_name=b_nmih_ashikaga1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1432.1.1 = { change_development_level = 20 }
+	1465.1.1 = { change_development_level = 20 }
+	1500.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_shimotsuke"
+	}
+	1077.1.1={
+		liege="d_nmih_ashikaga"
+		holder=12180100 # Ashikaga Nariyuki
+	}
+	1110.1.1={
+		holder=12180102 # Ashikaga Ietsuna
+	}
+	1138.1.1={
+		holder=12180110 # Ashikaga Toshitsuna
+	}
+	1183.3.18={
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1183.9.1={
+		holder=12139000 # Ashikaga Yoshikane
+	}
+	1199.4.5={
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1349.10.21={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040067 # Ashikaga Motouji
+	}
+	1367.5.25={
+		holder=10040066 # Ashikaga Ujimitsu
+	}
+	1382.5.24={
+		holder=12209000 # Kido Sadanori
+	}
+	1398.12.12={
+		holder=10040064 # Ashikaga Mitsukane
+	}
+	1409.9.1={
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1417.1.27={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017018 # Uesugi Norimoto
+	}
+	1418.2.9={
+		holder=10017020 # Uesugi Norizane
+	}
+	1423.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1432.1.1={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017020 # Uesugi Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1465.1.1={
+		holder=10017337 # Nagao Kagehito
+	}
+	1472.6.7={
+		holder=10017340 # Nagao Sadakage
+	}
+	1475.3.13={
+		holder=10017339 # Nagao Kagenaga
+	}
+	1528.2.5={
+		holder=10017341 # Nagao Norinaga
+	}
+	1550.4.19={
+		holder=10017342 # Nagao Masanaga
+	}
+	1552.3.1={
+		liege="k_nmih_western_kanto"
+	}
+	1560.11.1={
+		liege="d_nmih_echigo"
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1569.8.27={
+		holder=10017345 # Nagao Akinaga
+	}
+	1578.4.19={
+		liege="d_nmih_kozuke" # Uesugi Kagetora
+	}
+	1579.4.19={
+		liege="k_nmih_western_kanto"
+	}
+	1582.4.15={
+		liege="d_nmih_kozuke"
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024900 # Sakakibara Yasumasa
+	}
+	1603.3.24={
+		liege="d_nmih_kozuke"
+	}
+	1606.6.19={
+		holder=10024903 # Sakakibara Yasukatsu
+	}
+	1615.6.23={
+		holder=10024905 # Sakakibara Tadatsugu
+	}
+}

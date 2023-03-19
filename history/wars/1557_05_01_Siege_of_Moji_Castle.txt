@@ -1,0 +1,12 @@
+war = {
+	name = "war_1557_siege_of_moji"
+	start_date = 1557.5.1
+	end_date = 1564.8.1
+	targeted_titles = {
+		c_nmih_miyako
+	}
+	casus_belli = event_claim_cb
+	claimant = 10064002 # Otomo Yoshishige(Sorin)
+	attackers = { 10064002 } # Otomo Yoshishige(Sorin)
+	defenders = { 10056004 } # Mori Motonari
+}

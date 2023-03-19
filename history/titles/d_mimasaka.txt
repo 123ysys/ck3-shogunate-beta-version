@@ -1,0 +1,121 @@
+d_nmih_mimasaka = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.1.1={
+		liege = "k_nmih_sanyo"
+		holder=12630300 # Emi Morinobu
+	}
+	1181.3.20={
+		liege = "e_nmih_japan"
+	}
+	1183.8.17={
+		liege= "k_nmih_western_chugoku"
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="e_nmih_japan"
+		holder=12215110 # Kajiwara Kagetoki
+	}
+	1199.12.18={
+		holder=12211501 # Wada Yoshimori
+	}
+	1213.5.23={
+		liege=0
+	}
+	1213.5.24={
+		liege="e_nmih_joko"
+		holder=11007364 # Oinomikado Yorizane
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1331.10.7={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1333.6.10={
+		liege=0
+	}
+	1333.7.4={
+		liege = "e_nmih_nancho"
+		holder=12601801 # Toda Hidesada
+	}
+	1336.1.24={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1356.6.1={
+		liege="e_nmih_japan"
+		holder=10053505 # Akamatsu Sadanori
+	}
+	1363.9.1={
+		holder=10050011 # Yamana Tokiyoshi
+	}
+	1366.5.1={
+		holder=10050008 # Yamana Yoshitada
+	}
+	1391.11.1={
+		liege=0
+	}
+	1392.1.24={
+		liege="e_nmih_japan"
+		holder=10053507 # Akamatsu Yoshinori
+	}
+	1427.10.11={
+		holder=10053511 # Akamatsu Mitsusuke
+	}
+	1441.9.25={
+		liege="e_nmih_japan"
+		holder=10050028 # Yamana Norikiyo
+	}
+	1450.1.1={
+		holder=10050063 # Yamana Masakiyo
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan"
+		holder=10053518 # Akamatsu Masanori
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
+	1496.6.6={
+		holder=10053519 # Akamatsu Yoshimura
+	}
+	1520.11.1={
+		holder=10053502 # Akamatsu Harumasa
+	}
+	1544.11.1={
+		liege="k_nmih_sanin"
+		holder=10051508 # Amago Haruhisa
+	}
+	1561.1.9={
+		holder=10051525 # Amago Yoshihisa
+	}
+	1567.1.8={
+		liege=0
+		holder=0 # 
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10025426 # Mori Tadamasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

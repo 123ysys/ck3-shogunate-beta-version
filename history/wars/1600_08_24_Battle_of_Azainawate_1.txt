@@ -1,0 +1,11 @@
+war = {
+	name = "war_1600_battle_of_azainawate"
+	start_date = 1600.8.24
+	end_date = 1600.9.9
+	targeted_titles = {
+		d_nmih_kaga
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10029374 10029377 } # Maeda Toshinaga, Maeda Toshimasa
+	defenders = { 10029313 10093106 10096700 } # Niwa Nagashige, Aoki Kazunori, Yamaguchi Munenaga
+}

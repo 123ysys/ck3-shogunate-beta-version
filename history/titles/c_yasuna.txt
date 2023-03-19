@@ -1,0 +1,187 @@
+c_nmih_yasuna = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yasuna1={
+				set_title_name=b_nmih_yasuna2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yasuna1={
+				set_title_name=b_nmih_yasuna2
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_yasuna1={
+				set_title_name=b_nmih_yasuna1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_bingo"
+		holder=12660301 # Nuka Takanobu
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bingo"
+		holder=12216002 # Dohi Sanehira
+	}
+	1191.12.13={
+		holder=11003395 # Fujiwara Sadanaga
+	}
+	1195.12.14={
+		holder=11007502 # Hamuro Mitsumasa
+	}
+	1200.4.23={
+		holder=11007504 # Hamuro Mitsuchika
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_bingo"
+		holder=12221011 # Nagai Tokihiro
+	}
+	1238.1.1={
+		holder=12221015 # Nagai Yasuhide
+	}
+	1254.1.11={
+		holder=12221016 # Nagai Yasushige
+	}
+	1280.1.1={
+		holder=12665010 # Nagai Yorishige
+	}
+	1295.1.1={
+		holder=12665020 # Nagai Sadashige
+	}
+	1320.1.1={
+		holder=12665021 # Nagai Sadayori
+	}
+	1333.7.4={
+		liege="d_nmih_bingo"
+		holder=12601005 # Asayama Yoshizumi
+	}
+	1335.8.14={
+		holder=12601006 # Asayama Kagetsura
+	}
+	1338.2.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1339.8.1={
+		holder=12139052 # Ishibashi Kazuyoshi
+	}
+	1340.11.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1342.8.1={
+		holder=12139566 # Kou Moroyasu
+	}
+	1349.3.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1351.3.15={
+		holder=10017073 # Uesugi Shigesue
+	}
+	1351.8.23={
+		holder=12187027 # Iwamatsu Raiyu
+	}
+	1356.4.11={
+		holder=10040512 # Hosokawa Yoriari
+	}
+	1365.9.1={
+		holder=10057611 # Shibukawa Yoshiyuki
+	}
+	1370.1.1={
+		holder=12395221 # Imagawa Sadayo
+	}
+	1379.9.1={
+		holder=10050011 # Yamana Tokiyoshi
+	}
+	1389.5.29={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1390.4.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.4.1={
+		holder=10040513 # Hosokawa Yorinaga
+	}
+	1401.8.1={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1433.10.1={
+		holder=10050039 #　Yamana Mochitoyo
+	}
+	1454.12.1={
+		holder=10050040 # Yamana Noritoyo
+	}
+	1460.1.1={
+		holder=10050041 #　Yamana Koretoyo
+	}
+	1475.11.1={
+		holder=10050044 #　Yamana Masatoyo
+	}
+	1488.1.1={
+		holder=10050059 # Yamana Toshitoyo
+	}
+	1497.1.1={
+		liege="d_nmih_bingo"
+		holder=10050045 # Yamana Munetoyo
+	}
+	1512.1.1={
+		holder=10050046 # Yamana Nobutoyo
+	}
+	1528.4.3={
+		liege=0
+		holder=10056702 # Yamana Tadakatsu
+	}
+	1538.8.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056700 # Yamana Tadaoki
+	}
+	1543.5.1={
+		liege="k_nmih_sanin"
+	}
+	1549.9.24={
+		liege="k_nmih_western_chugoku" #　Ouchi Yoshitaka
+		holder=10057002 #　Ouchi Yoshitaka
+	}
+	1549.11.21={
+		liege="k_nmih_western_chugoku" #　Ouchi Yoshitaka
+		holder=10057500 #　Aokage Takaakira / castle keeper
+	}
+	1554.1.1={
+		liege="d_nmih_aki"
+		holder=10056700 # Yamana Tadaoki
+	}
+	1557.1.1={
+		holder=10056750 # Sugihara Morishige / Yamana Tadaoki died
+	}
+	1564.1.1={
+		liege="d_nmih_aki"
+		holder=10056752 # Sugihara Kagemori
+	}
+	1568.1.1={
+		liege="d_nmih_bingo"
+		holder=10056752 # Sugihara Kagemori
+	}
+	1582.7.1={
+		liege="d_nmih_bingo"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1597.7.26={
+		liege="k_nmih_western_chugoku"
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10029728 # Fukushima Masazumi
+	}
+}

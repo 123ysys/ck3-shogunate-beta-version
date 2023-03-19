@@ -1,0 +1,133 @@
+c_nmih_kiryu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kiryu1={
+				set_title_name=b_nmih_kiryu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1110.1.1={
+		liege="d_nmih_kozuke"
+	    holder=12180103 # Sonoda Narizane
+	}
+	1122.1.1={
+	    holder=12180401 # Sonoda Naritaka
+	}
+	1164.1.1={
+		liege="d_nmih_ashikaga"
+		holder=12180410 # Sonoda Narimoto
+	}
+	1183.3.18={
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+	}
+	1194.1.1={
+		holder=12180420 # Sonoda Nariie
+	}
+	1248.9.16={
+		holder=12180430 # Sonoda Yoshitoshi
+	}
+	1256.1.1={
+		holder=12180440 # Sonoda Hidetoshi
+	}
+	1290.1.1={
+		holder=12180443 # Sonoda Hidenari
+	}
+	1320.1.1={
+		holder=12180447 # Sonoda Hidezumi
+	}
+	1333.6.17={
+		liege="d_nmih_nitta"
+	}
+	1338.1.1={
+		holder=12185040 # Nitta Yoshisada
+	}
+	1338.8.17={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1338.9.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12180900 # Kiryu Kunitsuna
+	}
+	1370.1.1={
+		holder=12180905 # Kiryu Tomoshige
+	}
+	1380.1.1={
+		holder=12180910 # Kiryu Nobutsuna
+	}
+	1400.1.1={
+		holder=12180915 # Kiryu Takatsuna
+	}
+	1420.1.1={
+		holder=12180920 # Kiryu Motoyoshi
+	}
+	1432.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12180606 # Sano Shigenaga
+	}
+	1453.1.1={
+		holder=10017150 # Kiryu Naotsuna
+	}
+	1466.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1472.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1483.1.6={
+		liege="d_nmih_kozuke"
+	}
+	1490.1.1={
+		holder=10017151 # Kiryu Shigetsuna
+	}
+	1530.1.1={
+		holder=10017152 # Kiryu Suketsuna
+	}
+	1552.3.1={
+		liege=0
+	}
+	1560.11.1={
+		liege="d_nmih_echigo"
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1566.9.1={
+		liege="k_nmih_western_kanto"
+	}
+	1570.5.1={
+		holder=10017154 # Kiryu Chikatsuna
+	}
+	1573.3.1={
+		holder=10017119 # Yura Narishige
+	}
+	1574.1.1={
+		holder=10017123 # Yura Kunishige
+	}
+	1582.4.15={
+		liege="d_nmih_kozuke"
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024900 # Sakakibara Yasumasa
+	}
+	1603.3.24={
+		liege="d_nmih_kozuke"
+	}
+	1606.6.19={
+		holder=10024903 # Sakakibara Yasukatsu
+	}
+	1615.6.23={
+		holder=10024905 # Sakakibara Tadatsugu
+	}
+}

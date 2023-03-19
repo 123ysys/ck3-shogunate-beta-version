@@ -7,6 +7,9 @@ Please don't change the README file easily.
 
 # Roadmap
 
+## To-do
+1.Upload simp_chinese localization files
+
 # Contributing
 
 # Authors and acknowledgment

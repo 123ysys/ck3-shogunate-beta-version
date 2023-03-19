@@ -1,0 +1,7 @@
+714 = {
+
+	culture = chishima_ainu
+	religion = ainu
+	holding = tribal_holding
+
+}

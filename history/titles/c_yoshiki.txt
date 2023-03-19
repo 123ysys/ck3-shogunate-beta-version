@@ -1,0 +1,108 @@
+c_nmih_yoshiki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yoshiki1={
+				set_title_name=b_nmih_yoshiki2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yoshiki1={
+				set_title_name=b_nmih_yoshiki3
+			}
+		}
+	}
+	1360.1.1={
+		effect={
+			title:b_nmih_yoshiki1={
+				set_title_name=b_nmih_yoshiki1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1360.1.1 = { change_development_level = 30 }
+	1557.5.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_suo"
+	}
+	1180.1.1={
+		liege="d_nmih_suo"
+		holder=12661415 # Ouchi Hiromori
+	}
+	1200.1.1={
+		liege="d_nmih_suo"
+		holder=12661416 # Ouchi Mitsumori
+	}
+	1220.1.1={
+		holder=12661417 # Ouchi Hironari
+	}
+	1244.10.21={
+		holder=12661418 # Ouchi Hirosada
+	}
+	1296.7.29={
+		holder=12661419 # Ouchi Hiroie
+	}
+	1300.4.17={
+		holder=10057019 # Ouchi Shigehiro
+	}
+	1320.4.15={
+		holder=10057018 # Ouchi Hiroyuki
+	}
+	1333.7.4={
+		liege="d_nmih_suo"
+	}
+	1350.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1352.4.20={
+		holder=10057014 # Ouchi Hiroyo
+	}
+	1354.1.1={
+		liege="d_nmih_suo"
+	}
+	1380.12.12={
+		holder=10057013 # Ouchi Yshiriro
+	}
+	1400.1.17={
+		holder=10057010 # Ouchi Moriharu
+	}
+	1431.8.6={
+		holder=10057015 # Ouchi Mochiyo
+	}
+	1441.8.14={
+		holder=10057008 # Ouchi Norihiro
+	}
+	1465.9.23={
+		holder=10057007 # Ouchi Masahiro
+	}
+	1495.10.6={
+		holder= 10057001 # Ouchi Yoshioki
+	}
+	1529.1.29={
+		holder = 10057002 # Ouchi Yoshitaka
+	}
+	1551.9.30={
+		liege="k_nmih_western_chugoku"
+		holder=10064003 # Ouchi Yoshinaga
+	}
+	1557.4.1={
+		liege="d_nmih_aki"
+		holder=10056004 # Mori Motonari
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056228 # Ichikawa Tsuneyoshi
+	}
+	1584.12.1={
+		holder=10056251 # Ichikawa Motoyoshi
+	}
+	1603.3.24={
+		liege="d_nmih_nagato"
+		holder=12666335 # Fukuhara Hirotoshi
+	}
+}

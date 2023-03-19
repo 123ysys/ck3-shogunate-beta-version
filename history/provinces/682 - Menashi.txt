@@ -1,0 +1,17 @@
+682 = {
+
+	culture = doto_ainu
+	religion = ainu
+	holding = tribal_holding
+	100.1.1 = {
+		culture = old_okhotsk
+	}
+	1000.1.1 = {
+		culture = doto_ainu
+	}
+	1854.2.1 = {
+		culture = hokkaido_wajin
+		religion = shinto
+		holding = castle_holding
+	}
+}

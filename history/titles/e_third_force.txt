@@ -1,0 +1,51 @@
+e_nmih_third_force = {
+
+	# Nakasendai Rebellion
+
+	1335.7.1={
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.9.6={
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1337.1.1={
+		holder=0
+	}
+
+	# Kanno Disturbance (1st)
+
+	1350.12.20={
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1351.3.15={
+		holder=0
+	}
+
+	# Kanno Disturbance (2nd)
+
+	1351.8.23={
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1352.3.12={
+		holder=0
+	}
+
+	# Rebellion of Toki Yasuyuki
+
+	1389.4.1={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1390.4.1={
+		holder=0
+	}
+
+	# Meitoku War
+
+	1391.12.1={
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1392.1.24={
+		holder=0
+	}
+
+}

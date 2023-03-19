@@ -1,0 +1,105 @@
+c_nmih_ogachi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ogachi1={
+				set_title_name=b_nmih_ogachi3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ogachi1={
+				set_title_name=b_nmih_ogachi3
+			}
+		}
+	}
+	1554.1.1={
+		effect={
+			title:b_nmih_ogachi1={
+				set_title_name=b_nmih_ogachi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1554.1.1 = { change_development_level = 10 }
+
+	0712.9.23={
+		liege="k_nmih_dewa"
+	}
+	1180.1.1={
+		liege="d_nmih_ugo"
+		holder=12030050 # Fujiwara Kunihira
+	}
+	1189.9.21={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=12135801 # Onodera Michitsuna
+	}
+	1221.7.5={
+		holder=12135802 # Onodera Hidemichi
+	}
+	1240.1.1={
+		holder=12001000 # Onodera Tsunemichi
+	}
+	1273.1.1={
+		holder=12001005 # Onodera Tadamichi
+	}
+	1293.1.1={
+		holder=12001010 # Onodera Michiari
+	}
+	1307.1.1={
+		holder=12001011 # Onodera Nobumichi
+	}
+	1326.1.1={
+		holder=12001015 # Onodera Takamichi
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1362.1.1={
+		liege="k_nmih_ushu_tandai"
+	}
+	1367.1.1={
+		holder=12001020 # Onodera Tokimichi
+	}
+	1380.1.1={
+		holder=12001025 # Onodera Harumitsu
+	}
+	1392.1.1={
+		liege=0
+	}
+	1407.1.1={
+		holder=12001030 # Onodera Ujimitsu
+	}
+	1425.1.1={
+		liege=0
+		holder=12001031 # Onodera Ujitsugu
+	}
+	1455.1.1={
+		holder=10000303 # Onodera Yasumichi
+	}
+	1487.1.1={
+		holder=10000301 # Onodera Tanemichi
+	}
+	1546.6.25={
+		holder=10000302 # Onodera Kagemichi
+	}
+	1583.1.1={
+		holder=10000305 # Onodera Yoshimichi
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="d_nmih_ugo"
+		holder=10010836 # Satake Yoshinobu
+	}
+}

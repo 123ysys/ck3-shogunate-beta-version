@@ -1,0 +1,161 @@
+c_nmih_tone = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tone1={
+				set_title_name=b_nmih_tone9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tone1={
+				set_title_name=b_nmih_tone9
+			}
+		}
+	}
+	1185.1.1={
+		effect={
+			title:b_nmih_tone1={
+				set_title_name=b_nmih_tone1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1185.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1180.1.1={
+		liege=0
+		holder=12219015 # Hatano Tsuneie
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto"
+	}
+	1181.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10017361 # Numata Sanehide
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+	}
+	1220.1.1={
+		holder=10017362 # Numata Taro
+	}
+	1247.7.8={
+		holder=10017355 # Numata Kageyasu
+	}
+	1290.1.1={
+		holder=10017356 # Numata Kagenaga
+	}
+	1320.1.1={
+		holder=10017357 # Numata Kagemori
+	}
+	1333.6.17={
+		liege="d_nmih_nitta"
+		holder=10017358 # Numata Kagetsugu
+	}
+	1338.8.17={
+		holder=12185045 # Nitta Yoshimune
+	}
+	1368.9.3={
+		liege="d_nmih_kozuke"
+		holder=10017359 # Numata Kageshige
+	}
+	1400.1.1={
+		holder=10017360 # Numata Kagehisa
+	}
+	1420.1.1={
+		liege="d_nmih_kozuke"
+		holder=10017354 # Numata Kagemoto
+	}
+	1470.1.1={
+		holder=10017353 # Numata Kagetomo
+	}
+	1490.1.1={
+		holder=10017352 # Numata Kageyo
+	}
+	1510.1.1={
+		holder=10017351 # Numata Yasuteru
+	}
+	1529.1.1={
+		holder=10017350 # Numata Akimitsu
+	}
+	1552.3.1={
+		liege=0 # --
+		holder=10017350 # Numata Akiyasu
+	}
+	1560.10.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+		holder=10017350 # Numata Akiyasu
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+		holder=10017350 # Numata Akiyasu
+	}
+	1562.1.1={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+		holder=10032011 # Uesugi Kenshin
+	}
+	1562.4.1={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+		holder=10032621 # Kawata Nagachika
+	}
+	1569.9.1={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+		holder=10032011 # Uesugi Kenshin
+	}
+	1570.1.1={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+		holder=10032625 # Kawata Shigechika
+	}
+	1578.4.19={
+		liege="d_nmih_kozuke" # Uesugi Kagetora
+	}
+	1578.9.1={
+		liege="k_nmih_western_kanto" # 16014 Hojo Ujimasa
+		holder=10016308 # Inomata Kuninori
+	}
+	1580.5.1={
+		liege="d_nmih_kai" # 20033 Takeda Katsuyori
+		holder=10021150 # Sanada Masayuki
+	}
+	1582.4.3={
+		liege=0 # --
+		holder=10021150 # Sanada Masayuki
+	}
+	1582.04.15={
+		liege="d_nmih_kozuke" # 29330 Takigawa Kazumasu
+		holder=10029337 # Takigawa Masushige
+	}
+	1582.7.8={
+		liege=0
+		holder=10021150 # Sanada Masayuki
+	}
+	1582.7.13={
+		liege="d_nmih_echigo"
+	}
+	1582.7.28={
+		liege="k_nmih_western_kanto"
+	}
+	1582.10.11={
+		liege="k_nmih_tokai"
+	}
+	1582.11.14={
+		liege="d_nmih_echigo"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10021163 # Sanada Nobuyuki
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

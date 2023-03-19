@@ -1,0 +1,163 @@
+c_nmih_minochi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_minochi1={
+				set_title_name=b_nmih_minochi2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_minochi1={
+				set_title_name=b_nmih_minochi9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	1180.1.1={
+		liege=0
+		holder=12386170 # Murayama Yoshinao
+	}
+	1180.9.27={
+		liege="d_nmih_shinano"
+	}
+	1183.3.1={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_shinano"
+	}
+	1185.1.1={
+		liege="e_nmih_japan"
+		holder=12135500 # Naganuma Munemasa
+	}
+	1210.8.1={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131668 # Hojo Shigetoki
+	}
+	1261.11.26={
+		holder=10131878 # Hojo Yoshimune
+	}
+	1277.9.16={
+		holder=10132044 # Hojo Hisatoki
+	}
+	1307.12.23={
+		holder=10132050 # Hojo Mototoki
+	}
+	1310.5.1={
+		holder=10132207 # Hojo Nakatoki
+	}
+	1333.7.4={
+		liege="d_nmih_shinano"
+		holder=12360710 # Ogasawara Sadamune
+	}
+	1340.1.1={
+		holder=12395030 # Kira Mitsuyoshi
+	}
+	1341.1.1={
+		holder=12360710 # Ogasawara Sadamune
+	}
+	1347.7.5={
+		holder=12360720 # Ogasawara Masanaga
+	}
+	1365.4.12={
+		holder=12360730 # Ogasawara Nagamoto
+	}
+	1366.10.1={
+		holder=10017046 # Uesugi Tomofusa
+	}
+	1384.1.1={
+		holder=10029010 # Shiba Yoshitane
+	}
+	1387.6.1={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1398.7.1={
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.2.1={
+		holder=12360741 # Ogasawara Nagahide
+	}
+	1400.9.1={
+		holder=12385050 # Murakami Mitsunobu
+	}
+	1410.1.1={
+		holder=12385055 # Murakami Mochikiyo
+	}
+	1435.1.1={
+		liege=0
+		holder=12385060 # Murakami Yorikiyo
+	}
+	1460.1.1={
+		holder=12385085 # Murakami Mitsukiyo
+	}
+	1470.1.1={
+		holder=10021502 # Murakami Masakuni
+	}
+	1494.1.1={
+		holder=10021501 # Murakami Akikuni
+	}
+	1528.1.1={
+		holder=10021500 # Murakami Yoshikiyo
+	}
+	1553.9.1={
+		liege="d_nmih_kai"
+		holder=10020010 # Takeda Shingen
+	}
+	1555.1.1={
+		holder=12450150 # Kurita Kankyu
+	}
+	1559.1.1={
+		liege="d_nmih_shinano"
+	}
+	1561.9.1={
+		holder=10020080 # Kasuga Toratsuna
+	}
+	1578.6.12={
+		holder=10020082 # Kasuga Masamoto
+	}
+	1582.4.3={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="k_nmih_chubu" # 29160 Oda Nobutada
+		holder=10025421 # Mori Nagayoshi
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_echigo"
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1598.3.1={
+		liege="e_nmih_japan"
+		holder=10026142 # Tamaru Naomasa
+	}
+	1600.3.5={
+		holder=10025426 # Mori Tadamasa
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1609.11.13={
+		holder=10024035 # Matsudaira Tadateru
+	}
+	1610.3.16={
+		liege="d_nmih_echigo"
+		holder=10202400 # Hanai Yoshinari
+	}
+	1613.9.25={
+		holder=10202401 # Hanai Yoshikatsu
+	}
+}

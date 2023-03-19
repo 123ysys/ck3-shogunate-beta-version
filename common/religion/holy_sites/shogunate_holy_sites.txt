@@ -1,0 +1,274 @@
+﻿### City
+
+# Kyoto
+kyoto = {
+	county = c_nmih_otagi
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+		monthly_county_control_change_factor = 0.05
+	}
+}
+
+# Osaka
+osaka = {
+	county = c_nmih_higashinari
+
+	character_modifier = {
+		stewardship_per_piety_level = 1
+	}
+}
+
+# Funai
+funai = {
+	county = c_nmih_oita
+
+	character_modifier = {
+		martial_per_piety_level = 1
+	}
+}
+
+# Nagasaki
+nagasaki = {
+	county = c_nmih_sonoki
+
+	character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+}
+
+# Bonotsu
+bonotsu = {
+	county = c_nmih_kawanabe
+
+	character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+}
+
+# Hakodate
+hakodate = {
+	county = c_nmih_kameda
+
+	character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+}
+
+
+### Temple
+
+# Enryaku-ji Temple
+enryakuji = {
+	county = c_nmih_shiga
+
+	character_modifier = {
+		martial_per_piety_level = 1
+	}
+}
+
+# Kofukuji-ji Temple
+kofukuji = {
+	county = c_nmih_soekami
+
+	character_modifier = {
+		prowess_per_piety_level = 1
+	}
+}
+
+# Oyama Gobo Temple
+oyamagobo = {
+	county = c_nmih_kaga
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+# Gansho-ji Temple
+ganshoji = {
+	county = c_nmih_kuwana
+
+	character_modifier = {
+		prowess_per_piety_level = 1
+	}
+}
+
+# Sainen-ji Temple
+sainenji = {
+	county = c_nmih_ibaraki
+
+	character_modifier = {
+		intrigue_per_piety_level = 1
+	}
+}
+
+# Kuon-ji Temple
+kuonji = {
+	county = c_nmih_koma
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+# Honmon-ji Temple
+honmonji = {
+	county = c_nmih_ebara
+
+	character_modifier = {
+		prowess_per_piety_level = 1
+	}
+}
+
+# Hokekyo-ji Temple
+hokekyoji = {
+	county = c_nmih_katsushika
+
+	character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+}
+
+# Gokoku-ji Temple
+gokokuji = {
+	county = c_nmih_shimajiri
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+		monthly_county_control_change_factor = 0.05
+	}
+}
+
+
+### Nature
+
+# Mount Fuji
+mt_fuji = {
+	county = c_nmih_fuji
+
+	character_modifier = {
+		learning_per_piety_level = 1
+	}
+}
+
+# Mount Koya
+mt_koya = {
+	county = c_nmih_naga
+
+	character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+}
+
+# Lake Akan
+akan = {
+	county = c_nmih_akan
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+
+### Place Name
+
+# Kumano
+kumano = {
+	county = c_nmih_kumano
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+# Shimabara
+shimabara = {
+	county = c_nmih_takaku
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+# Osumi
+osumi = {
+	county = c_nmih_soo
+
+	character_modifier = {
+		martial_per_piety_level = 1
+	}
+}
+
+# Amami Oshima Island
+amami = {
+	county = c_nmih_amami-oshima
+
+	character_modifier = {
+		naval_movement_speed_mult = 0.2
+	}
+}
+
+# Miyako-jima Island
+miyako = {
+	county = c_nmih_miyakojima
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+# Sapporo
+sapporo = {
+	county = c_nmih_sapporo
+
+	character_modifier = {
+		diplomacy_per_piety_level = 1
+	}
+}
+
+# Asahikawa
+asahikawa = {
+	county = c_nmih_kamikawa
+
+	character_modifier = {
+		monthly_prestige_gain_mult = 0.1
+		monthly_county_control_change_factor = 0.05
+	}
+}
+
+# Shisuka
+shisuka = {
+	county = c_nmih_shisuka
+
+	character_modifier = {
+		naval_movement_speed_mult = 0.2
+	}
+}
+
+# Otchishi
+otchishi = {
+	county = c_nmih_otchishi
+
+	character_modifier = {
+		naval_movement_speed_mult = 0.2
+	}
+}
+
+# Okha
+okha = {
+	county = c_nmih_okha
+
+	character_modifier = {
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+# Kamchatka
+kamchatka = {
+	county = c_nmih_kamchatka
+
+	character_modifier = {
+		winter_advantage = 5
+	}
+}

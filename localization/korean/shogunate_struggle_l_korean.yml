@@ -1,0 +1,83 @@
+﻿l_korean:
+
+ # Sengoku Struggle
+
+ shogunate_sengoku_struggle:0 "센고쿠 투쟁"
+ shogunate_sengoku_struggle_desc:0 "$shogunate_sengoku_struggle$에서는 15세기에서 16세기 일본의 100년 넘게 벌어진 전국 규모의 내전을 묘사합니다. 센고쿠 시대는 일본의 패권을 둘러싸고 다이묘들끼리 서로 다투었던 오랜 권력투쟁의 시대였습니다. 또한 이 시대에는 하급자가 상급자를 정치적, 군사적 능력을 활용해 압도하기도 하였습니다."
+
+ struggle_shogunate_sengoku_phase_meritocracy_ordered:0 "하극상/치세"
+ struggle_shogunate_sengoku_phase_meritocracy_ordered_desc:0 "하극상은 이 시대의 특징입니다. 센고쿠 시대에는 하급자가 상급자를 정치적, 군사적 능력을 활용해 압도하기도 하였습니다."
+ struggle_shogunate_sengoku_phase_meritocracy_chaotic:0 "하극상/난세"
+ struggle_shogunate_sengoku_phase_meritocracy_chaotic_desc:0 "하극상은 이 시대의 특징입니다. 센고쿠 시대에는 하급자가 상급자를 정치적, 군사적 능력을 활용해 압도하기도 하였습니다."
+ struggle_shogunate_sengoku_phase_unification_ordered:0 "천하통일/치세"
+ struggle_shogunate_sengoku_phase_unification_ordered_desc:0 "오다 노부나가는 천하통일을 추진했습니다. 노부나가 사후, 그의 정책을 계승한 토요토미 히데요시가 1590년에 일본을 통일했습니다."
+ struggle_shogunate_sengoku_phase_unification_chaotic:0 "천하통일/난세"
+ struggle_shogunate_sengoku_phase_unification_chaotic_desc:0 "오다 노부나가는 천하통일을 추진했습니다. 노부나가 사후, 그의 정책을 계승한 토요토미 히데요시가 1590년에 일본을 통일했습니다."
+
+ shogunate_struggle.0001.t:0 "The $shogunate_sengoku_struggle$"
+ shogunate_struggle.0001.desc:0 "오닌의 난과 뒤이은 혼란으로 센고쿠 시대가 열렸다. 일본의 패권을 놓고 다이묘끼리 서로 다투는 길고 끝없는 권력투쟁의 시대다.\n\n"
+ shogunate_struggle.0001.desc.involved:0 "고향에 대한 내 마음은 흔들리지 않을 것이다. [ROOT.Char.GetHouse.GetNameNoTooltip] 가는 [ROOT.Char.GetFaith.HighGodName]의 가호로 이 난국을 극복하고 숙원을 이룰 것이다.\n\n"
+ shogunate_struggle.0001.desc.interloper:0 "때가 왔다. 이 난국을 이용해 운명을 개척하는 것이다. 장기판의 말이 잘 보이는군. [ROOT.Char.GetHouse.GetNameNoTooltip] 가의 전진을 막을 것은 없다.\n\n"
+ shogunate_struggle.0001.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
+ shogunate_struggle.0001.a:0 "운명을 이 손에!"
+
+ game_concept_shogunate_sengoku_struggle:0 "$shogunate_sengoku_struggle$"
+ game_concept_shogunate_sengoku_struggle_desc:0 "$shogunate_sengoku_struggle_desc$"
+
+
+ # Kanto Struggle
+
+ shogunate_kanto_struggle:0 "칸토 투쟁"
+ shogunate_kanto_struggle_desc:0 "$shogunate_kanto_struggle$에서는 칸토 지방에서 오닌의 난 이전부터 계속되는 일련의 쟁란을 묘사합니다. 카마쿠라 쿠보, 칸토 칸레이, 호죠 씨가 삼파전으로 칸토의 패권을 둘러싸고 치열한 투쟁을 벌였습니다."
+ struggle_shogunate_kanto_phase_strife:0 "내부항쟁"
+ struggle_shogunate_kanto_phase_strife_desc:0 "칸토 지방의 무가는 끝없는 내전에 시달리고 있습니다."
+ struggle_shogunate_kanto_phase_solidarity:0 "일치단결"
+ struggle_shogunate_kanto_phase_solidarity_desc:0 "칸토 지방의 무가는 결속되어 외적에 대비하고 있습니다."
+
+ shogunate_struggle.0003.t:0 "$shogunate_kanto_struggle$"
+ shogunate_struggle.0003.desc:0 "칸토에서는 오랫동안 카마쿠라 쿠보와 칸토 칸레이가 격렬하게 싸워 왔다. 오닌의 난에 앞서 칸토에서 발발한 쿄토쿠의 난은 양측의 내분을 칸토 전역으로 확대시켰다.\n\n"
+ shogunate_struggle.0003.desc.involved:0 "고향에 대한 내 마음은 흔들리지 않을 것이다. [ROOT.Char.GetHouse.GetNameNoTooltip] 가는 [ROOT.Char.GetFaith.HighGodName]의 가호로 이 난국을 극복하고 숙원을 이룰 것이다.\n\n"
+ shogunate_struggle.0003.desc.interloper:0 "때가 왔다. 이 난국을 이용해 운명을 개척하는 것이다. 장기판의 말이 잘 보이는군. [ROOT.Char.GetHouse.GetNameNoTooltip] 가의 전진을 막을 것은 없다.\n\n"
+ shogunate_struggle.0003.desc.mottocall:0 "[ROOT.Char.GetHouse.GetMotto]!"
+ shogunate_struggle.0003.a:0 "운명을 이 손에!"
+
+ game_concept_shogunate_kanto_struggle:0 "$shogunate_kanto_struggle$"
+ game_concept_shogunate_kanto_struggle_desc:0 "$shogunate_kanto_struggle_desc$"
+
+
+ # Catalysts
+
+ catalyst_shogunate_win_against_liege:0 "주군에게서 승리하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_win_against_liege_desc:0 "[war_leader|E]로써 [liege|E]에게 [war|E]로 승리"
+
+ catalyst_shogunate_start_any_war:0 "전쟁을 시작하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_start_any_war_desc:0 "[duke|E][title_tier|E] 이상의 [ruler|E]끼리 [war|E]을(를) 개시"
+
+ catalyst_shogunate_convert_to_local_faith:0 "개종하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_convert_to_local_faith_desc:0 "[ruler|E]이(가) 지역 [faith|E](으)로  개종"
+
+ catalyst_shogunate_forced_conversion:0 "개종당하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_forced_conversion_desc:0 "[ruler|E]이(가) 개종을 강제당함"
+
+ catalyst_shogunate_historical_progress:0 "역사적 진행 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_historical_progress_desc:0 "역사적 진행"
+
+ catalyst_shogunate_claim_throne:0 "왕위 청구 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_claim_throne_desc:0 "[liege|E]에 대한 [GetScheme('claim_throne').GetTypeName]에 성공하다"
+
+ catalyst_shogunate_unnatural_death:0 "살해당하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_unnatural_death_desc:0 "[ruler|E]이(가) 누군가에게 살해당하다"
+
+ catalyst_shogunate_gain_higher_title:0 "상위 칭호를 획득하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_gain_higher_title_desc:0 "현재보다 [title_tier|E]이(가) 높은 [primary_title|E]을(를) 획득하다"
+
+ catalyst_shogunate_grant_title:0 "작위를 수여하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_grant_title_desc:0 "[title|E]을(를) 수여하다"
+
+ catalyst_shogunate_vassalize:0 "봉신화하다 [struggle_catalyst_catalyst|E]"
+ catalyst_shogunate_vassalize_desc:0 "[independent_ruler|E]을(를) [vassalize|E]하다"
+
+
+ # Parameters
+
+ struggle_parameter_shogunate_unlocks_sengoku_invasion_casus_belli:0 "천하통일의 [casus_belli|E] 잠금 해제"

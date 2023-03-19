@@ -1,0 +1,128 @@
+c_nmih_tamura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tamura1={
+				set_title_name=b_nmih_tamura1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tamura1={
+				set_title_name=b_nmih_tamura5
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_tamura1={
+				set_title_name=b_nmih_tamura1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 40 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_iwaki"
+		holder=12061000 # Tamura Yukifumi
+	}
+	1189.1.1={
+		liege="e_nmih_japan"
+	}
+	1189.11.15={
+		liege="d_nmih_iwaki"
+	}
+	1210.1.1={
+		holder=12061001 # Tamura Yukinori
+	}
+	1240.1.1={
+		holder=12061002 # Tamura Mitsuyoshi
+	}
+	1270.1.1={
+		holder=12061003 # Tamura Yukiyoshi
+	}
+	1300.1.1={
+		holder=12061004 # Tamura Terusada
+	}
+	1330.1.1={
+		holder=12061005 # Tamura Sadayoshi
+	}
+	1333.7.4={
+		liege="d_nmih_iwaki"
+	}
+	1343.8.1={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1353.6.5={
+		liege=0
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1360.1.1={
+		holder=12061007 # Tamura Noriyoshi
+	}
+	1396.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040066 # Ashikaga Ujimitsu
+	}
+	1398.12.12={
+		holder=10040064 # Ashikaga Mitsukane
+	}
+	1399.1.1={
+		liege="d_nmih_iwaki"
+		holder=10040070 # Ashikaga Mitsusada
+	}
+	1424.11.1={
+		liege=0
+		holder=12061010 # Tamura Mochiaki
+	}
+	1435.1.1={
+		holder=12061011 # Tamura Naoaki
+	}
+	1470.1.1={
+		holder=10006903 # Tamura Moriaki
+	}
+	1487.1.1={
+		holder=10006901 # Tamura Yoshiaki
+	}
+	1532.1.1={
+		holder=10006902 # Tamura Takaaki
+	}
+	1574.9.20={
+		holder=10006904 # Tamura Kiyoaki
+	}
+	1586.11.19={
+		liege="k_nmih_oshu_tandai"
+		holder=10006906 # Tamura Muneaki
+	}
+	1590.8.28={
+		liege="k_nmih_southern_oshu"
+		holder=10026142 # Tamaru Naomasa
+	}
+	1595.3.17={
+		holder=10044512 # Gamo Hideyuki
+	}
+	1598.3.1={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1603.3.24={
+		liege="d_nmih_aizu"
+		holder=10044514 # Gamo Satonari
+	}
+	1609.1.1={
+		holder=10044521 # Gamo Satoharu
+	}
+	1613.1.1={
+		holder=10044522 # Gamo Satoyoshi
+	}
+	1616.1.1={
+		holder=10044521 # Gamo Satoharu
+	}
+}

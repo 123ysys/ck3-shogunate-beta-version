@@ -1,0 +1,11 @@
+war = {
+	name = "war_1600_battle_of_sekigahara"
+	start_date = 1600.8.15
+	end_date = 1600.10.23
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10024006 } # Tokugawa Ieyasu
+	defenders = { 10056025 10055101 } # Mori Terumoto, Ukita Hideie
+}

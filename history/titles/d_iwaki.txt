@@ -1,0 +1,64 @@
+d_nmih_iwaki = {
+	100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.21={
+		liege=0
+		holder=0 # 
+	}
+	1189.11.15={
+		liege="e_nmih_japan"
+		holder=10010227 # Yuki Tomomitsu
+	}
+	1254.2.24={
+		holder=10010225 # Yuki Tomohiro
+	}
+	1274.1.1={
+		holder=10010224 # Yuki Hirotsuna
+	}
+	1278.7.14={
+		holder=10010223 # Yuki Tokihiro
+	}
+	1290.8.7={
+		holder=10010222 # Yuki Sadahiro
+	}
+	1309.11.13={
+		holder=12064005 # Yuki Munehiro
+	}
+	1333.6.17={
+		liege=0
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1339.1.1={
+		holder=12064010 # Yuki Chikatomo
+	}
+	1343.8.1={
+		liege=0
+		holder=0 # 
+	}
+	1399.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040070 # Ashikaga Mitsusada (Inamura-Kubo)
+	}
+	1424.11.1={
+		liege=0
+		holder=0 # 
+	}
+	1542.6.1={
+		liege=0 # Tenbun War
+		holder=10001001 # Date Tanemune 
+	}
+	1548.9.1={
+		liege=0
+		holder=0 # 
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024953 # Torii Tadamasa
+	}
+}

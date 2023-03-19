@@ -1,0 +1,27 @@
+250 = {
+
+	culture = sanyo
+	religion = shinto
+	holding = castle_holding
+	1000.1.1={
+	}
+	1310.1.1={
+	}
+	1331.1.1={
+	}
+	1490.1.1 = {
+		religion = ikkoshu
+	}
+	1580.2.2={
+		buildings = {
+			castle_03
+		}
+	}
+	1583.8.28={
+		buildings = {
+			castle_02
+		}
+	}
+	1609.1.1={
+	}
+}

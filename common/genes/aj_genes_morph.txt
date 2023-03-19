@@ -1,0 +1,139 @@
+﻿@maleMin = 0.0
+@maleMax = 1.0
+@femaleMin = 0.0
+@femaleMax = 1.0
+@boyMin = 0.0
+@boyMax = 1.0
+@girlMin = 0.0
+@girlMax = 1.0
+
+morph_genes = {
+
+	face_detail_eye_upper_lid_def = { ### shogunate/epe
+		group = head_neck
+		default_upper_lid_def = {
+			index = 0	
+			male = {
+	            decal = {                   
+	                body_part = head
+	                textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_eye_upper_lid_01_def_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_eye_upper_lid_01_def_normal.dds"
+	                }
+	                alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                    #gene strength%, decal alpha
+	                    { 0.0  0.0 }
+	                    { 1.0  0.0 }
+	                }
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = replace                        
+	                    # properties = 
+	                }
+	                priority = 1
+	                age = age_preset_aging_definition_male
+				}
+			}
+			female = {
+	            decal = {                           
+	                body_part = head
+	                textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_eye_upper_lid_01_def_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_eye_upper_lid_01_def_normal.dds"
+	                }
+	                alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                    #gene strength%, decal alpha
+	                    { 0.0  0.0 }
+	                    { 1.0  0.0 }
+	                }
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = replace                        
+	                    # properties = 
+	                }
+	                priority = 1
+	                age = age_preset_aging_definition_male
+				}
+			}
+			boy = male
+			girl = female
+		}
+		upper_lid_def = {
+			index = 1	
+			male = {
+	            decal = {
+					body_part = head
+	                textures = {
+						diffuse = "gfx/models/portraits/decals/male_head/decal_male_head_eye_upper_lid_01_def_diffuse.dds"
+						normal = "gfx/models/portraits/decals/male_head/decal_male_head_eye_upper_lid_01_def_normal.dds"
+	                }
+	                alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                    #gene strength%, decal alpha
+	                    { 0.0  0.0 }
+	                    { 0.7  1.0 }
+	                    { 1.0  1.0 }
+	                }
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = replace                        
+	                    # properties = 
+	                }
+	                priority = 1
+	                age = age_preset_aging_definition_male
+				}
+			}
+			female = {
+	            decal = {
+                    body_part = head
+	                textures = {
+						diffuse = "gfx/models/portraits/decals/female_head/decal_female_head_eye_upper_lid_01_def_diffuse.dds"
+						normal = "gfx/models/portraits/decals/female_head/decal_female_head_eye_upper_lid_01_def_normal.dds"
+	                }
+	                alpha_curve = {              #controls decal alpha relative to gene strength. Will give a linear interpolation if left unspecified
+	                    #gene strength%, decal alpha
+	                    { 0.0  0.0 }
+	                    { 0.7  1.0 }
+	                    { 1.0  1.0 }
+	                }
+	                blend_modes = {              #overlay/replace/hard_light/multiply
+	                    diffuse = multiply 
+	                    normal = replace                        
+	                    # properties = 
+	                }
+	                priority = 1
+	                age = age_preset_aging_definition_male
+				}
+			}
+			boy = male
+			girl = female
+		}
+	}
+	face_detail_monolid = { ## shogunate
+
+		group = face
+
+		no_monolid = {
+		    index = 0
+		    male = {
+		    }
+	        female = {
+	        }
+	        boy = male
+	        girl = female
+	      
+		}
+
+		monolid = {
+		    index = 1
+		    male = {
+		    	setting = { attribute = "bs_monolid" value = { min = @maleMin max = @maleMax } } 
+		    }
+	        female = {
+	        	setting = { attribute = "bs_monolid" value = { min = @femaleMin max = @femaleMax } } 
+			}
+	        boy = male
+	        girl = female
+		}
+
+	}
+}

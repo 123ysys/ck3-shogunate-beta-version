@@ -1,0 +1,148 @@
+c_nmih_amaha = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_amaha1={
+				set_title_name=b_nmih_amaha9
+			}
+		}
+	}
+	1444.1.1={
+		effect={
+			title:b_nmih_amaha1={
+				set_title_name=b_nmih_amaha1
+			}
+		}
+	}
+	1461.1.1={
+		effect={
+			title:b_nmih_amaha1={
+				set_title_name=b_nmih_amaha2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1444.1.1 = { change_development_level = 10 }
+	1461.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_kazusa"
+	}
+	1180.1.1={
+		holder=12155019 # Amaha Hidetsune
+	}
+	1184.2.3={
+		holder=12211501 # Wada Yoshimori
+	}
+	1213.5.24={
+		liege="d_nmih_boshu"
+		holder=12211040 # Miura Yoshimura / the Battle of Wada
+	}
+	1221.7.6={
+		holder=12211050 # Miura Yasumura
+	}
+	1247.7.9={
+		liege="d_nmih_kazusa"
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.8.1={
+		liege="d_nmih_kazusa"
+		holder=12139534 # Kou Shigeuji
+	}
+	1289.2.27={
+		holder=12139539 # Kou Morouji
+	}
+	1295.1.1={
+		holder=12139542 # Kou Moroshige
+	}
+	1322.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1335.8.14={
+		liege="d_nmih_kazusa"
+		holder=12139566 # Kou Moroyasu
+	}
+	1338.8.17={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		holder=10044204 # Kyogoku Hidetsuna
+	}
+	1352.6.1={
+		liege="d_nmih_shimousa"
+		holder=12151590 # Enjoji Sadamasa
+	}
+	1364.4.1={
+		liege="d_nmih_kazusa"
+		holder=12187025 # Iwamatsu Yoshimasa
+	}
+	1364.12.1={
+		holder=10017046 # Uesugi Tomofusa
+	}
+	1370.1.1={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1409.1.1={
+		holder=10017048 # Uesugi Zenshu
+	}
+	1417.1.27={
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1418.1.1={
+		holder=12130120 # Utsunomiya Mochitsuna
+	}
+	1423.9.13={
+		holder=10017061 # Uesugi Sadayori
+	}
+	1430.1.1={
+		holder=10011611 # Chiba Tanenao
+	}
+	1441.1.1={
+		holder=10011612 # Chiba Tanemasa
+	}
+	1454.7.18={
+		holder=10011613 # Chiba Tanenobu
+	}
+	1455.9.23={
+		holder=10040059 # Ashikaga Shigeuji
+	}
+	1456.1.1={
+		holder=10011809 # Takeda Nobunaga
+	}
+	1477.1.1={
+		holder=10011808
+	}
+	1480.1.1={
+		holder=10011807
+	}
+	1506.1.1={
+		holder=10011805
+	}
+	1523.1.1={
+		holder=10011806 # Mariyatsu Zenpo
+	}
+	1537.1.1={
+		liege="d_nmih_boshu" # vassal of Satomi
+		holder=10011851 # Masaki Tokishige
+	}
+	1561.5.29={
+		holder=10011854 # Masaki Nobushige
+	}
+	1564.2.20={
+		holder=10011862 # Masaki Noritoki
+	}
+	1581.10.26={
+		holder=10011913 # Masaki(Satomi) Tokishige
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10092103 # Naito Ienaga
+	}
+	1600.9.8={
+		holder=10092104 # Naito Masanaga
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

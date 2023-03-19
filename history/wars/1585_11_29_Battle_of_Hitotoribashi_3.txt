@@ -1,0 +1,11 @@
+war = {
+	name = "war_1585_battle_of_hitotoribashi"
+	start_date = 1585.12.27
+	end_date = 1586.7.16
+	targeted_titles = {
+		d_nmih_iwashiro
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10001035 } # Date Masamune
+	defenders = { 10007316 } # Nihonmatsu Yoshitsuna
+}

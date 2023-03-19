@@ -1,0 +1,196 @@
+﻿shogunate_is_special_title_trigger = {
+	OR = {
+		shogunate_is_major_special_title_trigger = yes
+		shogunate_is_minor_special_title_trigger = yes
+		shogunate_is_imperial_special_title_trigger = yes
+	}
+}
+
+shogunate_is_major_special_title_trigger = {
+	OR = {
+		shogunate_is_major_playable_special_title_trigger = yes
+		shogunate_is_major_unplayable_special_title_trigger = yes
+	}
+}
+
+shogunate_is_minor_special_title_trigger = {
+	OR = {
+		shogunate_is_minor_playable_special_title_trigger = yes
+		shogunate_is_minor_unplayable_special_title_trigger = yes
+	}
+}
+
+shogunate_is_playable_special_title_trigger = {
+	OR = {
+		shogunate_is_major_playable_special_title_trigger = yes
+		shogunate_is_minor_playable_special_title_trigger = yes
+	}
+}
+
+shogunate_is_unplayable_special_title_trigger = {
+	OR = {
+		shogunate_is_major_unplayable_special_title_trigger = yes
+		shogunate_is_minor_unplayable_special_title_trigger = yes
+	}
+}
+
+shogunate_is_imperial_special_title_trigger = {
+	OR = {
+		this = title:e_nmih_tenno
+		this = title:e_nmih_joko
+		this = title:e_nmih_nancho
+	}
+}
+
+shogunate_is_major_playable_special_title_trigger = {
+	OR = {
+		this = title:e_nmih_japan
+		this = title:k_nmih_kanrei
+		this = title:k_nmih_ushu_tandai
+		this = title:k_nmih_oshu_tandai
+		this = title:k_nmih_kamakura_kubo
+		this = title:k_nmih_kanto_kanrei
+		this = title:k_nmih_kyushu_tandai
+		this = title:k_nmih_mutsu_shogun
+		this = title:k_nmih_seito_shogun
+		this = title:k_nmih_seisei_shogun
+		this = title:k_nmih_oshu_kanrei
+	}
+}
+
+shogunate_is_major_unplayable_special_title_trigger = {
+	OR = {
+		this = title:k_nmih_honganji
+		this = title:d_nmih_eastern_honganji
+		this = title:d_nmih_western_honganji
+		this = title:d_nmih_enryakuji
+		this = title:d_nmih_kofukuji
+		this = title:d_nmih_kumano
+		this = title:d_nmih_nikko
+		this = title:d_nmih_kuonji
+		this = title:d_nmih_hokekyoji
+		this = title:d_nmih_honmonji
+		this = title:d_nmih_hakata
+		this = title:d_nmih_sakai
+	}
+}
+
+shogunate_is_minor_playable_special_title_trigger = {
+	OR = {
+		this = title:k_nmih_yamashiro
+		this = title:k_nmih_shinano
+		this = title:k_nmih_echizen
+		this = title:k_nmih_kawachi
+
+		this = title:d_nmih_aizu
+		this = title:d_nmih_southern_omi
+		this = title:d_nmih_northern_omi
+		this = title:d_nmih_southern_higo
+		this = title:d_nmih_northern_higo
+		this = title:d_nmih_western_mikawa
+		this = title:d_nmih_eastern_mikawa
+		this = title:d_nmih_tsugaru
+		this = title:d_nmih_northern_ise
+		this = title:d_nmih_central_iyo
+		this = title:d_nmih_southern_iyo
+
+		this = title:d_nmih_oyama
+		this = title:d_nmih_utsunomiya
+		this = title:d_nmih_ashikaga
+		this = title:d_nmih_date
+		this = title:d_nmih_tsukuba
+		this = title:d_nmih_nitta
+		this = title:d_nmih_uesugi
+		this = title:d_nmih_hojo
+
+		this = title:d_nmih_amago_revival_army
+	}
+}
+
+shogunate_is_minor_unplayable_special_title_trigger = {
+	OR = {
+		this = title:d_nmih_wajinchi
+		this = title:d_nmih_matsumae
+		this = title:d_nmih_shimokuni
+	}
+}
+
+shogunate_can_gain_special_title_trigger = {
+	OR = {
+		AND = {
+			$TITLE$ = title:e_nmih_japan
+			OR = {
+				always = yes
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_kanrei
+			OR = {
+				$DYNASTY$ = dynasty:10000279				# Shiba
+				$DYNASTY$ = dynasty:10000401				# Hosokawa
+				$DYNASTY$ = dynasty:10000404				# Hatakeyama
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_ushu_tandai
+			OR = {
+				$HOUSE$ = house:house_shgnt_osaki			# Osaki
+				$HOUSE$ = house:house_shgnt_mogami			# Mogami
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_oshu_tandai
+			OR = {
+				$HOUSE$ = house:house_shgnt_osaki			# Osaki
+				$DYNASTY$ = dynasty:10000010				# Date
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_kamakura_kubo
+			OR = {
+				$DYNASTY$ = dynasty:10000400				# Ashikaga
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_kanto_kanrei
+			OR = {
+				$DYNASTY$ = dynasty:10000100				# Uesugi
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_kyushu_tandai
+			OR = {
+				$DYNASTY$ = dynasty:10049503				# Isshiki
+				$DYNASTY$ = dynasty:10029007				# Shiba
+				$DYNASTY$ = dynasty:10007030				# Shibukawa
+				$DYNASTY$ = dynasty:10000230				# Imagawa
+				$DYNASTY$ = dynasty:10000640				# Otomo
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_mutsu_shogun
+			OR = {
+				$DYNASTY$ = dynasty:10000420				# Yamato (Imperial family)
+				$HOUSE$ = house:house_shgnt_kitabatake		# Kitabatake
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_seito_shogun
+			OR = {
+				$DYNASTY$ = dynasty:10000420				# Yamato (Imperial family)
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_seisei_shogun
+			OR = {
+				$DYNASTY$ = dynasty:10000420				# Yamato (Imperial family)
+			}
+		}
+		AND = {
+			$TITLE$ = title:k_nmih_oshu_kanrei
+			OR = {
+				$DYNASTY$ = dynasty:10000173				# Kira (Oshu)
+			}
+		}
+	}
+}

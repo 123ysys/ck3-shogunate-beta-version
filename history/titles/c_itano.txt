@@ -1,0 +1,128 @@
+c_nmih_itano = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_itano1={
+				set_title_name=b_nmih_itano2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_itano1={
+				set_title_name=b_nmih_itano9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_itano1={
+				set_title_name=B_NMIH_ITANO9_1331
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+		liege="d_nmih_awa"
+	}
+	1180.1.1={
+		liege=0
+		holder=12690104 # Kondo Hironaga
+	}
+	1182.1.1={
+		holder=12690105 # Kondo Chikaie
+	}
+	1185.3.20={
+		liege="d_nmih_yamashiro"
+	}
+	1185.11.26={
+		liege="d_nmih_awa"
+		holder=12510061 # Sasaki Tsunetaka
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_awa"
+		holder=12360501 # Ogasawara Nagakiyo
+	}
+	1223.1.1={
+		holder=12360600 # Ogasawara Nagatsune
+	}
+	1247.12.3={
+		holder=12360680 # Ogasawara Nagafusa
+	}
+	1276.12.2={
+		holder=10055742 # Ogasawara Nagahisa
+	}
+	1290.1.1={
+		holder=12691500 # Ogasawara Nagayoshi
+	}
+	1320.1.1={
+		holder=12691504 # Ogasawara Yorihisa
+	}
+	1333.7.4={
+		liege="d_nmih_awa"
+		holder=12691510 # Ogasawara Yoshimori
+	}
+	1336.3.1={
+		liege="d_nmih_awa"
+		holder=10040509 # Hosokawa Kazuuji
+	}
+	1340.11.1={
+		holder=10040510 # Hosokawa Yoriharu
+	}
+	1352.4.5={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.3.25={
+		holder = 10040524 # Hosokawa Yoshiyuki
+	}
+	1402.1.1={
+		holder = 10040525 # Hosokawa Mitsuhisa
+	}
+	1430.10.15={
+		holder = 10040526 # Hosokawa Mochitsune
+	}
+	1450.1.28={
+		holder = 10040528 # Hosokawa Shigeyuki
+	}
+	1479.1.1={
+		holder = 10040530 # Hosokawa Masayuki
+	}
+	1488.9.4={
+		holder = 10040529 # Hosokawa Yoshiharu
+	}
+	1495.1.17={
+		holder = 10040532 # Hosokawa Yukimochi
+	}
+	1508.7.28={
+		holder=10040501 # Hosokawa Sumimoto
+	}
+	1520.6.24={
+		holder=10040500 # Hosokawa Harumoto
+	}
+	1534.1.1={
+		holder=10040534 # Hosokawa Mochitaka
+	}
+	1553.7.27={
+		holder=10059008 # Miyoshi Koretora
+	}
+	1562.4.8={
+		holder=10059018 # Miyoshi Nagaharu
+	}
+	1577.4.16={
+		holder=10059019 # Miyoshi Masayasu
+	}
+	1582.10.7={
+		liege="d_nmih_tosa"
+		holder=10059104 # Chosokabe Motochika
+	}
+	1585.8.10={
+		liege="d_nmih_awa"
+		holder=10029612 # Hachisuka Iemasa
+	}
+	1603.3.24={
+		holder=10029613 # Hachisuka Yoshishige
+	}
+}

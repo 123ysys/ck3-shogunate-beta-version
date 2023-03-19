@@ -1,0 +1,163 @@
+c_nmih_shitara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shitara1={
+				set_title_name=b_nmih_shitara1
+			}
+		}
+	}
+	1506.3.15={
+		effect={
+			title:b_nmih_shitara1={
+				set_title_name=b_nmih_shitara6
+			}
+		}
+	}
+	1573.2.15={
+		effect={
+			title:b_nmih_shitara1={
+				set_title_name=b_nmih_shitara5
+			}
+		}
+	}
+	1576.1.1={
+		effect={
+			title:b_nmih_shitara1={
+				set_title_name=B_NMIH_SHITARA5_1576
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1424.1.1 = { change_development_level = 20 }
+	1506.3.15 = { change_development_level = 20 }
+	1573.2.15 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1180.1.1={
+		liege=0
+		holder=12390460 # Shitara Suketoki
+	}
+	1180.11.9={ # Battle of Fujikawa
+		liege="d_nmih_mikawa"
+	}
+	1205.1.1={
+		holder=12390461 # Tominaga Suketaka
+	}
+	1212.1.1={
+		holder=12410100 # Tominaga Saneyuki
+	}
+	1235.1.1={
+		holder=12410101 # Tominaga Sanehira
+	}
+	1260.1.1={
+		holder=12410105 # Tominaga Suketsuna
+	}
+	1285.1.1={
+		holder=12410110 # Tominaga Sukekuni
+	}
+	1310.1.1={
+		holder=12410115 # Tominaga Sukesato
+	}
+	1325.1.1={
+		holder=12410120 # Tominaga Naosato
+	}
+	1333.7.4={
+		liege="d_nmih_mikawa"
+	}
+	1360.1.1={
+		liege="d_nmih_mikawa"
+		holder=12410125 # Tominaga Naokane
+	}
+	1385.1.1={
+		holder=12410130 # Tominaga Takakane
+	}
+	1410.1.1={
+		holder=12410135 # Tominaga Sukekazu
+	}
+	1440.1.1={
+		holder=12410140 # Tominaga Nobusuke
+	}
+	1470.1.1={
+		holder=12410145 # Tominaga Tomisuke
+	}
+	1478.1.1={
+		liege=0
+	}
+	1490.1.1={
+		holder=12410150 # Tominaga Hisakane
+	}
+	1500.1.1={
+		holder=12410155 # Tominaga Senwakamaru
+	}
+	1506.3.15={
+		liege=0
+		holder=10024100 # Suganuma Sadanori
+	}
+	1516.1.1={
+		liege="d_nmih_totomi"
+	}
+	1529.11.24={
+		liege="d_nmih_mikawa" # Matsudaira Kiyoyasu
+	}
+	1535.12.29={
+		liege="d_nmih_totomi"
+	}
+	1544.1.1={
+		holder=10024101 # Sunganuma Sadamura
+	}
+	1548.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1554.1.1={
+		holder=10024101 # Suganuma Sadamura
+	}
+	1556.9.17={
+		holder=10024104 # Suganuma Sadamitsu
+	}
+	1560.6.12={
+		liege=0
+	}
+	1561.9.18={
+		holder=10023017 # Imagawa Ujizane
+	}
+	1562.7.13={
+		liege=0
+		holder=10024104 # Suganuma Sadamitsu
+	}
+	1566.1.1={
+		liege="d_nmih_mikawa" # 24006 Matsudaira Motoyasu (Tokugawa Ieyasu)
+	}
+	1572.9.7={
+		liege="d_nmih_kai" # Takeda Shingen
+	}
+	1573.2.15={
+		holder=10020010 # Takeda Shingen
+	}
+	1573.05.13={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1573.8.1={
+		liege="d_nmih_mikawa" # 24006 Tokugawa Ieyasu
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1573.8.2={
+		holder=10024325 # Okudaira Sadamasa -> Nobumasa
+	}
+	1590.7.25={ 
+		liege="d_nmih_eastern_mikawa"
+		holder=10029554 # Ikeda Terumasa
+	}
+	1595.8.20={ 
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1606.7.22={
+		holder=10024520 # Mizuno Wakenaga
+	}
+}

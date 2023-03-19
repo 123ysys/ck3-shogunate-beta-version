@@ -1,0 +1,51 @@
+d_nmih_tsukuba = {
+	0701.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=10120065 # Minamoto Yoshihiro
+	}
+	1183.3.18={
+		liege=0
+		holder=0 # 
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=10125187 # Kasuga Akikuni
+	}
+	1338.6.10={
+		liege="k_nmih_chubu"
+	}
+	1343.11.28={
+		liege="k_nmih_kamakura_kubo"
+		holder=12127550 # Oda Haruhisa
+	}
+	1353.1.16={
+		holder=12127560 # Oda Takatomo
+	}
+	1414.7.3={
+		holder=10010406 # Oda Mochiie
+	}
+	1415.6.8={
+		liege=0
+	}
+	1417.1.27={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1440.1.1={
+		holder=10010405 # Oda Tomohisa
+	}
+	1455.6.5={
+		liege=0
+		holder=10010403 # Oda Shigeharu
+	}
+	1514.1.1={
+		holder=10010401 # Oda Masaharu
+	}
+	1548.3.31={
+		holder=10010402 #Oda Ujiharu
+	}
+	1590.7.25={
+		holder=0
+	}
+}

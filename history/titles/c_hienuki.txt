@@ -1,0 +1,141 @@
+c_nmih_hienuki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hienuki1={
+				set_title_name=b_nmih_hienuki9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_hienuki1={
+				set_title_name=b_nmih_hienuki9
+			}
+		}
+	}
+	1189.10.3={
+		effect={
+			title:b_nmih_hienuki1={
+				set_title_name=b_nmih_hienuki2
+			}
+		}
+	}
+	1341.1.1={
+		effect={
+			title:b_nmih_hienuki1={
+				set_title_name=b_nmih_hienuki1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1189.10.3 = { change_development_level = 10 }
+	1341.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1088.1.1={
+		holder=12030000 # Fujiwara Kiyohira
+	}
+	1128.8.10={
+		holder=12030010 # Fujiwara Motohira
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1180.1.1={
+		liege="d_nmih_uzen"
+		holder=12030040 # Fujiwara [Hizume] Toshihira
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="e_nmih_japan"
+		holder=12205400 # Chujo Ienaga
+	}
+	1221.7.6={
+		liege="d_nmih_owari"
+		holder=12205405 # Chujo Iehira
+	}
+	1250.1.1={
+		holder=12205410 # Chujo Yorihira
+	}
+	1285.1.1={
+		holder=12205415 # Chujo Kagenaga
+	}
+	1317.1.1={
+		holder=12205421 # Chujo Tokinaga
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1338.6.10={
+		liege="d_nmih_oshu_shugo"
+	}
+	1340.4.1={
+		holder=12051015 # Hienuki Ieshige
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1365.1.1={
+		holder=12051020 # Hienuki Shigeto
+	}
+	1390.1.1={
+		holder=12051025 # Hienuki Moriie
+	}
+	1392.1.1={
+		liege=0
+	}
+	1415.1.1={
+		holder=12051030 # Hienuki Tamechika
+	}
+	1440.1.1={
+		liege=0
+		holder=12051035 # Hienuki Ietaka
+	}
+	1460.1.1={
+		holder=12051040 # Hienuki Tamenaka
+	}
+	1480.1.1={
+		holder=12051045 # Hienuki Tametaka
+	}
+	1490.1.1={
+		holder=10003403 # Hienuki Tameshige
+	}
+	1504.1.1={
+		holder=10003401 # Hienuki Haruie
+	}
+	1564.1.2={
+		holder=10003402 # Hienuki Terutoki
+	}
+	1575.1.1={
+		holder=10003404 # Hienuki Hirotada
+	}
+	1590.8.28={
+		holder=10029439 # Asano Nagamasa
+		liege="e_nmih_japan"
+	}
+	1590.11.10={
+		liege=0
+		holder=10003404 # Hienuki Hirotada
+	}
+	1592.1.1={
+		liege="d_nmih_mutsu"
+		holder=10003143 # Kita Hidechika
+	}
+	1598.1.1={
+		holder=10003141 # Kita Nobuchika
+	}
+	1603.3.24={
+		holder=10003168 # Nanbu Masanao
+	}
+}

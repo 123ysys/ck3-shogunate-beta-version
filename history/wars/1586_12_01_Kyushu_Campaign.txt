@@ -1,0 +1,11 @@
+war = {
+	name = "war_1586_kyushu_campaign"
+	start_date = 1586.12.1
+	end_date = 1587.5.18
+	targeted_titles = {
+		k_nmih_southern_kyushu
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10029400 } # Toyotomi Hideyoshi
+	defenders = { 10060024 } # Shimazu Yoshihisa
+}

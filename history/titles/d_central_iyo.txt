@@ -1,0 +1,27 @@
+d_nmih_central_iyo = {
+	100.1.1={
+	}
+	1221.7.6={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12691024 # Kono Michihisa
+	}
+	1267.1.1={
+		holder=12691031 # Kono Michitsugu
+	}
+	1270.1.1={
+		holder=12691040 # Kono Michiari
+	}
+	1311.8.28={
+		holder=10058628 # Kono Michimori
+	}
+	1333.7.4={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029730 # Kato Yoshiaki
+	}
+}

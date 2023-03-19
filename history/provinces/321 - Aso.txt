@@ -1,0 +1,16 @@
+321 = {
+
+	culture = central_kyushu
+	religion = shinto
+	holding = castle_holding
+	300.1.1={
+	}
+	1100.1.1={
+	}
+	1570.1.1 = {
+		religion = ikkoshu
+	}
+	1594.9.13={
+	}
+
+}

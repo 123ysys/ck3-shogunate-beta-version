@@ -1,0 +1,136 @@
+c_nmih_katsujo = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_katsujo1={
+				set_title_name=b_nmih_katsujo1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_katsujo1={
+				set_title_name=b_nmih_katsujo9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_katsujo1={
+				set_title_name=b_nmih_katsujo1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_yamato"
+	}
+	1180.1.1={
+		liege="d_nmih_yamato"
+		holder=12540105 # Uno Chikaharu
+	}
+	1184.3.4={
+		liege="d_nmih_kofukuji"
+	}
+	1186.9.21={
+		holder=12540112 # Uno Ariharu
+	}
+	1221.1.1={
+		holder=12540125 # Uno Mitsuharu
+	}
+	1230.1.1={
+		holder=10048217 # Ochi Iehiro
+	}
+	1250.1.1={
+		holder=10048218 # Ochi Genta
+	}
+	1290.1.1={
+		holder=10048219 # Ochi Genta
+	}
+	1330.1.1={
+		holder=10048212 # Ochi Genta
+	}
+	1333.1.1={
+		liege="k_nmih_southern_kinai"
+	}
+	1334.11.19={
+		liege="e_nmih_nancho"
+	}
+	1370.1.1={
+		liege="d_nmih_kofukuji"
+		holder=10048213 # Ochi Ienari
+	}
+	1400.1.1={
+		holder=10048215 # Ochi Ietsune
+	}
+	1429.7.1={
+		liege=0
+		holder=10048216 # Ochi Koremichi
+	}
+	1439.3.1={
+		liege="d_nmih_kawachi"
+		holder=10048200 # Ochi Iehide
+	}
+	1467.1.1={
+		government = theocracy_government
+		liege="d_nmih_kii"
+		holder=10048412 # Tsutsui Junei
+	}
+	1475.1.1={
+		government = feudal_government
+		liege="d_nmih_kawachi"
+		holder=10048200 # Ochi Iehide
+	}
+	1497.1.1={
+		government = theocracy_government
+		liege="d_nmih_kii"
+		holder=10048401 # Tsutsui Junken
+	}
+	1521.1.1={
+		holder=10048402 # Tsutsui Junko
+	}
+	1534.1.1={
+		liege="d_nmih_yamato"
+		holder=10048403 # Tsutsui Junsho
+	}
+	1550.8.2={
+		holder=10048413 # Tsutsui Junkei
+	}
+	1560.1.1={
+		liege=0
+	}
+	1571.10.25={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1575.5.15={
+		liege="d_nmih_yamato"
+	}
+	1584.9.15={
+		government = feudal_government
+		holder=10048415 # Tsutsui Sadatsugu
+	}
+	1585.9.14={
+		holder=10029401 # Toyotomi Hidenaga
+	}
+	1591.2.15={
+		holder=10029413 # Toyotomi Hideyasu
+	}
+	1595.5.24={
+		holder=10043370 # Mashita Nagamori
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10049121 # Matsukura Shigemasa
+	}
+	1616.1.1={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+
+}

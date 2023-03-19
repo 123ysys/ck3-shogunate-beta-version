@@ -1,0 +1,160 @@
+﻿# Change Clan Name
+#
+# scope:old_house ... old clan (dynasty house)
+# scope:new_house ... new clan (dynasty house)
+
+shogunate_change_clan_name_effect = {
+
+	hidden_effect = {
+		title_to_kamon_coa_effect = yes
+
+		every_child = {
+			even_if_dead = yes
+			add_to_list = convert_house
+			every_child = {
+				even_if_dead = yes
+				add_to_list = convert_house
+				every_child = {
+					even_if_dead = yes
+					add_to_list = convert_house
+				}
+			}
+		}
+
+		every_sibling = {
+			even_if_dead = yes
+			add_to_list = convert_house
+			every_child = {
+				even_if_dead = yes
+				add_to_list = convert_house
+				every_child = {
+					even_if_dead = yes
+					add_to_list = convert_house
+					every_child = {
+						even_if_dead = yes
+						add_to_list = convert_house
+					}
+				}
+			}
+		}
+
+		every_in_list = {
+			list = convert_house
+			limit = {
+				is_alive = yes
+				house = scope:old_house
+			}
+			set_house = scope:new_house
+			if = {
+				limit = {
+					primary_title.tier > tier_barony
+				}
+				title_to_kamon_coa_effect = yes
+			}
+		}
+	}
+}
+
+
+# Change Clan Trait
+#
+# scope:old_house ... old clan (dynasty house)
+# OLD_TRAIT       ... old clan trait (minamoto, taira, etc.)
+# NEW_TRAIT       ... new clan trait (minamoto, taira, etc.)
+
+shogunate_change_clan_trait_effect = {
+
+	hidden_effect = {
+
+		every_child = {
+			even_if_dead = yes
+			add_to_list = convert_trait
+			every_child = {
+				even_if_dead = yes
+				add_to_list = convert_trait
+				every_child = {
+					even_if_dead = yes
+					add_to_list = convert_trait
+				}
+			}
+		}
+
+		every_sibling = {
+			even_if_dead = yes
+			add_to_list = convert_trait
+			every_child = {
+				even_if_dead = yes
+				add_to_list = convert_trait
+				every_child = {
+					even_if_dead = yes
+					add_to_list = convert_trait
+					every_child = {
+						even_if_dead = yes
+						add_to_list = convert_trait
+					}
+				}
+			}
+		}
+
+		every_in_list = {
+			list = convert_trait
+			limit = {
+				is_alive = yes
+				house = scope:old_house
+			}
+			remove_trait = $OLD_TRAIT$
+			add_trait    = $NEW_TRAIT$
+		}
+	}
+}
+
+
+# Change Clan Culture
+#
+# scope:old_house ... old clan (dynasty house)
+# CULTURE         ... new clan culture
+
+shogunate_change_clan_culture_effect = {
+
+	hidden_effect = {
+
+		every_child = {
+			even_if_dead = yes
+			add_to_list = convert_culture
+			every_child = {
+				even_if_dead = yes
+				add_to_list = convert_culture
+				every_child = {
+					even_if_dead = yes
+					add_to_list = convert_culture
+				}
+			}
+		}
+
+		every_sibling = {
+			even_if_dead = yes
+			add_to_list = convert_culture
+			every_child = {
+				even_if_dead = yes
+				add_to_list = convert_culture
+				every_child = {
+					even_if_dead = yes
+					add_to_list = convert_culture
+					every_child = {
+						even_if_dead = yes
+						add_to_list = convert_culture
+					}
+				}
+			}
+		}
+
+		every_in_list = {
+			list = convert_culture
+			limit = {
+				is_alive = yes
+				house = scope:old_house
+			}
+			set_culture = culture:$CULTURE$
+		}
+	}
+}

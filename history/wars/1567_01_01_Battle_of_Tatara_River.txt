@@ -1,0 +1,11 @@
+war = {
+	name = "war_1567_battle_of_tatara_river"
+	start_date = 1567.1.1
+	end_date = 1569.12.1
+	targeted_titles = {
+		d_nmih_chikugo
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10064002 } # Otomo Yoshishige(Sorin)
+	defenders = { 10056004 } # Mori Motonari
+}

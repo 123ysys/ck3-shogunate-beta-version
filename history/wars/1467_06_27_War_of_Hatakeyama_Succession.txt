@@ -1,0 +1,12 @@
+war = {
+	name = "war_1466_war_of_hatakeyama_succession"
+	start_date = 1467.6.27
+	end_date = 1477.12.16
+	targeted_titles = {
+		d_nmih_kawachi
+	}
+	casus_belli = event_claim_cb
+	claimant = 10048121 # Hatakeyama Masanaga
+	attackers = { 10048121 10040543 } # Hatakeyama Masanaga, Hosokawa Katsumoto
+	defenders = { 10048115 } # Hatakeyama Yoshihiro
+}

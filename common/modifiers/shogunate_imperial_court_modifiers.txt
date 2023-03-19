@@ -1,0 +1,121 @@
+﻿### Special modifiers for imperial court posts
+
+taiko_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.15
+	learning = 5
+	vassal_limit = 15
+	vassal_opinion = 25
+}
+
+kampaku_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.10
+	learning = 3
+	vassal_limit = 10
+	vassal_opinion = 20
+}
+
+daijin_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.08
+	learning = 3
+	vassal_limit = 5
+	vassal_opinion = 15
+}
+
+nagon_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.05
+	learning = 2
+	vassal_limit = 4
+	vassal_opinion = 10
+}
+
+jiju_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.02
+	learning = 1
+	vassal_limit = 2
+	vassal_opinion = 5
+}
+
+hassho_kyo_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 1.0
+	stewardship = 3
+	tax_mult = 0.08
+	vassal_opinion = 15
+}
+
+hassho_daihu_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.05
+	stewardship = 2
+	tax_mult = 0.05
+	vassal_opinion = 10
+}
+
+hassho_sho_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.02
+	stewardship = 1
+	tax_mult = 0.02
+	vassal_opinion = 5
+}
+
+taisho_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 1.0
+	martial = 3
+	prowess = 3
+	vassal_opinion = 15
+}
+
+chujo_kami_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.09
+	martial = 3
+	prowess = 3
+	vassal_opinion = 15
+}
+
+suke_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.05
+	martial = 2
+	prowess = 2
+	vassal_opinion = 10
+}
+
+jo_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.02
+	martial = 1
+	prowess = 1
+	vassal_opinion = 5
+}
+
+kokushi_dazai_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 1.0
+	diplomacy = 3
+	short_reign_duration_mult = -1.0
+	vassal_opinion = 15
+}
+
+kokushi_kami_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.05
+	diplomacy = 2
+	short_reign_duration_mult = -0.5
+	vassal_opinion = 10
+}
+
+kokushi_suke_modifier = {
+	icon = prestige_positive
+	monthly_prestige = 0.02
+	diplomacy = 1
+	short_reign_duration_mult = -0.25
+	vassal_opinion = 5
+}

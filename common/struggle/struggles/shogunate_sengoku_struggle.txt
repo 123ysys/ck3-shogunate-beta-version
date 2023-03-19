@@ -1,0 +1,723 @@
+﻿shogunate_sengoku_struggle = {
+
+	##################################################
+	# Setup
+	##################################################
+
+	cultures = {
+
+		# Tohoku
+		northern_oshu
+		southern_oshu
+		dewa
+
+		# Kanto
+		northern_kanto
+		eastern_kanto
+		western_kanto
+		southern_kanto
+
+		# Hokuriku
+		eastern_hokuriku
+		western_hokuriku
+
+		# Chubu
+		koshin
+		tokai
+		western_chubu
+
+		# Kinai
+		northern_kinai
+		central_kinai
+		southern_kinai
+
+		# Saigoku
+		sanin
+		sanyo
+		western_chugoku
+		shikoku
+
+		# Kyushu
+		northern_kyushu
+		central_kyushu
+		southern_kyushu
+
+		# Imperial Court
+		imperial_family
+		aristocrats
+
+		# Hokkaido
+		hokkaido_wajin
+
+		# Buddhist
+		tohoku_buddhist
+		kanto_buddhist
+		hokuriku_buddhist
+		chubu_buddhist
+		kinai_buddhist
+		saigoku_buddhist
+		kyushu_buddhist
+	}
+	faiths = {
+		shinto
+		ikkoshu
+		hokkeshu
+		catholic
+	}
+	regions = { 
+		world_circuit_kinai
+		world_circuit_tokaido
+		world_circuit_tosando
+		world_circuit_hokurikudo
+		world_circuit_san'indo
+		world_circuit_san'yodo
+		world_circuit_nankaido
+		world_circuit_saikaido
+	}
+
+	# A culture or faith becomes involved if 80% of the total number of counties belonging to it are inside the struggle region.
+	involvement_prerequisite_percentage = 0.8
+
+	on_start = {
+		shogunate_struggle_sengoku_on_start_effect = yes
+	}
+
+	on_change_phase = {
+		shogunate_struggle_sengoku_on_change_effect = yes
+	}
+
+	# Root = the current struggle
+	# scope:character = the character which has joined the struggle
+ 	on_join = {
+ 		shogunate_struggle_sengoku_on_join_effect = yes
+ 	}  
+
+	##################################################
+	# Phases
+	##################################################
+
+	start_phase = struggle_shogunate_sengoku_phase_meritocracy_chaotic
+
+	phase_list = {
+
+		struggle_shogunate_sengoku_phase_meritocracy_ordered = {
+
+			##################################################
+			# General Set-Up
+
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_opportunity_bg.dds"
+			
+			future_phases = {
+
+				struggle_shogunate_sengoku_phase_meritocracy_chaotic = {
+
+					catalysts = {
+						catalyst_shogunate_forced_conversion = 40
+						catalyst_shogunate_unnatural_death = 20
+						catalyst_shogunate_start_any_war = 10
+					}
+
+				}
+
+				struggle_shogunate_sengoku_phase_unification_ordered = {
+
+					catalysts = {
+						catalyst_shogunate_historical_progress = 50
+						catalyst_shogunate_win_against_liege = 20
+						catalyst_shogunate_claim_throne = 15
+						catalyst_shogunate_gain_higher_title = 10
+					}
+
+				}
+
+			}
+
+			war_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_character_modifier = {
+					mercenary_hire_cost_mult = 0.3
+				}
+
+				###### Interlopers
+
+				interloper_character_modifier = {
+					mercenary_hire_cost_mult = 0.3
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			faith_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					county_faith_conversion_in_region_proceeds_faster = yes
+				}
+
+				involved_character_modifier = {
+					different_faith_opinion = 15
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					county_faith_conversion_in_region_proceeds_faster = yes
+				}
+
+				interloper_character_modifier = {
+					different_faith_opinion = 15
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			culture_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			other_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				involved_character_modifier = {
+					personal_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				interloper_character_modifier = {
+					personal_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			# We are listing all available decision to give players insights on how they can end the Struggle
+			ending_decisions = {
+				shogunate_sengoku_struggle_ending_oda_decision
+				shogunate_sengoku_struggle_ending_toyotomi_decision
+				shogunate_sengoku_struggle_ending_tokugawa_decision
+			}
+		}
+
+		struggle_shogunate_sengoku_phase_meritocracy_chaotic = {
+
+			##################################################
+			# General Set-Up
+
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_hostility_bg.dds"
+			
+			future_phases = {
+
+				struggle_shogunate_sengoku_phase_meritocracy_ordered = {
+
+					catalysts = {
+						catalyst_shogunate_convert_to_local_faith = 40
+						catalyst_shogunate_vassalize = 20
+						catalyst_shogunate_grant_title = 10
+					}
+
+				}
+
+				struggle_shogunate_sengoku_phase_unification_chaotic = {
+
+					catalysts = {
+						catalyst_shogunate_historical_progress = 50
+						catalyst_shogunate_win_against_liege = 20
+						catalyst_shogunate_claim_throne = 15
+						catalyst_shogunate_gain_higher_title = 10
+					}
+
+				}
+
+			}
+
+			war_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_character_modifier = {
+					ai_war_chance = 0.25
+					ai_war_cooldown = -0.25
+					mercenary_hire_cost_mult = -0.3
+				}
+
+				###### Interlopers
+
+				interloper_character_modifier = {
+					ai_war_chance = 0.25
+					ai_war_cooldown = -0.25
+					mercenary_hire_cost_mult = -0.3
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			faith_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					county_faith_conversion_in_region_proceeds_slower = yes
+				}
+
+				involved_character_modifier = {
+					different_faith_opinion = -15
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					county_faith_conversion_in_region_proceeds_slower = yes
+				}
+
+				interloper_character_modifier = {
+					different_faith_opinion = -15
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			culture_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			other_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				involved_character_modifier = {
+					hostile_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				interloper_character_modifier = {
+					hostile_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			# We are listing all available decision to give players insights on how they can end the Struggle
+			ending_decisions = {
+				shogunate_sengoku_struggle_ending_oda_decision
+				shogunate_sengoku_struggle_ending_toyotomi_decision
+				shogunate_sengoku_struggle_ending_tokugawa_decision
+			}
+		}
+
+		struggle_shogunate_sengoku_phase_unification_ordered = {
+
+			##################################################
+			# General Set-Up
+
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_compromise_bg.dds"
+
+			future_phases = {
+
+				struggle_shogunate_sengoku_phase_unification_chaotic = {
+
+					catalysts = {
+						catalyst_shogunate_forced_conversion = 40
+						catalyst_shogunate_unnatural_death = 20
+						catalyst_shogunate_start_any_war = 10
+					}
+
+				}
+
+			}
+
+			war_effects = {
+
+				###### Common
+				
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					shogunate_unlocks_sengoku_invasion_casus_belli = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+				}
+
+				involved_character_modifier = {
+					ai_war_chance = 0.5
+					ai_war_cooldown = -0.5
+					mercenary_hire_cost_mult = 0.3
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					shogunate_unlocks_sengoku_invasion_casus_belli = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+				}
+
+				interloper_character_modifier = {
+					ai_war_chance = 0.5
+					ai_war_cooldown = -0.5
+					mercenary_hire_cost_mult = 0.3
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			faith_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					county_faith_conversion_in_region_proceeds_faster = yes
+				}
+
+				involved_character_modifier = {
+					different_faith_opinion = 15
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					county_faith_conversion_in_region_proceeds_faster = yes
+				}
+
+				interloper_character_modifier = {
+					different_faith_opinion = 15
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			culture_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			other_effects = {
+
+				###### Common
+				
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				involved_character_modifier = {
+					personal_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				interloper_character_modifier = {
+					personal_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			##################################################
+			# Ending
+
+			# We are listing all available decision to give players insights on how they can end the Struggle
+			ending_decisions = {
+				shogunate_sengoku_struggle_ending_oda_decision
+				shogunate_sengoku_struggle_ending_toyotomi_decision
+				shogunate_sengoku_struggle_ending_tokugawa_decision
+			}
+
+		}
+
+		struggle_shogunate_sengoku_phase_unification_chaotic = {
+
+			##################################################
+			# General Set-Up
+
+			background = "gfx/interface/illustrations/struggle_backgrounds/struggle_tension_bg.dds"
+
+			future_phases = {
+
+				struggle_shogunate_sengoku_phase_unification_ordered = {
+
+					catalysts = {
+						catalyst_shogunate_convert_to_local_faith = 40
+						catalyst_shogunate_vassalize = 20
+						catalyst_shogunate_grant_title = 10
+					}
+
+				}
+
+			}
+
+			war_effects = {
+
+				###### Common
+				
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					shogunate_unlocks_sengoku_invasion_casus_belli = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+				}
+
+				involved_character_modifier = {
+					ai_war_chance = 1
+					ai_war_cooldown = -0.5
+					mercenary_hire_cost_mult = -0.3
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					shogunate_unlocks_sengoku_invasion_casus_belli = yes
+					truces_by_involved_or_interlopers_within_region_shorter = yes
+				}
+
+				interloper_character_modifier = {
+					ai_war_chance = 1
+					ai_war_cooldown = -0.5
+					mercenary_hire_cost_mult = -0.3
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			faith_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					county_faith_conversion_in_region_proceeds_slower = yes
+				}
+
+				involved_character_modifier = {
+					different_faith_opinion = -15
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					county_faith_conversion_in_region_proceeds_slower = yes
+				}
+
+				interloper_character_modifier = {
+					different_faith_opinion = -15
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			culture_effects = {
+
+				###### Common
+
+				# Nothing
+
+				###### Involved
+
+				# Nothing
+
+				###### Interlopers
+
+				# Nothing
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			other_effects = {
+
+				###### Common
+				
+				# Nothing
+
+				###### Involved
+
+				involved_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				involved_character_modifier = {
+					hostile_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Interlopers
+
+				interloper_parameters = {
+					unlocks_claim_throne_for_all = yes
+				}
+
+				interloper_character_modifier = {
+					hostile_scheme_power_mult = 0.25
+					short_reign_duration_mult = 1
+				}
+
+				###### Uninvolved
+
+				# Nothing
+
+			}
+
+			##################################################
+			# Ending
+
+			# We are listing all available decision to give players insights on how they can end the Struggle
+			ending_decisions = {
+				shogunate_sengoku_struggle_ending_oda_decision
+				shogunate_sengoku_struggle_ending_toyotomi_decision
+				shogunate_sengoku_struggle_ending_tokugawa_decision
+			}
+
+		}
+
+	}
+
+}

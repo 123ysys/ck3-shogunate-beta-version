@@ -1,0 +1,227 @@
+d_nmih_musashi = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0806.2.24={
+		holder=11000024 # Fujiwara Uchimaro {Musashi no Kami}
+	}
+	0807.8.1={
+		holder=11000025 # Fujiwara Manatsu {Musashi no Kami}
+	}
+	0807.9.29={
+		holder=0 #  
+	}
+	0885.2.8={
+		holder=11003527 # Fujiwara Sadamoto {Musashi no Kami}
+	}
+	0906.9.24={
+		holder=0 #  
+	}
+	0919.1.1={
+		holder=11004699 # Fujiwara Toshihito {Musashi no Kami}
+	}
+	0920.1.1={
+		holder=0 #  
+	}
+	0940.4.24={
+		holder=11004609 # Fujiwara Hidesato {Musashi no Kami}
+	}
+	0943.1.1={
+		holder=0 #  
+	}
+	0949.4.6={
+		holder=10120002 # Minamoto Mitsunaka {Musashi no Kami}
+	}
+	0953.1.1={
+		holder=0 #  
+	}
+	1128.1.17={
+		holder=11001035 # Fujiwara Kinnobu {Musashi no Kami}
+	}
+	1135.6.11={
+		holder=0 #  
+	}
+	1166.12.14={
+		holder=10110025 # Taira Kiyomori {Chigyo-kokushi (sovereign of the fief)}
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12200130 # Kawagoe Shigeyori
+	}
+	1180.10.24={ # served to MINAMOTO no Yoritomo
+		liege = 0
+		liege="k_nmih_western_kanto"
+		holder=12200130 # Kawagoe Shigeyori
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1185.12.5={
+		holder=12200060 # Hatakeyama Shigetada
+	}
+	1205.7.10={
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1207.1.1={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.7.9={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1256.4.7={
+		holder=10131671 # Hojo Masamura
+	}
+	1264.7.27={
+		holder=10131998 # Hojo Tokimune
+	}
+	1268.4.18={
+		holder=10131671 # Hojo Masamura
+	}
+	1273.6.13={
+		holder=10131714 # Hojo [Shiota] Yoshimasa
+	}
+	1277.5.8={
+		holder=10131713 # Hojo [Fuonji] Naritoki
+	}
+	1287.8.13={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1301.9.25={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1311.11.13={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1315.8.11={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1326.5.26={
+		holder=10132114 # Hojo [Osaragi] Koresada
+	}
+	1327.9.22={
+		holder=10132211 # Hojo Shigetoki
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1336.7.22={
+		holder=12139568 # Kou Shigemochi
+	}
+	1341.5.1={
+		holder=12139551 # Kou Morofuyu
+	}
+	1346.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		liege="k_nmih_western_kanto"
+		holder=10017009 # Uesugi Norimasa
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=12396020 # Nikki Yoriaki
+	}
+	1352.12.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10048105 # Hatakeyama Kunikiyo
+	}
+	1361.11.1={
+		holder=12200175 # Kawagoe Tadashige
+	}
+	1368.3.14={
+		liege=0
+	}
+	1368.7.2={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1378.5.14={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1409.9.1={
+		holder=10017048 # Uesugi Ujinori (Zenshu)
+	}
+	1415.6.8={
+		liege=0 # Uesugi Zenshu's rebellion
+	}
+	1417.1.27={
+		liege=0
+		holder=0 # 
+	}
+	1418.2.9={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017020 # Uesugi [Yamauchi] Norizane
+	}
+	1439.3.24={
+		holder=10032805 # Uesugi Kiyokata
+	}
+	1444.1.1={
+		holder=10017021 # Uesugi Noritada
+	}
+	1455.1.15={
+		holder=10017022 # Uesugi Fusaaki
+	}
+	1457.1.1={
+		liege=0
+		holder=10017037 # Uesugi [Ougigaya] Mochitomo
+	}
+	1467.10.4={
+		holder=10017042 # Uesugi Masazane
+	}
+	1473.12.22={
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1494.11.20={
+		holder=10017043 # Uesugi Tomoyoshi
+	}
+	1518.5.30={
+		holder=10018000 # Uesugi Tomooki
+	}
+	1537.6.4={
+		holder=10018001 # Uesugi Tomosada
+	}
+	1546.5.19={
+		holder=10016004 # Hojo Ujiyasu
+	}
+	1571.10.21={
+		holder=10016014 # Hojo Ujimasa
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

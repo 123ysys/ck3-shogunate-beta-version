@@ -1,0 +1,13 @@
+380 = {
+
+	culture = dewa
+	religion = shinto
+	holding = castle_holding
+	600.1.1={
+	}
+	1189.9.24={ # Tagawa caln was defeated.
+	}
+	1533.1.1={ # Daihoji castle was fallen.
+	}
+
+}

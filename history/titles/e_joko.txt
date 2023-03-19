@@ -1,0 +1,16 @@
+e_nmih_joko = {
+	1087.1.3={ # Emperor Shirakawa became the Ex-Emperor
+	}
+	1184.3.4={
+		liege=0
+		holder=10041054 # Emperor Go-Shirakawa
+	}
+	1192.4.26={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1221.7.6={
+		liege=0
+		holder=0 # 
+	}
+
+}

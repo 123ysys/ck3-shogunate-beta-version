@@ -1,0 +1,117 @@
+c_nmih_nasu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nasu1={
+				set_title_name=b_nmih_nasu1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nasu1={
+				set_title_name=b_nmih_nasu3
+			}
+		}
+	}
+	1428.1.1={
+		effect={
+			title:b_nmih_nasu1={
+				set_title_name=b_nmih_nasu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1428.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_shimotsuke"
+	}
+	1165.1.1={
+		liege="d_nmih_shimotsuke"
+		holder=12140100 # Nasu Suketaka
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12140100 # Nasu Suketaka
+	}
+	1185.1.1={
+		holder=12140117 # Nasu Munetaka
+	}
+	1189.9.19={
+		holder=12140110 # Nasu Sukeyuki
+	}
+	1193.1.1={
+		holder=12140120 # Nasu Mitsusuke
+	}
+	1237.1.1={
+		holder=12140130 # Nasu Sukemura
+	}
+	1268.1.1={
+		holder=12140140 # Nasu Sukeie
+	}
+	1275.1.1={
+		holder=12140150 # Nasu Suketada
+	}
+	1300.1.1={
+		holder=12140160 # Nasu Sukefuji
+	}
+	1333.7.4={
+		liege="d_nmih_utsunomiya"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1355.1.1={
+		holder=12140180 # Nasu Sukeuji
+	}
+	1408.1.1={
+		liege=0
+		holder=12140190 # Nasu Sukeyuki
+	}
+	1428.1.1={
+		holder=12140192 # Nasu Sukeshige
+	}
+	1431.1.1={
+		holder=10011010
+	}
+	1467.10.11={
+		holder=10011007
+	}
+	1510.1.1={
+		holder=10011001
+	}
+	1546.8.19={
+		holder=10011003 # Nasu Takasuke
+	}
+	1551.2.27={
+		holder=10011005 # Nasu Sukekuni
+	}
+	1583.4.3={
+		holder=10011019 # Nasu Sukeharu
+	}
+	1590.7.27={
+		liege="e_nmih_japan"
+		holder=10018106 # Narita Ujinaga
+	}
+	1596.1.10={
+		holder=10018107 # Narita Yasuchika
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

@@ -1,0 +1,139 @@
+c_nmih_ikuha = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ikuha1={
+				set_title_name=b_nmih_ikuha9
+			}
+		}
+	}
+	1000.1.1={
+		effect={
+			title:b_nmih_ikuha1={
+				set_title_name=B_NMIH_IKUHA9_1000
+			}
+		}
+	}
+	1313.1.1={
+		effect={
+			title:b_nmih_ikuha1={
+				set_title_name=B_NMIH_IKUHA9_1313
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1000.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	180.1.1={
+		holder=10290001 # Himiko
+	}
+	248.1.1={
+		holder=10290005 # Toyo
+	}
+	270.1.1={
+		holder=10290006 # Nukate
+	}
+	310.1.1={
+		holder=10290007 # Semoko
+	}
+	340.1.1={
+		holder=10290009 # Natsuha
+	}
+	1180.1.1={
+		liege="d_nmih_hizen"
+		holder=12780800 # Kusano Nagatsune
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_chikugo"
+	}
+	1196.3.1={
+		holder=10057320 # Miyoshi Yasunobu
+	}
+	1206.1.1={
+		liege="e_nmih_japan"
+	}
+	1221.8.27={
+		holder=10064620 # Machino Yasutoshi
+	}
+	1238.7.26={
+		holder=10064618 # Machino Yasumochi
+	}
+	1257.12.3={
+		holder=10064617 # Machino Yasunaga
+	}
+	1310.1.1={
+		holder=10064616 # Monchusho Yasutsura
+	}
+	1333.7.4={
+		liege="d_nmih_chikugo"
+	}
+	1334.1.1={
+		liege="d_nmih_buzen"
+	}
+	1334.7.1={
+		liege="d_nmih_bungo"
+	}
+	1340.1.1={
+		holder=10064615 # Monchusho Ujiyasu
+	}
+	1360.1.1={
+		holder=10064614 # Monchusho Akiyasu
+	}
+	1380.1.1={
+		holder=10064610 # Monchusho Norichika
+	}
+	1400.1.1={
+		holder=10064609 # Monchusho Mochihiro
+	}
+	1420.1.1={
+		holder=10064608 # Monchusho Masayasu
+	}
+	1440.1.1={
+		liege="d_nmih_bungo"
+		holder=10064607 # Monchusho Tsunayasu
+	}
+	1450.1.1={
+		holder=10064606 # Monchusho Takayasu
+	}
+	1470.1.1={
+		holder=10064605 # Monchusho Shigeyasu
+	}
+	1490.1.1={
+		holder=10064604 # Monchusho Chikanori
+	}
+	1510.1.1={
+		holder=10064603 # Monchusho Chikayasu
+	}
+	1520.1.1={
+		holder=10064601 # Monchusho Chikateru
+	}
+	1540.1.1={
+		holder=10064600 # Monchusho Akitoyo 
+	}
+	1561.1.1={
+		holder=10064602 # Monchusho Shigetsura
+	}
+	1575.1.1={
+		holder=10064621 # Monchusho Munekage
+	}
+	1587.5.18={
+		liege="d_nmih_chikuzen"
+	}
+	1593.9.26={
+		holder=10056023 # Kobayakawa Hidekane
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_chikugo"
+		holder=10043423 # Tanaka Yoshioki
+	}
+}

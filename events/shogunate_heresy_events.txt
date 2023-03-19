@@ -1,0 +1,335 @@
+﻿namespace = shogunate_heresy
+
+# Heresy Outbreak  # based on heresy.0005
+shogunate_heresy.0001 = {
+	hidden = yes
+	scope = faith
+
+	trigger = {
+		OR = {
+			this = faith:shinto
+			this = faith:ikkoshu
+			this = faith:hokkeshu
+			this = faith:catholic
+		}
+	}
+
+	immediate = {
+		#Look for a valid Duke of this Faith to be our heresiarch.
+		random_ruler = {
+			#Prefer Dukes with only 1 or 2 Duchies.
+			limit = {
+				faith = root
+				highest_held_title_tier = 3
+				any_held_title = {
+					tier = tier_duchy
+					count < 3 #Limit the influence of Mega-Dukes
+				}
+				is_capable_adult_ai = yes
+				is_landed = yes
+				exists = capital_county
+				NOT = { has_trait = heresiarch }
+				no_heretical_hof_faith_trigger = yes
+			}
+			#Then accept any valid Duke.
+			alternative_limit = {
+				faith = root
+				highest_held_title_tier = 3
+				is_capable_adult_ai = yes
+				is_landed = yes
+				exists = capital_county
+				NOT = { has_trait = heresiarch }
+				no_heretical_hof_faith_trigger = yes
+			}
+			#If no Dukes exist, accept a Count.
+			alternative_limit = {
+				faith = root
+				highest_held_title_tier = 2
+				is_capable_adult_ai = yes
+				is_landed = yes
+				exists = capital_county
+				NOT = { has_trait = heresiarch }
+				no_heretical_hof_faith_trigger = yes
+			}
+
+			weight = {
+				base = 100
+
+				modifier = {
+					add = 100
+					is_powerful_vassal = yes
+				}
+				modifier = {
+					add = 75
+					is_independent_ruler = yes
+				}
+				modifier = {
+					add = 50
+					is_a_faction_member = yes
+				}
+			}
+
+			save_scope_as = heretic_ruler
+			primary_title = {
+				save_scope_as = heretic_title
+			}
+			capital_county = {
+				save_scope_as = heretic_capital
+			}
+		}
+
+
+		#Once we have a heresiarch, look for a valid heretical faith to them to convert to.
+		if = {
+			limit = {
+				exists = scope:heretic_ruler
+			}
+
+			#Religions
+			faith:shinto.religion = { #Shinto
+				add_to_list = eastern_religions
+			}
+			faith:catholic.religion = { #Christianity
+				add_to_list = eastern_religions
+			}
+
+			#Faiths
+			faith:shinto = { #Shinto
+				add_to_list = eastern_faiths
+			}
+			if = {
+				limit = {
+					current_year >= 1214	# Shinran started his missionary work in the East
+				}
+				faith:ikkoshu = { #Ikko-shu
+					add_to_list = eastern_faiths
+				}
+			}
+			if = {
+				limit = {
+					current_year >= 1260	# Nichiren wrote the petition Rissho Ankokuron
+				}
+				faith:hokkeshu = { #Hokke-shu
+					add_to_list = eastern_faiths
+				}
+			}
+			if = {
+				limit = {
+					current_year >= 1549	# Francisco de Xavier arrived in Japan
+				}
+				faith:catholic = { #Catholic
+					add_to_list = eastern_faiths
+				}
+			}
+
+			#Save a list of provinces in our religion group (we will be reusing this a lot for distance checks).
+			every_province = {
+				limit = {
+					is_county_capital = yes
+					faith.religion = { is_in_list = eastern_religions }
+					squared_distance = {
+						target = scope:heretic_capital
+						value < squared_distance_medium
+					}
+				}
+				add_to_list = neaby_same_religion_counties
+			}
+
+
+			#We want to pick certain faiths to be our heresy over others, assuming they are valid.
+			random_in_list = {
+				list = eastern_faiths
+				#Priority 1: Any non-existing Eastern Faith
+				limit = {
+					num_county_followers = 0
+					is_valid_heresy = {
+						ORIGIN_FAITH = root
+						HERETICAL_FAITH = this
+					}
+				}
+				#Priority 2: Any nearby Eastern faith.
+				alternative_limit = {
+					num_county_followers > 0
+					is_valid_heresy = {
+						ORIGIN_FAITH = root
+						HERETICAL_FAITH = this
+					}
+					nearby_county_of_faith = yes
+				}
+				#Priority 3: Any far-away Eastern Faith
+				alternative_limit = {
+					is_valid_heresy = {
+						ORIGIN_FAITH = root
+						HERETICAL_FAITH = this
+					}
+					#No distance check here to save on perf (if we reach this point it's already not nearby)
+				}
+
+				weight = {
+					base = 100
+
+					#Much more likely to select smaller Faiths as our heresy, to prevent them from becomming extinct (or prevent any other Faith from becoming too large).
+					modifier = {
+						add = 800 #1000 weight
+						num_county_followers <= 3
+					}
+					modifier = {
+						add = 100 #200 weight
+						num_county_followers <= 6
+					}
+					modifier = {
+						add = -20 #80 weight
+						num_county_followers > 9
+					}
+					modifier = {
+						add = -30 #50 weight
+						num_county_followers > 12
+					}
+					modifier = {
+						add = -40 #10 weight
+						num_county_followers > 15
+					}
+
+					#More likely to flip to a different branch of current religion than switching to a different religion.
+#					modifier = {
+#						factor = 10
+#						root.religion = this.religion
+#					}
+
+					#Certain Faiths are much more likely to appear/spread than others, due to popularity/obscurity.
+					#Common Faiths
+					modifier = {
+						factor = 1
+						OR = {
+							this = faith:catholic
+						}
+					}
+					#Uncommon Faiths
+					modifier = {
+						factor = 0.5
+						OR = {
+							this = faith:ikkoshu
+							this = faith:hokkeshu
+						}
+					}
+					#Rare Faiths
+					modifier = {
+						factor = 0.1
+						OR = {
+							this = faith:shinto
+						}
+					}
+				}
+
+				# Ikko-shu more likely in Hokuriku region
+				modifier = {
+					factor = regional_heresy_factor
+					this = faith:ikkoshu
+					scope:heretic_capital = {
+						title_province = {
+							geographical_region = world_regions_hokuriku3
+						}
+					}
+				}
+				# Catholic more likely in Kyushu region
+				modifier = {
+					factor = regional_heresy_factor
+					this = faith:catholic
+					scope:heretic_capital = {
+						title_province = {
+							geographical_region = world_region_kyushu
+						}
+					}
+				}
+
+				save_scope_as = heretic_faith
+			}
+
+
+			#Trigger the heresy event for all rulers of the same Faith.
+			if = {
+				limit = {
+					exists = scope:heretic_faith
+				}
+
+				save_scope_as = origin_faith
+
+				#Determine roughly how many Counties we expext to flip to the heretical Faith.
+				random_list = {
+					20 = {
+						modifier = {
+							add = 20
+							fervor > 30
+						}
+						set_variable = {
+							name = heresy_power
+							value = 10
+						}
+					}
+					55 = {
+						set_variable = {
+							name = heresy_power
+							value = 15
+						}
+					}
+					20 = {
+						modifier = {
+							add = 30
+							fervor <= 20
+						}
+						set_variable = {
+							name = heresy_power
+							value = 20
+						}
+					}
+					5 = {
+						modifier = {
+							add = 45
+							fervor <= 10
+						}
+
+						set_variable = {
+							name = heresy_power
+							value = 25
+						}
+					}
+				}
+
+				# Modify heresy power for pluralist/fundamentalist
+#				if = {
+#					limit = {
+#						has_doctrine_parameter = pluralism_pluralistic_resistant_to_heresy
+#					}
+#					change_variable = {
+#						name = heresy_power
+#						multiply = hostility_multiplier_pluralism
+#					}
+#				}
+#				else_if = {
+#					limit = {
+#						has_doctrine_parameter = pluralism_fundamentalist_vulnerable_to_heresy
+#					}
+#					change_variable = {
+#						name = heresy_power
+#						multiply = hostility_multiplier_fundamentalist
+#					}
+#				}
+
+				#Flag the heretic faith as the parent faith's active heresy for the next 10 years.
+				set_variable = {
+					name = current_heresy
+					value = scope:heretic_faith
+					days = 3650
+				}
+
+				#Trigger the heresy outbreak event.
+				scope:heretic_ruler = {
+					trigger_event = {
+						id = heresy.0010
+						days = 3
+					}
+				}
+			}
+		}	
+	}
+}

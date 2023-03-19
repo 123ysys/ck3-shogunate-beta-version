@@ -1,0 +1,76 @@
+﻿10013000={
+	name=dynasty_name_10013000
+	culture = "sanyo"
+}
+10013001={
+	name=dynasty_name_10013001
+	culture = "sanyo"
+}
+10013002={
+	name=dynasty_name_10013002
+	culture = "western_chubu"
+}
+10013003={
+	name=dynasty_name_10013003
+	culture = "western_chubu"
+}
+10013004={
+	name=dynasty_name_10013004
+	culture = "eastern_kanto"
+}
+10013005={
+	name=dynasty_name_10013005
+	culture = "western_chubu"
+}
+10013006={
+	name=dynasty_name_10013006
+	culture = "western_chubu"
+}
+10013007={
+	name=dynasty_name_10013007
+	culture = "eastern_kanto"
+}
+10013008={
+	name=dynasty_name_10013008
+	culture = "southern_kyushu"
+}
+10013009={
+	name=dynasty_name_10013009
+	culture = "dewa"
+}
+10013010={
+	name=dynasty_name_10013010
+	culture = "western_hokuriku"
+}
+10013011={
+	name=dynasty_name_10013011
+	culture = "western_hokuriku"
+}
+10013012={
+	name=dynasty_name_10013012
+	culture = "southern_kanto"
+}
+10013013={
+	name=dynasty_name_10013013
+	culture = "northern_kyushu"
+}
+10013014={
+	name=dynasty_name_10013014
+	culture = "eastern_kanto"
+}
+10013015={
+	name=dynasty_name_10013015
+	culture = "western_hokuriku"
+}
+10013016={
+	name=dynasty_name_10013016
+	culture = "central_kinai"
+}
+10013017={
+	name=dynasty_name_10013017
+	culture = "central_kinai"
+}
+10013018={
+	name=dynasty_name_10013018
+	culture = "tokai"
+}

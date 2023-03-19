@@ -1,0 +1,6 @@
+﻿# Nanboku-cho Period Modifiers
+
+shogunate_betrayer_modifier = {
+	icon = diplomacy_negative
+	independent_ruler_opinion = -50
+}

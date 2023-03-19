@@ -1,0 +1,171 @@
+c_nmih_kami_ina = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kami_ina1={
+				set_title_name=b_nmih_kami_ina2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kami_ina1={
+				set_title_name=b_nmih_kami_ina7
+			}
+		}
+	}
+	1333.7.4={
+		effect={
+			title:b_nmih_kami_ina1={
+				set_title_name=B_NMIH_KAMI_INA7_1333
+			}
+		}
+	}
+	1374.1.1={
+		effect={
+			title:b_nmih_kami_ina1={
+				set_title_name=b_nmih_kami_ina1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1374.1.1 = { change_development_level = 20 }
+	1400.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12388510 # Kasahara Tomonori
+	}
+	1180.9.30={
+		liege="d_nmih_shinano"
+		holder=10120084 # Minamoto Yoshinaka
+	}
+	1180.10.1={
+		holder=12380110 # Higuchi Kanemitsu
+	}
+	1183.8.17={ # Taira's escape to the west
+		holder=12380517 # Nenoi [Mochizuki] Yukichika
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_shinano"
+		holder=12386535 # Katagiri Tameyasu
+	}
+	1200.1.1={
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1221.1.1={
+		holder=10130246 # Bito Kagetsuna
+	}
+	1224.7.1={
+		liege="d_nmih_southern_shinano"
+	}
+	1234.9.16={
+		holder=10130248 # Bito Kageuji
+	}
+	1264.1.1={
+		holder=10130249 # Bito Yorikage
+	}
+	1290.1.1={
+		holder=10130253 # Bito Tokitsuna
+	}
+	1331.1.1={
+		holder=10130278 # Bito Tokikage
+	}
+	1333.7.4={
+		liege="d_nmih_hojo"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+		holder=12375961 # Suwa Yorishige
+	}
+	1335.9.6={
+		liege="d_nmih_hojo"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1344.1.1={
+		liege="k_nmih_seito_shogun"
+		holder=10041903 # Yamato Muneyoshi
+	}
+	1374.1.1={
+		liege="d_nmih_shinano"
+		holder=12375976 # Takato Yorichika
+	}
+	1390.1.1={
+		holder=12375978 # Takato Yoshimitsu
+	}
+	1401.2.1={
+		liege=0
+	}
+	1420.1.1={
+		holder=12375979 # Takato Taigen
+	}
+	1450.1.1={
+		liege=0
+		holder=12375980 # Takato Etsuzan
+	}
+	1470.1.1={
+		holder=12375981 # Takato Tsugumune
+	}
+	1510.1.1={
+		holder=12375983 # Takato Mitsutsugu
+	}
+	1530.1.1={
+		holder=12375984 # Takato Yoritsugu
+	}
+	1545.5.27={
+		liege="d_nmih_kai" # Takeda Shingen
+		holder=10020010 # Takeda Shingen
+	}
+	1559.1.1={
+		liege="d_nmih_shinano"
+	}
+	1562.6.1={
+		liege="d_nmih_shinano" # 20010 Takeda Shingen
+		holder=10020033 # Takeda Katsuyori
+	}
+	1565.11.7={
+		liege="d_nmih_shinano"
+		holder=10020012 # Takeda Nobukado
+	}
+	1581.1.1={
+		holder=10020035 # Nishina (Takeda) Morinobu
+	}
+	1582.3.25={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="k_nmih_chubu" # 29160 Oda Nobutada
+		holder=10029025 # Mori Hideyori
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="k_nmih_tokai"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10029025 # Mori Hideyori
+	}
+	1593.11.9={
+		holder=10044221 # Kyogoku Takatomo
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10021470 # Ogasawara Hidemasa
+	}
+	1613.11.20={
+		holder=12386266 # Hoshina Masamitsu
+	}
+}

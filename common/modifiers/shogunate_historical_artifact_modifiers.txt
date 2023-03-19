@@ -1,0 +1,433 @@
+﻿# Imperial Regalia
+
+kusanagi_modifier = {
+	monthly_prestige = 2
+}
+
+yata_no_kagami_modifier = {
+	monthly_piety = 2
+}
+
+yasakani_no_magatama_modifier = {
+	vassal_opinion = 10
+}
+
+shuki_and_daiban_modifier = {
+	monthly_prestige = 0.5
+	monthly_piety = 0.5
+}
+
+# Incense
+
+ranjatai_modifier = {
+	monthly_prestige = 1
+	monthly_piety = 1
+}
+
+# Seal
+
+king_of_na_gold_seal_modifier = {
+	monthly_prestige = 1
+	monthly_piety = 1
+}
+
+king_of_wa_gold_seal_modifier = {
+	monthly_prestige = 1
+	monthly_piety = 1
+}
+
+# Tea Utensil
+
+tsukumo_nasu_modifier = {
+	general_opinion = 5
+}
+
+matsumoto_nasu_modifier = {
+	general_opinion = 5
+}
+
+fuji_nasu_modifier = {
+	general_opinion = 5
+}
+
+narashiba_katatsuki_modifier = {
+	general_opinion = 5
+}
+
+nitta_katatsuki_modifier = {
+	general_opinion = 5
+}
+
+hatsuhana_katatsuki_modifier = {
+	general_opinion = 5
+}
+
+hiragumo_kama_modifier = {
+	general_opinion = 5
+}
+
+# Armor
+
+genta_no_ubuginu_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+	heavy_cavalry_damage_mult = 0.1
+}
+
+tatenashi_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+	heavy_cavalry_damage_mult = 0.1
+}
+
+hachi_ryu_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+}
+
+usugane_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+}
+
+hizamaru_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+}
+
+tsukikazu_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+}
+
+hikazu_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+}
+
+omodaka_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+}
+
+karakawa_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+hiraishi_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+onkosode_modifier = {
+	martial = 1
+	prowess = 5
+	monthly_prestige = 0.5
+	vassal_opinion = 5
+}
+
+# Weapons
+
+onikiri_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+doshigiri_yasutsuna_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+mikazuki_munechika_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+onimaru_kunitsuna_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+otenta_mitsuyo_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+juzumaru_tsunetsugu_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+kogarasumaru_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+muramasa_sword_modifier = {
+	martial = 1
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+	dread_gain_mult = 0.1
+}
+
+muramasa_dagger_modifier = {
+	martial = 1
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+	dread_gain_mult = 0.1
+}
+
+murasame_modifier = {
+	martial = 1
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+	stress_gain_mult = -0.1
+}
+
+masamune_sword_modifier = {
+	martial = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+masamune_dagger_modifier = {
+	intrigue = 2
+	prowess = 10
+	monthly_prestige = 0.25
+	vassal_opinion = 5
+}
+
+tonbokiri_modifier = {
+	martial = 2
+	prowess = 15
+	monthly_prestige = 0.25
+}
+
+otegine_modifier = {
+	martial = 2
+	prowess = 15
+	monthly_prestige = 0.25
+}
+
+nihongo_modifier = {
+	martial = 2
+	prowess = 15
+	monthly_prestige = 0.25
+}
+
+kaishu_no_yari_modifier = {
+	martial = 1
+	prowess = 15
+	monthly_prestige = 0.2
+}
+
+# Japanese Books
+
+the_diary_of_fujiwara_no_michinaga_modifier = {
+	diplomacy = 1
+	stewardship = 1
+	learning = 2
+}
+
+the_diary_of_fujiwara_no_yorinaga_modifier = {
+	diplomacy = 1
+	learning = 2
+}
+
+the_diary_of_kujo_kanezane_modifier = {
+	stewardship = 1
+	learning = 2
+}
+
+the_diary_of_taira_no_nobunori_modifier = {
+	stewardship = 1
+	learning = 1
+}
+
+the_diary_of_fujiwara_no_sadaie_modifier = {
+	diplomacy = 1
+	learning = 1
+}
+
+the_tale_of_genji_modifier = {
+	diplomacy = 1
+	learning = 2
+	attraction_opinion = 10
+}
+
+the_tale_of_ise_modifier = {
+	stewardship = 1
+	learning = 2
+	attraction_opinion = 10
+}
+
+the_diary_of_murasaki_shikibu_modifier = {
+	diplomacy = 1
+	learning = 2
+}
+
+the_diary_of_izumi_shikibu_modifier = {
+	stewardship = 1
+	learning = 2
+}
+
+the_diary_of_go_fukakusain_no_nijo_modifier = {
+	learning = 1
+	attraction_opinion = 10
+}
+
+the_diary_of_hanazono_emperor_modifier = {
+	stewardship = 1
+	learning = 1
+}
+
+admonishment_to_prince_modifier = {
+	diplomacy = 1
+	stewardship = 1
+}
+
+manyoshu_modifier = {
+	diplomacy = 1
+	learning = 2
+	attraction_opinion = 10
+}
+
+kokin_wakashu_modifier = {
+	diplomacy = 1
+	learning = 2
+	attraction_opinion = 10
+}
+
+gosen_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shui_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+go_shui_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+kinyo_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shika_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+senzai_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shin_kokin_wakashu_modifier = {
+	diplomacy = 1
+	learning = 2
+	attraction_opinion = 10
+}
+
+shin_chokusen_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shoku_gosen_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shoku_kokin_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shoku_shui_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shin_gosen_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+gyokuyo_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shoku_senzai_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shoku_goshui_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+fuga_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shin_senzai_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shin_shui_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shin_goshui_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}
+
+shin_shokukokin_wakashu_modifier = {
+	learning = 1
+	attraction_opinion = 5
+}

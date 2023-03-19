@@ -1,0 +1,145 @@
+c_nmih_hita = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hita1={
+				set_title_name=b_nmih_hita1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_hita1={
+				set_title_name=B_NMIH_HITA1_1100
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	230.1.1={
+		holder=10290065 # Itsuma
+		liege="d_nmih_chikugo"
+	}
+	258.1.1={
+		liege=0
+	}
+	295.1.1={
+		holder=10290066 # Hisatsu
+	}
+	1180.1.1={
+		liege="d_nmih_bungo"
+		holder=12780502 # Hita Nagahide
+	}
+	1205.1.1={
+		liege="d_nmih_bungo"
+		holder=12780503 # Hita Naganobu
+	}
+	1235.1.1={
+		holder=12780504 # Hita Nagamoto
+	}
+	1275.1.1={
+		holder=12780505 # Hita Nagasuke
+	}
+	1295.1.1={
+		holder=10064007 # Otomo Chikatoki
+	}
+	1295.7.5={
+		holder=10064008 # Otomo Sadachika
+	}
+	1311.9.2={
+		holder=10064009 # Otomo Sadamune
+	}
+	1333.7.4={
+		liege="d_nmih_bungo"
+		holder=10064010 # Otomo Sadayoshi
+	}
+	1334.1.9={
+		liege="d_nmih_higo"
+	}
+	1345.1.1={
+		liege="d_nmih_bungo"
+	}
+	1348.1.1={
+		holder=10064014 # Otomo Ujitoki
+	}
+	1364.1.1={
+		holder=10064015 # Otomo Ujitsugu
+	}
+	1368.4.8={
+		liege="k_nmih_seisei_shogun"
+	}
+	1392.11.12={
+		liege="d_nmih_bungo"
+		holder=10064016 # Otomo Chikayo
+	}
+	1401.1.1={
+		liege="d_nmih_bungo"
+		holder=10064017 # Otomo Chikaaki
+	}
+	1423.1.1={
+		holder=10064018 # Otomo Mochinao
+	}
+	1431.1.1={
+		holder=10064021 # Otomo Chikatsuna
+	}
+	1439.1.1={
+		holder=10064020 # Otomo Chikataka
+	}
+	1444.1.1={
+		holder=10064020 # Otomo Chikashige
+	}
+	1476.1.1={
+		holder=10064022 # Otomo Masachika
+	}
+	1484.1.1={
+		holder=10064024 # Otomo Yoshisuke
+	}
+	1496.7.7={
+		holder=10064022 # Otomo Masachika
+	}
+	1496.7.20={
+		holder=10064023 # Otomo Chikaharu
+	}
+	1497.1.1={
+		holder=10064001 # Otomo Yoshinaga
+	}
+	1515.1.1={
+		holder=10064000 # Otomo Yoshiaki
+	}
+	1550.2.12={
+		holder=10064002 # Otomo Yoshishige(Sorin)
+	}
+	1587.1.11={
+		liege="d_nmih_hyuga"
+		holder=10060045 # Shimazu Yoshihiro
+	}
+	1587.4.12={
+		liege="d_nmih_bungo"
+		holder=10064002 # Otomo Yoshishige(Sorin)
+	}
+	1587.6.11={
+		holder=10064025 # Otomo Yoshimune
+	}
+	1593.5.21={
+		liege="e_nmih_japan"
+		holder=10094700 # Mori Takamasa
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10096902 # Ogawa Mitsuuji
+	}
+	1610.10.8={
+		holder=10058932 # Kurushima Nagachika
+	}
+	1612.4.15={
+		holder=10058944 # Kurushima Michiharu
+	}
+}

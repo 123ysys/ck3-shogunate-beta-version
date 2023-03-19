@@ -1,0 +1,118 @@
+c_nmih_onsen = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_onsen1={
+				set_title_name=b_nmih_onsen3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_onsen1={
+				set_title_name=b_nmih_onsen9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_onsen1={
+				set_title_name=B_NMIH_ONSEN9_1331
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	300.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1480.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+		liege="d_nmih_iyo"
+	}
+	1180.1.1={
+		liege="d_nmih_iyo"
+		holder=12691005 # Kono Michikiyo
+	}
+	1181.2.7={
+		holder=12691010 # Kono Michinobu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_central_iyo"
+		holder=12691024 # Kono Michihisa
+	}
+	1267.1.1={
+		holder=12691031 # Kono Michitsugu
+	}
+	1270.1.1={
+		holder=12691040 # Kono Michiari
+	}
+	1311.8.28={
+		holder=10058628 # Kono Michimori
+	}
+	1333.7.4={
+		liege="d_nmih_iyo"
+		holder=12691907 # Tokuno Michitsuna
+	}
+	1335.1.1={
+		liege=0
+		holder=10132304 # Hojo Shigetoki
+	}
+	1335.2.1={
+		liege="d_nmih_iyo"
+		holder=12691907 # Tokuno Michitsuna
+	}
+	1336.7.22={
+		liege="d_nmih_iyo"
+		holder=10058628 # Kono Michimori
+	}
+	1364.12.19={
+		liege="e_nmih_nancho"
+		holder=10058622 # Kono Michitaka
+	}
+	1379.2.1={
+		liege="d_nmih_iyo"
+	}
+	1379.12.23={
+		liege="d_nmih_iyo"
+		holder=10058616 # Kono Michiyoshi
+	}
+	1394.12.9={
+		holder=10058617 # Kono Michiyuki
+	}
+	1414.9.1={
+		holder=10058615 # Kono Michihisa
+	}
+	1435.7.24={
+		holder=10058604 # Kono Norimichi
+	}
+	1500.2.19={
+		holder=10058601 # Kono Michinobu
+	}
+	1519.1.1={
+		holder=10058600 # Kono Michinao
+	}
+	1553.1.1={
+		holder=10058603 # Kono Michinobu
+	}
+	1581.1.1={
+		holder=10058605 # Kono Michinao
+	}
+	1585.8.10={
+		holder=10056016 # Kobayakawa Takakage
+		liege="k_nmih_western_chugoku"
+	}
+	1587.5.18={
+		holder=10029720 # Fukushima Masanori
+		liege="e_nmih_japan"
+	}
+	1595.8.20={
+		holder=10029730 # Kato Yoshiaki
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="d_nmih_central_iyo"
+	}
+}

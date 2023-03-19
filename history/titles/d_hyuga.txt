@@ -1,0 +1,79 @@
+d_nmih_hyuga = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege=0
+		holder=12810720 # Tsuchimochi Myokyu
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1203.10.8={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1261.11.26={
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1264.9.12={
+		holder=10131714 # Hojo [Shiota] Yoshimasa
+	}
+	1277.5.8={
+		holder=10131878 # Hojo [Akahashi] Yoshimune
+	}
+	1277.9.16={
+		holder=10132044 # Hojo [Akahashi] Hisatoki
+	}
+	1321.7.18={
+		holder=10132200 # Hojo Hidetoki
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.4.13={
+		holder=10048154 # Hatakeyama Tadaaki
+	}
+	1350.12.20={
+		liege = 0
+		liege="k_nmih_western_chugoku"
+	}
+	1358.11.1={
+		liege=0
+		holder=0 # 
+	}
+	1550.1.1={
+		liege=0
+		holder=10060503 # Ito Yoshisuke (De facto)
+	}
+	1577.12.26={
+		liege=0
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1578.12.10={
+		liege="k_nmih_southern_kyushu"
+		holder=10060047 # Shimazu Iehisa
+	}
+	1587.5.18={
+		holder=0
+	}
+}

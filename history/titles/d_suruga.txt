@@ -1,0 +1,142 @@
+d_nmih_suruga = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0983.1.1={
+		holder=11003330 # Fujiwara Koretaka {Suruga no kami}
+	}
+	1009.2.4={
+		holder=0
+	}
+	1071.1.1={
+		holder=11003042 # Fujiwara Saneto {Suruga no kami}
+	}
+	1090.12.3={
+		holder=0 #  
+	}
+	1179.2.15={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12390103 # Tachibana Toshige {Suruga Mokudai}
+	}
+	1180.11.3={
+		holder=0 # Battle of Fujikawa
+	}
+	1180.11.9={
+		liege=0
+		liege = 0
+		holder=10120111 # Takeda Nobuyoshi
+	}
+	1181.4.22={
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1184.7.25={
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1263.12.24={
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1338.1.1={
+		holder=12395214 # Imagawa Norikuni
+	}
+	1353.8.1={
+		holder=12395220 # Imagawa Noriuji
+	}
+	1369.5.21={
+		holder=12395226 # Imagawa Yasunori
+	}
+	1409.11.3={
+		holder=12395230 # Imagawa Norimasa
+	}
+	1433.6.14={
+		holder=12395236 # Imagawa Noritada
+	}
+	1461.1.1={
+		liege=0
+		holder=10023000 # Imagawa Yoshitada
+	}
+	1467.6.27={ # Onin war
+		liege = 0 # Onin War
+	}
+	1476.3.1={
+		holder=10023003 # Imagawa Ujichika
+	}
+	1526.8.1={
+		holder=10023006 # Imagawa Ujiteru
+	}
+	1536.4.7={
+		holder=10023010 # Imagawa Yoshimoto
+	}
+	1560.6.12={
+		holder=10023017 # Imagawa Ujizane
+	}
+	1569.5.17={
+		holder=10020010 # Takeda Shingen
+	}
+	1570.1.1={
+		liege=k_nmih_tokai
+		holder=10020070 # Yamagata Masakage
+	}
+	1575.6.29={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1575.7.1={
+		holder=10020056 # Anayama Nobutada
+	}
+	1582.4.3={
+		liege=e_nmih_japan
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege=k_nmih_tokai
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1590.7.25={ 
+		holder=10096801 # Nakamura Kazuuji
+		liege="k_nmih_chubu"
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1600.8.25={ 
+		holder=10096803 # Nakamura Kazutada
+	}
+	1609.12.27={
+		liege="e_nmih_japan"
+		holder=10024049 # Tokugawa Yorinobu
+	}
+}

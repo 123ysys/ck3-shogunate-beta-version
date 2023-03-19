@@ -1,0 +1,41 @@
+d_nmih_hakata = {
+	1.1.1={
+		government = republic_government
+	}
+	1000.1.1={
+	}
+	1400.1.1={
+		liege=k_nmih_western_chugoku
+	}
+	1410.1.1={
+		holder=10067863 # Fujiwara Sokin
+	}
+	1455.1.1={
+		holder=10067862 # So Seishun
+	}
+	1500.1.1={
+		holder=10067801 # Shimai Kazue no Suke Shigeyoshi
+	}
+	1530.1.1={
+		holder=10067830 # Kamiya Jutei
+	}
+	1546.10.22={
+		holder=10067890 # Suetsugu Kozen
+	}
+	1551.11.1={
+		liege=0
+	}
+	1560.1.1={
+		liege="k_nmih_kyushu_tandai"
+		holder=10067802 # Shimai Soshitsu
+	}
+	1587.4.12={
+		liege="e_nmih_japan"
+	}
+	1592.1.1={
+		holder=10067837 # Kamiya Sotan
+	}
+	1603.3.24={
+		holder=0
+	}
+}

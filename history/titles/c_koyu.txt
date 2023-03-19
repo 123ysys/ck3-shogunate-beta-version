@@ -1,0 +1,110 @@
+c_nmih_koyu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_koyu1={
+				set_title_name=b_nmih_koyu9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_koyu1={
+				set_title_name=b_nmih_koyu9
+			}
+		}
+	}
+	1335.1.1={
+		effect={
+			title:b_nmih_koyu1={
+				set_title_name=b_nmih_koyu7
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1335.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi a.k.a Kukuchihiko
+	}
+	1180.1.1={
+		liege="d_nmih_hyuga"
+		holder=12810720 # Tsuchimochi Eimyo
+	}
+	1198.1.1={
+		liege="d_nmih_izu"
+		holder=10130080 # Ito Suketoki
+	}
+	1238.1.1={
+		liege="d_nmih_iwami"
+		holder=10130080 # Ito Suketoki
+	}
+	1252.7.24={
+		holder=10060538 # Ito Sukemitsu
+	}
+	1275.12.1={
+		liege="d_nmih_izu"
+		holder=10060538 # Ito Sukemitsu
+	}
+	1290.1.1={
+		holder=10060537 # Ito Sukemune
+	}
+	1333.7.4={
+		liege="d_nmih_hyuga"
+		holder=10060535 # Ito Sukemochi
+	}
+	1348.6.1={
+		holder=10060534 # Ito Sukeshige
+	}
+	1350.12.20={
+		liege="d_nmih_osumi"
+	}
+	1378.1.1={
+		holder=10060509 # Ito Sukeyasu
+	}
+	1394.1.1={
+		liege=0
+	}
+	1427.1.1={
+		holder=10060508 # Ito Sukeharu
+	}
+	1444.6.26={
+		holder=10060507 # Ito Suketaka
+	}
+	1470.8.1={
+		holder=10060501 # Ito Tadasuke
+	}
+	1523.12.24={
+		holder=10060502 # Ito Sukemitsu
+	}
+	1533.9.16={
+		holder=10060500 # Ito Sukeyoshi
+	}
+	1536.6.26={
+		holder=10060503 # Ito Yoshisuke
+	}
+	1577.12.26={
+		liege="d_nmih_hyuga"
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1578.1.1={
+		holder=10060047 # Shimazu Iehisa
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10067507 # Akizuki Tanenaga
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.7.19={
+		holder=10067516 # Akizuki Taneharu
+	}
+}

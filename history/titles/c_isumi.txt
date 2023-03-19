@@ -1,0 +1,135 @@
+c_nmih_isumi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_isumi1={
+				set_title_name=b_nmih_isumi9
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_isumi1={
+				set_title_name=b_nmih_isumi1
+			}
+		}
+	}
+	1590.7.25={
+		effect={
+			title:b_nmih_isumi1={
+				set_title_name=b_nmih_isumi2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 10 }
+	1521.1.1 = { change_development_level = 30 }
+	1590.7.25 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_kazusa"
+	}
+	1165.1.1={
+		liege=0
+		holder=12155400 # Iho Tsunenaka
+	}
+	1180.10.23={
+		liege="d_nmih_kazusa" # Kazusa Hirotsune
+		holder=12155017 # Kazusa Hirotsune
+	}
+	1184.2.3={
+		liege="d_nmih_kazusa"
+		holder=12211501 # Wada Yoshimori
+	}
+	1213.5.24={
+		liege="d_nmih_boshu"
+		holder=12211043 # Miura Taneyoshi
+	}
+	1221.6.6={
+		liege="d_nmih_kazusa"
+		holder=12150131 # Sakai Tsunehide
+	}
+	1235.1.1={
+		holder=12151200 # Sakai Hidetane
+	}
+	1247.7.10={
+		liege="d_nmih_kazusa"
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.8.1={
+		liege="d_nmih_kazusa"
+		holder=12139534 # Kou Shigeuji
+	}
+	1289.2.27={
+		holder=12139539 # Kou Morouji
+	}
+	1295.1.1={
+		holder=12139542 # Kou Moroshige
+	}
+	1322.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1335.8.14={
+		liege="d_nmih_kazusa"
+		holder=12139568 # Kou Shigemochi
+	}
+	1336.7.22={
+		holder=12139551 # Kou Morofuyu
+	}
+	1338.1.16={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		holder=10044204 # Kyogoku Hidetsuna
+	}
+	1352.6.1={
+		liege="d_nmih_shimousa"
+		holder=12151501 # Aihara Kiyotane
+	}
+	1364.4.1={
+		liege="d_nmih_kazusa"
+		holder=12187025 # Iwamatsu Yoshimasa
+	}
+	1364.12.1={
+		holder=10017046 # Uesugi Tomofusa
+	}
+	1370.1.1={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1400.1.1={
+		holder=10020376 # Toki Yorimoto
+	}
+	1417.1.27={
+		liege=0
+	}
+	1440.1.1={
+		holder=10020377 # Toki Yorifusa
+	}
+	1480.1.1={
+		holder=10020378 # Toki Yorisada
+	}
+	1510.1.1={
+		liege="d_nmih_boshu" # Satomi expanded in Kazusa
+	}
+	1520.1.1={
+		holder=10020371
+	}
+	1565.1.1={
+		liege="k_nmih_western_kanto" # Hojo expands into Kazusa
+	}
+	1579.1.1={
+		holder=10020385 # Toki Yoriharu
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024803 # Honda Tadakatsu
+	}
+	1603.3.24={
+		liege="d_nmih_kazusa"
+		holder=10024807 # Honda Tadatomo
+	}
+	1615.6.3={
+		holder=10024811 # Honda Masatomo
+	}
+}

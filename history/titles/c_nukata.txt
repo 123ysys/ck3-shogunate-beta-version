@@ -1,0 +1,158 @@
+c_nmih_nukata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nukata1={
+				set_title_name=b_nmih_nukata9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nukata1={
+				set_title_name=b_nmih_nukata5
+			}
+		}
+	}
+	1401.1.1={
+		effect={
+			title:b_nmih_nukata1={
+				set_title_name=b_nmih_nukata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+	1401.1.1 = { change_development_level = 20 }
+	1440.1.1 = { change_development_level = 30 }
+	1564.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_mikawa"
+	}
+	1155.12.27={
+		holder=11006850 # Fujiwara Noritada
+	}
+	1161.1.1={
+		holder=11006852 # Fujiwara Norimasa
+	}
+	1170.1.1={
+		holder=11006850 # Fujiwara Noritada
+	}
+	1178.1.1={
+		liege="d_nmih_owari"
+		holder=11006865 # Fujiwara Tadakane
+	}
+	1181.1.1={
+		liege="d_nmih_mikawa"
+		holder=11006852 # Fujiwara Norimasa
+	}
+	1185.1.1={
+		liege="d_nmih_owari"
+		holder=11006870 # Fujiwara Noritsune
+	}
+	1200.1.1={
+		holder=11006865 # Fujiwara Tadakane
+	}
+	1210.1.1={
+		holder=11006980 # Fujiwara Yasunori
+	}
+	1220.1.1={
+		holder=11006981 # Fujiwara Norinao
+	}
+	1221.7.6={
+		liege="d_nmih_mikawa"
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1221.8.1={
+		holder=10040502 # Hosokawa Yoshisue
+	}
+	1270.1.1={
+		holder=10040505 # Hosokawa Toshiuji
+	}
+	1310.1.1={
+		holder=10040507 # Hosokawa Kimiyori
+	}
+	1330.1.1={
+		liege="d_nmih_mikawa"
+		holder=10040509 # Hosokawa Kazuuji
+	}
+	1336.3.1={
+		liege="d_nmih_mikawa"
+		holder=12415000 # Matsudaira Nobumori
+	}
+	1360.1.1={
+		holder=12415001 # Matsudaira Nobushige
+	}
+	1395.1.1={
+		holder=12415100 # Matsudaira Chikauji
+	}
+	1421.4.1={
+		holder=10024005 # Matsudaira Nobumitsu
+	}
+	1440.1.1={
+		liege="e_nmih_japan"
+	}
+	1478.1.1={
+		liege=0
+	}
+	1488.8.29={
+		holder=10024004 # Matsudaira Chikatada
+	}
+	1496.1.1={
+		holder=10024003 # Matsudaira Nagachika
+	}
+	1508.1.1={
+		holder=10024001 # Matsudaira Nobutada
+	}
+	1523.1.1={
+		holder=10024000 # Matsudaira Kiyoyasu
+	}
+	1535.12.29={
+		liege=0 # 
+		holder=10024008 # Matsudaira Nobusada
+	}
+	1537.6.8={
+		liege="d_nmih_suruga" # 23002 Imagawa Yoshimoto
+		holder=10024002 # Matsudaira Hirotada
+	}
+	1549.4.3={
+		liege="d_nmih_mikawa" # Imagawa Yoshimoto
+		holder=10024006 # Matsudaira Motonobu
+	}
+	1560.6.12={
+		liege=0 # Independence
+		holder=10024006 # Matsudaira Motoyasu
+	}
+	1566.1.1={
+		liege="d_nmih_mikawa" # 24006 Tokugawa Ieyasu
+	}
+	1570.1.1={
+		holder=10024027 # Matsudaira Nobuyasu
+	}
+	1579.10.5={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1579.11.1={
+		holder=10024158 # Ishikawa Kazumasa
+	}
+	1585.12.23={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1590.7.25={ 
+		liege="d_nmih_western_mikawa"
+		holder=10043420 # Tanaka Yoshimasa
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10201401 # Honda Yasushige
+	}
+	1611.5.4={
+		holder=10201402 # Honda Yasunori
+	}
+}

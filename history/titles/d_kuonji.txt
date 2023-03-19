@@ -1,0 +1,80 @@
+d_nmih_kuonji = {
+	1.1.1={
+		government = theocracy_government
+	}
+	100.1.1={
+	}
+	1282.1.1={
+		liege=0
+		holder=12450000 # Kuonji Nikko
+	}
+	1289.1.1={
+		holder=12450001 # Kuonji Niko
+	}
+	1313.1.1={
+		holder=12450002 # Kuonji Nisshin
+	}
+	1330.1.1={
+		holder=12450003 # Kuonji Nichizen
+	}
+	1331.1.1={
+		holder=12450004 # Kuonji Nichidai
+	}
+	1366.1.1={
+		holder=12450005 # Kuonji Nichiin
+	}
+	1373.1.1={
+		holder=12450006 # Kuonji Nichiei
+	}
+	1400.1.1={
+		holder=12450007 # Kuonji Nichioku
+	}
+	1422.1.1={
+		holder=12450008 # Kuonji Nichigaku
+	}
+	1459.1.1={
+		holder=12450009 # Kuonji Nichien
+	}
+	1462.1.1={
+		holder=12450010 # Kuonji Nitcho
+	}
+	1500.1.1={
+		holder=12450011 # Kuonji Nichii
+	}
+	1519.1.1={
+		holder=12450012 # Kuonji Nichiden
+	}
+	1538.1.1={
+		holder=12450013 # Kuonji Nichikyo
+	}
+	1559.1.1={
+		holder=12450014 # Kuonji Nichijo
+	}
+	1577.1.1={
+		holder=12450015 # Kuonji Nichisei
+	}
+	1578.1.1={
+		holder=12450016 # Kuonji Nichishin
+	}
+	1592.1.1={
+		holder=12450017 # Kuonji Nichiken
+	}
+	1599.1.1={
+		holder=12450018 # Kuonji Nichido
+	}
+	1601.1.1={
+		holder=12450019 # Kuonji Nichicho
+	}
+	1602.1.1={
+		holder=12450020 # Kuonji Nichiken
+	}
+	1604.1.1={
+		holder=12450021 # Kuonji Nichien
+	}
+	1608.1.1={
+		holder=12450022 # Kuonji Nichishuku
+	}
+	1615.1.1={
+		holder=12450023 # Kuonji Nichiyo
+	}
+}

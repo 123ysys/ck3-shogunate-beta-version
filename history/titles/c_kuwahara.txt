@@ -1,0 +1,114 @@
+c_nmih_kuwahara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kuwahara1={
+				set_title_name=b_nmih_kuwahara1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kuwahara1={
+				set_title_name=b_nmih_kuwahara9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1486.1.1 = { change_development_level = 30 }
+	1574.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	130.1.1={
+		holder=10290303 # Hishimochi
+	}
+	170.1.1={
+		holder=10290304 # Okuchi
+	}
+	210.1.1={
+		holder=10290305 # Sonobe
+	}
+	260.1.1={
+		holder=10290306 # Sutaki
+	}
+	1180.1.1={
+		liege=0
+		holder=10060236 # Gamo Tanekiyo
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_osumi"
+		holder=10060236 # Gamo Tanekiyo
+	}
+	1190.1.1={
+		holder=10060231 # Gamo Kiyonao
+	}
+	1225.1.1={
+		holder=10060229 # Gamo Kiyoshige
+	}
+	1250.1.1={
+		holder=10060228 # Gamo Kiyotsugu
+	}
+	1270.1.1={
+		holder=10060226 # Gamo Kiyoshige
+	}
+	1280.1.1={
+		holder=10060224 # Gamo Munekiyo
+	}
+	1300.1.1={
+		holder=10060223 # Gamo Naokiyo
+	}
+	1330.1.1={
+		holder=10060222 # Gamo Kiyotane
+	}
+	1333.7.4={
+		liege="d_nmih_hyuga"
+	}
+	1357.2.24={
+		liege="d_nmih_osumi"
+	}
+	1370.1.1={
+		holder=10060215 # Gamo Kiyofuyu
+	}
+	1390.1.1={
+		liege="d_nmih_osumi"
+		holder=10060207 # Gamo Kiyohiro
+	}
+	1420.1.1={
+		holder=10060206 # Gamo Tadakiyo
+	}
+	1451.1.1={
+		holder=10060205 # Gamo Hisakiyo
+	}
+	1455.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060204 # Gamo Nobukiyo
+	}
+	1510.1.1={
+		holder=10060201 # Gamo Mitsukiyo
+	}
+	1521.1.1={
+		holder=10060200 # Gamo Shigekiyo
+	}
+	1527.1.1={
+		liege=0
+	}
+	1550.1.1={
+		holder=10060208 # Gamo Norikiyo
+	}
+	1557.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060000 # Shimazu Takahisa
+	}
+	1557.1.2={
+		holder=10060045 # Shimazu Yoshihiro
+	}
+	1587.5.18={
+		liege="d_nmih_osumi"
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+	}
+}

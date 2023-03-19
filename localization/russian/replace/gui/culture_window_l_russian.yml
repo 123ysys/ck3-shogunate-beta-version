@@ -1,0 +1,13 @@
+﻿l_russian:
+ CULTURE_WINDOW_GROUPS:1 " относится к культурной группе [CultureGroup.GetName|l]"
+ INNOVATION_GAIN_BREAKDOWN_DEVELOPMENT:0 "Среднее [development|El] графств с культурой [CULTURE.GetNameNoTooltip|l]"
+ INNOVATION_CHANCE_BREAKDOWN_EXPOSURE_TYPE_BORDERS:0 "[exposure|E] #weak  (граничит с #L культурой [CULTURE.GetName|l]#!)#!"
+ INNOVATION_CHANCE_BREAKDOWN_EXPOSURE_TYPE_REALM:0 "[exposure|E] #weak (общая [realm|El] с #L [CULTURE.GetName|l]#! культурой)#!"
+ INNOVATION_CHANCE_BREAKDOWN_EXPOSURE_TYPE_RELIGION:0 "[exposure|E] #weak (общая [religion|El] с #L [CULTURE.GetName|l]#! культурой)#!"
+ CULTURE_COOLTIP_CLICK:0 "#I Нажмите, чтобы перейти к культуре [Culture.GetNameNoTooltip]#!"
+ CULTURE_CHARACTER_WINDOW:0 "[Culture.GetNameNoTooltip]"
+ CULTURE_WINDOW_CULTURE:1 "Культура [Culture.GetNameNoTooltip]"
+ CULTURE_WINDOW_INNOVATIONS:0 "[innovations|El] [Culture.GetNameNoTooltip]"
+ CULTURE_WINDOW_MY_CULTURE_INFO:1 "#weak У вас в державе есть ($COUNT|V$) графства с культурой [CULTURE.GetNameNoTooltip].#!"
+ CULTURE_WINDOW_CULTURE_HEAD_INFO:0 "#weak Правитель, принадлежащий к этой культуре и владеющий наибольшим количеством ($COUNT|V$) [Concept( 'counties', 'графств' )|El] с культурой [CULTURE.GetNameNoTooltip] #!"
+ CULTURE_VIEW_HERITAGE_TEXT:1 "[CulturePillar.GetNameNoTooltip] наследие"

@@ -1,0 +1,186 @@
+c_nmih_aiko = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_aiko1={
+				set_title_name=b_nmih_aiko9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_aiko1={
+				set_title_name=b_nmih_aiko9
+			}
+		}
+	}
+	1221.8.1={
+		effect={
+			title:b_nmih_aiko1={
+				set_title_name=B_NMIH_AIKO9_1221
+			}
+		}
+	}
+	1439.3.24={
+		effect={
+			title:b_nmih_aiko1={
+				set_title_name=B_NMIH_AIKO9_1439
+			}
+		}
+	}
+	1494.10.22={
+		effect={
+			title:b_nmih_aiko1={
+				set_title_name=B_NMIH_AIKO9_1494
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 20 }
+	1250.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_sagami"
+	}
+	1060.1.1={
+		holder=12219000 # Saeki Tsunenori
+	}
+	1077.1.1={
+		holder=12219001 # Hatano Tsunehide
+	}
+	1087.1.1={
+		holder=12219005 # Hatano Hideto
+	}
+	1107.1.1={
+		holder=12219008 # Hatano Toyoshi
+	}
+	1137.1.1={
+		holder=12219010 # Hatano Yoshimichi
+	}
+	1167.1.1={
+		holder=12219020 # Hatano Yoshitsune
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1180.11.6={
+		holder=12219029 # Hatano Yoshikage
+	}
+	1184.3.4={
+		liege="e_nmih_japan" # Minamoto Yoritomo
+	}
+	1220.1.1={
+		liege="d_nmih_sagami"
+		holder=12219045 # Hatano Tsunetomo
+	}
+	1240.1.1={
+		holder=12219205 # Matsuda Masatsuna
+	}
+	1257.1.1={
+		holder=12219210 # Matsuda Masatada
+	}
+	1287.1.1={
+		holder=12219211 # Matsuda Tsunayasu
+	}
+	1288.1.1={
+		holder=12219215 # Matsuda Masatsune
+	}
+	1308.1.1={
+		liege="e_nmih_japan"
+		holder=10132119 # Hojo [Osaragi] Sadanao
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+		holder=10132322 # Hojo Takakuni
+	}
+	1335.9.6={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040002 # Ashikaga Yoshiakira
+	}
+	1349.10.21={
+		holder=10040067 # Ashikaga Motouji
+	}
+	1351.8.23={
+		liege="k_nmih_western_kanto"
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1353.7.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10017033 # Uesugi Akisada
+	}
+	1367.5.25={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1380.1.1={
+		holder=10017035 # Uesugi Ujisada
+	}
+	1416.10.28={
+		holder=10017036 # Uesugi Mochisada
+	}
+	1419.6.14={
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1439.3.24={
+		liege="d_nmih_sagami"
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1449.1.1={
+		holder=10017038 # Uesugi Akifusa
+	}
+	1455.2.10={
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1467.10.4={
+		holder=10017042 # Uesugi Masazane
+	}
+	1473.12.22={
+		holder=10017040 # Uesugi Sadamasa
+	}
+	1494.10.22={
+		holder=10016502 # Miura Yoshiatsu
+	}
+	1512.1.1={
+		liege=0
+		holder=10016001 # Hojo Soun
+	}	
+	1519.9.8={
+		liege="d_nmih_sagami"
+		holder=10016003 # Hojo Genan
+	}
+	1589.12.8={
+		holder=10016050 # Hojo Ujitaka
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10092117 # Naito Kiyonari
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+	}
+	1608.11.27={
+		holder=10092119 # Naito Kiyotsugu
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

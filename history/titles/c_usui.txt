@@ -1,0 +1,151 @@
+c_nmih_usui = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_usui1={
+				set_title_name=b_nmih_usui2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_usui1={
+				set_title_name=b_nmih_usui3
+			}
+		}
+	}
+	1455.1.1={
+		effect={
+			title:b_nmih_usui1={
+				set_title_name=b_nmih_usui1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1455.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1170.1.1={
+		liege="d_nmih_kozuke"
+		holder=12186000 # Satomi Yoshinari
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+	}
+	1234.12.20={
+		holder=12186005 # Satomi Yoshimoto
+	}
+	1258.8.15={
+		holder=12186010 # Satomi Ujiyoshi
+	}
+	1260.1.1={
+		holder=12186015 # Satomi Shigeyoshi
+	}
+	1300.1.1={
+		holder=12186020 # Satomi Tokiyoshi
+	}
+	1333.6.17={
+		liege="d_nmih_nitta"
+	}
+	1335.8.7={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+		holder=10132269 # Hojo Yasuie
+	}
+	1335.9.6={
+		liege="d_nmih_nitta"
+		holder=12186020 # Satomi Tokiyoshi
+	}
+	1338.8.17={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1367.5.25={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1371.1.1={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017016 # Uesugi Norisada
+	}
+	1400.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12186050 # Satomi Iekane
+	}
+	1428.9.18={
+		holder=12186055 # Satomi Iemoto
+	}
+	1441.4.16={
+		liege="d_nmih_kozuke"
+		holder=10017406 # Annaka Saemon
+	}
+	1455.1.1={
+		liege="d_nmih_kozuke"
+		holder=10017400 # Annaka Akishige
+	}
+	1500.1.1={
+		holder=10017401 # Annaka Nagashige
+	}
+	1529.1.1={
+		holder=10017402 # Annaka Shigeshige
+	}
+	1552.3.1={
+		liege="k_nmih_western_kanto" # 16004 Hojo Ujiyasu
+	}
+	1560.11.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1561.1.1={
+		holder=10017403 # Annaka Kageshige
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+	}
+	1562.1.1={
+		liege=0
+	}
+	1562.9.1={
+		liege="d_nmih_kai" # Takeda Shingen
+	}
+	1575.5.21={
+		holder=10017405 # Annaka Hisashige
+	}
+	1582.4.3={
+		liege=0
+	}
+	1582.04.15={
+		liege="d_nmih_kozuke" # 29330 Takigawa Kazumasu
+	}
+	1590.7.25={
+		holder=10023306 # Ii Naomasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+	1615.1.1={
+		liege="e_nmih_japan"
+		holder=10023312 # Ii Naokatsu
+	}
+}

@@ -1,0 +1,16 @@
+war = {
+	name = "war_1335_nakasendai_rebellion"
+	start_date = 1335.8.14
+	end_date = 1335.9.6
+	targeted_titles = {
+		e_nmih_japan d_nmih_sagami c_nmih_ebara c_nmih_kamakura c_nmih_kisai c_nmih_kodama c_nmih_shimo_adachi c_nmih_toshima c_nmih_aiko c_nmih_tsukui c_nmih_kanra c_nmih_midono c_nmih_usui c_nmih_agatsuma c_nmih_naka_niikawa c_nmih_kami_niikawa
+	}
+	casus_belli = event_claim_cb
+	claimant = 12139028 # Ashikaga Takauji
+	attackers = {
+		12139028	# Ashikaga Takauji
+	}
+	defenders = {
+		10132313	# Hojo Tokiyuki
+	}
+}

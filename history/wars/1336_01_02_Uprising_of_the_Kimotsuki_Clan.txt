@@ -1,0 +1,15 @@
+war = {
+	name = "war_1336_uprising_of_the_kimotsuki_clan"
+	start_date = 1336.1.2
+	end_date = 1336.7.22
+	targeted_titles = {
+		d_nmih_satsuma
+	}
+	casus_belli = event_nanbokucho_invasion_war_duchy
+	attackers = {
+		10060145	# Kimotsuki Kaneshige
+	}
+	defenders = {
+		10060031	# Shimazu Sadahisa
+	}
+}

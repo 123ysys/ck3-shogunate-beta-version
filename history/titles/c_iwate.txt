@@ -1,0 +1,141 @@
+c_nmih_iwate = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iwate1={
+				set_title_name=b_nmih_iwate3
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_iwate1={
+				set_title_name=b_nmih_iwate9
+			}
+		}
+	}
+	1189.11.15={
+		effect={
+			title:b_nmih_iwate1={
+				set_title_name=b_nmih_iwate3
+			}
+		}
+	}
+	1335.1.1={
+		effect={
+			title:b_nmih_iwate1={
+				set_title_name=b_nmih_iwate1
+			}
+		}
+	}
+	1598.1.1={
+		effect={
+			title:b_nmih_iwate1={
+				set_title_name=b_nmih_iwate5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1189.11.15 = { change_development_level = 30 }
+	1335.1.1 = { change_development_level = 30 }
+	1598.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1088.1.1={
+		holder=12030000 # Fujiwara Kiyohira
+	}
+	1128.8.10={
+		holder=12030010 # Fujiwara Motohira
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1180.1.1={
+		liege="d_nmih_uzen"
+		holder=12031000 # Tozawa Hiramori
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_mutsu"
+		holder=10130055 # Kudo Yukimitsu
+	}
+	1190.1.1={ # Okawa Kaneto's rebellion
+		liege="d_nmih_tsugaru"
+		holder=12000011 # Okawa Kaneto
+	}
+	1190.4.16={ # End of Okawa Kaneto's rebellion
+		liege="d_nmih_mutsu"
+		holder=10130055 # Kudo Yukimitsu
+	}
+	1195.1.1={
+		holder=10130059 # Kudo Nagamitsu
+	}
+	1250.1.1={
+		holder=12041000 # Kudo Mitsutada
+	}
+	1290.1.1={
+		holder=12041001 # Kudo Mitsuie
+	}
+	1333.7.4={
+		liege=0
+	}
+	1334.1.1={
+		liege="d_nmih_mutsu"
+		holder=12040155 # Nanbu Moroyuki
+	}
+	1338.6.10={
+		holder=12040156 # Nanbu Masanaga
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+		holder=12139050 # Osaki Iekane
+	}
+	1356.7.11={
+		liege="k_nmih_oshu_tandai"
+		holder=10006217 # Osaki Tadamochi
+	}
+	1383.1.1={
+		holder=10006213 # Osaki Akimochi
+	}
+	1400.1.1={
+		holder=10006212 # Osaki Mitsuakira
+	}
+	1404.1.1={
+		holder=10006210 # Osaki Mitsumochi
+	}
+	1424.1.1={
+		holder=10006208 # Osaki Mochiakira
+	}
+	1441.1.1={
+		holder=10006207 # Osaki Norikane
+	}
+	1484.1.1={
+		liege=0
+		holder=10003801 # Shiba Akitaka
+	}
+	1549.1.1={
+		holder=10003802 # Shiba Tsuneaki
+	}
+	1559.1.1={
+		holder=10003805 # Shiba Akizane
+	}
+	1580.1.1={
+		holder=10003806 # Shiba Akinao
+	}
+	1588.1.1={
+		holder=10003154 # Nanbu Nobunao
+	}
+	1590.8.28={
+		liege="d_nmih_mutsu"
+	}
+	1599.11.12={
+		holder=10003156 # Nanbu Toshinao
+	}
+}

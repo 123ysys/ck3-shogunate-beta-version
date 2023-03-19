@@ -1,0 +1,11 @@
+war = {
+	name = "war_1600_aizu_campaign"
+	start_date = 1600.7.2
+	end_date = 1600.8.23
+	targeted_titles = {
+		k_nmih_southern_oshu
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10024006 } # Tokugawa Ieyasu
+	defenders = { 10032032 } # Uesugi Kagekatsu
+}

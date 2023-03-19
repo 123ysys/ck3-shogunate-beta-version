@@ -1,0 +1,48 @@
+d_nmih_uzen = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12030040 # Fujiwara [Hizume] Toshihira
+	}
+	1189.10.3={
+		liege=0
+		holder=0 # 
+	}
+	1189.11.15={
+		liege="e_nmih_japan"
+		holder=10220001 # Oe Hiromoto
+	}
+	1225.7.16={
+		holder=12221011 # Oe Tokihiro
+	}
+	1238.1.1={
+		holder=12221015 # Nagai Yasuhide
+	}
+	1254.1.11={
+		holder=12221021 # Nagai Tokihide
+	}
+	1290.1.1={
+		holder=12221025 # Nagai Munehide
+	}
+	1327.12.20={
+		holder=12221042 # Nagai Takafuyu
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=11007509 # Hamuro Mitsuaki
+	}
+	1336.1.1={
+		liege = 0
+		holder=0 # 
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+		holder=10000716 # Mogami Yoshiaki
+	}
+	1614.2.26={
+		holder=10000723 # Mogami Iechika
+	}
+}

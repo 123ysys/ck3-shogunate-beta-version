@@ -1,0 +1,122 @@
+c_nmih_masuta = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_masuta1={
+				set_title_name=b_nmih_masuta5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_masuta1={
+				set_title_name=b_nmih_masuta5
+			}
+		}
+	}
+	1206.1.1={
+		effect={
+			title:b_nmih_masuta1={
+				set_title_name=b_nmih_masuta1
+			}
+		}
+	}
+	1552.1.1={
+		effect={
+			title:b_nmih_masuta1={
+				set_title_name=B_NMIH_MASUTA1_1552
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1206.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_aki"
+	}
+	1180.1.1={
+		liege = "d_nmih_iyo"
+		holder=12660501 # Nuta Jiro
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="e_nmih_japan"
+		holder=12216100 # Dohi Toohira
+	}
+	1200.1.1={
+		holder=12216102 # Dohi Kagehira
+	}
+	1207.1.1={
+		holder=10056333 # Kobayakawa Shigehira
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_aki"
+	}
+	1264.3.14={
+		holder=10056330 # Kobayakawa Masahira
+	}
+	1298.8.26={
+		holder=10056329 # Kobayakawa Asahira
+	}
+	1333.7.4={
+		liege="d_nmih_aki"
+	}
+	1341.1.1={
+		holder=10056328 # Kobayakawa Nobuhira
+	}
+	1348.1.1={
+		liege="d_nmih_aki"
+		holder=10056327 # Kobayakawa Sadahira
+	}
+	1375.3.21={
+		holder=10056326 # Kobayakawa Haruhira
+	}
+	1402.2.9={
+		liege="e_nmih_japan"
+		holder=10056323 # Kobayakawa Norihira
+	}
+	1433.2.16={
+		liege="e_nmih_japan" #　/ Hokoshu (a military post in Muromachi Shogunate)
+		holder=10056314 #　Kobayakawa Hirohira
+	}
+	1467.6.27={ # Onin war
+		liege="d_nmih_aki"
+	}
+	1473.1.1={
+		holder=10056303 # Kobayakawa Takahira
+	}
+	1493.5.8={
+		liege=0
+	}
+	1499.5.26={
+		holder=10056302 # Kobayakawa Sukehira
+	}
+	1508.2.14={
+		holder=10056301 # Kobayakawa Okihira
+	}
+	1521.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1527.1.28={
+		holder=10056300 # Kobayakawa Masahira
+	}
+	1543.6.21={
+		holder=10056360 # Kobayakawa Shigehira
+	}
+	1551.1.1={
+		liege="d_nmih_aki"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1568.1.1={
+		liege="d_nmih_bingo"
+	}
+	1597.7.26={
+		liege="d_nmih_aki"
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="d_nmih_aki"
+		holder=10029720 # Fukushima Masanori
+	}
+}

@@ -1,0 +1,136 @@
+c_nmih_minami_murayama = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_minami_murayama1={
+				set_title_name=b_nmih_minami_murayama2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_minami_murayama1={
+				set_title_name=b_nmih_minami_murayama2
+			}
+		}
+	}
+	1375.1.1={
+		effect={
+			title:b_nmih_minami_murayama1={
+				set_title_name=b_nmih_minami_murayama1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1375.1.1 = { change_development_level = 10 }
+
+	0712.9.23={
+		liege="k_nmih_dewa"
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu" # Fujiwara Hidehira
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1187.11.30={
+		liege="k_nmih_northern_oshu" # Fujiwara Yasuhira
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_uzen"
+		holder=10220001 # Oe Hiromoto
+	}
+	1192.1.1={
+		holder=12221010 # Oe Chikahiro
+	}
+	1221.6.6={
+		liege="e_nmih_joko"
+	}
+	1221.7.6={
+		liege="d_nmih_uzen"
+	}
+	1227.5.15={
+		holder=12011001 # Oe Takamoto
+	}
+	1254.1.1={
+		holder=12011002 # Oe Hirotoki
+	}
+	1262.7.18={
+		holder=12011005 # Oe Masahiro
+	}
+	1277.7.17={
+		holder=12011010 # Oe Motoaki
+	}
+	1322.4.4={
+		holder=12011015 # Oe Motomasa
+	}
+	1333.7.4={
+		liege="d_nmih_uzen"
+		holder=12011015 # Oe Motomasa
+	}
+	1336.1.1={
+		liege="k_nmih_mutsu_shogun"
+		holder=12011015 # Oe Motomasa
+	}
+	1359.5.1={
+		liege="k_nmih_mutsu_shogun"
+		holder=12011020 # Oe Tokishige
+	}
+	1362.1.1={
+		liege="e_nmih_nancho"
+		holder=12011020 # Oe Tokishige
+	}
+	1368.8.1={
+		liege="k_nmih_ushu_tandai"
+		holder=12015000 # Mogami Kaneyori
+	}
+	1375.1.1={
+		liege="k_nmih_ushu_tandai"
+		holder=12015003 # Mogami Yorinao
+	}
+	1408.1.1={
+		holder=12015200 # Tendo Yorikatsu
+	}
+	1430.1.1={
+		holder=12015201 # Tendo Yoriyasu
+	}
+	1432.1.1={
+		holder=12015205 # Tendo Yorimoto
+	}
+	1460.1.1={
+		holder=12015206 # Tendo Yoriuji
+	}
+	1470.1.1={
+		holder=12015207 # Tendo Yorishige
+	}
+	1480.1.1={
+		holder=12015208 # Tendo Yorihisa
+	}
+	1510.1.1={
+		holder=12015209 # Tendo Yorimichi
+	}
+	1515.1.1={
+		liege=0 # Foundation of Mogami Yatsudate
+	}
+	1530.1.1={
+		holder=10000901 # Tendo Yorinaga
+	}
+	1564.1.1={
+		holder=10000902 # Tendo Yorisada
+	}
+	1585.1.1={
+		liege="k_nmih_ushu_tandai" # Mogami Yoshiaki
+		holder=10000716 # Mogami Yoshiaki
+	}	
+	1590.8.28={
+		liege="d_nmih_uzen"
+	}
+	1603.3.24={
+		holder=10000725 # Mogami Yoshitada
+	}
+}

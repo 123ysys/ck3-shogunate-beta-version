@@ -1,0 +1,8 @@
+328 = {
+
+	culture = southern_kyushu
+	religion = shinto
+	holding = castle_holding
+	538.1.1={
+	}
+}

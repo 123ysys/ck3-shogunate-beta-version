@@ -1,0 +1,12 @@
+war = {
+	name = "war_1455_kyotoku_war"
+	start_date = 1458.6.1
+	end_date = 1466.2.25
+	targeted_titles = {
+		k_nmih_kamakura_kubo
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040037 # Ashikaga Masatomo
+	attackers = { 10017022 10032808 10017037 } # Uesugi [Yamauchi] Fusaaki, Uesugi [Echigo] Fusasada, Uesugi [Ogigaya] Mochitomo
+	defenders = { 10040059 } # Ashikaga Shigeuji
+}

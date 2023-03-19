@@ -1,0 +1,170 @@
+d_nmih_echigo = {
+	0697.1.1={
+		liege="e_nmih_tenno"
+	}
+	0891.1.1={
+		holder=0 #  
+	}
+	0984.3.11={
+		holder=11003597 # Fujiwara Arikuni {Echigo no Kami}
+	}
+	1025.4.30={
+		holder=11003338 # Fujiwara Takasuke {Echigo no Kami}
+	}
+	1029.2.16={
+		holder=0 #  
+	}
+	1038.1.14={
+		holder=11005735 # Fujiwara Kaneyasu {Echigo no Kami}
+	}
+	1042.1.1={
+		holder=0 #  
+	}
+	1137.2.28={
+		holder=11006757 # Fujiwara Ieaki {Echigo no Kami}
+	}
+	1145.1.19={
+		holder=11006758 # Fujiwara Narichika {Echigo no Kami}
+	}
+	1147.2.8={
+		holder=11006756 # Fujiwara Takasue {Echigo no Kami}
+	}
+	1155.3.10={
+		holder=11006758 # Fujiwara Narichika {Echigo no Kami}
+	}
+	1166.9.30={
+		holder=10110660 # Taira Tokizane {Echigo no Kami}
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12270130 # Jo [Taira] Sukenaga
+	}
+	1181.3.11={
+		holder=12270131 # Jo [Taira] Nagamochi {Echigo no Kami}
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege = 0
+		liege="k_nmih_shinano"
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+		holder=12380110 # Higuchi Kanemitsu (fictional)
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1203.10.8={
+		liege="e_nmih_japan"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1221.6.6={
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo [Nagoe] Mitsutoki
+	}
+	1246.7.22={
+		holder=10131697 # Hojo [Nagoe] Tokiaki
+	}
+	1272.3.11={
+		holder=10131840 # Hojo [Nagoe] Kimitoki
+	}
+	1296.2.10={
+		holder=10132014 # Hojo [Nagoe] Tokiie
+	}
+	1310.1.1={
+		holder=10132288 # Hojo [Nagoe] Takaie
+	}
+	1333.6.10={
+		holder=10132180 # Hojo [Nagoe] Tokiari
+	}
+	1333.6.17={
+		liege=0
+		holder=12185040 # Nitta Yoshisada
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.8.14={
+		liege="k_nmih_hokuriku"
+	}
+	1338.8.17={
+		liege="e_nmih_japan"
+		holder=12139566 # Kou Moroyasu
+	}
+	1341.6.1={
+		liege="k_nmih_northern_kinai"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1349.10.21={
+		liege="e_nmih_japan"
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+	}
+	1352.3.12={
+		liege="k_nmih_kamakura_kubo"
+		holder=12130055 # Utsunomiya Ujitsuna
+	}
+	1363.3.1={
+		holder=10017006 # Uesugi Noriaki
+	}
+	1367.5.25={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1368.10.31={
+		holder=10032801 # Uesugi Noriyoshi
+	}
+	1386.1.1={
+		holder=10017015 # Uesugi Fusakata
+	}
+	1421.12.4={
+		holder=10032803 # Uesugi Tomokata
+	}
+	1422.10.29={
+		holder=10032806 # Uesugi Fusatomo
+	}
+	1449.3.21={
+		holder=10032808 # Uesugi Fusasada
+	}
+	1455.6.5={
+		liege=0
+		liege = 0
+	}
+	1494.11.14={
+		holder=10032811 # Uesugi Fusayoshi
+	}
+	1506.10.5={
+		liege=0
+		holder=10032000 # Nagao Tamekage
+	}
+	1543.1.29={
+		holder=10032009 # Nagao Harukage
+	}
+	1548.12.30={
+		holder=10032011 # Nagao Kagetora (Uesugi Kenshin)
+	}
+	1578.4.19={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1598.3.1={
+		holder=10025964 # Hori Hideharu
+		liege="e_nmih_japan"
+	}
+	1606.7.1={
+		holder=10025969 # Hori Tadatoshi
+	}
+	1610.3.16={
+		holder=10024035 # Matsudaira Tadateru
+	}
+}

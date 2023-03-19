@@ -1,0 +1,144 @@
+c_nmih_haguri = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_haguri1={
+				set_title_name=b_nmih_haguri9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_haguri1={
+				set_title_name=b_nmih_haguri1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	1180.1.1={
+		liege=0
+		holder=12430012 # Takata Shigeie
+	}
+	1180.11.9={
+		liege="d_nmih_owari" # Battle of Fujikawa 	
+	}
+	1215.1.1={
+		liege="d_nmih_owari"
+		holder=12430021 # Yamada Shigetada
+	}
+	1221.7.6={
+		liege="d_nmih_owari"
+		holder=12205405 # Chujo Iehira
+	}
+	1252.3.1={
+		holder=12205410 # Chujo Yorihira
+	}
+	1290.1.1={
+		holder=12205415 # Chujo Kagenaga
+	}
+	1314.9.1={
+		holder=10132288 # Hojo [Nagoe] Takaie
+	}
+	1317.4.1={
+		holder=10131857 # Hojo [Nagoe] Munenori
+	}
+	1333.7.4={
+		liege="d_nmih_owari"
+		holder=12139049 # Shiba Takatsune
+	}
+	1336.7.22={
+		liege="d_nmih_owari"
+		holder=12205416 # Chujo Hidenaga
+	}
+	1339.4.1={
+		holder=12139566 # Kou Moroyasu
+	}
+	1351.3.15={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1388.2.3={
+		holder=10025318 # Toki Mitsusada
+	}
+	1392.1.24={
+		holder=12395223 # Imagawa Nakaaki
+	}
+	1398.11.1={
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1400.1.17={
+		liege="d_nmih_owari"
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.6.1={
+		liege="d_nmih_owari"
+		holder=12320001 # Kai Yukinori
+	}
+	1402.1.1={
+		holder=10029104 # Oda Josho
+	}
+	1429.1.1={
+		holder=10029106 # Oda Norinaga
+	}
+	1431.1.1={
+		holder=10029107 # Oda Satohiro
+	}
+	1451.1.1={
+		holder=10029108 # Oda Toshihiro
+	}
+	1478.1.1={
+		liege=0
+	}
+	1479.1.1={
+		liege="d_nmih_owari"
+	}
+	1481.3.1={
+		holder=10029110 # Oda Tohiro
+	}
+	1504.1.1={
+		holder=10029112 # Oda Hirotaka
+	}
+	1517.2.16={
+		holder=10029102 # Oda Nobuyasu
+	}
+	1558.01.01={
+		liege=0 # 
+		holder=10029123 # Oda Nobukata
+	}
+	1559.03.01={
+		liege="d_nmih_owari"# Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.12.30={
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_owari"
+		holder=10029184 # Oda Hidenobu
+	}
+	1582.7.16={
+		liege="d_nmih_owari"
+		holder=10029161 # Oda Nobukatsu
+	}
+	1590.7.25={
+		holder=10094102 # Hitotsuyanagi Naomori
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="d_nmih_owari"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

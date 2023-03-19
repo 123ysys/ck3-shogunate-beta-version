@@ -1,0 +1,173 @@
+c_nmih_kami_niikawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kami_niikawa1={
+				set_title_name=b_nmih_kami_niikawa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kami_niikawa1={
+				set_title_name=b_nmih_kami_niikawa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kami_niikawa1={
+				set_title_name=b_nmih_kami_niikawa1
+			}
+		}
+	}
+	1543.1.1={
+		effect={
+			title:b_nmih_kami_niikawa1={
+				set_title_name=B_NMIH_KAMI_NIIKAWA1_1543
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0702.10.14={
+		liege="d_nmih_etchu"
+	}
+	0764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege=0
+		holder=12280010 # Miyazaki Nagayasu
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_etchu"
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_etchu"
+		holder=12281100 # Ninagawa Chikanao
+	}
+	1220.1.1={
+		liege="d_nmih_etchu"
+		holder=12280030 # Miyazaki Sadanori
+	}
+	1221.6.29={
+		liege="d_nmih_etchu"
+		holder=12281103 # Ninagawa Chikatsuna
+	}
+	1250.1.1={
+		holder=12281107 # Ninagawa Chikamasa
+	}
+	1280.1.1={
+		holder=12281110 # Ninagawa Kagechika
+	}
+	1310.1.1={
+		holder=12281113 # Ninagawa Chikamune
+	}
+	1333.7.4={
+		liege=0
+		holder=10132289 # Hojo [Nagoe] Tokikane
+	}
+	1335.7.1={
+		liege="e_nmih_japan"
+	}
+	1335.9.1={
+		liege="d_nmih_etchu"
+		holder=12280900 # Inoue Toshikiyo
+	}
+	1344.1.1={
+		holder=12187236 # Momonoi Tadanobu
+	}
+	1352.3.12={
+		holder=12280900 # Inoue Toshikiyo
+	}
+	1359.10.1={
+		holder=10040603 # Hosokawa Yorikazu
+	}
+	1361.9.1={
+		holder=12139049 # Shiba Takatsune
+	}
+	1362.5.1={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1366.9.13={
+		holder=12187236 # Momonoi Tadanobu
+	}
+	1368.2.1={
+		holder=10029009 # Shiba Yoshiyuki
+	}
+	1379.2.1={
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1380.1.1={
+		liege="d_nmih_etchu"
+		holder=12281003 # Shiina Nagatane
+	}
+	1405.1.1={
+		holder=12281004 # Shiina Jiro
+	}
+	1430.1.1={
+		holder=12281005 # Shiina Yasutsune
+	}
+	1456.1.1={
+		holder=12281005 # Shiina Yasutsune
+	}
+	1473.1.1={
+		holder=12281006 # Shiina Nagatane
+	}
+	1491.1.1={
+		holder=12281007 # Shiina Tsugutane
+	}
+	1516.1.1={
+		holder=12281008 # Shiina Yoshitane
+	}
+	1520.1.1={
+		liege=0
+		holder=10032000 # Nagao Tamekage
+	}
+	1543.1.1={
+		liege=0
+		holder=10031200 # Jinbo Nagamoto
+	}
+	1560.4.1={
+		liege="d_nmih_echigo"
+		holder=10032011 # Uesugi Kenshin
+	}
+	1572.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+		holder=10032630 # Ajisaka Nagazane
+	}
+	1578.11.1={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10031203 # Jinbo Nagazumi
+	}
+	1581.03.05={
+		liege="d_nmih_etchu" # 29350 Sassa Narimasa
+		holder=10031203 # Jinbo Nagazumi
+	}
+	1582.3.1={
+		liege="d_nmih_echigo"
+		holder=10031250 # Kojima Motoshige
+	}
+	1582.4.1={
+		liege="d_nmih_etchu" # 29350 Sassa Narimasa
+		holder=10029350 # Sassa Narimasa
+	}
+	1595.9.9={
+		liege="e_nmih_japan"
+	}
+	1587.5.18={
+		liege="d_nmih_etchu"
+		holder= 10029374 # Maeda Toshinaga
+	}
+	1603.3.24={
+		liege="d_nmih_kaga"
+		holder=10029374 # Maeda Toshinaga
+	}
+	1614.6.27={
+		holder=10029381 # Maeda Toshitsune
+	}
+}

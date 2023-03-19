@@ -1,0 +1,790 @@
+﻿shogunate_arrange_adoption_interaction = {
+	category = interaction_category_diplomacy
+
+	desc = shogunate_arrange_adoption_interaction_desc
+
+	redirect = {
+		scope:actor = {
+			if = {
+				limit = {
+					is_landed = no
+				}
+				save_scope_as = secondary_actor
+				liege = {
+					save_scope_as = actor
+				}
+			}
+		}
+		scope:recipient = {
+			if = {
+				limit = {
+					is_landed = no
+				}
+				save_scope_as = secondary_recipient
+				liege = {
+					save_scope_as = recipient
+				}
+			}
+		}
+	}
+
+	populate_actor_list = {
+		scope:actor = {
+			add_to_list = temporary_characters
+			every_courtier = {
+				add_to_list = temporary_characters
+			}
+			every_courtier_away = {
+				add_to_list = temporary_characters
+			}
+		}
+		every_in_list = {
+			list = temporary_characters
+			limit = {
+				shogunate_has_yamato_culture_trigger = yes
+				NOT = { dynasty = dynasty:10000420 }	# Imperial Family
+			}
+			add_to_list = characters
+		}
+	}
+
+	populate_recipient_list = {
+		scope:recipient = {
+			add_to_list = temporary_characters
+			every_courtier = {
+				add_to_list = temporary_characters
+			}
+			every_courtier_away = {
+				add_to_list = temporary_characters
+			}
+		}
+		every_in_list = {
+			list = temporary_characters
+			limit = {
+				shogunate_has_yamato_culture_trigger = yes
+				NOT = { dynasty = dynasty:10000420 }	# Imperial Family
+			}
+			add_to_list = characters
+		}
+	}
+
+	can_be_picked = {
+		shogunate_has_yamato_culture_trigger = yes
+		NOT = { dynasty = dynasty:10000420 }	# Imperial Family
+	}
+
+	prompt = {
+		first_valid = {	
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = scope:secondary_actor }
+				}
+				desc = SHOGUNATE_ADOPTION_SELECT_MY_CANDIDATE
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = scope:secondary_recipient }
+				}
+				desc = SHOGUNATE_ADOPTION_SELECT_THEIR_CANDIDATE
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+
+		# Diplomatic availability & prison
+		scope:recipient = {
+			is_busy_in_events_localised = yes
+			is_imprisoned = no
+		}
+		NOT = {
+			scope:actor = {
+				is_at_war_with = scope:recipient
+			}
+		}
+		trigger_if = {
+			limit = {
+				exists = scope:secondary_recipient
+				NOT = { scope:secondary_recipient = scope:recipient }
+			}
+			scope:secondary_recipient = {
+				is_busy_in_events_localised = yes
+				is_imprisoned = no
+			}
+		}
+		trigger_if = {
+			limit = {
+				exists = scope:secondary_actor
+				NOT = { scope:secondary_actor = scope:actor }
+			}
+			scope:secondary_actor = {
+				is_busy_in_events_localised = yes
+				is_imprisoned = no
+			}
+		}
+
+		# Restrict adoptable range
+		custom_description = {
+			trigger_if = {
+				OR = {
+					AND = {
+						exists = scope:recipient.capital_county
+						scope:actor = {
+							realm_to_title_distance_squared = {
+								title = scope:recipient.capital_county
+								value <= 1000000	# Square of 1000
+							}
+						}
+					}
+					AND = {
+						NOT = { exists = scope:recipient.capital_county }
+						exists = scope:recipient.location.county
+						scope:actor = {
+							realm_to_title_distance_squared = {
+								title = scope:recipient.location.county
+								value <= 1000000	# Square of 1000
+							}
+						}
+					}
+				}
+			}
+			text = shogunate_not_in_diplomatic_range_trigger
+		}
+	}
+
+	has_valid_target_showing_failures_only = {
+
+		# Adoptive father must be older than adoptive child (system requirement)
+		trigger_if = {
+			custom_description = {
+				scope:secondary_actor.age != scope:secondary_recipient.age
+				text = shogunate_adoption_age_is_too_close_trigger
+			}
+		}
+
+		# Adoptive father must be male (system requirement)
+		trigger_if = {
+			custom_description = {
+				OR = {
+					AND = {
+						scope:secondary_actor.age > scope:secondary_recipient.age
+						scope:secondary_actor = { is_male = yes }
+					}
+					AND = {
+						scope:secondary_actor.age < scope:secondary_recipient.age
+						scope:secondary_recipient = { is_male = yes }
+					}
+				}
+				text = shogunate_adoption_father_is_not_male_trigger
+			}
+		}
+
+		# Adopted child must not be married or betrothed (alliance problem)
+		trigger_if = {
+			custom_description = {
+				OR = {
+					AND = {
+						scope:secondary_actor.age > scope:secondary_recipient.age
+						scope:secondary_recipient = {
+							is_married = no
+							is_betrothed = no
+						}
+					}
+					AND = {
+						scope:secondary_actor.age < scope:secondary_recipient.age
+						scope:secondary_actor = {
+							is_married = no
+							is_betrothed = no
+						}
+					}
+				}
+				text = shogunate_adoption_child_is_married_or_betrothed_trigger
+			}
+		}
+
+		# Actor must be dynasty head when he adopt his child
+		trigger_if = {
+			custom_description = {
+				OR = {
+					AND = {
+						scope:actor = { is_dynast = yes }
+						OR = {
+							AND = {
+								scope:secondary_actor.age > scope:secondary_recipient.age
+								scope:secondary_recipient = {
+									OR = {
+										dynasty = scope:actor.dynasty
+										NOT = { is_child_of = scope:actor }
+									}
+								}
+							}
+							AND = {
+								scope:secondary_actor.age < scope:secondary_recipient.age
+								scope:secondary_actor = {
+									OR = {
+										dynasty = scope:actor.dynasty
+										NOT = { is_child_of = scope:actor }
+									}
+								}
+							}
+						}
+					}
+					AND = {
+						scope:actor = { is_dynast = no }
+						OR = {
+							AND = {
+								scope:secondary_actor.age > scope:secondary_recipient.age
+								scope:secondary_recipient = {
+									NOT = { is_child_of = scope:actor }
+								}
+							}
+							AND = {
+								scope:secondary_actor.age < scope:secondary_recipient.age
+								scope:secondary_actor = {
+									NOT = { is_child_of = scope:actor }
+								}
+							}
+						}
+					}
+				}
+				text = shogunate_adoption_actor_is_not_dynast_trigger
+			}
+		}
+
+		# Blocks AI from adopting lowborn or fatherless
+		trigger_if = {
+			limit = {
+				scope:actor = {
+					is_ai = yes
+				}
+			}
+			scope:secondary_actor = {
+				is_lowborn = no
+				exists = father
+			}
+			scope:secondary_recipient = {
+				is_lowborn = no
+				exists = father
+			}
+		}
+	}
+
+	cost = {
+		renown = {
+			value = {
+				if = {
+					limit = {
+						scope:actor = { is_dynast = yes }
+						OR = {
+							AND = {
+								scope:secondary_actor.age > scope:secondary_recipient.age
+								scope:secondary_recipient = {
+									dynasty = scope:actor.dynasty
+									is_child_of = scope:actor
+								}
+							}
+							AND = {
+								scope:secondary_actor.age < scope:secondary_recipient.age
+								scope:secondary_actor = {
+									dynasty = scope:actor.dynasty
+									is_child_of = scope:actor
+								}
+							}
+						}
+					}
+					add = medium_dynasty_prestige_value
+					if = {
+						limit = {
+							OR = {
+								AND = {
+									scope:secondary_actor.age > scope:secondary_recipient.age
+									scope:secondary_recipient = {
+										is_landed = yes
+									}
+								}
+								AND = {
+									scope:secondary_actor.age < scope:secondary_recipient.age
+									scope:secondary_actor = {
+										is_landed = yes
+									}
+								}
+							}
+						}
+						add = major_dynasty_prestige_value
+					}
+					if = {
+						limit = {
+							OR = {
+								AND = {
+									scope:secondary_actor.age > scope:secondary_recipient.age
+									scope:secondary_recipient = {
+										is_landed = no
+										any_heir_title = {
+											exists = holder
+										}
+									}
+								}
+								AND = {
+									scope:secondary_actor.age < scope:secondary_recipient.age
+									scope:secondary_actor = {
+										is_landed = no
+										any_heir_title = {
+											exists = holder
+										}
+									}
+								}
+							}
+						}
+						add = medium_dynasty_prestige_value
+					}
+					if = {
+						limit = {
+							OR = {
+								AND = {
+									scope:secondary_actor.age > scope:secondary_recipient.age
+									scope:secondary_recipient = {
+										OR = {
+											has_trait = disputed_heritage
+											any_secret = {
+												secret_type = secret_disputed_heritage
+												is_known_by = scope:secondary_actor
+											}
+											has_trait = bastard
+										}
+									}
+								}
+								AND = {
+									scope:secondary_actor.age < scope:secondary_recipient.age
+									scope:secondary_actor = {
+										OR = {
+											has_trait = disputed_heritage
+											any_secret = {
+												secret_type = secret_disputed_heritage
+												is_known_by = scope:secondary_recipient
+											}
+											has_trait = bastard
+										}
+									}
+								}
+							}
+						}
+						multiply = 0
+					}
+				}
+			}
+		}
+		prestige = {
+			value = {
+				add = medium_prestige_value
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								scope:secondary_actor.age > scope:secondary_recipient.age
+								scope:secondary_recipient = {
+									is_landed = yes
+								}
+							}
+							AND = {
+								scope:secondary_actor.age < scope:secondary_recipient.age
+								scope:secondary_actor = {
+									is_landed = yes
+								}
+							}
+						}
+					}
+					add = massive_prestige_value
+				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								scope:secondary_actor.age > scope:secondary_recipient.age
+								scope:secondary_recipient = {
+									is_landed = no
+									any_heir_title = {
+										exists = holder
+									}
+								}
+							}
+							AND = {
+								scope:secondary_actor.age < scope:secondary_recipient.age
+								scope:secondary_actor = {
+									is_landed = no
+									any_heir_title = {
+										exists = holder
+									}
+								}
+							}
+						}
+					}
+					add = medium_prestige_value
+				}
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								scope:secondary_actor.age > scope:secondary_recipient.age
+								scope:secondary_recipient = {
+									OR = {
+										has_trait = disputed_heritage
+										any_secret = {
+											secret_type = secret_disputed_heritage
+											is_known_by = scope:secondary_actor
+										}
+										has_trait = bastard
+									}
+								}
+							}
+							AND = {
+								scope:secondary_actor.age < scope:secondary_recipient.age
+								scope:secondary_actor = {
+									OR = {
+										has_trait = disputed_heritage
+										any_secret = {
+											secret_type = secret_disputed_heritage
+											is_known_by = scope:secondary_recipient
+										}
+										has_trait = bastard
+									}
+								}
+							}
+						}
+					}
+					multiply = 0
+				}
+			}
+		}
+	}
+
+	on_accept = {
+		if = {
+			limit = {
+				scope:adoption_hook = yes
+			}
+			scope:actor = {
+				use_hook = scope:recipient
+			}
+		}
+
+		if = {
+			limit = {
+				scope:secondary_actor.age > scope:secondary_recipient.age
+			}
+			scope:secondary_recipient = {
+				hidden_effect = {
+					set_variable = {
+						name = shogunate_adoptive_father
+						value = scope:secondary_actor
+					}
+					set_variable = {
+						name = shogunate_real_father
+						value = scope:secondary_recipient.father
+					}
+				}
+
+				set_father = scope:secondary_actor
+				add_trait = child_of_adoption
+
+				hidden_effect = {
+					set_house = scope:secondary_actor.house
+
+					if = {
+						limit = {
+							is_landed = no
+						}
+						if = {
+							limit = {
+								exists = scope:secondary_actor.liege
+							}
+							set_employer = scope:secondary_actor.liege
+						}
+						else = {
+							set_employer = scope:secondary_actor
+						}
+						return_to_court = yes
+					}
+
+					if = {
+						limit = { has_trait = ashikaga_family }
+						remove_trait = ashikaga_family
+					}
+					if = {
+						limit = { has_trait = minamoto_clan }
+						remove_trait = minamoto_clan
+					}
+					if = {
+						limit = { has_trait = taira_clan }
+						remove_trait = taira_clan
+					}
+					if = {
+						limit = { has_trait = fujiwara_clan }
+						remove_trait = fujiwara_clan
+					}
+					if = {
+						limit = { has_trait = tachibana_clan }
+						remove_trait = tachibana_clan
+					}
+
+					if = {
+						limit = { scope:secondary_actor = { has_trait = ashikaga_family } }
+						add_trait = ashikaga_family
+					}
+					if = {
+						limit = { scope:secondary_actor = { has_trait = minamoto_clan } }
+						add_trait = minamoto_clan
+					}
+					if = {
+						limit = { scope:secondary_actor = { has_trait = taira_clan } }
+						add_trait = taira_clan
+					}
+					if = {
+						limit = { scope:secondary_actor = { has_trait = fujiwara_clan } }
+						add_trait = fujiwara_clan
+					}
+					if = {
+						limit = { scope:secondary_actor = { has_trait = tachibana_clan } }
+						add_trait = tachibana_clan
+					}
+				}
+			}
+		}
+		else = {
+			scope:secondary_actor = {
+				hidden_effect = {
+					set_variable = {
+						name = shogunate_adoptive_father
+						value = scope:secondary_recipient
+					}
+					set_variable = {
+						name = shogunate_real_father
+						value = scope:secondary_actor.father
+					}
+				}
+
+				set_father = scope:secondary_recipient
+				add_trait = child_of_adoption
+
+				hidden_effect = {
+					set_house = scope:secondary_recipient.house
+
+					if = {
+						limit = {
+							is_landed = no
+						}
+						if = {
+							limit = {
+								exists = scope:secondary_recipient.liege
+							}
+							set_employer = scope:secondary_recipient.liege
+						}
+						else = {
+							set_employer = scope:secondary_recipient
+						}
+						return_to_court = yes
+					}
+
+					if = {
+						limit = { has_trait = ashikaga_family }
+						remove_trait = ashikaga_family
+					}
+					if = {
+						limit = { has_trait = minamoto_clan }
+						remove_trait = minamoto_clan
+					}
+					if = {
+						limit = { has_trait = taira_clan }
+						remove_trait = taira_clan
+					}
+					if = {
+						limit = { has_trait = fujiwara_clan }
+						remove_trait = fujiwara_clan
+					}
+					if = {
+						limit = { has_trait = tachibana_clan }
+						remove_trait = tachibana_clan
+					}
+
+					if = {
+						limit = { scope:secondary_recipient = { has_trait = ashikaga_family } }
+						add_trait = ashikaga_family
+					}
+					if = {
+						limit = { scope:secondary_recipient = { has_trait = minamoto_clan } }
+						add_trait = minamoto_clan
+					}
+					if = {
+						limit = { scope:secondary_recipient = { has_trait = taira_clan } }
+						add_trait = taira_clan
+					}
+					if = {
+						limit = { scope:secondary_recipient = { has_trait = fujiwara_clan } }
+						add_trait = fujiwara_clan
+					}
+					if = {
+						limit = { scope:secondary_recipient = { has_trait = tachibana_clan } }
+						add_trait = tachibana_clan
+					}
+				}
+			}
+		}
+	}
+
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				has_usable_hook = scope:recipient
+			}
+		}
+		flag = adoption_hook
+		localization = SHOGUNATE_ADOPTION_HOOK
+	}
+
+	should_use_extra_icon = {
+		scope:actor = { has_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+
+	send_options_exclusive = no
+
+	greeting = positive
+
+	notification_text = {
+		first_valid = {	
+			triggered_desc = {
+				trigger = {
+					scope:secondary_actor = scope:actor
+					scope:secondary_recipient = scope:recipient
+				}
+				desc = SHOGUNATE_ADOPTION_NOTIFICATION_BOTH_PERSONAL
+			}
+			triggered_desc = {
+				trigger = {
+					scope:secondary_actor = scope:actor
+				}
+				desc = SHOGUNATE_ADOPTION_NOTIFICATION_ACTOR_PERSONAL
+			}
+			triggered_desc = {
+				trigger = {
+					scope:secondary_recipient = scope:recipient
+				}
+				desc = SHOGUNATE_ADOPTION_NOTIFICATION_RECIPIENT_PERSONAL
+			}
+			desc = SHOGUNATE_ADOPTION_NOTIFICATION
+		}
+	}
+
+	ai_accept = {
+		base = -50
+
+		shogunate_adoption_ai_accept_modifier = yes
+	}
+
+	ai_targets = {
+		ai_recipients = neighboring_rulers
+	}
+
+	ai_frequency = 12
+
+	ai_potential = {
+		is_ruler = yes
+	}
+
+	ai_will_do = {
+		base = 0
+
+		modifier = {
+
+			# AI don't offer adoption to human player (prevent AI from spamming)
+			scope:recipient = {
+				is_ai = yes
+			}
+
+			# Adoptive father must be old enough and has no inheritable son
+			add = {
+				value = 1
+				add = scope:secondary_recipient.dynasty.dynasty_prestige_level
+				subtract = scope:secondary_actor.dynasty.dynasty_prestige_level
+				add = scope:recipient.highest_held_title_tier
+				subtract = scope:actor.highest_held_title_tier
+				if = {
+					limit = {
+						age >= 40
+					}
+					add = 2
+				}
+				if = {
+					limit = {
+						fertility < 0.1
+					}
+					add = 2
+				}
+				if = {
+					limit = {
+						scope:actor = scope:secondary_actor
+					}
+					multiply = 20
+				}
+			}
+			opinion = {
+				target = scope:recipient
+				value > 0
+			}
+			scope:secondary_actor.age > scope:secondary_recipient.age
+			scope:secondary_actor = {
+				age >= 30
+				any_child = {
+					is_alive = yes
+					is_male = yes
+					NOT = { has_trait = eunuch }
+					NOT = { has_trait = devoted }
+					NOT = { has_trait = order_member }
+					NOT = { has_trait = bastard }
+					NOT = { has_trait = bastard_founder }
+					count = 0
+				}
+			}
+			scope:secondary_recipient = {
+				age >= 16
+				is_female = no
+				any_heir_title = {
+					exists = holder
+					count = 0
+				}
+				NOR = {
+					has_trait = depressed_1
+					has_trait = depressed_genetic
+					has_trait = lunatic_1
+					has_trait = lunatic_genetic
+					has_trait = possessed_1
+					has_trait = possessed_genetic
+					has_trait = ill
+					has_trait = pneumonic
+					has_trait = great_pox
+					has_trait = early_great_pox
+					has_trait = lovers_pox
+					has_trait = leper
+					has_trait = wounded_1
+					has_trait = wounded_2
+					has_trait = wounded_3
+					has_trait = maimed
+					has_trait = one_eyed
+					has_trait = one_legged
+					has_trait = disfigured
+					has_trait = infirm
+					has_trait = incapable
+					has_trait = gout_ridden
+					has_trait = consumption
+					has_trait = cancer
+					has_trait = typhus
+					has_trait = bubonic_plague
+					has_trait = smallpox
+					has_trait = sickly
+					has_trait = scarred
+					has_trait = eunuch
+					has_trait = blind
+				}
+			}
+		}
+	}
+}

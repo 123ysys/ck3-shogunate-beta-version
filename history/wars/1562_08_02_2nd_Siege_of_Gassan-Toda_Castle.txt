@@ -1,0 +1,11 @@
+war = {
+	name = "war_1562_2nd_siege_of_gassan_toda"
+	start_date = 1562.8.2
+	end_date = 1567.1.8
+	targeted_titles = {
+		d_nmih_izumo
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10056004 } # Mori Motonari
+	defenders = { 10051525 } # Amago Yoshihisa
+}

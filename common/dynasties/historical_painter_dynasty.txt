@@ -1,0 +1,36 @@
+﻿10013100={
+	name=dynasty_name_10013100
+	culture = "aristocrats"
+}
+10013101={
+	name=dynasty_name_10013101
+	culture = "central_kinai"
+}
+10013102={
+	name=dynasty_name_10013102
+	culture = "central_kinai"
+}
+10013103={
+	name=dynasty_name_10013103
+	culture = "kyushu_buddhist"
+}
+10013104={
+	name=dynasty_name_10013104
+	culture = "kinai_buddhist"
+}
+10013105={
+	name=dynasty_name_10013105
+	culture = "saigoku_buddhist"
+}
+10013106={
+	name=dynasty_name_10013106
+	culture = "kinai_buddhist"
+}
+10013107={
+	name=dynasty_name_10013107
+	culture = "western_hokuriku"
+}
+10013108={
+	name=dynasty_name_10013108
+	culture = "western_chugoku"
+}

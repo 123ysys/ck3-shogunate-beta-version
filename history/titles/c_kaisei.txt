@@ -1,0 +1,151 @@
+c_nmih_kaisei = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kaisei1={
+				set_title_name=b_nmih_kaisei7
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kaisei1={
+				set_title_name=b_nmih_kaisei1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	1179.12.18={
+		liege="d_nmih_owari" # Taira Kiyosada
+		holder=10110140 # Taira Kiyosada
+	}
+	1180.11.9={
+		liege="d_nmih_owari"
+		holder=10120080 # Minamoto Gien
+	}
+	1181.4.25={
+		liege="d_nmih_owari"
+		holder=12430021 # Yamada Shigetada
+	}
+	1184.3.4={
+		liege="d_nmih_owari"
+		holder=12431200 # Oya Yasusuke
+	}
+	1185.4.25={
+		holder=12205303 # Ono Naritsuna
+	}
+	1211.1.1={
+		holder=12205311 # Ono Moritsuna
+	}
+	1221.7.6={
+		liege="d_nmih_hida"
+		holder=12221014 # Kaito Tadashige
+	}
+	1247.7.9={
+		liege="d_nmih_owari"
+	}
+	1265.1.1={
+		holder=12435001 # Kaido Tadamochi
+	}
+	1295.1.1={
+		holder=12435008 # Kaido Hiroshige
+	}
+	1310.1.1={
+		holder=12435011 # Kaido Hirofusa
+	}
+	1328.10.14={
+		holder=12435013 # Kaido Takafusa
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12535027 # Hattori Sakyoshin
+	}
+	1350.1.1={
+		holder=12535028 # Hattori Sakyoshin
+	}
+	1370.1.1={
+		liege="d_nmih_owari"
+		holder=12535029 # Hattori Sakyoshin
+	}
+	1400.1.1={
+		liege=0
+		holder=12535030 # Hattori Sakyoshin
+	}
+	1430.1.1={
+		liege="d_nmih_owari"
+		holder=12535031 # Hattori Yasumune
+	}
+	1450.1.1={
+		holder=12535032 # Hattori Munesumi
+	}
+	1470.1.1={
+		holder=12535033 # Hattori Muneie
+	}
+	1490.1.1={
+		holder=12535034 # Hattori Munenobu
+	}
+	1492.1.1={
+		liege="k_nmih_honganji"
+		holder=12535034 # Hattori Munenobu
+	}
+	1510.1.1={
+		holder=12535035 # Hattori Munemasa
+	}
+	1530.1.1={
+		holder=10028950 # Hattori Masaie
+	}
+	1550.1.1={
+		holder=10028951 # Hattori Tomosada
+	}
+	1568.1.1={
+		liege="d_nmih_owari"
+		holder=10029138 # Oda Nobuoki
+	}
+	1570.12.28={
+		government = theocracy_government
+		liege="k_nmih_honganji"
+		holder=10042251 # Gansho-ji Shoi
+	}
+	1571.6.28={
+		holder=10042252 # Gansho-ji Kennin
+	}
+	1574.10.23={
+		government = feudal_government
+		liege="d_nmih_owari"
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.12.30={
+		liege="d_nmih_owari" # 29160 Oda Nobutada
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_owari"
+		holder=10029184 # Oda Hidenobu
+	}
+	1582.7.16={
+		liege="d_nmih_owari"
+		holder=10029161 # Oda Nobukatsu
+	}
+	1590.7.25={
+		holder=10029258 # Tokunaga Nagamasa
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="d_nmih_owari"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

@@ -1,0 +1,133 @@
+c_nmih_asakura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_asakura1={
+				set_title_name=b_nmih_asakura2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_asakura1={
+				set_title_name=b_nmih_asakura2
+			}
+		}
+	}
+	1203.1.1={
+		effect={
+			title:b_nmih_asakura1={
+				set_title_name=B_NMIH_ASAKURA2_1203
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	180.1.1={
+		holder=10290001 # Himiko
+	}
+	1180.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12750300 # Akizuki Tanekatsu
+	}
+	1210.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12750305 # Akizuki Taneaki
+	}
+	1250.1.1={
+		holder=12750310 # Akizuki Tanesada
+	}
+	1280.1.1={
+		holder=12750315 # Akizuki Tanetaka
+	}
+	1310.1.1={
+		holder=12750320 # Akizuki Taneaki
+	}
+	1333.1.1={
+		holder=10067518 # Akizuki Tanemichi
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+	}
+	1336.4.13={
+		liege="d_nmih_chikuzen"
+		holder=10067517 # Akizuki Tanetada
+	}
+	1400.1.1={
+		liege="d_nmih_chikuzen"
+		holder=10067515 # Akizuki Taneuji
+	}
+	1429.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1430.1.1={
+		holder=10067503 # Akizuki Taneteru
+	}
+	1431.8.6={
+		liege="d_nmih_chikuzen"
+	}
+	1433.9.29={
+		liege="k_nmih_western_chugoku"
+	}
+	1470.1.1={
+		holder=10067502 # Akizuki Tanetomo
+	}
+	1512.1.1={
+		holder=10067501 # Akizuki Tanetoki
+	}
+	1531.4.3={
+		holder=10067500 # Akizuki Fumitane
+	}
+	1551.9.30={
+		liege="d_nmih_bungo"
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1557.8.6={
+		liege="d_nmih_bungo"
+		holder=10064002 # Otomo Yoshishige
+	}
+	1559.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10067505 # Akizuki Tanesane
+	}
+	1564.8.1={
+		liege="d_nmih_bungo"
+	}
+	1567.1.1={
+		liege="d_nmih_chikugo"
+	}
+	1569.8.1={
+		liege="d_nmih_chikuzen"
+	}
+	1578.12.10={
+		liege="d_nmih_chikuzen"
+	}
+	1587.5.18={
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1595.8.20={
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1598.3.1={
+		liege="e_nmih_japan"
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1599.2.19={
+		liege="d_nmih_chikuzen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1603.3.24={
+		liege="d_nmih_chikuzen"
+		holder=10207700 # Kuriyama Toshiyasu
+	}
+}

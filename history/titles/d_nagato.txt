@@ -1,0 +1,160 @@
+d_nmih_nagato = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1179.12.18={
+		liege="e_nmih_japan"
+		holder=10110043 # Taira Tomomori
+	}
+	1183.8.17={
+		liege="k_nmih_western_chugoku"
+	}
+	1185.3.22={ # Battle of Yashima
+		holder=10110042 # Taira Munemori
+	}
+	1185.4.25={
+		liege="e_nmih_japan"
+		holder=12510063 # Sasaki Takatsuna
+	}
+	1193.1.1={
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1199.2.9={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=12690610 # Tachibana Kiminari
+	}
+	1222.1.1={
+		holder=12230105 # Amano Masakage
+	}
+	1242.1.1={
+		holder=12230114 # Amano Yoshikage
+	}
+	1252.1.1={
+		holder=12220207 # Nikaido Yukitada
+	}
+	1275.12.1={
+		holder=10132000 # Hojo Muneyori
+	}
+	1279.7.15={
+		holder=10132162 # Hojo Kanetoki
+	}
+	1281.9.14={
+		holder=10132156 # Hojo Morotoki
+	}
+	1282.1.1={
+		holder=10131715 # Hojo Tadatoki
+	}
+	1284.11.10={
+		holder=10131932 # Hojo [Kanesawa] Sanemasa
+	}
+	1296.7.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1300.1.1={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1307.1.1={
+		holder=10132072 # Hojo Tokinaka
+	}
+	1320.1.1={
+		holder=10131933 # Hojo [Kanesawa] Tokinao
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=12661020 # Koto Takezane
+	}
+	1336.3.24={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1348.11.30={
+		holder=12661025 # Koto Takemura
+	}
+	1349.1.1={
+		holder=12661030 # Koto Takenao
+	}
+	1353.1.1={
+		holder=12661035 # Koto Yoshitake
+	}
+	1358.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10057014 # Ouchi Hiroyo
+	}
+	1363.9.1={
+		liege="e_nmih_japan"
+	}
+	1380.12.12={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1399.11.26={
+		liege="k_nmih_western_chugoku"
+	}
+	1400.1.17={
+		liege=0
+		holder=10057011 # Ouchi Hiroshige
+	}
+	1402.2.1={
+		liege="k_nmih_western_chugoku"
+		holder=10057010 # Ouchi Moriharu
+	}
+	1431.8.6={
+		holder=10057015 # Ouchi Mochiyo
+	}
+	1441.8.14={
+		holder=10057008 # Ouchi Norihiro
+	}
+	1465.9.23={
+		holder=10057007 # Ouchi Masahiro
+	}
+	1470.3.6={
+		liege="e_nmih_japan" # Ashikaga Yoshimasa
+		holder=10057009 # Ouchi Doton [Noriyuki]
+	}
+	1472.1.1={
+		liege="k_nmih_western_chugoku" # Ouchi Masahiro
+		holder=10057007 # Ouchi Masahiro
+	}
+	1495.10.6={
+		holder= 10057001 # Ouchi Yoshioki
+	}
+	1529.1.29={
+		holder = 10057002 # Ouchi Yoshitaka
+	}
+	1551.9.30={
+		liege="k_nmih_western_chugoku"
+		holder=10064003 # Ouchi Yoshinaga
+	}
+	1557.5.1={
+		holder=10056004 # Mori Motonari
+	}
+	1571.7.6={
+		holder=10056025 # Mori Terumoto
+	}
+	1599.1.1={
+		holder=10056030 # Mori Hidemoto
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10056025 # Mori Terumoto
+	}
+}

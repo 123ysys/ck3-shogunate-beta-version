@@ -1,0 +1,95 @@
+c_nmih_taga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_taga1={
+				set_title_name=b_nmih_taga9
+			}
+		}
+	}
+	1348.1.1={
+		effect={
+			title:b_nmih_taga1={
+				set_title_name=b_nmih_taga2
+			}
+		}
+	}
+	1400.1.1={
+		effect={
+			title:b_nmih_taga1={
+				set_title_name=b_nmih_taga1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1348.1.1 = { change_development_level = 10 }
+	1400.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1147.1.1={
+		holder=12122002 # Satake Takayoshi
+	}
+	1180.11.22={
+		liege=0 # Siege of Kanasa Castle
+		holder=12122002 # Satake Takayoshi
+	}
+	1183.6.11={
+		liege="d_nmih_hitachi"
+		holder=12122050 # Satake Hideyoshi / served under Yoritomo
+	}
+	1226.1.17={
+		holder=12122080 # Satake Yoshishige
+	}
+	1252.4.5={
+		holder=12122082 # Satake Nagayoshi
+	}
+	1272.1.1={
+		holder=12122090 # Satake Yoshitane
+	}
+	1278.4.30={
+		holder=12122100 # Satake Yukiyoshi
+	}
+	1305.7.15={
+		holder=12122110 # Satake Sadayoshi
+	}
+	1352.10.18={
+		holder=12122120 # Satake Yoshiatsu
+	}
+	1362.2.7={
+		holder=12122130 # Satake Yoshinobu
+	}
+	1389.8.5={
+		holder=10010821 # Satake Yoshimori
+	}
+	1407.10.22={
+		holder=10010816 # Satake Yoshihito
+	}
+	1467.1.1={
+		holder=10010815 # Satake Yoshitoshi
+	}
+	1477.12.29={
+		holder=10010808 # Satake Yoshiharu
+	}
+	1490.5.14={
+		holder=10010803 # Satake Yoshikiyo
+	}
+	1517.4.3={
+		holder=10010801 # Satake Yoshiatsu
+	}
+	1545.5.19={
+		holder=10010802 # Satake Yoshiaki
+	}
+	1565.11.25={
+		holder=10010830 # Satake Yoshishige
+	}
+	1589.1.1={
+		holder=10010836 # Satake Yoshinobu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10000209 # Tozawa Masamori
+	}
+}

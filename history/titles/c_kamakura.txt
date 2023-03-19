@@ -1,0 +1,168 @@
+c_nmih_kamakura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kamakura1={
+				set_title_name=b_nmih_kamakura2
+			}
+		}
+	}
+	1080.1.1={
+		effect={
+			title:b_nmih_kamakura1={
+				set_title_name=b_nmih_kamakura3
+			}
+		}
+	}
+	1180.10.26={
+		effect={
+			title:b_nmih_kamakura1={
+				set_title_name=b_nmih_kamakura9
+			}
+		}
+	}
+	1513.1.1={
+		effect={
+			title:b_nmih_kamakura1={
+				set_title_name=b_nmih_kamakura1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1080.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 40 }
+	1180.10.26 = { change_development_level = 40 }
+	1200.2.6 = { change_development_level = 40 }
+	1333.7.4 = { change_development_level = 30 }
+	1460.1.1 = { change_development_level = 30 }
+	1513.1.1 = { change_development_level = 30 }
+	1526.12.15 = { change_development_level = 30 }
+	1540.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_sagami"
+	}
+	1160.2.11={
+		liege="d_nmih_sagami"
+		holder=12215207 # Oba Kagechika
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+		holder=10120075 # Minamoto Yoritomo / Yoritomo's conquest of Kamakura 
+	}
+	1192.7.12={
+		liege="e_nmih_japan"
+	}
+	1199.2.9={
+		holder=10120086 # Minamoto Yoriie, the 2nd shogun of the Kamakura Shogunate
+	}
+	1203.9.7={
+		holder=10120087 # Minamoto Sanetomo, the 3rd shogun of the Kamakura Shogunate
+	}
+	1219.2.13={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1263.12.24={
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={
+		liege="d_nmih_sagami"
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1335.8.14={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.9.6={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040002 # Ashikaga Yoshiakira
+	}
+	1349.10.21={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040067 # Ashikaga Motouji
+	}
+	1367.5.25={
+		holder=10040066 # Ashikaga Ujimitsu
+	}
+	1398.12.12={
+		holder=10040064 # Ashikaga Mitsukane
+	}
+	1409.9.1={
+		holder=10040061 # Ashikaga Mochiuji
+	}
+	1439.3.24={
+		holder=10040006 # Ashikaga Yoshinori
+	}
+	1441.7.12={
+		holder=10040007 # Ashikaga Yoshikatsu
+	}
+	1443.8.16={
+		holder=10040008 # Ashikaga Yoshimasa
+	}
+	1447.3.1={
+		holder=10040059 # Ashikaga Shigeuji
+	}
+	1455.7.30={
+		liege="d_nmih_sagami"
+		holder=10017037 # Uesugi Mochitomo
+	}
+	1455.8.1={
+		holder=10016500 # Miura Tokitaka
+	}
+	1494.10.22={
+		holder=10016502 # Miura Yoshiatsu
+	}
+	1512.1.1={
+		liege=0
+		holder=10016001 # Hojo Soun
+	}
+	1519.9.8={
+		liege="d_nmih_sagami"
+		holder=10016002 # Hojo Ujitoki
+	}
+	1531.9.29={
+		holder=10016005 # Hojo Tamemasa
+	}
+	1542.6.15={
+		holder=10016036 # Hojo Tsunashige
+	}
+	1571.10.21={	
+		holder=10016037 # Hojo Yasushige
+	}
+	1578.7.17={	
+		holder=10016041 # Hojo Ujitoshi
+	}
+	1581.2.24={	
+		holder=10016042 # Hojo Ujikatsu
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024880 # Honda Masanobu
+	}
+	1605.6.2={
+		liege="e_nmih_japan"
+	}
+}

@@ -1,0 +1,5 @@
+k_nmih_kita_ezochi = {
+	100.1.1={
+	}
+
+}

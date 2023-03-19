@@ -1,0 +1,226 @@
+d_nmih_kaga = {
+	0823.1.1={
+		liege="e_nmih_tenno"
+	}
+	0831.1.22={
+		holder=11000039 # Fujiwara Yoshifusa {Kaga no Kami}
+	}
+	0834.2.27={
+		holder=11000038 # Fujiwara Nagayoshi {Kaga no Kami}
+	}
+	0838.2.15={
+		holder=0 #  
+	}
+	0845.2.24={
+		holder=11000035 # Fujiwara Tasuku {Kaga no Kami}
+	}
+	0847.2.5={
+		holder=0 #  
+	}
+	0851.11.1={
+		holder=11000034 # Fujiwara Mamoru {Kaga no Kami}
+	}
+	0857.11.24={
+		holder=0 #  
+	}
+	1031.4.8={
+		holder=11003063 # Fujiwara Moronari {Kaga no Kami}
+	}
+	1040.5.28={
+		holder=0 #  
+	}
+	1090.7.10={
+		holder=11003349 # Fujiwara Tamefusa {Kaga no Kami}
+	}
+	1092.10.29={
+		holder=0 #  
+	}
+	1119.2.17={
+		holder=11001021 # Fujiwara Saneyoshi {Kaga no Kami}
+	}
+	1121.5.6={
+		holder=11001022 # Fujiwara Suenari {Kaga no Kami}
+	}
+	1127.3.10={
+		holder=0 #  
+	}
+	1161.11.15={
+		holder=11003102 # Fujiwara Naritsuna {Kaga no Kami}
+	}
+	1166.9.30={
+		holder=0 #  
+	}
+	1180.1.1={
+		liege=0
+		holder=10130716 # Hayashi Mitsuaki
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="k_nmih_shinano"
+		holder=10130716 # Hayashi Mitsuaki
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="e_nmih_japan"
+		holder=10130716 # Hayashi Mitsuaki
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="e_nmih_japan"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		liege="e_nmih_joko"
+		holder=10125051 # Tsuchimikado Michichika
+	}
+	1199.9.1={
+		holder=10125052 # Minamoto Michisuke
+	}
+	1205.7.25={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1216.1.1={
+		holder=11006060 # Hamuro Muneyuki
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1228.1.1={
+		holder=10010227 # Yuki Tomomitsu
+	}
+	1254.2.24={
+		holder=10010225 # Yuki Tomohiro
+	}
+	1274.1.1={
+		holder=10010224 # Yuki Hirotsuna
+	}
+	1278.7.14={
+		holder=10010223 # Yuki Tokihiro
+	}
+	1290.8.7={
+		holder=10010222 # Yuki Sadahiro
+	}
+	1309.11.13={
+		holder=10131921 # Hojo Tokiatsu
+	}
+	1320.7.8={
+		holder=10132083 # Hojo Tokimasu
+	}
+	1333.6.17={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=12310130 # Togashi Takaie
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+		holder=12310130 # Togashi Takaie
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1351.1.1={
+		holder=12310140 # Togashi Ujiharu
+	}
+	1358.1.1={
+		holder=12310150 # Togashi Masaie
+	}
+	1387.4.1={
+		holder=10029010 # Shiba Yoshitane
+	}
+	1391.5.1={
+		holder=10029011 # Shiba Yoshishige
+	}
+	1393.7.1={
+		holder=10029010 # Shiba Yoshitane
+	}
+	1408.3.8={
+		holder=10029017 # Shiba Mitsutane
+	}
+	1414.6.1={
+		holder=12310171 # Togashi Mitsunari
+	}
+	1419.2.28={
+		holder=12310170 # Togashi Mitsuharu
+	}
+	1427.7.3={
+		holder=12310180 # Togashi Mochiharu
+	}
+	1433.8.24={
+		holder=12310181 # Togashi Noriie
+	}
+	1441.7.6={
+		holder=12310182 # Togashi Yasutaka
+	}
+	1442.7.31={
+		holder=12310190 # Togashi Shigeharu
+	}
+	1445.1.1={
+		holder=12310182 # Togashi Yasutaka
+	}
+	1464.8.1={
+		liege="e_nmih_japan"
+		holder=12310195 # Togashi Masachika
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan" # Onin War
+	}
+	1470.1.1={ 
+		liege = 0
+	}
+	1488.7.17={
+		government = theocracy_government
+		liege="k_nmih_honganji"
+		holder=10042201 # Honganji Rennyo
+	}
+	1489.1.1={
+		holder=10042203 # Honganji Jitsunyo
+	}
+	1525.3.5={
+		holder=10042200 # Honganji Shonyo
+	}
+	1531.6.23={
+		liege=0
+	}
+	1531.11.26={
+		liege="k_nmih_honganji"
+		holder=10042200 # Honganji Shonyo
+	}
+	1554.9.9={
+		holder=10042210 # Honganji Kennyo
+	}
+	1580.5.2={
+		liege=0
+		holder=0 # 
+	}
+	1580.12.7={
+		government = feudal_government
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10029280 # Shibata Katsuie
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="k_nmih_hokuriku"
+	}
+	1583.6.14={
+		liege="k_nmih_northern_kinai"
+		holder=10029360 # Maeda Toshiie
+	}
+	1585.7.27={ 
+		liege="e_nmih_japan"
+	}
+	1585.9.14={ 
+		liege="k_nmih_hokuriku"
+	}
+	1599.4.27={ 
+		holder=10029374 # Maeda Toshinaga
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.6.27={
+		holder=10029381 # Maeda Toshitsune
+	}
+}

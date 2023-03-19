@@ -1,0 +1,15 @@
+95 = {
+
+	culture = eastern_kanto
+	religion = shinto
+	holding = castle_holding
+	1070.1.1={
+	}
+	1342.1.1={
+		religion=hokkeshu
+	}
+	1400.1.1={
+	}
+	1486.1.1={
+	}
+}

@@ -1,0 +1,114 @@
+c_nmih_minami_uonuma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_minami_uonuma1={
+				set_title_name=b_nmih_minami_uonuma2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_minami_uonuma1={
+				set_title_name=b_nmih_minami_uonuma9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_minami_uonuma1={
+				set_title_name=b_nmih_minami_uonuma1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege=0
+		holder=12270170 # Echigo Shigeie
+	}
+	1181.2.27={
+		holder=12270171 # Echigo Iemitsu
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="d_nmih_echigo"
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+		holder=12186000 # Satomi Yoshinari
+	}
+	1187.1.1={
+		liege="d_nmih_nitta"
+		holder=12186006 # Oshima Yoshitsugu
+	}
+	1237.1.1={
+		holder=12186600 # Oshima Tokitsugu
+	}
+	1280.1.1={
+		holder=12186601 # Oshima Moriyoshi
+	}
+	1310.1.1={
+		holder=12186605 # Oshima Yoshikazu
+	}
+	1330.1.1={
+		holder=12186610 # Oshima Yoshimasa
+	}
+	1333.7.4={
+		liege="d_nmih_echigo"
+		holder=12185043 # Nitta Yoshiaki
+	}
+	1337.4.7={
+		holder=12185040 # Nitta Yoshisada
+	}
+	1338.8.17={
+		liege="d_nmih_nitta"
+		holder=12185045 # Nitta Yoshimune
+	}
+	1368.9.3={
+		liege="d_nmih_echigo"
+		holder=10032020 # Nagao Nagakage
+	}
+	1378.1.1={
+		holder=10032021 # Nagao Fusakage
+	}
+	1415.1.1={
+		holder=10032022 # Nagao Norikage
+	}
+	1438.1.1={
+		holder=10032023 # Nagao Norinaga
+	}
+	1487.1.1={
+		holder=10032024 # Nagao Kagetaka
+	}
+	1506.10.5={
+		liege=0
+		holder=10032001 # Nagao Fusanaga
+	}
+	1510.7.25={
+		liege="d_nmih_echigo"
+	}
+	1552.9.3={
+		holder=10032025 # Nagao Masakage
+	}
+	1561.8.21={
+		holder=10032011 # Uesugi Kenshin
+	}
+	1575.1.1={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1598.3.1={
+		holder=10025968 # Hori Naoyori
+	}
+	1603.3.24={
+		liege="d_nmih_echigo"
+	}
+	1610.3.16={
+		holder=10024035 # Matsudaira Tadateru
+	}
+}

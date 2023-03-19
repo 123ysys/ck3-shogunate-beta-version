@@ -1,0 +1,133 @@
+c_nmih_otori = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_otori1={
+				set_title_name=b_nmih_otori5
+			}
+		}
+	}
+	0701.1.1={
+		effect={
+			title:b_nmih_otori1={
+				set_title_name=b_nmih_otori9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_otori1={
+				set_title_name=b_nmih_otori2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0701.1.1 = { change_development_level = 20 }
+	1231.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 60 }
+	1467.1.1 = { change_development_level = 80 }
+	1571.1.1 = { change_development_level = 70 }
+
+	0701.1.1={
+		liege="d_nmih_izumi"
+	}
+	1180.1.1={
+		liege="d_nmih_izumi" # Taira Nobukane
+		holder=10110235 # Taira Nobukane
+	}
+	1183.8.17={
+		liege="d_nmih_izumi" # Minamoto Yukiie
+		holder=10120072 # Minamoto Yukiie / Taira's escape to the west
+	}
+	1186.6.1={
+		liege="d_nmih_izumi"
+		holder=12211035 # Sahara Yoshitsura
+	}
+	1203.6.27={
+		liege="d_nmih_izumi"
+		holder=10041060 # Emperor Go-Toba
+	}
+	1203.7.1={
+		holder=11007504 # Hamuro Mitsuchika
+	}
+	1216.1.1={
+		holder=11006350 # Bomon Tadanobu
+	}
+	1221.7.6={
+		liege="d_nmih_izumi"
+		holder=10130089 # Tashiro Nobutsuna
+	}
+	1233.1.1={
+		holder=12531301 # Tashiro Kiyotsuna
+	}
+	1250.1.1={
+		holder=12531303 # Tashiro Michitsuna
+	}
+	1280.1.1={
+		holder=12531307 # Tashiro Ietsuna
+	}
+	1310.1.1={
+		holder=12531310 # Tashiro Mototsuna
+	}
+	1333.6.17={
+		liege="e_nmih_nancho"
+	}
+	1336.2.22={
+		liege="e_nmih_japan"
+	}
+	1350.1.1={
+		liege="d_nmih_izumi"
+		holder=12531313 # Tashiro Akitsuna
+	}
+	1370.1.1={
+		holder=12531317 # Tashiro Toshitsuna
+	}
+	1378.12.1={
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1392.1.24={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		holder=12396150 # Nikki Yoshikazu
+	}
+	1408.8.1={
+		holder=10040560 # Hosokawa Motoyuki
+	}
+	1448.11.8={
+		holder=10040604 # Hosokawa Yorihisa
+	}
+	1467.1.1={
+		holder=10042860 # Yukawa Sena
+		liege="d_nmih_sakai"
+	}
+	1483.5.17={
+		holder=10042861 # Yukawa Shinbee
+	}
+	1510.1.1={
+		holder=10042890 # Sen (Tanaka) Yohyoe
+	}
+	1530.1.1={
+		holder=10042830 # Takeno Joo
+	}
+	1555.12.12={
+		holder=10042881 # Imai Sokyu
+	}
+	1570.1.1={
+		holder=10042801 # Tsuda Sokyu
+	}
+	1574.1.1={
+		holder=10042891 # Sen Soeki
+	}
+	1591.4.21={
+		liege="e_nmih_japan"
+		holder=10042881 # Imai Sokyu
+	}
+	1593.8.31={
+		holder=10042882 # Imai Sokun
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

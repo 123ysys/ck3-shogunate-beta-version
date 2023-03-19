@@ -1,0 +1,110 @@
+c_nmih_akita = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_akita1={
+				set_title_name=b_nmih_akita5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_akita1={
+				set_title_name=b_nmih_akita5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1395.1.1 = { change_development_level = 20 }
+
+	0712.9.23={
+		liege="k_nmih_dewa"
+	}
+	1180.1.1={
+		liege="d_nmih_ugo"
+		holder=12000200 # Akita Munebumi
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=12690610 # Tachibana Kiminari
+	}
+	1190.1.1={
+		liege="d_nmih_tsugaru"
+		holder=12000011 # Okawa Kaneto
+	}
+	1190.4.16={
+		liege="d_nmih_ugo"
+		holder=12690610 # Tachibana Kiminari
+	}
+	1210.1.1={
+		holder=12690620 # Tachibana KusuNoUwa
+	}
+	1218.4.6={
+		liege="d_nmih_ugo"
+		holder=12220001 # Adachi Kagemori
+	}
+	1225.1.1={
+		holder=12220011 # Adachi Yoshikage
+	}
+	1253.6.30={
+		holder=12220017 # Adachi Yasumori
+	}
+	1285.12.14={
+		holder=12220055 # Adachi Tokiaki
+	}
+	1333.7.4={
+		liege="d_nmih_ugo"
+		holder=11007509 # Hamuro Mitsuaki
+	}
+	1336.1.1={
+		liege="k_nmih_mutsu_shogun"
+		holder=10125125 # Kitabatake Akiie
+	}
+	1338.6.10={
+		holder=10125126 # Kitabatake Akinobu
+	}
+	1362.1.1={
+		liege="d_nmih_shimokuni"
+		holder=10000113 # Ando Norisue
+	}
+	1400.1.1={
+		liege="k_nmih_wajinchi"
+		holder=10000116 # Ando Morisue
+	}
+	1414.2.20={
+		holder=10000115 # Ando Yasusue
+	}
+	1441.7.12={
+		holder=10000114 # Ando Yoshisue
+	}
+	1453.1.1={
+		holder=10000106 # Ando Masasue
+	}
+	1488.9.15={
+		holder=10000105 # Ando Tadasue
+	}
+	1511.8.19={
+		holder=10000101 # Ando Hirosue
+	}
+	1547.2.27={
+		holder=10000102 # Ando Kiyosue
+	}
+	1553.9.18={
+		holder=10000136 # Ando Chikasue
+	}
+	1587.10.2={
+		holder=10000142 # Ando Sanesue 
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="d_nmih_ugo"
+		holder=10010836 # Satake Yoshinobu
+	}
+}

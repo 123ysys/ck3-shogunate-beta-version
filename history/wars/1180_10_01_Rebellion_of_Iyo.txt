@@ -1,0 +1,16 @@
+war = {
+	name = "war_1180_rebellion_of_iyo"
+	start_date = 1180.10.1
+	end_date = 1181.2.27
+	targeted_titles = {
+		k_nmih_western_chugoku
+	}
+	casus_belli = event_claim_cb
+	claimant = 12691005 # Kono Michikiyo
+	attackers = {
+		12691005	# Kono Michikiyo
+	}
+	defenders = {
+		10110025	# Taira Kiyomori
+	}
+}

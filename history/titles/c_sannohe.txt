@@ -1,0 +1,93 @@
+c_nmih_sannohe = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sannohe1={
+				set_title_name=b_nmih_sannohe1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	1189.10.3 = { change_development_level = 10 }
+	1500.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1160.1.1={
+		liege="d_nmih_mutsu"
+		holder=10150108 # Akarogu
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_mutsu"
+		holder=10130055 # Kudo Yukimitsu
+	}
+	1195.1.1={
+		holder=10130056 # Kudo Sukemitsu
+	}
+	1220.1.1={
+		holder=12231201 # Kudo Mitsuyasu
+	}
+	1270.1.1={
+		holder=12041100 # Kudo Suketomo
+	}
+	1280.1.1={
+		holder=12041101 # Kudo Suketsuna
+	}
+	1305.1.1={
+		holder=12041105 # Kudo Sukemori
+	}
+	1330.1.1={
+		holder=12041110 # Kudo Sadayuki
+	}
+	1333.7.4={
+		liege="d_nmih_mutsu"
+		holder=12040162 # Nanbu Nobunaga
+	}
+	1350.1.1={
+		holder=12040180 # Nanbu Masayuki
+	}
+	1388.11.17={
+		holder=12040190 # Nanbu Moriyuki
+	}
+	1437.5.13={
+		holder=12040200 # Nanbu Yoshimasa
+	}
+	1440.8.9={
+		holder=12040201 # Nanbu Masamori
+	}
+	1445.1.1={
+		holder=10003130 # Nanbu Mitsumasa
+	}
+	1449.1.1={
+		holder=10003131 # Nanbu Tokimasa
+	}
+	1473.4.2={
+		holder=10003132 # Nanbu Michitsugu
+	}
+	1483.1.1={
+		holder=10003133 # Nanbu Nobutoki
+	}
+	1502.1.11={
+		holder=10003134 # Nanbu Nobuyoshi
+	}
+	1503.6.18={
+		holder=10003135 # Nanbu Masayasu
+	}
+	1507.3.23={
+		holder=10003101 # Nanbu Yasunobu
+	}
+	1541.1.1={
+		holder=10003102 # Nanbu Harumasa
+	}
+	1582.1.27={
+		holder=10003154 # Nanbu Nobunao
+	}
+	1599.11.12={
+		holder=10003156 # Nanbu Toshinao
+	}
+}

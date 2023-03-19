@@ -1,0 +1,125 @@
+c_nmih_matsura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_matsura1={
+				set_title_name=b_nmih_matsura2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_matsura1={
+				set_title_name=b_nmih_matsura9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1000.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	240.1.1={
+		holder=10290031 # Tsushikori
+		liege=d_nmih_chikuzen
+	}
+	280.1.1={
+		holder=10290031 # Mirukashi
+		liege=0
+	}
+	1180.1.1={
+		liege="d_nmih_iki"
+		holder=12760300 # Ishishi Itaru
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_hizen"
+		holder=12760300 # Ishishi Itaru
+	}
+	1190.1.1={
+		holder=12760303 # Ishishi Kasan
+	}
+	1220.1.1={
+		holder=12760307 # Ishishi Kiramu
+	}
+	1250.1.1={
+		holder=12760310 # Ishishi Kaneru
+	}
+	1274.11.15={
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1274.11.20={
+		liege="d_nmih_hizen"
+		holder=12760310 # Ishishi Kaneru
+	}
+	1280.1.1={
+		holder=12760313 # Ishishi Kasan
+	}
+	1281.7.14={
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1281.8.22={
+		liege="d_nmih_hizen"
+		holder=12760313 # Ishishi Kasan
+	}
+	1310.1.1={
+		holder=10069015 # Hata Naoshi
+	}
+	1333.7.4={
+		liege="d_nmih_iki"
+		holder=10069015 # Hata Naoshi
+	}
+	1370.1.1={
+		holder=10069014 # Hata Sadamu
+	}
+	1375.1.1={
+		holder=10069008 # Hata Takeshi
+	}
+	1390.1.1={
+		holder=10069007 # Hata Shigeru
+	}
+	1410.1.1={
+		holder=10069006 # Hata Hisashi
+	}
+	1440.1.1={
+		liege=0
+		holder=10069005 # Hata Chikashi
+	}
+	1460.1.1={
+		holder=10069003 # Hata Yasushi
+	}
+	1485.1.1={
+		holder=10069001 # Hata Osamu
+	}
+	1528.1.1={
+		holder=10069000 # Hata Okoshi
+	}
+	1543.1.1={
+		holder=10069002 # Hata Satoshi
+	}
+	1547.1.1={
+		holder=10068611 # Hata Chikashi
+	}
+	1564.1.1={
+		holder=10069012 # Hata Omoshi
+	}
+	1571.1.1={
+		holder=10068611 # Hata Chikashi
+	}
+	1573.1.1={
+		liege=d_nmih_hizen
+	}
+	1593.5.21={
+		liege="e_nmih_japan"
+		holder=10094500 # Terasawa Hirotaka
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

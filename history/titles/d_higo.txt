@@ -1,0 +1,149 @@
+d_nmih_higo = {
+	0100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi a.k.a Kukuchihiko
+	}
+	250.1.1={
+		holder=10041353 # Takemorokumi
+	}
+	290.1.1={
+		holder=10041357 # Takekunitake
+	}
+	330.1.1={
+		holder=10041358 # Takeoshihiko
+	}
+	350.1.1={
+		holder=10041359 # Takekawana
+	}
+	390.1.1={
+		holder=10041360 # Takekuwae
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege=0
+		holder=12780645 # Kikuchi Takanao
+	}
+	1182.5.1={
+		liege = "e_nmih_japan"
+	}
+	1183.8.17={
+		liege = 0
+		liege = "k_nmih_western_chugoku"
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege = 0
+		liege = "e_nmih_japan"
+		holder=12780651 # Kikuchi Takasada
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+		holder=12780670 # Kikuchi Yoshitaka
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo [Nagoe] Mitsutoki
+	}
+	1272.3.11={
+		holder=12220017 # Adachi Yasumori
+	}
+	1285.12.14={
+		holder=10110266 # Taira Yoritsuna
+	}
+	1293.5.29={
+		holder=10132097 # Hojo Masaaki
+	}
+	1316.1.1={
+		holder=10132244 # Hojo Takamasa
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10066023 # Kikuchi Takeshige
+	}
+	1338.1.1={
+		holder=10066024 # Kikuchi Takehito
+	}
+	1343.1.1={
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1348.1.1={
+		liege = 0
+		liege="k_nmih_seisei_shogun"
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1373.12.29={
+		holder=10066021 # Kikuchi Takemasa
+	}
+	1374.7.6={
+		holder=10066020 # Kikuchi Taketomo
+	}
+	1392.11.12={
+		liege=0
+	}
+	1407.4.25={
+		holder=10066019 # Kikuchi Kanetomo
+	}
+	1431.1.1={
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1446.8.20={
+		holder=10066006 # Kikuchi Tamekuni
+	}
+	1466.1.1={
+		holder=10066005 # Kikuchi Shigetomo
+	}
+	1493.12.7={
+		holder=10066004 # Kikuchi Yoshiyuki
+	}
+	1504.3.1={
+		holder=10066003 # Kikuchi Masataka
+	}
+	1505.9.15={
+		holder=10066203 # Kikuchi Taketsune(Aso Korenaga)
+	}
+	1511.1.1={
+		holder=10066001 # Kikuchi Takekane
+	}
+	1520.1.1={
+		liege=0
+		holder=10066000 # Kikuchi Yoshitake
+	}
+	1554.12.14={
+		liege=0
+		holder=10066404 # Sagara Haruhiro
+	}
+	1555.8.28={
+		holder=10066424 # Sagara Yoshihi
+	}
+	1579.1.1={
+		liege="k_nmih_southern_kyushu"
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1581.9.1={
+		holder=10060045 # Shimazu Yoshihiro
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10029350 # Sassa Narimasa
+	}
+	1588.7.7={
+		holder=0
+	}
+	1603.3.24={
+		holder=10029710 # Kato Kiyomasa
+	}
+	1611.8.2={
+		holder=10029712 # Kato Tadahiro
+	}
+}

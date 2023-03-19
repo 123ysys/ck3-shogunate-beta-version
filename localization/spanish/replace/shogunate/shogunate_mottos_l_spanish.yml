@@ -1,0 +1,221 @@
+﻿l_spanish:
+
+ ## Dewa Clans
+
+ # Ando
+ dynn_10000001_motto:0 "Como la Osa Mayor en el Cielo del Norte"
+
+ # Mogami
+ dynn_10000007_motto:0 "Sé sabio, benevolente y valiente"
+ house_shgnt_mogami_motto:0 "$dynn_10000007_motto$"
+
+ # Date
+ dynn_10000010_motto:0 "Vive en tiempos turbulentos con tus propias creencias"
+
+
+ ## Northern Oshu Clans
+
+ # Nanbu
+ dynn_10000031_motto:0 "Qué vasta tierra para recorrer en unos pocos días"
+
+ # Oura
+ dynn_10000033_motto:0 "Nunca cedas a nada"
+ house_shgnt_nambu_oura_motto:0 "$dynn_10000033_motto$"
+
+
+ ## Northern Kanto Clans
+
+ # Utsunomiya
+ dynn_10000109_motto:0 "En el campo de batalla, las vidas son más ligeras que el polvo"
+
+
+ ## Eastern Kanto Clans
+
+ # Satomi
+ dynn_10000119_motto:0 "Una persona virtuosa es siempre valiente"
+
+
+ ## Western Kanto Clans
+
+ # Uesugi
+ dynn_10000100_motto:0 "los cielos nunca dan la victoria; Gánalo por tu cuenta"
+ house_shgnt_nagao_uesugi_motto:0 "$dynn_10000100_motto$"
+
+
+ ## Southern Kanto Clans
+
+ # Hojo (Later)
+ dynn_10000160_motto:0 "No bajes la guardia incluso después de una victoria"
+ house_shgnt_hojo_motto:0 "$dynn_10000160_motto$"
+
+
+ ## Koshin Clans
+
+ # Takeda (Kai)
+ dynn_10000200_motto:0 "El estandarte y la armadura sagrada nos miran"
+
+ # Sanada
+ dynn_10000222_motto:0 "Sacrifica tu cuerpo y tu alma"
+
+
+ ## Tokai Clans
+
+ # Imagawa
+ dynn_10000230_motto:0 "Uno y único sucesor del ashikaga"
+
+ # Tokugawa
+ dynn_10000239_motto:0 "La vida es un largo viaje con una carga"
+ house_shgnt_matsudaira_tokugawa_motto:0 "$dynn_10000239_motto$"
+
+ # Matsudaira
+ dynn_10000240_motto:0 "Deja de luchar, desea la paz"
+
+
+ ## Chubu Clans
+
+ # Toki
+ dynn_10000253_motto:0 "La flor divina florece en la colina"
+
+ # Akechi
+ dynn_10000269_motto:0 "Ahora es el momento de levantarnos"
+ house_shgnt_toki_akechi_motto:0 "$dynn_10000269_motto$"
+
+ # Takenaka
+ dynn_10000274_motto:0 "El deseo genuino de Samurai es morir en la guerra"
+
+ # Shiba
+ dynn_10000279_motto:0 "Una sinceridad supera muchos talentos"
+
+ # Oda
+ dynn_10000280_motto:0 "Una vez nacido, uno debe morir"
+
+ # Hashiba
+ dynn_10000283_motto:0 "'Tis otorgado apellidos de ustedes dos"
+
+ # Toyotomi
+ dynn_10000284_motto:0 "La vida es fugaz como soñar un sueño de sueños"
+ house_shgnt_toyotomi_motto:0 "$dynn_10000284_motto$"
+
+ # Ganshoji
+ dynn_10000285_motto:0 "Respeta el Templo; Sigue la Adoración"
+ house_shgnt_ganshoji_motto:0 "$dynn_10000285_motto$"
+
+ # Maeda
+ dynn_10000296_motto:0 "El ciruelo florece más alto que la malvarrosa"
+
+ # Takigawa
+ dynn_10000297_motto:0 "Sé excelente tanto en ataque como en retirada"
+
+ # Shibata
+ dynn_10000698_motto:0 "La vida es corta y fugaz, como una noche de verano"
+
+ # Kato
+ dynn_10000745_motto:0 "Un líder infecta a sus hombres con descuido"
+
+
+ ## Western Hokuriku Clans
+
+ # Asakura
+ dynn_10000350_motto:0 "Ganar Asuntos; Incluso de la peor manera"
+
+ # Honganji
+ dynn_10000430_motto:0 "Avanza hacia el Paraíso; Vuelve al infierno"
+
+
+ ## Central Kinai Clans
+
+ # Ashikaga
+ dynn_10000400_motto:0 "Dos dragones ascienden al cielo"
+
+ # Yamato
+ dynn_10000420_motto:0 "Que Todo el Pueblo Viva en Armonía"
+
+ # Sen
+ dynn_10000439_motto:0 "Tesoro Ocasión única en la vida"
+
+ # Rokkaku
+ dynn_10000450_motto:0 "Abandona los deseos de purificar los seis sentidos"
+ house_shgnt_rokkaku_motto:0 "$dynn_10000450_motto$"
+
+ # Ishida
+ dynn_10000462_motto:0 "Uno para todos, todos para uno"
+
+ # Kusunoki
+ dynn_10000488_motto:0 "Que renazca siete veces y ayude al emperador"
+
+ # Todo
+ dynn_10000751_motto:0 "Piense en cada día como un día en que muere"
+
+
+ ## Southern Kinai Clans
+
+ # Hatakeyama
+ dynn_10000404_motto:0 "Sé un verdadero samurái del este"
+
+
+ ## Sanin Clans
+
+ # Yamana
+ dynn_10000500_motto:0 "Actuar de acuerdo con los tiempos"
+
+ # Amago
+ dynn_10000515_motto:0 "Mantenga las cosas sagradas en secreto"
+ house_shgnt_amago_motto:0 "$dynn_10000515_motto$"
+
+ # Yamanaka
+ dynn_10000516_motto:0 "Dame siete tribulaciones y ocho sufrimientos"
+
+ # Tako
+ dynn_10000519_motto:0 "La vida es ligera, el honor es pesado"
+
+
+ ## Sanyo Clans
+
+ # Kuroda
+ dynn_10000534_motto:0 "El arte de la guerra es el arte de gobernar"
+
+
+ ## Western Chugoku Clans
+
+ # Mori
+ dynn_10000560_motto:0 "Unidos nos mantenemos, divididos caemos"
+
+ # Kobayakawa (Mori)
+ dynn_10000562_motto:0 "Lluvia de Primavera, Caer para no Caer las Flores"
+ house_shgnt_mori_kobayakawa_motto:0 "$dynn_10000562_motto$"
+
+ # Sue
+ dynn_10000565_motto:0 "No tener nada que lamentar o resentir"
+
+ # Ouchi
+ dynn_10000570_motto:0 "La vida es fugaz como el rocío y el relámpago"
+
+
+ ## Shikoku Clans
+
+ # Miyoshi
+ dynn_10000587_motto:0 "Los samuráis que se toman la poesía a la ligera son débiles"
+
+
+ ## Southern Kyushu Clans
+
+ # Shimazu
+ dynn_10000600_motto:0 "Enseñar sin haber practicado es inútil"
+
+
+ ## Northern Kyushu Clans
+
+ # Ryuzoji
+ dynn_10000691_motto:0 "Pensar demasiado provoca oportunidades perdidas"
+
+
+ ## Kamakura Era Clans
+
+ # Taira
+ dynn_10001100_motto:0 "Solo la taira es verdaderamente noble"
+
+ # Fujiwara (Oshu)
+ dynn_10001300_motto:0 "El templo brilla con oro"
+
+ # Hojo (Early)
+ dynn_10006129_motto:0 "Unidos en Corazón y Fuerza"

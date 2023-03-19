@@ -1,0 +1,8 @@
+189 = {
+
+	culture = western_chubu
+	religion = shinto
+	holding = castle_holding
+	1331.1.1={
+	}
+}

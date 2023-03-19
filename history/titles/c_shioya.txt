@@ -1,0 +1,98 @@
+c_nmih_shioya = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shioya1={
+				set_title_name=b_nmih_shioya1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_shimotsuke"
+	}
+	1180.1.1={
+		liege=0
+		holder=12145005 # Shionoya Koreyori
+	}
+	1180.10.26={
+		liege="d_nmih_utsunomiya"
+	}
+	1187.1.1={
+		holder=12145010 # Shionoya Masayoshi
+	}
+	1190.1.1={
+		holder=12145011 # Shionoya Tomoyoshi
+	}
+	1192.1.1={
+		holder=12130003 # Utsunomiya Tomotsuna
+	}
+	1196.1.1={
+		holder=12130020 # Utsunomiya Yoritsuna
+	}
+	1259.12.26={
+		holder=12130030 # Utsunomiya Yasutsuna
+	}
+	1260.11.24={
+		liege="d_nmih_utsunomiya"
+		holder=12130040 # Utsunomiya Kagetsuna
+	}
+	1298.5.1={
+		holder=12130045 # Utsunomiya Sadatsuna
+	}
+	1316.7.25={
+		holder=12130050 # Utsunomiya Kintsuna
+	}
+	1356.12.17={
+		liege="d_nmih_utsunomiya" # Utsunomiya Ujitsuna
+		holder=12130055 # Utsunomiya Ujitsuna
+	}
+	1370.7.28={
+		holder=12130060 # Utsunomiya Mototsuna
+	}
+	1380.6.19={
+		holder=12130065 # Utsunomiya Mitsutsuna
+	}
+	1407.11.2={
+		holder=12130120 # Nimo Mochitsuna -> Utsunomiya Mochitsuna
+	}
+	1423.9.13={
+		holder=10010911
+	}
+	1463.11.23={
+		holder=10010902
+	}
+	1477.10.7={
+		holder=10010903
+	}
+	1514.1.1={
+		holder=10010904
+	}
+	1526.1.1={
+		holder=10010901
+	}
+	1536.9.1={
+		holder=10010932 # Utsunomiya Harutsuna
+	}
+	1549.10.7={
+		holder=10010933 # Utsunomiya Hirotsuna
+	}
+	1576.8.30={
+		holder=10010934 # Utsunomiya Kunitsuna
+	}
+	1590.6.18={
+		liege="d_nmih_shimotsuke"
+	}
+	1597.11.22={
+		holder=10044512 # Gamo Hideyuki
+	}
+	1603.3.24={
+		liege="d_nmih_shimotsuke"
+		holder=10024330 # Okudaira Iemasa
+	}
+	1614.11.11={
+		holder=10024335 # Okudaira Tadamasa
+	}
+}

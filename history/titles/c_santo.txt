@@ -1,0 +1,129 @@
+c_nmih_santo = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_santo1={
+				set_title_name=b_nmih_santo2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_santo1={
+				set_title_name=b_nmih_santo9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_santo1={
+				set_title_name=b_nmih_santo4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege=0
+		holder=12270210 # Oguni Muneyori
+	}
+	1184.3.4={
+		liege="d_nmih_echigo"
+		holder=12270210 # Oguni Muneyori
+	}
+	1195.1.1={
+		holder=12270232 # Oguni Yoritsura
+	}
+	1225.1.1={
+		holder=12270250 # Oguni Yoritaka
+	}
+	1240.1.1={
+		holder=12270270 # Oguni Yorimura
+	}
+	1290.1.1={
+		holder=12270275 # Oguni Yoriatsu
+	}
+	1310.1.1={
+		liege="d_nmih_echigo"
+		holder=12270280 # Oguni Masamitsu
+	}
+	1338.8.17={
+		liege="e_nmih_nancho"
+	}
+	1338.9.1={
+		liege="k_nmih_seito_shogun"
+	}
+	1341.6.1={
+		liege="d_nmih_echigo"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1352.3.12={
+		holder=12130530 # Haga Takana
+	}
+	1363.3.1={
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		liege="d_nmih_echigo"
+		holder=10032801 # Uesugi Noriyoshi
+	}
+	1386.1.1={
+		holder=10017015 # Uesugi Fusakata
+	}
+	1421.12.4={
+		holder=10032803 # Uesugi Tomokata
+	}
+	1422.10.29={
+		holder=10032806 # Uesugi Fusatomo
+	}
+	1449.3.21={
+		holder=10032808 # Uesugi Fusasada
+	}
+	1494.11.14={
+		holder=10032811 # Uesugi Fusayoshi
+	}
+	1506.10.5={
+		liege=0
+		holder=10032811 # Uesugi Fusayoshi
+	}
+	1507.9.13={
+		holder=10032812 # Uesugi Sadazane
+	}
+	1508.1.1={
+		liege="d_nmih_echigo" # 32000 Nagao Tamekage
+		holder=10032000 # Nagao Tamekage
+	}
+	1514.1.1={
+		holder=10032650 # Naoe Chikatsuna
+	}
+	1539.1.1={
+		holder=10032652 # Naoe Kagetsuna
+	}
+	1577.3.24={
+		holder=10017344 # Naoe Nobutsuna
+	}
+	1581.10.6={
+		holder=10032032 # Uesugi Kagekatsu
+	}
+	1581.12.1={
+		holder=10032672 # Naoe Kanetsugu
+	}
+	1598.3.1={
+		holder=10025964 # Hori Hideharu
+	}
+	1603.3.24={
+		liege="d_nmih_echigo"
+	}
+	1606.7.1={
+		holder=10025969 # Hori Tadatoshi
+	}
+	1610.3.16={
+		holder=10024035 # Matsudaira Tadateru
+	}
+}

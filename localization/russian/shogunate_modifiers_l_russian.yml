@@ -1,0 +1,16 @@
+﻿l_russian:
+
+ # Bookmark Modifiers
+
+ shogunate_surprise_attack_modifier:0 "Внезапная атака"
+ shogunate_surprise_attack_modifier_desc:0 "Персонаж готовится к внезапной атаке."
+
+ # Target Modifiers
+
+ shogunate_global_coalition_target_modifier:0 "Цель заговора"
+ shogunate_global_coalition_target_modifier_desc:0 "Этот персонаж - цель заговора"
+
+ # AI Personality Modifiers
+
+ shogunate_personality_10029120_modifier:0 "Тэнка Фубу (особенность ИИ)"
+ shogunate_personality_10029120_modifier_desc:0 "Персонаж намерен покорить Японию силой."

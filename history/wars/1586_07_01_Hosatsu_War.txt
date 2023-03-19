@@ -1,0 +1,11 @@
+war = {
+	name = "war_1586_hosatsu_war"
+	start_date = 1586.7.1
+	end_date = 1587.4.12
+	targeted_titles = {
+		k_nmih_northern_kyushu
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10060024 } # Shimazu Yoshihisa
+	defenders = { 10064002 } # Otomo Sorin
+}

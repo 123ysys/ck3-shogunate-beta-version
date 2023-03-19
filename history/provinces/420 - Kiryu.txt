@@ -1,0 +1,7 @@
+420 = {
+
+	culture = western_kanto
+	religion = shinto
+	holding = castle_holding
+
+}

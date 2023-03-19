@@ -1,0 +1,127 @@
+d_nmih_osumi = {
+	0100.1.1={
+	}
+	130.1.1={
+		holder=10290303 # Hishimochi
+	}
+	170.1.1={
+		holder=10290304 # Okuchi
+	}
+	210.1.1={
+		holder=10290305 # Sonobe
+	}
+	260.1.1={
+		holder=10290306 # Sutaki
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1185.4.25={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10060035 # Shimazu Tadahisa
+	}
+	1203.10.8={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131697 # Hojo [Nagoe] Tokiaki
+	}
+	1272.3.11={
+		holder=10131840 # Hojo [Nagoe] Kimitoki
+	}
+	1284.1.1={
+		holder=12150150 # Chiba Munetane
+	}
+	1291.1.1={
+		holder=10131840 # Hojo [Nagoe] Kimitoki
+	}
+	1295.1.1={
+		holder=10131933 # Hojo [Kanesawa] Tokinao
+	}
+	1323.1.1={
+		holder=10132166 # Hojo [Sakurada] Moroyori
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1335.8.14={
+		holder=10060145 # Kimotsuki Kaneshige
+	}
+	1342.1.1={
+		liege = 0
+		liege = "e_nmih_japan"
+		holder=10060031 # Shimazu Sadahisa
+	}
+	1363.8.12={
+		holder=10060029 # Shimazu Ujihisa
+	}
+	1376.1.1={
+		liege = 0
+	}
+	1382.1.1={
+		liege = "e_nmih_japan"
+	}
+	1387.6.20={
+		holder=10060030 # Shimazu Motohisa
+	}
+	1411.8.25={
+		holder=10060004 # Shimazu Hisatoyo
+	}
+	1425.2.9={
+		liege = 0
+		holder=10060005 # Shimazu Tadakuni
+	}
+	1441.4.4={
+		liege=0
+	}
+	1459.10.1={
+		holder=10060008 # Shimazu Tatsuhisa
+	}
+	1474.4.26={
+		holder=10060011 # Shimazu Tadamasa
+	}
+	1476.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1550.1.1={
+		liege=0
+		holder=10060100 # Kimotsuki Kanetsugu (De facto)
+	}
+	1566.12.26={
+		holder=10060104 # Kimotsuki Yoshikane
+	}
+	1571.8.20={
+		holder=10060105 # Kimotsuki Kaneaki
+	}
+	1574.2.1={
+		liege=0
+		holder=10060024 # Shimazu Yoshihisa
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+		holder=10060045 # Shimazu Yoshihiro
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10060050 # Shimazu Iehisa(Tadatsune)
+	}
+}

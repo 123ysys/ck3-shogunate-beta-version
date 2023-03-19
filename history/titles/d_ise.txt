@@ -1,0 +1,165 @@
+d_nmih_ise = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10110250 # Taira Moritoshi
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="k_nmih_western_chugoku"
+		holder=10110235 # Taira [Seki] Nobukane
+	}
+	1184.9.2={
+		liege="e_nmih_japan"
+		holder=10130838 # Kato Mitsukazu
+	}
+	1185.4.25={
+		holder=10130564 # Yamauchi-Sudo Tsunetoshi
+	}
+	1204.2.1={
+		liege=0
+		holder=12433001 # Tomida Motonori
+	}
+	1204.5.10={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12370013 # Hiraga Tomomasa
+	}
+	1205.9.16={
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131760 # Hojo [Kanesawa] Sanetoki
+	}
+	1276.11.30={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1331.1.1={
+		holder=10132230 # Hojo [Kanesawa] Sadafuyu
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12064011 # Yuki Chikamitsu
+	}
+	1336.2.23={
+		liege="e_nmih_japan"
+		holder=10007312 # Hatakeyama Takakuni
+	}
+	1338.9.1={
+		holder=12139548 # Kou Moroaki
+	}
+	1342.7.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1349.5.1={
+		holder=12139103 # Ishido Yorifusa
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=10040599 # Hosokawa Kiyouji
+	}
+	1352.10.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1360.7.1={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1366.8.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1367.11.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1372.8.1={
+		holder=10040559 # Hosokawa Mitsuyuki
+	}
+	1379.5.1={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1388.2.3={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1389.4.1={ # Rebellion
+		liege=0
+	}
+	1390.4.1={
+		liege="e_nmih_japan"
+		holder=12396151 # Nikki Mitsunaga
+	}
+	1391.8.1={
+		liege="e_nmih_japan"
+		holder=10025317 # Toki Yasuyuki
+	}
+	1392.1.1={
+		holder=12396151 # Nikki Mitsunaga
+	}
+	1396.7.1={
+		holder=12396150 # Nikki Yoshikazu
+	}
+	1400.1.1={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1404.11.8={
+		holder=10025321 # Toki Yasumasa
+	}
+	1424.5.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1428.7.1={
+		holder=10025323 # Toki Mochiyori
+	}
+	1440.6.15={
+		holder=10049514 # Isshiki Norichika
+	}
+	1451.12.21={
+		holder=10049515 # Isshiki Yoshinao
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan" # Onin War
+		holder=10025325 # Toki Masayasu
+	}
+	1471.3.1={
+		liege=0
+		holder=0 # 
+	}
+	1582.6.19={
+		liege="e_nmih_japan"
+		holder=10029162 # Oda Nobutaka
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1582.7.16={
+		liege="k_nmih_chubu"
+	}
+	1584.12.3={
+		liege="k_nmih_northern_kinai"
+		holder=10044508 # Gamo Ujisato
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1590.8.28={
+		holder=0
+	}
+	1608.6.1={
+		liege="e_nmih_japan"
+		holder=10043302 # Todo Takatora
+	}
+}

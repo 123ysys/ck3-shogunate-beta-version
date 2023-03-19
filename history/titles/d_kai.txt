@@ -1,0 +1,173 @@
+d_nmih_kai = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0782.3.9={
+	    holder=11000024 # Fujiwara Uchimaro {Kai no kami}
+	}
+	0784.5.27={
+	    holder=0 #  
+	}
+	1022.7.25={
+	    holder=11003606 # Fujiwara Kiminari {Kai no kami}
+	}
+	1030.10.7={
+	    holder=10120013 # Minamoto Yorinobu {Kai no kami}
+	}
+	1032.3.27={
+	    holder=0 #  
+	}
+	1064.3.30={
+	    holder=11003788 # Fujiwara Sanemasa {Kai no kami}
+	}
+	1076.4.26={
+	    holder=0 #  
+	}
+	1180.1.1={
+		liege=0
+		holder=10120111 # Takeda Nobuyoshi
+	}
+	1181.4.22={
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1184.7.25={
+		holder=12360102 # Takeda Ariyoshi
+	}
+	1200.2.6={
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1221.7.6={
+		holder=12425100 # Toyama Kagetomo
+	}
+	1241.4.20 ={
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1248.12.21={
+		holder=12360112 # Takeda Nobumasa
+	}
+	1265.1.6={
+		holder=12360121 # Takeda Masatsuna
+	}
+	1293.1.1={
+		holder=12360140 # Takeda Nobuie
+	}
+	1300.1.1={
+		holder=12220371 # Nikaido Sadafuji
+	}
+	1331.1.1={
+		holder=12360150 # Takeda Masayoshi
+	}
+	1333.4.24={
+		liege=0
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.7.1={
+		liege="k_nmih_western_kanto"
+	}
+	1336.1.2={
+		liege="e_nmih_japan"
+	}
+	1343.1.1={
+		holder=12360160 # Takeda Nobutake
+	}
+	1359.8.7={
+		liege="k_nmih_kamakura_kubo"
+		holder=12360170 # Takeda Nobunari
+	}
+	1394.7.11={
+		holder=12360180 # Takeda Nobuharu
+	}
+	1413.11.16={
+		holder=12360190 # Takeda Nobumitsu
+	}
+	1415.6.8={
+		liege=0
+	}
+	1417.2.22={
+		liege="e_nmih_japan"
+		holder=12360191 # Takeda Nobumoto
+	}
+	1420.1.1={
+		liege=0
+		holder=10011809 # Takeda Nobunaga
+	}
+	1426.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1433.3.1={
+		liege=0
+		holder=0 # 
+	}
+	1438.9.1={
+		liege=0
+		holder=12360200 # Takeda Nobushige
+	}
+	1450.12.28={
+		holder=12360210 # Takeda Nobumori
+	}
+	1455.6.25={
+		holder=12360220 # Takeda Nobumasa
+	}
+	1492.1.1={
+		holder=12360230 # Takeda Nobutsuna
+	}
+	1507.3.27={
+		holder=10020000 # Takeda Nobutora
+	}
+	1541.6.14={
+		holder=10020010 # Takeda Shingen
+	}
+	1573.05.13={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1582.4.3={
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="k_nmih_chubu" # 29160 Oda Nobutada
+		holder=10029251 # Kawajiri Hidetaka
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1582.7.7={
+		liege="k_nmih_tokai"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10029412 # Toyotomi Hidekatsu
+	}
+	1591.4.14={
+		holder=10094000 # Kato Mitsuyasu
+	}
+	1593.9.24={
+		holder=10094001 # Kato Sadayasu
+	}
+	1594.1.1={
+		holder=10029439 # Asano Nagamasa
+	}
+	1599.10.9={
+		holder=10029440 # Asano Yukinaga
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.1.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1607.4.1={
+		holder=0
+	}
+	1616.6.1={
+		holder=10024055 # Tokugawa Tadanaga
+	}
+}

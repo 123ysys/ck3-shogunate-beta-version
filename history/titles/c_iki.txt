@@ -1,0 +1,137 @@
+c_nmih_iki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iki1={
+				set_title_name=b_nmih_iki9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_iki1={
+				set_title_name=b_nmih_iki9
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_iki1={
+				set_title_name=B_NMIH_IKI9_1300
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	230.1.1={
+		holder=10290045 # Ijiki
+		liege=d_nmih_chikuzen
+	}
+	1180.1.1={
+		liege="d_nmih_iki"
+		holder=12750701	# Matsura Takatoshi
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_iki"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.11.13={
+		holder=12230101 # Amano Tokage
+	}
+	1192.1.1={
+		liege="d_nmih_iki"
+		holder=10130546 # Muto Sukeyori
+	}
+	1227.1.1={
+		holder=12135001 # Oyama Tomomasa
+	}
+	1238.5.15={
+		holder=10130550 # Muto Sukeyoshi
+	}
+	1273.1.1={
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1274.11.14={
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1274.11.20={
+		liege="d_nmih_iki"
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1281.6.14={
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1281.7.18={
+		liege="d_nmih_iki"
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1292.9.14={
+		holder=10068025 # Shoni Moritsune
+	}
+	1308.2.17={
+		holder=10068020 # Shoni Sadatsune
+	}
+	1333.7.4={
+		liege="d_nmih_iki"
+		holder=12750802 # Shisa Tamotsu
+	}
+	1359.8.29={
+		holder=12750804 # Shisa Shirabu
+	}
+	1400.1.1={
+		holder=12750805 # Shisa Shigeshi
+	}
+	1440.1.1={
+		holder=12750806 # Shisa Yoroshi
+	}
+	1472.1.1={
+		liege="d_nmih_iki"
+		holder=10069003 # Hata Yasushi
+	}
+	1485.1.1={
+		holder=10069001 # Hata Osamu
+	}
+	1528.1.1={
+		holder=10069000 # Hata Okoshi
+	}
+	1543.1.1={
+		holder=10069002 # Hata Satoshi
+	}
+	1547.1.1={
+		holder=10068611 # Hata Chikashi
+	}
+	1564.1.1={
+		holder=10069012 # Hata Omoshi
+	}
+	1571.1.1={
+		holder=10068202 # Matsura Takanobu
+	}
+	1573.1.1={
+		liege=d_nmih_hizen
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1599.4.30={
+		holder=10068205 # Matsura Shigenobu
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10068209 # Matsura Hisanobu
+	}
+	1602.10.14={
+		holder=10068265 # Matsura Takanobu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

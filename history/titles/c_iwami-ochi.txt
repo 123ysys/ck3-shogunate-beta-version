@@ -1,0 +1,151 @@
+c_nmih_iwami-ochi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iwami-ochi1={
+				set_title_name=b_nmih_iwami-ochi2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_iwami-ochi1={
+				set_title_name=b_nmih_iwami-ochi2
+			}
+		}
+	}
+	1290.1.1={
+		effect={
+			title:b_nmih_iwami-ochi1={
+				set_title_name=b_nmih_iwami-ochi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1290.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_iwami"
+		holder=11006190 # Fujiwara Yoshiyori
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_iwami"
+		holder=12661200 # Masuda Kanehide
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_iwami"
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_iwami"
+		holder=12150810 # Soma Tanetsuna
+	}
+	1238.1.1={
+		holder=10130080 # Ito Suketoki
+	}
+	1252.7.24={
+		holder=10060555 # Ito Sukemori
+	}
+	1260.1.1={
+		holder=10060557 # Ito Sukeie
+	}
+	1275.12.1={
+		holder=10131773 # Hojo Tomofusa
+	}
+	1281.8.22={
+		liege="d_nmih_iwami"
+		holder=10055741 # Ogasawara Nagachika
+	}
+	1313.1.1={
+		holder=10055738 # Ogasawara Ienaga
+	}
+	1333.5.4={
+		holder=10055736 # Ogasawara Nagatane
+	}
+	1333.7.4={
+		liege="d_nmih_iwami"
+	}
+	1346.8.18={
+		holder=10055733 # Ogasawara Nagauji
+	}
+	1351.3.15={
+		liege="e_nmih_japan"
+	}
+	1352.3.12={
+		liege="d_nmih_iwami"
+	}
+	1383.4.6={
+		holder=10055730 # Ogasawara Nagayoshi
+	}
+	1403.11.9={
+		liege="d_nmih_iwami"
+		holder=10055726 # Ogasawara Naganori
+	}
+	1414.7.22={
+		holder=10055722 # Ogasawara Naganari
+	}
+	1443.3.5={
+		holder=10055721 # Ogasawara Naganao
+	}
+	1461.12.14={
+		holder=10055718 # Ogasawara Nagahiro
+	}
+	1477.12.16={
+		liege=0
+	}
+	1489.3.13={
+		holder=10055715 # Ogasawara Nagamasa
+	}
+	1494.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10055715 # Ogasawara Nagamasa
+	}
+	1505.12.23={
+		liege="k_nmih_western_chugoku"
+		holder=10055703 # Ogasawara Nagasada
+	}
+	1524.4.6={
+		holder=10055701 # Ogasawara Nagataka
+	}
+	1540.1.1={
+		liege="k_nmih_sanin"
+	}
+	1542.5.18={
+		liege="k_nmih_western_chugoku"
+		holder=10055700 # Ogasawara Naganori
+	}
+	1547.10.4={
+		liege="k_nmih_western_chugoku"
+		holder=10055702 # Ogasawara Nagakatsu
+	}
+	1551.9.30={
+		liege="k_nmih_sanin"
+	}
+	1559.8.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1562.2.1={
+		liege="k_nmih_western_chugoku"
+		holder=12666507 # Kuchiba Michiyoshi
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+	}
+	1582.8.16={
+		holder=12666508 # Kuchiba Haruyoshi
+	}
+	1587.9.21={
+		holder=12666509 # Kuchiba Motoyoshi
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10205300 # Takemura Michikiyo
+	}
+}

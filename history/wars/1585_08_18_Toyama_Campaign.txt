@@ -1,0 +1,8 @@
+war = {
+	name = "war_1585_toyama_campaign"
+	start_date = 1585.8.18
+	end_date = 1585.9.9
+	casus_belli = vassalization_cb
+	attackers = { 10029400 } # Hashiba Hideyoshi
+	defenders = { 10029350 } # Sassa Narimasa
+}

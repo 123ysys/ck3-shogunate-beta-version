@@ -1,0 +1,201 @@
+c_nmih_ano = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ano1={
+				set_title_name=b_nmih_ano9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ano1={
+				set_title_name=b_nmih_ano9
+			}
+		}
+	}
+	1184.3.20={
+		effect={
+			title:b_nmih_ano1={
+				set_title_name=b_nmih_ano5
+			}
+		}
+	}
+	1309.1.1={
+		effect={
+			title:b_nmih_ano1={
+				set_title_name=b_nmih_ano1
+			}
+		}
+	}
+	1563.6.1={
+		effect={
+			title:b_nmih_ano1={
+				set_title_name=b_nmih_ano2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1184.3.20 = { change_development_level = 10 }
+	1309.1.1 = { change_development_level = 30 }
+	1563.6.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_iwami"
+		holder=12660000 # Kaneko Michiyoshi
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_iwami"
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_iwami"
+		holder=12150810 # Soma Tanetsuna
+	}
+	1238.1.1={
+		holder=10130080 # Ito Suketoki
+	}
+	1252.7.24={
+		holder=10060555 # Ito Sukemori
+	}
+	1260.1.1={
+		holder=10060557 # Ito Sukeie
+	}
+	1275.12.1={
+		holder=10131773 # Hojo Tomofusa
+	}
+	1295.1.1={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1301.9.25={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1312.6.12={
+		holder=10132114 # Hojo [Osaragi] Koresada
+	}
+	1327.9.22={
+		holder=10132247 # Hojo [Osaragi] Takanobu
+	}
+	1328.4.1={
+		holder=10132248 # Hojo [Osaragi] Ietoki
+	}
+	1333.7.4={
+		liege="d_nmih_iwami"
+		holder=12669300 # Takatsu Nagayuki
+	}
+	1336.7.22={
+		liege="d_nmih_iwami"
+		holder=10055052 # Ueno Yorikane
+	}
+	1350.1.1={
+		holder=12139566 # Kou Moroyasu
+	}
+	1351.3.15={
+		holder=10040036 # Ashikaga Tadafuyu
+	}
+	1352.3.12={
+		holder=12396304 # Arakawa Akiyori
+	}
+	1364.11.1={
+		holder=10057014 # Ouchi Hiroyo
+	}
+	1376.8.1={
+		holder=12396304 # Arakawa Akiyori
+	}
+	1379.5.1={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1380.1.1={
+		holder=12661463 # Migita Hironao
+	}
+	1400.1.17={
+		holder=10044206 # Kyogoku Takaaki
+	}
+	1401.10.14={
+		holder=10050084 # Yamana Ujitoshi
+	}
+	1406.1.1={
+		liege="d_nmih_iwami"
+		holder=10050085 # Yamana Tokihisa
+	}
+	1429.1.1={
+		holder=10050028 # Yamana Norikiyo
+	}
+	1437.1.1={
+		holder=10050030 # Yamana Hirotaka
+	}
+	1441.7.12={
+		holder=10050028 # Yamana Norikiyo
+	}
+	1450.1.1={
+		holder=10050063 # Yamana Masakiyo
+	}
+	1477.12.16={
+		liege="k_nmih_western_chugoku"
+		holder=10057007 # Ouchi Masahiro
+	}
+	1478.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=12661866 # Toida Hirotane
+	}
+	1507.9.30={
+		holder=12661868 # Toida Okiyuki
+	}
+	1522.1.1={
+		holder=12661870 # Toida Takamori
+	}
+	1528.1.1={
+		liege="k_nmih_sanin"
+		holder=10051501 # Amago Tsunehisa
+	}
+	1531.2.1={
+		liege="k_nmih_western_chugoku"
+		holder=12661870 # Toida Takamori
+	}
+	1537.8.1={
+		liege="k_nmih_sanin"
+		holder=10051501 # Amago Tsunehisa
+	}
+	1539.5.1={
+		liege="k_nmih_western_chugoku"
+		holder=12661870 # Toida Takamori
+	}
+	1543.7.1={
+		liege="k_nmih_sanin"
+		holder=10055754 # Sasuka Naganobu
+	}
+	1553.4.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1556.5.1={
+		liege="d_nmih_aki"
+	}
+	1558.8.1={
+		liege="k_nmih_sanin"
+		holder=12669234 # Honjo Tsunemitsu
+	}
+	1563.6.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056262 # Kikkawa Tsuneyasu
+	}
+	1568.1.1={
+		liege="d_nmih_izumo"
+	}
+	1574.1.1={
+		holder=10056264 # Kikkawa Tsuneie
+	}
+	1581.11.21={
+		holder=10056262 # Kikkawa Tsuneyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10205300 # Takemura Michikiyo
+	}
+}

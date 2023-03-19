@@ -1,0 +1,11 @@
+﻿namespace = shogunate_bookmark
+
+# Historical War
+shogunate_bookmark.1200 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+	}
+}

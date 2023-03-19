@@ -1,0 +1,162 @@
+﻿bm_honnoji1582 = {
+	start_date = 1582.6.21
+	is_playable = yes
+	group = bm_group_toyotomi_government
+
+	weight = {
+		value = 1
+	}
+
+	character = {
+		name = "bm_honnoji1582_hashiba_hideyoshi"
+		dynasty = 10000283
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1537.3.17
+		title = k_nmih_sanyo
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10029400
+		position = { 400 200 }
+
+		animation = personality_greedy
+	}
+
+	character = {
+		name = "bm_honnoji1582_shibata_katsuie"
+		dynasty = 10000698
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1522.1.1
+		title = k_nmih_hokuriku
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10029280
+		position = { 750 200 }
+
+		animation = personality_bold
+	}
+
+	character = {
+		name = "bm_honnoji1582_akechi_mitsuhide"
+		dynasty = 10000269
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1528.9.13
+		title = k_nmih_northern_kinai
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10025632
+		position = { 1100 200 }
+
+		animation = personality_dishonorable
+	}
+
+	character = {
+		name = "bm_honnoji1582_tokugawa_ieyasu"
+		dynasty = 10000239
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1543.1.31
+		title = k_nmih_tokai
+		government = feudal_government
+		culture = tokai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10024006
+		position = { 400 500 }
+
+		animation = personality_cynical
+	}
+
+	character = {
+		name = "bm_honnoji1582_uesugi_kagekatsu"
+		dynasty = 10000100
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1556.1.8
+		title = k_nmih_kanto_kanrei
+		government = feudal_government
+		culture = eastern_hokuriku
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10032032
+		position = { 750 500 }
+
+		animation = personality_honorable
+	}
+
+	character = {
+		name = "bm_honnoji1582_hojo_ujimasa"
+		dynasty = 10000160
+		dynasty_splendor_level = 2
+		type = male
+		birth = 1538.1.1
+		title = k_nmih_western_kanto
+		government = feudal_government
+		culture = southern_kanto
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_EASY"
+		history_id = 10016014
+		position = { 1100 500 }
+
+		animation = personality_compassionate
+	}
+
+	character = {
+		name = "bm_honnoji1582_takigawa_kazumasu"
+		dynasty = 10000297
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1525.1.1
+		title = d_nmih_kozuke
+		government = feudal_government
+		culture = western_chubu
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = 10029330
+		position = { 400 800 }
+
+		animation = personality_callous
+	}
+
+	character = {
+		name = "bm_honnoji1582_sanada_masayuki"
+		dynasty = 10000222
+		dynasty_splendor_level = 1
+		type = male
+		birth = 1547.1.1
+		title = c_nmih_chiisagata
+		government = feudal_government
+		culture = koshin
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10021150
+		position = { 750 800 }
+
+		animation = personality_rational
+	}
+
+	character = {
+		name = "bm_honnoji1582_hosokawa_tadaoki"
+		dynasty = 10000401
+		dynasty_splendor_level = 4
+		type = male
+		birth = 1563.11.28
+		title = c_nmih_kasa
+		government = feudal_government
+		culture = central_kinai
+		religion = shinto
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
+		history_id = 10040220
+		position = { 1100 800 }
+
+		animation = personality_vengeful
+	}
+}

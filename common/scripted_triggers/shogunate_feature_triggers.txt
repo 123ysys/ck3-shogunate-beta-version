@@ -1,0 +1,7 @@
+﻿shogunate_has_royal_court_feature_trigger = {
+	has_dlc_feature = royal_court
+}
+
+shogunate_has_struggle_feature_trigger = {
+	has_dlc_feature = the_fate_of_iberia
+}

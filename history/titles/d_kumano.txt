@@ -1,0 +1,53 @@
+d_nmih_kumano = {
+	1.1.1={
+		government = theocracy_government
+	}
+	0701.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12550011 # Kumano Hanchi
+	}
+	1184.10.1={
+		holder=12550030 # Kumano Tanzo
+	}
+	1185.3.22={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1198.6.14={
+		holder=12550021 # Kumano Gyokai
+	}
+	1202.1.1={
+		holder=12550022 # Kumano Hanmei
+	}
+	1208.1.1={
+		holder=12550032 # Kumano Tansei
+	}
+	1222.1.1={
+		holder=12550070 # Kumano Rinkai
+	}
+	1229.1.1={
+		holder=12550073 # Kumano Kaimei
+	}
+	1237.1.1={
+		holder=12550040 # Kumano Tanshin
+	}
+	1242.1.1={
+		holder=12550071 # Kumano Jinkai
+	}
+	1258.1.1={
+		holder=12550043 # Kumano Jotan
+	}
+	1270.1.1={
+		holder=12550077 # Kumano Jokai
+	}
+	1280.1.1={
+		holder=12550047 # Kumano Shotan
+	}
+	1284.1.1={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+}

@@ -1,0 +1,184 @@
+c_nmih_chiisagata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_chiisagata1={
+				set_title_name=b_nmih_chiisagata6
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_chiisagata1={
+				set_title_name=b_nmih_chiisagata9
+			}
+		}
+	}
+	1541.5.1={
+		effect={
+			title:b_nmih_chiisagata1={
+				set_title_name=b_nmih_chiisagata1
+			}
+		}
+	}
+	1551.7.9={
+		effect={
+			title:b_nmih_chiisagata1={
+				set_title_name=B_NMIH_CHIISAGATA1_1551
+			}
+		}
+	}
+	1585.1.1={
+		effect={
+			title:b_nmih_chiisagata1={
+				set_title_name=b_nmih_chiisagata4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1490.1.1 = { change_development_level = 40 }
+	1541.5.1 = { change_development_level = 30 }
+	1585.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	974.1.1={
+		liege="d_nmih_shinano"
+		holder=10260411 # Shigeno Yukitsune
+	}
+	1000.1.1={
+		holder=10260412 # Shigeno Tamehiro
+	}
+	1030.1.1={
+		holder=10260413 # Shigeno Tamemichi
+	}
+	1060.1.1={
+		holder=12380300 # Mochizuki Norishige
+	}
+	1110.1.1={
+		holder=12380301 # Unno Shigemichi
+	}
+	1135.1.1={
+		holder=12380304 # Unno Hiromichi
+	}
+	1160.1.1={
+		holder=12380306 # Unno Yukichika
+	}
+	1180.6.15={
+		liege="d_nmih_eastern_shinano"
+		holder=12380306 # Unno Yukichika
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_shinano"
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_shinano"
+		holder=12380312 # Unno Yukiuji
+	}
+	1251.1.1={
+		holder=12380317 # Unno Shigeuji
+	}
+	1269.1.1={
+		holder=12380330 # Unno Yukinao
+	}
+	1285.1.1={
+		holder=12380335 # Unno Yoriyuki
+	}
+	1310.1.1={
+		holder=12380340 # Unno Noriyuki
+	}
+	1325.1.1={
+		holder=12380345 # Unno Yoshiyuki
+	}
+	1333.7.4={
+		liege="d_nmih_hojo"
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+	}
+	1335.9.6={
+		liege="d_nmih_hojo"
+	}
+	1344.4.1={
+		liege="k_nmih_seito_shogun"
+	}
+	1352.1.1={
+		holder=12380350 # Unno Yukifusa
+	}
+	1374.1.1={
+		liege="d_nmih_shinano"
+	}
+	1390.1.1={
+		holder=12380355 # Unno Yukiyoshi
+	}
+	1401.2.1={
+		liege=0
+	}
+	1420.1.1={
+		holder=12380360 # Unno Yukikazu
+	}
+	1450.1.1={
+		holder=12380365 # Unno Mochiyuki
+	}
+	1467.1.1={
+		liege=0
+		holder=12380370 # Unno Ujiyuki
+	}
+	1489.1.1={
+		holder=12380375 # Unno Yukimune
+	}
+	1524.1.1={
+		holder=10021100 # Unno Munetsuna
+	}
+	1541.5.1={
+		liege=0
+		holder=10021500 # Murakami Yoshikiyo
+	}
+	1551.7.9={
+		liege="d_nmih_kai" # 20010 Takeda Shingen
+		holder=10021142 # Sanada Yukitsuna
+	}
+	1559.1.1={
+		liege="d_nmih_shinano"
+	}
+	1567.1.1={
+		holder=10021148 # Sanada Nobutsuna
+	}
+	1575.6.29={
+		holder=10021150 # Sanada Masayuki
+	}
+	1582.4.3={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1582.04.15={
+		liege="d_nmih_kozuke" # 29330 Takigawa Kazumasu
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1582.7.13={
+		liege="d_nmih_echigo"
+	}
+	1582.7.28={
+		liege="k_nmih_western_kanto"
+	}
+	1582.10.11={
+		liege="k_nmih_tokai"
+	}
+	1582.11.14={
+		liege="d_nmih_echigo"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10021163 # Sanada Nobuyuki
+	}
+}

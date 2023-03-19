@@ -1,0 +1,120 @@
+c_nmih_suchi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_suchi1={
+				set_title_name=b_nmih_suchi3
+			}
+		}
+	}
+	1180.1.1={
+		effect={
+			title:b_nmih_suchi1={
+				set_title_name=b_nmih_suchi9
+			}
+		}
+	}
+	1475.1.1={
+		effect={
+			title:b_nmih_suchi1={
+				set_title_name=b_nmih_suchi2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1180.1.1 = { change_development_level = 20 }
+	1475.1.1 = { change_development_level = 20 }
+	1570.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_totomi"
+	}
+	1180.1.1={
+		liege="d_nmih_suruga" # Tachibana Tomochi
+		holder=10130153 # Sagara Yorikage
+	}
+	1180.11.9={ # Battle of Fujikawa
+		liege="d_nmih_totomi"
+	}
+	1181.4.28={
+		liege="d_nmih_totomi"
+		holder=10130105 # Hara Tadayasu
+	}
+	1228.1.1={
+		holder=10130106 # Hara Noritada
+	}
+	1248.1.1={
+		holder=10131678 # Hojo [Osaragi] Tomonao
+	}
+	1264.5.29={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1323.8.2={
+		holder=10132119 # Hojo [Osaragi] Sadanao
+	}
+	1333.7.4={
+		liege="d_nmih_totomi"
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1336.7.22={
+		liege="d_nmih_totomi"
+		holder=12395214 # Imagawa Norikuni
+	}
+	1339.10.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1352.2.1={
+		holder=12395214 # Imagawa Norikuni
+	}
+	1384.6.8={
+		holder=12395221 # Imagawa Sadayo
+	}
+	1400.1.17={
+		liege="d_nmih_suruga"
+	}
+	1415.1.1={
+		holder=12395270 # Imagawa Sadasuke
+	}
+	1430.1.1={
+		holder=12395273 # Imagawa Norimasa
+	}
+	1459.10.1={
+		holder=12395276 # Imagawa Sadanobu
+	}
+	1475.1.1={
+		holder=10023101 # Asahina Yasuhiro
+	}
+	1508.8.1={
+		liege="d_nmih_totomi"
+	}
+	1512.1.1={
+		holder=10023100 # Asahina Yasuyoshi
+	}
+	1557.9.22={
+		holder=10023102 # Asahina Yasutomo
+	}
+	1569.5.17={
+		holder=10024153 # Ishikawa Ienari
+	}
+	1580.1.1={
+		holder=10024161 # Ishikawa Yasumichi
+	}
+	1590.7.25={ 
+		holder=10029587 # Yamanouchi Kazutoyo
+		liege="k_nmih_chubu"
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10200705 # Matsudaira Sadakatsu
+	}
+	1607.5.14={
+		holder=10200723 # Matsudaira Sadayuki
+	}
+}

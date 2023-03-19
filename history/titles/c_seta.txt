@@ -1,0 +1,174 @@
+c_nmih_seta = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_seta1={
+				set_title_name=b_nmih_seta1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_seta1={
+				set_title_name=b_nmih_seta1
+			}
+		}
+	}
+	1336.3.10={
+		effect={
+			title:b_nmih_seta1={
+				set_title_name=b_nmih_seta7
+			}
+		}
+	}
+	1563.1.1={
+		effect={
+			title:b_nmih_seta1={
+				set_title_name=B_NMIH_SETA9_1400
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1336.3.10 = { change_development_level = 40 }
+	1563.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1110.1.1={
+		liege="d_nmih_kozuke"
+	    holder=12180104 # Ogo Shigetoshi
+	}
+	1124.1.1={
+		holder=12180300 # Ogo Narichika
+	}
+	1160.1.1={
+		holder=12180310 # Ogo Takayoshi
+	}
+	1180.1.1={
+		liege="d_nmih_ashikaga"
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+	}
+	1200.1.1={
+		holder=12180320 # Ogo Sanehide
+	}
+	1246.1.1={
+		holder=12180325 # Ogo Hidemura
+	}
+	1264.1.1={
+		holder=12180326 # Ogo KazusaNoSuke
+	}
+	1290.1.1={
+		holder=12180327 # Ogo KazusaNoSuke
+	}
+	1310.1.1={
+		holder=12180328 # Ogo KazusaNoSuke
+	}
+	1333.6.17={
+		liege="d_nmih_nitta"
+		holder=12185040 # Nitta Yoshisada
+	}
+	1335.11.1={
+		holder=12185105 # Odachi Ujiaki
+	}
+	1338.8.17={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1338.9.1={
+		holder=12215325 # Nagao Kagetada
+	}
+	1363.3.1={
+		liege="d_nmih_kozuke"
+	}
+	1370.1.1={
+		holder=10017311 # Nagao Kageyuki
+	}
+	1390.1.1={
+		holder=10017310 # Nagao Tadatsuna
+	}
+	1410.1.1={
+		holder=10017314 # Nagao Tadamasa
+	}
+	1450.11.17={
+		holder=10017322 # Nagao Tadakage
+	}
+	1501.8.5={
+		holder=10017328 # Nagao Akitada
+	}
+	1509.10.29={
+		holder=10017331 # Nagao Akikata
+	}
+	1524.1.1={
+		holder=10017301 # Nagao Akikage
+	}
+	1527.1.1={
+		holder=10017300 # Nagao Kagetaka
+	}
+	1552.3.1={
+		liege=0
+		holder=10017303 # Nagao Kagefusa
+	}
+	1560.11.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+	}
+	1563.1.1={
+		holder=10032523 # Kitajo Takahiro
+	}
+	1567.1.1={
+		liege=0
+	}
+	1569.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1578.4.19={
+		liege="d_nmih_kozuke" # Uesugi Kagetora
+	}
+	1579.4.19={
+		liege=0
+	}
+	1579.8.1={
+		liege="d_nmih_kai"
+	}
+	1582.4.3={
+		liege=0
+	}
+	1582.4.15={
+		liege="d_nmih_kozuke"
+		holder=10029330 # Takigawa Kazumasu
+	}
+	1582.7.8={
+		liege="d_nmih_kozuke"
+		holder=10032523 # Kitajo Takahiro
+	}
+	1582.11.14={
+		liege="d_nmih_echigo"
+	}
+	1583.9.1={
+		liege="d_nmih_kozuke"
+		holder=10016016 # Hojo Ujikuni
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10021007 # Suwa Yoritada
+	}
+	1601.1.1={
+		holder=10024208 # Matsudaira Yasunaga
+	}
+	1602.1.1={
+		holder=10203601 # Akimoto Nagatomo
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

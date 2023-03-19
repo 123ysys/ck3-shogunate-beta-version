@@ -1,0 +1,26 @@
+war = {
+	name = "war_1350_kanno_disturbance"
+	start_date = 1350.12.20
+	end_date = 1351.3.15
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_claim_cb
+	claimant = 12139029 # Ashikaga Tadayoshi
+	attackers = {
+		12139029	# Ashikaga Tadayoshi
+		10040036	# Ashikaga Tadafuyu
+		12187235	# Momonoi Tadatsune
+		12139103	# Ishido Yorifusa
+		10040579	# Hosokawa Akiuji
+		12186256	# Yamana Tokiuji
+		12139049	# Ashikaga (Shiba) Takatsune
+		12395015	# Kira Sadaie
+	}
+	defenders = {
+		12139028	# Ashikaga Takauji
+		10040002	# Ashikaga Yoshiakira
+		12139567	# Kou Moronao
+		12139566	# Kou Moroyasu
+	}
+}

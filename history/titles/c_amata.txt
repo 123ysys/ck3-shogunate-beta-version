@@ -1,0 +1,164 @@
+c_nmih_amata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_amata1={
+				set_title_name=b_nmih_amata8
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_amata1={
+				set_title_name=b_nmih_amata8
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_amata1={
+				set_title_name=b_nmih_amata2
+			}
+		}
+	}
+	1579.9.10={
+		effect={
+			title:b_nmih_amata1={
+				set_title_name=b_nmih_amata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+	1579.9.10 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_tanba"
+	}
+	1179.12.18={
+		liege="d_nmih_tanba"
+		holder=10110141 # Taira Kiyokuni
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_tanba"
+		holder=12139060 # Ashikaga Yoshikiyo
+	}
+	1183.11.17={
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_tanba"
+		holder=12370010 # Ouchi Koreyoshi
+	}
+	1198.1.1={
+		holder=10041060 # Emperor Go-Toba
+	}
+	1221.1.1={
+		holder=12215131 # Kajiwara Kagetsugu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_tanba"
+		holder=12480647 # Ogino Kagetoshi
+	}
+	1260.1.1={
+		holder=12480648 # Ogino Toshitsugu
+	}
+	1300.1.1={
+		holder=12480649 # Ogino Kagetomo
+	}
+	1330.1.1={
+		liege="d_nmih_tanba"
+		holder=12480650 # Ogino Tomotada
+	}
+	1360.1.1={
+		holder=12480654 # Ogino Tadamitsu
+	}
+	1380.1.1={
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1397.6.2={
+		liege="d_nmih_tanba"
+		holder=10040538 # Hosokawa Mitsumoto
+	}
+	1422.1.1={
+		holder=10040730 # Kozai Motosuke
+	}
+	1431.1.1={
+		holder=10042055 # Naito Shinsho
+	}
+	1440.1.1={
+		holder=10042056 # Naito Yukisada
+	}
+	1452.1.1={
+		holder=10042050 # Naito Motosada
+	}
+	1482.1.1={
+		holder=10040750 # Uehara Kataie
+	}
+	1487.1.1={
+		holder=10040752 # Uehara Motohide
+	}
+	1493.12.26={
+		holder=10040750 # Uehara Kataie
+	}
+	1496.1.14={
+		holder=10042050 # Naito Motosada
+	}
+	1501.1.1={
+		holder=10042040 # Shiomi Yorikatsu
+	}
+	1526.8.20={
+		liege="k_nmih_kanrei"
+	}
+	1527.3.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1530.1.1={
+		holder=10042041 # Yokoyama Yoriuji
+	}
+	1536.9.14={
+		liege="d_nmih_tanba"
+	}
+	1560.1.1={
+		holder=10042042 # Yokoyama Nobufusa
+	}
+	1565.8.27={
+		liege=0
+		holder=10042066 # Akai Naomasa
+	}
+	1576.2.10={
+		liege="d_nmih_tanba"
+	}
+	1578.4.8={
+		holder=10042071 # Akai Naoyoshi
+	}
+	1579.6.24={
+		liege=0
+	}
+	1579.9.10={
+		liege="d_nmih_tanba"
+		holder=10025632 # Akechi Mitsuhide
+	}
+	1580.1.1={
+		holder=10025639 # Akechi Hidemitsu
+	}
+	1582.7.2={
+		liege="d_nmih_tanba"
+		holder=10029452 # Sugihara Ietsugu
+	}
+	1583.6.14={
+		holder=10096400 # Onogi Shigekatsu
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10098108 # Arima Toyouji
+	}
+}

@@ -1,0 +1,159 @@
+d_nmih_hitachi = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0719.8.4={
+		holder=11000010 # Fujiwara Umakai {Hitachi no Suke}
+	}
+	0723.1.1={
+		holder=0 #  
+	}
+	0763.2.26={
+		holder=11000017 # Fujiwara Kiyokawa {Hitachi no Suke}
+	}
+	0764.11.2={
+		holder=0 #  
+	}
+	0814.7.25={
+		holder=11000029 # Fujiwara Futakimaro {Hitachi no Suke}
+	}
+	0815.1.1={
+		holder=0 #  
+	}
+	0830.2.1={
+		holder=10110000 # Yamato Kazuwara {Hitachi Taishu}
+	}
+	0841.5.3={
+		holder=11004531 # Fujiwara Haruoka {Hitachi no Suke}
+	}
+	0845.2.24={
+		holder=0 #  
+	}
+	0940.1.8={
+		holder=11005215 # Fujiwara Korechiyo {Hitachi no Suke}
+	}
+	0944.1.1={
+		holder=0 #  
+	}
+	0982.4.6={
+		holder=10120002 # Minamoto Mitsunaka {Hitachi no Suke}
+	}
+	0983.1.1={
+		holder=0 #  
+	}
+	1020.10.14={
+		holder=10110015 # Taira Korehira {Hitachi no Suke}
+	}
+	1024.4.20={
+		holder=0 #  
+	}
+	1028.3.26={
+		holder=10110015 # Taira Korehira {Hitachi no Suke}
+	}
+	1030.8.6={
+		holder=11005727 # Fujiwara Kanesuke {Hitachi no Suke}
+	}
+	1032.3.27={
+		holder=0 #  
+	}
+	1072.1.29={
+		holder=11000121 # Fujiwara Tadatsuna {Hitachi no Suke}
+	}
+	1080.8.23={
+		holder=0 #  
+	}
+	1135.7.7={
+		holder=11001035 # Fujiwara Kinnobu {Hitachi no Suke}
+	}
+	1137.9.1={
+		holder=0 #  
+	}
+	1180.1.1={
+		liege=0
+		holder=12122002 # Satake Takayoshi
+	}
+	1180.11.22={
+		liege="k_nmih_western_kanto"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1183.3.18={
+		liege="k_nmih_western_kanto"
+		holder=12130005 # Hatta Tomoie
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12130005 # Hatta Tomoie
+	}
+	1218.3.30={
+		holder=12127500 # Oda Tomoshige
+	}
+	1228.1.1={
+		holder=12127510 # Oda Yasutomo
+	}
+	1245.5.13={
+		holder=12127520 # Oda Tokitomo
+	}
+	1293.5.15={
+		holder=12127530 # Oda Munetomo
+	}
+	1306.12.6={
+		holder=12127541 # Oda Sadatomo
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+		holder=12122110 # Satake Sadayoshi
+	}
+	1336.7.22={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1352.10.18={
+		holder=12122120 # Satake Yoshiatsu
+	}
+	1362.2.7={
+		holder=12122130 # Satake Yoshinobu
+	}
+	1389.8.5={
+		holder=10010821 # Satake Yoshimori
+	}
+	1407.10.22={
+		liege=0
+		holder=10010816 # Satake Yoshihito
+	}
+	1467.1.1={
+		holder=10010815 # Satake Yoshitoshi
+	}
+	1477.12.29={
+		holder=10010808 # Satake Yoshiharu
+	}
+	1490.5.14={
+		holder=10010803 # Satake Yoshikiyo
+	}
+	1517.4.3={
+		holder=10010801 # Satake Yoshiatsu
+	}
+	1545.5.19={
+		holder=10010802 # Satake Yoshiaki
+	}
+	1565.11.25={
+		holder=10010830 # Satake Yoshishige
+	}
+	1589.1.1={
+		holder=10010836 # Satake Yoshinobu
+	}
+	1590.6.18={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		holder=10024034 # Takeda Nobuyoshi
+	}
+	1603.10.15={
+		holder=10024049 # Tokugawa Yorinobu
+	}
+	1609.12.27={
+		holder=10024050 # Tokugawa Yorifusa
+	}
+}

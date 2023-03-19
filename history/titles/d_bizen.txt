@@ -1,0 +1,135 @@
+d_nmih_bizen = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.1.1={
+		liege="e_nmih_japan"
+		holder=10110046 # Taira Shigehira
+	}
+	1183.8.17={
+		liege="k_nmih_western_chugoku"
+	}
+	1184.3.20={
+		liege="e_nmih_japan"
+		holder=12216002 # Dohi Sanehira
+	}
+	1191.12.13={
+		holder=11006480 # Ichijo Yoshiyasu
+	}
+	1197.11.23={
+		liege="e_nmih_joko"
+		holder=11007364 # Oinomikado Yorizane
+	}
+	1214.1.1={
+		holder=11006486 # Ichijo Soncho
+	}
+	1219.1.1={
+		holder=10130464 # Fujiwara Hideyasu
+	}
+	1221.7.6={
+		liege="e_nmih_japan"
+		holder=12270400 # Kaji Nobuzane
+	}
+	1238.1.1={
+		holder=12083010 # Kasai Tokikiyo
+	}
+	1264.1.1={
+		holder=12221016 # Nagai Yasushige
+	}
+	1280.1.1={
+		holder=12665010 # Nagai Yorishige
+	}
+	1295.1.1={
+		holder=12665020 # Nagai Sadashige
+	}
+	1320.1.1={
+		holder=10130349 # Iga Mitsusada
+	}
+	1331.1.1={
+		holder=12270460 # Kaji Tokihide
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=12219230 # Matsuda Moritomo
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1353.3.1={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1362.5.1={
+		holder=12219234 # Matsuda Nobushige
+	}
+	1363.12.1={
+		holder=10053503 # Akamatsu Norisuke
+	}
+	1372.1.13={
+		holder=10053507 # Akamatsu Yoshinori
+	}
+	1427.10.11={
+		holder=10053511 # Akamatsu  Mitsusuke
+	}
+	1441.9.25={
+		holder=10050017 # Yamana Noriyuki
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan"
+		holder=10053518 # Akamatsu Masanori
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
+	1496.6.6={
+		holder=10053519 # Akamatsu Yoshimura
+	}
+	1520.11.1={
+		holder=10053502 # Akamatsu Harumasa
+	}
+	1530.7.1={
+		liege="k_nmih_northern_kinai"
+		holder=12641133 # Uragami Muramune
+	}
+	1531.7.17={
+		liege=0
+		holder=10054404 # Uragami Masamune
+	}
+	1552.4.1={
+		holder=10054407 # Uragami Munekage
+	}
+	1575.10.1={
+		liege=0
+		holder=10055100 # Ukita Naoie
+	}
+	1579.10.1={
+		liege="e_nmih_japan"
+	}
+	1582.2.1={
+		holder=10055101 # Ukita Hideie
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="k_nmih_sanyo"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1601.1.1={
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10029568 # Ikeda Tadatsugu
+	}
+	1615.3.22={
+		holder=10029572 # Ikeda Tadakatsu
+	}
+}

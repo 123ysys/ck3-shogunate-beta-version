@@ -1,0 +1,116 @@
+c_nmih_iwafune = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iwafune1={
+				set_title_name=b_nmih_iwafune2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_iwafune1={
+				set_title_name=b_nmih_iwafune9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_iwafune1={
+				set_title_name=b_nmih_iwafune1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0697.1.1={
+		liege="d_nmih_echigo"
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12270131 # Jo Nagamochi
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="d_nmih_northern_echigo"
+	}
+	1201.3.28={
+		liege="d_nmih_northern_echigo"
+		holder=12270140 # Jo Sukemori
+	}
+	1201.6.11={
+		liege="d_nmih_echigo"
+		holder=12270600 # Koizumi Yukinaga
+	}
+	1230.1.1={
+		holder=12270610 # Koizumi Sadanaga
+	}
+	1250.1.1={
+		holder=12270620 # Honjo Saemonnnojo
+	}
+	1280.1.1={
+		holder=12270630 # Honjo Naganori
+	}
+	1310.1.1={
+		holder=12270635 # Honjo Mochinaga
+	}
+	1333.7.4={
+		liege=0
+	}
+	1335.8.14={
+		liege="d_nmih_sado"
+	}
+	1338.8.17={
+		liege="d_nmih_echigo"
+	}
+	1350.1.1={
+		holder=12270640 # Honjo Arinaga
+	}
+	1380.1.1={
+		liege="d_nmih_echigo"
+		holder=10032402 # Honjo Sukenaga
+	}
+	1430.1.1={
+		holder=10032404 # Honjo Norinaga
+	}
+	1480.1.1={
+		holder=10032406 # Honjo Akinaga
+	}
+	1502.1.1={
+		holder=10032408 # Honjo Nagakazu
+	}
+	1506.10.5={
+		liege=0
+	}
+	1509.1.1={
+		holder=10032417 # Honjo Fusanaga
+	}
+	1540.1.7={
+		liege=0
+		holder=10032419 # Ogawa Nagasuke
+	}
+	1540.1.12={
+		liege=0
+		holder=10032421 # Honjo Shigenaga
+	}
+	1558.1.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1568.4.1={
+		liege=0
+	}
+	1569.3.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1598.3.1={
+		holder=10021504 # Murakami Yoshiaki
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1604.6.25={
+		holder=10021505 # Murakami Tadakatsu
+	}
+}

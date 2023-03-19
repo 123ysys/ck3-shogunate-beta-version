@@ -1,0 +1,23 @@
+d_nmih_northern_musashi = {
+	100.1.1={
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto"
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1203.10.8={
+		liege=0
+		holder=0 # 
+	}
+	1560.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10016016 # Hojo Ujikuni
+	}
+	1590.7.25={
+		liege=0
+		holder=0 # 
+	}
+}

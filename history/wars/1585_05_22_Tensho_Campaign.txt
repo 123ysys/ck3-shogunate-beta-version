@@ -1,0 +1,11 @@
+war = {
+	name = "war_1585_tensho_no_jin"
+	start_date = 1585.5.22
+	end_date = 1585.8.10
+	targeted_titles = {
+		d_nmih_iyo
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10056016 10056244 } # Kobayakawa Takakage, Kikkawa Motonaga
+	defenders = { 10058605 } # Kono Michinao
+}

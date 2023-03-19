@@ -1,0 +1,139 @@
+c_nmih_kasuya = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kasuya1={
+				set_title_name=b_nmih_kasuya1
+			}
+		}
+	}
+	1180.1.1={
+		effect={
+			title:b_nmih_kasuya1={
+				set_title_name=B_NMIH_KASUYA1_1180
+			}
+		}
+	}
+	1330.1.1={
+		effect={
+			title:b_nmih_kasuya1={
+				set_title_name=B_NMIH_KASUYA1_1330
+			}
+		}
+	}
+	1587.5.18={
+		effect={
+			title:b_nmih_kasuya1={
+				set_title_name=B_NMIH_KASUYA3_1587
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1587.5.18 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	240.1.1={
+		holder=10290040 # Tamo
+		liege=d_nmih_chikuzen
+	}
+	1180.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12750100 # Harada Taneto
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_chikuzen"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.11.13={
+		holder=12230101 # Amano Tokage
+	}
+	1192.1.1={
+		liege="d_nmih_chikuzen"
+		holder=10130546 # Muto Sukeyori
+	}
+	1227.1.1={
+		holder=10130550 # Muto Sukeyoshi
+	}
+	1273.1.1={
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1292.9.14={
+		holder=10068025 # Shoni Moritsune
+	}
+	1308.2.17={
+		holder=10068020 # Shoni Sadatsune
+	}
+	1336.4.11={
+		holder=10068018 # Shoni Yorihisa
+	}
+	1361.1.1={
+		holder=10068015 # Shoni Fuyusuke
+	}
+	1375.9.22={
+		holder=10068014 # Shoni Yorizumi
+	}
+	1378.12.1={
+		liege="d_nmih_chikuzen"
+		holder=10068013 # Shoni Sadayori
+	}
+	1404.7.27={
+		holder=10068005 # Shoni Mitsusada
+	}
+	1433.9.29={
+		holder=10068012 # Shoni Yoshiyori
+	}
+	1441.1.31={
+		holder=10068004 # Shoni Noriyori
+	}
+	1469.1.18={
+		holder=10068001 # Shoni Masasuke
+	}
+	1497.5.21={
+		liege="d_nmih_bungo"
+		holder=10067401 # Tachibana Munekatsu
+	}
+	1527.1.1={
+		holder=10067400 # Tachibana Akimitsu
+	}
+	1557.8.6={
+		holder=10067402 # Tachibana Akitoshi
+	}
+	1567.1.1={
+		liege="d_nmih_chikugo"
+		holder=10067402 # Tachibana Akitoshi
+	}
+	1568.9.5={
+		liege="d_nmih_bungo"
+		holder=10067406 # Tachibana Dosetsu(Bekki Akitsura)
+	}
+	1569.12.1={
+		liege="d_nmih_chikugo"
+	}
+	1585.11.2={
+		liege="d_nmih_chikugo"
+		holder=10067408 # Tachibana Muneshige(Takahashi Munetora)
+	}
+	1587.5.18={
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1595.8.20={
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1598.3.1={
+		liege="e_nmih_japan"
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1599.2.19={
+		liege="d_nmih_chikuzen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1603.3.24={
+		liege="d_nmih_chikuzen"
+		holder=10055211 # Kuroda Nagamasa
+	}
+}

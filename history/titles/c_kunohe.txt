@@ -1,0 +1,105 @@
+c_nmih_kunohe = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kunohe1={
+				set_title_name=b_nmih_kunohe9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kunohe1={
+				set_title_name=b_nmih_kunohe9
+			}
+		}
+	}
+	1470.1.1={
+		effect={
+			title:b_nmih_kunohe1={
+				set_title_name=b_nmih_kunohe1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1470.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12033060 # Abe Taketo
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_mutsu"
+		holder=10130053 # Kudo Kagemitsu
+	}
+	1194.1.1={
+		holder=10130058 # Kudo Shigemitsu
+	}
+	1230.1.1={
+		holder=12231250 # Kudo Takamitsu
+	}
+	1266.1.1={
+		holder=12231256 # Kudo Tokimitsu
+	}
+	1324.1.1={
+		holder=12231260 # Kudo Sadasuke
+	}
+	1331.1.1={
+		holder=12231265 # Kudo Takakage
+	}
+	1333.7.4={
+		liege="d_nmih_mutsu"
+		holder=10003206 # Kunohe Taketsura
+	}
+	1350.1.1={
+		holder=10003207 # Kunohe Tsuramoto
+	}
+	1380.1.1={
+		holder=10003208 # Kunohe Motozane
+	}
+	1410.1.1={
+		holder=10003209 # Kunohe Mitsuyasu
+	}
+	1440.1.1={
+		holder=10003210 # Kunohe Mitsumasa
+	}
+	1470.1.1={
+		holder=10003159 # Nanbu Nobuzane
+	}
+	1498.1.1={
+		holder=10003160 # Nanbu Nobumasa
+	}
+	1514.1.1={
+		holder=10003161 # Nanbu Masatsugu
+	}
+	1530.1.1={
+		holder=10003162 # Nanbu Harutsugu
+	}
+	1550.1.1={
+		holder=10003163 # Nanbu Haruyoshi
+	}
+	1570.1.1={
+		holder=10003164 # Nanbu Nobuyoshi
+	}
+	1590.1.1={
+		holder=10003166 # Nanbu Naoharu
+	}
+	1591.5.7={
+		liege=0 # Kunohe Masazane's rebellion
+	}
+	1591.11.6={
+		liege="d_nmih_mutsu"
+		holder=10003154 # Nanbu Nobunao
+	}
+	1599.11.12={
+		holder=10003156 # Nanbu Toshinao
+	}
+}

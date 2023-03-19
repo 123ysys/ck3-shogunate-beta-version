@@ -1,0 +1,12 @@
+war = {
+	name = "war_1568_yoshiaki_campaign_toward_kyoto"
+	start_date = 1568.9.27
+	end_date = 1568.10.19
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040042 # Ashikaga Yoshiaki
+	attackers = { 10029120 10024006 10024502 10043015 10059014 10048129 } # Oda Nobunaga, Tokugawa Ieyasu, Mizuno Nobumoto, Azai Nagamasa, Miyoshi Yoshitsugu, Hatakeyama Akitaka
+	defenders = { 10040041 10044003 } # Ashikaga Yoshihide, Rokkaku Yoshikata
+}

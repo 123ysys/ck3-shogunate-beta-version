@@ -1,0 +1,118 @@
+c_nmih_shita = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shita1={
+				set_title_name=b_nmih_shita5
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shita1={
+				set_title_name=b_nmih_shita5
+			}
+		}
+	}
+	1390.1.1={
+		effect={
+			title:b_nmih_shita1={
+				set_title_name=b_nmih_shita1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1300.1.1 = { change_development_level = 20 }
+	1390.1.1 = { change_development_level = 20 }
+	1560.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_hitachi"
+	}
+	1180.1.1={
+		liege="d_nmih_tsukuba"
+		holder=10120065 # Minamoto Yoshihira
+	}
+	1183.3.18={
+		liege="d_nmih_hitachi" # Hatta Tomoie
+		holder=12130005 # Hatta Tomoie / Battle of Nogimiya
+	}
+	1218.3.30={
+		holder=12127500 # Oda Tomoshige
+	}
+	1228.1.1={
+		holder=12127510 # Oda Yasutomo
+	}
+	1245.5.13={
+		holder=12127520 # Oda Tokitomo
+	}
+	1293.5.15={
+		holder=12127530 # Oda Munetomo
+	}
+	1306.12.6={
+		holder=12127541 # Oda Sadatomo
+	}
+	1333.7.4={
+		liege="d_nmih_tsukuba"
+		holder=12127541 # Oda Sadatomo
+	}
+	1335.10.23={
+		holder=12127550 # Oda Haruhisa
+	}
+	1341.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1343.11.28={
+		liege="d_nmih_tsukuba"
+	}
+	1353.1.16={
+		holder=12127560 # Oda Takatomo
+	}
+	1388.6.22={
+		liege="k_nmih_kanto_kanrei"
+		holder=10017011 # Uesugi Norikata
+	}
+	1390.1.1={
+		holder=10020356 # Tokihara Hidenari
+	}
+	1415.1.1={
+		holder=10020357 # Tokihara Norihide
+	}
+	1440.1.1={
+		holder=10020358 # Tokihara Kagehide
+	}
+	1470.1.1={
+		holder=10020352 # Tokihara Kagenari
+	}
+	1483.1.6={
+		liege=0
+	}
+	1497.5.17={
+		holder=10025302 # Toki Masafusa
+	}
+	1502.6.1={
+		holder=10020351 # Toki Haruyori
+	}
+	1557.1.14={
+		holder=10020379 # Toki Haruhide
+	}
+	1570.1.1={
+		holder=10020382 # Toki Harutsuna
+	}
+	1589.1.1={
+		holder=10020384 # Toki Yorihide
+	}
+	1590.7.25={
+		liege="d_nmih_hitachi"
+		holder=10010837 # Ashina Yoshihiro
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10201600 # Aoyama Tadanari
+	}
+	1613.4.10={
+		holder=10201602 # Aoyama Tadatoshi
+	}
+}

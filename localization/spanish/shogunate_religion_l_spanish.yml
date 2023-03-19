@@ -1,0 +1,199 @@
+﻿l_spanish:
+
+ ## Shinto religion
+
+ shinto_religion:0 "Sintoísmo"
+ shinto_religion_adj:0 "Sintoísmo"
+ shinto_religion_adherent:0 "Creyente Sintoísta"
+ shinto_religion_adherent_plural:0 "Creyentes Sintoístas"
+ shinto_religion_desc:0 "El sintoísmo es la antigua religión étnica de Japón que, a lo largo de los siglos, ha llegado a coexistir con el confucianismo y el budismo en las islas japonesas."
+
+ # Shinto faith
+
+ shinto:0 "Sintoísmo"
+ shinto_adj:0 "Sintoísmo"
+ shinto_adherent:0 "Creyente Sintoísta"
+ shinto_adherent_plural:0 "Creyentes Sintoístas"
+ shinto_desc:0 "En el juego, la fe sintoísta incluye el budismo tradicional. El sintoísmo japonés y el budismo se entrelazaron entre sí desde alrededor del año 600 d.C. Los japoneses consideraron que muchas de sus ideas eran las mismas. Este concepto se llama Shinbutsu-Shugo, que significa el Sincretismo de Kami y Buda."
+
+ shinto_high_god_name:0 "Shinbutsu"
+ shinto_high_god_name_possessive:0 "de Shinbutsu"
+ shinto_high_god_alternate:0 "Tendo"
+ shinto_high_god_alternate_possessive:0 "de Tendo"
+ shinto_house_of_worship:0 "Jisha"
+ shinto_house_of_worship_plural:0 "Jisha"
+ shinto_religious_symbol:0 "Nichirin"
+ shinto_religious_text:0 "Kyomon"
+ shinto_religious_head_title:0 "el Emperador"
+ shinto_religious_head_title_name:0 "la Corte Imperial"
+ shinto_devotee_male:0 "So"
+ shinto_devotee_male_plural:0 "So"
+ shinto_devotee_female:0 "Ama"
+ shinto_devotee_female_plural:0 "Ama"
+ shinto_alt_priest_term:0 "Bozu"
+ shinto_divine_realm:0 "Gokuraku"
+ shinto_negative_afterlife:0 "Jigoku"
+ shinto_death_god_name:0 "Shiryo"
+ shinto_death_god_name_possessive:0 "de Shiryo"
+
+ # Ikko-shu faith
+
+ ikkoshu:0 "Ikko-shu"
+ ikkoshu_adj:0 "Ikko-shu"
+ ikkoshu_adherent:0 "Ikko-shu Monto"
+ ikkoshu_adherent_plural:0 "Ikko-shu Monto"
+ ikkoshu_desc:0 "Ikko-shu es una escuela de Budismo de la Tierra Pura. Fue fundado por el sacerdote budista japonés Shinran. A finales del siglo XV y XVI, Ikko-Ikki (Levantamiento de Ikko-shu) se opuso al gobierno de los gobernadores o Daimyo.."
+
+ ikkoshu_high_god_name:0 "Amida"
+ ikkoshu_high_god_name_possessive:0 "de Amida"
+ ikkoshu_high_god_alternate:0 "el Venerable Shinran"
+ ikkoshu_high_god_alternate_possessive:0 "de el Venerable Shinran"
+ ikkoshu_house_of_worship:0 "templo"
+ ikkoshu_house_of_worship_plural:0 "templos"
+ ikkoshu_religious_symbol:0 "Nenbutsu"
+ ikkoshu_religious_text:0 "Kyogyoshinsho"
+ ikkoshu_religious_head_title:0 "Hossu"
+ ikkoshu_religious_head_title_name:0 "Kyodan"
+ ikkoshu_divine_realm:0 "Gokuraku-jodo"
+
+ # Hokke-shu faith
+
+ hokkeshu:0 "Hokke-shu"
+ hokkeshu_adj:0 "Hokke-shu"
+ hokkeshu_adherent:0 "creyente de Hokke-shu"
+ hokkeshu_adherent_plural:0 "creyentes de Hokke-shu"
+ hokkeshu_desc:0 "Hokke-shu es una rama del budismo mahayana basada en las enseñanzas del sacerdote budista japonés Nichiren. Se centra en la doctrina del Sutra del loto. A veces se opuso a gobernadores, Ikko-Ikki y cristianos en el siglo XVI."
+
+ hokkeshu_high_god_name:0 "Buda"
+ hokkeshu_high_god_name_possessive:0 "de Buda"
+ hokkeshu_high_god_alternate:0 "el Venerable Nichiren"
+ hokkeshu_high_god_alternate_possessive:0 "de el el Venerable Nichiren"
+ hokkeshu_house_of_worship:0 "templo"
+ hokkeshu_house_of_worship_plural:0 "templos"
+ hokkeshu_religious_symbol:0 "Daimoku"
+ hokkeshu_religious_text:0 "Hokekyo"
+ hokkeshu_religious_head_title:0 "Hossu"
+ hokkeshu_religious_head_title_name:0 "Kyodan"
+
+ # Ryukyuan faith
+
+ ryukyuan:0 "Ryukyuan"
+ ryukyuan_adj:0 "Ryukyuan"
+ ryukyuan_adherent:0 "creyente de Ryukyuan"
+ ryukyuan_adherent_plural:0 "creyentes de Ryukyuan"
+ ryukyuan_desc:0 "La fe Ryukyuan, también conocida como Ryukyu Shinto, es el sistema de creencias indígena de las Islas Ryukyu. Sus características son el culto a los antepasados y el respeto a las relaciones entre los vivos, los muertos, los dioses y los espíritus del mundo natural."
+
+ ryukyuan_high_god_name:0 "Ukami"
+ ryukyuan_high_god_name_possessive:0 "de Ukami"
+ ryukyuan_high_god_alternate:0 "los antepasados"
+ ryukyuan_high_god_alternate_possessive:0 "los antepasados"
+ ryukyuan_house_of_worship:0 "Utaki"
+ ryukyuan_house_of_worship_plural:0 "Utaki"
+ ryukyuan_religious_symbol:0 "Tida"
+ ryukyuan_religious_text:0 "Omoro"
+ ryukyuan_religious_head_title:0 "Chifijin"
+ ryukyuan_religious_head_title_name:0 "Sefa-utaki"
+ ryukyuan_devotee_male:0 "Kaminchu"
+ ryukyuan_devotee_male_plural:0 "Kaminchu"
+ ryukyuan_devotee_female:0 "Noro"
+ ryukyuan_devotee_female_plural:0 "Noro"
+ ryukyuan_alt_priest_term:0 "Kaminchu"
+ ryukyuan_divine_realm:0 "Gusoo"
+ ryukyuan_negative_afterlife:0 "Gusoo"
+ ryukyuan_death_god_name:0 "Shinimabui"
+ ryukyuan_death_god_name_possessive:0 "de Shinimabui"
+
+
+ ## Eastern Paganism religion
+
+ eastern_pagan_religion:0 "Paganismo Oriental"
+ eastern_pagan_religion_adj:0 "Pagano Oriental"
+ eastern_pagan_religion_adherent:0 "Pagano Oriental"
+ eastern_pagan_religion_adherent_plural:0 "Paganos Orientales"
+ eastern_pagan_religion_desc:0 "El paganismo oriental es una colección de religiones con tradiciones que involucran prácticas animistas o chamánicas."
+
+ # Ainu faith
+
+ ainu:0 "Ainu"
+ ainu_adj:0 "Ainu"
+ ainu_adherent:0 "Aynu"
+ ainu_adherent_plural:0 "Aynu"
+ ainu_desc:0 "El pueblo Ainu suele creer que todo en la naturaleza tiene un \"Kamuy\" (Espíritu o Dios) en el interior, similar al sintoísmo japonés. La principal diferencia entre los dos es la organización. La fe ainu se centra en el jefe de cada tribu en lugar de en un emperador descendiente divino. Ainu ve el mundo como un océano esférico en el que flotan muchas islas. Esta creencia se basa en el hecho de que el sol sale por el este y se pone por el oeste. Creen que el mundo descansa sobre el lomo de un gran pez que, cuando se mueve, provoca terremotos."
+
+ ainu_high_god_name:0 "Kamuy"
+ ainu_high_god_name_possessive:0 "de Kamuy"
+ ainu_high_god_alternate:0 "Aynurakkur"
+ ainu_high_god_alternate_possessive:0 "de Aynurakkur"
+ ainu_house_of_worship:0 "alter"
+ ainu_house_of_worship_plural:0 "alters"
+ ainu_religious_symbol:0 "oso"
+ ainu_religious_text:0 "Yukar"
+ ainu_divine_realm:0 "Kamuy-mosir"
+ ainu_negative_afterlife:0 "Pokna-mosir"
+ ainu_death_god_name:0 "Wen-kamuy"
+ ainu_death_god_name_possessive:0 "de Wen-kamuy"
+
+ # Nivkh faith
+
+ nivkh:0 "Nivkh"
+ nivkh_adj:0 "Nivkh"
+ nivkh_adherent:0 "Nivkh"
+ nivkh_adherent_plural:0 "Nivkh"
+ nivkh_desc:0 "El Nivkh es una religión popular animista y chamánica, una idea predominante de la gente en el siguiente. La isla de Sakhalin es una bestia gigante que yace boca abajo, con los árboles de la isla como cabello. Esta idea no es diferente de otras religiones que creían en el mundo sobre un animal, y las opiniones también están presentes en muchas otras religiones animistas."
+
+
+ ## Holy Sites
+
+ # City
+
+ holy_site_kyoto_name:0 "Kyoto"
+ holy_site_osaka_name:0 "Osaka"
+ holy_site_funai_name:0 "Funai"
+ holy_site_nagasaki_name:0 "Nagasaki"
+ holy_site_bonotsu_name:0 "Bonotsu"
+ holy_site_hakodate_name:0 "Hakodate"
+
+ # Temple
+
+ holy_site_enryakuji_name:0 "Enryaku-ji"
+ holy_site_kofukuji_name:0 "Kofuku-ji"
+ holy_site_oyamagobo_name:0 "Oyama Gobo"
+ holy_site_ganshoji_name:0 "Gansho-ji"
+ holy_site_sainenji_name:0 "Sainen-ji"
+ holy_site_kuonji_name:0 "Kuon-ji"
+ holy_site_honmonji_name:0 "Honmon-ji"
+ holy_site_hokekyoji_name:0 "Hokekyo-ji"
+ holy_site_gokokuji_name:0 "Gokoku-ji"
+
+ # Nature
+
+ holy_site_mt_fuji_name:0 "Monte Fuji"
+ holy_site_mt_koya_name:0 "Monte Koya"
+ holy_site_akan_name:0 "Lago Akan"
+
+ # Place Name
+
+ holy_site_kumano_name:0 "Kumano"
+ holy_site_shimabara_name:0 "Shimabara"
+ holy_site_osumi_name:0 "Osumi"
+ holy_site_amami_name:0 "Amami"
+ holy_site_miyako_name:0 "Miyako"
+ holy_site_sapporo_name:0 "Sapporo"
+ holy_site_asahikawa_name:0 "Asahikawa"
+ holy_site_shisuka_name:0 "Shisuka"
+ holy_site_otchishi_name:0 "Otchishi"
+ holy_site_okha_name:0 "Okha"
+ holy_site_kamchatka_name:0 "Kamchatka"
+
+
+ ## Court Chaplain
+
+ councillor_court_chaplain_shinto:0 "Bodaiji Juji"
+ councillor_court_chaplain_shinto_possessive:0 "de Bodaiji Juji"
+
+ councillor_court_chaplain_ryukyuan_female_kingdom:0 "Chifijin"
+ councillor_court_chaplain_ryukyuan_female_kingdom_possessive:0 "de Chifijin"
+ councillor_court_chaplain_ryukyuan_female_duchy:0 "Noro"
+ councillor_court_chaplain_ryukyuan_female_duchy_possessive:0 "de Noro"
+ councillor_court_chaplain_ryukyuan_male:0 "Kaminchu"
+ councillor_court_chaplain_ryukyuan_male_possessive:0 "de Kaminchu"

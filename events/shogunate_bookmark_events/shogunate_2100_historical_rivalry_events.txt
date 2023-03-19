@@ -1,0 +1,139 @@
+﻿namespace = shogunate_bookmark
+
+# Historical Rivalry
+shogunate_bookmark.2100 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Rivalry between Toki Yorinori and Toki Yoritake, Toki Yorizumi
+
+		if = {
+			limit = {
+				game_start_date >= 1525.6.1									# Toki Yorinori took Mino
+				game_start_date <  1542.1.1									# Saito Dosan took Mino
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10025301											# Toki Yorinori
+				CHAR2 = 10025303											# Toki Yoritake
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10025301											# Toki Yorinori
+				CHAR2 = 10025305											# Toki Yorizumi
+			}
+			shogunate_historical_break_alliance_effect = {
+				CHAR1 = 10025301											# Toki Yorinori
+				CHAR2 = 10030000											# Asakura Takakage
+			}
+			shogunate_historical_break_alliance_effect = {
+				CHAR1 = 10025301											# Toki Yorinori
+				CHAR2 = 10030012											# Asakura Kagetaka
+			}
+			shogunate_historical_break_alliance_effect = {
+				CHAR1 = 10025301											# Toki Yorinori
+				CHAR2 = 10030013											# Asakura Kagetoshi
+			}
+		}
+
+		# Rivalry between Uesugi Kenshin and Takeda Shingen
+
+		if = {
+			limit = {
+				game_start_date >= 1553.4.1									# 1st Battle of Kawanakajima
+				game_start_date <  1573.5.3									# Death of Takeda Shingen
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10032011											# Uesugi Kenshin
+				CHAR2 = 10020010											# Takeda Shingen
+			}
+		}
+
+
+		# Triple Rivalry (Fictional, Balancing Purpose)
+
+		if = {
+			limit = {
+				game_start_date >= 1550.4.8									# Takeda allied with Imagawa
+				game_start_date <  1560.6.12								# Battle of Okehazama
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10020010											# Takeda Shingen
+				CHAR2 = 10023010											# Imagawa Yoshimoto
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1554.1.1									# Imagawa allied with Hojo
+				game_start_date <  1560.6.12								# Battle of Okehazama
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10023010											# Imagawa Yoshimoto
+				CHAR2 = 10016004											# Hojo Ujiyasu
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1554.12.1								# Hojo allied with Takeda
+				game_start_date <  1571.10.21								# Death of Hojo Ujiyasu
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10016004											# Hojo Ujiyasu
+				CHAR2 = 10020010											# Takeda Shingen
+			}
+		}
+
+
+		# Rivalry between Hashiba Hideyoshi and Shibata Katsuie
+
+		if = {
+			limit = {
+				game_start_date >= 1582.6.21								# Death of Oda Nobunaga
+				game_start_date <  1583.6.14								# Death of Shibata Katsuie
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029400											# Hashiba Hideyoshi
+				CHAR2 = 10029280											# Shibata Katsuie
+			}
+		}
+
+
+		# Rivalry between Sanada Masayuki and Tokugawa Ieyasu
+
+		if = {
+			limit = {
+				game_start_date >= 1582.6.21								# Death of Oda Nobunaga
+				game_start_date <  1611.7.13								# Death of Sanada Masayuki
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10021150											# Sanada Masayuki
+				CHAR2 = 10024006											# Tokugawa Ieyasu
+			}
+		}
+
+
+		# Rivalry between Hashiba Hideyoshi and Tokugawa Ieyasu
+
+		if = {
+			limit = {
+				game_start_date >= 1584.4.13								# Battle of Komaki and Nagakute
+				game_start_date <  1586.12.1								# Tokugawa Ieyasu Become Vassal
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10029400											# Hashiba Hideyoshi
+				CHAR2 = 10024006											# Tokugawa Ieyasu
+			}
+		}
+
+	}
+}

@@ -1,0 +1,127 @@
+c_nmih_takaku = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_takaku1={
+				set_title_name=b_nmih_takaku9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_takaku1={
+				set_title_name=b_nmih_takaku9
+			}
+		}
+	}
+	1219.1.1={
+		effect={
+			title:b_nmih_takaku1={
+				set_title_name=B_NMIH_TAKAKU9_1219
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	240.1.1={
+		holder=10290085 # Kutsura
+		liege=d_nmih_chikuzen
+	}
+	260.1.1={
+		liege=0
+	}
+	295.1.1={
+		holder=10290085 # Oshiro
+	}
+	320.1.1={
+		holder=10041358 # Takeoshihiko
+	}
+	350.1.1={
+		holder=10041359 # Takekawana
+	}
+	390.1.1={
+		holder=10041360 # Takekuwae
+	}
+	1105.1.1={
+		holder=10068628 # Arima Nagazumi
+	}
+	1170.1.1={
+		liege="d_nmih_hizen"
+		holder=10068623 # Arima Yukizumi
+	}
+	1200.1.1={
+		holder=10068622 # Arima Tsunezumi
+	}
+	1230.1.1={
+		holder=10068621 # Arima Tomozumi
+	}
+	1258.1.1={
+		holder=10068620 # Arima Mochizumi
+	}
+	1300.1.1={
+		holder=10068619 # Arima Tsurazumi
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+		holder=10068619 # Arima Tsurazumi
+	}
+	1340.1.1={
+		holder=10068618 # Arima Sadazumi
+	}
+	1355.1.1={
+		liege="d_nmih_hizen"
+	}
+	1370.1.1={
+		holder=10068617 # Arima Sumiyo
+	}
+	1410.1.1={
+		liege=0
+		holder=10068616 # Arima Mitsuzumi
+	}
+	1440.1.1={
+		holder=10068615 # Arima Ujizumi
+	}
+	1460.1.1={
+		holder=10068605 # Arima Takazumi
+	}
+	1482.1.1={
+		holder=10068601 # Arima Hisaaki
+	}
+	1531.1.1={
+		holder=10068600 # Arima Haruzumi
+	}
+	1566.3.19={
+		holder=10068602 # Arima Yoshisada
+	}
+	1577.1.15={
+		holder=10068610 # Arima Shigezumi
+	}
+	1578.1.1={
+		liege=d_nmih_hizen
+	}
+	1584.4.19={
+		liege="d_nmih_satsuma"
+	}
+	1587.5.18={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1612.4.12={
+		holder=10068629 # Arima Naozumi
+	}
+	1614.7.1={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.1.1={
+		holder=10049121 # Matsukura Shigemasa
+	}	
+}

@@ -1,0 +1,350 @@
+﻿# Change Clan Name to Hojo from Ise
+change_clan_name_into_hojo_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000161											# Ise
+		NOT = { exists = house:house_shgnt_hojo.house_head }				# Hojo
+		OR = {
+			NOT = { exists = dynasty:10000160.dynast }						# Hojo
+			dynasty:10000160.dynast.primary_title.tier < tier_county		# Hojo
+		}
+		current_date >= 1523.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:d_nmih_izu
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_shgnt_hojo									# Hojo
+		house = {
+			set_coa = dynasty:10000160										# Hojo
+			save_scope_as = new_house
+		}
+		shogunate_change_clan_name_effect = yes
+
+		add_prestige = major_prestige_value
+
+		if = {
+			limit = {
+				NOT = { has_title = title:d_nmih_sagami }
+			}
+			add_pressed_claim = title:d_nmih_sagami
+		}
+		if = {
+			limit = {
+				NOT = { has_title = title:d_nmih_musashi }
+			}
+			add_pressed_claim = title:d_nmih_musashi
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+# Change Clan Name to Tokugawa from Matsudaira
+change_clan_name_into_tokugawa_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000240											# Matsudaira
+		NOT = { exists = house:house_shgnt_matsudaira_tokugawa.house_head }	# Tokugawa
+		OR = {
+			NOT = { exists = dynasty:10000239.dynast }						# Tokugawa
+			dynasty:10000239.dynast.primary_title.tier < tier_county		# Tokugawa
+		}
+		current_date >= 1566.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:d_nmih_mikawa
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_shgnt_matsudaira_tokugawa					# Tokugawa
+		house = {
+			set_coa = dynasty:10000239										# Tokugawa
+			save_scope_as = new_house
+		}
+		shogunate_change_clan_name_effect = yes
+
+		add_prestige = major_prestige_value
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+# Change Clan Name to Toyotomi from Hashiba
+change_clan_name_into_toyotomi_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000283											# Hashiba
+		NOT = { exists = house:house_shgnt_toyotomi.house_head }			# Toyotomi
+		OR = {
+			NOT = { exists = dynasty:10000284.dynast }						# Toyotomi
+			dynasty:10000284.dynast.primary_title.tier < tier_county		# Toyotomi
+		}
+		current_date >= 1586.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:e_nmih_japan
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_shgnt_toyotomi								# Toyotomi
+		house = {
+			set_coa = dynasty:10000284										# Toyotomi
+			save_scope_as = new_house
+		}
+		shogunate_change_clan_name_effect = yes
+
+		add_prestige = monumental_prestige_value
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+# Change Clan Name to Uesugi from Nagao
+change_clan_name_into_uesugi_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000320											# Nagao
+		NOT = { exists = house:house_shgnt_nagao_uesugi.house_head }		# Uesugi
+		NOT = { any_ruler = { dynasty = dynasty:10000100 } }				# Uesugi
+		NOT = { any_ruler = { has_title = title:k_nmih_kanto_kanrei } }
+		current_date >= 1561.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:d_nmih_echigo
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_shgnt_nagao_uesugi							# Uesugi
+		house = {
+			set_coa = dynasty:10000100										# Uesugi
+			save_scope_as = new_house
+		}
+		shogunate_change_clan_name_effect = yes
+		shogunate_change_clan_trait_effect = {
+			OLD_TRAIT = taira_clan
+			NEW_TRAIT = fujiwara_clan
+		}
+
+		add_prestige = massive_prestige_value
+
+		if = {
+			limit = {
+				NOT = { has_title = title:k_nmih_kanto_kanrei }
+			}
+			add_character_flag = shogunate_got_kanto_kanrei_by_decision
+			get_title = title:k_nmih_kanto_kanrei
+		}
+		if = {
+			limit = {
+				NOT = { has_title = title:k_nmih_western_kanto }
+			}
+			add_pressed_claim = title:k_nmih_western_kanto
+		}
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+# Change Clan Name to Saito from Nagai
+change_clan_name_into_saito_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000267											# Nagai
+		NOT = { exists = house:house_shgnt_nagai_saito.house_head }			# Saito
+		NOT = { any_ruler = { dynasty = dynasty:10000900 } }				# Saito
+		current_date >= 1538.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:d_nmih_mino
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_shgnt_nagai_saito							# Saito
+		house = {
+			set_coa = dynasty:10000900										# Saito
+			save_scope_as = new_house
+		}
+		shogunate_change_clan_name_effect = yes
+		shogunate_change_clan_trait_effect = {
+			OLD_TRAIT = fujiwara_clan	# dummy (no clan)
+			NEW_TRAIT = fujiwara_clan
+		}
+
+		add_prestige = major_prestige_value
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+
+# Change Clan Name to Anekoji from Miki
+change_clan_name_into_anekoji_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+
+	desc = change_clan_name_decision_desc
+	selection_tooltip = change_clan_name_decision_tooltip
+	major = yes
+
+	ai_check_interval = 12
+
+	is_shown = {
+		dynasty = dynasty:10000251											# Miki
+		NOT = { exists = house:house_shgnt_miki_anekoji.house_head }		# Anekoji
+		NOT = { any_ruler = { dynasty = dynasty:10001096 } }				# Anekoji
+		current_date >= 1560.1.1
+	}
+
+	is_valid = {
+		is_independent_ruler = yes
+		has_title = title:d_nmih_hida
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	effect = {
+		house = {
+			save_scope_as = old_house
+		}
+		set_house = house:house_shgnt_miki_anekoji							# Anekoji
+		house = {
+			set_coa = dynasty:10001096										# Anekoji
+			save_scope_as = new_house
+		}
+		shogunate_change_clan_name_effect = yes
+		shogunate_change_clan_culture_effect = { CULTURE = aristocrats }
+
+		add_prestige = major_prestige_value
+	}
+	
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

@@ -1,0 +1,17 @@
+131 = {
+
+	culture = western_hokuriku
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1331.1.1={
+	}
+	1460.1.1={ # Nomi converted to Ikko-Shu
+		religion = ikkoshu
+	}
+	1481.1.1={
+	}
+	1575.9.27={ # Ikko-ikki lost Nomi
+	}
+}

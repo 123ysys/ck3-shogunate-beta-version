@@ -1,0 +1,15 @@
+594 = {
+
+	culture = okinawa
+	religion = ryukyuan
+	holding = castle_holding
+	1290.1.1={
+	}
+	1429.1.1={ # Kingdom of Chuzan moved its capital from Urasoe to Shuri
+		buildings = {
+			castle_02
+		}
+	}
+	1458.9.1={
+	}
+}

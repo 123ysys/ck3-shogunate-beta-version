@@ -1,0 +1,58 @@
+c_nmih_shana = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shana1={
+				set_title_name=b_nmih_shana1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	1200.1.1 = { change_development_level = 0 }
+	1800.1.1 = { change_development_level = 10 }
+	1806.1.1 = { change_development_level = 10 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		liege="d_nmih_chishima"
+		holder=10153100 # Atoi
+	}
+	1210.1.1={
+		holder=10153110
+	}
+	1240.1.1={
+		holder=10153111
+	}
+	1270.1.1={
+		holder=10153112
+	}
+	1300.1.1={
+		holder=10153113
+	}
+	1320.1.1={
+		holder=10153114
+	}
+	1360.1.1={
+		holder=10153115
+	}
+	1390.1.1={
+		holder=10153116
+	}
+	1420.1.1={
+		holder=10153117
+	}
+	1450.1.1={
+		liege="d_nmih_chishima"
+		holder=10153000
+	}
+	1510.1.1={
+		holder=10153001
+	}
+	1585.1.1={
+		holder=10152501 # Nisirkeayn
+	}
+
+}

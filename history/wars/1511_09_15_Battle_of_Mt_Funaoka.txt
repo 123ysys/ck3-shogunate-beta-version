@@ -1,0 +1,12 @@
+war = {
+	name = "war_1511_battle_of_mt_funaoka"
+	start_date = 1511.9.15
+	end_date = 1511.9.16
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040013 # Ashikaga Yoshitsuna
+	attackers = { 10040501 10053519 } # Hosokawa Sumimoto, Akamatsu Yoshimura
+	defenders = { 10040011 10057001 } # Ashikaga Yoshitane (Yoshiki/Yoshitada), Ouchi Yoshioki
+}

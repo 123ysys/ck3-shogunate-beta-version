@@ -1,0 +1,5 @@
+﻿bm_hidden1477 = {
+	start_date = 1477.2.10
+	is_playable = yes
+	group = bm_group_muromachi
+}

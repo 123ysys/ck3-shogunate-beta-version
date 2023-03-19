@@ -1,0 +1,5 @@
+﻿l_russian:
+ FAITH_VIEW_SUBHEADING:2 "[Concept( 'organized', 'Организованная' )|E] #L [Faith.GetReligion.GetAdjective|l]#! [faith|El]"
+ FAITH_VIEW_UNREFORMED_SUBHEADING:1 "[GetFaithDoctrine('unreformed_faith_doctrine').GetBaseName] #L [Faith.GetReligion.GetAdjective|l]#! [faith|El]"
+ FAITH_VIEW_REFORMED_SUBHEADING:2 "[Concept( 'organized', 'Организованная' )|E] #L [Faith.GetReligion.GetAdjective|l]#! [faith|El]"
+ CREATE_FAITH_WINDOW_TITLE:0 "Создать конфессию [GetPlayer.GetFaith.GetReligion.GetAdjectiveNoTooltip|l]"

@@ -1,0 +1,123 @@
+c_nmih_hakui = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hakui1={
+				set_title_name=b_nmih_hakui6
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_hakui1={
+				set_title_name=b_nmih_hakui6
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_hakui1={
+				set_title_name=b_nmih_hakui7
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_echizen"
+	}
+	718.5.2={
+		liege="d_nmih_noto"
+	}
+	1180.1.1={
+		liege=0
+		holder=12300500 # Tokuda Akimichi
+	}
+	1181.7.26={
+		liege="d_nmih_kaga" # Battle of Yokota-gawara
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_noto"
+	}
+	1210.1.1={
+		holder=12300510 # Tokuda Koreaki
+	}
+	1240.1.1={
+		holder=12300515 # Tokuda Akiie
+	}
+	1270.1.1={
+		holder=12300520 # Tokuda Akitoki
+	}
+	1290.1.1={
+		holder=12300525 # Tokuda Akinaka
+	}
+	1330.1.1={
+		holder=12300530 # Tokuda Motoaki
+	}
+	1333.7.4={
+		liege="d_nmih_noto"
+		holder=12300530 # Tokuda Motoaki
+	}
+	1353.1.1={
+		holder=12300531 # Tokuda Akina
+	}
+	1379.2.1={
+		holder=12300700 # Honjo Muneshige
+	}
+	1391.12.1={
+		liege="d_nmih_noto"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1406.2.5={
+		holder=10031001 # Hatakeyama Mitsunori
+	}
+	1432.7.24={
+		holder=10031002 # Hatakeyama Yoshitada
+	}
+	1463.10.12={
+		holder=10031004 # Hatakeyama Yoshimune
+	}
+	1497.9.16={
+		holder=10031005 # Hatakeyama Yoshimoto
+	}
+	1500.1.1={
+		holder=10031006 # Hatakeyama Yoshimune
+	}
+	1506.1.1={
+		holder=10031005 # Hatakeyama Yoshimoto
+	}
+	1515.11.25={
+		holder=10031000 # Hatakeyama Yoshifusa
+	}
+	1540.1.1={
+		holder=12305201 # Hira Fusatomo
+	}
+	1553.1.1={
+		holder=10031051 # Cho Tsugutsura
+	}
+	1577.10.26={
+		liege="d_nmih_echigo"
+		holder=10032011 # Uesugi Kenshin
+	}
+	1577.11.1={
+		holder=10032630 # Ajisaka Nagazane
+	}
+	1578.8.1={
+		liege="d_nmih_echizen"
+		holder=10031050 # Cho Tsuratatsu
+	}
+	1581.10.29={
+		liege="d_nmih_noto"
+		holder=10029360 # Maeda Toshiie
+	}
+	1583.6.14={ 
+		liege="d_nmih_kaga"
+		holder=10093600 # Okumura Nagatomi
+	}
+		holder=10093601 # Okumura Haruaki
+	}
+
+}

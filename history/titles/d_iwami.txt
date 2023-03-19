@@ -1,0 +1,138 @@
+d_nmih_iwami = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0849.1.13={
+		holder=11004507 # Fujiwara no Matsukage
+	}
+	0975.4.1={
+		holder=10252056 # Sakanoue no Mochiki
+	}
+	1019.1.23={
+		holder=10120013 # Minamoto no Yorinobu
+	}
+	1023.1.1={
+		liege=0
+		holder=0
+	}
+	1179.12.18={
+		liege = "e_nmih_japan"
+		holder=11006190 # Fujiwara Yoshiyori
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege=0
+		holder=12661200 # Masuda Kanehide
+	}
+	1184.3.20={
+		liege="e_nmih_japan"
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1199.2.9={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1205.4.29={
+		holder=12510070 # Sasaki Hirotsuna
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=12150810 # Soma Tanetsuna
+	}
+	1238.1.1={
+		holder=10130080 # Ito Suketoki
+	}
+	1252.7.24={
+		holder=10060555 # Ito Sukemori
+	}
+	1260.1.1={
+		holder=10060557 # Ito Sukeie
+	}
+	1275.12.1={
+		holder=10131773 # Hojo Tomofusa
+	}
+	1295.1.1={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1301.9.25={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1312.6.12={
+		holder=10132114 # Hojo [Osaragi] Koresada
+	}
+	1327.9.22={
+		holder=10132247 # Hojo [Osaragi] Takanobu
+	}
+	1328.4.1={
+		holder=10132248 # Hojo [Osaragi] Ietoki
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=12669300 # Takatsu Nagayuki
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10055052 # Ueno Yorikane
+	}
+	1350.1.1={
+		holder=12139566 # Kou Moroyasu
+	}
+	1351.3.15={
+		liege="k_nmih_western_chugoku"
+		holder=10040036 # Ashikaga Tadafuyu
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=12396304 # Arakawa Akiyori
+	}
+	1364.11.1={
+		holder=10057014 # Ouchi Hiroyo
+	}
+	1376.8.1={
+		holder=12396304 # Arakawa Akiyori
+	}
+	1379.5.1={
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1399.11.26={
+		liege="k_nmih_western_chugoku"
+		holder=10057013 # Ouchi Yoshihiro
+	}
+	1400.1.17={
+		liege="e_nmih_japan"
+		holder=10044206 # Kyogoku Takaaki
+	}
+	1401.10.14={
+		holder=10050084 # Yamana Ujitoshi
+	}
+	1406.1.1={
+		holder=10050085 # Yamana Tokihisa
+	}
+	1429.1.1={
+		holder=10050028 # Yamana Norikiyo
+	}
+	1437.1.1={
+		holder=10050030 # Yamana Hirotaka
+	}
+	1441.7.12={
+		holder=10050028 # Yamana Norikiyo
+	}
+	1450.1.1={
+		holder=10050063 # Yamana Masakiyo
+	}
+	1467.6.27={
+		liege="k_nmih_sanin"
+	}
+	1477.12.16={
+		liege=0
+	}
+	1480.1.1={
+		holder=0 # Yamana Masakiyo died
+	}
+}

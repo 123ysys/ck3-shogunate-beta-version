@@ -1,0 +1,54 @@
+c_nmih_maoka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_maoka1={
+				set_title_name=b_nmih_maoka1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	1200.1.1 = { change_development_level = 0 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		holder=10156100 # Maukaaino
+	}
+	1210.1.1={
+		holder=10156101
+	}
+	1250.1.1={
+		holder=10156102
+	}
+	1270.1.1={
+		holder=10157223
+	}
+	1330.1.1={
+		holder=10156611
+	}
+	1370.1.1={
+		holder=10156612
+	}
+	1400.1.1={
+		holder=10156613
+	}
+	1430.1.1={
+		holder=10156614
+	}
+	1455.1.1={
+		holder=10156000
+	}
+	1515.1.1={
+		holder=10156001
+	}
+	1575.1.1={
+		holder=10156002
+	}
+	1615.1.1={
+		holder=10156003
+	}
+
+}

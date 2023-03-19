@@ -1,0 +1,172 @@
+c_nmih_takuma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_takuma1={
+				set_title_name=b_nmih_takuma8
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_takuma1={
+				set_title_name=b_nmih_takuma8
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_takuma1={
+				set_title_name=b_nmih_takuma1
+			}
+		}
+	}
+	1521.1.1={
+		effect={
+			title:b_nmih_takuma1={
+				set_title_name=b_nmih_takuma2
+			}
+		}
+	}
+	1606.1.1={
+		effect={
+			title:b_nmih_takuma1={
+				set_title_name=B_NMIH_TAKUMA2_1606
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1185.4.25 = { change_development_level = 30 }
+	1521.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi a.k.a Kukuchihiko
+	}
+	250.1.1={
+		holder=10041353 # Takemorokumi
+	}
+	290.1.1={
+		holder=10041357 # Takekunitake
+	}
+	330.1.1={
+		holder=10041358 # Takeoshihiko
+	}
+	350.1.1={
+		holder=10041359 # Takekawana
+	}
+	390.1.1={
+		holder=10041360 # Takekuwae
+	}
+	1170.1.1={
+		liege="d_nmih_higo"
+		holder=12780645 # Kikuchi Takanao
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_higo"
+		holder=12780651 # Kikuchi Takasada
+	}
+	1221.6.6={
+		holder=12780670 # Kikuchi Yoshitaka
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_northern_higo"
+		holder=12780670 # Kikuchi Yoshitaka
+	}
+	1258.9.8={
+		holder=12780675 # Kikuchi Takayasu
+	}
+	1274.1.1={
+		holder=12780680 # Kikuchi Takefusa
+	}
+	1285.5.2={
+		holder=12780685 # Kikuchi Takamori
+	}
+	1293.1.1={
+		holder=12780690 # Kikuchi Tokitaka
+	}
+	1304.10.12={
+		holder=10066032 # Kikuchi Taketoki
+	}
+	1333.4.27={
+		holder=10066023 # Kikuchi Takeshige
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+	}
+	1338.1.1={
+		holder=10066024 # Kikuchi Takehito
+	}
+	1343.1.1={
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1373.12.29={
+		holder=10066021 # Kikuchi Takemasa
+	}
+	1374.7.6={
+		holder=10066020 # Kikuchi Taketomo
+	}
+	1407.4.25={
+		liege="d_nmih_higo"
+		holder=10066019 # Kikuchi Kanetomo
+	}
+	1431.1.1={
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1446.8.20={
+		holder=10066013 # Uto Tamemitsu
+	}
+	1501.1.1={
+		liege=0
+	}
+	1503.8.1={
+		liege="d_nmih_higo"
+		holder=10066700 # Kanokogi Chikakazu
+	}
+	1520.1.1={
+		holder=10066000 # Kikuchi Yoshitake
+	}
+	1534.1.1={
+		liege="d_nmih_bungo"
+		holder=10066700 # Kanokogi Chikakazu
+	}
+	1549.3.31={
+		holder=10066702 # Kanokogi Shigeari
+	}
+	1550.2.28={
+		liege="d_nmih_higo"
+		holder=10066000 # Kikuchi Yoshitake
+	}
+	1550.8.1={
+		liege="d_nmih_bungo"
+		holder=12800240 # Jo Chikafuyu
+	}
+	1570.1.1={
+		holder=12800243 # Jo Chikakata
+	}
+	1579.1.1={
+		liege="d_nmih_higo"
+		holder=12800243 # Jo Chikakata
+	}
+	1582.1.23={
+		holder=12800244 # Jo Chikamoto
+	}
+	1587.5.18={
+		liege="d_nmih_higo"
+		holder=10029350 # Sassa Narimasa
+	}
+	1588.7.7={
+		liege="d_nmih_northern_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1603.3.24={
+		liege="d_nmih_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1611.8.2={
+		holder=10029712 # Kato Tadahiro
+	}
+}

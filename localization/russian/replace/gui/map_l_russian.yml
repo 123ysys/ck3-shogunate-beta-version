@@ -1,0 +1,2 @@
+﻿l_russian:
+ PROVINCE_TOOLTIP_CULTURE:0 "Культура: #V [COUNTY.GetCulture.GetCollectiveNounNoTooltip]#!"

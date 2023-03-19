@@ -1,0 +1,16 @@
+war = {
+	name = "war_1582_battle_of_yamazaki"
+	start_date = 1582.6.21
+	end_date = 1582.7.2
+	targeted_titles = {
+		k_nmih_northern_kinai d_nmih_tanba d_nmih_yamashiro c_nmih_shiga c_nmih_sagara c_nmih_tsuzuki c_nmih_ikaruga c_nmih_otagi
+	}
+	casus_belli = event_claim_cb
+	claimant = 10029400 # Hashiba Hideyoshi
+	attackers = {
+		10029400	# Hashiba Hideyoshi
+	}
+	defenders = {
+		10025632	# Akechi Mitsuhide
+	}
+}

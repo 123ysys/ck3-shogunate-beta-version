@@ -1,0 +1,45 @@
+﻿namespace = shogunate_bookmark
+
+# Sengoku Struggle
+shogunate_bookmark.7000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				shogunate_is_sengoku_period_trigger = yes
+				shogunate_has_struggle_feature_trigger = yes
+			}
+
+			start_struggle = {
+				struggle_type = shogunate_sengoku_struggle
+				start_phase = struggle_shogunate_sengoku_phase_meritocracy_chaotic
+			}
+		}
+
+	}
+}
+
+# Kanto Struggle
+shogunate_bookmark.7020 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				game_start_date >= 1455.1.15								# Start of Kyotoku War
+				shogunate_has_struggle_feature_trigger = yes
+			}
+
+			start_struggle = {
+				struggle_type = shogunate_kanto_struggle
+				start_phase = struggle_shogunate_kanto_phase_strife
+			}
+		}
+
+	}
+}

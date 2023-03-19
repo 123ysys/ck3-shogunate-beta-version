@@ -1,0 +1,125 @@
+c_nmih_yuri = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yuri1={
+				set_title_name=b_nmih_yuri7
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yuri1={
+				set_title_name=b_nmih_yuri7
+			}
+		}
+	}
+	1450.1.1={
+		effect={
+			title:b_nmih_yuri1={
+				set_title_name=b_nmih_yuri1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1450.1.1 = { change_development_level = 10 }
+
+	0712.9.23={
+		liege="k_nmih_dewa"
+	}
+	1180.1.1={
+		liege="d_nmih_ugo"
+		holder=12000300 # Yuri Hachiro
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=12391106 # Yuri Korehira
+	}
+	1190.1.1={ # Okawa Kaneto's rebellion
+		liege="d_nmih_tsugaru"
+		holder=12000011 # Okawa Kaneto
+	}
+	1190.4.16={ # End of Okawa Kaneto's rebellion
+		liege="d_nmih_ugo"
+		holder=12391110 # Yuri Korehisa
+	}
+	1213.5.24={
+		holder=12360506 # Kagami Daini
+	}
+	1224.1.1={
+		holder=12360605 # Oi Tomomitsu
+	}
+	1225.1.1={
+		holder=12361001 # Oi Tomouji
+	}
+	1280.1.1={
+		holder=12361050 # Oi Mitsuie
+	}
+	1330.1.1={
+		holder=12361055 # Oi Mitsunaga
+	}
+	1333.7.4={
+		liege="d_nmih_ugo"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1356.1.1={
+		liege="k_nmih_ushu_tandai"
+	}
+	1370.1.1={
+		holder=12361060 # Oi Yukimitsu
+	}
+	1392.1.1={
+		liege=0
+	}
+	1410.1.1={
+		holder=12361065 # Oi Tomomitsu
+	}
+	1450.1.1={
+		liege=0
+		holder=12361070 # Nikaho Tomokiyo
+	}
+	1503.1.1={
+		holder=10000555 # Nikaho Kiyomasa
+	}
+	1540.1.1={
+		holder=10000556 # Nikaho Kiyohisa
+	}
+	1576.1.1={
+		holder=10000553 # Nikaho Kiyonaga
+	}
+	1577.1.1={
+		holder=10000550 # Nikaho Shigekiyo
+	}
+	1583.1.1={
+		holder=10000551 # Nikaho Kiyoharu
+	}
+	1586.1.1={
+		holder=10000552 # Nikaho Mitsushige
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="d_nmih_uzen"
+		holder=10000716 # Mogami Yoshiaki
+	}
+	1614.2.26={
+		holder=10000723 # Mogami Iechika
+	}
+}

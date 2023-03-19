@@ -1,0 +1,1471 @@
+﻿# General Effects
+
+shogunate_create_artifact_effect = {
+
+	save_scope_as = owner
+	set_artifact_rarity_$RARITY$ = yes
+
+	create_artifact = {	
+		name = $NAME$
+		description = $NAME$_desc
+		type = $TYPE$
+		visuals = $VISUAL$
+		wealth = scope:wealth
+		quality = scope:quality
+		template = general_unique_template
+		history = {
+			type = created_before_history
+		}
+		modifier = $NAME$_modifier
+		save_scope_as = newly_created_artifact
+	}
+
+	scope:newly_created_artifact = {
+		set_variable = historical_unique_artifact
+		set_variable = $NAME$
+		set_variable = $TYPE$
+		save_scope_as = epic
+	}
+
+}
+
+shogunate_historical_artifact_by_character_effect = {
+
+	if = {
+		limit = {
+			game_start_date >= $START$
+			game_start_date <  $END$
+			exists = character:$CHAR$
+			character:$CHAR$ = { is_alive = yes }
+		}
+		character:$CHAR$ = {
+			shogunate_create_artifact_$NAME$_effect = yes
+		}
+	}
+
+}
+
+shogunate_historical_artifact_by_title_effect = {
+
+	if = {
+		limit = {
+			game_start_date >= $START$
+			game_start_date <  $END$
+			exists = title:$TITLE$.holder
+		}
+		title:$TITLE$.holder = {
+			shogunate_create_artifact_$NAME$_effect = yes
+		}
+	}
+
+}
+
+shogunate_historical_artifact_by_title_and_dynasty_effect = {
+
+	if = {
+		limit = {
+			game_start_date >= $START$
+			game_start_date <  $END$
+			exists = title:$TITLE$.holder
+			title:$TITLE$.holder = {
+				dynasty = dynasty:$DYNAS$
+			}
+		}
+		title:$TITLE$.holder = {
+			shogunate_create_artifact_$NAME$_effect = yes
+		}
+	}
+
+}
+
+shogunate_historical_artifact_by_title_and_house_effect = {
+
+	if = {
+		limit = {
+			game_start_date >= $START$
+			game_start_date <  $END$
+			exists = title:$TITLE$.holder
+			title:$TITLE$.holder = {
+				house = house:$HOUSE$
+			}
+		}
+		title:$TITLE$.holder = {
+			shogunate_create_artifact_$NAME$_effect = yes
+		}
+	}
+
+}
+
+shogunate_historical_artifact_given_effect = {
+
+	if = {
+		limit = {
+			game_start_date >= $START$
+		}
+		add_artifact_history = {
+			type = given
+			date = $START$
+			recipient = character:$CHAR$
+		}
+	}
+
+}
+
+shogunate_historical_artifact_given_index_effect = {
+
+	if = {
+		limit = {
+			game_start_date >= $START$
+			$INDEX$ >= $FROM$
+			$INDEX$ <= $TO$
+		}
+		add_artifact_history = {
+			type = given
+			date = $START$
+			recipient = character:$CHAR$
+		}
+	}
+
+}
+
+
+
+# Dynastic History
+
+shogunate_historical_artifact_hojo_effect = {
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10131653												# Hojo Yoshitoki
+			START = 1219.2.13
+			INDEX = 1 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10131666												# Hojo Yasutoki
+			START = 1224.7.1
+			INDEX = 2 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10131823												# Hojo Tsunetoki
+			START = 1242.7.14
+			INDEX = 3 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10131824												# Hojo Tokiyori
+			START = 1246.5.17
+			INDEX = 4 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10131998												# Hojo Tokimune
+			START = 1263.12.24
+			INDEX = 5 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10132155												# Hojo Sadatoki
+			START = 1284.4.20
+			INDEX = 6 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10132268												# Hojo Takatoki
+			START = 1311.12.6
+			INDEX = 7 FROM = $FROM$ TO = $TO$
+		}
+	}	
+}
+
+shogunate_historical_artifact_ashikaga_effect = {
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 12139028												# Ashikaga Takauji
+			START = 1335.11.1
+			INDEX = 1 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040002												# Ashikaga Yoshiakira
+			START = 1358.6.7
+			INDEX = 2 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040003												# Ashikaga Yoshimitsu
+			START = 1367.12.28
+			INDEX = 3 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040004												# Ashikaga Yoshimochi
+			START = 1408.5.31
+			INDEX = 4 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040005												# Ashikaga Yoshikazu
+			START = 1423.3.18
+			INDEX = 5 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040004												# Ashikaga Yoshimochi (again)
+			START = 1425.3.17
+			INDEX = 6 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040006												# Ashikaga Yoshinori
+			START = 1429.3.15
+			INDEX = 7 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040007												# Ashikaga Yoshikatsu
+			START = 1441.7.12
+			INDEX = 8 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040008												# Ashikaga Yoshimasa
+			START = 1443.8.16
+			INDEX = 9 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040009												# Ashikaga Yoshihisa
+			START = 1479.11.1
+			INDEX = 10 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040011												# Ashikaga Yoshiki (Yoshitane)
+			START = 1489.4.26
+			INDEX = 11 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040012												# Ashikaga Yoshizumi
+			START = 1493.5.8
+			INDEX = 12 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040011												# Ashikaga Yoshiki (Yoshitane)
+			START = 1508.7.28
+			INDEX = 13 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040000												# Ashikaga Yoshiharu
+			START = 1522.1.22
+			INDEX = 14 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040040												# Ashikaga Yoshiteru
+			START = 1547.1.11
+			INDEX = 15 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040041												# Ashikaga Yoshihide
+			START = 1568.3.6
+			INDEX = 16 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10040042												# Ashikaga Yoshiaki
+			START = 1568.11.7
+			INDEX = 17 FROM = $FROM$ TO = $TO$
+		}
+	}
+}
+
+shogunate_historical_artifact_unifier_effect = {
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1575.12.9
+			INDEX = 1 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1585.7.27
+			INDEX = 2 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10029415												# Toyotomi Hideyori
+			START = 1598.9.18
+			INDEX = 3 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1603.3.24
+			INDEX = 4 FROM = $FROM$ TO = $TO$
+		}
+		shogunate_historical_artifact_given_index_effect = {
+			CHAR  = 10024031												# Tokugawa Hidetada
+			START = 1616.6.1
+			INDEX = 5 FROM = $FROM$ TO = $TO$
+		}
+	}	
+}
+
+
+
+# Imperial Regalia
+
+shogunate_create_artifact_kusanagi_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = kusanagi
+		TYPE    = imperial_regalia
+		VISUAL  = kusanagi
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		add_artifact_title_history = {
+			target = title:e_nmih_tenno
+			date = 1.1.1
+		}
+	}
+}
+
+shogunate_create_artifact_yata_no_kagami_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = yata_no_kagami
+		TYPE    = imperial_regalia
+		VISUAL  = yata_no_kagami
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		add_artifact_title_history = {
+			target = title:e_nmih_tenno
+			date = 1.1.1
+		}
+	}
+}
+
+shogunate_create_artifact_yasakani_no_magatama_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = yasakani_no_magatama
+		TYPE    = imperial_regalia
+		VISUAL  = yasakani_no_magatama
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		add_artifact_title_history = {
+			target = title:e_nmih_tenno
+			date = 1.1.1
+		}
+	}
+}
+
+# Incense
+
+shogunate_create_artifact_ranjatai_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = ranjatai
+		TYPE    = incense
+		VISUAL  = ranjatai
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		add_artifact_title_history = {
+			target = title:e_nmih_tenno
+			date = 1.1.1
+		}
+	}
+}
+
+shogunate_cut_off_artifact_ranjatai_effect = {
+	if = {
+		limit = {
+			exists = title:e_nmih_tenno.holder
+			title:e_nmih_tenno.holder = {
+				any_character_artifact = {
+					has_variable = ranjatai
+				}
+			}
+		}
+		shogunate_create_artifact_effect = {
+			NAME    = ranjatai
+			TYPE    = incense
+			VISUAL  = ranjatai
+			RARITY  = illustrious
+		}
+		scope:newly_created_artifact = {
+			add_artifact_title_history = {
+				target = title:e_nmih_tenno
+				date = 1.1.1
+			}
+			add_artifact_history = {
+				type = given
+				actor = title:e_nmih_tenno.holder
+				recipient = scope:owner
+			}
+		}
+	}
+}
+
+# Seal
+
+shogunate_create_artifact_king_of_na_gold_seal_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = king_of_na_gold_seal
+		TYPE    = seal
+		VISUAL  = seal
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_king_of_wa_gold_seal_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = king_of_wa_gold_seal
+		TYPE    = seal
+		VISUAL  = seal
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10290001												# Yamatai Himiko
+			START = 238.1.1
+		}
+	}
+}
+
+# Tea Utensil
+
+shogunate_create_artifact_tsukumo_nasu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = tsukumo_nasu
+		TYPE    = tea_utensil
+		VISUAL  = tea_utensil
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10040003												# Ashikaga Yoshimitsu
+			START = 1390.1.1
+		}
+	}
+	shogunate_historical_artifact_ashikaga_effect = { FROM = 4 TO = 9 }
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10050044												# Yamana Masatoyo
+			START = 1454.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10045400												# Matsunaga Hisahide
+			START = 1568.1.1												# Fictional
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1568.11.7
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1582.7.2
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029415												# Toyotomi Hideyori
+			START = 1598.9.18
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1615.6.4
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024031												# Tokugawa Hidetada
+			START = 1616.6.1
+		}
+	}
+}
+
+shogunate_create_artifact_matsumoto_nasu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = matsumoto_nasu
+		TYPE    = tea_utensil
+		VISUAL  = tea_utensil
+		RARITY  = illustrious
+	}
+	shogunate_historical_artifact_ashikaga_effect = { FROM = 1 TO = 12 }
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1571.9.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1582.7.2
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029415												# Toyotomi Hideyori
+			START = 1598.9.18
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1615.6.4
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024031												# Tokugawa Hidetada
+			START = 1616.6.1
+		}
+	}
+}
+
+shogunate_create_artifact_fuji_nasu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = fuji_nasu
+		TYPE    = tea_utensil
+		VISUAL  = tea_utensil
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10040040												# Ashikaga Yoshiteru
+			START = 1546.12.21
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10013350												# Manase Dosan
+			START = 1550.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1569.3.14
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10013350												# Manase Dosan
+			START = 1582.6.21
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1594.2.23
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029360												# Maeda Toshiie
+			START = 1597.12.11
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029374												# Maeda Toshinaga
+			START = 1599.4.27
+		}
+	}
+}
+
+shogunate_create_artifact_narashiba_katatsuki_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = narashiba_katatsuki
+		TYPE    = tea_utensil
+		VISUAL  = tea_utensil
+		RARITY  = illustrious
+	}
+	shogunate_historical_artifact_ashikaga_effect = { FROM = 1 TO = 12 }
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10067802												# Shimai Soshitsu
+			START = 1573.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10067505												# Akizuki Tanezane
+			START = 1584.5.4
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1587.4.30
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029413												# Toyotomi Hideyasu
+			START = 1594.3.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1595.5.24
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1598.9.18
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024031												# Tokugawa Hidetada
+			START = 1616.6.1
+		}
+	}
+}
+
+shogunate_create_artifact_nitta_katatsuki_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = nitta_katatsuki
+		TYPE    = tea_utensil
+		VISUAL  = tea_utensil
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10045900												# Murata Juko
+			START = 1500.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1575.12.9
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10025632												# Akechi Mitsuhide
+			START = 1582.6.21
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10064002												# Otomo Yoshishige
+			START = 1583.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1585.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029415												# Toyotomi Hideyori
+			START = 1598.9.18
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1615.6.4
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024050												# Tokugawa Yorifusa
+			START = 1616.6.1
+		}
+	}
+}
+
+shogunate_create_artifact_hatsuhana_katatsuki_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = hatsuhana_katatsuki
+		TYPE    = tea_utensil
+		VISUAL  = tea_utensil
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1569.3.14
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029160												# Oda Nobutada
+			START = 1577.12.7
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1583.4.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1583.6.30
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10055101												# Ukita Hideie
+			START = 1598.9.18
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024006												# Tokugawa Ieyasu
+			START = 1600.10.21
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024042												# Yuki Tadanao
+			START = 1615.6.4
+		}
+	}
+}
+
+shogunate_create_artifact_hiragumo_kama_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = hiragumo_kama
+		TYPE    = tea_utensil
+		VISUAL  = tea_utensil
+		RARITY  = famed
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10045400												# Matsunaga Hisahide
+			START = 1555.1.1
+		}
+	}
+}
+
+# Armor
+
+shogunate_create_artifact_genta_no_ubuginu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = genta_no_ubuginu
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_tatenashi_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = tatenashi
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10120111												# Takeda Nobuyoshi
+			START = 1168.8.12
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360103												# Takeda Nobumitsu
+			START = 1186.3.31
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360112												# Takeda Nobumasa
+			START = 1248.12.21
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360121												# Takeda Masatsuna
+			START = 1265.1.6
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360132												# Takeda Tokitsuna
+			START = 1289.3.2
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360155												# Takeda Nobumune
+			START = 1307.8.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360160												# Takeda Nobutake
+			START = 1331.12.19
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360170												# Takeda Nobunari
+			START = 1359.8.7
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360180												# Takeda Nobuharu
+			START = 1394.7.11
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360190												# Takeda Nobumitsu
+			START = 1413.11.16
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360191												# Takeda Nobumoto
+			START = 1417.2.22
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10011809												# Takeda Nobunaga
+			START = 1420.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360200												# Takeda Nobushige
+			START = 1438.9.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360210												# Takeda Nobumori
+			START = 1450.12.28
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360220												# Takeda Nobumasa
+			START = 1455.6.25
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12360230												# Takeda Nobutsuna
+			START = 1492.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10020000												# Takeda Nobutora
+			START = 1507.3.27
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10020010												# Takeda Shingen
+			START = 1541.6.14
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10020033												# Takeda Katsuyori
+			START = 1573.5.13
+		}
+	}
+}
+
+shogunate_create_artifact_hachi_ryu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = hachi_ryu
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = famed
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10120081												# Minamoto Yoshitsune
+			START = 1180.11.10
+		}
+	}
+}
+
+shogunate_create_artifact_usugane_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = usugane
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_hizamaru_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = hizamaru
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_tsukikazu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = tsukikazu
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_hikazu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = hikazu
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_omodaka_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = omodaka
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_karakawa_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = karakawa
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10110060												# Taira Koremori
+			START = 1179.9.2
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10110061												# Taira Sukemori
+			START = 1184.5.10
+		}
+	}
+}
+
+shogunate_create_artifact_hiraishi_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = hiraishi
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = famed
+	}
+	# omit history
+}
+
+shogunate_create_artifact_onkosode_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = onkosode
+		TYPE    = japanese_armor
+		VISUAL  = japanese_armor
+		RARITY  = illustrious
+	}
+	shogunate_historical_artifact_ashikaga_effect = { FROM = 1 TO = 100 }
+}
+
+# Weapons
+
+shogunate_create_artifact_onikiri_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = onikiri
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10120075												# Minamoto Yoritomo
+			START = 1160.2.11
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12185040												# Nitta Yoshisada
+			START = 1333.7.10
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12139049												# Shiba Takatsune
+			START = 1338.8.17
+		}
+	}
+}
+
+shogunate_create_artifact_doshigiri_yasutsuna_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = doshigiri_yasutsuna
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	shogunate_historical_artifact_ashikaga_effect = { FROM = 1 TO = 100 }
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024042												# Yuki Tadanao
+			START = 1611.9.28
+		}
+	}
+}
+
+shogunate_create_artifact_mikazuki_munechika_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = mikazuki_munechika
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 11004324												# Hino Uchimitsu
+			START = 1496.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1586.9.9
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029433												# Asano Nene
+			START = 1598.9.18
+		}
+	}
+}
+
+shogunate_create_artifact_onimaru_kunitsuna_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = onimaru_kunitsuna
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	shogunate_historical_artifact_hojo_effect = { FROM = 1 TO = 100 }
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10132312												# Hojo Kunitoki
+			START = 1333.7.4
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12185040												# Nitta Yoshisada
+			START = 1333.7.10
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 12139049												# Shiba Takatsune
+			START = 1338.8.17
+		}
+	}
+	shogunate_historical_artifact_ashikaga_effect = { FROM = 3 TO = 100 }
+	shogunate_historical_artifact_unifier_effect = { FROM = 1 TO = 100 }
+}
+
+shogunate_create_artifact_otenta_mitsuyo_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = otenta_mitsuyo
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	shogunate_historical_artifact_ashikaga_effect = { FROM = 1 TO = 100 }
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1587.10.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029360												# Maeda Toshiie
+			START = 1598.9.18
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029374												# Maeda Toshinaga
+			START = 1599.4.27
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029381												# Maeda Toshitsune
+			START = 1614.6.27
+		}
+	}
+}
+
+shogunate_create_artifact_juzumaru_tsunetsugu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = juzumaru_tsunetsugu
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		add_artifact_title_history = {
+			target = title:d_nmih_kuonji
+			date = 1282.10.13
+		}
+	}
+}
+
+shogunate_create_artifact_kogarasumaru_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = kogarasumaru
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10110060												# Taira Koremori
+			START = 1179.9.2
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10110061												# Taira Sukemori
+			START = 1184.5.10
+		}
+	}
+}
+
+shogunate_create_artifact_muramasa_sword_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = muramasa_sword
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_muramasa_dagger_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = muramasa_dagger
+		TYPE    = japanese_dagger
+		VISUAL  = japanese_dagger
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_murasame_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = murasame
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		add_artifact_title_history = {
+			target = title:k_nmih_kamakura_kubo
+			date = 1.1.1
+		}
+	}
+}
+
+shogunate_create_artifact_masamune_sword_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = masamune_sword
+		TYPE    = japanese_sword
+		VISUAL  = japanese_sword
+		RARITY  = illustrious
+	}
+	# omit history (not a unique artifact)
+}
+
+shogunate_create_artifact_masamune_dagger_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = masamune_dagger
+		TYPE    = japanese_dagger
+		VISUAL  = japanese_dagger
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_tonbokiri_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = tonbokiri
+		TYPE    = japanese_spear
+		VISUAL  = japanese_spear
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024803												# Honda Tadakatsu
+			START = 1564.3.17
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024806												# Honda Tadamasa
+			START = 1610.12.3
+		}
+	}
+}
+
+shogunate_create_artifact_otegine_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = otegine
+		TYPE    = japanese_spear
+		VISUAL  = japanese_spear
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10011204												# Yuki Harutomo
+			START = 1559.9.3
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024030												# Yuki Hideyasu
+			START = 1591.1.1
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10024059												# Yuki Naomoto
+			START = 1607.6.2
+		}
+	}
+}
+
+shogunate_create_artifact_nihongo_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = nihongo
+		TYPE    = japanese_spear
+		VISUAL  = japanese_spear
+		RARITY  = illustrious
+	}
+	scope:newly_created_artifact = {
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029120												# Oda Nobunaga
+			START = 1573.8.25
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029400												# Toyotomi Hideyoshi
+			START = 1585.7.27
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10029720												# Fukushima Masanori
+			START = 1590.7.25
+		}
+		shogunate_historical_artifact_given_effect = {
+			CHAR  = 10207800												# Mori Tomonobu
+			START = 1596.1.1
+		}
+	}
+}
+
+shogunate_create_artifact_kaishu_no_yari_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = kaishu_no_yari
+		TYPE    = japanese_spear
+		VISUAL  = japanese_spear
+		RARITY  = famed
+	}
+	# omit history (not a unique artifact)
+}
+
+# Japanese Books
+
+shogunate_create_artifact_the_diary_of_fujiwara_no_michinaga_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_fujiwara_no_michinaga
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_the_diary_of_fujiwara_no_yorinaga_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_fujiwara_no_yorinaga
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_the_diary_of_kujo_kanezane_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_kujo_kanezane
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_the_diary_of_taira_no_nobunori_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_taira_no_nobunori
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_the_diary_of_fujiwara_no_sadaie_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_fujiwara_no_sadaie
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_the_tale_of_genji_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_tale_of_genji
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_the_tale_of_ise_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_tale_of_ise
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_the_diary_of_murasaki_shikibu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_murasaki_shikibu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_the_diary_of_izumi_shikibu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_izumi_shikibu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_the_diary_of_go_fukakusain_no_nijo_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_go_fukakusain_no_nijo
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_the_diary_of_hanazono_emperor_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = the_diary_of_hanazono_emperor
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_admonishment_to_prince_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = admonishment_to_prince
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_manyoshu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = manyoshu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_kokin_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = kokin_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_gosen_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = gosen_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shui_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shui_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_go_shui_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = go_shui_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_kinyo_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = kinyo_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shika_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shika_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_senzai_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = senzai_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shin_kokin_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shin_kokin_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = illustrious
+	}
+}
+
+shogunate_create_artifact_shin_chokusen_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shin_chokusen_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shoku_gosen_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shoku_gosen_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shoku_kokin_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shoku_kokin_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shoku_shui_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shoku_shui_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shin_gosen_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shin_gosen_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_gyokuyo_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = gyokuyo_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shoku_senzai_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shoku_senzai_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shoku_goshui_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shoku_goshui_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_fuga_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = fuga_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shin_senzai_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shin_senzai_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shin_shui_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shin_shui_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shin_goshui_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shin_goshui_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}
+
+shogunate_create_artifact_shin_shokukokin_wakashu_effect = {
+	shogunate_create_artifact_effect = {
+		NAME    = shin_shokukokin_wakashu
+		TYPE    = japanese_book
+		VISUAL  = japanese_book
+		RARITY  = famed
+	}
+}

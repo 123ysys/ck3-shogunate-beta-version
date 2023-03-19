@@ -1,0 +1,207 @@
+c_nmih_mishima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mishima1={
+				set_title_name=b_nmih_mishima4
+			}
+		}
+	}
+	1050.1.1={
+		effect={
+			title:b_nmih_mishima1={
+				set_title_name=b_nmih_mishima6
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_mishima1={
+				set_title_name=b_nmih_mishima9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_mishima1={
+				set_title_name=b_nmih_mishima7
+			}
+		}
+	}
+	1482.1.1={
+		effect={
+			title:b_nmih_mishima1={
+				set_title_name=b_nmih_mishima1
+			}
+		}
+	}
+	1569.1.1={
+		effect={
+			title:b_nmih_mishima1={
+				set_title_name=b_nmih_mishima5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1050.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 40 }
+	1482.1.1 = { change_development_level = 40 }
+	1569.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_settsu"
+	}
+	1180.1.1={
+		liege="d_nmih_settsu" # Minamoto Yorimasa
+		holder=10120250 # Minamoto Yorimasa
+	}
+	1180.6.20={
+		liege="e_nmih_japan"
+		holder=12521530 # Makami Saburo
+	}
+	1183.8.17={
+		liege="d_nmih_settsu"
+	}
+	1199.1.1={
+		liege="d_nmih_settsu"
+		holder=10041060 # Emperor Go-Toba
+	}
+	1221.7.6={
+		liege="d_nmih_settsu"
+		holder=12521531 # Makami Saburo
+	}
+	1230.1.1={
+		holder=12521532 # Makami Saburo
+	}
+	1270.1.1={
+		holder=12521533 # Makami Saburo
+	}
+	1300.1.1={
+		holder=12521500 # Makami Masayoshi
+	}
+	1330.1.1={
+		holder=12521501 # Makami Sukenobu
+	}
+	1333.6.23={
+		liege="d_nmih_settsu"
+		holder=12521502 # Makami Masasuke
+	}
+	1360.1.1={
+		holder=12521510 # Makami Masakuma
+	}
+	1400.1.1={
+		holder=12521515 # Makami Masaie
+	}
+	1440.1.1={
+		holder=12521520 # Makami Masamoto
+	}
+	1460.1.1={
+		liege="d_nmih_settsu"
+		holder=10045741 # Suita Tokimichi
+	}
+	1479.1.1={
+		liege=0 # Rebellion
+	}
+	1482.1.1={
+		liege="d_nmih_settsu"
+		holder=10040850 # Yakushiji Motonaga
+	}
+	1502.1.25={
+		holder=10040851 # Yakushiji Motokazu
+	}
+	1504.10.27={
+		holder=10040852 # Yakushiji Nagatada
+	}
+	1507.9.7={
+		holder=10040853 # Yakushiji Kuninaga
+	}
+	1508.1.1={
+		liege="k_nmih_northern_kinai"
+	}
+	1508.7.28={
+		liege="d_nmih_settsu"
+	}
+	1527.3.14={
+		liege="k_nmih_kanrei"
+	}
+	1533.4.1={
+		liege="k_nmih_kanrei"
+		holder=10040500 # Hosokawa Harumoto
+	}
+	1539.10.24={
+		holder=10040855 # Yakushiji Motofusa
+	}
+	1546.10.12={
+		liege="k_nmih_northern_kinai"
+	}
+	1547.7.13={
+		liege="k_nmih_kanrei"
+		holder=10059050 # Akutagawa Magojuro
+	}
+	1549.7.18 ={
+		liege="k_nmih_southern_kinai"
+	}
+	1552.4.1={
+		liege="d_nmih_tanba"
+	}
+	1553.9.29={
+		liege="k_nmih_southern_kinai"
+		holder=10059007 # Miyoshi Nagayoshi
+	}
+	1560.12.1={
+		holder=10059015 # Miyoshi Yoshioki
+	}
+	1563.9.12={
+		holder=10059006 # Miyoshi Nagayasu
+	}
+	1567.5.24={
+		liege="d_nmih_yamashiro"
+	}
+	1568.3.6={
+		liege="e_nmih_japan"
+		holder=10040041 #Ashikaga Yoshihide
+	}
+	1568.10.19={
+		liege="k_nmih_chubu"
+		holder=10029120 # Oda Nobunaga
+	}
+	1568.10.20={
+		holder=10045800 # Wada Koremasa
+	}
+	1571.9.17={
+		holder=10045805 # Wada Korenaga
+	}
+	1573.4.16={
+		holder=10045721 # Takayama Shigetomo
+	}
+	1573.4.20={
+		liege="d_nmih_settsu"
+	}
+	1579.12.4={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege="d_nmih_harima"
+	}
+	1582.7.16={
+		liege="d_nmih_settsu"
+	}
+	1585.8.10={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1595.1.1={
+		holder=10097100 # Shinjo Naoyori
+	}
+	1603.3.24={
+		liege="k_nmih_southern_kinai"
+		holder=10043201 # Katagiri Katsumoto
+	}
+	1614.10.23={
+		liege="e_nmih_japan"
+	}
+	1615.6.24={
+		holder=10092101 # Naito Nobumasa
+	}
+}

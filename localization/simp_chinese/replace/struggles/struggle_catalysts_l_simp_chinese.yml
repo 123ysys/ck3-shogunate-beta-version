@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+
+ ##################################################
+ # Catalyst Names
+
+ catalyst_usurp_title_desc:0 "篡夺属于$e_nmih_japan$[de_jure|E]的[title|E]"
+ catalyst_gain_claim_on_title_desc:1 "获得$e_nmih_japan$[de_jure|E]下[title|E]的[claim|E]"

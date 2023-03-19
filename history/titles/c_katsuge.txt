@@ -1,0 +1,114 @@
+c_nmih_katsuge = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_katsuge1={
+				set_title_name=b_nmih_katsuge1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_katsuge1={
+				set_title_name=b_nmih_katsuge9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_katsuge1={
+				set_title_name=b_nmih_katsuge1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_yamato"
+	}
+	1180.1.1={
+		liege="d_nmih_yamato"
+		holder=12540105 # Uno Chikaharu
+	}
+	1184.3.4={
+		liege="d_nmih_kofukuji"
+		holder=12540114 # Uno Toshiharu
+	}
+	1193.1.1={
+		holder=12540130 # Uno Chikanobu
+	}
+	1240.1.1={
+		holder=12540133 # Uno Harunobu
+	}
+	1280.1.1={
+		holder=12540137 # Uno Yukiharu
+	}
+	1310.1.1={
+		holder=12540140 # Uno Sadaharu
+	}
+	1330.1.1={
+		liege="d_nmih_kofukuji"
+		holder=10048311 # Hashio Tamehide
+	}
+	1360.1.1={
+		holder=10048312 # Hashio Tamenori
+	}
+	1390.1.1={
+		liege="d_nmih_kofukuji"
+		holder=10048313 # Hashio Tametae
+	}
+	1420.1.1={
+		holder=10048314 # Hashio Tameyuki
+	}
+	1429.7.1={
+		liege=0
+		holder=10048315 # Hashio Tamenori
+	}
+	1439.3.1={
+		liege="d_nmih_kofukuji"
+		holder=10048316 # Hashio Haruyomaru
+	}
+	1443.1.1={
+		holder=10048301 # Hashio Munenobu
+	}
+	1460.10.4={
+		liege="d_nmih_kii"
+	}
+	1467.9.26={
+		holder=10048300 # Hashio Tamekuni
+	}
+	1487.1.1={
+		liege="d_nmih_kawachi"
+	}
+	1510.1.1={
+		holder=10048303 # Hashio Tametoki
+	}
+	1521.1.1={
+		liege="d_nmih_kii"
+	}
+	1534.1.1={
+		liege="d_nmih_yamato"
+		holder=10040831 # Kizawa Nagamasa
+	}
+	1542.4.2={
+		liege=0
+		holder=10048304 # Hashio Tametaka
+	}
+	1568.11.2={
+		liege="d_nmih_yamato"
+		holder=10048310 # Hashio Takaharu
+	}
+	1595.5.24={
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10093902 # Kuwayama Kazuharu
+	}
+	1604.3.28={
+		holder=10093903 # Kuwayama Kazunao
+	}
+}

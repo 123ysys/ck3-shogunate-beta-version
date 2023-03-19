@@ -1,0 +1,63 @@
+e_nmih_unifier = {
+
+	# Genpei War
+
+	1179.12.18={ # De Facto
+		holder=10110025 # Taira no Kiyomori
+	}
+	1181.3.20={ # De Facto
+		holder=10110042 # Taira no Munemori
+	}
+	1183.8.17={ # De Facto
+		holder=10120084 # Minamoto [Kiso] Yoshinaka.  Taira's escape to the west
+	}
+	1184.3.4={ # De Facto 
+		holder=0
+	}
+
+	# Kamakura Shogunate
+
+	1219.2.13={ # De Facto (Shikken)
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={ # De Facto (Shikken)
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={ # De Facto (Shikken)
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={ # De Facto (Shikken & Tokuso(Head of the Hojo Clan))
+		holder=10131824 # Hojo Tokiyori
+	}
+	1263.12.24={ # De Facto (Tokuso)
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={ # De Facto (Tokuso)
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={ # De Facto (Tokuso)
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={
+		holder = 0 # End of the Kamakura Shogunate
+	}
+
+	# Azuchi-Momoyama period
+
+	1575.12.9={
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.6.21={
+		holder=0 # Honno-ji incident
+	}
+	1585.7.27={
+		holder= 10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		holder= 10029415 # Toyotomi Hideyori
+	}
+	1600.7.2={
+		holder= 0 # Battle of Sekigahara (Aizu Conquest)
+	}
+
+}

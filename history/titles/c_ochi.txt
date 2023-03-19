@@ -1,0 +1,100 @@
+c_nmih_ochi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ochi1={
+				set_title_name=b_nmih_ochi9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ochi1={
+				set_title_name=b_nmih_ochi9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_ochi1={
+				set_title_name=B_NMIH_OCHI7_1331
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+		liege="d_nmih_iyo"
+	}
+	1180.1.1={
+		liege="d_nmih_iyo"
+		holder=12691005 # Kono Michikiyo
+	}
+	1181.2.7={
+		holder=12691010 # Kono Michinobu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_central_iyo"
+		holder=12691024 # Kono Michihisa
+	}
+	1267.1.1={
+		holder=12691031 # Kono Michitsugu
+	}
+	1270.1.1={
+		holder=12691040 # Kono Michiari
+	}
+	1311.8.28={
+		holder=10058628 # Kono Michimori
+	}
+	1333.7.4={
+		liege="d_nmih_iyo"
+		holder=12691726 # Kutsuna Yoshinori
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1370.1.1={
+		holder=12691630 # Murakami Yoshihiro
+	}
+	1374.1.1={
+		holder=10058922 # Murakami Morokiyo
+	}
+	1390.1.1={
+		liege="d_nmih_iyo"
+	}
+	1410.1.1={
+		holder=10058908 # Murakami Yoshiaki
+	}
+	1459.2.2={
+		holder=10058907 # Murakami Masafusa
+	}
+	1467.6.27={
+		liege=0
+	}
+	1510.1.1={
+		holder=10058901 # Murakami Takakatsu
+	}
+	1527.1.1={
+		holder=10058900 # Murakami Yoshitada
+	}
+	1553.1.1={
+		holder=10058902 # Murakami Takeyoshi
+	}
+	1555.10.16={
+		liege="d_nmih_aki"
+	}
+	1588.1.1={
+		holder=10056016 # Koboyakawa Takakage
+	}
+	1595.8.20={
+		holder=10056110 # Ankokuji Ekei
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_central_iyo"
+		holder=10029730 # Kato Yoshiaki
+	}
+}

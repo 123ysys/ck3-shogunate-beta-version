@@ -1,0 +1,202 @@
+﻿tohoku_buddhist = {
+	color = { 0.45 0.70 0.45 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_buddhist
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_zealous_people
+		tradition_warrior_monks
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_tohoku_buddhist
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+kanto_buddhist = {
+	color = { 0.6 0.6 0.6 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_buddhist
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_zealous_people
+		tradition_warrior_monks
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_kanto_buddhist
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+hokuriku_buddhist = {
+	color = { 0.8 0.8 0.8 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_buddhist
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_zealous_people
+		tradition_warrior_monks
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_hokuriku_buddhist
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+chubu_buddhist = {
+	color = { 0.9 0.1 0.9 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_buddhist
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_zealous_people
+		tradition_warrior_monks
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_chubu_buddhist
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+kinai_buddhist = {
+	color = { 0.6 0.1 0.1 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_buddhist
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_zealous_people
+		tradition_warrior_monks
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_kinai_buddhist
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+saigoku_buddhist = {
+	color = { 0.4 0.4 0.1 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_buddhist
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_zealous_people
+		tradition_warrior_monks
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_saigoku_buddhist
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+kyushu_buddhist = {
+	color = { 0.1 0.1 0.5 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_buddhist
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_quarrelsome
+		tradition_zealous_people
+		tradition_warrior_monks
+		tradition_astute_diplomats
+	}
+
+	name_list = name_list_kyushu_buddhist
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}

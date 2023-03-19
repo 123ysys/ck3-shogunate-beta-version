@@ -1,0 +1,30 @@
+312 = {
+
+	culture = central_kyushu
+	religion = shinto
+	holding = castle_holding
+	1000.1.1={
+	}
+	1185.12.16={
+	}
+	1480.1.1={
+	}
+	1500.1.1={
+	}
+	1534.1.1={
+	}
+	1550.2.12={
+		buildings = {
+			castle_02
+		}
+	}
+	1553.7.22={
+	}
+	1562.1.1={
+		buildings = {
+			castle_01
+		}
+	}
+	1587.7.24={
+	}
+}

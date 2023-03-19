@@ -1,0 +1,16 @@
+﻿portrait_japanese_clothing_modifier = {
+	modifier = {
+		add = 50
+		OR = {
+			portrait_yamato_clothing_trigger = yes
+			portrait_ryukyu_clothing_trigger = yes
+		}
+	}
+}
+
+portrait_ainu_clothing_modifier = {
+	modifier = {
+		add = 50
+		portrait_ainu_clothing_trigger = yes
+	}
+}

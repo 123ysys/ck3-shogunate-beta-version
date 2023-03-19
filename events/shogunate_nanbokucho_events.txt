@@ -1,0 +1,1245 @@
+﻿namespace = shogunate_nanbokucho
+
+# Setup Nanboku-cho traits
+shogunate_nanbokucho.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_nanbokucho_period_trigger = yes
+			}
+
+			# Nakasendai Rebellion
+			if = {
+				limit = {
+					game_start_date >= 1335.7.1
+					game_start_date <  1335.9.6
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = northern_court
+					TARGET_TITLE = title:e_nmih_japan
+					LEADER_TITLE = title:e_nmih_japan
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_county
+					TRAIT = southern_court
+					TARGET_TITLE = title:e_nmih_nancho
+					LEADER_TITLE = title:e_nmih_nancho
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_county
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_western_kanto
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				set_global_variable = shogunate_global_nanbokucho_third_force_flag
+			}
+
+			# Kenmu War
+			else_if = {
+				limit = {
+					game_start_date >= 1335.9.6
+					game_start_date <  1337.1.1
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_county
+					TRAIT = northern_court
+					TARGET_TITLE = title:e_nmih_japan
+					LEADER_TITLE = title:e_nmih_japan
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_county
+					TRAIT = southern_court
+					TARGET_TITLE = title:e_nmih_nancho
+					LEADER_TITLE = title:e_nmih_nancho
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_shinano
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				set_global_variable = shogunate_global_nanbokucho_third_force_flag
+			}
+
+			# Kanno Disturbance (1st)
+			else_if = {
+				limit = {
+					game_start_date >= 1350.12.20
+					game_start_date <  1351.3.15
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = northern_court
+					TARGET_TITLE = title:e_nmih_japan
+					LEADER_TITLE = title:e_nmih_japan
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = southern_court
+					TARGET_TITLE = title:e_nmih_nancho
+					LEADER_TITLE = title:e_nmih_nancho
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_western_kanto
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_western_chugoku
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_oshu_kanrei
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				set_global_variable = shogunate_global_nanbokucho_third_force_flag
+			}
+
+			# Kanno Disturbance (2nd)
+			else_if = {
+				limit = {
+					game_start_date >= 1351.8.23
+					game_start_date <  1352.3.12
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = northern_court
+					TARGET_TITLE = title:e_nmih_japan
+					LEADER_TITLE = title:e_nmih_japan
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = southern_court
+					TARGET_TITLE = title:e_nmih_nancho
+					LEADER_TITLE = title:e_nmih_nancho
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_western_kanto
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_western_chugoku
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:k_nmih_oshu_kanrei
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				set_global_variable = shogunate_global_nanbokucho_third_force_flag
+			}
+
+			# Rebellion of Toki Yasuyuki
+			else_if = {
+				limit = {
+					game_start_date >= 1389.4.1
+					game_start_date <  1390.4.1
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = northern_court
+					TARGET_TITLE = title:e_nmih_japan
+					LEADER_TITLE = title:e_nmih_japan
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = southern_court
+					TARGET_TITLE = title:e_nmih_nancho
+					LEADER_TITLE = title:e_nmih_nancho
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:d_nmih_ise
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				set_global_variable = shogunate_global_nanbokucho_third_force_flag
+			}
+
+			# Meitoku War
+			else_if = {
+				limit = {
+					game_start_date >= 1391.12.1
+					game_start_date <  1392.1.24
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = northern_court
+					TARGET_TITLE = title:e_nmih_japan
+					LEADER_TITLE = title:e_nmih_japan
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = southern_court
+					TARGET_TITLE = title:e_nmih_nancho
+					LEADER_TITLE = title:e_nmih_nancho
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:d_nmih_tanba
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:d_nmih_izumo
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:d_nmih_mimasaka
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = third_force
+					TARGET_TITLE = title:c_nmih_houmi
+					LEADER_TITLE = title:e_nmih_third_force
+				}
+				set_global_variable = shogunate_global_nanbokucho_third_force_flag
+			}
+
+			# Default for Nanboku-cho period
+			else = {
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = northern_court
+					TARGET_TITLE = title:e_nmih_japan
+					LEADER_TITLE = title:e_nmih_japan
+				}
+				shogunate_nanbokucho_split_title_effect = {
+					TIER  = tier_duchy
+					TRAIT = southern_court
+					TARGET_TITLE = title:e_nmih_nancho
+					LEADER_TITLE = title:e_nmih_nancho
+				}
+			}
+		}
+	}
+}
+
+# Inherit Nanboku-cho traits
+shogunate_nanbokucho.0002 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_nanbokucho_period_trigger = yes
+			}
+			if = {
+				limit = {
+					is_independent_ruler = yes
+					exists = scope:transfer_type
+					exists = scope:previous_holder
+				}
+				if = {
+					limit = {
+						OR = {
+							scope:transfer_type = flag:inheritance
+							scope:transfer_type = flag:granted
+							scope:transfer_type = flag:faction_demand
+							scope:transfer_type = flag:abdication
+						}
+					}
+					if = {
+						limit = {
+							NOT = { has_trait = southern_court }
+							NOT = { has_trait = third_force }
+							scope:previous_holder = { has_trait = northern_court }
+						}
+						add_trait = northern_court
+					}
+					else_if = {
+						limit = {
+							NOT = { has_trait = northern_court }
+							NOT = { has_trait = third_force }
+							scope:previous_holder = { has_trait = southern_court }
+						}
+						add_trait = southern_court
+					}
+					else_if = {
+						limit = {
+							NOT = { has_trait = northern_court }
+							NOT = { has_trait = southern_court }
+							scope:previous_holder = { has_trait = third_force }
+							exists = global_var:shogunate_global_nanbokucho_third_force_flag
+						}
+						add_trait = third_force
+					}
+				}
+			}
+		}
+	}
+}
+
+# Update Nanboku-cho map colors
+shogunate_nanbokucho.0003 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_nanbokucho_period_trigger = yes
+			}
+			every_ruler = {
+				if = {
+					limit = {
+						top_liege = {
+							OR = {
+								AND = {
+									has_title = title:e_nmih_japan
+									NOT = { exists = global_var:shogunate_global_nanbokucho_fate_of_shogunate_flag }
+								}
+								has_trait = northern_court
+							}
+						}
+					}
+					add_trait = northern_court
+					remove_trait = southern_court
+					remove_trait = third_force
+				}
+				else_if = {
+					limit = {
+						top_liege = {
+							OR = {
+								has_title = title:e_nmih_nancho
+								has_trait = southern_court
+							}
+						}
+					}
+					add_trait = southern_court
+					remove_trait = northern_court
+					remove_trait = third_force
+				}
+				else_if = {
+					limit = {
+						top_liege = {
+							OR = {
+								has_title = title:e_nmih_third_force
+								has_trait = third_force
+							}
+						}
+						exists = global_var:shogunate_global_nanbokucho_third_force_flag
+					}
+					add_trait = third_force
+					remove_trait = northern_court
+					remove_trait = southern_court
+				}
+				else = {
+					remove_trait = northern_court
+					remove_trait = southern_court
+					remove_trait = third_force
+				}
+
+				if = {
+					limit = {
+						OR = {
+							NOT = { has_variable = shogunate_primary_title }
+							NOT = { has_variable = shogunate_nanbokucho_trait }
+							NOT = { primary_title = var:shogunate_primary_title }
+							AND = {
+								has_trait = northern_court
+								NOT = { var:shogunate_nanbokucho_trait = flag:shogunate_northern_court_flag }
+							}
+							AND = {
+								has_trait = southern_court
+								NOT = { var:shogunate_nanbokucho_trait = flag:shogunate_southern_court_flag }
+							}
+							AND = {
+								has_trait = third_force
+								NOT = { var:shogunate_nanbokucho_trait = flag:shogunate_third_force_flag }
+							}
+							AND = {
+								NOT = { has_trait = northern_court }
+								NOT = { has_trait = southern_court }
+								NOT = { has_trait = third_force }
+								NOT = { var:shogunate_nanbokucho_trait = flag:shogunate_neutral_flag }
+							}
+						}
+					}
+
+					set_variable = {
+						name = shogunate_primary_title
+						value = primary_title
+					}
+
+					if = {
+						limit = {
+							has_trait = northern_court
+						}
+						set_variable = {
+							name = shogunate_nanbokucho_trait
+							value = flag:shogunate_northern_court_flag
+						}
+						primary_title = {
+							shogunate_map_color_copy_effect = { FROM = title:e_nmih_japan }
+						}
+					}
+					else_if = {
+						limit = {
+							has_trait = southern_court
+						}
+						set_variable = {
+							name = shogunate_nanbokucho_trait
+							value = flag:shogunate_southern_court_flag
+						}
+						primary_title = {
+							shogunate_map_color_copy_effect = { FROM = title:e_nmih_nancho }
+						}
+					}
+					else_if = {
+						limit = {
+							has_trait = third_force
+						}
+						set_variable = {
+							name = shogunate_nanbokucho_trait
+							value = flag:shogunate_third_force_flag
+						}
+						primary_title = {
+							shogunate_map_color_copy_effect = { FROM = title:e_nmih_third_force }
+						}
+					}
+					else = {
+						set_variable = {
+							name = shogunate_nanbokucho_trait
+							value = flag:shogunate_neutral_flag
+						}
+						primary_title = {
+							shogunate_map_color_load_effect = yes
+						}
+					}
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				scope:transfer_type = flag:created
+				exists = scope:title
+			}
+			scope:title = {
+				shogunate_map_color_load_effect = yes
+			}
+		}
+	}
+}
+
+# Support the Northern Court (notify)
+shogunate_nanbokucho.0004 = {
+	type = character_event
+
+	title = shogunate_nanbokucho.0004.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:betrayer
+					has_trait = northern_court
+				}
+				desc = shogunate_nanbokucho.0004.desc_betrayer_ally
+			}
+			triggered_desc = {
+				trigger = {
+					exists = scope:betrayer
+					has_trait = southern_court
+				}
+				desc = shogunate_nanbokucho.0004.desc_betrayer_enemy
+			}
+			triggered_desc = {
+				trigger = {
+					exists = scope:betrayer
+					NOT = { has_trait = northern_court }
+					NOT = { has_trait = southern_court }
+				}
+				desc = shogunate_nanbokucho.0004.desc_betrayer_neutral
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = scope:betrayer }
+					has_trait = northern_court
+				}
+				desc = shogunate_nanbokucho.0004.desc_ally
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = scope:betrayer }
+					has_trait = southern_court
+				}
+				desc = shogunate_nanbokucho.0004.desc_enemy
+			}
+			desc = shogunate_nanbokucho.0004.desc_neutral
+		}
+	}
+
+	theme = intrigue
+	left_portrait = {
+		character = scope:supporter
+		animation = personality_cynical
+	}
+
+	option = {
+		trigger = {
+			has_trait = northern_court
+		}
+		name = shogunate_nanbokucho.0004.a
+	}
+
+	option = {
+		trigger = {
+			has_trait = southern_court
+		}
+		name = shogunate_nanbokucho.0004.b
+	}
+
+	option = {
+		trigger = {
+			NOT = { has_trait = northern_court }
+			NOT = { has_trait = southern_court }
+		}
+		name = shogunate_nanbokucho.0004.c
+	}
+
+}
+
+# Support the Southern Court (notify)
+shogunate_nanbokucho.0005 = {
+	type = character_event
+
+	title = shogunate_nanbokucho.0005.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:betrayer
+					has_trait = southern_court
+				}
+				desc = shogunate_nanbokucho.0005.desc_betrayer_ally
+			}
+			triggered_desc = {
+				trigger = {
+					exists = scope:betrayer
+					has_trait = northern_court
+				}
+				desc = shogunate_nanbokucho.0005.desc_betrayer_enemy
+			}
+			triggered_desc = {
+				trigger = {
+					exists = scope:betrayer
+					NOT = { has_trait = northern_court }
+					NOT = { has_trait = southern_court }
+				}
+				desc = shogunate_nanbokucho.0005.desc_betrayer_neutral
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = scope:betrayer }
+					has_trait = southern_court
+				}
+				desc = shogunate_nanbokucho.0005.desc_ally
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = scope:betrayer }
+					has_trait = northern_court
+				}
+				desc = shogunate_nanbokucho.0005.desc_enemy
+			}
+			desc = shogunate_nanbokucho.0005.desc_neutral
+		}
+	}
+
+	theme = intrigue
+	left_portrait = {
+		character = scope:supporter
+		animation = personality_cynical
+	}
+
+	option = {
+		trigger = {
+			has_trait = southern_court
+		}
+		name = shogunate_nanbokucho.0005.a
+	}
+
+	option = {
+		trigger = {
+			has_trait = northern_court
+		}
+		name = shogunate_nanbokucho.0005.b
+	}
+
+	option = {
+		trigger = {
+			NOT = { has_trait = northern_court }
+			NOT = { has_trait = southern_court }
+		}
+		name = shogunate_nanbokucho.0005.c
+	}
+
+}
+
+# Unification of the Two Courts (trigger)
+shogunate_nanbokucho.0006 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_check_nanbokucho_period_end_trigger = yes
+			}
+			set_global_variable = shogunate_global_nanbokucho_end_flag
+			if = {
+				limit = {
+					exists = title:e_nmih_japan
+					exists = title:e_nmih_japan.holder
+					title:e_nmih_japan.holder = {
+						has_trait = northern_court
+						domain_size > 0
+					}
+				}
+				set_global_variable = shogunate_global_nanbokucho_northern_court_won_flag
+				title:e_nmih_japan.holder = {
+					save_scope_as = northern_court_winner
+				}
+
+				create_title_and_vassal_change = {
+					type = swear_fealty
+					save_scope_as = change
+				}
+				every_independent_ruler = {
+					limit = {
+						has_trait = northern_court
+						NOT = { this = scope:northern_court_winner }
+						domain_size > 0
+					}
+					change_liege = {
+						liege = scope:northern_court_winner
+						change = scope:change
+					}
+					add_opinion = {
+						modifier = shogunate_nanbokucho_unifier_opinion
+						target = scope:northern_court_winner
+					}
+				}
+				resolve_title_and_vassal_change = scope:change
+			}
+			else_if = {
+				limit = {
+					exists = title:e_nmih_nancho
+					exists = title:e_nmih_nancho.holder
+					title:e_nmih_nancho.holder = {
+						has_trait = southern_court
+						domain_size > 0
+					}
+				}
+				set_global_variable = shogunate_global_nanbokucho_southern_court_won_flag
+				title:e_nmih_nancho.holder = {
+					save_scope_as = southern_court_winner
+				}
+
+				# Give the Emperor all De Jure of the Shogunate title
+				title:e_nmih_japan = {
+					every_in_de_jure_hierarchy = {
+						limit = { tier = tier_kingdom }
+						set_de_jure_liege_title = title:e_nmih_tenno
+					}
+				}
+
+				create_title_and_vassal_change = {
+					type = granted
+					save_scope_as = change
+					add_claim_on_loss = no
+				}
+				title:e_nmih_tenno = {
+					change_title_holder = {
+						holder = scope:southern_court_winner
+						change = scope:change
+					}
+				}
+				resolve_title_and_vassal_change = scope:change
+
+				create_title_and_vassal_change = {
+					type = swear_fealty
+					save_scope_as = change
+				}
+				every_independent_ruler = {
+					limit = {
+						has_trait = southern_court
+						NOT = { this = scope:southern_court_winner }
+						domain_size > 0
+					}
+					change_liege = {
+						liege = scope:southern_court_winner
+						change = scope:change
+					}
+					add_opinion = {
+						modifier = shogunate_nanbokucho_unifier_opinion
+						target = scope:southern_court_winner
+					}
+				}
+				resolve_title_and_vassal_change = scope:change
+			}
+			every_living_character = {
+				remove_trait = northern_court
+				remove_trait = southern_court
+				remove_trait = third_force
+			}
+			every_ruler = {
+				every_held_title = {
+					shogunate_map_color_load_effect = yes
+				}
+				if = {
+					limit = {
+						is_ai = no
+					}
+					trigger_event = shogunate_nanbokucho.0007
+				}
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_japan
+					exists = title:e_nmih_japan.holder
+				}
+				title:e_nmih_japan.holder = {
+					shogunate_nanbokucho_remove_modifier_effect = yes
+				}
+				if = {
+					limit = {
+						NOT = { exists = global_var:shogunate_global_nanbokucho_northern_court_won_flag }
+					}
+					destroy_title = title:e_nmih_japan
+				}
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_nancho
+					exists = title:e_nmih_nancho.holder
+				}
+				title:e_nmih_nancho.holder = {
+					shogunate_nanbokucho_remove_modifier_effect = yes
+				}
+				destroy_title = title:e_nmih_nancho
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_third_force
+					exists = title:e_nmih_third_force.holder
+				}
+				title:e_nmih_third_force.holder = {
+					shogunate_nanbokucho_remove_modifier_effect = yes
+				}
+				destroy_title = title:e_nmih_third_force
+			}
+		}
+	}
+
+}
+
+# Unification of the Two Courts (notify)
+shogunate_nanbokucho.0007 = {
+	type = character_event
+
+	title = shogunate_nanbokucho.0007.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:northern_court_winner
+				}
+				desc = shogunate_nanbokucho.0007.desc_northern_court_win
+			}
+			triggered_desc = {
+				trigger = {
+					exists = scope:southern_court_winner
+				}
+				desc = shogunate_nanbokucho.0007.desc_southern_court_win
+			}
+			desc = shogunate_nanbokucho.0007.desc_nobody_win
+		}
+		desc = shogunate_nanbokucho.0007.desc_end_of_war
+	}
+
+	immediate = {
+		if = {
+			limit = {
+				exists = scope:northern_court_winner
+			}
+			scope:northern_court_winner = {
+				save_scope_as = portrait
+			}
+		}
+		else_if = {
+			limit = {
+				exists = scope:southern_court_winner
+			}
+			scope:southern_court_winner = {
+				save_scope_as = portrait
+			}
+		}
+		else = {
+			root = {
+				save_scope_as = portrait
+			}
+		}
+	}
+
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = scope:portrait
+		animation = personality_bold
+	}
+
+	option = {
+		trigger = {
+			exists = scope:northern_court_winner
+		}
+		name = shogunate_nanbokucho.0007.a
+	}
+
+	option = {
+		trigger = {
+			exists = scope:southern_court_winner
+		}
+		name = shogunate_nanbokucho.0007.b
+	}
+
+	option = {
+		trigger = {
+			NOT = { exists = scope:northern_court_winner }
+			NOT = { exists = scope:southern_court_winner }
+		}
+		name = shogunate_nanbokucho.0007.c
+	}
+
+}
+
+# Update Nanboku-cho modifiers
+shogunate_nanbokucho.0008 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_nanbokucho_period_trigger = yes
+			}
+			if = {
+				limit = {
+					NOT = { exists = scope:previous_holder }
+				}
+				save_scope_as = previous_holder
+			}
+			if = {
+				limit = {
+					OR = {
+						scope:title = title:e_nmih_japan
+						scope:title = title:e_nmih_nancho
+						scope:title = title:e_nmih_third_force
+					}
+				}
+				scope:previous_holder = {
+					shogunate_nanbokucho_remove_modifier_effect = yes
+				}
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_japan
+					exists = title:e_nmih_japan.holder
+				}
+				title:e_nmih_japan.holder = {
+					shogunate_nanbokucho_remove_modifier_effect = yes
+					shogunate_nanbokucho_add_modifier_effect = {
+						TITLE = title:e_nmih_japan
+						TRAIT = northern_court
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_nancho
+					exists = title:e_nmih_nancho.holder
+				}
+				title:e_nmih_nancho.holder = {
+					shogunate_nanbokucho_remove_modifier_effect = yes
+					shogunate_nanbokucho_add_modifier_effect = {
+						TITLE = title:e_nmih_nancho
+						TRAIT = southern_court
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_third_force
+					exists = title:e_nmih_third_force.holder
+				}
+				title:e_nmih_third_force.holder = {
+					shogunate_nanbokucho_remove_modifier_effect = yes
+					shogunate_nanbokucho_add_modifier_effect = {
+						TITLE = title:e_nmih_third_force
+						TRAIT = third_force
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# Setup Nanboku-cho modifiers
+shogunate_nanbokucho.0009 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_nanbokucho_period_trigger = yes
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_japan
+					exists = title:e_nmih_japan.holder
+				}
+				title:e_nmih_japan.holder = {
+					shogunate_nanbokucho_add_modifier_effect = {
+						TITLE = title:e_nmih_japan
+						TRAIT = northern_court
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_nancho
+					exists = title:e_nmih_nancho.holder
+				}
+				title:e_nmih_nancho.holder = {
+					shogunate_nanbokucho_add_modifier_effect = {
+						TITLE = title:e_nmih_nancho
+						TRAIT = southern_court
+					}
+				}
+			}
+			if = {
+				limit = {
+					exists = title:e_nmih_third_force
+					exists = title:e_nmih_third_force.holder
+				}
+				title:e_nmih_third_force.holder = {
+					shogunate_nanbokucho_add_modifier_effect = {
+						TITLE = title:e_nmih_third_force
+						TRAIT = third_force
+					}
+				}
+			}
+		}
+	}
+
+}
+
+# Replace by the Third Force (trigger)
+shogunate_nanbokucho.0010 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_nanbokucho_period_trigger = yes
+				exists = global_var:shogunate_global_nanbokucho_third_force_flag
+				scope:title = title:e_nmih_japan
+				has_trait = third_force
+			}
+
+			every_ruler = {
+				limit = {
+					has_trait = northern_court
+				}
+				remove_trait = northern_court
+				add_to_list = northern_court_supporter_list
+			}
+			every_ruler = {
+				limit = {
+					has_trait = third_force
+				}
+				remove_trait = third_force
+				add_trait = northern_court
+			}
+			every_in_list = {
+				list = northern_court_supporter_list
+				add_trait = third_force
+			}
+
+			save_scope_as = new_holder
+			every_ruler = {
+				limit = {
+					is_ai = no
+				}
+				trigger_event = shogunate_nanbokucho.0012
+			}
+
+			if = {
+				limit = {
+					exists = scope:previous_holder
+					scope:previous_holder = {
+						is_ruler = yes
+					}
+				}
+				create_title_and_vassal_change = {
+					type = granted
+					save_scope_as = change
+					add_claim_on_loss = no
+				}
+				title:e_nmih_third_force = {
+					change_title_holder = {
+						holder = scope:previous_holder
+						change = scope:change
+					}
+				}
+				resolve_title_and_vassal_change = scope:change
+			}
+			else = {
+				remove_global_variable = shogunate_global_nanbokucho_third_force_flag
+				if = {
+					limit = {
+						exists = title:e_nmih_third_force
+						exists = title:e_nmih_third_force.holder
+					}
+					destroy_title = title:e_nmih_third_force
+				}
+				every_living_character = {
+					remove_trait = third_force
+				}
+			}
+		}
+	}
+
+}
+
+# Dissolve the Third Force (trigger)
+shogunate_nanbokucho.0011 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_nanbokucho_period_trigger = yes
+				exists = global_var:shogunate_global_nanbokucho_third_force_flag
+				OR = {
+					NOT = { exists = title:e_nmih_third_force.holder }
+					title:e_nmih_third_force.holder = {
+						NOT = { has_trait = third_force }
+					}
+				}
+			}
+			remove_global_variable = shogunate_global_nanbokucho_third_force_flag
+
+			if = {
+				limit = {
+					NOT = { exists = scope:previous_holder }
+				}
+				save_scope_as = previous_holder
+			}
+			every_ruler = {
+				limit = {
+					is_ai = no
+				}
+				trigger_event = shogunate_nanbokucho.0013
+			}
+
+			if = {
+				limit = {
+					exists = title:e_nmih_third_force
+					exists = title:e_nmih_third_force.holder
+				}
+				destroy_title = title:e_nmih_third_force
+			}
+			every_living_character = {
+				remove_trait = third_force
+			}
+		}
+	}
+
+}
+
+# Rise of the Third Force (notify)
+shogunate_nanbokucho.0012 = {
+	type = character_event
+
+	title = shogunate_nanbokucho.0012.t
+	desc = shogunate_nanbokucho.0012.desc
+
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = scope:new_holder
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:previous_holder
+		animation = disapproval
+	}
+	override_background = { event_background = army_camp }
+
+	option = {
+		trigger = {
+			has_trait = northern_court
+		}
+		name = shogunate_nanbokucho.0012.a
+	}
+
+	option = {
+		trigger = {
+			has_trait = southern_court
+		}
+		name = shogunate_nanbokucho.0012.b
+	}
+
+	option = {
+		trigger = {
+			has_trait = third_force
+		}
+		name = shogunate_nanbokucho.0012.c
+	}
+
+	option = {
+		trigger = {
+			NOT = { has_trait = northern_court }
+			NOT = { has_trait = southern_court }
+			NOT = { has_trait = third_force }
+		}
+		name = shogunate_nanbokucho.0012.d
+	}
+
+}
+
+# Collapse of the Third Force (notify)
+shogunate_nanbokucho.0013 = {
+	type = character_event
+
+	title = shogunate_nanbokucho.0013.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = scope:previous_holder
+				}
+				desc = shogunate_nanbokucho.0013.desc_with_leader
+			}
+			desc = shogunate_nanbokucho.0013.desc_without_leader
+		}
+	}
+
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = scope:northern_court_leader
+		animation = personality_cynical
+	}
+	override_background = { event_background = army_camp }
+
+	immediate = {
+		title:e_nmih_japan.holder = {
+			save_scope_as = northern_court_leader
+		}
+	}
+
+	option = {
+		trigger = {
+			has_trait = northern_court
+		}
+		name = shogunate_nanbokucho.0013.a
+	}
+
+	option = {
+		trigger = {
+			has_trait = southern_court
+		}
+		name = shogunate_nanbokucho.0013.b
+	}
+
+	option = {
+		trigger = {
+			NOT = { has_trait = northern_court }
+			NOT = { has_trait = southern_court }
+		}
+		name = shogunate_nanbokucho.0013.c
+	}
+
+}
+
+# Fall of Shogunate (Nanboku-cho Period)
+shogunate_nanbokucho.0014 = {
+	type = character_event
+
+	trigger = {
+		shogunate_is_nanbokucho_period_trigger = yes
+		scope:title = title:e_nmih_japan
+		has_trait = southern_court
+	}
+
+	immediate = {
+		set_global_variable = shogunate_global_nanbokucho_fate_of_shogunate_flag
+	}
+
+	title = shogunate_nanbokucho.0014.t
+	desc = shogunate_nanbokucho.0014.desc
+
+	theme = intrigue
+	left_portrait = {
+		character = root
+		animation = personality_cynical
+	}
+
+	option = {
+		name = shogunate_nanbokucho.0014.a
+
+		remove_global_variable = shogunate_global_nanbokucho_fate_of_shogunate_flag
+		add_character_flag = shogunate_title_destroyer
+		destroy_title = title:e_nmih_japan
+		trigger_event = shogunate_nanbokucho.0006
+
+		stress_impact = {
+			ambitious = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+
+	option = {
+		name = shogunate_nanbokucho.0014.b
+
+		remove_global_variable = shogunate_global_nanbokucho_fate_of_shogunate_flag
+		remove_trait = southern_court
+		add_character_modifier = {
+			modifier = shogunate_betrayer_modifier
+			years = 10
+		}
+		trigger_event = shogunate_nanbokucho.0003
+
+		stress_impact = {
+			content = major_stress_impact_gain
+		}
+		ai_chance = {
+			base = 0
+		}
+	}
+}

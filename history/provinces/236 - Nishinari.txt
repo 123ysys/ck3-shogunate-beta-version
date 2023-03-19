@@ -1,0 +1,20 @@
+236 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	900.1.1={
+	}
+	1331.1.1={
+	}
+	1460.1.1={ # Nishinari converted to Ikko-Shu
+		religion = ikkoshu
+	}
+	1531.1.1={
+	}
+	1573.1.1={
+	}
+	1580.9.20={
+	}
+
+}

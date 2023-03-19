@@ -1,0 +1,131 @@
+c_nmih_iwai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iwai1={
+				set_title_name=b_nmih_iwai1
+			}
+		}
+	}
+	1189.10.3={
+		effect={
+			title:b_nmih_iwai1={
+				set_title_name=b_nmih_iwai2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1105.1.1 = { change_development_level = 40 }
+	1189.10.3 = { change_development_level = 40 }
+
+	100.1.1={
+	}
+	1088.1.1={
+		holder=12030000 # Fujiwara Kiyohira
+	}
+	1128.8.10={
+		holder=12030010 # Fujiwara Motohira
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1187.11.30={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_rikuchu"
+		holder=12201022 # Kasai Kiyoshige
+	}
+	1238.10.23={
+		holder=12083000 # Kasai Kiyochika
+	}
+	1250.1.1={
+		holder=12083010 # Kasai Tokikiyo
+	}
+	1280.1.1={
+		holder=12083015 # Kasai Kiyotsune
+	}
+	1300.1.1={
+		holder=12083020 # Kasai Munekiyo
+	}
+	1310.1.1={
+		holder=12083025 # Kasai Kiyotaka
+	}
+	1330.1.1={
+		holder=12083030 # Kasai Takakiyo
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1365.5.8 ={
+		holder=10006110 # Kasai Akikiyo
+	}
+	1388.1.1={
+		holder=10006114 # Kasai Mitsunobu
+	}
+	1392.1.1={
+		liege=0
+	}
+	1420.1.1={
+		holder=10006116 # Kasai Mochinobu
+	}
+	1440.1.1={
+		holder=10009901 # Usuginu Kiyotane
+	}
+	1502.1.1={
+		holder=10009902 # Usuginu Kiyosada
+	}
+	1520.1.1={
+		liege="d_nmih_rikuchu"
+		holder=10009905 # Usuginu Kiyonao
+	}
+	1550.1.1={
+		holder=10009906 # Usuginu Kiyomasa
+	}
+	1580.1.1={
+		holder=10009907 # Usuginu Kiyonori
+	}
+	1585.1.1={
+		holder=10009908 # Usuginu Tanekatsu
+	}
+	1590.8.28={
+		liege="d_nmih_rikuchu"
+		holder=10045739 # Kimura Yoshikiyo
+	}
+	1590.11.3={
+		liege=0
+		holder=10009908 # Usuginu Tanekatsu
+	}
+	1591.8.12={
+		liege="d_nmih_rikuchu"
+		holder=10001123 # Oniwa Tsunamoto
+	}
+	1603.3.24={
+		liege="d_nmih_rikuzen"
+		holder=10001022 # Rusu Masakage
+	}
+	1607.2.28={
+		holder=10006405 # Rusu Munetoshi
+	}
+	1616.6.1={
+		holder=10001035 # Date Masamune
+	}
+}

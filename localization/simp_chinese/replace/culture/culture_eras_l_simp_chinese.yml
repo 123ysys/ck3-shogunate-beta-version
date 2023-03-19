@@ -1,0 +1,9 @@
+﻿l_simp_chinese:
+ culture_era_tribal:0 "镰仓·室町"
+ culture_era_tribal_desc:0 "镰仓·室町时代的[culture|E]早于战国大名的出现。[tribal_government|E]统治者只能使用镰仓·室町时代的[innovations|E]。"
+ culture_era_early_medieval:0 "战国初期"
+ culture_era_early_medieval_desc:0 "战国初期出现了战国大名和一些重要[innovations|E]，可是[culture|E]尚未与西方文明接触。"
+ culture_era_high_medieval:0 "战国中期"
+ culture_era_high_medieval_desc:0 "战国中期是一个技术和行政取得巨大进步的时代，同时也是以火绳枪为代表的西方文化兴起的时代。"
+ culture_era_late_medieval:0 "战国后期"
+ culture_era_late_medieval_desc:0 "战国后期逐渐走向统一。武士阶级和其他阶级开始被明确区分。"

@@ -1,0 +1,7 @@
+﻿l_korean:
+
+ ##################################################
+ # Catalyst Names
+
+ catalyst_usurp_title_desc:0 "$e_nmih_japan$의 [de_jure|E]에 속한 새로운 [title|E]를 찬탈"
+ catalyst_gain_claim_on_title_desc:1 "$e_nmih_japan$의 [de_jure|E]에 속한 [title|E]에 대한 [claim|E]을 획득"

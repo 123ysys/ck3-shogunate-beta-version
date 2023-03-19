@@ -1,0 +1,30 @@
+﻿namespace = shogunate_bookmark
+
+# Hojo Clan
+shogunate_bookmark.3100 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Hojo Soun's invasion of Izu
+
+		if = {
+			limit = {
+				game_start_date >= 1493.6.9									# Coup of Meio
+				game_start_date <  1493.8.1									# End of Invasion of Izu
+			}
+
+			character:10016001 = {											# Ise Moritoki (Hojo Soun)
+				spawn_army = {
+					name = event_troop_default_name
+					location = capital_province
+					levies = 2000
+					inheritable = yes
+					uses_supply = no
+				}
+			}
+		}
+
+	}
+}

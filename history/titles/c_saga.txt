@@ -1,0 +1,141 @@
+c_nmih_saga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_saga1={
+				set_title_name=b_nmih_saga2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_saga1={
+				set_title_name=b_nmih_saga9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_saga1={
+				set_title_name=b_nmih_saga1
+			}
+		}
+	}
+	1547.1.1={
+		effect={
+			title:b_nmih_saga1={
+				set_title_name=b_nmih_saga2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 30 }
+	1547.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10290090 # Oyodohime
+		liege=d_nmih_chikuzen
+	}
+	295.1.1={
+		holder=10290093 # Oarata
+		liege=0
+	}
+	1180.1.1={
+		liege="d_nmih_hizen"
+		holder=10240113	# Takagi Muneie
+	}
+	1199.1.1={
+		liege="d_nmih_shimousa"
+		holder=12150120 # Chiba Tsunetane
+	}
+	1201.4.28={
+		holder=12150123 # Chiba Tanemasa
+	}
+	1203.8.28={
+		holder=12150130 # Chiba Naritane
+	}
+	1218.5.6={
+		holder=12150135 # Chiba Tanetsuna
+	}
+	1228.7.1={
+		holder=12150141 # Chiba Yaasutane
+	}
+	1251.1.1={
+		holder=12150145 # Chiba Yoritane
+	}
+	1275.9.7={
+		holder=12150150 # Chiba Munetane
+	}
+	1294.2.12={
+		holder=12150155 # Chiba Tanesada
+	}
+	1333.7.4={
+		liege="d_nmih_hizen"
+		holder=12150156 # Chiba Taneyasu
+	}
+	1390.1.1={
+		liege="d_nmih_hizen"
+		holder=12751300 # Chiba Tanemoto
+	}
+	1416.1.1={
+		holder=12751301 # Chiba Taneshige
+	}
+	1437.1.1={
+		holder=12751302 # Chiba Tanetsugu
+	}
+	1445.1.1={
+		holder=12751301 # Chiba Taneshige
+	}
+	1455.1.1={
+		holder=12751305 # Chiba Mototane
+	}
+	1464.1.1={
+		holder=12751306 # Chiba Noritane
+	}
+	1469.1.1={
+		holder=12751310 # Chiba Tanetomo
+	}
+	1486.1.1={
+		liege="d_nmih_chikuzen"
+		holder=10068001 # Shoni Masasuke
+	}
+	1497.5.21={
+		liege="d_nmih_hizen"
+		holder=10068000 # Shoni Sukemoto
+	}
+	1536.9.19={
+		liege="d_nmih_hizen"
+		holder=10068003 # Shoni Fuyuhisa
+	}
+	1546.1.1={
+		liege=0
+		holder=10068309 # Ryuzoji Tanemitsu
+	}
+	1548.4.30={
+		holder=10068320 # Ryuzoji Takanobu
+	}
+	1559.2.18={
+		liege="d_nmih_hizen"
+	}
+	1584.5.4={
+		liege="k_nmih_southern_kyushu"
+		holder=10068331 # Ryuzoji Masaie
+	}
+	1587.5.18={
+		liege="d_nmih_hizen"
+	}
+	1589.1.4={
+		holder=10068105 # Nabeshima Naoshige
+	}
+	1603.3.24={
+		liege="d_nmih_hizen"
+	}
+	1607.10.26={
+		holder=10068108 # Nabeshima Katsushige
+	}
+
+}

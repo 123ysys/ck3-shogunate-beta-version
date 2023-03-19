@@ -1,0 +1,151 @@
+c_nmih_kiku = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kiku1={
+				set_title_name=b_nmih_kiku1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kiku1={
+				set_title_name=B_NMIH_KIKU1_1100
+			}
+		}
+	}
+	1568.9.5={
+		effect={
+			title:b_nmih_kiku1={
+				set_title_name=B_NMIH_KIKU1_1568
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	180.1.1={
+		holder=10290001 # Himiko
+	}
+	1180.1.1={
+		liege="d_nmih_buzen"
+		holder=12750500 # Itai Taneto
+	}
+	1185.3.4={
+		liege="k_nmih_western_chugoku" # Battle of Ashiya-no-ura
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_harima"
+		holder=12751195 # Katsuki Norimune
+	}
+	1199.12.18={
+		liege="d_nmih_buzen"
+	}
+	1221.6.6={
+		liege="e_nmih_joko"
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_buzen"
+		holder=10067121 # Nagano Nagamori
+	}
+	1230.1.1={
+		holder=10067125 # Nagano Naomori
+	}
+	1250.1.1={
+		holder=10067127 # Nagano Tsunemori
+	}
+	1280.1.1={
+		holder=10067128 # Nagano Tanemori
+	}
+	1300.1.1={
+		holder=10067129 # Nagano Takamori
+	}
+	1310.1.1={
+		holder=10067130 # Nagano Yoshifusa
+	}
+	1330.1.1={
+		holder=10067131 # Nagano Motomori
+	}
+	1333.7.4={
+		liege="d_nmih_buzen"
+	}
+	1334.1.1={
+		liege="d_nmih_buzen"
+		holder=10132244 # Hojo Takamasa
+	}
+	1334.7.1={
+		liege="d_nmih_buzen"
+		holder=10067131 # Nagano Motomori
+	}
+	1360.1.1={
+		holder=10067133 # Nagano Hidemori
+	}
+	1390.1.1={
+		holder=10067134 # Nagano Hisamori
+	}
+	1399.11.26={
+		liege="k_nmih_western_chugoku"
+	}
+	1410.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10067135 # Nagano Yoshitada
+	}
+	1440.1.1={
+		holder=10067118 # Nagano Yoshimoto
+	}
+	1450.1.1={
+		holder=10067116 # Nagano Yoshisada
+	}
+	1470.1.1={
+		holder=10067112 # Nagano Yoshisuke
+	}
+	1480.1.1={
+		holder=10067103 # Nagano Yoshifusa
+	}
+	1510.1.1={
+		holder=10067101 # Nagano Yoshiaki
+	}
+	1532.1.1={
+		holder=10067100 # Nagano Fusamori
+	}
+	1551.9.30={
+		liege=0
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1562.1.1={
+		holder=10067102 # Nagano Tanemori
+	}
+	1565.5.1={
+		liege="d_nmih_bungo"
+	}
+	1568.9.5={
+		liege="k_nmih_western_chugoku"
+		holder=10056004 # Mori Motonari
+	}
+	1569.8.1={
+		liege="d_nmih_bungo"
+		holder=10064818 # Takahashi Akitane (Ichimata Chikamune)
+	}
+	1578.12.10={
+		liege="d_nmih_chikuzen"
+	}
+	1579.5.19={
+		holder=10067509 # Takahashi Mototane
+	}
+	1587.5.18={
+		holder=10094800 # Mori Katsunobu
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_buzen"
+		holder=10040220 # Hosokawa Tadaoki
+	}
+}

@@ -1,0 +1,25 @@
+k_nmih_hokuzan = {
+	0100.1.1={
+	}
+	1340.1.1={
+		liege=0
+		holder=10141110 # Nachijin Ukuharu
+	}
+	1370.1.1={
+		holder=10141120 # Nachijin Nakazuni
+	}
+	1374.1.1={
+		liege=0
+		holder=10141130 # Haniji Haniji
+	}
+	1395.1.1={
+		holder=10141135 # Haniji Min
+	}
+	1398.1.1={
+		holder=10141140 # Haniji Hananchi
+	}
+	1416.2.1={
+		liege=0
+		holder=0 # 
+	}
+}

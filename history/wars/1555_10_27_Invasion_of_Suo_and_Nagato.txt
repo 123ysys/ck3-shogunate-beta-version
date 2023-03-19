@@ -1,0 +1,12 @@
+war = {
+	name = "war_1555_invasion_of_suo_and_nagato"
+	start_date = 1555.10.27
+	end_date = 1557.5.1
+	targeted_titles = {
+		k_nmih_western_chugoku
+	}
+	casus_belli = event_claim_cb
+	claimant = 10056004 # Mori Motonari
+	attackers = { 10056004 } # Mori Motonari
+	defenders = { 10064003 } # Ouchi Yoshinaga
+}

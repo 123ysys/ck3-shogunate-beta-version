@@ -1,0 +1,169 @@
+c_nmih_kasa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kasa1={
+				set_title_name=b_nmih_kasa9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kasa1={
+				set_title_name=b_nmih_kasa9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_kasa1={
+				set_title_name=b_nmih_kasa1
+			}
+		}
+	}
+	1580.1.1={
+		effect={
+			title:b_nmih_kasa1={
+				set_title_name=b_nmih_kasa2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+	1580.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_tango"
+	}
+	1179.12.18={
+		liege="d_nmih_tango"
+		holder=10110065 # Taira Tadafusa
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_tango"
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_tango"
+		holder=10041681 # Yamato Akiko
+	}
+	1198.2.18={
+		holder=11006895 # Fujiwara Norimitsu
+	}
+	1213.4.27={
+		holder=11006898 # Fujiwara Noritomo
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_tango"
+		holder=12150131 # Sakai Tsunehide
+	}
+	1240.1.1={
+		holder=12151200 # Sakai Hidetane
+	}
+	1247.7.10={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.8.1={
+		holder=12221016 # Nagai Yasushige
+	}
+	1280.1.1={
+		holder=12665012 # Nagai Mochishige
+	}
+	1297.1.1={
+		holder=12665031 # Nagai Munehira
+	}
+	1333.7.4={
+		liege="d_nmih_tango"
+		holder=10041901 # Prince Moriyoshi
+	}
+	1334.1.1={
+		holder=11001527 # Toin Kinkata
+	}
+	1336.7.22={
+		liege="d_nmih_tango"
+		holder=12395216 # Imagawa Yorisada
+	}
+	1337.1.1={
+		holder=12396304 # Arakawa Akiyori
+	}
+	1337.4.1={
+		holder=10017030 # Uesugi Tomosada
+	}
+	1339.12.1={
+		holder=12395216 # Imagawa Yorisada
+	}
+	1341.10.1={
+		holder=12186256 # Yamana Tokiuji
+	}
+	1351.3.15={
+		holder=10055052 # Ueno Yorikane
+	}
+	1351.8.23={
+		holder=12396020 # Nikki Yoriaki
+	}
+	1352.7.1={
+		holder=12536206 # Kou Moroakira
+	}
+	1353.7.13={
+		holder=12396022 # Nikki Yorikatsu
+	}
+	1360.7.1={
+		holder=12396025 # Nikki Yoshitada
+	}
+	1363.9.1={
+		holder=10050007 # Yamana Moroyoshi
+	}
+	1376.3.31={
+		holder=10050012 # Yamana Yoshiyuki
+	}
+	1381.4.1={
+		holder=10050014 # Yamana Mitsuyuki
+	}
+	1392.1.24={
+		liege="d_nmih_tango"
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1440.6.14={
+		holder=10049514 # Isshiki Norichika
+	}
+	1451.12.21={
+		holder=10049515 # Isshiki Yoshinao
+	}
+	1474.4.1={
+		holder=10049516 # Isshiki Yoshiharu
+	}
+	1484.9.3={
+		holder=10049517 # Isshiki Yoshihide
+	}
+	1498.6.18={
+		holder=10049519 # Isshiki Yoshiari
+	}
+	1512.8.30={
+		holder=10049521 # Isshiki Yoshikiyo
+	}
+	1519.1.1={
+		holder=10049500 # Isshiki Yoshiyuki
+	}
+	1558.1.1={
+		holder=10049525 # Isshiki Yoshimichi
+	}
+	1580.1.1={
+		liege="e_nmih_japan"
+		holder=10040203 # Hosokawa Fujitaka(Yusai)
+	}
+	1582.6.21={
+		liege=0
+		holder=10040220 # Hosokawa Tadaoki
+	}
+	1582.7.2={
+		liege="d_nmih_tango"
+	}
+	1603.3.24={
+		holder=10044221 # Kyogoku Takatomo
+	}
+}

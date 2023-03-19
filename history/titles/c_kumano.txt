@@ -1,0 +1,128 @@
+c_nmih_kumano = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kumano1={
+				set_title_name=b_nmih_kumano1
+			}
+		}
+	}
+	1284.1.1={
+		effect={
+			title:b_nmih_kumano1={
+				set_title_name=b_nmih_kumano3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	300.1.1 = { change_development_level = 10 }
+	1284.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_kii"
+	}
+	1180.1.1={
+		government = theocracy_government
+		liege="d_nmih_kumano"
+		holder=12550011 # Kumano Hanchi
+	}
+	1184.10.1={
+		liege="d_nmih_kumano"
+		holder=12550021 # Kumano Gyokai
+	}
+	1202.1.1={
+		holder=12550022 # Kumano Hanmei
+	}
+	1208.1.1={
+		holder=12550070 # Kumano Rinkai
+	}
+	1229.1.1={
+		holder=12550073 # Kumano Kaimei
+	}
+	1237.1.1={
+		holder=12550071 # Kumano Jinkai
+	}
+	1258.1.1={
+		holder=12550077 # Kumano Jokai
+	}
+	1280.1.1={
+		holder=12550047 # Kumano Shotan
+	}
+	1284.1.1={
+		government = feudal_government
+		liege="d_nmih_kii"
+		holder=12555300 # Koyama IwamiNoKami
+	}
+	1330.1.1={
+		holder=12555302 # Koyama Sanetaka
+	}
+	1333.1.1={
+		liege="k_nmih_southern_kinai"
+	}
+	1333.7.4={
+		liege="d_nmih_kii"
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1352.3.12={
+		liege="d_nmih_kii"
+	}
+	1360.1.1={
+		holder=12555303 # Koyama Takanaga
+	}
+	1373.8.28={
+		liege="e_nmih_nancho"
+	}
+	1390.1.1={
+		liege="d_nmih_kii"
+		holder=12555304 # Koyama Takaharu
+	}
+	1420.1.1={
+		holder=12555305 # Koyama Takayoshi
+	}
+	1440.1.1={
+		liege=0
+		holder=10048503 # Horiuchi Ujitada
+	}
+	1467.6.27={ # Onin War
+		liege="d_nmih_kawachi" # Onin War
+	}
+	1477.12.16={ # End of Onin war
+		liege = 0
+	}
+	1480.1.1={
+		holder=10048502 # Horiuchi Ujisada
+	}
+	1510.1.1={
+		holder=10048502 # Horiuchi Ujimitsu
+	}
+	1530.1.1={
+		holder=10048500 # Horiuchi Ujitora
+	}
+	1574.1.1={
+		holder=10048505 # Horiuchi Ujiyoshi
+	}
+	1581.1.1={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+		holder=10048505 # Horiuchi Ujiyoshi
+	}
+	1582.6.21={
+		liege=0
+		holder=10048505 # Horiuchi Ujiyoshi
+	}
+	1585.5.11={
+		liege="d_nmih_kii"
+	}
+	1595.5.24={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_kii"
+		holder=10029429 # Asano Tadayoshi
+	}
+}

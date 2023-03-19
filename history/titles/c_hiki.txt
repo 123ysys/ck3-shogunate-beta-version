@@ -1,0 +1,217 @@
+c_nmih_hiki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hiki1={
+				set_title_name=b_nmih_hiki9
+			}
+		}
+	}
+	1399.1.1={
+		effect={
+			title:b_nmih_hiki1={
+				set_title_name=b_nmih_hiki1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1180.1.1 = { change_development_level = 20 }
+	1399.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	0880.1.1={
+		holder=12204304 # Aho Korekami
+	}
+	0900.1.1={
+		holder=12204305 # Hiki Nakamune
+	}
+	0950.1.1={
+		holder=12204306 # Hiki Suginari
+	}
+	0955.1.1={
+		holder=12204310 # Hiki Chikanari
+	}
+	0960.1.1={
+		holder=12204311 # Hiki Takanari
+	}
+	0985.1.1={
+		holder=12204312 # Hiki Munesue
+	}
+	1005.1.1={
+		holder=12204313 # Hiki Munehide
+	}
+	1010.1.1={
+		holder=12204314 # Hiki Tsunemune
+	}
+	1035.1.1={
+		holder=12204315 # Hiki Munemi
+	} 
+	1040.1.1={
+		holder=12204318 # Hiki Munetada
+	}
+	1065.1.1={
+		holder=12204321 # Hiki Munezane
+	}
+	1071.1.1={
+		holder=12204328 # Hiki Munenobu
+	}
+	1090.1.1={
+		holder=12204329 # Hiki Munenaga
+	}
+	1095.1.1={
+		holder=12204331 # Hiki Munemoto
+	}
+	1105.1.1={
+		holder=12204333 # Hiki Munekazu
+	}
+	1130.1.1={
+		holder=12204334 # Hiki Tomune
+	}
+	1170.1.1={
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1180.6.15={
+		liege="k_nmih_western_kanto"
+	}
+	1180.10.26={
+		liege="d_nmih_northern_musashi"
+	}
+	1203.10.8={
+		liege="d_nmih_musashi"
+		holder=12200060 # Hatakeyama Shigetada
+	}
+	1205.7.10={ # the HATAKEYAMA Shigetada Rebellion
+		liege="d_nmih_musashi"
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1207.1.1={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1247.7.9={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1256.4.7={
+		holder=10131671 # Hojo Masamura
+	}
+	1264.7.27={
+		holder=10131998 # Hojo Tokimune
+	}
+	1268.4.18={
+		holder=10131671 # Hojo Masamura
+	}
+	1273.6.13={
+		holder=10131714 # Hojo [Shiota] Yoshimasa
+	}
+	1277.5.8={
+		holder=10131713 # Hojo [Fuonji] Naritoki
+	}
+	1287.8.13={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1301.9.25={
+		holder=10131747 # Hojo Tokimura
+	}
+	1305.5.17={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1311.11.13={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1315.8.11={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1320.1.1={
+		liege="d_nmih_musashi"
+		holder=12201905 # Takasaka GyobuTaifu
+	}
+	1330.1.1={
+		liege="d_nmih_musashi"
+		holder=12201906 # Takasaka Nobushige
+	}
+	1350.1.1={
+		holder=12201907 # Takasaka Ujishige
+	}
+	1351.3.15={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1352.3.12={
+		liege="d_nmih_musashi"
+	}
+	1362.9.1={
+		liege="d_nmih_izu"
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.10.31={
+		holder=10017008 # Uesugi Yoshinori
+	}
+	1378.5.14={
+		holder=10017010 # Uesugi Noriharu
+	}
+	1379.3.25={
+		holder=10017011 # Uesugi Norikata
+	}
+	1394.11.17={
+		holder=10017047 # Uesugi Tomomune
+	}
+	1399.1.1={
+		liege="d_nmih_musashi"
+		holder=10018425 # Ueda Tomonao
+	}
+	1430.1.1={
+		holder=10018426 # Ueda KozukeNoSuke
+	}
+	1460.1.1={
+		liege="d_nmih_musashi"
+		holder=10018427 # Ueda KozukeNoSuke
+	}
+	1490.1.1={
+		holder=10018440 # Nanbata Hiromune
+	}
+	1530.1.1={
+		holder=10018442 # Nanbata Norishige
+	}
+	1537.7.1={
+		holder=10018001 # Uesugi Tomosada
+	}
+	1546.5.19={
+		liege="d_nmih_musashi"
+		holder=10018421 # Ueda Tomonao
+	}
+	1573.1.1={
+		holder=10018422 # Ueda Naganori
+	}
+	1583.4.26={
+		holder=10018423 # Ueda Norisada
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=12400203 # Okochi Hidetsuna
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

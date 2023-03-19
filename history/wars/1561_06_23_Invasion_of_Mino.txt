@@ -1,0 +1,11 @@
+war = {
+	name = "war_1561_invasion_of_mino"
+	start_date = 1561.6.23
+	end_date = 1567.10.1
+	targeted_titles = {
+		d_nmih_mino
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10029120 } # Oda Nobunaga
+	defenders = { 10025470 } # Saito Tatsuoki
+}

@@ -1,0 +1,123 @@
+c_nmih_shima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shima1={
+				set_title_name=b_nmih_shima3
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_shima1={
+				set_title_name=b_nmih_shima5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_shima"
+	}
+	1180.1.1={
+		liege="d_nmih_shima" # Ito Tadakiyo
+		holder=10131576 # Ito Tadakiyo
+	}
+	1185.6.15={
+		holder=10131582 # Ito Tadamitsu
+	}
+	1192.1.1={
+		holder=10131584 # Ito Kagekiyo
+	}
+	1196.1.1={
+		holder=10131588 # Ito [Wakana] Moritaka
+	}
+	1204.5.13={
+		liege="d_nmih_shima"
+		holder=12370013 # Hiraga Tomomasa
+	}
+	1205.9.16={
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.6.6={
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.7.6={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131760 # Hojo [Kanesawa] Sanetoki
+	}
+	1276.11.30={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1331.1.1={
+		holder=10132230 # Hojo [Kanesawa] Sadafuyu
+	}
+	1333.7.4={
+		liege="d_nmih_shima"
+		holder=11003499 # Yoshida Sadafusa
+	}
+	1336.1.1={
+		liege="d_nmih_shima"
+		holder=10125120 # Kitabatake Chikafusa
+	}
+	1354.5.10={
+		holder=10125127 # Kitabatake Akiyoshi
+	}
+	1383.7.1={
+		holder=10026050 # Kitabatake Akiyasu
+	}
+	1402.10.1={
+		holder=10026052 # Kitabatake Mitsumasa
+	}
+	1429.1.25={
+		holder=10026006 # Kitabatake Noritomo
+	}
+	1444.1.1={
+		liege="d_nmih_shima"
+		holder=10028003 # Kuki Takamoto
+	}
+	1490.1.1={
+		holder=10028002 # Kuki Takatsugu
+	}
+	1510.1.1={
+		holder=10028001 # Kuki Yasutaka
+	}
+	1532.1.1={
+		holder=10028000 # Kuki Sadataka
+	}
+	1551.1.1={
+		holder=10028004 # Kuki Kiyotaka
+	}
+	1560.1.1={
+		holder=10026003 # Kitabatake Tomonori
+	}
+	1563.10.4={
+		holder=10026007 # Kitabatake Tomofusa
+	}
+	1569.11.21={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10028005 # Kuki Yoshitaka
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege="d_nmih_shima"
+	}
+	1584.4.13={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1597.1.1={
+		holder=10028006 # Kuki Moritaka
+	}
+}

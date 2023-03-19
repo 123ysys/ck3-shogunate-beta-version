@@ -1,0 +1,158 @@
+c_nmih_azumi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_azumi1={
+				set_title_name=b_nmih_azumi9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_azumi1={
+				set_title_name=b_nmih_azumi9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_azumi1={
+				set_title_name=b_nmih_azumi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	1150.1.1={
+		holder=12388000 # Nishina Morimitsu
+	}
+	1170.1.1={
+		holder=12388010 # Nishina Morihiro
+	}
+	1180.1.1={
+		liege=0
+	}
+	1180.9.27={
+		liege="d_nmih_shinano"
+	}
+	1184.1.3={ # Siege of Hojujidono
+		liege="k_nmih_western_kanto"
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_shinano"
+	}
+	1205.1.1={
+		liege="e_nmih_joko"
+		holder=12388020 # Nishina Morito
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_shinano"
+		holder=12388030 # Nishina Moritada
+	}
+	1290.1.1={
+		holder=12388035 # Nishina Morikuni
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1344.1.1={
+		liege="k_nmih_seito_shogun"
+	}
+	1345.1.1={
+		holder=12388040 # Nishina Morifusa
+	}
+	1374.1.1={
+		liege="d_nmih_shinano"
+	}
+	1401.2.1={
+		liege=0
+	}
+	1410.1.1={
+		holder=12388045 # Nishina Moritoyo
+	}
+	1430.1.1={
+		holder=10021705 # Nishina Mochimori
+	}
+	1460.1.1={
+		liege=0
+		holder=10021704 # Nishina Morinao
+	}
+	1490.1.1={
+		holder=10021703 # Nishina Moriaki
+	}
+	1510.1.1={
+		holder=10021701 # Nishina Morikuni
+	}
+	1532.1.1={
+		holder=10021700 # Nishina Moriyoshi
+	}
+	1550.7.15={
+		liege="d_nmih_kai" # 20010 Takeda Shingen
+	}
+	1556.1.1={
+		holder=10021702 # Nishina Moriyasu
+	}
+	1559.1.1={
+		liege="d_nmih_shinano"
+	}
+	1561.1.1={
+		liege="d_nmih_shinano" # 20010 Takeda Shingen
+		holder=10021706 # Nishina Morimasa
+	}
+	1561.9.1={
+		liege="d_nmih_echigo" # Uesughi Kenshin
+		holder=10021706 # Nishina Morimasa
+	}
+	1561.12.1={
+		liege="d_nmih_shinano" # 20010 Takeda Shingen
+		holder=10020010 # Takeda Shingen
+	}
+	1562.1.1={
+		liege="d_nmih_shinano"
+		holder=10020035 # Nishina (Takeda) Morinobu
+	}
+	1582.3.25={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="k_nmih_chubu" # 29160 Oda Nobutada
+		holder=10021305 # Kiso Yoshimasa
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+		holder=10021407 # Ogasawara Sadatane
+	}
+	1582.8.4={
+		liege="k_nmih_tokai"
+		holder=10021469 # Ogasawara Sadayoshi
+	}
+	1585.12.23={
+		liege="e_nmih_japan"
+	}
+	1590.7.25={
+		holder=10024158 # Ishikawa Kazumasa
+	}
+	1593.1.1={
+		holder=10024165 # Ishikawa Yasunaga
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1613.11.20={
+		liege="d_nmih_southern_shinano"
+		holder=10021470 # Ogasawara Hidemasa
+	}
+	1615.6.3={
+		holder=10021472 # Ogasawara Tadazane
+	}
+}

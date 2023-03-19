@@ -1,0 +1,71 @@
+c_nmih_yonaguni = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yonaguni1={
+				set_title_name=b_nmih_yonaguni1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+
+	0100.1.1={
+	}
+	1180.1.1={
+		holder=10149800 # Dunandagi Nuchi
+		liege=0
+	}
+	1210.1.1={
+		holder=10149791
+	}
+	1250.1.1={
+		holder=10149792
+	}
+	1280.1.1={
+		holder=10149793
+	}
+	1310.1.1={
+		holder=10149794
+	}
+	1320.1.1={
+		holder=10149795
+	}
+	1370.1.1={
+		holder=10149796
+	}
+	1390.1.1={
+		holder=10149797
+	}
+	1420.1.1={
+		holder=10149798
+	}
+	1440.1.1={
+		liege=0
+		holder=10149790 # Otake-Sonaido Gisa
+	}
+	1480.1.1={
+		liege=0
+		holder=10149900 # Sanai Isoba
+	}
+	1500.1.1={
+		holder=10149910 # Unitora
+	}
+	1522.1.1={
+		holder=10149203 # Chirimara 
+		liege="k_nmih_chuzan"
+	}
+	1532.1.12={
+		holder=10140000
+	}
+	1555.7.13={
+		holder=10140027
+	}
+	1572.5.12={
+		holder=10140045
+	}
+	1589.1.11={
+		holder=10140061
+	}
+
+}

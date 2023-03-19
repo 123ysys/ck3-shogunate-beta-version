@@ -1,0 +1,157 @@
+c_nmih_tsuna = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tsuna1={
+				set_title_name=b_nmih_tsuna8
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_tsuna1={
+				set_title_name=b_nmih_tsuna9
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_tsuna1={
+				set_title_name=b_nmih_tsuna1
+			}
+		}
+	}
+	1526.1.1={
+		effect={
+			title:b_nmih_tsuna1={
+				set_title_name=b_nmih_tsuna2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1185.4.25 = { change_development_level = 20 }
+	1526.1.1 = { change_development_level = 20 }
+
+	0100.1.1={
+		liege="d_nmih_awaji"
+	}
+	1179.12.18={
+		liege="d_nmih_awaji"
+		holder=10110050 # Taira Kiyofusa
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_awaji"
+		holder=10120370 # Minamoto Yoshihisa
+	}
+	1183.12.1={
+		liege="d_nmih_awaji"
+		holder=10110111 # Taira Noritsune
+	}
+	1185.3.22={ # Battle of Yashima
+		liege="d_nmih_awaji"
+		holder=12205040 # Yokoyama Tokihiro
+	}
+	1189.1.1={
+		holder=12510061 # Sasaki Tsunetaka
+	}
+	1199.8.25={
+		holder=12205050 # Yokoyama Tokikane
+	}
+	1213.5.24={
+		holder=12510061 # Sasaki Tsunetaka
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_awaji"
+		holder=12135500 # Naganuma Munemasa
+	}
+	1241.1.2={
+		holder=12135501 # Naganuma
+	}
+	1250.1.1={
+		holder=12135505 # Naganuma
+	}
+	1285.1.1={
+		holder=12135510 # Naganuma
+	}
+	1320.1.1={
+		liege="d_nmih_awaji"
+		holder=12135515 # Naganuma Hideyuki
+	}
+	1336.3.1={
+		liege="d_nmih_awaji"
+		holder=10040511 # Hosokawa Morouji
+	}
+	1348.6.20={
+		holder=10040570 # Hosokawa Ujiharu
+	}
+	1350.1.1={
+		liege="d_nmih_awaji"
+		holder=10058507 # Atagi Yorifuji
+	}
+	1370.1.1={
+		holder=10058508 # Atagi Chikatoshi
+	}
+	1400.1.1={
+		holder=10058509 # Atagi Nobutaka
+	}
+	1430.1.1={
+		holder=10058510 # Atagi Yoshikiyo
+	}
+	1450.1.1={
+		holder=10058511 # Atagi Kanetoshi
+	}
+	1460.1.1={
+		holder=10058501 # Atagi Naotoshi
+	}
+	1506.1.1={
+		holder=10058513 # Atagi Haruoki
+	}
+	1545.1.1={
+		holder=10059010 # Atagi(Miyoshi) Fuyuyasu
+	}
+	1564.6.17={
+		liege="d_nmih_awa"
+		holder=10059022 # Atagi Jintaro
+	}
+	1572.1.1={
+		holder=10059023 # Atagi Jingoro
+	}
+	1576.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1581.11.1={
+		liege="d_nmih_harima"
+		holder=10059023 # Atagi Jingoro
+	}
+	1583.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10029670 # Sengoku Hidehisa
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.8.10={
+		holder=10043250 # Wakisaka Yasuharu
+	}
+	1603.3.24={
+		liege="d_nmih_awaji"
+	}
+	1608.6.1={
+		liege="d_nmih_harima"
+		holder=10029554 # Ikeda Terumasa
+	}
+	1613.3.16={
+		liege="d_nmih_harima"
+		holder=10029572 # Ikeda Tadakatsu
+	}
+	1615.3.22={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1615.6.4={
+		liege="d_nmih_awa"
+		holder=10207300 # Inada Tanemoto
+	}
+}

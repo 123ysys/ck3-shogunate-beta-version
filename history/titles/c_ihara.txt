@@ -1,0 +1,154 @@
+c_nmih_ihara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ihara1={
+				set_title_name=b_nmih_ihara1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ihara1={
+				set_title_name=b_nmih_ihara9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_ihara1={
+				set_title_name=b_nmih_ihara1
+			}
+		}
+	}
+	1570.1.1={
+		effect={
+			title:b_nmih_ihara1={
+				set_title_name=b_nmih_ihara2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+	1570.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_suruga"
+	}
+	1045.1.1={
+	    holder=10130042 # Irie Korekiyo
+	}
+	1078.1.1={
+	    holder=10130098 # Irie Kiyosada
+	}
+	1103.1.1={
+	    holder=10130124 # Kanbara Kiyozane
+	}
+	1180.1.1={
+		liege="d_nmih_suruga"
+		holder=10130140 # Kikkawa Tsuneyoshi
+	}
+	1193.6.28={
+		liege="d_nmih_suruga"
+		holder=10056243 # Kikkawa Tomokane
+	}
+	1200.2.7={
+		holder=10056242 # Kikkawa Tomotsune
+	}
+	1221.7.6={
+		liege="d_nmih_izu"
+		holder=12231300 # Ando Tadaie
+	}
+	1260.1.1={
+		holder=12231302 # Ando Shigetsuna
+	}
+	1310.1.1={
+		holder=12231305 # Ando Sadatada
+	}
+	1330.1.1={
+		holder=12231310 # Ando Takasada
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=12231025 # Kano Sadanaga
+	}
+	1338.9.1={
+		liege="k_nmih_seito_shogun"
+	}
+	1351.1.1={
+		liege="k_nmih_western_kanto"
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1352.1.15={
+		liege="d_nmih_suruga"
+		holder=12395214 # Imagawa Norikuni
+	}
+	1353.8.1={
+		holder=12395220 # Imagawa Noriuji
+	}
+	1365.5.21={
+		holder=12395226 # Imagawa Yasunori
+	}
+	1409.11.3={
+		holder=12395230 # Imagawa Norimasa
+	}
+	1433.6.14={
+		holder=12395236 # Imagawa Noritada
+	}
+	1461.1.1={
+		holder=10023000 # Imagawa Yoshitada
+	}
+	1476.3.1={
+		holder=10023003 # Imagawa Ujichika
+	}
+	1526.8.1={
+		holder=10023006 # Imagawa Ujiteru
+	}
+	1536.4.7={
+		holder=10023010 # Imagawa Yoshimoto
+	}
+	1560.6.12={
+		holder=10023017 # Imagawa Ujizane
+	}
+	1568.12.13={
+		liege="d_nmih_kai"
+		holder=10020010 # Takeda Shingen
+	}
+	1569.1.1={
+		holder=10020070 # Yamagata Masakage
+	}
+	1569.5.17={
+		liege="d_nmih_suruga"
+	}
+	1575.6.29={
+		holder=10020033 # Takeda Katsuyori / Battle of Nagashino
+	}
+	1575.7.1={
+		holder=10020056 # Anayama Nobutada
+	}
+	1582.4.3={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1582.04.15={
+		liege="d_nmih_suruga" # 24006 Tokugawa Ieyasu
+	}
+	1582.6.21={
+		holder=10020058 # Anayama Nobuharu
+	}
+	1587.7.12={
+		holder=10024034 # Tokugawa Nobuyoshi
+	}
+	1590.7.25={ 
+		holder=10096802 # Nakamura Kazuhide
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1609.12.27={
+		liege="d_nmih_suruga"
+		holder=10024049 # Tokugawa Yorinobu
+	}
+}

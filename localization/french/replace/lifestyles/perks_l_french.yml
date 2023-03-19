@@ -1,0 +1,29 @@
+﻿l_french:
+ # Intrigue: Seduction
+ home_advantage_perk_name:0 "Ōoku"
+ # Intrigue: Schemer
+ schemer_perk_name:0 "Shinobi"
+ #Learning_name: Theology Tree
+ religious_icon_perk_name:0 "Buddharupa"
+ prophet_perk_name:0 "Prêcheur"
+ church_and_state_perk_name:0 "Sanctuaire et État"
+ radiant_perk_name:0 "Aureola"
+ theologian_perk_name:0 "Onmyoji"
+ #Learning: Scholarship Tree
+ scholarly_circles_perk_name:0 "Copie de sutra "
+ #Stewardship: Vassal & Liege Tree
+ meritocracy_perk_name:0 "Gekokujo"
+ soon_forgiven_perk_name:0 "Dogeza"
+ administrator_perk_name:0 "Bugyo"
+ #Stewardship: Wealth Tree
+ heregeld_perk_name:0 "So Yo Cho"
+ #Diplomacy: Majesty Tree
+ praetorian_guard_perk_name:0 "Garde impériale"
+ #Martial: Strategy Tree
+ bellum_justum_perk_name:0 "La loi du plus fort"
+ parthian_tactics_perk_name:0 "Yabusame"
+ # Martial: Control
+ serve_the_crown_perk_name:0 "Servir l'Empereur"
+ # Martial: Chivalry
+ chivalric_dominance_perk_name:0 "Domination du Bushido"
+ kingsguard_perk_name:0 "Hatamoto"

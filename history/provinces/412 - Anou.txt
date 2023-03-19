@@ -1,0 +1,14 @@
+412 = {
+
+	culture = western_chubu
+	religion = shinto
+	holding = castle_holding
+	800.1.1={
+	}
+	1331.1.1={
+	}
+	1498.9.11={
+	}
+	1569.10.1={
+	}
+}

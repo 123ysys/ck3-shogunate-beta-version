@@ -1,0 +1,157 @@
+c_nmih_shibata = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shibata1={
+				set_title_name=b_nmih_shibata4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shibata1={
+				set_title_name=b_nmih_shibata9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_shibata1={
+				set_title_name=b_nmih_shibata1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12061700 # Natori Hidetsuna
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_kazusa"
+		holder=12211501 # Wada Yoshimori
+	}
+	1213.5.24={
+		liege="d_nmih_boshu"
+		holder=12211040 # Miura Yoshimura
+	}
+	1239.12.31={
+		holder=12211050 # Miura Yasumura
+	}
+	1247.7.8={
+		liege="d_nmih_rikuzen"
+		holder=10131824 # Hojo Tokiyori
+	}
+	1256.12.10={
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1264.7.27={
+		holder=10131671 # Hojo Masamura
+	}
+	1268.4.18={
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1301.9.24={
+		holder=10132156 # Hojo Morotoki
+	}
+	1311.11.13={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1312.7.6={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1315.8.11={
+		holder=10132050 # Hojo [Fuonji] Mototoki
+	}
+	1316.7.28={
+		holder=10132268 # Hojo Takatoki
+	}
+	1326.4.19={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1326.5.26={
+		holder=10132197 # Hojo [Akahashi] Moritoki
+	}
+	1333.6.30={
+		holder=10132229 # Hojo [Kanesawa] Sadayuki
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=10110670 # Hirohashi Tsuneyasu
+	}
+	1337.2.9={
+		liege="d_nmih_oshu_shugo"
+		holder=10029006 # Shiba Ienaga
+	}
+	1338.1.16={
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+		holder=12395015 # Kira Sadaie
+	}
+	1354.1.1={
+		holder=10018306 # Kira Mitsuie
+	}
+	1356.11.1={
+		liege="k_nmih_oshu_tandai"
+		holder=10007405 # Kokubun AwajiNoKami
+	}
+	1370.1.1={
+		holder=10007406 # Kokubun AwajiNoKami
+	}
+	1392.1.1={
+		liege=0
+	}
+	1410.1.1={
+		holder=10007407 # Kokubun AwajiNoKami
+	}
+	1450.1.1={
+		liege=0
+		holder=10007401 # Kokubun Muneharu
+	}
+	1500.1.1={
+		holder=10007402 # Kokubun Hiromasa
+	}
+	1530.1.1={
+		liege="d_nmih_oshu_shugo"
+		holder=10007403 # Kokubun Munemasa
+	}
+	1542.6.1={
+		liege="d_nmih_iwaki" # Tenbun War
+	}
+	1548.9.1={
+		liege="d_nmih_oshu_shugo" # End of Tenbun War
+	}
+	1572.1.1={
+		holder=10007404 # Kokubun Munemoto
+	}
+	1577.1.1={
+		holder=10001024 # Kokubun Morishige
+	}
+	1591.8.12={
+		liege="d_nmih_rikuzen"
+	}
+	1596.1.1={
+		holder=10001023 # Ishikawa Akimitsu
+	}
+	1603.1.1={
+		liege="d_nmih_rikuzen"
+		holder=10001037 # Ishikawa Yoshimune
+	}
+	1611.1.13={
+		holder=10006817 # Ishikawa Munetaka
+	}
+}

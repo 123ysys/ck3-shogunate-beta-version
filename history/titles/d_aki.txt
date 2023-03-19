@@ -1,0 +1,178 @@
+d_nmih_aki = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0771.4.20={
+		holder=10252024 # Sakanoue no Karitamaro
+	}
+	0774.4.20={
+		holder=0
+	}
+	0982.1.30={
+		holder=10127106 # Minamoto no Sukenori
+	}
+	0982.2.26={
+		holder=0
+	}
+	1031.3.8={
+		holder=10120036 # Minamoto no Yorikiyo
+	}
+	1032.1.1={
+		holder=0
+	}
+	1098.3.2={
+		holder=11006330 # Fujiwara no Tsunetada
+	}
+	1106.4.16={
+		holder=0
+	}
+	1111.5.27={
+		holder=11006881 # Fujiwara no Tadamichi
+	}
+	1118.2.10={
+		holder=0
+	}
+	1146.3.15={
+		holder=10110025 # Taira no Kiyomori
+	}
+	1147.2.3={
+		holder=0
+	}
+	1153.4.8={
+		holder=10110025 # Taira no Kiyomori
+	}
+	1156.7.29={
+		holder=0
+	}
+	1156.10.3={
+		holder=10110031 # Taira no Tsunemori
+	}
+	1156.10.8={
+		holder=10110033 # Taira no Yorimori
+	}
+	1158.8.10={
+		holder=0
+	}
+	1179.12.18={
+		liege = "e_nmih_japan"
+		holder=12660401 # Saeki Kagehiro
+	}
+	1183.8.17={
+		liege= "k_nmih_western_chugoku"
+	}
+	1185.3.22={
+		liege="e_nmih_japan"
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1196.1.1={
+		holder=12660700 # So Takachika
+	}
+	1199.2.9={
+		liege=0
+		liege = "e_nmih_japan"
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=12360103 # Takeda Nobumitsu
+	}
+	1235.1.1={
+		holder=12668300 # Fujiwara Chikazane
+	}
+	1252.1.1={
+		holder=12360112 # Takeda Nobumasa
+	}
+	1265.1.6={
+		holder=12360120 # Takeda Nobutoki
+	}
+	1289.3.2={
+		holder=10132022 # Hojo [Nagoe] Munenaga
+	}
+	1309.8.28={
+		holder=12360155 # Takeda Nobumune
+	}
+	1330.12.19={
+		holder=12360160 # Takeda Nobutake
+	}
+	1333.7.4={
+		liege=0
+		liege = "e_nmih_nancho"
+	}
+	1335.8.14={
+		liege = 0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1359.8.7={
+		holder=12360171 # Takeda Ujinobu
+	}
+	1370.1.1={
+		liege="k_nmih_kyushu_tandai"
+		holder=12395221 # Imagawa Sadayo
+	}
+	1392.11.1={
+		liege="e_nmih_japan"
+		holder=10040536 # Hosokawa Yorimoto
+	}
+	1394.10.1={
+		holder=10057612 # Shibukawa Mitsuyori
+	}
+	1404.6.1={
+		holder=10050081 # Yamana Mitsuuji
+	}
+	1406.7.1={
+		holder=10050085 # Yamana Tokihisa
+	}
+	1419.10.1={
+		holder=10050036 # Yamana Tokihiro
+	}
+	1433.10.1={
+		holder=10050039 # Yamana Mochitoyo
+	}
+	1454.11.1={
+		liege="e_nmih_japan"
+		holder=10050044 # Yamana Noritoyo
+	}
+	1462.1.1={
+		holder=10050041 # Yamana Koretoyo
+	}
+	1467.6.27={ # Onin war
+		liege = "e_nmih_japan" # Onin War
+	}
+	1475.11.1={
+		liege=0 #　TODO
+		holder=10050044 # Yamana Masatoyo
+	}
+	1493.5.8={ # Meiou Coup
+		liege=0
+		holder=0
+	}
+	1541.5.1={ # De facto
+		liege="k_nmih_western_chugoku"
+		holder=10056004 # Mori Motonari
+	}
+	1551.9.30={
+		liege= 0
+	}
+	1557.5.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1571.7.6={
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029720
+	}
+}

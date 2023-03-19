@@ -1,0 +1,1008 @@
+﻿bm_extra1568_1 = {
+	start_date = 1568.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_2 = {
+	start_date = 1568.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_3 = {
+	start_date = 1568.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_4 = {
+	start_date = 1568.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_5 = {
+	start_date = 1568.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_6 = {
+	start_date = 1568.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_7 = {
+	start_date = 1568.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_8 = {
+	start_date = 1568.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_9 = {
+	start_date = 1568.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_10 = {
+	start_date = 1568.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_11 = {
+	start_date = 1568.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1568_12 = {
+	start_date = 1568.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_1 = {
+	start_date = 1569.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_2 = {
+	start_date = 1569.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_3 = {
+	start_date = 1569.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_4 = {
+	start_date = 1569.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_5 = {
+	start_date = 1569.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_6 = {
+	start_date = 1569.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_7 = {
+	start_date = 1569.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_8 = {
+	start_date = 1569.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_9 = {
+	start_date = 1569.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_10 = {
+	start_date = 1569.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_11 = {
+	start_date = 1569.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1569_12 = {
+	start_date = 1569.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_1 = {
+	start_date = 1570.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_2 = {
+	start_date = 1570.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_3 = {
+	start_date = 1570.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_4 = {
+	start_date = 1570.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_5 = {
+	start_date = 1570.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_6 = {
+	start_date = 1570.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_7 = {
+	start_date = 1570.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_8 = {
+	start_date = 1570.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_9 = {
+	start_date = 1570.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_10 = {
+	start_date = 1570.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_11 = {
+	start_date = 1570.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1570_12 = {
+	start_date = 1570.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_1 = {
+	start_date = 1571.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_2 = {
+	start_date = 1571.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_3 = {
+	start_date = 1571.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_4 = {
+	start_date = 1571.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_5 = {
+	start_date = 1571.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_6 = {
+	start_date = 1571.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_7 = {
+	start_date = 1571.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_8 = {
+	start_date = 1571.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_9 = {
+	start_date = 1571.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_10 = {
+	start_date = 1571.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_11 = {
+	start_date = 1571.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1571_12 = {
+	start_date = 1571.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_1 = {
+	start_date = 1572.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_2 = {
+	start_date = 1572.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_3 = {
+	start_date = 1572.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_4 = {
+	start_date = 1572.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_5 = {
+	start_date = 1572.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_6 = {
+	start_date = 1572.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_7 = {
+	start_date = 1572.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_8 = {
+	start_date = 1572.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_9 = {
+	start_date = 1572.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_10 = {
+	start_date = 1572.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_11 = {
+	start_date = 1572.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1572_12 = {
+	start_date = 1572.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_1 = {
+	start_date = 1573.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_2 = {
+	start_date = 1573.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_3 = {
+	start_date = 1573.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_4 = {
+	start_date = 1573.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_5 = {
+	start_date = 1573.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_6 = {
+	start_date = 1573.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_7 = {
+	start_date = 1573.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_8 = {
+	start_date = 1573.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_9 = {
+	start_date = 1573.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_10 = {
+	start_date = 1573.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_11 = {
+	start_date = 1573.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1573_12 = {
+	start_date = 1573.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_1 = {
+	start_date = 1574.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_2 = {
+	start_date = 1574.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_3 = {
+	start_date = 1574.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_4 = {
+	start_date = 1574.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_5 = {
+	start_date = 1574.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_6 = {
+	start_date = 1574.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_7 = {
+	start_date = 1574.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_8 = {
+	start_date = 1574.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_9 = {
+	start_date = 1574.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_10 = {
+	start_date = 1574.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_11 = {
+	start_date = 1574.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1574_12 = {
+	start_date = 1574.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_1 = {
+	start_date = 1575.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_2 = {
+	start_date = 1575.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_3 = {
+	start_date = 1575.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_4 = {
+	start_date = 1575.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_5 = {
+	start_date = 1575.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_6 = {
+	start_date = 1575.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_7 = {
+	start_date = 1575.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_8 = {
+	start_date = 1575.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_9 = {
+	start_date = 1575.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_10 = {
+	start_date = 1575.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_11 = {
+	start_date = 1575.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1575_12 = {
+	start_date = 1575.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_1 = {
+	start_date = 1576.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_2 = {
+	start_date = 1576.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_3 = {
+	start_date = 1576.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_4 = {
+	start_date = 1576.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_5 = {
+	start_date = 1576.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_6 = {
+	start_date = 1576.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_7 = {
+	start_date = 1576.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_8 = {
+	start_date = 1576.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_9 = {
+	start_date = 1576.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_10 = {
+	start_date = 1576.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_11 = {
+	start_date = 1576.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1576_12 = {
+	start_date = 1576.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_1 = {
+	start_date = 1577.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_2 = {
+	start_date = 1577.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_3 = {
+	start_date = 1577.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_4 = {
+	start_date = 1577.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_5 = {
+	start_date = 1577.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_6 = {
+	start_date = 1577.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_7 = {
+	start_date = 1577.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_8 = {
+	start_date = 1577.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_9 = {
+	start_date = 1577.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_10 = {
+	start_date = 1577.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_11 = {
+	start_date = 1577.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1577_12 = {
+	start_date = 1577.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_1 = {
+	start_date = 1578.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_2 = {
+	start_date = 1578.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_3 = {
+	start_date = 1578.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_4 = {
+	start_date = 1578.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_5 = {
+	start_date = 1578.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_6 = {
+	start_date = 1578.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_7 = {
+	start_date = 1578.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_8 = {
+	start_date = 1578.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_9 = {
+	start_date = 1578.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_10 = {
+	start_date = 1578.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_11 = {
+	start_date = 1578.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1578_12 = {
+	start_date = 1578.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_1 = {
+	start_date = 1579.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_2 = {
+	start_date = 1579.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_3 = {
+	start_date = 1579.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_4 = {
+	start_date = 1579.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_5 = {
+	start_date = 1579.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_6 = {
+	start_date = 1579.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_7 = {
+	start_date = 1579.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_8 = {
+	start_date = 1579.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_9 = {
+	start_date = 1579.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_10 = {
+	start_date = 1579.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_11 = {
+	start_date = 1579.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1579_12 = {
+	start_date = 1579.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_1 = {
+	start_date = 1580.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_2 = {
+	start_date = 1580.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_3 = {
+	start_date = 1580.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_4 = {
+	start_date = 1580.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_5 = {
+	start_date = 1580.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_6 = {
+	start_date = 1580.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_7 = {
+	start_date = 1580.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_8 = {
+	start_date = 1580.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_9 = {
+	start_date = 1580.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_10 = {
+	start_date = 1580.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_11 = {
+	start_date = 1580.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1580_12 = {
+	start_date = 1580.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_1 = {
+	start_date = 1581.1.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_2 = {
+	start_date = 1581.2.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_3 = {
+	start_date = 1581.3.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_4 = {
+	start_date = 1581.4.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_5 = {
+	start_date = 1581.5.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_6 = {
+	start_date = 1581.6.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_7 = {
+	start_date = 1581.7.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_8 = {
+	start_date = 1581.8.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_9 = {
+	start_date = 1581.9.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_10 = {
+	start_date = 1581.10.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_11 = {
+	start_date = 1581.11.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+
+bm_extra1581_12 = {
+	start_date = 1581.12.1
+	is_playable = yes
+	group = bm_group_oda_government
+}
+

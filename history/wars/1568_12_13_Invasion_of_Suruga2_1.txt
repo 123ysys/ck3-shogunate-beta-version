@@ -1,0 +1,11 @@
+war = {
+	name = "war_1568_invasion_of_suruga"
+	start_date = 1568.12.6
+	end_date = 1568.12.11
+	targeted_titles = {
+		d_nmih_totomi
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10024006 } # Tokugawa Ieyasu
+	defenders = { 10023017 } # Imagawa Ujizane
+}

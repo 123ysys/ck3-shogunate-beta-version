@@ -1,0 +1,121 @@
+c_nmih_asakuchi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_asakuchi1={
+				set_title_name=b_nmih_asakuchi6
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_asakuchi1={
+				set_title_name=b_nmih_asakuchi6
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_asakuchi1={
+				set_title_name=b_nmih_asakuchi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1185.4.25 = { change_development_level = 20 }
+	1556.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_bitchu"
+		holder=12630601 # Suyama Takamitsu
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_bitchu"
+		holder=12208031 # Sho Ietsugu
+	}
+	1191.12.13={
+		liege="d_nmih_musashi"
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_bitchu"
+		holder=12208031 # Sho Ietsugu
+	}
+	1255.1.1={
+		holder=12208033 # Sho Tomotsugu
+	}
+	1260.1.1={
+		holder=12208034 # Sho Tokitsugu
+	}
+	1290.1.1={
+		holder=12208035 # Sho Aritsugu
+	}
+	1310.1.1={
+		holder=12208036 # Sho Sukefusa
+	}
+	1333.6.20={
+		holder=12208037 # Sho Sukeuji
+	}
+	1333.7.4={
+		liege="d_nmih_bitchu"
+	}
+	1335.8.14={
+		liege="d_nmih_bizen"
+	}
+	1336.3.24={
+		liege="d_nmih_bitchu"
+	}
+	1350.1.1={
+		holder=12208038 # Sho Sukemasa
+	}
+	1380.1.1={
+		liege="d_nmih_bitchu"
+		holder=12208039 # Sho Sukeaki
+	}
+	1430.1.1={
+		holder=12208040 # Sho Ujisada
+	}
+	1450.1.1={
+		holder=10054803 # Sho Ujitaka
+	}
+	1460.1.1={
+		holder=10054800 # Sho Motosuke
+	}
+	1491.10.1={
+		liege=0
+	}
+	1502.7.1={
+		holder=10054801 # Sho Tamesuke
+	}
+	1540.1.1={
+		liege="k_nmih_sanin"
+	}
+	1553.2.15={
+		holder=10054804 # Sho Takasuke
+	}
+	1561.3.1={
+		liege=0
+	}
+	1568.1.1={
+		liege="d_nmih_bizen"
+	}
+	1571.2.1={
+		liege="d_nmih_bingo"
+		holder=10056018 # Mori(Hoida) Motokiyo
+	}
+	1597.8.21={
+		liege="k_nmih_western_chugoku"
+		holder=10056030 # Mori Hidemoto
+	}
+	1601.1.1={
+		liege="d_nmih_bizen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		liege="e_nmih_japan"
+		holder=10055286 # Hanabusa Masanari
+	}
+}

@@ -1,0 +1,4 @@
+﻿l_german:
+ LV_HEADER:0 "Ashigaru"
+ LV_FLAVOR:1 "Ashigaru bestehen aus Bauernmilizen, Raufbolden, örtlichen Mietklingen und verarmten Adligen, die mit zusammengewürfelten Werkzeugen und behelfsmäßigen Waffen ausgestattet sind. Ob ihrer schieren Zahl machen sie den Großteil der meisten Armeen aus."
+ LV_NO_COUNTERS:0 "Ashigaru [Concept('counter', 'Kontern')|E] andere Arten nie"

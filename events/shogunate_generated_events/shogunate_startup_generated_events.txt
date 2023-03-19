@@ -1,0 +1,3134 @@
+﻿namespace = shogunate_startup
+
+# Historical Effects For Dead Characters (on game start)
+shogunate_startup.1000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		if = {
+			limit = { exists = character:12015015 game_start_date >= 1479.1.1 }
+			character:12015015 = {
+				set_father = character:12015014
+				set_real_father = character:12015009
+			}
+		}
+
+		if = {
+			limit = { exists = character:12130047 game_start_date >= 1330.1.1 }
+			character:12130047 = {
+				set_father = character:12130530
+				set_real_father = character:12130045
+			}
+		}
+
+		if = {
+			limit = { exists = character:12130051 game_start_date >= 1330.1.1 }
+			character:12130051 = {
+				set_father = character:12130154
+				set_real_father = character:12130045
+			}
+		}
+
+		if = {
+			limit = { exists = character:12130080 game_start_date >= 1346.1.1 }
+			character:12130080 = {
+				set_father = character:12130051
+				set_real_father = character:12130050
+			}
+		}
+
+		if = {
+			limit = { exists = character:12130530 game_start_date >= 1345.1.1 }
+			character:12130530 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12130530_1 } # Zenka
+			}
+		}
+
+		if = {
+			limit = { exists = character:12185030 game_start_date >= 1294.1.1 }
+			character:12185030 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12185030_1 } # Tomokane
+			}
+		}
+
+		if = {
+			limit = { exists = character:12204341 game_start_date >= 1170.1.1 }
+			character:12204341 = {
+				set_father = character:12204334
+			}
+		}
+
+		if = {
+			limit = { exists = character:12207027 game_start_date >= 1193.1.1 }
+			character:12207027 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12207027_1 } # Rensho
+			}
+		}
+
+		if = {
+			limit = { exists = character:12211430 game_start_date >= 1320.1.1 }
+			character:12211430 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12211430_1 } # Sadatsura
+			}
+		}
+
+		if = {
+			limit = { exists = character:12211460 game_start_date >= 1490.1.1 }
+			character:12211460 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12211460_1 } # Tsurasada
+			}
+		}
+
+		if = {
+			limit = { exists = character:12215200 game_start_date >= 1120.1.1 }
+			character:12215200 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12215200_1 } # Kagemune
+			}
+		}
+
+		if = {
+			limit = { exists = character:12215435 game_start_date >= 1400.1.1 }
+			character:12215435 = {
+				set_father = character:12215445
+				set_real_father = character:12215420
+			}
+		}
+
+		if = {
+			limit = { exists = character:12215500 game_start_date >= 1183.1.1 }
+			character:12215500 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12215500_1 } # Tsunetaka
+			}
+		}
+
+		if = {
+			limit = { exists = character:12220220 game_start_date >= 1310.1.1 }
+			character:12220220 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12220220_1 } # Tona
+			}
+		}
+
+		if = {
+			limit = { exists = character:12220371 game_start_date >= 1320.2.1 }
+			character:12220371 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12220371_1 } # Doun
+			}
+		}
+
+		if = {
+			limit = { exists = character:12331000 game_start_date >= 1408.1.1 }
+			character:12331000 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12331000_1 } # Shukaku
+			}
+		}
+
+		if = {
+			limit = { exists = character:12361086 game_start_date >= 1518.1.1 }
+			character:12361086 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12361086_1 } # Genshin
+			}
+		}
+
+		if = {
+			limit = { exists = character:12380345 game_start_date >= 1333.1.1 }
+			character:12380345 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12380345_1 } # Yukiyasu
+			}
+		}
+
+		if = {
+			limit = { exists = character:12386270 game_start_date >= 1611.1.1 }
+			character:12386270 = {
+				set_father = character:10016042
+				set_real_father = character:12386265
+			}
+		}
+
+		if = {
+			limit = { exists = character:12395221 game_start_date >= 1367.12.29 }
+			character:12395221 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12395221_1 } # Ryoshun
+			}
+		}
+
+		if = {
+			limit = { exists = character:12395278 game_start_date >= 1465.1.1 }
+			character:12395278 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12395278_1 } # Kazuhide
+			}
+		}
+
+		if = {
+			limit = { exists = character:12395278 game_start_date >= 1490.1.1 }
+			character:12395278 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12395278_2 } # Isshu
+			}
+		}
+
+		if = {
+			limit = { exists = character:12400207 game_start_date >= 1601.1.1 }
+			character:12400207 = {
+				set_father = character:12400205
+				set_real_father = character:12400204
+			}
+		}
+
+		if = {
+			limit = { exists = character:12422400 game_start_date >= 1221.1.1 }
+			character:12422400 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12422400_1 } # Daishogun
+			}
+		}
+
+		if = {
+			limit = { exists = character:12602054 game_start_date >= 1497.1.1 }
+			character:12602054 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12602054_1 } # Tamechika
+			}
+		}
+
+		if = {
+			limit = { exists = character:12691051 game_start_date >= 1249.1.1 }
+			character:12691051 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12691051_1 } # Chishin
+			}
+		}
+
+		if = {
+			limit = { exists = character:12691051 game_start_date >= 1289.9.9 }
+			character:12691051 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12691051_2 } # Ippen
+			}
+		}
+
+		if = {
+			limit = { exists = character:12691060 game_start_date >= 1270.1.1 }
+			character:12691060 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12691060_1 } # Shokai
+			}
+		}
+
+		if = {
+			limit = { exists = character:12800310 game_start_date >= 1359.8.29 }
+			character:12800310 = {
+				set_father = character:12800301
+				set_real_father = character:10066032
+			}
+		}
+
+		if = {
+			limit = { exists = character:12810720 game_start_date >= 1223.1.1 }
+			character:12810720 = {
+				shogunate_change_first_name_effect = { NAME = character_name_12810720_1 } # Nobutsuna
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040010 game_start_date >= 1443.1.1 }
+			character:10040010 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040010_1 } # Gijin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040010 game_start_date >= 1464.11.25 }
+			character:10040010 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040010_2 } # Yoshimi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040011 game_start_date >= 1498.1.1 }
+			character:10040011 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040011_1 } # Yoshitada
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040011 game_start_date >= 1513.1.1 }
+			character:10040011 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040011_2 } # Yoshitane
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040012 game_start_date >= 1490.1.1 }
+			character:10040012 = {
+				set_father = character:10040008
+				set_real_father = character:10040037
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040036 game_start_date >= 1333.1.1 }
+			character:10040036 = {
+				set_father = character:12139029
+				set_real_father = character:12139028
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040040 game_start_date >= 1554.2.12 }
+			character:10040040 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040040_1 } # Yoshiteru
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040203 game_start_date >= 1540.1.1 }
+			character:10040203 = {
+				set_father = character:10040520
+				set_real_father = character:10040521
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040400 game_start_date >= 1448.6.13 }
+			character:10040400 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040400_1 } # Chiun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040501 game_start_date >= 1503.1.1 }
+			character:10040501 = {
+				set_father = character:10040544
+				set_real_father = character:10040529
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040516 game_start_date >= 1430.1.1 }
+			character:10040516 = {
+				set_father = character:10040515
+				set_real_father = character:10040514
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040517 game_start_date >= 1480.1.1 }
+			character:10040517 = {
+				set_father = character:10040540
+				set_real_father = character:10040516
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040525 game_start_date >= 1400.1.1 }
+			character:10040525 = {
+				set_father = character:10040524
+				set_real_father = character:10040559
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040528 game_start_date >= 1440.1.1 }
+			character:10040528 = {
+				set_father = character:10040526
+				set_real_father = character:10040527
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040536 game_start_date >= 1370.1.1 }
+			character:10040536 = {
+				set_father = character:10040535
+				set_real_father = character:10040510
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040548 game_start_date >= 1448.1.1 }
+			character:10040548 = {
+				set_father = character:10040542
+				set_real_father = character:10040546
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040551 game_start_date >= 1500.1.1 }
+			character:10040551 = {
+				set_father = character:10040550
+				set_real_father = character:10040557
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040554 game_start_date >= 1524.1.1 }
+			character:10040554 = {
+				set_father = character:10040566
+				set_real_father = character:10040551
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040555 game_start_date >= 1460.1.1 }
+			character:10040555 = {
+				set_father = character:10040563
+				set_real_father = character:10040547
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040565 game_start_date >= 1530.1.1 }
+			character:10040565 = {
+				set_father = character:10040564
+				set_real_father = character:10040555
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040566 game_start_date >= 1500.1.1 }
+			character:10040566 = {
+				set_father = character:10040544
+				set_real_father = character:10040555
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040567 game_start_date >= 1491.2.13 }
+			character:10040567 = {
+				set_father = character:10040544
+				set_real_father = character:11000798
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040569 game_start_date >= 1545.1.1 }
+			character:10040569 = {
+				set_father = character:10040565
+				set_real_father = character:10040564
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042200 game_start_date >= 1525.2.23 }
+			character:10042200 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042200_1 } # Shonyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042201 game_start_date >= 1431.1.1 }
+			character:10042201 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042201_1 } # Rennyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042202 game_start_date >= 1459.1.1 }
+			character:10042202 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042202_1 } # Junnyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042203 game_start_date >= 1475.1.1 }
+			character:10042203 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042203_1 } # Jitsunyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042204 game_start_date >= 1481.1.1 }
+			character:10042204 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042204_1 } # Renjun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042205 game_start_date >= 1467.1.1 }
+			character:10042205 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042205_1 } # Renko
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042206 game_start_date >= 1485.1.1 }
+			character:10042206 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042206_1 } # Rengo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042207 game_start_date >= 1472.1.1 }
+			character:10042207 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042207_1 } # Rensei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042209 game_start_date >= 1501.1.1 }
+			character:10042209 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042209_1 } # Ennyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042210 game_start_date >= 1554.9.9 }
+			character:10042210 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042210_1 } # Kennyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042211 game_start_date >= 1592.12.27 }
+			character:10042211 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042211_1 } # Kyonyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042212 game_start_date >= 1593.11.9 }
+			character:10042212 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042212_1 } # Junnyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042213 game_start_date >= 1568.1.1 }
+			character:10042213 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042213_1 } # Kenson
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042276 game_start_date >= 1614.11.6 }
+			character:10042276 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042276_1 } # Sennyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042214 game_start_date >= 1462.1.1 }
+			character:10042214 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042214_1 } # Renjo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042220 game_start_date >= 1436.1.1 }
+			character:10042220 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042220_1 } # Zonnyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042221 game_start_date >= 1393.1.1 }
+			character:10042221 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042221_1 } # Gyonyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042222 game_start_date >= 1384.1.1 }
+			character:10042222 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042222_1 } # Shakunyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042223 game_start_date >= 1350.1.1 }
+			character:10042223 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042223_1 } # Zennyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042224 game_start_date >= 1320.1.1 }
+			character:10042224 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042224_1 } # Jukaku
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042225 game_start_date >= 1320.1.1 }
+			character:10042225 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042225_1 } # Zonkaku
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042226 game_start_date >= 1321.1.1 }
+			character:10042226 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042226_1 } # Kakunyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042227 game_start_date >= 1220.1.1 }
+			character:10042227 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042227_1 } # Inshin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042382 game_start_date >= 1562.1.1 }
+			character:10042382 = {
+				set_father = character:10042387
+				set_real_father = character:10042381
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042830 game_start_date >= 1533.1.1 }
+			character:10042830 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042830_1 } # Joo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042833 game_start_date >= 1575.1.1 }
+			character:10042833 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042833_1 } # Soga
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042881 game_start_date >= 1550.1.1 }
+			character:10042881 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042881_1 } # Sokyu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042882 game_start_date >= 1580.1.1 }
+			character:10042882 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042882_1 } # Sokun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10044203 game_start_date >= 1326.3.13 }
+			character:10044203 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10044203_1 } # Doyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10045910 game_start_date >= 1496.1.1 }
+			character:10045910 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10045910_1 } # Kenbo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10045911 game_start_date >= 1540.1.1 }
+			character:10045911 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10045911_1 } # Kenbo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10045912 game_start_date >= 1570.1.1 }
+			character:10045912 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10045912_1 } # Kenbo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10045913 game_start_date >= 1590.1.1 }
+			character:10045913 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10045913_1 } # Kenbo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064002 game_start_date >= 1562.1.1 }
+			character:10064002 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064002_1 } # Sorin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064003 game_start_date >= 1551.9.30 }
+			character:10064003 = {
+				set_father = character:10057002
+				set_real_father = character:10064000
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064003 game_start_date >= 1553.1.1 }
+			character:10064003 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064003_1 } # Yoshinaga
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064025 game_start_date >= 1588.2.1 }
+			character:10064025 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064025_1 } # Yoshimune
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064026 game_start_date >= 1580.10.1 }
+			character:10064026 = {
+				set_father = character:10067111
+				set_real_father = character:10064002
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064035 game_start_date >= 1581.1.1 }
+			character:10064035 = {
+				set_father = character:10064444
+				set_real_father = character:10064002
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064440 game_start_date >= 1470.1.1 }
+			character:10064440 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064440_1 } # Soshin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064444 game_start_date >= 1555.1.1 }
+			character:10064444 = {
+				set_father = character:10064401
+				set_real_father = character:10064441
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064515 game_start_date >= 1565.1.1 }
+			character:10064515 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064515_1 } # Muneyasu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064524 game_start_date >= 1582.1.1 }
+			character:10064524 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064524_1 } # Ouyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064532 game_start_date >= 1313.1.1 }
+			character:10064532 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064532_1 } # Ninsei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064809 game_start_date >= 1535.1.1 }
+			character:10064809 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064809_1 } # Nichiei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064810 game_start_date >= 1560.1.1 }
+			character:10064810 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064810_1 } # Yasutane
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064811 game_start_date >= 1586.11.15 }
+			character:10064811 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064811_1 } # Ujisuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064818 game_start_date >= 1545.1.1 }
+			character:10064818 = {
+				set_father = character:10064800
+				set_real_father = character:10064166
+				shogunate_change_first_name_effect = { NAME = character_name_10064818_1 } # Akitane
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064822 game_start_date >= 1569.1.1 }
+			character:10064822 = {
+				set_father = character:10064818
+				set_real_father = character:10064462
+				shogunate_change_first_name_effect = { NAME = character_name_10064822_1 } # Shigetane
+			}
+		}
+
+		if = {
+			limit = { exists = character:10064822 game_start_date >= 1578.1.1 }
+			character:10064822 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10064822_2 } # Joun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10066000 game_start_date >= 1520.1.1 }
+			character:10066000 = {
+				set_father = character:10066001
+				set_real_father = character:10064001
+			}
+		}
+
+		if = {
+			limit = { exists = character:10066002 game_start_date >= 1548.1.1 }
+			character:10066002 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10066002_1 } # Takaaki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10066203 game_start_date >= 1507.1.1 }
+			character:10066203 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10066203_1 } # Taketsune
+			}
+		}
+
+		if = {
+			limit = { exists = character:10066203 game_start_date >= 1513.1.1 }
+			character:10066203 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10066203_2 } # Korenaga
+			}
+		}
+
+		if = {
+			limit = { exists = character:10066331 game_start_date >= 1333.1.1 }
+			character:10066331 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10066331_1 } # Nagatoshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10066400 game_start_date >= 1546.1.4 }
+			character:10066400 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10066400_1 } # Yoshishige
+			}
+		}
+
+		if = {
+			limit = { exists = character:10066404 game_start_date >= 1546.1.4 }
+			character:10066404 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10066404_1 } # Haruhiro
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025103 game_start_date >= 1562.2.11 }
+			character:10025103 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10025103_1 } # Tsuguyori
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025109 game_start_date >= 1562.2.11 }
+			character:10025109 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10025109_1 } # Yoritsuna
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025324 game_start_date >= 1456.1.1 }
+			character:10025324 = {
+				set_father = character:10025322
+				set_real_father = character:10049518
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025411 game_start_date >= 1565.10.2 }
+			character:10025411 = {
+				set_father = character:10029120
+				set_real_father = character:10025407
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025451 game_start_date >= 1530.1.1 }
+			character:10025451 = {
+				set_father = character:10025504
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025451 game_start_date >= 1538.1.1 }
+			character:10025451 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10025451_1 } # Toshimasa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025451 game_start_date >= 1554.1.1 }
+			character:10025451 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10025451_2 } # Dosan
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025502 game_start_date >= 1558.1.1 }
+			character:10025502 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10025502_1 } # Yoshitatsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025603 game_start_date >= 1470.1.1 }
+			character:10025603 = {
+				set_father = character:10025606
+				set_real_father = character:10025608
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025701 game_start_date >= 1570.1.1 }
+			character:10025701 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10025701_1 } # Ittetsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10025753 game_start_date >= 1567.1.1 }
+			character:10025753 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10025753_1 } # Bokuzen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10026004 game_start_date >= 1540.1.1 }
+			character:10026004 = {
+				set_father = character:10026105
+				set_real_father = character:10026000
+			}
+		}
+
+		if = {
+			limit = { exists = character:10026008 game_start_date >= 1558.1.1 }
+			character:10026008 = {
+				set_father = character:10026503
+				set_real_father = character:10026003
+			}
+		}
+
+		if = {
+			limit = { exists = character:10026120 game_start_date >= 1450.1.2 }
+			character:10026120 = {
+				set_father = character:10026053
+				set_real_father = character:10026006
+			}
+		}
+
+		if = {
+			limit = { exists = character:10026121 game_start_date >= 1495.1.1 }
+			character:10026121 = {
+				set_father = character:10026120
+				set_real_father = character:10026005
+			}
+		}
+
+		if = {
+			limit = { exists = character:10026122 game_start_date >= 1526.1.1 }
+			character:10026122 = {
+				set_father = character:10026121
+				set_real_father = character:10026005
+			}
+		}
+
+		if = {
+			limit = { exists = character:10026141 game_start_date >= 1526.1.1 }
+			character:10026141 = {
+				set_father = character:10026140
+				set_real_father = character:10026001
+			}
+		}
+
+		if = {
+			limit = { exists = character:10027300 game_start_date >= 1530.1.1 }
+			character:10027300 = {
+				set_father = character:10027301
+				set_real_father = character:10044001
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029111 game_start_date >= 1480.1.1 }
+			character:10029111 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029111_1 } # Takenaga
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029163 game_start_date >= 1580.1.1 }
+			character:10029163 = {
+				set_father = character:10029400
+				set_real_father = character:10029120
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029315 game_start_date >= 1583.1.1 }
+			character:10029315 = {
+				set_father = character:10029401
+				set_real_father = character:10029310
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029315 game_start_date >= 1588.1.1 }
+			character:10029315 = {
+				set_father = character:10043302
+				set_real_father = character:10029310
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029388 game_start_date >= 1589.1.1 }
+			character:10029388 = {
+				set_father = character:10029802
+				set_real_father = character:10029360
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029349 game_start_date >= 1560.1.1 }
+			character:10029349 = {
+				set_father = character:10029361
+				set_real_father = character:10029335
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029400 game_start_date >= 1554.1.1 }
+			character:10029400 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029400_1 } # Hideyoshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029401 game_start_date >= 1560.1.1 }
+			character:10029401 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029401_1 } # Hidenaga
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029411 game_start_date >= 1582.1.1 }
+			character:10029411 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029411_1 } # Nobuyoshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029411 game_start_date >= 1585.7.27 }
+			character:10029411 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029411_2 } # Hidetsugu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029411 game_start_date >= 1591.9.22 }
+			character:10029411 = {
+				set_father = character:10029400
+				set_real_father = character:10029410
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029413 game_start_date >= 1591.1.1 }
+			character:10029413 = {
+				set_father = character:10029401
+				set_real_father = character:10029410
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029439 game_start_date >= 1599.1.1 }
+			character:10029439 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029439_1 } # Nagamasa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029466 game_start_date >= 1585.1.1 }
+			character:10029466 = {
+				set_father = character:10029400
+				set_real_father = character:10029459
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029466 game_start_date >= 1594.1.1 }
+			character:10029466 = {
+				set_father = character:10056016
+				set_real_father = character:10029459
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029466 game_start_date >= 1599.1.1 }
+			character:10029466 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029466_1 } # Hideaki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10029711 game_start_date >= 1606.1.1 }
+			character:10029711 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10029711_1 } # Tadamasa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10000551 game_start_date >= 1583.1.1 }
+			character:10000551 = {
+				set_father = character:10000550
+			}
+		}
+
+		if = {
+			limit = { exists = character:10000552 game_start_date >= 1586.1.1 }
+			character:10000552 = {
+				set_father = character:10000551
+			}
+		}
+
+		if = {
+			limit = { exists = character:10000701 game_start_date >= 1522.1.2 }
+			character:10000701 = {
+				set_father = character:12015019
+				set_real_father = character:12015023
+			}
+		}
+
+		if = {
+			limit = { exists = character:10000729 game_start_date >= 1622.9.16 }
+			character:10000729 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10000729_1 } # Yoshitoshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10010816 game_start_date >= 1407.10.22 }
+			character:10010816 = {
+				set_father = character:10010821
+				set_real_father = character:10017016
+				shogunate_change_first_name_effect = { NAME = character_name_10010816_1 } # Yoshihito
+			}
+		}
+
+		if = {
+			limit = { exists = character:10010849 game_start_date >= 1608.1.1 }
+			character:10010849 = {
+				set_father = character:10001024
+				set_real_father = character:10010846
+			}
+		}
+
+		if = {
+			limit = { exists = character:10010214 game_start_date >= 1397.1.2 }
+			character:10010214 = {
+				set_father = character:10011209
+				set_real_father = character:10010213
+			}
+		}
+
+		if = {
+			limit = { exists = character:10006767 game_start_date >= 1566.2.17 }
+			character:10006767 = {
+				set_father = character:10006751
+				set_real_father = character:10006751
+			}
+		}
+
+		if = {
+			limit = { exists = character:10010902 game_start_date >= 1463.1.1 }
+			character:10010902 = {
+				set_father = character:10010910
+				set_real_father = character:10012001
+			}
+		}
+
+		if = {
+			limit = { exists = character:10011017 game_start_date >= 1500.1.1 }
+			character:10011017 = {
+				set_father = character:10011016
+				set_real_father = character:10007104
+			}
+		}
+
+		if = {
+			limit = { exists = character:10011201 game_start_date >= 1534.1.1 }
+			character:10011201 = {
+				set_father = character:10011205
+				set_real_father = character:10010203
+			}
+		}
+
+		if = {
+			limit = { exists = character:10011204 game_start_date >= 1559.9.3 }
+			character:10011204 = {
+				set_father = character:10010201
+				set_real_father = character:10011201
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040060 game_start_date >= 1467.1.1 }
+			character:10040060 = {
+				set_father = character:10017024
+				set_real_father = character:10040059
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040079 game_start_date >= 1439.1.1 }
+			character:10040079 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040079_1 } # Seijun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10040079 game_start_date >= 1455.1.15 }
+			character:10040079 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10040079_2 } # Yoshiuji
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000137 game_start_date >= 1087.1.1 }
+			character:11000137 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000137_1 } # Zochi
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000139 game_start_date >= 1089.1.1 }
+			character:11000139 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000139_1 } # Nincho
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000302 game_start_date >= 1543.2.1 }
+			character:11000302 = {
+				set_father = character:10125247
+				set_real_father = character:11000292
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000303 game_start_date >= 1540.1.1 }
+			character:11000303 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000303_1 } # Harutsugu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000303 game_start_date >= 1554.1.1 }
+			character:11000303 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000303_2 } # Sakihisa
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000303 game_start_date >= 1555.2.14 }
+			character:11000303 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000303_3 } # Sakitsugu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000313 game_start_date >= 1577.1.1 }
+			character:11000313 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000313_1 } # Nobumoto
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000313 game_start_date >= 1597.2.17 }
+			character:11000313 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000313_2 } # Nobutada
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000316 game_start_date >= 1599.6.24 }
+			character:11000316 = {
+				set_father = character:11000313
+				set_real_father = character:10041098
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000317 game_start_date >= 1408.1.1 }
+			character:11000317 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000317_1 } # Tadatsugu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000436 game_start_date >= 1492.1.1 }
+			character:11000436 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000436_1 } # Kanesuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000436 game_start_date >= 1493.4.11 }
+			character:11000436 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000436_2 } # Kaneatsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000475 game_start_date >= 1214.1.1 }
+			character:11000475 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000475_1 } # Shoki
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000732 game_start_date >= 1341.1.1 }
+			character:11000732 = {
+				set_father = character:11000722
+				set_real_father = character:11000696
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000751 game_start_date >= 1367.1.1 }
+			character:11000751 = {
+				set_father = character:11000723
+				set_real_father = character:11000725
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000768 game_start_date >= 1398.1.1 }
+			character:11000768 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000768_1 } # Michimoto
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000772 game_start_date >= 1408.4.1 }
+			character:11000772 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000772_1 } # Tsunesuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000835 game_start_date >= 1542.2.4 }
+			character:11000835 = {
+				set_father = character:11007310
+				set_real_father = character:11000813
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000847 game_start_date >= 1579.1.1 }
+			character:11000847 = {
+				set_father = character:11000437
+				set_real_father = character:11000837
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000849 game_start_date >= 1631.10.21 }
+			character:11000849 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000849_1 } # Yukiie
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000852 game_start_date >= 1613.1.1 }
+			character:11000852 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11000852_1 } # Yasumichi
+			}
+		}
+
+		if = {
+			limit = { exists = character:11000389 game_start_date >= 1609.1.1 }
+			character:11000389 = {
+				set_father = character:11000842
+				set_real_father = character:10041098
+			}
+		}
+
+		if = {
+			limit = { exists = character:11001309 game_start_date >= 1573.1.1 }
+			character:11001309 = {
+				set_father = character:11000835
+				set_real_father = character:11001302
+			}
+		}
+
+		if = {
+			limit = { exists = character:11001474 game_start_date >= 1462.1.1 }
+			character:11001474 = {
+				set_father = character:11007396
+				set_real_father = character:11001469
+			}
+		}
+
+		if = {
+			limit = { exists = character:11001653 game_start_date >= 1591.1.1 }
+			character:11001653 = {
+				set_father = character:11007743
+				set_real_father = character:11001650
+			}
+		}
+
+		if = {
+			limit = { exists = character:11001737 game_start_date >= 1556.1.1 }
+			character:11001737 = {
+				set_father = character:11007627
+				set_real_father = character:11001735
+			}
+		}
+
+		if = {
+			limit = { exists = character:11001743 game_start_date >= 1535.1.1 }
+			character:11001743 = {
+				set_father = character:11007550
+				set_real_father = character:11001741
+			}
+		}
+
+		if = {
+			limit = { exists = character:11003111 game_start_date >= 1161.1.1 }
+			character:11003111 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11003111_1 } # Goen
+			}
+		}
+
+		if = {
+			limit = { exists = character:11003398 game_start_date >= 1156.1.1 }
+			character:11003398 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11003398_1 } # Kogen
+			}
+		}
+
+		if = {
+			limit = { exists = character:11003470 game_start_date >= 1503.10.9 }
+			character:11003470 = {
+				set_father = character:11007623
+				set_real_father = character:11003467
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007551 game_start_date >= 1606.4.28 }
+			character:11007551 = {
+				set_father = character:11001653
+				set_real_father = character:11001651
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007552 game_start_date >= 1611.9.8 }
+			character:11007552 = {
+				set_father = character:11001653
+				set_real_father = character:11001651
+			}
+		}
+
+		if = {
+			limit = { exists = character:11005934 game_start_date >= 1511.10.7 }
+			character:11005934 = {
+				set_father = character:11007822
+				set_real_father = character:11005930
+			}
+		}
+
+		if = {
+			limit = { exists = character:11005960 game_start_date >= 1573.9.1 }
+			character:11005960 = {
+				set_father = character:11005952
+				set_real_father = character:11007737
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007743 game_start_date >= 1576.1.1 }
+			character:11007743 = {
+				set_father = character:11001743
+				set_real_father = character:11007740
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007752 game_start_date >= 1398.1.1 }
+			character:11007752 = {
+				set_father = character:11007751
+				set_real_father = character:11001622
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007754 game_start_date >= 1458.12.1 }
+			character:11007754 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007754_1 } # Kinnobu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007754 game_start_date >= 1469.1.1 }
+			character:11007754 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007754_2 } # Sanetaka
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007759 game_start_date >= 1544.6.2 }
+			character:11007759 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007759_1 } # Sanezumi
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007759 game_start_date >= 1574.12.24 }
+			character:11007759 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007759_2 } # Saneki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10130168 game_start_date >= 1140.1.1 }
+			character:10130168 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10130168_1 } # Saigyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10130173 game_start_date >= 1166.1.1 }
+			character:10130173 = {
+				set_father = character:10130204
+				set_real_father = character:10130169
+			}
+		}
+
+		if = {
+			limit = { exists = character:10130199 game_start_date >= 1121.1.1 }
+			character:10130199 = {
+				set_father = character:10130864
+				set_real_father = character:10130164
+			}
+		}
+
+		if = {
+			limit = { exists = character:11003600 game_start_date >= 0975.1.1 }
+			character:11003600 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11003600_1 } # Keimyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:11003980 game_start_date >= 1260.1.1 }
+			character:11003980 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11003980_1 } # Kakue
+			}
+		}
+
+		if = {
+			limit = { exists = character:11003985 game_start_date >= 1181.1.1 }
+			character:11003985 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11003985_1 } # Shinran
+			}
+		}
+
+		if = {
+			limit = { exists = character:11004315 game_start_date >= 1489.1.1 }
+			character:11004315 = {
+				set_father = character:11004460
+				set_real_father = character:11004297
+			}
+		}
+
+		if = {
+			limit = { exists = character:11004324 game_start_date >= 1496.1.1 }
+			character:11004324 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11004324_1 } # Takamitsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11004324 game_start_date >= 1502.7.1 }
+			character:11004324 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11004324_2 } # Sumimitsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11004324 game_start_date >= 1509.1.1 }
+			character:11004324 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11004324_3 } # Uchimitsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11004334 game_start_date >= 1559.4.23 }
+			character:11004334 = {
+				set_father = character:11004325
+				set_real_father = character:11004439
+			}
+		}
+
+		if = {
+			limit = { exists = character:11004334 game_start_date >= 1559.4.23 }
+			character:11004334 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11004334_1 } # Terusuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007200 game_start_date >= 1551.9.30 }
+			character:11007200 = {
+				set_father = character:11001481
+				set_real_father = character:11001645
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007201 game_start_date >= 1562.1.1 }
+			character:11007201 = {
+				set_father = character:11001481
+				set_real_father = character:11007759
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007202 game_start_date >= 1581.3.11 }
+			character:11007202 = {
+				set_father = character:11007201
+				set_real_father = character:11007763
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007202 game_start_date >= 1599.6.1 }
+			character:11007202 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007202_1 } # Kinhiro
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007277 game_start_date >= 1495.1.1 }
+			character:11007277 = {
+				set_father = character:11004314
+				set_real_father = character:11007270
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007277 game_start_date >= 1502.7.1 }
+			character:11007277 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007277_1 } # Sumimitsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007277 game_start_date >= 1508.1.1 }
+			character:11007277 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007277_2 } # Uchimitsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007282 game_start_date >= 1532.1.1 }
+			character:11007282 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007282_1 } # Sanemichi
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007285 game_start_date >= 1545.5.19 }
+			character:11007285 = {
+				set_father = character:11007282
+				set_real_father = character:10125247
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007287 game_start_date >= 1588.6.12 }
+			character:11007287 = {
+				set_father = character:11007285
+				set_real_father = character:11001309
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007345 game_start_date >= 1402.1.1 }
+			character:11007345 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007345_1 } # Tadasada
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007384 game_start_date >= 1308.1.1 }
+			character:11007384 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007384_1 } # Tsuguo
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007398 game_start_date >= 1555.1.1 }
+			character:11007398 = {
+				set_father = character:11007397
+				set_real_father = character:11007397
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007411 game_start_date >= 1474.1.1 }
+			character:11007411 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007411_1 } # Kinoki
+			}
+		}
+
+		if = {
+			limit = { exists = character:11007420 game_start_date >= 1545.1.1 }
+			character:11007420 = {
+				shogunate_change_first_name_effect = { NAME = character_name_11007420_1 } # Harusue
+			}
+		}
+
+		if = {
+			limit = { exists = character:10159001 game_start_date >= 1455.1.1 }
+			character:10159001 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10159001_1 } # Nobuhiro
+			}
+		}
+
+		if = {
+			limit = { exists = character:10159025 game_start_date >= 1565.1.1 }
+			character:10159025 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10159025_1 } # Zuiryo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10030009 game_start_date >= 1534.1.1 }
+			character:10030009 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10030009_1 } # Soteki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10030013 game_start_date >= 1529.1.1 }
+			character:10030013 = {
+				set_father = character:10030009
+				set_real_father = character:10030010
+			}
+		}
+
+		if = {
+			limit = { exists = character:10030097 game_start_date >= 1538.1.1 }
+			character:10030097 = {
+				set_father = character:10030088
+				set_real_father = character:10030010
+			}
+		}
+
+		if = {
+			limit = { exists = character:10030501 game_start_date >= 1519.1.1 }
+			character:10030501 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10030501_1 } # Jissho
+			}
+		}
+
+		if = {
+			limit = { exists = character:10030506 game_start_date >= 1440.1.1 }
+			character:10030506 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10030506_1 } # Nyojun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10030507 game_start_date >= 1400.1.1 }
+			character:10030507 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10030507_1 } # Tonen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10031000 game_start_date >= 1506.1.1 }
+			character:10031000 = {
+				set_father = character:10031005
+				set_real_father = character:10031006
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032011 game_start_date >= 1561.3.16 }
+			character:10032011 = {
+				set_father = character:10017000
+				set_real_father = character:10032000
+				shogunate_change_first_name_effect = { NAME = character_name_10032011_1 } # Masatora
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032011 game_start_date >= 1561.12.1 }
+			character:10032011 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10032011_2 } # Terutora
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032011 game_start_date >= 1570.10.1 }
+			character:10032011 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10032011_3 } # Kenshin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032028 game_start_date >= 1540.1.1 }
+			character:10032028 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10032028_1 } # Tsutensontatsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032032 game_start_date >= 1564.8.21 }
+			character:10032032 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10032032_1 } # Akikage
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032032 game_start_date >= 1575.1.1 }
+			character:10032032 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10032032_2 } # Kagekatsu
+				set_father = character:10032011
+				set_real_father = character:10032025
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032808 game_start_date >= 1449.3.21 }
+			character:10032808 = {
+				set_father = character:10032806
+				set_real_father = character:10032805
+			}
+		}
+
+		if = {
+			limit = { exists = character:10032812 game_start_date >= 1503.1.1 }
+			character:10032812 = {
+				set_father = character:10032811
+				set_real_father = character:10032809
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042230 game_start_date >= 1503.1.1 }
+			character:10042230 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042230_1 } # Renno
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042231 game_start_date >= 1503.1.1 }
+			character:10042231 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042231_1 } # Jitsugen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042232 game_start_date >= 1515.1.1 }
+			character:10042232 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042232_1 } # Kensei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042236 game_start_date >= 1530.1.1 }
+			character:10042236 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042236_1 } # Genso
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042237 game_start_date >= 1530.1.1 }
+			character:10042237 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10042237_1 } # Kenei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10131655 game_start_date >= 1202.7.1 }
+			character:10131655 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10131655_1 } # Tokifusa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10131681 game_start_date >= 1220.1.14 }
+			character:10131681 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10131681_1 } # Gyonen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020010 game_start_date >= 1559.2.1 }
+			character:10020010 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10020010_1 } # Shingen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020035 game_start_date >= 1577.11.1 }
+			character:10020035 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10020035_1 } # Morinobu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020037 game_start_date >= 1567.1.1 }
+			character:10020037 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10020037_1 } # Genryu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020037 game_start_date >= 1578.1.1 }
+			character:10020037 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10020037_2 } # Nobukiyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020056 game_start_date >= 1580.1.1 }
+			character:10020056 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10020056_1 } # Baisetsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020220 game_start_date >= 1559.2.1 }
+			character:10020220 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10020220_1 } # Chokansai
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020235 game_start_date >= 1561.1.1 }
+			character:10020235 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10020235_1 } # Chokansai
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020273 game_start_date >= 1568.1.1 }
+			character:10020273 = {
+				set_father = character:10020060
+				set_real_father = character:10020270
+			}
+		}
+
+		if = {
+			limit = { exists = character:10020276 game_start_date >= 1579.8.15 }
+			character:10020276 = {
+				set_father = character:10020060
+				set_real_father = character:10020270
+			}
+		}
+
+		if = {
+			limit = { exists = character:10021163 game_start_date >= 1601.1.1 }
+			character:10021163 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10021163_1 } # Nobuyuki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10021407 game_start_date >= 1569.1.1 }
+			character:10021407 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10021407_1 } # Dousetsusai
+			}
+		}
+
+		if = {
+			limit = { exists = character:10021474 game_start_date >= 1616.1.1 }
+			character:10021474 = {
+				set_father = character:10090601
+				set_real_father = character:10021470
+			}
+		}
+
+		if = {
+			limit = { exists = character:10021594 game_start_date >= 1582.1.1 }
+			character:10021594 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10021594_1 } # Masasuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:10120072 game_start_date >= 1180.1.1 }
+			character:10120072 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10120072_1 } # Yukiie
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125238 game_start_date >= 1473.1.1 }
+			character:10125238 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10125238_1 } # Michihiro
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125245 game_start_date >= 1494.7.24 }
+			character:10125245 = {
+				set_father = character:10125433
+				set_real_father = character:10125238
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125256 game_start_date >= 1579.1.1 }
+			character:10125256 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10125256_1 } # Suemichi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125256 game_start_date >= 1583.1.1 }
+			character:10125256 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10125256_2 } # Atsumichi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125329 game_start_date >= 1349.1.1 }
+			character:10125329 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10125329_1 } # Tomotaka
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125402 game_start_date >= 1225.1.1 }
+			character:10125402 = {
+				set_father = character:10125063
+				set_real_father = character:10125064
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125429 game_start_date >= 1389.1.1 }
+			character:10125429 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10125429_1 } # Michitoshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125436 game_start_date >= 1533.11.1 }
+			character:10125436 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10125436_1 } # Michitame
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125439 game_start_date >= 1560.10.1 }
+			character:10125439 = {
+				set_father = character:10129663
+				set_real_father = character:10125436
+			}
+		}
+
+		if = {
+			limit = { exists = character:10125439 game_start_date >= 1571.1.1 }
+			character:10125439 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10125439_1 } # Masatomo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10042082 game_start_date >= 1520.3.6 }
+			character:10042082 = {
+				set_father = character:10040900
+				set_real_father = character:10042080
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067004 game_start_date >= 1551.1.1 }
+			character:10067004 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067004_1 } # Shigefusa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067104 game_start_date >= 1565.1.1 }
+			character:10067104 = {
+				set_father = character:10067102
+				set_real_father = character:10067500
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067111 game_start_date >= 1578.1.1 }
+			character:10067111 = {
+				set_father = character:10064402
+				set_real_father = character:10067104
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067406 game_start_date >= 1562.1.1 }
+			character:10067406 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067406_1 } # Dosetsu
+				set_father = character:10067402
+				set_real_father = character:10064385
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067408 game_start_date >= 1582.1.1 }
+			character:10067408 = {
+				set_father = character:10067406
+				set_real_father = character:10064822
+				shogunate_change_first_name_effect = { NAME = character_name_10067408_1 } # Muneshige
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067513 game_start_date >= 1607.1.1 }
+			character:10067513 = {
+				set_father = character:10067507
+				set_real_father = character:10067104
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067605 game_start_date >= 1556.1.1 }
+			character:10067605 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067605_1 } # Shigenaga
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067705 game_start_date >= 1623.5.22 }
+			character:10067705 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067705_1 } # Hirokado
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067800 game_start_date >= 1530.1.1 }
+			character:10067800 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067800_1 } # Chikaranosuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067801 game_start_date >= 1490.1.1 }
+			character:10067801 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067801_1 } # Kazuenosuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067802 game_start_date >= 1558.1.1 }
+			character:10067802 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067802_1 } # Soshitsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067830 game_start_date >= 1530.1.1 }
+			character:10067830 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067830_1 } # Jutei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067832 game_start_date >= 1520.1.1 }
+			character:10067832 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067832_1 } # Kazue
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067833 game_start_date >= 1570.1.1 }
+			character:10067833 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067833_1 } # Soseki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067834 game_start_date >= 1546.10.22 }
+			character:10067834 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067834_1 } # Sohaku
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067835 game_start_date >= 1560.1.1 }
+			character:10067835 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067835_1 } # Soseki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067837 game_start_date >= 1580.1.1 }
+			character:10067837 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067837_1 } # Sotan
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067838 game_start_date >= 1578.1.1 }
+			character:10067838 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067838_1 } # Doyu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067941 game_start_date >= 1575.1.1 }
+			character:10067941 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067941_1 } # Soku
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067890 game_start_date >= 1530.1.1 }
+			character:10067890 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067890_1 } # Kozen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067892 game_start_date >= 1580.1.1 }
+			character:10067892 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067892_1 } # Sotoku
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067920 game_start_date >= 1540.9.1 }
+			character:10067920 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067920_1 } # Mokuzaemon
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067922 game_start_date >= 1583.1.1 }
+			character:10067922 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067922_1 } # Genjiro
+			}
+		}
+
+		if = {
+			limit = { exists = character:10067862 game_start_date >= 1455.1.1 }
+			character:10067862 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10067862_1 } # Seishun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10068402 game_start_date >= 1545.1.1 }
+			character:10068402 = {
+				set_father = character:12751070
+				set_real_father = character:10068400
+			}
+		}
+
+		if = {
+			limit = { exists = character:10068610 game_start_date >= 1580.1.1 }
+			character:10068610 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10068610_1 } # Harunobu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10068337 game_start_date >= 1582.1.1 }
+			character:10068337 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10068337_1 } # Yasutoshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10003154 game_start_date >= 1565.1.1 }
+			character:10003154 = {
+				set_father = character:10003102
+				set_real_father = character:10003136
+			}
+		}
+
+		if = {
+			limit = { exists = character:10003165 game_start_date >= 1567.1.1 }
+			character:10003165 = {
+				set_father = character:10003301
+				set_real_father = character:10003163
+			}
+		}
+
+		if = {
+			limit = { exists = character:10004903 game_start_date >= 1548.1.1 }
+			character:10004903 = {
+				set_father = character:10005004
+				set_real_father = character:10004902
+			}
+		}
+
+		if = {
+			limit = { exists = character:10210019 game_start_date >= 186.1.1 }
+			character:10210019 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10210019_1 } # Kogen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10220038 game_start_date >= 953.1.1 }
+			character:10220038 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10220038_1 } # Shoin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10220088 game_start_date >= 998.1.1 }
+			character:10220088 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10220088_1 } # Jakusho
+			}
+		}
+
+		if = {
+			limit = { exists = character:10220096 game_start_date >= 1020.1.1 }
+			character:10220096 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10220096_1 } # Gojiju
+			}
+		}
+
+		if = {
+			limit = { exists = character:10220105 game_start_date >= 1110.1.1 }
+			character:10220105 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10220105_1 } # Korenobu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10230156 game_start_date >= 710.1.1 }
+			character:10230156 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10230156_1 } # Dokyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10241549 game_start_date >= 1131.1.1 }
+			character:10241549 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10241549_1 } # Chogen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10243028 game_start_date >= 1037.1.1 }
+			character:10243028 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10243028_1 } # Keicho
+			}
+		}
+
+		if = {
+			limit = { exists = character:10252001 game_start_date >= 440.1.1 }
+			character:10252001 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10252001_1 } # Achi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10140006 game_start_date >= 1460.1.1 }
+			character:10140006 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10140006_1 } # Gekko
+			}
+		}
+
+		if = {
+			limit = { exists = character:10140009 game_start_date >= 1477.1.12 }
+			character:10140009 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10140009_1 } # Chori
+			}
+		}
+
+		if = {
+			limit = { exists = character:10140010 game_start_date >= 1477.12.1 }
+			character:10140010 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10140010_1 } # Chori
+			}
+		}
+
+		if = {
+			limit = { exists = character:10140012 game_start_date >= 1508.1.1 }
+			character:10140012 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10140012_1 } # Choman
+			}
+		}
+
+		if = {
+			limit = { exists = character:10140014 game_start_date >= 1520.1.1 }
+			character:10140014 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10140014_1 } # Choten
+			}
+		}
+
+		if = {
+			limit = { exists = character:10140015 game_start_date >= 1520.1.1 }
+			character:10140015 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10140015_1 } # Chofuku
+			}
+		}
+
+		if = {
+			limit = { exists = character:10140032 game_start_date >= 1548.1.1 }
+			character:10140032 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10140032_1 } # Chogi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10050005 game_start_date >= 1520.1.19 }
+			character:10050005 = {
+				set_father = character:10050046
+				set_real_father = character:10050045
+			}
+		}
+
+		if = {
+			limit = { exists = character:10050019 game_start_date >= 1450.1.1 }
+			character:10050019 = {
+				set_father = character:10050054
+				set_real_father = character:10050017
+			}
+		}
+
+		if = {
+			limit = { exists = character:10050031 game_start_date >= 1440.1.1 }
+			character:10050031 = {
+				set_father = character:10050030
+				set_real_father = character:10050039
+			}
+		}
+
+		if = {
+			limit = { exists = character:10050039 game_start_date >= 1442.1.1 }
+			character:10050039 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10050039_1 } # Sozen
+			}
+		}
+
+		if = {
+			limit = { exists = character:10050108 game_start_date >= 1390.1.1 }
+			character:10050108 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10050108_1 } # Choo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10050113 game_start_date >= 1580.1.1 }
+			character:10050113 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10050113_1 } # Baido
+			}
+		}
+
+		if = {
+			limit = { exists = character:10051532 game_start_date >= 1554.11.26 }
+			character:10051532 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10051532_1 } # Jushin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10053500 game_start_date >= 1310.1.1 }
+			character:10053500 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10053500_1 } # Enshin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10053589 game_start_date >= 1585.1.1 }
+			character:10053589 = {
+				set_father = character:10029720
+				set_real_father = character:10053570
+			}
+		}
+
+		if = {
+			limit = { exists = character:10054607 game_start_date >= 1530.1.1 }
+			character:10054607 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10054607_1 } # Nissei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10055107 game_start_date >= 1601.1.1 }
+			character:10055107 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10055107_1 } # Naomori
+			}
+		}
+
+		if = {
+			limit = { exists = character:10055203 game_start_date >= 1565.1.1 }
+			character:10055203 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10055203_1 } # Kyumu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10055260 game_start_date >= 1582.1.1 }
+			character:10055260 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10055260_1 } # Zento
+			}
+		}
+
+		if = {
+			limit = { exists = character:10058005 game_start_date >= 1572.1.1 }
+			character:10058005 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10058005_1 } # Chikashige
+			}
+		}
+
+		if = {
+			limit = { exists = character:10059005 game_start_date >= 1568.1.1 }
+			character:10059005 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10059005_1 } # Shogan
+			}
+		}
+
+		if = {
+			limit = { exists = character:10059007 game_start_date >= 1546.12.1 }
+			character:10059007 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10059007_1 } # Nagayoshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10059008 game_start_date >= 1553.8.1 }
+			character:10059008 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10059008_1 } # Jikkyu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10059019 game_start_date >= 1583.2.1 }
+			character:10059019 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10059019_1 } # Masayasu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10059025 game_start_date >= 1557.1.1 }
+			character:10059025 = {
+				set_father = character:10048753
+				set_real_father = character:10059011
+			}
+		}
+
+		if = {
+			limit = { exists = character:10045402 game_start_date >= 1553.11.4 }
+			character:10045402 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10045402_1 } # Munekatsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10045453 game_start_date >= 1570.1.1 }
+			character:10045453 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10045453_1 } # Jiton
+			}
+		}
+
+		if = {
+			limit = { exists = character:10059123 game_start_date >= 1578.1.1 }
+			character:10059123 = {
+				set_father = character:10058058
+				set_real_father = character:10059104
+			}
+		}
+
+		if = {
+			limit = { exists = character:10016001 game_start_date >= 1519.9.8 }
+			character:10016001 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10016001_1 } # Soun
+			}
+		}
+
+		if = {
+			limit = { exists = character:10016003 game_start_date >= 1569.1.1 }
+			character:10016003 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10016003_1 } # Genan
+			}
+		}
+
+		if = {
+			limit = { exists = character:10016005 game_start_date >= 1530.1.1 }
+			character:10016005 = {
+				set_father = character:10016002
+				set_real_father = character:10016000
+			}
+		}
+
+		if = {
+			limit = { exists = character:10016020 game_start_date >= 1570.4.11 }
+			character:10016020 = {
+				set_father = character:10032011
+				set_real_father = character:10016004
+			}
+		}
+
+		if = {
+			limit = { exists = character:10016608 game_start_date >= 1559.1.1 }
+			character:10016608 = {
+				set_father = character:10016603
+			}
+		}
+
+		if = {
+			limit = { exists = character:10048001 game_start_date >= 1478.1.1 }
+			character:10048001 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10048001_1 } # Kenkei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10048002 game_start_date >= 1460.1.1 }
+			character:10048002 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10048002_1 } # Kukaku
+			}
+		}
+
+		if = {
+			limit = { exists = character:10048003 game_start_date >= 1450.1.1 }
+			character:10048003 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10048003_1 } # Ryuken
+			}
+		}
+
+		if = {
+			limit = { exists = character:10048004 game_start_date >= 1530.1.1 }
+			character:10048004 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10048004_1 } # Jitsugyo
+			}
+		}
+
+		if = {
+			limit = { exists = character:10060010 game_start_date >= 1459.1.8 }
+			character:10060010 = {
+				set_father = character:10060041
+				set_real_father = character:10060005
+			}
+		}
+
+		if = {
+			limit = { exists = character:10060050 game_start_date >= 1606.1.1 }
+			character:10060050 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10060050_1 } # Iehisa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001005 game_start_date >= 1533.1.1 }
+			character:10001005 = {
+				set_father = character:10001500
+				set_real_father = character:10001001
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001006 game_start_date >= 1534.1.1 }
+			character:10001006 = {
+				set_father = character:10006105
+				set_real_father = character:10001001
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001020 game_start_date >= 1540.1.1 }
+			character:10001020 = {
+				set_father = character:10007201
+				set_real_father = character:10001002
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001022 game_start_date >= 1567.1.1 }
+			character:10001022 = {
+				set_father = character:10006404
+				set_real_father = character:10001002
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001022 game_start_date >= 1593.1.1 }
+			character:10001022 = {
+				set_father = character:10001002
+				set_real_father = character:10001002
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001024 game_start_date >= 1577.1.1 }
+			character:10001024 = {
+				set_father = character:10007404
+				set_real_father = character:10001002
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001107 game_start_date >= 1545.2.1 }
+			character:10001107 = {
+				set_father = character:10001101
+				set_real_father = character:10001105
+			}
+		}
+
+		if = {
+			limit = { exists = character:10006202 game_start_date >= 1537.1.1 }
+			character:10006202 = {
+				set_father = character:10006201
+				set_real_father = character:10001001
+			}
+		}
+
+		if = {
+			limit = { exists = character:10006220 game_start_date >= 1570.1.1 }
+			character:10006220 = {
+				set_father = character:10006303
+				set_real_father = character:10006201
+			}
+		}
+
+		if = {
+			limit = { exists = character:10007109 game_start_date >= 1600.1.1 }
+			character:10007109 = {
+				set_father = character:10007107
+				set_real_father = character:10007108
+			}
+		}
+
+		if = {
+			limit = { exists = character:10001521 game_start_date >= 1593.7.18 }
+			character:10001521 = {
+				set_father = character:10090100
+				set_real_father = character:10001507
+			}
+		}
+
+		if = {
+			limit = { exists = character:10110272 game_start_date >= 1309.4.1 }
+			character:10110272 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10110272_1 } # Enki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10023064 game_start_date >= 1569.1.1 }
+			character:10023064 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10023064_1 } # Nobuteru
+			}
+		}
+
+		if = {
+			limit = { exists = character:10023310 game_start_date >= 1544.1.1 }
+			character:10023310 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10023310_1 } # Jiro-hosshi
+			}
+		}
+
+		if = {
+			limit = { exists = character:10023310 game_start_date >= 1563.10.5 }
+			character:10023310 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10023310_2 } # Naotora
+			}
+		}
+
+		if = {
+			limit = { exists = character:10023312 game_start_date >= 1615.1.1 }
+			character:10023312 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10023312_1 } # Naokatsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024006 game_start_date >= 1555.3.1 }
+			character:10024006 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10024006_1 } # Motonobu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024006 game_start_date >= 1557.1.1 }
+			character:10024006 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10024006_2 } # Motoyasu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024006 game_start_date >= 1563.1.1 }
+			character:10024006 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10024006_3 } # Ieyasu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024030 game_start_date >= 1591.1.1 }
+			character:10024030 = {
+				set_father = character:10011204
+				set_real_father = character:10024006
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024048 game_start_date >= 1621.1.1 }
+			character:10024048 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10024048_1 } # Yoshinao
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024067 game_start_date >= 1593.1.1 }
+			character:10024067 = {
+				set_father = character:10024073
+				set_real_father = character:10024065
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024261 game_start_date >= 1588.1.1 }
+			character:10024261 = {
+				set_father = character:10021465
+				set_real_father = character:10024257
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024289 game_start_date >= 1601.1.1 }
+			character:10024289 = {
+				set_father = character:10024153
+				set_real_father = character:10024283
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024325 game_start_date >= 1575.7.1 }
+			character:10024325 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10024325_1 } # Nobumasa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024600 game_start_date >= 1519.1.1 }
+			character:10024600 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10024600_1 } # Yoshitaka
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024759 game_start_date >= 1574.8.1 }
+			character:10024759 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10024759_1 } # Nobuoki
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024901 game_start_date >= 1589.8.4 }
+			character:10024901 = {
+				set_father = character:10203100
+				set_real_father = character:10024900
+			}
+		}
+
+		if = {
+			limit = { exists = character:10024905 game_start_date >= 1615.6.23 }
+			character:10024905 = {
+				set_father = character:10024903
+				set_real_father = character:10024901
+			}
+		}
+
+		if = {
+			limit = { exists = character:10057004 game_start_date >= 1534.1.1 }
+			character:10057004 = {
+				set_father = character:10057002
+				set_real_father = character:10058102
+			}
+		}
+
+		if = {
+			limit = { exists = character:10057017 game_start_date >= 1407.1.1 }
+			character:10057017 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10057017_1 } # Sei-Zousu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10057017 game_start_date >= 1432.6.30 }
+			character:10057017 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10057017_2 } # Norisuke
+			}
+		}
+
+		if = {
+			limit = { exists = character:10057102 game_start_date >= 1551.9.30 }
+			character:10057102 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10057102_1 } # Harukata
+			}
+		}
+
+		if = {
+			limit = { exists = character:10057119 game_start_date >= 1540.1.1 }
+			character:10057119 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10057119_1 } # Takamitsu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10057332 game_start_date >= 1570.1.1 }
+			character:10057332 = {
+				set_father = character:10057302
+				set_real_father = character:12666510
+			}
+		}
+
+		if = {
+			limit = { exists = character:10056019 game_start_date >= 1556.1.1 }
+			character:10056019 = {
+				set_father = character:10057302
+				set_real_father = character:10056004
+			}
+		}
+
+		if = {
+			limit = { exists = character:10056019 game_start_date >= 1569.1.1 }
+			character:10056019 = {
+				set_father = character:10056004
+				set_real_father = character:10056004
+			}
+		}
+
+		if = {
+			limit = { exists = character:10056023 game_start_date >= 1579.1.1 }
+			character:10056023 = {
+				set_father = character:10056016
+				set_real_father = character:10056004
+				shogunate_change_first_name_effect = { NAME = character_name_10056023_1 } # Motofusa
+			}
+		}
+
+		if = {
+			limit = { exists = character:10056023 game_start_date >= 1580.1.1 }
+			character:10056023 = {
+				set_father = character:10056004
+				set_real_father = character:10056004
+			}
+		}
+
+		if = {
+			limit = { exists = character:10056023 game_start_date >= 1580.1.1 }
+			character:10056023 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10056023_2 } # Hidekane
+			}
+		}
+
+		if = {
+			limit = { exists = character:10056110 game_start_date >= 1541.12.1 }
+			character:10056110 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10056110_1 } # Eikei
+			}
+		}
+
+		if = {
+			limit = { exists = character:10055751 game_start_date >= 1560.1.1 }
+			character:10055751 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10055751_1 } # Motoshige
+			}
+		}
+
+		if = {
+			limit = { exists = character:10057621 game_start_date >= 1461.9.6 }
+			character:10057621 = {
+				set_father = character:10029016
+				set_real_father = character:10057620
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017015 game_start_date >= 1386.1.1 }
+			character:10017015 = {
+				set_father = character:10032801
+				set_real_father = character:10017011
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017020 game_start_date >= 1418.1.1 }
+			character:10017020 = {
+				set_father = character:10017018
+				set_real_father = character:10017015
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017024 game_start_date >= 1466.1.1 }
+			character:10017024 = {
+				set_father = character:10017022
+				set_real_father = character:10032808
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017026 game_start_date >= 1480.1.1 }
+			character:10017026 = {
+				set_father = character:10017024
+				set_real_father = character:10017023
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017027 game_start_date >= 1515.1.1 }
+			character:10017027 = {
+				set_father = character:10017026
+				set_real_father = character:10040050
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017033 game_start_date >= 1351.1.1 }
+			character:10017033 = {
+				set_father = character:10017030
+				set_real_father = character:10017031
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017035 game_start_date >= 1380.1.1 }
+			character:10017035 = {
+				set_father = character:10017033
+				set_real_father = character:10017034
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017039 game_start_date >= 1450.1.1 }
+			character:10017039 = {
+				set_father = character:10016500
+				set_real_father = character:10017037
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017043 game_start_date >= 1490.1.1 }
+			character:10017043 = {
+				set_father = character:10017040
+				set_real_father = character:10017041
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017048 game_start_date >= 1415.5.2 }
+			character:10017048 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10017048_1 } # Zenshu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017151 game_start_date >= 1484.1.1 }
+			character:10017151 = {
+				set_father = character:10017150
+				set_real_father = character:12180610
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017152 game_start_date >= 1522.1.1 }
+			character:10017152 = {
+				set_father = character:10017151
+				set_real_father = character:12180615
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017154 game_start_date >= 1568.1.1 }
+			character:10017154 = {
+				set_father = character:10017152
+				set_real_father = character:10011102
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017302 game_start_date >= 1527.1.1 }
+			character:10017302 = {
+				set_father = character:10017327
+				set_real_father = character:10017301
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017320 game_start_date >= 1410.1.1 }
+			character:10017320 = {
+				set_father = character:10017319
+				set_real_father = character:10017336
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017322 game_start_date >= 1460.1.1 }
+			character:10017322 = {
+				set_father = character:10017316
+				set_real_father = character:10017320
+			}
+		}
+
+		if = {
+			limit = { exists = character:10017335 game_start_date >= 1440.1.1 }
+			character:10017335 = {
+				set_father = character:10017336
+				set_real_father = character:10017332
+			}
+		}
+
+		if = {
+			limit = { exists = character:10018000 game_start_date >= 1495.1.1 }
+			character:10018000 = {
+				set_father = character:10017043
+				set_real_father = character:10017044
+			}
+		}
+
+		if = {
+			limit = { exists = character:10018101 game_start_date >= 1480.1.1 }
+			character:10018101 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10018101_1 } # Akiyasu
+				set_father = character:10018105
+				set_real_father = character:10017322
+			}
+		}
+
+		if = {
+			limit = { exists = character:10018315 game_start_date >= 1548.1.1 }
+			character:10018315 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10018315_1 } # Yoriyasu
+			}
+		}
+
+		if = {
+			limit = { exists = character:10018316 game_start_date >= 1560.1.1 }
+			character:10018316 = {
+				set_father = character:10018315
+				set_real_father = character:10023051
+			}
+		}
+
+		if = {
+			limit = { exists = character:10018350 game_start_date >= 1456.1.1 }
+			character:10018350 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10018350_1 } # Doshin
+			}
+		}
+
+		if = {
+			limit = { exists = character:10018351 game_start_date >= 1474.1.1 }
+			character:10018351 = {
+				shogunate_change_first_name_effect = { NAME = character_name_10018351_1 } # Dokan
+			}
+		}
+
+	}
+}

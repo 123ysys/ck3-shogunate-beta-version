@@ -1,0 +1,114 @@
+c_nmih_sashima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_sashima1={
+				set_title_name=b_nmih_sashima6
+			}
+		}
+	}
+	1390.1.1={
+		effect={
+			title:b_nmih_sashima1={
+				set_title_name=b_nmih_sashima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1180.1.1 = { change_development_level = 20 }
+	1390.1.1 = { change_development_level = 40 }
+	1400.1.1 = { change_development_level = 50 }
+	1455.1.1 = { change_development_level = 60 }
+	1460.1.1 = { change_development_level = 60 }
+	1592.1.1 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_shimousa"
+	}
+	1151.1.1={
+		liege="d_nmih_oyama"
+		holder=12127800 # Shimokobe Yukiyoshi
+	}
+	1185.1.1={
+		liege="d_nmih_oyama"
+		holder=12127801 # Shimokobe Yukihira
+	}
+	1215.1.1={
+		liege="e_nmih_japan"
+		holder=10130967 # Nomoto Tokikazu
+	}
+	1238.1.1={
+		liege="e_nmih_japan"
+		holder=10131760 # Hojo [Kanesawa] Sanetoki
+	}
+	1276.11.30={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1331.1.1={
+		holder=10132230 # Hojo [Kanesawa] Sadafuyu
+	}
+	1333.7.4={
+		liege="d_nmih_oyama"
+		holder=12135030 # Oyama Hidetomo
+	}
+	1335.8.2={
+		holder=12135035 # Oyama Tomosato
+	}
+	1346.5.4={
+		holder=12135036 # Oyama Ujimasa
+	}
+	1355.8.31={
+		holder=10011209 # Oyama Yoshimasa
+	}
+	1382.5.24={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040066 # Ashikaga Ujimitsu
+	}
+	1382.6.1={
+		holder=12154000 # Noda Mitsunori
+	}
+	1430.1.1={
+		holder=12154001 # Noda Mochitada
+	}
+	1455.7.30={
+		liege="k_nmih_kamakura_kubo" # Ashikaga Shigeuji
+		holder=10040059 # Ashikaga Shigeuji
+	}
+	1497.10.25={
+		holder=10040058 # Ashikaga Masauji
+	}
+	1512.1.1={
+		holder=10040050 # Ashikaga Takamoto
+	}
+	1535.11.3={
+		holder=10040052 # Ashikaga Haruuji
+	}
+	1546.5.19={
+		holder=10040072 # Ashikaga Yoshiuji
+	}
+	1546.5.19={
+		liege="k_nmih_western_kanto" #vassal of Hojo
+	}
+	1583.2.13={
+		holder=10040078 # Ashikaga Ujihime
+	}
+	1590.7.25={
+		holder=10021470 # Ogasawara Hidemasa
+	}
+	1602.1.1={
+		holder=10024208 # Matsudaira Yasunaga
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1612.1.1={
+		holder=10024261 # Ogasawara Nobuyuki
+	}
+	1614.6.3={
+		holder=10021475 # Ogasawara Masanobu
+	}
+}

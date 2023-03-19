@@ -1,0 +1,11 @@
+war = {
+	name = "war_1180_genpei_war_of_tokai"
+	start_date = 1180.9.16
+	end_date = 1180.11.8
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_genpei_war
+	attackers = { 10120111 } # Takeda Nobuyoshi
+	defenders = { 10110025 } # Taira Kiyomori
+}

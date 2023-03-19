@@ -1,0 +1,13 @@
+117 = {
+
+	culture = tokai
+	religion = shinto
+	holding = castle_holding
+	800.1.1={
+	}
+	1460.1.1={
+		religion = hokkeshu
+	}
+	1569.8.15={
+	}
+}

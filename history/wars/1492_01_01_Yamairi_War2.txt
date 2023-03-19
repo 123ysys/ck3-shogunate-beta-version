@@ -1,0 +1,12 @@
+war = {
+	name = "war_1490_yamairi_war"
+	start_date = 1492.1.1
+	end_date = 1504.1.1
+	targeted_titles = {
+		d_nmih_hitachi
+	}
+	casus_belli = event_claim_cb
+	claimant = 12122220 # Satake [Yamairi] Ujiyoshi
+	attackers = { 12122220 } # Satake [Yamairi] Ujiyoshi
+	defenders = { 10010803 } # Satake Yoshikiyo
+}

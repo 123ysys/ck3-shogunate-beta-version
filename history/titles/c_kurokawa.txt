@@ -1,0 +1,186 @@
+c_nmih_kurokawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kurokawa1={
+				set_title_name=b_nmih_kurokawa9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kurokawa1={
+				set_title_name=b_nmih_kurokawa9
+			}
+		}
+	}
+	1455.1.1={
+		effect={
+			title:b_nmih_kurokawa1={
+				set_title_name=b_nmih_kurokawa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1455.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1187.11.30={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_shimousa"
+		holder=12150128 # To Taneyori
+	}
+	1205.7.10={
+		liege="d_nmih_musashi"
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={
+		liege="d_nmih_rikuzen"
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1213.5.24={
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={
+		holder=10131824 # Hojo Tokiyori
+	}
+	1256.12.10={
+		holder=10131711 # Hojo [Akahashi] Nagatoki
+	}
+	1264.7.27={
+		holder=10131671 # Hojo Masamura
+	}
+	1268.4.18={
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={
+		holder=10132155 # Hojo Sadatoki
+	}
+	1301.9.24={
+		holder=10132156 # Hojo Morotoki
+	}
+	1311.11.13={
+		holder=10131949 # Hojo [Osaragi] Munenobu
+	}
+	1312.7.6={
+		holder=10132071 # Hojo Hirotoki
+	}
+	1315.8.11={
+		holder=10132050 # Hojo [Fuonji] Mototoki
+	}
+	1316.7.28={
+		holder=10132268 # Hojo Takatoki
+	}
+	1326.4.19={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1326.5.26={
+		holder=10132197 # Hojo [Akahashi] Moritoki
+	}
+	1333.6.30={
+		holder=10132229 # Hojo [Kanesawa] Sadayuki
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=10125125 # Kitabatake Akiie
+	}
+	1337.2.9={
+		liege="d_nmih_oshu_shugo"
+		holder=10029006 # Shiba Ienaga
+	}
+	1338.1.16={
+		holder=12139101 # Ishido Yoshifusa
+	}
+	1345.1.1={
+		holder=10007311 # Hatakeyama Kuniuji
+	}
+	1351.3.18={
+		liege="k_nmih_oshu_kanrei"
+		holder=12395015 # Kira Sadaie
+	}
+	1354.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=12139104 # Ishido Yoshimoto
+	}
+	1355.1.1={
+		liege="d_nmih_rikuzen"
+		holder=12139050 # Osaki Iekane
+	}
+	1356.7.11={
+		holder=10006217 # Osaki Tadamochi
+	}
+	1383.1.1={
+		holder=10006213 # Osaki Akimochi
+	}
+	1400.1.1={
+		holder=10006212 # Osaki Mitsuakira
+	}
+	1404.1.1={
+		holder=10006210 # Osaki Mitsumochi
+	}
+	1424.1.1={
+		holder=10006208 # Osaki Mochiakira
+	}
+	1441.1.1={
+		holder=10006207 # Osaki Norikane
+	}
+	1455.1.1={
+		holder=10006312 # Kurokawa Akiuji
+	}
+	1460.1.1={
+		holder=10006310 # Kurokawa Ujifusa
+	}
+	1480.1.1={
+		holder=10006309 # Kurokawa Ujinori
+	}
+	1529.1.1={
+		liege="d_nmih_oshu_shugo"
+		holder=10006301 # Kurokawa Kageuji
+	}
+	1542.6.1={
+		liege="d_nmih_iwaki" # Tenbun War
+	}
+	1545.1.1={
+		holder=10006302 # Kurokawa Tanekuni
+	}
+	1548.9.1={
+		liege="d_nmih_oshu_shugo" # End of Tenbun War
+	}
+	1558.1.1={
+		holder=10006304 # Kurokawa Taneie
+	}
+	1568.1.1={
+		holder=10006303 # Kurokawa Haruuji
+	}
+	1588.1.1={
+		liege="d_nmih_rikuzen"
+		holder=10006303 # Kurokawa Haruuji
+	}
+	1590.8.28={
+		liege="d_nmih_rikuchu"
+		holder=10001035 # Date Masamune
+	}
+	1603.3.24={
+		holder=10001035 # Date Masamune
+	}
+	1610.1.1={
+		liege="d_nmih_rikuzen"
+		holder=10001041 # Date Munekiyo
+	}
+}

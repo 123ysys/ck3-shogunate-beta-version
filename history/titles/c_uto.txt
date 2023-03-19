@@ -1,0 +1,136 @@
+c_nmih_uto = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_uto1={
+				set_title_name=b_nmih_uto4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_uto1={
+				set_title_name=b_nmih_uto4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	220.1.1={
+		holder=10041352 # Takekukuchi
+	}
+	250.1.1={
+		holder=10041353 # Takemorokumi
+	}
+	290.1.1={
+		holder=10041357 # Takekunitake
+	}
+	330.1.1={
+		holder=10041358 # Takeoshihiko
+	}
+	350.1.1={
+		holder=10041359 # Takekawana
+	}
+	390.1.1={
+		holder=10041360 # Takekuwae
+	}
+	1170.1.1={
+		liege="d_nmih_higo"
+		holder=12780645 # Kikuchi Takanao
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_higo"
+		holder=12780651 # Kikuchi Takasada
+	}
+	1221.6.6={
+		holder=12780670 # Kikuchi Yoshitaka
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_northern_higo"
+		holder=12780670 # Kikuchi Yoshitaka
+	}
+	1258.9.8={
+		holder=12780675 # Kikuchi Takayasu
+	}
+	1274.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12800602 # Takezaki Suenaga
+	}
+	1300.1.1={
+		liege="d_nmih_northern_higo"
+		holder=12800520 # Uto Takatoshi
+	}
+	1333.7.4={
+		liege="d_nmih_higo"
+	}
+	1369.1.1={
+		holder=10066022 # Kikuchi Takemitsu
+	}
+	1373.12.29={
+		holder=10066021 # Kikuchi Takemasa
+	}
+	1374.7.6={
+		holder=10066020 # Kikuchi Taketomo
+	}
+	1407.4.25={
+		liege="d_nmih_higo"
+		holder=10066019 # Kikuchi Kanetomo
+	}
+	1431.1.1={
+		holder=10066007 # Kikuchi Mochitomo
+	}
+	1446.8.20={
+		holder=10066013 # Uto Tamemitsu
+	}
+	1501.1.1={
+		liege=0
+	}
+	1503.8.1={
+		liege="d_nmih_higo"
+		holder=10066004 # Kikuchi Yoshiyuki
+	}
+	1504.3.1={
+		liege=0
+		holder=10066301 # Nawa Akitada
+	}
+	1520.1.1={
+		holder=10066300 # Nawa Takeaki
+	}
+	1535.5.1={
+		liege="d_nmih_higo"
+	}
+	1546.7.9={
+		holder=10066304 # Nawa Yukioki
+	}
+	1554.12.14={
+		liege=0
+		holder=10066308 # Nawa Yukinori
+	}
+	1562.1.1={
+		holder=10066305 # Nawa Yukinao
+	}
+	1579.1.1={
+		liege="d_nmih_higo"
+		holder=10066309 # Nawa Akitaka
+	}
+	1587.5.18={
+		liege="d_nmih_higo"
+		holder=10029350 # Sassa Narimasa
+	}
+	1588.7.7={
+		liege="d_nmih_southern_higo"
+		holder=10042923 # Konishi Yukinaga
+	}
+	1603.3.24={
+		liege="d_nmih_higo"
+		holder=10029710 # Kato Kiyomasa
+	}
+	1611.8.2={
+		holder=10029712 # Kato Tadahiro
+	}
+}

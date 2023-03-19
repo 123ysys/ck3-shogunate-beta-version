@@ -1,0 +1,11 @@
+d_nmih_southern_higo = {
+	100.1.1={
+	}
+	1588.7.7={
+		liege="e_nmih_japan"
+		holder=10042923 # Konishi Yukinaga
+	}
+	1603.3.24={
+		holder=0 #
+	}
+}

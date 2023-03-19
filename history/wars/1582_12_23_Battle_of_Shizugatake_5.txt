@@ -1,0 +1,11 @@
+war = {
+	name = "war_1582_battle_of_shizugatake"
+	start_date = 1583.5.27
+	end_date = 1583.6.14
+	targeted_titles = {
+		k_nmih_hokuriku
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10029400 10029310 10029552 } # Hashiba Hideyoshi, Niwa Nagahide, Ikeda Tsuneoki
+	defenders = { 10029280 10029330 10029162 } # Shibata Katsuie, Takigawa Kazumasu, Oda Nobutaka
+}

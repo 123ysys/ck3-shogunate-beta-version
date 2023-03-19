@@ -1,0 +1,17 @@
+165 = {
+
+	culture = western_chubu
+	religion = shinto
+	holding = castle_holding
+	1000.1.1={
+	}
+	1331.1.1={
+	}
+	1400.1.1={
+	}
+	1460.1.1={
+		religion = ikkoshu
+	}
+	1567.1.1={
+	}
+}

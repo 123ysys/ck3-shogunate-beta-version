@@ -1,0 +1,13 @@
+688 = {
+
+	culture = chishima_ainu
+	religion = ainu
+	holding = tribal_holding
+	100.1.1 = {
+		culture = old_okhotsk
+	}
+	1400.1.1 = {
+		culture = chishima_ainu
+	}
+
+}

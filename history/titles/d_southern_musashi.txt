@@ -1,0 +1,31 @@
+d_nmih_southern_musashi = {
+	100.1.1={
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto"
+		holder=12202010 # Adachi Tomoto
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+	}
+	1210.1.1={
+		liege=0
+		holder=0 # 
+	}
+	1311.12.6={
+		liege="e_nmih_japan"
+		holder=10132269 # Hojo Yasuie
+	}
+	1333.7.4={
+		liege=0
+		holder=0 # 
+	}
+	1559.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10016015 # Hojo Ujiteru
+	}
+	1590.7.25={
+		liege=0
+		holder=0 # 
+	}
+}

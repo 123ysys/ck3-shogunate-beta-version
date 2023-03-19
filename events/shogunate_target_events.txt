@@ -1,0 +1,182 @@
+﻿namespace = shogunate_target
+
+# Form Global Coalitions (trigger)
+shogunate_target.0001 = {
+	hidden = yes
+
+	trigger = {
+		shogunate_is_sengoku_period_trigger = yes
+		AND = {
+			sub_realm_size >= 40
+			sub_realm_size <  120
+		}
+		NOT = {
+			shogunate_is_target_trigger = {
+				LIST   = global_coalition
+				TARGET = root
+			}
+		}
+	}
+
+	immediate = {
+		save_scope_as = target
+		shogunate_add_target_effect = {
+			LIST   = global_coalition
+			TARGET = scope:target
+		}
+		add_character_modifier = shogunate_global_coalition_target_modifier
+		every_ruler = {
+			trigger_event = shogunate_target.0011
+		}
+	}
+
+}
+
+
+# Dissolve/Break Global Coalitions (trigger)
+shogunate_target.0002 = {
+	hidden = yes
+
+	trigger = {
+		OR = {
+			sub_realm_size <  40
+			sub_realm_size >= 120
+		}
+		shogunate_is_target_trigger = {
+			LIST   = global_coalition
+			TARGET = root
+		}
+	}
+
+	immediate = {
+		save_scope_as = target
+		shogunate_remove_target_effect = {
+			LIST   = global_coalition
+			TARGET = scope:target
+		}
+		remove_character_modifier = shogunate_global_coalition_target_modifier
+		if = {
+			limit = {
+				sub_realm_size < 40
+			}
+			every_ruler = {
+				trigger_event = shogunate_target.0012
+			}
+		}
+		else = {
+			every_ruler = {
+				trigger_event = shogunate_target.0013
+			}
+		}
+	}
+
+}
+
+
+# Setup Global Coalitions (on start)
+shogunate_target.0003 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_is_sengoku_period_trigger = yes
+			}
+			every_ruler = {
+				limit = {
+					sub_realm_size >= 40
+					sub_realm_size < 120
+				}
+				save_scope_as = target
+				shogunate_add_target_effect = {
+					LIST   = global_coalition
+					TARGET = scope:target
+				}
+				add_character_modifier = shogunate_global_coalition_target_modifier
+			}
+		}
+	}
+
+}
+
+
+# Form Global Coalitions (nortification)
+shogunate_target.0011 = {
+	type = character_event
+	title = shogunate_target.0011.t
+
+	desc = shogunate_target.0011.desc
+
+	theme = diplomacy_foreign_affairs_focus
+	left_portrait = {
+		character = scope:target
+		animation = personality_vengeful
+	}
+	override_background = { event_background = throne_room }
+
+	option = {
+		name = shogunate_target.0011.a
+		trigger = { scope:target = this }
+	}
+
+	option = {
+		name = shogunate_target.0011.b
+		trigger = { NOT = { scope:target = this } }
+	}
+
+}
+
+
+# Dissolve Global Coalitions (nortification)
+shogunate_target.0012 = {
+	type = character_event
+	title = shogunate_target.0012.t
+
+	desc = shogunate_target.0012.desc
+
+	theme = diplomacy_foreign_affairs_focus
+	left_portrait = {
+		character = scope:target
+		animation = shock
+	}
+	override_background = { event_background = burning_building }
+
+	option = {
+		name = shogunate_target.0012.a
+		trigger = { scope:target = this }
+	}
+
+	option = {
+		name = shogunate_target.0012.b
+		trigger = { NOT = { scope:target = this } }
+	}
+
+}
+
+
+# Break Global Coalitions (nortification)
+shogunate_target.0013 = {
+	type = character_event
+	title = shogunate_target.0013.t
+
+	desc = shogunate_target.0013.desc
+
+	theme = diplomacy_foreign_affairs_focus
+	left_portrait = {
+		character = scope:target
+		animation = personality_bold
+	}
+	override_background = { event_background = throne_room }
+
+	option = {
+		name = shogunate_target.0013.a
+		trigger = { scope:target = this }
+	}
+
+	option = {
+		name = shogunate_target.0013.b
+		trigger = { NOT = { scope:target = this } }
+	}
+
+}

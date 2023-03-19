@@ -1,0 +1,40 @@
+204 = {
+
+	culture = central_kinai
+	religion = shinto
+	holding = castle_holding
+	900.1.1={
+	}
+	1053.1.1={
+	}
+	1336.2.1={
+	}
+	1478.1.1={
+	}
+	1499.3.25={
+		buildings = {
+			castle_03
+		}
+	}
+	1532.9.23={ # Yamashina Honganji falled 
+		buildings = {
+			castle_01
+		}
+	}
+
+	1594.1.1={
+		buildings = {
+			castle_04
+		}
+	}
+	1598.8.18={
+		buildings = {
+			castle_03
+		}
+	}
+	1600.8.1={
+		buildings = {
+			castle_01
+		}
+	}
+}

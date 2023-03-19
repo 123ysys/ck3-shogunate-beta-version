@@ -1,0 +1,171 @@
+c_nmih_suzu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_suzu1={
+				set_title_name=b_nmih_suzu8
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_suzu1={
+				set_title_name=b_nmih_suzu8
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_suzu1={
+				set_title_name=b_nmih_suzu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_echizen"
+	}
+	718.5.2={
+		liege="d_nmih_noto"
+	}
+	1179.12.18={
+		liege="d_nmih_noto"
+		holder=10110111 # Taira Noritsune
+	}
+	1183.6.22={ # Battle of Shinohara
+		liege="d_nmih_noto"
+		holder=10120084 # Minamoto Yoshinaka
+	}
+	1183.8.17={
+		holder=12380111 # Imai Kanehira
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_noto"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		holder=11000156 # Matsudono Motofusa
+	}
+	1191.1.1={
+		holder=11007600 # Shijo Takafusa
+	}
+	1197.1.1={
+		holder=11007613 # Shijo Takayasu
+	}
+	1207.1.1={
+		holder=11001348 # Sanjo Kinfusa
+	}
+	1221.6.6={
+		holder=10130464 # Fujiwara Hideyasu
+	}
+	1221.7.6={
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1245.5.3={
+		holder=10131696 # Hojo [Nagoe] Mitsutoki
+	}
+	1246.7.22={
+		holder=10131697 # Hojo [Nagoe] Tokiaki
+	}
+	1272.3.11={
+		holder=10131998 # Hojo Tokimune
+	}
+	1275.12.1={
+		holder=10132022 # Hojo [Nagoe] Munenaga
+	}
+	1309.8.28={
+		holder=10132288 # Hojo [Nagoe] Takaie
+	}
+	1333.6.10={
+		holder=10132180 # Hojo [Nagoe] Tokiari
+	}
+	1333.6.29={
+		liege="d_nmih_noto"
+		holder=10125194 # Nakanoin Sadahira
+	}
+	1336.1.2={
+		liege="d_nmih_noto"
+		holder=12300601 # Yoshimi Yoritaka
+	}
+	1348.1.1={
+		holder=12300602 # Yoshimi Ujiyori
+	}
+	1349.7.1={
+		holder=12187221 # Momonoi Yoshimori
+	}
+	1352.1.1={
+		holder=12300602 # Yoshimi Ujiyori
+	}
+	1370.1.1={
+		holder=12300700 # Honjo Muneshige
+	}
+	1391.12.1={
+		liege="d_nmih_noto"
+		holder=10048110 # Hatakeyama Motokuni
+	}
+	1391.12.2={
+		holder=12305001 # Yusa Motomitsu
+	}
+	1429.1.1={
+		holder=12305005 # Yusa Tadamitsu
+	}
+	1460.1.1={
+		holder=12305010 # Yusa Munehide
+	}
+	1510.1.1={
+		holder=12305016 # Yusa Hidemori
+	}
+	1530.1.1 ={
+		holder=12305020 # Yusa Hideyori
+	}
+	1553.1.1={
+		holder=10031108 # Nukui Fusasada
+	}
+	1555.1.1={
+		liege="d_nmih_noto"
+		holder=10031150 # Yusa Tsugumitsu
+	}
+	1577.8.7={
+		liege="d_nmih_echigo"
+	}
+	1579.9.1={
+		liege=0
+	}
+	1580.9.1={
+		liege="d_nmih_noto" # 29120 Oda Nobunaga
+	}
+	1581.3.28={
+		holder=10029241 # Sugaya Nagayori
+	}
+	1581.10.29={
+		holder=10029360 # Maeda Toshiie
+	}
+	1582.6.21={
+		liege="d_nmih_echigo"
+		holder=10031112 # Nukui Kagetaka
+	}
+	1582.7.13={
+		liege="d_nmih_noto"
+		holder=10029360 # Maeda Toshiie
+	}
+	1583.6.14={ 
+		liege="d_nmih_kaga"
+	}
+	1599.4.27={ 
+		holder=10029377 # Maeda Toshimasa
+	}
+	1603.3.24={
+		liege="d_nmih_kaga"
+		holder=10031050 # Cho Tsuratatsu
+	}
+	1606.1.1={
+		holder=10031052 # Cho Yoshitsura
+	}
+	1611.10.11={
+		holder=10031050 # Cho Tsuratatsu
+	}
+}

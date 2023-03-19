@@ -1,0 +1,208 @@
+#Example: Other region without Southern Kyushu
+mild_winter = {
+	# Hitachi
+	24 25 26 27 28 29 30 31 369 370 371
+	# Almost of Shimotsuke
+	57 59 61 62 372 373
+	# Almost of Kozuke
+	63 66 67 68 69 70 374 376 420
+	# Shimosa
+	81 82 83 84 85 86 381 382
+	# Kazusa
+	87 89 90 91 92 383
+	# Awa(Tokaido)
+	95
+	# Musashi
+	71 72 73 74 75 76 77 78 79 80 377 378 379 418 419
+	# Sagami(without near Hakone)
+	37 96 97 99
+	# Izu
+	100 101
+	# Suruga
+	114 115 116 117 404
+	# Totomi
+	118 119 120 121 388 389
+	# Mikawa
+	153 154 155 156 157 396 402
+	# Owari
+	158 159 160 161 162 163 164 165 166
+	# Ise
+	180 182 184 185 186 187 188 410 412
+	# Shima
+	189
+	# Iga
+	192 194
+	# Some of Mino
+	147 148 151 399 152
+	# Omi
+	170 171 172 173 174 175 176 177 178 179 409
+	# Yamashiro
+	181 204 206 207 208 210
+	# Yamato
+	212 213 214 215 216 217 218 219 220 415
+	# Kawachi
+	231 232 233 234
+	# Izumi
+	227 228 229
+	# Settsu
+	235 236 237 239 241 242 243 244 245
+	# Tamba
+	198 199 200 201 202 413
+	# Kii
+	221 222 223 224 225 226
+	# Awaji
+	353 42	
+	# Awa(Nankaido)
+	347 348 349 350
+	# Sanuki
+	344 345 346 352
+	# Iyo
+	334 335 336 337 338 339 401
+	# Tosa
+	340 341 342 400
+	# Harima
+	249 250 251 252 253 254 255 416
+	# Mimasaka
+	259 260 261 417
+	# Bizen
+	230 262 263 264 265
+	# Bitchu
+	94 277 278 279 280
+	# Bingo
+	93 269 270 271 272
+	# Aki
+	102 284 285 286 287 394
+	# Suo
+	288 289 290 355 411
+	# Nagato
+	55 291 292 293
+	# Iwami
+	281 282 283 408
+	# Tsushima
+	360
+	# Iki
+	358
+	# Chikuzen
+	190 191 297 298 299 300 301
+	# Chikugo
+	203 205 308 310 311
+	# Hizen
+	193 302 303 304 305 306 307 359
+	# Higo
+	209 238 317 318 319 320 321 322 323
+	# Buzen
+	294 295 296 403
+	# Bungo
+	211 312 313 314 315 316
+	# Hyuga 
+	309 324 325 326 
+	# Satsuma without tokara islands
+	240 327 328 329 330 343
+	# Osumi include Tanegashima and Yakushima
+	331 332 333 351
+	# Ocean
+	539 540 542 543 546 547 548
+}
+
+#Example: South Hokkaido & Tohoku & Hokuriku & San'in without Tamba and Iwami & Central Highlands
+normal_winter = {
+	# Some of Nemuro
+	678 679 680
+	# Coast side Kushiro
+	672 673 674 676 676 677
+	# Hidaka
+	634 635 636 636 637 638 639 640
+	# Iburi
+	626 627 628 629 630 631 632 633
+	# South Shiribeshi
+	609 610 611 612 613 614 615 616 617 618
+	# Oshima
+	602 603 604 605 606 607 608
+	# Mutsu
+	1 3 4 5 414
+	# Inland Rikuchu
+	2 6 9 10 361 362 365
+	# Ugo
+	32 33 34 35 36 41 88
+	# Uzen
+	38 39 40 375 380 384
+
+	# Coast side of Rikuchu
+	7 8 
+	# Rikuzen
+	11 12 13 14 15 16 17 363 364
+	# Iwaki
+	18 19 20 21 22 23 366
+	# Iwashiro
+	51 52 53 54 56 367 368 422
+	# Sado
+	356
+	# Echigo
+	42 43 44 45 46 47 48 49 50 390 393
+	# Etchu
+	126 127 128 129 130 391 392 407
+	# Noto
+	122 123 124 125
+	# Kaga
+	131 132 133 134 395
+	# Echizen
+	138 139 140 141 142 143 397 398
+	# Wakasa
+	167 168 169
+	# North of Kozuke
+	64 65
+	# North of Shimotsuke
+	58 60
+	# Sagami(Near Hakone)
+	98
+	# Shinano
+	107 108 109 110 111 112 113 183 354 386 387 405 406
+	# Kai
+	103 104 105 106 385
+	# Hida
+	135 136 137
+	# Some of Mino(Near Sekigahara and north part)
+	144 145 146 149 150
+	# Tango
+	195 196 197
+	# Tajima
+	246 247 248
+	# Inaba
+	256 257 258
+	# Hoki
+	266 267 268
+	# Izumo
+	273 274 275 276
+	# Oki
+	357
+	# Ocean
+	528 530 538 541 544 581 583
+}
+
+#Example: Karafuto & North Hokkadio &  Chisima islands
+severe_winter = {
+	# Karafuto
+	692 693 694 695 696 697 698 699 700 701 
+	702 703 704 705 706 707 708 709 710 711 
+	712 713 718 719 720 721
+	# Chishima
+	683 684 685 686 687 688 689 690 691 714
+	# Okhotsuku side Nemuro
+	681 682
+	# Inland Kushiro
+	671 675
+	# Tokachi
+	664 665 666 667 668 669 670 717
+	# Kitami
+	656 657 658 659 660 661 662 663
+	# Teshio
+	650 651 652 653 654 655
+	# Ishikari
+	641 642 643 644 645 646 647 648 649 715
+	# Iburi Inland
+	716
+	# North Shiribeshi
+	619 620 621 622 623 624 625
+	# Ocean
+	531 532 533 534 535 536 537
+}

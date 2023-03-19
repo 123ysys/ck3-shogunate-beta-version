@@ -1,0 +1,59 @@
+#########################
+# Personal Artifacts	#
+#########################
+
+# Regalia
+
+imperial_regalia = {
+	slot = regalia
+}
+
+incense = {
+	slot = regalia
+}
+
+seal = {
+	slot = regalia
+}
+
+# Armor
+
+japanese_armor = {
+	slot = armor
+}
+
+# Weapons
+
+japanese_sword = {
+	slot = primary_armament
+}
+
+japanese_spear = {
+	slot = primary_armament
+}
+
+japanese_dagger = {
+	slot = primary_armament
+}
+
+cannon = {
+	slot = primary_armament
+}
+
+# Trinkets
+
+tea_utensil = {
+	slot = miscellaneous
+}
+
+japanese_book = {
+	slot = miscellaneous
+}
+
+chinese_book = {
+	slot = miscellaneous
+}
+
+#########################
+# Court Artifacts 		#
+#########################

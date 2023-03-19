@@ -1,0 +1,147 @@
+c_nmih_higashinari = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_higashinari1={
+				set_title_name=b_nmih_higashinari3
+			}
+		}
+	}
+	1300.1.1={
+		effect={
+			title:b_nmih_higashinari1={
+				set_title_name=b_nmih_higashinari5
+			}
+		}
+	}
+	1460.1.1={
+		effect={
+			title:b_nmih_higashinari1={
+				set_title_name=b_nmih_higashinari7
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1300.1.1 = { change_development_level = 40 }
+	1460.1.1 = { change_development_level = 50 }
+	1549.7.18 = { change_development_level = 40 }
+	1580.9.20 = { change_development_level = 50 }
+	1583.6.14 = { change_development_level = 50 }
+	1615.1.19 = { change_development_level = 50 }
+	1615.6.4 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_settsu"
+	}
+	1180.1.1={
+		liege="e_nmih_japan" # Taira Kiyomori
+		holder=12521225 # Watanabe Tsugau
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_settsu"
+	}
+	1184.3.4={
+		liege="d_nmih_yamashiro"
+		holder=12521236 # Watanabe Manabu
+	}
+	1185.11.10={
+		liege="d_nmih_settsu"
+		holder=12521225 # Watanabe Tsugau
+	}
+	1200.1.1={
+		holder=12521226 # Watanabe Kakeru
+	}
+	1221.7.6={
+		holder=12521260 # Watanabe Sadamu
+	}
+	1230.1.1={
+		holder=12521263 # Watanabe Satoru
+	}
+	1240.1.1={
+		holder=12521267 # Watanabe Hisashi
+	}
+	1270.1.1={
+		holder=12521270 # Watanabe Hitoshi
+	}
+	1300.1.1={
+		holder=12521273 # Watanabe Sonau
+	}
+	1330.1.1={
+		holder=12521277 # Watanabe Terasu
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=10041075 # Emperor Go-Daigo
+	}
+	1339.11.6={
+		holder=10041077 # Emperor Go-Murakami
+	}
+	1368.3.29={
+		holder=10041078 # Emperor Chokei
+	}
+	1369.1.1={
+		liege="d_nmih_kawachi"
+		holder=12560007 # Kusunoki Masanori
+	}
+	1378.12.1={
+		liege="d_nmih_tanba"
+		holder=10050010 # Yamana Ujikiyo
+	}
+	1392.1.24={
+		liege="d_nmih_harima"
+		holder=10053507 # Akamatsu Yoshinori
+	}
+	1427.10.11={
+		holder=10053511 # Akamatsu  Mitsusuke
+	}
+	1441.9.25={
+		liege="d_nmih_settsu"
+		holder=10040542 # Hosokawa Mochikata
+	}
+	1460.1.1={
+		government = theocracy_government
+		liege="k_nmih_honganji"
+		holder=10042201 # Honganji Rennyo
+	}
+	1489.1.1={
+		holder=10042203 # Honganji Jitsunyo
+	}
+	1525.3.5={
+		holder=10042200 # Honganji Shonyo
+	}
+	1554.9.19={
+		holder=10042210 # Honganji Kennyo
+	}
+	1580.9.20={
+		government = feudal_government
+		liege="e_nmih_japan"
+		holder=10029186 # Oda Nobuzumi
+	}
+	1582.6.21={
+		liege=0
+	}
+	1582.6.24={
+		liege="d_nmih_ise"
+		holder=10029162 # Oda Nobutaka
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1582.7.16={
+		liege="d_nmih_settsu"
+		holder=10029552 # Ikeda Tsuneoki
+	}
+	1583.6.14={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		liege="k_nmih_southern_kinai"
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1615.6.4={
+		liege="e_nmih_japan"
+		holder=10024337 # Matsudaira Tadaaki
+	}
+}

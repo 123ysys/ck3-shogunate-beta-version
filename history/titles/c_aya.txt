@@ -1,0 +1,138 @@
+c_nmih_aya = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_aya1={
+				set_title_name=b_nmih_aya2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_aya1={
+				set_title_name=b_nmih_aya9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_aya1={
+				set_title_name=B_NMIH_AYA9_1331
+			}
+		}
+	}
+	1597.1.1={
+		effect={
+			title:b_nmih_aya1={
+				set_title_name=b_nmih_aya6
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 20 }
+	1400.1.1 = { change_development_level = 30 }
+	1597.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+		liege="d_nmih_sanuki"
+	}
+	1180.1.1={
+		liege="d_nmih_sanuki"
+		holder=12690200 # Hayuka Suketaka
+	}
+	1182.1.1={
+		holder=12690201 # Hayuka Shigetaka
+	}
+	1200.1.1={
+		liege="d_nmih_sanuki"
+		holder=12690202 # Hayuka Shigesuke
+	}
+	1220.1.1={
+		holder=12690203 # Hayuka Shigemoto
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_sanuki"
+		holder=12211040 # Miura Yoshimura
+	}
+	1239.12.31={
+		holder=12211052 # Miura Mitsumura
+	}
+	1247.7.9={
+		holder=10131668 # Hojo [Gokurakuji] Shigetoki
+	}
+	1256.4.7={
+		holder=10131670 # Hojo [Igu] Aritoki
+	}
+	1270.3.23={
+		holder=10131728 # Hojo [Igu] Michitoki
+	}
+	1293.1.1={
+		holder=10131895 # Hojo [Igu] Naritoki
+	}
+	1329.9.26={
+		holder=10132063 # Hojo [Igu] Tokikuni
+	}
+	1333.7.4={
+		liege="d_nmih_sanuki"
+		holder=12420400 # Funaki Yorishige
+	}
+	1336.3.1={
+		liege="d_nmih_sanuki"
+		holder=10040579 # Hosokawa Akiuji
+	}
+	1352.1.1={
+		holder=10040580 # Hosokawa Shigeuji
+	}
+	1359.1.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1392.3.25={
+		holder=10040538 # Hosokawa Mitsumoto
+	}
+	1426.11.15={
+		holder=10040541 # Hosokawa Mochimoto
+	}
+	1429.8.14={
+		holder=10040539 # Hosokawa Mochiyuki
+	}
+	1442.9.8={
+		holder=10040543 # Hosokawa Katsumoto
+	}
+	1473.6.6={
+		holder=10040544 # Hosokawa Masamoto
+	}
+	1507.8.1={
+		holder=10040736 # Kozai Motosada
+	}
+	1530.1.1={
+		holder=10040740 # Kozai Motoshige
+	}
+	1560.1.1={
+		holder=10040741 # Kozai Motonori
+	}
+	1571.5.1={
+		holder=10040742 # Kozai Yoshikiyo
+	}
+	1576.1.1={
+		liege="e_nmih_japan"
+	}
+	1582.5.1={
+		liege="d_nmih_tosa"
+	}
+	1585.8.10={
+		liege="e_nmih_japan"
+		holder=10025980 # Ikoma Chikamasa
+	}
+	1603.3.24={
+		liege="d_nmih_sanuki"
+		holder=10025980 # Ikoma Chikamasa
+	}
+	1603.3.25={
+		holder=10025981 # Ikoma Kazumasa
+	}
+	1610.5.11={
+		holder=10025982 # Ikoma Masatoshi
+	}
+}

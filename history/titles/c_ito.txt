@@ -1,0 +1,159 @@
+c_nmih_ito = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ito1={
+				set_title_name=b_nmih_ito2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ito1={
+				set_title_name=b_nmih_ito9
+			}
+		}
+	}
+	1249.1.1={
+		effect={
+			title:b_nmih_ito1={
+				set_title_name=B_NMIH_ITO9_1249
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	160.1.1={
+		holder=10290011 # Ubako
+		liege=d_nmih_chikuzen
+	}
+	220.1.1={
+		holder=10290012 # Iguro
+	}
+	250.1.1={
+		holder=10290013 # Ateri
+	}
+	280.1.1={
+		holder=10290014 # Fuku
+	}
+	310.1.1={
+		holder=10290015 # Itote
+	}
+	1180.1.1={
+		liege="d_nmih_chikuzen"
+		holder=12750100 # Harada Taneto
+	}
+	1213.3.26={
+		liege="d_nmih_chikuzen"
+		holder=12750110 # Harada Tanetsugu
+	}
+	1220.1.1={
+		holder=12750115 # Harada Taneyori
+	}
+	1260.1.1={
+		holder=12750122 # Harada Tanefusa
+	}
+	1300.1.1={
+		holder=10067624 # Harada Tanetoo
+	}
+	1320.1.1={
+		holder=10067625 # Harada Tanekatsu
+	}
+	1333.5.25={
+		holder=10067621 # Harada Tanetoki
+	}
+	1333.7.4={
+		liege="d_nmih_chikuzen"
+	}
+	1336.5.25={
+		holder=10067619 # Harada Tanesada
+	}
+	1340.1.1={
+		holder=10067617 # Harada Tanetaka
+	}
+	1350.1.1={
+		holder=10067616 # Harada Taneharu
+	}
+	1380.1.1={
+		holder=10067614 # Harada Tanehisa
+	}
+	1396.1.1={
+		liege="d_nmih_suo"
+	}
+	1400.1.1={
+		liege="d_nmih_chikuzen"
+		holder=10068013 # Shoni Sadayori
+	}
+	1404.7.27={
+		holder=10068005 # Shoni Mitsusada
+	}
+	1433.9.29={
+		holder=10068012 # Shoni Yoshiyori
+	}
+	1441.1.31={
+		holder=10068004 # Shoni Noriyori
+	}
+	1469.1.18={
+		liege="k_nmih_western_chugoku"
+		holder=10067603 # Harada Tanechika
+	}
+	1490.1.1={
+		holder=10067602 # Harada Hirotane
+	}
+	1510.1.1={
+		holder=10067601 # Harada Okitane
+	}
+	1529.1.1={
+		holder=10067600 # Harada Takatane
+	}
+	1551.9.30={
+		liege=0
+	}
+	1552.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1555.10.16={
+		liege=0
+	}
+	1557.5.1={
+		liege="d_nmih_bungo"
+	}
+	1567.1.1={
+		liege="d_nmih_chikugo"
+	}
+	1569.8.1={
+		liege="d_nmih_chikuzen"
+	}
+	1578.12.10={
+		liege="d_nmih_hizen"
+	}
+	1585.1.1={
+		liege="k_nmih_southern_kyushu"
+	}
+	1587.5.18={
+		liege="d_nmih_chikuzen"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1595.8.20={
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1598.3.1={
+		liege="e_nmih_japan"
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1599.2.19={
+		liege="d_nmih_chikuzen"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1603.3.24={
+		liege="d_nmih_chikuzen"
+		holder=10055211 # Kuroda Nagamasa
+	}
+}

@@ -1,0 +1,92 @@
+c_nmih_kuwamura = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kuwamura1={
+				set_title_name=b_nmih_kuwamura4
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kuwamura1={
+				set_title_name=b_nmih_kuwamura9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+		liege="d_nmih_iyo"
+	}
+	1180.1.1={
+		liege="d_nmih_iyo"
+		holder=12691605 # Murakami Kiyonaga
+	}
+	1181.2.27={
+		holder=12691610 # Murakami Yorifuyu
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_central_iyo"
+	}
+	1230.1.1={
+		holder=12691615 # Murakami Yorihisa
+	}
+	1260.1.1={
+		holder=12691620 # Murakami Yoriyasu
+	}
+	1300.1.1={
+		holder=12691625 # Murakami Yorisada
+	}
+	1330.1.1={
+		holder=12691630 # Murakami Yoshihiro
+	}
+	1333.7.4={
+		liege="d_nmih_iyo"
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1374.1.1={
+		holder=10058922 # Murakami Morokiyo
+	}
+	1390.1.1={
+		liege="d_nmih_iyo"
+		holder=10058923 # Murakami Akitada
+	}
+	1455.1.1={
+		holder=10058925 # Murakami Yoshimoto
+	}
+	1490.1.1={
+		holder=10058926 # Murakami Yasuyoshi
+	}
+	1520.1.1={
+		holder=10058927 # Murakami Michiyasu
+	}
+	1567.11.23={
+		holder=10058929 # Murakami Michifusa
+	}
+	1582.1.1={
+		liege="d_nmih_harima"
+	}
+	1583.6.14={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1597.10.26={
+		holder=10058932 # Murakami Nagachika
+	}
+	1603.3.24={
+		liege="d_nmih_southern_iyo"
+		holder=10043302 # Todo Takatora
+	}
+	1608.6.1={
+		liege="d_nmih_ise"
+		holder=10029315 # Todo Takayoshi
+	}
+}

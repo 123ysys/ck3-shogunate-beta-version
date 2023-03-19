@@ -1,0 +1,89 @@
+﻿# Nanboku-cho Decisions
+
+shogunate_unify_two_courts_decision_county_total_value = {
+	title:e_nmih_japan = {
+		every_de_jure_county = {
+			add = 1
+		}
+	}
+}
+
+shogunate_unify_two_courts_decision_county_northern_court_value = {
+	title:e_nmih_japan = {
+		every_de_jure_county = {
+			limit = {
+				holder = {
+					has_trait = northern_court
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+shogunate_unify_two_courts_decision_county_southern_court_value = {
+	title:e_nmih_japan = {
+		every_de_jure_county = {
+			limit = {
+				holder = {
+					has_trait = southern_court
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+shogunate_unify_two_courts_decision_northern_court_percent_value = {
+	value = shogunate_unify_two_courts_decision_county_northern_court_value
+	divide = shogunate_unify_two_courts_decision_county_total_value
+	multiply = 100
+}
+
+shogunate_unify_two_courts_decision_southern_court_percent_value = {
+	value = shogunate_unify_two_courts_decision_county_southern_court_value
+	divide = shogunate_unify_two_courts_decision_county_total_value
+	multiply = 100
+}
+
+
+# Sengoku Decisions
+
+shogunate_sengoku_ending_decision_enemy_value = {
+	every_independent_ruler = {
+		limit = {
+			sub_realm_size >= 20
+		}
+		add = 1
+	}
+}
+
+shogunate_sengoku_ending_decision_county_total_value = {
+	title:e_nmih_japan = {
+		every_de_jure_county = {
+			add = 1
+		}
+	}
+}
+
+shogunate_sengoku_ending_decision_county_current_value = {
+	title:e_nmih_japan = {
+		every_de_jure_county = {
+			limit = {
+				holder.top_liege = {
+					OR = {
+						has_title = title:e_nmih_japan
+						has_title = title:e_nmih_tenno
+					}
+				}
+			}
+			add = 1
+		}
+	}
+}
+
+shogunate_sengoku_ending_decision_county_percent_value = {
+	value = shogunate_sengoku_ending_decision_county_current_value
+	divide = shogunate_sengoku_ending_decision_county_total_value
+	multiply = 100
+}

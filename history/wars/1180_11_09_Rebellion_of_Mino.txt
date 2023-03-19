@@ -1,0 +1,11 @@
+war = {
+	name = "war_1180_rebellion_of_mino"
+	start_date = 1180.11.9
+	end_date = 1181.3.20
+	targeted_titles = {
+		e_nmih_japan
+	}
+	casus_belli = event_genpei_war
+	attackers = { 12420102 } # Toki Mitsunaga
+	defenders = { 10110025 } # Taira Kiyomori
+}

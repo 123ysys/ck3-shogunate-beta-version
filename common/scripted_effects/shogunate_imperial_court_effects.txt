@@ -1,0 +1,165 @@
+﻿change_imperial_court_post_effect = {
+
+	hidden_effect = {
+		add_character_flag = post_changed
+		remove_character_flag = open_court_post_center
+		remove_character_flag = open_court_post_local
+		change_imperial_court_opinion_modifier_effect = yes
+	}
+
+}
+
+change_imperial_court_opinion_modifier_effect = {
+
+	remove_character_modifier = taiko_modifier
+	remove_character_modifier = kampaku_modifier
+	remove_character_modifier = daijin_modifier
+	remove_character_modifier = nagon_modifier
+	remove_character_modifier = jiju_modifier
+	remove_character_modifier = hassho_kyo_modifier
+	remove_character_modifier = hassho_daihu_modifier
+	remove_character_modifier = hassho_sho_modifier
+	remove_character_modifier = taisho_modifier
+	remove_character_modifier = chujo_kami_modifier
+	remove_character_modifier = suke_modifier
+	remove_character_modifier = jo_modifier
+	remove_character_modifier = kokushi_dazai_modifier
+	remove_character_modifier = kokushi_kami_modifier
+	remove_character_modifier = kokushi_suke_modifier
+
+	if = {
+		limit = {
+			is_taiko_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = taiko_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_kampaku_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = kampaku_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_daijin_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = daijin_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_nagon_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = nagon_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_jiju_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = jiju_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_hassho_kyo_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = hassho_kyo_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_hassho_daihu_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = hassho_daihu_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_hassho_sho_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = hassho_sho_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_taisho_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = taisho_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_chujo_kami_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = chujo_kami_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_suke_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = suke_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_jo_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = jo_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_kokushi_dazai_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = kokushi_dazai_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_kokushi_kami_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = kokushi_kami_modifier
+		}
+	}
+
+	if = {
+		limit = {
+			is_kokushi_suke_trigger = yes
+		}
+		add_character_modifier = {
+			modifier = kokushi_suke_modifier
+		}
+	}
+
+}

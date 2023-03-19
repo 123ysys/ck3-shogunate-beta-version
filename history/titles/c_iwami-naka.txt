@@ -1,0 +1,112 @@
+c_nmih_iwami-naka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_iwami-naka1={
+				set_title_name=b_nmih_iwami-naka1
+			}
+		}
+	}
+	1200.1.1={
+		effect={
+			title:b_nmih_iwami-naka1={
+				set_title_name=b_nmih_iwami-naka8
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1200.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege=0
+		holder=12661200 # Masuda Kanehide
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_iwami"
+	}
+	1190.1.1={
+		holder=12661205 # Masuda Kanetaka
+	}
+	1200.1.1={
+		holder=12661212 # Fukuya Kanehiro
+	}
+	1240.1.1={
+		holder=12669000 # Fukuya Kanenaka
+	}
+	1270.1.1={
+		holder=12669001 # Fukuya Kanechika
+	}
+	1300.1.1={
+		holder=12669010 # Fukuya Kaneyuki
+	}
+	1333.7.4={
+		liege="d_nmih_iwami"
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1340.1.1={
+		holder=12669015 # Fukuya Kanekage
+	}
+	1342.5.1={
+		liege="d_nmih_iwami"
+		holder=12669015 # Fukuya Kanekage
+	}
+	1350.1.1={
+		holder=12669020 # Fukuya Kaneyoshi
+	}
+	1351.3.15={
+		liege="k_nmih_western_chugoku"
+	}
+	1363.9.1={
+		liege="d_nmih_iwami"
+	}
+	1380.1.1={
+		liege="d_nmih_iwami"
+		holder=10055607 # Fukuya Kanemitsu
+	}
+	1400.1.1={
+		holder=10055606 # Fukuya Ujikane
+	}
+	1440.1.1={
+		holder=10055605 # Fukuya Kiyokane
+	}
+	1470.1.1={
+		holder=10055602 # Fukuya Kunikane
+	}
+	1477.12.16={
+		liege=0
+	}
+	1494.1.1={
+		liege="k_nmih_western_chugoku"
+	}
+	1500.1.1={
+		holder=10055601 # Fukuya Masakane
+	}
+	1530.1.1={
+		holder=10055600 # Fukuya Takakane
+	}
+	1551.9.30={
+		liege="d_nmih_aki"
+	}
+	1561.7.1={
+		liege="d_nmih_izumo"
+	}
+	1562.2.1={
+		liege="k_nmih_western_chugoku"
+		holder=10055702 # Ogasawara Nagakatsu
+	}
+	1571.1.4={
+		holder=10055749 # Ogasawara Nagahata
+	}
+	1592.1.1={
+		holder=10056025 # Mori Terumoto
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10055107 # Sakazaki Naomori
+	}
+}

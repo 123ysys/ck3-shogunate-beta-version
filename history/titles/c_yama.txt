@@ -1,0 +1,115 @@
+c_nmih_yama = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yama1={
+				set_title_name=b_nmih_yama1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yama1={
+				set_title_name=b_nmih_yama9
+			}
+		}
+	}
+	1181.7.26={
+		effect={
+			title:b_nmih_yama1={
+				set_title_name=b_nmih_yama1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1181.7.26 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_echigo"
+		holder=12270150 # Jo Jotan
+	}
+	1181.7.25={
+		liege="d_nmih_iwashiro"
+		holder=12060060 # Sato Motoharu
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="d_nmih_aizu"
+		holder=12211035 # Sahara Yoshitsura
+	}
+	1200.1.1={
+		holder=12211203 # Sahara Moritsura
+	}
+	1233.5.1={
+		holder=12211225 # Sahara Tokitsura
+	}
+	1280.1.1={
+		holder=12211400 # Shingu Yoritsura
+	}
+	1285.11.17={
+		holder=12211410 # Shingu Masatsura
+	}
+	1315.1.1={
+		holder=12211411 # Shingu Tokitsura
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1340.1.1={
+		liege="d_nmih_aizu"
+		holder=12211465 # Shingu Akitsugu
+	}
+	1379.1.1={
+		holder=12211466 # Shingu Moritoshi
+	}
+	1420.1.1={
+		liege="d_nmih_aizu"
+		holder=12070025 # Ashina Morimasa
+	}
+	1434.6.1={
+		holder=12070030 # Ashina Morihisa
+	}
+	1444.1.1={
+		holder=12070031 # Ashina Morinobu
+	}
+	1451.1.1={
+		holder=10007008 # Ashina Moriakira
+	}
+	1466.1.1={
+		holder=10007004 # Ashina Moritaka
+	}
+	1480.1.1={
+		holder=10007801 # Inawashiro Morikiyo
+	}
+	1539.1.1={
+		holder=10007802 # Inawashiro Morikuni
+	}
+	1585.1.1={
+		holder=10007803 # Inawashiro Moritane
+	}
+	1588.5.24={
+		liege="k_nmih_oshu_tandai"
+		holder=10007802 # Inawashiro Morikuni
+	}
+	1590.8.28={
+		liege="k_nmih_southern_oshu"
+		holder=10044515 # Gamo Satoyasu
+	}
+	1591.8.12={
+		holder=10096600 # Machino Shigeyori
+	}
+	1598.3.1={
+		holder=10091600 # Suibara Chikanori
+	}
+	1603.3.24={
+		liege="d_nmih_aizu"
+		holder=10206800 # Oka Sadatoshi
+	}
+}

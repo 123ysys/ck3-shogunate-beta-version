@@ -1,0 +1,65 @@
+﻿l_french:
+
+ special_contract:2 "[Concept( 'feudal_contract', 'Vermilion-Seal Certificate' )|B|color_black|U]"
+ special_contract_none:0 "Aucun certificat"
+ special_contract_scutage:0 "Contrat d'écuage"
+ special_contract_march:0 "Exempté du service Sankin"
+ special_contract_palatinate:0 "Nommé Vassal de Shukuro"
+ special_contract_none_short:0 "Aucun"
+ special_contract_scutage_short:0 "Écuage"
+ special_contract_march_short:0 "Pas de service Sankin"
+ special_contract_palatinate_short:0 "Vassal de Shukuro"
+
+ scutage:0 "Écuage"
+ scutage_enabled_short:0 "Activé"
+ scutage_enabled:0 "$scutage$ $scutage_enabled_short$"
+ scutage_disabled_short:0 "Désactivé"
+ scutage_disabled:1 "$scutage$ $scutage_disabled_short$"
+
+ religious_rights:0 "Droits religieux"
+ religious_rights_none_short:0 "non garanti"
+ religious_rights_none:0 "$religious_rights$ $religious_rights_none_short$"
+ religious_rights_protected_short:0 "garanti"
+ religious_rights_protected:0 "$religious_rights$ $religious_rights_protected_short$"
+
+ fortification_rights:0 "Fortification"
+ fortification_rights_none_short:0 "non autorisé"
+  fortification_rights_none:0 "$fortification_rights$ $fortification_rights_none_short$"
+ fortification_rights_granted_short:0 "autorisé"
+ fortification_rights_granted:0 "$fortification_rights$ $fortification_rights_granted_short$"
+
+
+ succession_rights:0 "Succession"
+ succession_rights_default:0 "Pas d'intervention"
+ succession_rights_default_short:0 "Pas d'intervention"
+ succession_rights_forced_partition:0 "Partition forcée"
+ succession_rights_forced_partition_short:0 "Partition forcée"
+
+ coinage_rights:0 "Monnaie privée"
+ coinage_rights_none_short:0 "interdite"
+ coinage_rights_none:0 "$coinage_rights$ $coinage_rights_none_short$"
+ coinage_rights_granted_short:0 "autorisé"
+ coinage_rights_granted:0 "$coinage_rights$ $coinage_rights_granted_short$"
+
+
+ war_declaration_rights:0 "Guerre privée"
+ war_declaration_rights_default_short:0 "non autorisé"
+ war_declaration_rights_default:0 "$war_declaration_rights$ $war_declaration_rights_default_short$"
+ war_declaration_rights_allowed_short:0 "autorisé"
+ war_declaration_rights_allowed:0 "$war_declaration_rights$ $war_declaration_rights_allowed_short$"
+
+ council_rights:0 "Place au conseil de Jushin"
+ council_rights_none_short:0 "Non garantie" 
+ council_rights_none:0 "$council_rights$ $council_rights_none_short$"
+ council_rights_guaranteed_short:0 "garantie"
+ council_rights_guaranteed:0 "$council_rights$ $council_rights_guaranteed_short$"
+
+ title_revocation_rights:0 "Certificat pour le terrain"
+ title_revocation_rights_default_short:0 "non délivré"
+ title_revocation_rights_default:0 "$title_revocation_rights$ $title_revocation_rights_default_short$"
+ title_revocation_rights_protected_short:0 "délivré"
+ title_revocation_rights_protected:0 "$title_revocation_rights$ $title_revocation_rights_protected_short$"
+
+ VASSAL_CONTRACT_VASSAL_TITLE:0 "Modifie le contrat de\n#high [VassalContract.GetVassal.GetTitleTierName] [VassalContract.GetVassal.GetHouse.GetNameNoTooltip] [VassalContract.GetVassal.GetFirstNameNoTooltip]\nDirigeant de [VassalContract.GetVassal.GetPrimaryTitle.GetNameNoTierNoTooltip]#!"
+ CONTRACT_LIEGE_SIGNATURE:0 "[GetCurrentDate.GetString]\n[VassalContract.GetLiege.GetFirstNameNoTooltip]"
+ CONTRACT_VASSAL_SIGNATURE:0 "[VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip] [VassalContract.GetVassal.GetFirstNameNoTooltip]"

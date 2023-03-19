@@ -1,0 +1,137 @@
+c_nmih_inaba = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_inaba1={
+				set_title_name=b_nmih_inaba9
+			}
+		}
+	}
+	1350.1.1={
+		effect={
+			title:b_nmih_inaba1={
+				set_title_name=b_nmih_inaba1
+			}
+		}
+	}
+	1469.1.1={
+		effect={
+			title:b_nmih_inaba1={
+				set_title_name=b_nmih_inaba4
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1350.1.1 = { change_development_level = 20 }
+	1460.1.1 = { change_development_level = 20 }
+	1469.1.1 = { change_development_level = 30 }
+	1591.1.1 = { change_development_level = 20 }
+
+	0360.1.1={
+		holder=10041312 # Itsukori
+	}
+	0701.1.1={
+		liege="d_nmih_shimousa"
+	}
+	1180.1.1={
+		holder=12155011 # Into [Taira/Kazusa] Tsuneshige
+	}
+	1180.10.4={
+		liege="d_nmih_shimousa"
+		holder=12150111 # Usui Tsuneyasu
+	}
+	1186.1.1={
+		holder=12151100 # Usui Tsunetada
+	}
+	1200.1.1={
+		holder=12151101 # Usui Naritsune
+	}
+	1220.1.1={
+		holder=12151105 # Usui Moritsune
+	}
+	1247.7.8={
+		holder=12150141 # Chiba Yaasutane
+	}
+	1251.1.1={
+		holder=12150145 # Chiba Yoritane
+	}
+	1275.9.7={
+		liege="e_nmih_japan"
+		holder=12150150 # Chiba Munetane
+	}
+	1294.2.12={
+		holder=12150155 # Chiba Tanesada
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1336.12.22={
+		liege="d_nmih_shimousa"
+		holder=12151135 # Usui Okitane
+	}
+	1364.4.18={
+		holder=12151140 # Usui Hisatane
+	}
+	1376.7.13={
+		holder=12151145 # Usui Kanetane
+	}
+	1383.11.3={
+		holder=12151150 # Usui Fuyutane
+	}
+	1402.8.23={
+		holder=12151155 # Usui Yukitane
+	}
+	1430.5.12={
+		holder=12151160 # Usui Noritane
+	}
+	1465.5.22={
+		holder=10011606 # Chiba Suketane
+	}
+	1492.3.13={
+		holder=10011605
+	}
+	1505.9.26={
+		holder=10011604 # Chiba Katsutane
+	}
+	1532.6.24={
+		holder=10011601 # Chiba Masatane
+	}
+	1546.2.7={
+		holder=10011602 # Chiba Toshitsane
+	}
+	1547.7.28={
+		holder=10011673 # Chiba Chikatane
+	}
+	1557.8.30={
+		holder=10011603 # Chiba Tanetomi
+	}
+	1565.11.1={
+		holder=10011618 # Chiba Yoshitane
+	}
+	1570.1.1={
+		holder=10011619 # Chiba Kunitane
+	}
+	1585.6.4={
+		holder=10016032 # Chiba(Hojo) Naoshige
+	}
+	1590.7.25={
+		holder=10024259 # Sakai Ietsugu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1608.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10202100 # Doi Toshikatsu
+	}
+	1616.6.1={
+		liege="e_nmih_japan"
+	}
+}

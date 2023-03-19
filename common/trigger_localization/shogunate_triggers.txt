@@ -1,0 +1,19 @@
+﻿shogunate_not_in_diplomatic_range_trigger = {
+	global_not = NOT_IN_DIPLOMATIC_RANGE
+}
+
+shogunate_adoption_age_is_too_close_trigger = {
+	global_not = SHOGUNATE_ADOPTION_AGE_IS_TOO_CLOSE
+}
+
+shogunate_adoption_father_is_not_male_trigger = {
+	global_not = SHOGUNATE_ADOPTION_FATHER_IS_NOT_MALE
+}
+
+shogunate_adoption_child_is_married_or_betrothed_trigger = {
+	global_not = SHOGUNATE_ADOPTION_CHILD_IS_MARRIED_OR_BETROTHED
+}
+
+shogunate_adoption_actor_is_not_dynast_trigger = {
+	global_not = SHOGUNATE_ADOPTION_ACTOR_IS_NOT_DYNAST
+}

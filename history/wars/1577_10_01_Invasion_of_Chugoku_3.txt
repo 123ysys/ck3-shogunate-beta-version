@@ -1,0 +1,11 @@
+war = {
+	name = "war_1577_invasion_of_chugoku"
+	start_date = 1578.10.1
+	end_date = 1580.2.1
+	targeted_titles = {
+		k_nmih_western_chugoku
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = { 10029120 10029400 } # Oda Nobunaga, Hashiba Hideyoshi
+	defenders = { 10056025 10053568 10045700 } # Mori Terumoto, Bessho Nagaharu, Araki Murashige
+}

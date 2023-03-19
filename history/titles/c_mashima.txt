@@ -1,0 +1,130 @@
+c_nmih_mashima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mashima1={
+				set_title_name=b_nmih_mashima9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mashima1={
+				set_title_name=b_nmih_mashima9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_mashima1={
+				set_title_name=b_nmih_mashima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege = "d_nmih_mimasaka"
+		holder=12630300 # Emi Morinobu
+	}
+	1184.3.20={ # Battle of Ichi-no-Tani
+		liege="d_nmih_mimasaka"
+		holder=12215110 # Kajiwara Kagetoki
+	}
+	1199.12.18={
+		holder=12211501 # Wada Yoshimori
+	}
+	1213.5.24={
+		holder=11007364 # Oinomikado Yorizane
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_mimasaka"
+		holder=12139003 # Ashikaga Yoshiuji
+	}
+	1255.1.1={
+		holder=12139015 # Ashikaga Yoriuji
+	}
+	1262.1.1={
+		holder=12139022 # Ashikaga Ietoki
+	}
+	1284.8.7={
+		holder=12139024 # Ashikaga Sadauji
+	}
+	1300.1.1={
+		holder=12211426 # Miura Sadamune
+	}
+	1333.7.4={
+		liege="d_nmih_mimasaka"
+	}
+	1335.1.1={
+		holder=12211431 # Miura Yukitsura
+	}
+	1360.1.1={
+		holder=10053607 # Miura Noritsura
+	}
+	1400.1.1={
+		liege="d_nmih_mimasaka"
+		holder=10053606 # Miura Masamori
+	}
+	1430.1.1={
+		holder=10053605 # Miura Sadaaki
+	}
+	1460.1.1={
+		holder=10053604 # Miura Sadatsura
+	}
+	1490.1.1={
+		holder=10053601 # Miura Sadakuni
+	}
+	1532.1.1={
+		holder=10053600 # Miura Sadahisa
+	}
+	1548.10.17={
+		holder=10053603 # Miura Sadahiro
+	}
+	1559.4.1={
+		liege="d_nmih_bizen"
+		holder=10053602 # Miura Sadakatsu
+	}
+	1566.1.6={
+		liege="d_nmih_bitchu"
+		holder=10054900 # Mimura Iechika
+	}
+	1566.2.24={
+		liege="d_nmih_bizen"
+		holder=10053614 # Miura Sadamori
+	}
+	1568.3.17={
+		liege="d_nmih_bitchu"
+		holder=10054906 # Mimura Mptochika
+	}
+	1570.10.1={
+		liege=0
+		holder=10053603 # Miura Sadahiro
+	}
+	1576.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10056016 # Kobayakawa Takakage
+	}
+	1584.1.1={
+		liege="d_nmih_bizen"
+		holder=10055101 # Ukita Hideie
+	}
+	1601.1.1={
+		liege="d_nmih_mimasaka"
+		holder=10029466 # Kobayakawa Hideaki
+	}
+	1602.12.1={
+		holder=10025426 # Mori Tadamasa
+	}
+	1608.11.22={
+		holder=10207100 # Otsuka Tango-kami
+	}
+	1612.7.1={
+		holder=10207101 # Otsuka Mitsutoshi
+	}
+}

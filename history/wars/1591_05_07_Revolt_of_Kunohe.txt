@@ -1,0 +1,16 @@
+war = {
+	name = "war_1591_revolt_of_kunohe"
+	start_date = 1591.5.7
+	end_date = 1591.11.6
+	targeted_titles = {
+		d_nmih_mutsu
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = {
+		10003201	# Kunohe Masazane
+		10003166	# Kuji Naoharu
+	}
+	defenders = {
+		10029400	# Toyotomi Hideyoshi
+	}
+}

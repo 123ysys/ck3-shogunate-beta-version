@@ -1,0 +1,226 @@
+d_nmih_kofukuji = {
+	1.1.1={
+		government = theocracy_government
+	}
+	0669.1.1={
+	}
+	1179.5.20={
+		liege="k_nmih_yamashiro"
+		holder=12570101 # Genen, Kofuku-ji betto (the head priest of Kofuku-ji Temple)
+	}
+	1180.6.20={
+		liege=0
+	}
+	1181.1.12={
+		liege="k_nmih_southern_kinai"
+		holder=11000162 # Shinen, Siege_of_Nara
+	}
+	1183.8.17={
+		liege=0
+	}
+	1184.3.4={
+		liege = "e_nmih_japan"
+	}
+	1189.7.13={
+		holder=11006929 # [45] Kakuken
+	}
+	1199.1.18={
+		holder=10125050 # [47] Gaen
+	}
+	1207.2.20={
+		holder=11000605 # [48] Ryoen
+	}
+	1208.2.28={
+		holder=10125050 # [49] Gaen
+	}
+	1214.1.16={
+		holder=11006930 # [50] Shinken
+	}
+	1218.1.10={
+		holder=10125050 # [51] Gaen
+	}
+	1219.1.14={
+		holder=11000605 # [52] Ryoen
+	}
+	1220.2.21={
+		holder=10125050 # [53] Gaen
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+	}
+	1226.1.1={
+		holder=11000461 # [55] Jitsuson
+	}
+	1230.5.5={
+		holder=11000216 # [56] Jitsushin
+	}
+	1233.1.1={
+		holder=11000216 # [58] Jitsushin
+	}
+	1235.1.1={
+		holder=11000634 # [59] Enjitsu
+	}
+	1244.1.1={
+		holder=11000216 # [61][63] Jitsushin
+	}
+	1250.1.1={
+		holder=11001127 # [65] Kinen
+	}
+	1251.1.1={
+		holder=11000216 # [66] Jitsushin
+	}
+	1253.1.1={
+		holder=10125067 # [67] Shinen
+	}
+	1258.11.14={
+		holder=11000634 # [69] Enjitsu
+	}
+	1260.1.4={
+		holder=11000627 # [70] Sonshin
+	}
+	1266.8.3={
+		holder=11004139 # [71] Raien
+	}
+	1273.5.9={
+		holder=11000246 # [73] Shinsho
+	}
+	1278.2.10={
+		holder=11000627 # [75] Sonshin
+	}
+	1280.1.13={
+		holder=11000246 # [76] Shinsho
+	}
+	1281.4.30={
+		holder=11000657 # [77][80][83][85] Jishin 
+	}
+	1295.1.1={
+		holder=10125308 # [86] Kenkaku
+	}
+	1297.3.27={
+		holder=11000657 # [90] Jishin
+	}
+	1303.12.10={
+		holder=11000252 # [93] Kakusho
+	}
+	1305.1.25={
+		holder=11000683 # [94] Jinkaku
+	}
+	1307.1.1={
+		holder=11000414 # [97] Ryoshin
+	}
+	1308.1.1={
+		holder=11000683 # [99] Jinkaku
+	}
+	1310.1.1={
+		holder=11000414 # [100] Ryoshin
+	}
+	1315.1.1={
+		holder=11000683 # [103] Jinkaku
+	}
+	1316.1.1={
+		holder=11000414 # [105] Ryoshin
+	}
+	1317.1.1={
+		holder=11000260 # [106][108][110] Ryokaku
+	}
+	1318.1.1={
+		holder=11000414 # [114] Ryoshin
+	}
+	1319.1.1={
+		holder=11000260 # [117][119] Ryokaku
+	}
+	1332.9.4={
+		holder=11000268 # [121][123][125] Kakujitsu
+	}
+	1333.6.17={
+		liege=0
+	}
+	1351.6.15={
+		holder=11000724 # Kujo Kokaku
+	}
+	1374.2.24={
+		holder=11000281 # Konoe Ryosho
+	}
+	1402.5.25={
+		holder=11000762 # Kujo Koen
+	}
+	1410.1.1={
+		holder=11000283 # Konoe Ryoken
+	}
+	1414.11.5={
+		holder=11000774 # [165] Kujo Kyogaku
+	}
+	1431.1.1={
+		holder=11000774 # [168] Kujo Kyogaku
+	}
+	1456.1.1={
+		holder=11000788 # [180] Ichijo Jinson
+	}
+	1461.1.1={
+		holder=11000774 # [182] Kujo Kyogaku
+	}
+	1469.1.1={
+		holder=11000774 # [186] Kujo Kyogaku
+	}
+	1473.9.19={
+		holder=11004301 # [187] Kojun
+	}
+	1486.1.1={
+		holder=11003189 # [189] Sonyo
+	}
+	1490.1.1={
+		holder=11000803 # [190] Seikaku
+	}
+	1494.4.21={
+		holder=10048003 # [191] Ryuken 
+	}
+	1497.1.30={
+		holder=10048002 # [192] Kukaku
+	}
+	1510.12.25={
+		holder=11004429 # [193] Kokei 
+	}
+	1515.1.1={
+		holder=11000293 # [194] Ryoyo
+	}
+	1520.1.1={
+		holder=10048001 # [195] Kenkei
+	}
+	1525.1.1={
+		holder=11000826 # [196] Kyojin
+	}
+	1526.9.4={
+		holder=11004316 # [197] Enshin
+	}
+	1534.4.13={
+		holder=10048001 # [201] Kenkei
+	}
+	1553.10.13={
+		holder=11000298 # [202] Kakuyo
+	}
+	1562.5.17={
+		holder=11000836 # [203] Jinen
+	}
+	1563.1.1={
+		holder=11007278 # [204] Kujitsu
+	}
+	1568.9.16={
+		holder=11004450 # [205] Koson
+	}
+	1570.11.8={
+		holder=11007419 # [206] Jitsugyo
+	}
+	1573.9.1={
+		holder=11004327 # [207] Kojitsu
+	}
+	1585.12.2={
+		holder=11004440 # [208] Kenshin
+	}
+	1589.8.16={
+		holder=11000311 # [209] Sonsei
+	}
+	1616.1.1={
+		holder=11004451 # [210] Kojo
+	}
+}

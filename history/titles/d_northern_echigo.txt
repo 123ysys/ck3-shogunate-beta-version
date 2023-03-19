@@ -1,0 +1,67 @@
+d_nmih_northern_echigo = {
+	100.1.1={
+	}
+	1181.7.25={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12270131 # Jo Nagamochi
+	}
+	1183.8.17={
+		liege = 0
+		liege = "k_nmih_western_chugoku"
+	}
+	1185.4.25={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1201.2.27={
+		liege = 0
+		liege=0
+	}
+	1201.3.28={
+		holder=12270140 # Jo Sukemori
+	}
+	1201.6.11={
+		liege="e_nmih_japan"
+		holder=12510062 # Sasaki Moritsuna
+	}
+	1211.1.1={
+		holder=12270400 # Kaji Nobuzane
+	}
+	1243.8.13={
+		holder=12270414 # Kaji Ujitsuna
+	}
+	1260.1.1={
+		holder=12270480 # Kaji Kagetsuna
+	}
+	1300.1.1={
+		holder=12270485 # Kaji Munetsuna
+	}
+	1330.1.1={
+		holder=12270490 # Kaji Kagetsuna
+	}
+	1333.7.4={
+		liege=0
+	}
+	1335.8.14={
+		liege=0
+		liege = "k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1338.8.17={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+	1581.6.16={
+		liege=0
+		holder=10032320 # Shibata Shigeie
+	}
+	1587.11.25={
+		liege=0
+		holder=0 # 
+	}
+}

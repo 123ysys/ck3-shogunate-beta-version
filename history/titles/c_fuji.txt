@@ -1,0 +1,160 @@
+c_nmih_fuji = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_fuji1={
+				set_title_name=b_nmih_fuji1
+			}
+		}
+	}
+	1569.8.15={
+		effect={
+			title:b_nmih_fuji1={
+				set_title_name=b_nmih_fuji3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	800.1.1 = { change_development_level = 10 }
+	1569.8.15 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_suruga"
+	}
+	795.1.1={
+		holder=10260500 # Fuji Toyomaro
+	}
+	825.8.17={
+		holder=10260501 # Fuji Ikemori
+	}
+	848.2.5={
+		holder=10260502 # Fuji Kunio
+	}
+	861.6.17={
+		holder=10260503 # Fuji Fuchio
+	}
+	880.1.1={
+		holder=10260504 # Fuji Tanehito
+	}
+	890.1.1={
+		holder=10260505 # Fuji Yoshikiyo
+	}
+	920.1.1={
+		holder=10260506 # Fuji Kiyona
+	}
+	940.1.1={
+		holder=10260509 # Fuji Kiyotaka
+	}
+	960.1.1={
+		holder=10260510 # Fuji Kiyotoshi
+	}
+	980.1.1={
+		holder=10260511 # Fuji Kimikiyo
+	}
+	990.1.1={
+		holder=10260512 # Fuji Toshio
+	}
+	1030.1.1={
+		holder=10260513 # Fuji Michitoki
+	}
+	1070.1.1={
+		holder=10260514 # Fuji Nobukiyo
+	}
+	1100.1.1={
+		liege="d_nmih_suruga"
+		holder=10260515 # Fuji Nobutoki
+	}
+	1130.1.1={
+		holder=10260516 # Fuji Tokimune
+	}
+	1160.1.1={
+		holder=10260517 # Fuji Naoyo
+	}
+	1190.1.1={
+		liege="d_nmih_suruga"
+		holder=10260518 # Fuji Naonobu
+	}
+	1220.1.1={
+		holder=10260519 # Fuji Nobuchika
+	}
+	1250.1.1={
+		holder=10260520 # Fuji Nobunao
+	}
+	1280.1.1={
+		holder=10260521 # Fuji Naonori
+	}
+	1310.1.1={
+		holder=10260522 # Fuji Noritoki
+	}
+	1330.1.1={
+		holder=10260523 # Fuji Naotoki
+	}
+	1351.1.1={
+		liege="k_nmih_western_kanto"
+	}
+	1352.1.15={
+		liege="d_nmih_suruga"
+	}
+	1370.1.1={
+		liege="d_nmih_suruga"
+		holder=10260524 # Fuji Suketoki
+	}
+	1400.1.1={
+		holder=10260525 # Fuji Naritoki
+	}
+	1430.1.1={
+		liege="d_nmih_suruga"
+		holder=10023706 # Fuji Naouji
+	}
+	1450.1.1={
+		holder=10023705 # Fuji Masatoki
+	}
+	1465.1.1={
+		holder=10023704 # Fuji Tadatoki
+	}
+	1480.1.1={
+		holder=10023703 # Fuji Chikatoki
+	}
+	1500.1.1={
+		holder=10023701 # Fuji Nobumori
+	}
+	1533.1.1={
+		holder=10023700 # Fuji Nobutada
+	}
+	1568.12.13={
+		liege="k_nmih_western_kanto"
+		holder=10023700 # Fuji Nobutada
+	}
+	1569.8.15={
+		liege="d_nmih_suruga" # Takeda Shingen
+		holder=10020010 # Takeda Shingen
+	}
+	1570.1.1={
+	    holder=10020231 # Hara Masatane
+	}
+	1575.06.29={
+		holder=10020033 # Takeda Katsuyori
+	}
+	1582.4.3={
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1590.7.25={ 
+		holder=10096801 # Nakamura Kazuuji
+		liege="d_nmih_suruga"
+	}
+	1600.8.25={ 
+		holder=10096803 # Nakamura Kazutada
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1609.12.27={
+		liege="d_nmih_suruga"
+		holder=10024049 # Tokugawa Yorinobu
+	}
+}

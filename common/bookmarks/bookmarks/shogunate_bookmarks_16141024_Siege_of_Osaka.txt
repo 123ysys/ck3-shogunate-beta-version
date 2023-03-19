@@ -1,0 +1,5 @@
+﻿bm_osaka1614 = {
+	start_date = 1614.10.24
+	is_playable = yes
+	group = bm_group_toyotomi_government
+}

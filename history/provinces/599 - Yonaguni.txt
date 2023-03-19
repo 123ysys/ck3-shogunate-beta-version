@@ -1,0 +1,7 @@
+599 = {
+
+	culture = sakishima
+	religion = ryukyuan
+	holding = castle_holding
+
+}

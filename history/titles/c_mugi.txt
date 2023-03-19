@@ -1,0 +1,153 @@
+c_nmih_mugi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mugi1={
+				set_title_name=b_nmih_mugi2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mugi1={
+				set_title_name=b_nmih_mugi6
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_mugi1={
+				set_title_name=b_nmih_mugi1
+			}
+		}
+	}
+	1556.5.28={
+		effect={
+			title:b_nmih_mugi1={
+				set_title_name=b_nmih_mugi2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+	1556.5.28 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_mino"
+	}
+	1180.1.1={
+		liege="d_nmih_mino"
+		holder=12421000 # Yamagata Kunimasa
+	}
+	1190.1.1={
+		holder=12421005 # Yamagata Yorikiyo
+	}
+	1220.1.1 ={
+		holder=12421009 # Yamagata Yoritaka
+	}
+	1221.7.6={ # Jokyu War
+		holder=12361555 # Henmi Yoshishige
+	}
+	1260.1.1={
+		holder=12361560 # Henmi Shigeuji
+	}
+	1290.1.1={
+		holder=12361565 # Henmi Yoshiuji
+	}
+	1320.1.1={
+		holder=12361570 # Henmi Yasuuji
+	}
+	1333.7.4={
+		liege="d_nmih_mino"
+		holder=10025309 # Toki Yorisada
+	}
+	1339.4.1={
+		liege="d_nmih_mino"
+		holder=10131556 # Saito Toshiyasu
+	}
+	1374.11.13={
+		holder=10131561 # Saito Yugu
+	}
+	1400.1.1={
+		holder=10025607 # Saito Toshiaki
+	}
+	1450.10.6={
+		holder=10025608 # Saito Toshinaga
+	}
+	1460.6.16={
+		holder=10025606 # Saito Myochin
+	}
+	1480.4.1={
+		holder=10025609 # Saito Toshifuji
+	}
+	1480.11.1={
+		holder=10025603 # Saito Myojun
+	}
+	1497.1.10={
+		liege="d_nmih_mino"
+		holder=10025329 # Toki Sadayori
+	}
+	1510.1.1={
+		holder=10025303 # Toki Yoritake
+	}
+	1525.6.1={
+		liege=0
+	}
+	1534.1.1={
+		holder=10025305 # Toki Yorizumi
+	}
+	1542.12.28={
+		liege="d_nmih_mino"
+		holder=10025451 # Saito Dosan
+	}
+	1555.12.24={
+		liege=0
+	}
+	1556.5.28={
+		liege="d_nmih_mino"
+		holder=10025506 # Nagai Michitoshi
+	}
+	1567.10.1={
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.12.30={
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+		holder=10025456 # Saito Toshitaka
+	}
+	1582.7.16={
+		liege="d_nmih_mino"
+		holder=10029162 # Oda Nobutaka
+	}
+	1583.6.14={
+		liege="d_nmih_mino"
+		holder=10029552 # Ikeda Tsuneoki
+	}
+	1584.5.18={
+		holder=10029554 # Ikeda Terumasa
+	}
+	1590.7.25={
+		holder=10029412 # Toyotomi Hidekatsu
+	}
+	1592.10.14={
+		holder=10029184 # Oda Hidenobu
+	}
+	1601.1.1={
+		liege="k_nmih_western_kanto"
+		holder=10024325 # Okudaira Nobumasa
+	}
+	1602.1.1={
+		holder=10024332 # Okudaira Tadamasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.8.7={
+		holder=10024336 # Okudaira Tadataka
+	}
+}

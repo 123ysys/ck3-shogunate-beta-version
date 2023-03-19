@@ -1,0 +1,1418 @@
+﻿
+fund_inspiration_effect = {
+	scope:recipient = {
+		if = {
+			limit = {
+				NOT = { is_courtier_of = scope:actor }
+			}
+			if = {
+				limit = {
+					any_traveling_family_member = {
+						can_any_traveling_family_members_travel_trigger = yes
+					}
+				}
+				every_traveling_family_member = {
+					custom = fund_inspiration_interaction_reqruit_family_tooltip
+					limit = {
+						can_any_traveling_family_members_travel_trigger = yes
+					}
+					scope:actor = {
+						recruit_courtier = prev
+					}
+				}
+			}
+			else = {
+				scope:actor = {
+					add_courtier = scope:recipient
+				}
+			}
+		}
+		add_opinion = {
+			target = scope:actor
+			modifier = grateful_opinion
+			opinion = 40
+		}
+	}
+	scope:actor = {
+		sponsor_inspiration = scope:recipient.inspiration
+	}
+	if = {
+		limit = {
+			scope:actor = {
+				is_ai = no
+			}
+			NOT = {
+				exists = global_var:ep1_07_achievement_inspiration_count_tracker
+			}
+		}
+		set_global_variable = {
+			name = ep1_07_achievement_inspiration_count_tracker
+			value = 1
+		}
+	}
+	else_if = {
+		limit = {
+			scope:actor = {
+				is_ai = no
+			}
+			exists = global_var:ep1_07_achievement_inspiration_count_tracker
+		}
+		change_global_variable = {
+			name = ep1_07_achievement_inspiration_count_tracker
+			add = 1
+		}
+	}
+}
+
+grant_inspiration_reward_effect = {
+	add_gold = {
+		value = root.inspiration_gold_invested
+		multiply = 0.25
+	}
+	add_prestige_level = 1
+	add_prestige = {
+		value = root.inspiration_gold_invested
+		multiply = 0.75
+	}
+}
+
+set_alchemy_inspiration_type_effect = {
+	save_temporary_scope_value_as = {
+		name = allow_no_type_option
+		value = $NO_TYPE$
+	}
+	hidden_effect = {
+		$BASE_SCOPE$ = {
+			#The type has been decided in events, when the character got inspired, or now. Let's save it! (might still leave it up to the sponsor if allow_no_type_option = yes!)
+			if = {
+				limit = {
+					NOT = { exists = var:artifact_alchemy_type }
+				}
+				random_list = { #What do they want to do?
+					5 = { #Elixirs
+						modifier = {
+							add = 5
+							has_trait = arrogant
+						}
+						set_variable = {
+							name = artifact_alchemy_type
+							value = flag:alchemy_type_elixirs
+						}
+					}
+					10 = { #Metals
+						set_variable = {
+							name = artifact_alchemy_type
+							value = flag:alchemy_type_metals
+						}
+					}
+					10 = { #Panacea: a cure-all for all disease
+						modifier = {
+							add = 10
+							has_trait = lifestyle_physician 
+						}
+						set_variable = {
+							name = artifact_alchemy_type
+							value = flag:alchemy_type_panacea
+						}
+					}
+					5 = { #Immortality
+						modifier = {
+							add = 5
+							has_trait = arrogant
+						}
+						set_variable = {
+							name = artifact_alchemy_type
+							value = flag:alchemy_type_immortality
+						}
+					}
+					50 = { #They don't care and you can decide!
+						trigger = {
+							scope:allow_no_type_option = yes
+						}
+						modifier = {
+							add = 30
+							has_personality_submissive_trigger = yes
+						}
+						ai_value_modifier = {
+							ai_boldness = -0.25
+							ai_energy = -0.25
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+################
+# Adventurer Inspiration effects
+################
+# The Adventurer Inspiration is a bit special since it can result in many different types of artifacts, so we handle the generation here
+
+# Where is the adventurer going?
+set_adventure_location_effect = {
+	save_temporary_scope_value_as = {
+		name = allow_no_destination_option
+		value = $NO_DESTINATION$
+	}
+	hidden_effect = { #If they haven't specified where they're going we decide it here (might still leave it up to the sponsor if allow_no_destination_option = yes!)
+		$BASE_SCOPE$ = {
+			if = {
+				limit = {
+					NOT = { exists = var:adventure_destination }
+				}
+				random_list = {
+					10 = {
+						# Kinai
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_kinai
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:kinai
+						}
+					}
+					10 = {
+						# Tokaido
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_tokaido
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:tokaido
+						}
+					}
+					10 = {
+						# Tosando
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_tosando
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:tosando
+						}
+					}
+					10 = {
+						# Hokurikudo
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_hokurikudo
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:hokurikudo
+						}
+					}
+					10 = {
+						# Sanindo
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_san'indo
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:sanindo
+						}
+					}
+					10 = {
+						# Sanyodo
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_san'yodo
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:sanyodo
+						}
+					}
+					10 = {
+						# Nankaido
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_nankaido
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:nankaido
+						}
+					}
+					10 = {
+						# Saikaido
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_saikaido
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:saikaido
+						}
+					}
+					10 = {
+						# Hokkaido
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_hokkaido
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:hokkaido
+						}
+					}
+					10 = {
+						# Karafuto
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_karafuto
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:karafuto
+						}
+					}
+					10 = {
+						# Ryukyu
+						trigger = {
+							trigger_if = {
+								limit = { exists = location }
+								adventurer_potential_destination_distance_check = {
+									REGION = world_circuit_ryukyu
+								}
+							}
+						}
+						set_variable = {
+							name = adventure_destination
+							value = flag:ryukyu
+						}
+					}
+					85 = { #Very skillde adventurers are often going to let you decide!
+						trigger = {
+							scope:allow_no_destination_option = yes
+						}
+						modifier = {
+							add = 40
+							has_personality_submissive_trigger = yes
+						}
+						ai_value_modifier = {
+							ai_boldness = -0.25
+							ai_energy = -0.25
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+get_adventure_inspiration_start_location = {
+	$ADVENTURER$ = { save_scope_as = adventurer }
+	if = { # Kinai
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:kinai
+		}
+		random_county_in_region = {
+			region = world_circuit_kinai
+			save_scope_as = location
+		}
+	}
+	else_if = { # Tokaido
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:tokaido
+		}
+		random_county_in_region = {
+			region = world_circuit_tokaido
+			save_scope_as = location
+		}
+	}
+	else_if = { # Tosando
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:tosando
+		}
+		random_county_in_region = {
+			region = world_circuit_tosando
+			save_scope_as = location
+		}
+	}
+	else_if = { # Hokurikudo
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:hokurikudo
+		}
+		random_county_in_region = {
+			region = world_circuit_hokurikudo
+			save_scope_as = location
+		}
+	}
+	else_if = { # Sanindo
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:sanindo
+		}
+		random_county_in_region = {
+			region = world_circuit_san'indo
+			save_scope_as = location
+		}
+	}
+	else_if = { # Sanyodo
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:sanyodo
+		}
+		random_county_in_region = {
+			region = world_circuit_san'yodo
+			save_scope_as = location
+		}
+	}
+	else_if = { # Nankaido
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:nankaido
+		}
+		random_county_in_region = {
+			region = world_circuit_nankaido
+			save_scope_as = location
+		}
+	}
+	else_if = { # Saikaido
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:saikaido
+		}
+		random_county_in_region = {
+			region = world_circuit_saikaido
+			save_scope_as = location
+		}
+	}
+	else_if = { # Hokkaido
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:hokkaido
+		}
+		random_county_in_region = {
+			region = world_circuit_hokkaido
+			save_scope_as = location
+		}
+	}
+	else_if = { # Karafuto
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:karafuto
+		}
+		random_county_in_region = {
+			region = world_circuit_karafuto
+			save_scope_as = location
+		}
+	}
+	else_if = { # Ryukyu
+		limit = {
+			scope:adventurer.var:adventure_destination = flag:ryukyu
+		}
+		random_county_in_region = {
+			region = world_circuit_ryukyu
+			save_scope_as = location
+		}
+	}
+}
+
+inspiration_adventure_create_artifact_effect = {
+	$OWNER$ = { save_scope_as = owner } #Will always exist!
+	$CREATOR$ = { save_scope_as = adventurer } #Will always exist in an adventure inspiration!
+
+	#If you've somehow managed to not set a destination by now we generate one here
+	if = {
+		limit = {
+			NOT = { exists = scope:adventurer.var:adventure_destination }
+		}
+		set_adventure_location_effect = {
+			BASE_SCOPE = scope:adventurer
+			NO_DESTINATION = no
+		}
+		get_adventure_inspiration_start_location = { ADVENTURER = scope:adventurer } 
+	}
+	else = {
+		#To save the location and make sure materials can access it
+		scope:adventurer.activity.activity_province.barony = { save_scope_as = location } # To save the location scope based on the destination
+	}
+
+	#Creating the artifact based on the previous choice and outcome
+	scope:adventurer = {
+		hidden_effect = {
+			scope:location = { title_province = { add_to_list = artifact_material_sources } } #Used for artifact creation
+
+			create_character = {
+				location = root.location
+				template = local_artisan_template
+				culture = scope:location.culture
+				faith = scope:location.faith
+				gender = scope:adventurer
+				dynasty = none
+				save_scope_as = artifact_origin #Fictional maker of artifact
+			}
+
+			random_list = {
+				25 = {
+					trigger = { #Epic Artifact
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:epic_quest
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					modifier = {
+						scope:adventurer.adventure_inspiration_average_skill_value <= low_inspiration_skill
+						add = -10
+					}
+					modifier = {
+						scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+						add = 25
+					}
+					root = {
+						random_list = {
+
+							# Imperial Regalia
+
+							0 = {
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = kusanagi }
+								}
+								shogunate_artifact_region_modifier = { ADD = 5 REGION = world_circuit_san'indo }
+								shogunate_artifact_region_modifier = { ADD = 5 REGION = world_circuit_san'yodo }
+								shogunate_artifact_region_modifier = { ADD = 5 REGION = world_circuit_saikaido }
+								shogunate_create_artifact_kusanagi_effect = yes
+							}
+							5 = { # Yata no Kagami
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = yata_no_kagami }
+								}
+								shogunate_create_artifact_yata_no_kagami_effect = yes
+							}
+							5 = { # Yasakani no Magatama
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = yasakani_no_magatama }
+								}
+								shogunate_create_artifact_yasakani_no_magatama_effect = yes
+							}
+
+							# Incense
+
+							10 = { # Ranjatai
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = ranjatai }
+								}
+								shogunate_create_artifact_ranjatai_effect = yes
+							}
+
+							# Seal
+
+							0 = { # King of Na Gold Seal
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = king_of_na_gold_seal }
+								}
+								shogunate_artifact_region_modifier = { ADD = 20 REGION = world_circuit_saikaido }
+								shogunate_create_artifact_king_of_na_gold_seal_effect = yes
+							}
+							0 = { # King of Wa Gold Seal
+								trigger = {
+									current_date >= 238.1.1
+									shogunate_unique_artifact_trigger = { NAME = king_of_wa_gold_seal }
+								}
+								shogunate_artifact_region_modifier = { ADD = 10 REGION = world_circuit_kinai }
+								shogunate_artifact_region_modifier = { ADD = 10 REGION = world_circuit_saikaido }
+								shogunate_create_artifact_king_of_wa_gold_seal_effect = yes
+							}
+
+							# Tea Utensil
+
+							20 = { # Tsukumo Nasu
+								trigger = {
+									current_date >= 1390.1.1
+									shogunate_unique_artifact_trigger = { NAME = tsukumo_nasu }
+								}
+								shogunate_create_artifact_tsukumo_nasu_effect = yes
+							}
+							20 = { # Matsumoto Nasu
+								trigger = {
+									current_date >= 1335.11.1
+									shogunate_unique_artifact_trigger = { NAME = matsumoto_nasu }
+								}
+								shogunate_create_artifact_matsumoto_nasu_effect = yes
+							}
+							20 = { # Fuji Nasu
+								trigger = {
+									current_date >= 1546.12.21
+									shogunate_unique_artifact_trigger = { NAME = fuji_nasu }
+								}
+								shogunate_create_artifact_fuji_nasu_effect = yes
+							}
+							20 = { # Narashiba Katatsuki
+								trigger = {
+									current_date >= 1335.11.1
+									shogunate_unique_artifact_trigger = { NAME = narashiba_katatsuki }
+								}
+								shogunate_create_artifact_narashiba_katatsuki_effect = yes
+							}
+							20 = { # Nitta Katatsuki
+								trigger = {
+									current_date >= 1500.1.1
+									shogunate_unique_artifact_trigger = { NAME = nitta_katatsuki }
+								}
+								shogunate_create_artifact_nitta_katatsuki_effect = yes
+							}
+							20 = { # Hatsuhana Katatsuki
+								trigger = {
+									current_date >= 1569.3.14
+									shogunate_unique_artifact_trigger = { NAME = hatsuhana_katatsuki }
+								}
+								shogunate_create_artifact_hatsuhana_katatsuki_effect = yes
+							}
+							20 = { # Hiragumo Kama
+								trigger = {
+									current_date >= 1555.1.1
+									shogunate_unique_artifact_trigger = { NAME = hiragumo_kama }
+								}
+								shogunate_create_artifact_hiragumo_kama_effect = yes
+							}
+
+							# Armor
+
+							20 = { # Genta no Ubuginu
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = genta_no_ubuginu }
+								}
+								shogunate_create_artifact_genta_no_ubuginu_effect = yes
+							}
+							20 = { # Tatenashi
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = tatenashi }
+								}
+								shogunate_create_artifact_tatenashi_effect = yes
+							}
+							20 = { # Hachi Ryu
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = hachi_ryu }
+								}
+								shogunate_create_artifact_hachi_ryu_effect = yes
+							}
+							20 = { # Usugane
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = usugane }
+								}
+								shogunate_create_artifact_usugane_effect = yes
+							}
+							20 = { # Hizamaru
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = hizamaru }
+								}
+								shogunate_create_artifact_hizamaru_effect = yes
+							}
+							20 = { # Tsukikazu
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = tsukikazu }
+								}
+								shogunate_create_artifact_tsukikazu_effect = yes
+							}
+							20 = { # Hikazu
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = hikazu }
+								}
+								shogunate_create_artifact_hikazu_effect = yes
+							}
+							20 = { # Omodaka
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = omodaka }
+								}
+								shogunate_create_artifact_omodaka_effect = yes
+							}
+							5 = { # Karakawa
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = karakawa }
+								}
+								shogunate_artifact_region_modifier = { ADD = 15 REGION = world_circuit_san'indo }
+								shogunate_artifact_region_modifier = { ADD = 15 REGION = world_circuit_san'yodo }
+								shogunate_artifact_region_modifier = { ADD = 15 REGION = world_circuit_saikaido }
+								shogunate_create_artifact_karakawa_effect = yes
+							}
+							20 = { # Hiraishi
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = hiraishi }
+								}
+								shogunate_create_artifact_hiraishi_effect = yes
+							}
+							20 = { # Onkosode
+								trigger = {
+									current_date >= 1335.11.1
+									shogunate_unique_artifact_trigger = { NAME = onkosode }
+								}
+								shogunate_create_artifact_onkosode_effect = yes
+							}
+
+							# Weapons
+
+							20 = { # Onikiri Yasutsuna
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = onikiri }
+								}
+								shogunate_create_artifact_onikiri_effect = yes
+							}
+							20 = { # Doshigiri Yasutsuna
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = doshigiri_yasutsuna }
+								}
+								shogunate_create_artifact_doshigiri_yasutsuna_effect = yes
+							}
+							20 = { # Mikazuki Munechika
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = mikazuki_munechika }
+								}
+								shogunate_create_artifact_mikazuki_munechika_effect = yes
+							}
+							20 = { # Onimaru Kunitsuna
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = onimaru_kunitsuna }
+								}
+								shogunate_create_artifact_onimaru_kunitsuna_effect = yes
+							}
+							20 = { # Otenta Mitsuyo
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = otenta_mitsuyo }
+								}
+								shogunate_create_artifact_otenta_mitsuyo_effect = yes
+							}
+							20 = { # Juzumaru Tsunetsugu
+								trigger = {
+									current_date >= 1282.10.13
+									shogunate_unique_artifact_trigger = { NAME = juzumaru_tsunetsugu }
+								}
+								shogunate_create_artifact_juzumaru_tsunetsugu_effect = yes
+							}
+							5 = { # Kogarasumaru
+								trigger = {
+									shogunate_unique_artifact_trigger = { NAME = kogarasumaru }
+								}
+								shogunate_artifact_region_modifier = { ADD = 15 REGION = world_circuit_san'indo }
+								shogunate_artifact_region_modifier = { ADD = 15 REGION = world_circuit_san'yodo }
+								shogunate_artifact_region_modifier = { ADD = 15 REGION = world_circuit_saikaido }
+								shogunate_create_artifact_kogarasumaru_effect = yes
+							}
+							20 = { # Muramasa (Sword)
+								trigger = {
+									current_date >= 1501.1.1
+									# not unique
+								}
+								shogunate_create_artifact_muramasa_sword_effect = yes
+							}
+							20 = { # Muramasa (Dagger)
+								trigger = {
+									current_date >= 1501.1.1
+									# not unique
+								}
+								shogunate_create_artifact_muramasa_dagger_effect = yes
+							}
+							20 = { # Murasame
+								trigger = {
+									current_date >= 1336.7.22
+									shogunate_unique_artifact_trigger = { NAME = murasame }
+								}
+								shogunate_create_artifact_murasame_effect = yes
+							}
+							20 = { # Masamune (Sword)
+								trigger = {
+									current_date >= 1300.1.1	# Fictional (Masamune's birthday is unknown)
+									# not unique
+								}
+								shogunate_create_artifact_masamune_sword_effect = yes
+							}
+							20 = { # Masamune (Dagger)
+								trigger = {
+									current_date >= 1300.1.1	# Fictional (Masamune's birthday is unknown)
+									# not unique
+								}
+								shogunate_create_artifact_masamune_dagger_effect = yes
+							}
+							20 = { # Tonbokiri
+								trigger = {
+									current_date >= 1564.3.17
+									shogunate_unique_artifact_trigger = { NAME = tonbokiri }
+								}
+								shogunate_create_artifact_tonbokiri_effect = yes
+							}
+							20 = { # Otegine
+								trigger = {
+									current_date >= 1559.9.3
+									shogunate_unique_artifact_trigger = { NAME = otegine }
+								}
+								shogunate_create_artifact_otegine_effect = yes
+							}
+							20 = { # Nihongo
+								trigger = {
+									current_date >= 1573.8.25
+									shogunate_unique_artifact_trigger = { NAME = nihongo }
+								}
+								shogunate_create_artifact_nihongo_effect = yes
+							}
+							20 = { # Kaishu no Yari
+								trigger = {
+									current_date >= 1493.6.9	# After the Sengoku period started
+									# not unique
+								}
+								shogunate_create_artifact_kaishu_no_yari_effect = yes
+							}
+
+							# Japanese Books
+
+							20 = { # The Diary of Fujiwara no Michinaga
+								trigger = {
+									current_date >= 1021.1.1
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_fujiwara_no_michinaga_effect = yes
+							}
+							20 = { # The Diary of Fujiwara no Yorinaga
+								trigger = {
+									current_date >= 1155.1.1
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_fujiwara_no_yorinaga_effect = yes
+							}
+							20 = { # The Diary of Kujo Kanezane
+								trigger = {
+									current_date >= 1200.1.1
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_kujo_kanezane_effect = yes
+							}
+							20 = { # The Diary of Taira no Nobunori
+								trigger = {
+									current_date >= 1171.1.1
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_taira_no_nobunori_effect = yes
+							}
+							20 = { # The Diary of Fujiwara no Sadaie
+								trigger = {
+									current_date >= 1235.1.1
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_fujiwara_no_sadaie_effect = yes
+							}
+							20 = { # The Tale of Genji
+								trigger = {
+									current_date >= 1008.1.1	# the work appeared at first in the old documents
+									# not unique
+								}
+								shogunate_create_artifact_the_tale_of_genji_effect = yes
+							}
+							20 = { # The Tale of Ise
+								trigger = {
+									current_date >= 900.1.1		# ambiguous
+									# not unique
+								}
+								shogunate_create_artifact_the_tale_of_ise_effect = yes
+							}
+							20 = { # The Diary of Murasaki Shikibu
+								trigger = {
+									current_date >= 1010.1.1
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_murasaki_shikibu_effect = yes
+							}
+							20 = { # The Diary of Izumi Shikibu
+								trigger = {
+									current_date >= 1008.1.1	# estimated
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_izumi_shikibu_effect = yes
+							}
+							20 = { # The Diary of Go-Fukakusain no Nijo
+								trigger = {
+									current_date >= 1306.1.1	# estimated
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_go_fukakusain_no_nijo_effect = yes
+							}
+							20 = { # The Diary of Emperor Hanazono
+								trigger = {
+									current_date >= 1332.1.1
+									# not unique
+								}
+								shogunate_create_artifact_the_diary_of_hanazono_emperor_effect = yes
+							}
+							20 = { # Admonishment to Prince
+								trigger = {
+									current_date >= 1330.1.1
+									# not unique
+								}
+								shogunate_create_artifact_admonishment_to_prince_effect = yes
+							}
+							20 = { # Manyoshu
+								trigger = {
+									current_date >= 780.1.1		# estimated
+									# not unique
+								}
+								shogunate_create_artifact_manyoshu_effect = yes
+							}
+							20 = { # Kokin Wakashu
+								trigger = {
+									current_date >= 905.1.1
+									# not unique
+								}
+								shogunate_create_artifact_kokin_wakashu_effect = yes
+							}
+							20 = { # Gosen Wakashu
+								trigger = {
+									current_date >= 951.1.1		# estimated
+									# not unique
+								}
+								shogunate_create_artifact_gosen_wakashu_effect = yes
+							}
+							20 = { # Shui Wakashu
+								trigger = {
+									current_date >= 1007.1.1	# estimated
+									# not unique
+								}
+								shogunate_create_artifact_shui_wakashu_effect = yes
+							}
+							20 = { # Go-Shui Wakashu
+								trigger = {
+									current_date >= 1086.1.1
+									# not unique
+								}
+								shogunate_create_artifact_go_shui_wakashu_effect = yes
+							}
+							20 = { # Kinyo Wakashu
+								trigger = {
+									current_date >= 1125.1.1	# estimated
+									# not unique
+								}
+								shogunate_create_artifact_kinyo_wakashu_effect = yes
+							}
+							20 = { # Shika Wakashu
+								trigger = {
+									current_date >= 1151.1.1	# estimated
+									# not unique
+								}
+								shogunate_create_artifact_shika_wakashu_effect = yes
+							}
+							20 = { # Senzai Wakashu
+								trigger = {
+									current_date >= 1188.1.1
+									# not unique
+								}
+								shogunate_create_artifact_senzai_wakashu_effect = yes
+							}
+							20 = { # Shin Kokin Wakashu
+								trigger = {
+									current_date >= 1205.1.1	# the first version
+									# not unique
+								}
+								shogunate_create_artifact_shin_kokin_wakashu_effect = yes
+							}
+							20 = { # Shin Chokusen Wakashu
+								trigger = {
+									current_date >= 1235.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shin_chokusen_wakashu_effect = yes
+							}
+							20 = { # Shoku Gosen Wakashu
+								trigger = {
+									current_date >= 1251.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shoku_gosen_wakashu_effect = yes
+							}
+							20 = { # Shoku Kokin Wakashu
+								trigger = {
+									current_date >= 1265.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shoku_kokin_wakashu_effect = yes
+							}
+							20 = { # Shoku Shui Wakashu
+								trigger = {
+									current_date >= 1278.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shoku_shui_wakashu_effect = yes
+							}
+							20 = { # Shin Gosen Wakashu
+								trigger = {
+									current_date >= 1303.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shin_gosen_wakashu_effect = yes
+							}
+							20 = { # Gyokuyo Wakashu
+								trigger = {
+									current_date >= 1312.1.1
+									# not unique
+								}
+								shogunate_create_artifact_gyokuyo_wakashu_effect = yes
+							}
+							20 = { # Shoku Senzai Wakashu
+								trigger = {
+									current_date >= 1320.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shoku_senzai_wakashu_effect = yes
+							}
+							20 = { # Shoku Go-Shui Wakashu
+								trigger = {
+									current_date >= 1326.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shoku_goshui_wakashu_effect = yes
+							}
+							20 = { # Fuga Wakashu
+								trigger = {
+									current_date >= 1349.1.1	# estimated
+									# not unique
+								}
+								shogunate_create_artifact_fuga_wakashu_effect = yes
+							}
+							20 = { # Shin Senzai Wakashu
+								trigger = {
+									current_date >= 1359.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shin_senzai_wakashu_effect = yes
+							}
+							20 = { # Shin Shui Wakashu
+								trigger = {
+									current_date >= 1364.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shin_shui_wakashu_effect = yes
+							}
+							20 = { # Shin Go-Shui Wakashu
+								trigger = {
+									current_date >= 1384.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shin_goshui_wakashu_effect = yes
+							}
+							20 = { # Shin Shoku Kokin Wakashu
+								trigger = {
+									current_date >= 1439.1.1
+									# not unique
+								}
+								shogunate_create_artifact_shin_shokukokin_wakashu_effect = yes
+							}
+						}
+					}
+				}
+
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -5
+					}
+					trigger = { #A Weapon
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:epic_quest
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = { 
+						create_artifact_weapon_effect = {
+							OWNER = scope:artifact_origin
+							CREATOR = scope:artifact_origin
+							SET_WEAPON_TYPE = flag:no
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = weapon_artifact
+						value = yes
+					}
+				}
+
+				5 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -2
+					}
+					trigger = { #An armor
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:epic_quest
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_armor_effect = {
+							OWNER = scope:artifact_origin
+							CREATOR = scope:artifact_origin
+							SET_ARMOR_TYPE = flag:no
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = armor_artifact
+						value = yes
+					}
+				}
+				5 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -2
+					}
+					trigger = { # Necklace
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:trinket
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = { 
+						create_artifact_necklace_effect = {
+							OWNER = scope:artifact_origin
+						}
+					}
+					scope:newly_created_artifact = { save_scope_as = necklace }
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = necklace_artifact
+						value = yes
+					}
+				}
+
+				5 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -2
+					}
+					trigger = {
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:trinket
+								var:adventure_type = flag:free_reign
+								var:adventure_type = flag:epic_quest
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_regalia_effect = {
+							OWNER = scope:artifact_origin
+							SMITH = scope:artifact_origin
+						}
+					}
+					scope:owner = { 
+						save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+							name = regalia_artifact
+							value = yes
+						}
+					}
+				}
+
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -5
+					}
+					trigger = { #Skull
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:skull_or_hide
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_wall_skull_effect = {
+							OWNER = scope:owner
+							HUNTER = scope:inspiration_owner
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = skull
+						value = yes
+					}
+				}
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -5
+					}
+					trigger = { #Hide - big
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:skull_or_hide
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_animal_hide_big_effect = {
+							OWNER = scope:owner
+							HUNTER = scope:inspiration_owner
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = hide_big
+						value = yes
+					}
+				}
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -5
+					}
+					trigger = { #Hide - medium (lagom)
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:skull_or_hide
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_animal_hide_medium_effect = {
+							OWNER = scope:owner
+							HUNTER = scope:inspiration_owner
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = hide_medium
+						value = yes
+					}
+				}
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -5
+					}
+					trigger = { #Hide - small
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:skull_or_hide
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_animal_hide_small_effect = {
+							OWNER = scope:owner
+							HUNTER = scope:inspiration_owner
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = hide_small
+						value = yes
+					}
+				}
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= high_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > high_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -5
+					}
+					trigger = { #Trinket, box small
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:trinket
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_box_small_effect = {
+							OWNER = scope:owner
+							CARPENTER = scope:inspiration_owner
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = box
+						value = yes
+					}
+				}
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -5
+					}
+					trigger = { #Trinket, goblet
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:trinket
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_goblet_effect = {
+							OWNER = scope:owner
+							SMITH = scope:inspiration_owner
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = goblet
+						value = yes
+					}
+				}
+				10 = {
+					modifier = {
+						OR = {
+							scope:adventurer.adventure_inspiration_average_skill_value >= medium_inspiration_skill
+							AND = {
+								exists = scope:inspiration_owner.var:artifact_quality
+								scope:inspiration_owner.var:artifact_quality > medium_adventurer_epic_quality_level #Cumulative event choices
+							}
+						}
+						add = -2
+					}
+					trigger = { #Tapestry
+						trigger_if = {
+							limit = { exists = var:adventure_type }
+							OR = {
+								var:adventure_type = flag:tapestry_or_fabric
+								var:adventure_type = flag:free_reign
+							}
+						}
+					}
+					scope:owner = {
+						create_artifact_tapestry_effect = {
+							OWNER = scope:owner
+							WEAVER = scope:inspiration_owner
+						}
+					}
+					save_scope_value_as = { #We save the type here for tooltips in fund_inspiration.1051
+						name = tapestry
+						value = yes
+					}
+				}
+			}
+			if = {
+				limit = { exists = scope:epic }
+				scope:epic = {
+					add_artifact_history = {
+						location = root.capital_province
+						actor = scope:adventurer
+						recipient = root
+						type = given
+					}
+				}
+			}
+			else_if = {
+				limit = { exists = scope:newly_created_artifact }
+				scope:newly_created_artifact = {
+					add_artifact_history = {
+						location = root.capital_province
+						actor = scope:adventurer
+						recipient = root
+						type = given
+					}
+				}
+			}
+		}
+	}
+
+}

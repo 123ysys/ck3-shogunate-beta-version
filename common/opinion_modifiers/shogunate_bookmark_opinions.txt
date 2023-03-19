@@ -1,0 +1,5 @@
+﻿# Opinion Modifiers for Bookmark Setup
+
+shogunate_historical_reinforcement_opinion = {
+	opinion = -100
+}

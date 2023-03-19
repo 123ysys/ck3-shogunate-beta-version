@@ -1,0 +1,3 @@
+﻿l_russian:
+ CULTURE_CHARACTER_WINDOW:0 "[Culture.GetNameNoTooltip]"
+ CV_SIBLINGS_HEADING:0 "Братья и сестры #weak ([GetDataModelSize(CharacterWindow.GetSiblings)])#!"

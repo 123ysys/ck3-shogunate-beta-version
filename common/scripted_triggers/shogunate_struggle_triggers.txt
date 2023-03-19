@@ -1,0 +1,66 @@
+﻿# Sengoku Struggle
+
+shogunate_character_any_involvement_sengoku_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	OR = {
+		shogunate_character_involved_in_sengoku_struggle_trigger = yes
+		shogunate_character_interloper_in_sengoku_struggle_trigger = yes
+	}
+}
+
+shogunate_character_involved_in_sengoku_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	any_character_struggle = {
+		involvement = involved
+		is_struggle_type = shogunate_sengoku_struggle
+	}
+}
+
+shogunate_character_interloper_in_sengoku_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	any_character_struggle = {
+		involvement = interloper
+		is_struggle_type = shogunate_sengoku_struggle
+	}
+}
+
+shogunate_character_uninvolved_in_sengoku_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	exists = struggle:shogunate_sengoku_struggle
+	shogunate_character_involved_in_sengoku_struggle_trigger = no
+	shogunate_character_interloper_in_sengoku_struggle_trigger = no
+}
+
+
+# Kanto Struggle
+
+shogunate_character_any_involvement_kanto_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	OR = {
+		shogunate_character_involved_in_kanto_struggle_trigger = yes
+		shogunate_character_interloper_in_kanto_struggle_trigger = yes
+	}
+}
+
+shogunate_character_involved_in_kanto_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	any_character_struggle = {
+		involvement = involved
+		is_struggle_type = shogunate_kanto_struggle
+	}
+}
+
+shogunate_character_interloper_in_kanto_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	any_character_struggle = {
+		involvement = interloper
+		is_struggle_type = shogunate_kanto_struggle
+	}
+}
+
+shogunate_character_uninvolved_in_kanto_struggle_trigger = {
+	shogunate_has_struggle_feature_trigger = yes
+	exists = struggle:shogunate_kanto_struggle
+	shogunate_character_involved_in_kanto_struggle_trigger = no
+	shogunate_character_interloper_in_kanto_struggle_trigger = no
+}

@@ -1,0 +1,129 @@
+d_nmih_shima = {
+	0697.1.1={
+		liege="e_nmih_tenno"
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	1180.1.1={
+		liege="k_nmih_northern_kinai"
+		holder=10131576 # Ito [Fujiwara] Tadakiyo
+	}
+	1183.8.17={
+		liege="k_nmih_western_chugoku"
+	}
+	1185.4.25={
+		liege=0
+	}
+	1185.6.15={
+		holder=10131582 # Ito [Fujiwara] Tadamitsu
+	}
+	1192.1.1={
+		holder=10131584 # Ito [Fujiwara] Kagekiyo
+	}
+	1196.1.1={
+		holder=10131588 # Ito [Wakana] Moritaka
+	}
+	1204.5.13={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12370013 # Hiraga Tomomasa
+	}
+	1205.9.16={
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.6.6={
+		liege = 0
+		liege = "e_nmih_joko"
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.7.6={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131760 # Hojo [Kanesawa] Sanetoki
+	}
+	1276.11.30={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1331.1.1={
+		holder=10132230 # Hojo [Kanesawa] Sadafuyu
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+		holder=11003499 # Yoshida Sadafusa
+	}
+	1336.1.1={
+		holder=10125120 # Kitabatake Chikafusa
+	}
+	1354.5.10={
+		holder=10125127 # Kitabatake Akiyoshi
+	}
+	1383.7.1={
+		holder=10026050 # Kitabatake Akiyasu
+	}
+	1392.11.12={
+		liege=0
+	}
+	1393.9.1={
+		liege="e_nmih_japan"
+		holder=10026050 # Kitabatake Akiyasu
+	}
+	1402.10.1={
+		holder=10026052 # Kitabatake Mitsumasa
+	}
+	1414.9.1={
+		liege=0
+	}
+	1429.1.25={
+		holder=10026006 # Kitabatake Noritomo
+	}
+	1467.6.27={ # Onin War
+		liege=0
+	}
+	1471.4.13={
+		liege=0
+		holder=10026005 # Kitabatake Masasato
+	}
+	1508.12.15={
+		holder=10026001 # Kitabatake Kichika
+	}
+	1517.1.1={
+		holder=10026000 # Kitabatake Harutomo
+	}
+	1553.1.1={
+		holder=10026003 # Kitabatake Tomonori
+	}
+	1563.10.4={
+		holder=10026007 # Kitabatake Tomofusa
+	}
+	1569.11.21={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.1.1={
+		holder=10029161 # Oda Nobukatsu
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1590.7.25={
+		holder=0
+	}
+	1594.1.1={
+		liege="e_nmih_japan"
+		holder=10028005 # Kuki Yoshitaka
+	}
+	1597.1.1={
+		holder=10028006 # Kuki Moritaka
+	}
+
+}

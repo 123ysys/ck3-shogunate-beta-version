@@ -1,0 +1,13 @@
+211 = {
+
+	culture = central_kyushu
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1185.12.16={
+	}
+	1240.1.1={
+	}
+
+}

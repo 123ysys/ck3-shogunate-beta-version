@@ -1,0 +1,11 @@
+war = {
+	name = "war_1578_battle_of_mimikawa"
+	start_date = 1578.1.1
+	end_date = 1578.12.10
+	targeted_titles = {
+		d_nmih_hyuga
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10064002 } # Otomo Yoshishige(Sorin)
+	defenders = { 10060024 } # Shimazu Yoshihisa
+}

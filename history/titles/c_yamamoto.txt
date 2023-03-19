@@ -1,0 +1,118 @@
+c_nmih_yamamoto = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yamamoto1={
+				set_title_name=b_nmih_yamamoto7
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yamamoto1={
+				set_title_name=b_nmih_yamamoto9
+			}
+		}
+	}
+	1424.1.1={
+		effect={
+			title:b_nmih_yamamoto1={
+				set_title_name=b_nmih_yamamoto1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1424.1.1 = { change_development_level = 20 }
+
+	0712.9.23={
+		liege="k_nmih_dewa"
+	}
+	1180.1.1={
+		liege="d_nmih_ugo"
+		holder=12030050 # Fujiwara Kunihira
+	}
+	1189.9.21={
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=12000011 # Okawa Kaneto
+	}
+	1190.1.1={ # Okawa Kaneto's rebellion
+		liege="d_nmih_tsugaru"
+	}
+	1190.4.16={ # End of Okawa Kaneto's rebellion
+		liege="d_nmih_ugo"
+		holder=12031000 # Tozawa Hiramori
+	}
+	1220.1.1={
+		holder=12031010 # Tozawa Kanemori
+	}
+	1230.1.1={
+		holder=12031020 # Tozawa Chikamori
+	}
+	1250.1.1={
+		holder=12031030 # Tozawa Katsumori
+	}
+	1275.1.1={
+		holder=12031040 # Tozawa Katsumori
+	}
+	1300.1.1={
+		holder=12031050 # Tozawa Norimori
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1340.1.1={
+		holder=12031060 # Tozawa Hidemori
+	}
+	1356.1.1={
+		liege="k_nmih_ushu_tandai"
+	}
+	1360.1.1={
+		holder=12031070 # Tozawa Ujimori
+	}
+	1375.1.1={
+		holder=12031080 # Tozawa Koremori
+	}
+	1392.1.1={
+		liege=0
+	}
+	1400.1.1={
+		holder=12031090 # Tozawa Toyomori
+	}
+	1425.1.1={
+		liege=0
+		holder=12031110 # Tozawa Iemori
+	}
+	1450.1.1={
+		holder=12031120 # Tozawa Hisamori
+	}
+	1475.1.1={
+		holder=10000204 # Tozawa Masamori
+	}
+	1500.1.1={
+		holder=10000202 # Tozawa Hidemori
+	}
+	1529.1.1={
+		holder=10000201 # Tozawa Michimori
+	}
+	1578.1.1={
+		holder=10000207 # Tozawa Moriyasu
+	}
+	1590.4.4={
+		liege="e_nmih_japan"
+	}
+	1590.7.7={
+		holder=10000208 # Tozawa Mitsumori
+	}
+	1592.4.26={
+		holder=10000209 # Tozawa Masamori
+	}
+	1603.3.24={
+		liege="d_nmih_ugo"
+		holder=10010837 # Ashina Yoshihiro
+	}
+}

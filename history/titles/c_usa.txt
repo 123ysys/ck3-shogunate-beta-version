@@ -1,0 +1,149 @@
+c_nmih_usa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_usa1={
+				set_title_name=b_nmih_usa2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_usa1={
+				set_title_name=b_nmih_usa2
+			}
+		}
+	}
+	1185.3.4={
+		effect={
+			title:b_nmih_usa1={
+				set_title_name=b_nmih_usa3
+			}
+		}
+	}
+	1185.4.25={
+		effect={
+			title:b_nmih_usa1={
+				set_title_name=B_NMIH_USA3_1185
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1185.3.4 = { change_development_level = 20 }
+
+	0001.1.1={
+	}
+	0007.1.1={
+		holder=10290100 # Usatsuhiko
+		liege=d_nmih_buzen
+	}
+	0070.1.1={
+		holder=10290101 # Tokotsuhiko
+	}
+	0100.1.1={
+		holder=10290102 # Wakayahiko
+	}
+	0150.1.1={
+		holder=10290103 # Oshiiri
+	}
+	0160.1.1={
+		holder=10290104 # Tamashiki
+	}
+	0210.1.1={
+		holder=10290105 # Fushikinushi
+	}
+	0250.1.1={
+		holder=10290106 # Ishirihiko
+	}
+	0258.1.1={
+		liege=0
+	}
+	0270.1.1={
+		holder=10290107 # Makui
+	}
+	0290.1.1={
+		holder=10290108 # Isokari
+	}
+	0320.1.1={
+		holder=10290109 # Itoe
+	}
+	0350.1.1={
+		holder=10290110 # Iamana
+	}
+	1180.1.1={
+		liege="d_nmih_buzen"
+		holder=10260310 # Usa Kimimichi
+	}
+	1185.3.4={ # Battle of Ashiya-no-ura
+		liege="d_nmih_buzen"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_utsunomiya"
+		holder=12130150 # Utsunomiya Nobufusa
+	}
+	1234.8.27={
+		holder=12130152 # Utsunomiya Nobukage
+	}
+	1250.1.1={
+		holder=12130153 # Utsunomiya Michifusa
+	}
+	1288.1.1={
+		liege="d_nmih_chikugo"
+		holder=12130153 # Utsunomiya Michifusa
+	}
+	1295.1.1={
+		holder=12130154 # Utsunomiya Yorifusa
+	}
+	1330.1.1={
+		liege="d_nmih_chikugo"
+	}
+	1355.1.1={
+		liege="d_nmih_buzen"
+	}
+	1370.1.1={
+		holder=10067016 # Utsunomiya Naotsuna
+	}
+	1375.1.1={
+		holder=10067015 # Utsunomiya Moritsuna
+	}
+	1400.1.1={
+		liege="k_nmih_western_chugoku"
+		holder=10067014 # Utsunomiya Iehisa
+	}
+	1450.1.1={
+		holder=10067013 # Utsunomiya Morinao
+	}
+	1470.1.1={
+		holder=10067003 # Utsunomiya Hidefusa
+	}
+	1490.1.1={
+		holder=10067001 # Utsunomiya Okifusa
+	}
+	1517.1.1={
+		holder=10067000 # Utsunomiya Masafusa
+	}
+	1550.1.1={
+		holder=10067002 # Utsunomiya Nagafusa
+	}
+	1551.9.30={
+		liege=0
+	}
+	1556.1.1={
+		liege="d_nmih_bungo"
+		holder=10064444 # Tabaru Chikakata
+	}
+	1593.5.21={
+		liege="d_nmih_buzen"
+		holder=10055211 # Kuroda Nagamasa
+	}
+	1603.3.24={
+		liege="d_nmih_buzen"
+		holder=10040222 # Hosokawa Yukitaka
+	}
+	1607.12.19={
+		holder=10040220 # Hosokawa Tadaoki
+	}
+}

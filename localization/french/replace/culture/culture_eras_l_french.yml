@@ -1,0 +1,10 @@
+﻿l_french:
+ #ERAS
+ culture_era_tribal:0 "L'ère de Muromachi"
+ culture_era_tribal_desc:0 "L'ère de Muromachi d'une [culture|E] est antérieure à l'émergence du Daimyo Sengoku. Les dirigeants aves un [tribal_government|E] ne peuvent avoir que les [innovations|E] de l'ère de Muromachi."
+ culture_era_early_medieval:0 "Haut Sengoku"
+ culture_era_early_medieval_desc:0 "Le début de l'ère Sengoku voit l'émergence des Daimyos Sengoku et d'un certain nombre d'[innovations|E] importantes, mais la [culture|E] n'est pas encore en contact avec la civilisation occidentale."
+ culture_era_high_medieval:0 "Sengoku central"
+ culture_era_high_medieval_desc:0 "Le milieu de l'ère Sengoku est une période de grands progrès technologiques et administratifs, et l'essor de cultures occidentales telles que l'arquebuse."
+ culture_era_late_medieval:0 "Sengoku tardif"
+ culture_era_late_medieval_desc:0 "La fin de l'ère Sengoku est une ère d'unification. La classe des samouraïs et les autres classes commencent à être clairement séparées."

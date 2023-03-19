@@ -1,0 +1,7 @@
+587 = {
+
+	culture = southern_kyushu
+	religion = shinto
+	holding = castle_holding
+
+}

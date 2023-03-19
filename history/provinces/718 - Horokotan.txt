@@ -1,0 +1,7 @@
+718 = {
+
+	culture = uilta
+	religion = nivkh
+	holding = tribal_holding
+
+}

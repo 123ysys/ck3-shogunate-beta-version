@@ -1,0 +1,100 @@
+c_nmih_ama = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ama1={
+				set_title_name=b_nmih_ama1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ama1={
+				set_title_name=b_nmih_ama2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1185.12.16 = { change_development_level = 50 }
+
+	100.1.1={
+	}
+	230.1.1={
+		holder=10290055 # Ao
+		liege=d_nmih_bungo
+	}
+	300.1.1={
+		holder=10290056 # Shiro
+	}
+	1180.1.1={
+		liege="d_nmih_bungo"
+		holder=12780002 # Usuki Koretaka
+	}
+	1185.12.16={
+		liege="d_nmih_bungo"
+		holder=12780004 # Usuki Koremasa
+	}
+	1220.1.1={
+		holder=12780005 # Usuki Koretsugu
+	}
+	1250.1.1={
+		holder=12780006 # Usuki Koremitsu
+	}
+	1280.1.1={
+		holder=12780007 # Usuki Jiro
+	}
+	1300.1.1={
+		holder=12780008 # Usuki Korenao
+	}
+	1330.1.1={
+		liege="d_nmih_bungo"
+		holder=10064325 # Usuki Tokinao
+	}
+	1370.1.1={
+		liege="d_nmih_bungo"
+		holder=10064326 # Usuki Chikayasu
+	}
+	1400.1.1={
+		holder=10064327 # Usuki Chikanori
+	}
+	1430.1.1={
+		holder=10064310 # Usuki Yoshichika
+	}
+	1450.1.1={
+		holder=10064309 # Usuki Yoshinao
+	}
+	1490.1.1={
+		holder=10064301 # Usuki Nagakage
+	}
+	1528.1.1={
+		holder=10064300 # Usuki Akitsugu
+	}
+	1561.2.28={
+		holder=10064311 # Usuki Akisumi
+	}
+	1575.6.16={
+		holder=10064313 # Usuki Munekage
+	}
+	1578.12.10={
+		holder=10064318 # Usuki Shigenao
+	}
+	1593.5.21={
+		liege="e_nmih_japan"
+		holder=10098200 # Fukuhara Nagataka
+	}
+	1598.1.1={
+		holder=10094600 # Ota Kazuyoshi
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10025705 # Inaba Sadamichi
+	}
+	1603.10.17={
+		holder=10025706 # Inaba Norimichi
+	}
+}

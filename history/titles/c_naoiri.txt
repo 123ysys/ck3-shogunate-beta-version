@@ -1,0 +1,112 @@
+c_nmih_naoiri = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_naoiri1={
+				set_title_name=b_nmih_naoiri2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_naoiri1={
+				set_title_name=b_nmih_naoiri9
+			}
+		}
+	}
+	1185.12.16={
+		effect={
+			title:b_nmih_naoiri1={
+				set_title_name=B_NMIH_NAOIRI9_1185
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1185.12.16 = { change_development_level = 40 }
+	1240.1.1 = { change_development_level = 50 }
+
+	100.1.1={
+	}
+	240.1.1={
+		holder=10290060 # Uchisaru
+	}
+	295.1.1={
+		holder=10290062 # Kunimaro
+	}
+	1180.1.1={
+		liege="d_nmih_bungo"
+		holder=12780100 # Ogata Koreyoshi
+	}
+	1185.12.16={
+		liege="d_nmih_bungo"
+		holder=10230555 # Nakahara Chikayoshi
+	}
+	1196.1.1={
+		holder=10130538 # Otomo Yoshinao
+	}
+	1220.1.1={
+		holder=10064118 # Shiga Yoshisato
+	}
+	1270.1.1={
+		holder=10064117 # Shiga Yasutomo
+	}
+	1300.1.1={
+		holder=10064116 # Shiga Sadatomo
+	}
+	1333.7.4={
+		liege="d_nmih_bungo"
+	}
+	1340.1.1={
+		holder=10064115 # Shiga Yorifusa
+	}
+	1350.1.1={
+		holder=10064114 # Shiga Ujifusa
+	}
+	1360.1.1={
+		holder=10064113 # Shiga Chikatada
+	}
+	1365.1.1={
+		holder=10064112 # Shiga Yorisuke
+	}
+	1370.1.1={
+		holder=10064111 # Shiga Chikaaki
+	}
+	1380.1.1={
+		holder=10064110 # Shiga Chikayoshi
+	}
+	1400.1.1={
+		liege="d_nmih_bungo"
+		holder=10064109 # Shiga Chikamasa
+	}
+	1430.1.1={
+		holder=10064108 # Shiga Chikaie
+	}
+	1460.1.1={
+		holder=10064107 # Shiga Chikayasu
+	}
+	1470.1.1={
+		holder=10064106 # Shiga Mitsunobu
+	}
+	1490.1.1={
+		holder=10064101 # Shiga Chikakazu
+	}
+	1517.1.1={
+		holder=10064100 # Shiga Chikamasu
+	}
+	1547.1.1={
+		holder=10064102 # Shiga Chikamori
+	}
+	1593.5.21={
+		liege="e_nmih_japan"
+		holder=10045763 # Nakagawa Hideshige
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10045763 # Nakagawa Hidenari
+	}
+	1612.9.9={
+		holder=10045764 # Nakagawa Hisamori
+	}
+}

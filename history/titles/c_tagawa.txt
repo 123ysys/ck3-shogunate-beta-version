@@ -1,0 +1,139 @@
+c_nmih_tagawa = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tagawa1={
+				set_title_name=b_nmih_tagawa9
+			}
+		}
+	}
+	600.1.1={
+		effect={
+			title:b_nmih_tagawa1={
+				set_title_name=b_nmih_tagawa9
+			}
+		}
+	}
+	1189.9.24={
+		effect={
+			title:b_nmih_tagawa1={
+				set_title_name=b_nmih_tagawa10
+			}
+		}
+	}
+	1533.1.1={
+		effect={
+			title:b_nmih_tagawa1={
+				set_title_name=b_nmih_tagawa1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	600.1.1 = { change_development_level = 10 }
+	1189.9.24 = { change_development_level = 10 }
+	1533.1.1 = { change_development_level = 10 }
+
+	0712.9.23={
+		liege="k_nmih_dewa"
+	}
+	1180.1.1={
+		liege="d_nmih_ugo"
+		holder=12000100 # Tagawa Yukifumi
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=10130546 # Muto Sukeyori
+	}
+	1192.1.1={
+		liege="d_nmih_uzen"
+		holder=10130548 # Muto Ujihira
+	}
+	1219.1.1={
+		holder=12010100 # Muto Moriuji
+	}
+	1245.1.1={
+		holder=12010105 # Muto Ujikage
+	}
+	1275.1.1={
+		holder=12010110 # Daihoji Akiuji
+	}
+	1305.1.1={
+		holder=12010115 # Daihoji Nagamori
+	}
+	1330.1.1={
+		holder=12010116 # Daihoji Morouji
+	}
+	1333.7.4={
+		liege="d_nmih_uzen"
+	}
+	1335.1.1={
+		holder=12010120 # Daihoji Ujihira
+	}
+	1335.8.14={
+		liege="k_nmih_western_kanto"
+	}
+	1335.11.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1356.1.1={
+		liege="k_nmih_ushu_tandai"
+	}
+	1360.1.1={
+		liege="d_nmih_echigo"
+		holder=12010121 # Daihoji Chikauji
+	}
+	1365.1.1={
+		holder=12010130 # Daihoji Mochiuji
+	}
+	1395.1.1={
+		holder=12010135 # Daihoji Noriuji
+	}
+	1425.1.1={
+		holder=12010140 # Daihoji Kiyouji
+	}
+	1465.1.1={
+		liege=0
+		holder=10000601 # Daihoji Takeuji
+	}
+	1475.1.1={
+		holder=10000602 # Daihoji Masauji
+	}
+	1495.1.1={
+		holder=10000603 # Daihoji Sumiuji
+	}
+	1510.1.1={
+		holder=10000604 # Daihoji Ujitoki
+	}
+	1518.1.1={
+		holder=10000606 # Daihoji Harutoki
+	}
+	1541.1.1={
+		holder=10000607 # Daihoji Yoshimasu
+	}
+	1569.1.1={
+		holder=10000608 # Daihoji Yoshiuji
+	}
+	1583.4.27={
+		holder=10000609 # Daihoji Yoshioki
+	}
+	1586.7.1={
+		liege="k_nmih_ushu_tandai"
+		holder=10000716 # Mogami Yoshiaki
+	}
+	1590.8.28={
+		liege="d_nmih_uzen"
+	}
+	1603.3.24={
+		holder=10000726 # Mogami Yoshinao
+	}
+}

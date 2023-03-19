@@ -1,0 +1,18 @@
+218 = {
+
+	culture = southern_kinai
+	religion = shinto
+	holding = castle_holding
+	1331.1.1={
+	}
+	1560.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1577.10.10={
+		buildings = {
+			castle_01
+		}
+	}
+}

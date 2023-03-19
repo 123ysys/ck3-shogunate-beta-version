@@ -1,0 +1,11 @@
+415 = {
+
+	culture = southern_kinai
+	religion = shinto
+	holding = castle_holding
+	1180.1.1={
+	}
+	1310.1.1={
+	}
+
+}

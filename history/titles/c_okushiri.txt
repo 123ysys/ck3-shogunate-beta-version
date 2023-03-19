@@ -1,0 +1,65 @@
+c_nmih_okushiri = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_okushiri1={
+				set_title_name=b_nmih_okushiri1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	900.1.1 = { change_development_level = 0 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		liege=0
+		holder=10150100 # Kinkana
+	}
+	1200.1.1={
+		holder=10150110
+	}
+	1240.1.1={
+		holder=10150111
+	}
+	1270.1.1={
+		holder=10157200
+	}
+	1310.1.1={
+		holder=10150112
+	}
+	1350.1.1={
+		holder=10150113
+	}
+	1380.1.1={
+		holder=10150114
+	}
+	1410.1.1={
+		holder=10150115
+	}
+	1440.1.1={
+		holder=10150116
+	}
+	1450.1.1={
+		liege="d_nmih_sum_kur"
+		holder=10150005
+	}
+	1490.1.1={
+		holder=10150000
+	}
+	1529.3.26={
+		holder=10150002 #Tarikona
+	}
+	1536.6.23={
+		holder=10150003 #Hashitayn
+	}
+	1570.1.1={
+		holder=10150004 #Totake
+	}
+	1605.1.1={
+		holder=10150006 # Henauke
+	}
+
+}

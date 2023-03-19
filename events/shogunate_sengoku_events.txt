@@ -1,0 +1,209 @@
+﻿namespace = shogunate_sengoku
+
+# Start of the Sengoku Period (trigger)
+shogunate_sengoku.0001 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				shogunate_check_sengoku_period_start_trigger = yes
+			}
+			set_global_variable = shogunate_global_sengoku_start_flag
+
+			# Restore all De Jure of the Shogunate title
+			if = {
+				limit = {
+					exists = global_var:shogunate_global_nanbokucho_southern_court_won_flag
+				}
+				title:e_nmih_tenno = {
+					every_in_de_jure_hierarchy = {
+						limit = {
+							tier = tier_kingdom
+							NOT = { this = title:k_nmih_gosho }
+						}
+						set_de_jure_liege_title = title:e_nmih_japan
+					}
+				}
+			}
+
+			if = {
+				limit = {
+					shogunate_has_struggle_feature_trigger = yes
+				}
+				trigger_event = shogunate_bookmark.7000
+			}
+			else = {
+				every_ruler = {
+					limit = {
+						is_ai = no
+					}
+					save_scope_as = portrait
+					trigger_event = shogunate_sengoku.0002
+				}
+			}
+		}
+	}
+
+}
+
+# Start of the Sengoku Period (notify)
+shogunate_sengoku.0002 = {
+	type = character_event
+
+	title = shogunate_sengoku.0002.t
+	desc = shogunate_sengoku.0002.desc
+
+	theme = war
+	left_portrait = {
+		character = scope:portrait
+		animation = personality_bold
+	}
+
+	option = {
+		name = shogunate_sengoku.0002.a
+	}
+
+}
+
+# Unify Japan
+shogunate_sengoku.0003 = {
+	type = character_event
+
+	title = shogunate_sengoku.0003.t
+	desc = {
+		desc = shogunate_sengoku.0003.desc
+		triggered_desc = {
+			trigger = {
+				has_title = title:e_nmih_japan
+			}
+			desc = shogunate_sengoku.0003.desc.unifier
+		}
+	}
+
+	theme = diplomacy_majesty_focus
+	left_portrait = {
+		character = scope:unifier
+		animation = personality_bold
+	}
+	override_background = { event_background = wilderness_mountains }
+
+	option = {
+		trigger = {
+			NOT = { has_title = title:e_nmih_japan }
+		}
+		name = shogunate_sengoku.0003.a
+	}
+
+	option = {
+		trigger = {
+			has_title = title:e_nmih_japan
+		}
+		name = shogunate_sengoku.0003.b
+		trigger_event = shogunate_sengoku.0004
+	}
+
+	option = {
+		trigger = {
+			has_title = title:e_nmih_japan
+		}
+		name = shogunate_sengoku.0003.c
+		trigger_event = shogunate_sengoku.0005
+	}
+
+	option = {
+		trigger = {
+			has_title = title:e_nmih_japan
+		}
+		name = shogunate_sengoku.0003.d
+		trigger_event = shogunate_sengoku.0006
+	}
+
+	option = {
+		trigger = {
+			has_title = title:e_nmih_japan
+		}
+		name = shogunate_sengoku.0003.e
+		trigger_event = shogunate_sengoku.0007
+	}
+
+}
+
+# Unify Japan (Europa Universalis Ending)
+shogunate_sengoku.0004 = {
+	type = character_event
+
+	title = shogunate_sengoku.0004.t
+	desc = shogunate_sengoku.0004.desc
+
+	theme = stewardship_wealth_focus
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	override_background = { event_background = fp1_ocean }
+
+	option = {
+		name = shogunate_sengoku.0004.a
+	}
+
+}
+
+# Unify Japan (Victoria Ending)
+shogunate_sengoku.0005 = {
+	type = character_event
+
+	title = shogunate_sengoku.0005.t
+	desc = shogunate_sengoku.0005.desc
+
+	theme = faith
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {
+		name = shogunate_sengoku.0005.a
+	}
+
+}
+
+# Unify Japan (Hearts of Iron Ending)
+shogunate_sengoku.0006 = {
+	type = character_event
+
+	title = shogunate_sengoku.0006.t
+	desc = shogunate_sengoku.0006.desc
+
+	theme = war
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+
+	option = {
+		name = shogunate_sengoku.0006.a
+	}
+
+}
+
+# Unify Japan (Stellaris Ending)
+shogunate_sengoku.0007 = {
+	type = character_event
+
+	title = shogunate_sengoku.0007.t
+	desc = shogunate_sengoku.0007.desc
+
+	theme = education
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	override_background = { event_background = alley_night }
+
+	option = {
+		name = shogunate_sengoku.0007.a
+	}
+
+}

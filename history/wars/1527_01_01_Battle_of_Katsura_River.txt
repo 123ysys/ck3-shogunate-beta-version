@@ -1,0 +1,17 @@
+war = {
+	name = "war_1527_battle_of_katsura_river"
+	start_date = 1527.1.1
+	end_date = 1527.3.14
+	targeted_titles = {
+		k_nmih_kanrei d_nmih_sanuki d_nmih_settsu d_nmih_yamashiro c_nmih_sagara c_nmih_tsuzuki
+	}
+	casus_belli = event_claim_cb
+	claimant = 10040500 # Hosokawa Harumoto
+	attackers = {
+		10040500	# Hosokawa Harumoto
+		10042082	# Yanagimoto Kataharu
+	}
+	defenders = {
+		10040566	# Hosokawa Takakuni
+	}
+}

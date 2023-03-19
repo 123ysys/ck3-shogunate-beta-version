@@ -1,0 +1,92 @@
+d_nmih_sado = {
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0984.1.1={
+		holder=0
+	}
+	1147.8.29={
+		holder=10110230 # Taira Morikane {Sado no Kami}
+	}
+	1179.12.18={
+		liege="k_nmih_southern_kinai"
+		holder=10110124 # Taira Nakamori
+	}
+	1181.7.25={ # Battle of Yokota-gawara
+		liege="k_nmih_shinano"
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1183.8.17={
+		liege="e_nmih_japan"
+		holder=12380110 # Higuchi Kanemitsu (fictional)
+	}
+	1184.3.4={
+		liege="e_nmih_japan"
+		holder=12204336 # Hiki Tomomune
+	}
+	1190.1.1={
+		holder=12204341 # Hiki Yoshikazu
+	}
+	1203.10.8={
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1221.7.6={
+		holder=10131667 # Hojo [Nagoe] Tomotoki
+	}
+	1224.7.1={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131678 # Hojo [Osaragi] Tomonao
+	}
+	1264.5.29={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1323.8.2={
+		holder=10132119 # Hojo [Osaragi] Sadanao
+	}
+	1333.7.4={
+		liege="k_nmih_western_kanto"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.8.14={
+		liege=0
+		liege = "k_nmih_western_kanto"
+		holder=12270490 # Kaji Kagetsuna
+	}
+	1335.11.1={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1338.8.17={
+		liege=0
+		holder=0 # 
+	}
+	1467.1.1={
+		liege = 0
+		liege=0
+		holder=10034003 # Honma Shigenao
+	}
+	1474.1.1={
+		holder=10034002 # Honma Yasushige
+	}
+	1498.1.1={
+		holder=10034001 # Honma Yasunao
+	}
+	1527.1.1={
+		holder=10034000 # Honma Yasutoki
+	}
+	1537.1.1={
+		holder=10034004 # Honma Ariyasu
+	}
+	1552.1.1={
+		holder=10034005 # Honma Yasutaka
+	}
+	1589.1.1={
+		holder=10032032 # Uesugi Kagekatsu
+		liege="e_nmih_japan"
+	}
+	1603.3.24={
+		holder=0
+	}
+}

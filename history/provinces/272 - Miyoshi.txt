@@ -1,0 +1,16 @@
+272 = {
+
+	culture = western_chugoku
+	religion = shinto
+	holding = castle_holding
+	1100.1.1={
+	}
+	1221.7.6={
+	}
+	1331.1.1={
+	}
+	1549.1.1 = {
+		religion = ikkoshu
+	}
+
+}

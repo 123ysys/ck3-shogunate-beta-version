@@ -1,0 +1,137 @@
+c_nmih_nihonmatsu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nihonmatsu1={
+				set_title_name=b_nmih_nihonmatsu1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nihonmatsu1={
+				set_title_name=b_nmih_nihonmatsu5
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_nihonmatsu1={
+				set_title_name=b_nmih_nihonmatsu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	1180.1.1={
+		liege="d_nmih_iwashiro"
+		holder=12060051 # Kawabe Takatsuna
+	}
+	1189.9.21={ # Battle of Mountain Atsukashi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		liege="e_nmih_japan"
+		holder=12202006 # Adachi Morinaga
+	}
+	1193.9.14={
+		liege="d_nmih_mikawa"
+	}
+	1200.6.9={
+		holder=12220001 # Adachi Kagemori
+	}
+	1218.4.6={
+		liege="d_nmih_ugo"
+		holder=12220001 # Adachi Kagemori
+	}
+	1225.1.1={
+		holder=12220011 # Adachi Yoshikage
+	}
+	1253.6.30={
+		holder=12220017 # Adachi Yasumori
+	}
+	1285.12.14={
+		holder=12220055 # Adachi Tokiaki
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=10125125 # Kitabatake Akiie
+	}
+	1338.6.10={
+		holder=10125126 # Kitabatake Akinobu
+	}
+	1353.6.5={
+		liege="k_nmih_oshu_kanrei"
+		holder=12395015 # Kira Sadaie
+	}
+	1354.1.1={
+		liege="k_nmih_mutsu_shogun"
+		holder=10007308 # Nihonmatsu Kuniaki
+	}
+	1362.1.1={
+		liege=0
+	}
+	1391.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1392.1.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1399.1.1={
+		liege="d_nmih_iwashiro"
+	}
+	1435.1.1={
+		holder=10007306 # Nihonmatsu Mitsuyasu
+	}
+	1440.7.23={
+		liege=0
+	}
+	1455.1.1={
+		holder=10007305
+	}
+	1470.3.18={
+		holder=10007304
+	}
+	1494.2.13={
+		holder=10007301 # Nihonmatsu Murakuni
+	}
+	1542.3.23={
+		holder=10007302 # Nihonmatsu Ieyasu
+	}
+	1546.5.22={
+		holder=10007303 # Nihonmatsu Yoshiuji
+	}
+	1547.3.26={
+		holder=10007314 # Nihonmatsu Yoshikuni
+	}
+	1580.9.9={
+		holder=10007315 # Nihonmatsu Yoshitsugu
+	}
+	1585.11.29={
+		holder=10007316 # Nihonmatsu Yoshitsuna
+	}
+	1586.7.16={
+		liege="d_nmih_oshu_shugo"
+		holder=10001035 # Date Masamune
+	}
+	1591.8.12={
+		liege="k_nmih_southern_oshu"
+		holder=10044514 # Gamo Satonari
+	}
+	1598.3.1={
+		holder=10032622 # Gejo(Kawata) Tadachika
+	}
+	1603.3.24={
+		liege="d_nmih_aizu"
+		holder=10044512 # Gamo Hideyuki
+	}
+	1612.6.13={
+		holder=10044516 # Gamo Tadasato
+	}
+}

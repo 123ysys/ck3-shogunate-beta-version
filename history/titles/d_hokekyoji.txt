@@ -1,0 +1,62 @@
+d_nmih_hokekyoji = {
+	1.1.1={
+		government = theocracy_government
+	}
+	100.1.1={
+	}
+	1282.1.1={
+		liege=0
+		holder=12240200 # Toki Jonin
+	}
+	1299.4.21={
+		holder=12240201 # Nichiko
+	}
+	1314.6.9={
+		holder=12240202 # Nichiyu
+	}
+	1374.6.29={
+		holder=12240203 # Nisson
+	}
+	1399.9.7={
+		holder=12240204 # Nissen
+	}
+	1422.6.7={
+		holder=12240205 # Nissatsu
+	}
+	1422.10.3={
+		holder=12240206 # Nichiyu
+	}
+	1448.1.1={
+		holder=12240207 # Nichiin
+	}
+	1501.6.6={
+		holder=12240208 # Nichiken
+	}
+	1524.2.29={
+		holder=12240209 # Nichikan
+	}
+	1573.1.1={
+		holder=12240210 # Nichiten
+	}
+	1593.1.1={
+		holder=12240211 # Nichiko
+	}
+	1598.1.1={
+		holder=12240212 # Nichigyo
+	}
+	1601.1.1={
+		holder=12240213 # Nichitsu
+	}
+	1603.1.1={
+		holder=12240214 # Nichito
+	}
+	1603.1.16={
+		holder=12240215 # Nichijutsu
+	}
+	1607.4.22={
+		holder=12240216 # Nichiin
+	}
+	1613.10.29={
+		holder=12240217 # Nichiji
+	}
+}

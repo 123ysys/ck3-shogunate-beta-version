@@ -1,0 +1,711 @@
+﻿l_russian:
+
+ SHOGUNATE_BOOKMARK_SHOW_ALL:0 "Показать все даты"
+ SHOGUNATE_BOOKMARK_SHOW_MORE:0 "Показать больше дат"
+ SHOGUNATE_BOOKMARK_SHOW_LESS:0 "Показать меньше дат"
+
+ SHOGUNATE_BOOKMARK_EXTRA:0 "Extra Bookmark"
+ SHOGUNATE_BOOKMARK_CAUTION_EXTRA:0 "#X This is a yearly bookmark. Please note that we didn't test it thoroughly.#!"
+ SHOGUNATE_BOOKMARK_CAUTION_HIDDEN:0 "#X This is an experimental bookmark. You can play it, but we may remove it without notice in the future.#!"
+
+ #
+ # 1180 : Восстание принца Мотихито
+ #
+
+ bm_pmrta1180:0 "Восстание принца Мотихито"
+ bm_pmrta1180_desc:0 "После гражданских войн Хогэн (1156 г.) и Хэйдзи (1159 г.), клан Тайра (Хэйси) доминировал при Императорском дворе. Тайра-но Киёмори был назначен Дайдзё-дайдзином, высшим канцлером Империи, и его клан владел таким количеством вотчин, что один из членов семьи Тайра сказал «Кто не принадлежит к клану Тайра, тот не может быть настоящим дворянином».\n\nОднако конфликт между Киёмори и отставным императором Го-Сиракава обострился в конце 1170-х годов, и противники Тайра начали плести заговоры.\n\n#X Эта дата не входит в период Сэнгоку. Некоторые функции могут быть недоступны.#!"
+
+ bm_pmrta1180_prince_mochihito:0 "Мотихито"
+ bm_pmrta1180_prince_mochihito_desc:0 "Принц Мотихито\n1151-1180\n\nПринц императора Го-Сиракавы. По рекомендации Минамото-но Ёримаса, Мотихито отправил сообщение от имени Принца членам клана Минамото.\n\nНесмотря на то, что Мотихито успел собрать войска, он все равно потерпел поражение и в конце концов был убит."
+ bm_pmrta1180_taira_kiyomori:0 "Киёмори"
+ bm_pmrta1180_taira_kiyomori_desc:0 "Тайра-но Киёмори\n1118-1181\n\nГлава клана Тайра. После восстания Хогэна и Хэйдзи его клан быстро вырос, чтобы сдерживать клан Минамото. Киёмори стал Дайдзё-дайдзином и установил власть клана Тайра. Когда он женил свою дочь Токуко на императоре Такакура, клан Тайра монополизировал власть в правительстве, и стад доминировать.\n\nПозднее Киёмори был уличен в организации восстания клана Минамото и умер от лихорадки.\n\nКроме того, он известен улучшением торговых отношений между Японией и династией Сун Китая."
+ bm_pmrta1180_taira_munemori:0 "Мунэмори"
+ bm_pmrta1180_taira_munemori_desc:0 "Тайра-но Мунэмори\n1147-1185\n\nРебенок Тайра-но Киёмори. Мунэмори стал наследником Киёмори после его смерти. Мунэмори возглавил клан Тайра и сражался против клана Минамото, восстававшего то тут, то там...\n\nПосле битвы при Дан-но-Ура Мунэмори был схвачен Минамото-но Ёсицунэ и казнен."
+ bm_pmrta1180_minamoto_yorimasa:0 "Ёримаса"
+ bm_pmrta1180_minamoto_yorimasa_desc:0 "Минамото-но Ёримаса\n1104-1180\n\nЁримаса рекомендовал принцу Мотихито уничтожить клан Тайра, и сам встал в строй, но проиграл и покончил жизнь самоубийством\n\nЁримаса был мастером стрельбы из лука и известным поэтом."
+ bm_pmrta1180_minamoto_yoritomo:0 "Ёритомо"
+ bm_pmrta1180_minamoto_yoritomo_desc:0 "Минамото-но Ёритомо\n1147-1199\n\nПервый сёгун сёгуната Минамото. Хотя Ёритомо проиграл восстание Хэйдзи и был сослан в Идзу, он поддержал просьбу принца Мотихито и поднял свои войска.\n\nКогда Ёритомо расширил свою власть, базируясь в Камакуре, он победил Минамото-но Ёсинака, клан Тайра и Северный Фудзивара. И, наконец, Ёритомо покорил Японию. Затем стал сёгуном и основал бакуфу. Он сделал должности Сюго и Дзито основой самурайского правительства."
+ bm_pmrta1180_minamoto_yoshinaka:0 "Ёсинака"
+ bm_pmrta1180_minamoto_yoshinaka_desc:0 "Минамото-но Ёсинака\n1154-1184\n\nТакже известен как Кисо Ёсинака. Ёсинака принял просьбу принца Мотихито восстать в Кисо.\n\nЁсинака победил клан Тайра у перевала Курикара, затем занял Киото. Хотя японский мир был разделен между тремя центрами власти - Минамото-но Ёритомо, Ёсинака и кланом Тайра - Ёсинака был против бывшего императора Го-Сиракавы. В конце концов, Ёсинака проиграл и был убит Минамото-но Нориёри и Ёсицунэ по приказу Ёритомо."
+ bm_pmrta1180_fujiwara_hidehira:0 "Хидэхира"
+ bm_pmrta1180_fujiwara_hidehira_desc:0 "Фудзивара-но Хидэхира\n1122-1187\n\nХидэхира был из третьего поколения сынов Северной Фудзивары, ведших ее к процветанию.\n\nВо время восстания Минамото-но Ёритомо, Хидэхира получил приказ от клана Тайра победить Ёритомо, но ничего не предпринял. После падения клана Тайра он дал приют Минамото-но Ёсицунэ, который выступал против Ёритомо.\n\n Тело Хидэхира покоится в Тюсон-дзи Кондзики-до."
+ bm_pmrta1180_kikuchi_takanao:0 "Таканао"
+ bm_pmrta1180_kikuchi_takanao_desc:0 "Кикути Таканао\nГод рождения и смерти неизвестен\n\nСамурай из Хиго. Таканао восстал против власти клан Тайра на Кюсю.\n\nТаканао успешно продвинулся к Дадзайфу, но в конце концов сдался и стал союзником клана Тайра. Позже он сопровождал императора Антоку, сбежавшего в Дадзайфу."
+ bm_pmrta1180_kono_michikiyo:0 "Митикиё"
+ bm_pmrta1180_kono_michikiyo_desc:0 "Коно Митикиё\n?-1181\n\nСамурай из Иё. Митикиё вырос у Минамото-но Ёритомо вместе с ребенком Митикиё, Коно Митинобу.\n\nМитикиё контролировал Иё и был убит во время нападения союзников Тайра. Возглавив флот, Митинобу присоединился к стороне Минамото. Участвовал в битве при Дан-но-Ура."
+
+ #
+ # 1180 : Война Гэмпэй
+ #
+
+ bm_genpeiwar1180:0 "Война Гэмпэй"
+ bm_genpeiwar1180_desc:0 "На дворе 1180 год. Униженный восхождением на престол при поддержке Тайра своего двухлетнего племянника (императора Антоку), принц Мотихито, сын отставного императора Го-Сиракава, поднимает восстание против клана Тайра.\n\nХотя это восстание закончилось для него гибелью, его последний приказ мотивировал некоторых членов клана Минамото (Гэндзи) поднять армии против Тайра. Минамото-но Ёритомо стал лидером самураев в Южном Канто и сделал Камакуру своей столицей.\n\n#X Эта дата не входит в период Сэнгоку. Некоторые функции могут быть недоступны.#!"
+
+ bm_genpeiwar1180_minamoto_yoritomo:0 "Ёритомо"
+ bm_genpeiwar1180_minamoto_yoritomo_desc:0 "Минамото-но Ёритомо\n1147-1199\n\nПервый сёгун династии Минамото. Хотя Ёритомо проиграл в восстании Хэйдзи и был сослан в Идзу, он принял просьбу принца Мотихито поднять свою армию.\n\nКогда Ёритомо расширил свою власть, базируясь в Камакуре, он победил Минамото-но Ёсинака, клан Тайра и Северный Фудзивара. И, наконец, Ёритомо покорил Японию. Он сделал должности Сюго и Дзито основой самурайского правительства. Затем стал сёгуном и основал бакуфу"
+ bm_genpeiwar1180_minamoto_yoshinaka:0 "Ёсинака"
+ bm_genpeiwar1180_minamoto_yoshinaka_desc:0 "Минамото-но Ёсинака\n1154-1184\n\nТакже известен как Кисо Ёсинака. Ёсинака принял просьбу принца Мотихито восстать в Кисо.\n\nЁсинака победил клан Тайра у перевала Курикара, затем занял Киото. Хотя японский мир был разделен между тремя центрами власти - Минамото-но Ёритомо, Ёсинака и клан Тайра - Ёсинака был против бывшего императора Го-Сиракавы. В конце концов, Ёсинака проиграл и был убит Минамото-но Нориёри и Ёсицунэ по приказу Ёритомо."
+ bm_genpeiwar1180_takeda_nobuyoshi:0 "Нобуёси"
+ bm_genpeiwar1180_takeda_nobuyoshi_desc:0 "Такэда Нобуёси\n1128-1186\n\nЧлен клана Минамото в Каи. Нобуёси принял просьбу принца Мотихито поднять восстание в Каи.\n\nНобуёси победил армию Тайра в битве при Фудзикава. В награду за это получил важную должность. Позже Нобуёси уличили в попытке мятежа, в результате которого его ребенок был убит со злым умыслом."
+ bm_genpeiwar1180_taira_kiyomori:0 "Киёмори"
+ bm_genpeiwar1180_taira_kiyomori_desc:0 ""
+ bm_genpeiwar1180_harada_tanenao:0 "Танэнао"
+ bm_genpeiwar1180_harada_tanenao_desc:0 ""
+ bm_genpeiwar1180_fujiwara_hidehira:0 "Хидэхира"
+ bm_genpeiwar1180_fujiwara_hidehira_desc:0 "Фудзивара-но Хидэхира\n1122-1187\n\nХидэхира был из третьего поколения сынов Северной Фудзивары, ведших ее к процветанию.\n\nВо время восстания Минамото-но Ёритомо, Хидэхира получил приказ от клана Тайра победить Ёритомо, но ничего не предпринял. После падения клана Тайра он дал приют Минамото-но Ёсицунэ, который выступал против Ёритомо.\n\n Тело Хидэхира покоится в Тюсон-дзи Кондзики-до."
+ bm_genpeiwar1180_hojo_tokimasa:0 "Токимаса"
+ bm_genpeiwar1180_hojo_tokimasa_desc:0 ""
+ bm_genpeiwar1180_miura_yoshizumi:0 "Ёсидзуми"
+ bm_genpeiwar1180_miura_yoshizumi_desc:0 ""
+ bm_genpeiwar1180_kazusa_hirotsune:0 "Хироцунэ"
+ bm_genpeiwar1180_kazusa_hirotsune_desc:0 ""
+
+ #
+ # 1467 : Onin War
+ #
+
+ bm_oninwar1467:0 "Смута годов Онин"
+ bm_oninwar1467_desc:0 "The Onin War was a civil war that lasted from 1467 to 1477, during the Muromachi period in Japan.\n\nA dispute between Hosokawa Katsumoto and Yamana Sozen escalated into a nationwide civil war involving the Ashikaga shogunate and a number of daimyo in many regions of Japan.\n\nThe war initiated the Sengoku period. This period was a long, drawn-out struggle for domination by individual daimyo, resulting in a mass power-struggle between the various houses to dominate the whole of Japan."
+
+ bm_oninwar1467_hosokawa_katsumoto:0 "Кацумото"
+ bm_oninwar1467_hosokawa_katsumoto_desc:0 ""
+ bm_oninwar1467_hatakeyama_masanaga:0 "Масанага"
+ bm_oninwar1467_hatakeyama_masanaga_desc:0 ""
+ bm_oninwar1467_akamatsu_masanori:0 "Масанори"
+ bm_oninwar1467_akamatsu_masanori_desc:0 ""
+ bm_oninwar1467_yamana_sozen:0 "Содзэн"
+ bm_oninwar1467_yamana_sozen_desc:0 ""
+ bm_oninwar1467_hatakeyama_yoshihiro:0 "Ёсихиро"
+ bm_oninwar1467_hatakeyama_yoshihiro_desc:0 ""
+ bm_oninwar1467_ouchi_masahiro:0 "Масахиро"
+ bm_oninwar1467_ouchi_masahiro_desc:0 ""
+ bm_oninwar1467_shibukawa_norinao:0 "Норинао"
+ bm_oninwar1467_shibukawa_norinao_desc:0 ""
+ bm_oninwar1467_shoni_noriyori:0 "Нориёри"
+ bm_oninwar1467_shoni_noriyori_desc:0 ""
+ bm_oninwar1467_shiba_yoshitoshi:0 "Ёситоси"
+ bm_oninwar1467_shiba_yoshitoshi_desc:0 ""
+
+ #
+ # 1478 : End of Onin War
+ #
+
+ bm_oninwar1478:0 "Конец смуты годов Онин"
+ bm_oninwar1478_desc:0 "The Onin War is finally over. However, the end of the war was because all Daimyo were tired of the battle and left the front line, not a definitive victory.\n\nThe prolonged war destroyed the old regime where Daimyo supported Shogun in Kyoto.\n\nThe Sengoku era began."
+
+ bm_oninwar1478_ashikaga_shigeuji:0 "Сигэудзи"
+ bm_oninwar1478_ashikaga_shigeuji_desc:0 ""
+ bm_oninwar1478_uesugi_akisada:0 "Акисада"
+ bm_oninwar1478_uesugi_akisada_desc:0 ""
+ bm_oninwar1478_uesugi_sadamasa:0 "Садамаса"
+ bm_oninwar1478_uesugi_sadamasa_desc:0 ""
+ bm_oninwar1478_nagao_kageharu:0 "Кагэхару"
+ bm_oninwar1478_nagao_kageharu_desc:0 ""
+ bm_oninwar1478_utsunomiya_shigetsuna:0 "Сигэцуна"
+ bm_oninwar1478_utsunomiya_shigetsuna_desc:0 ""
+ bm_oninwar1478_ota_dokan:0 "Докан"
+ bm_oninwar1478_ota_dokan_desc:0 ""
+ bm_oninwar1478_hosokawa_masamoto:0 "Масамото"
+ bm_oninwar1478_hosokawa_masamoto_desc:0 ""
+ bm_oninwar1478_yamana_masatoyo:0 "Масатоё"
+ bm_oninwar1478_yamana_masatoyo_desc:0 ""
+ bm_oninwar1478_asakura_takakage:0 "Такакагэ"
+ bm_oninwar1478_asakura_takakage_desc:0 ""
+
+ #
+ # 1488 : Kaga Ikko-Ikki
+ #
+
+ bm_ikkoikki1488:0 "Восстание Икко-икки в Кага"
+ bm_ikkoikki1488_desc:0 "The Honganji temple succeeded in propagating the Ikko-shu faith, especially in the Hokuriku region, due to the high priest Rennyo's powerful activities.\n\nIn Kaga province, the Ikko-shu had been suppressed by Shugo Togashi Masachika, who was wary of the rapid expansion of this sect.\n\nBut the riot of local lords triggered an Ikko-Ikki rebellion, and it was about to overthrow the Togashi clan."
+
+ bm_ikkoikki1488_togashi_masachika:0 "Масатика"
+ bm_ikkoikki1488_togashi_masachika_desc:0 ""
+ bm_ikkoikki1488_rokkaku_takayori:0 "Такаяори"
+ bm_ikkoikki1488_rokkaku_takayori_desc:0 ""
+ bm_ikkoikki1488_kyogoku_takakiyo:0 "Такакиё"
+ bm_ikkoikki1488_kyogoku_takakiyo_desc:0 ""
+ bm_ikkoikki1488_ashikaga_masatomo:0 "Масатомо"
+ bm_ikkoikki1488_ashikaga_masatomo_desc:0 ""
+ bm_ikkoikki1488_shiba_akitaka:0 "Акитака"
+ bm_ikkoikki1488_shiba_akitaka_desc:0 ""
+ bm_ikkoikki1488_suwa_yorimitsu:0 "Ёримицу"
+ bm_ikkoikki1488_suwa_yorimitsu_desc:0 ""
+ bm_ikkoikki1488_sho_shin:0 "Син"
+ bm_ikkoikki1488_sho_shin_desc:0 ""
+ bm_ikkoikki1488_oyake_akahachi:0 "Акахати"
+ bm_ikkoikki1488_oyake_akahachi_desc:0 ""
+ bm_ikkoikki1488_koma_yamashiro_no_kami:0 "Ямасиро Но-Ками"
+ bm_ikkoikki1488_koma_yamashiro_no_kami_desc:0 "represents Yamashiro Kuni Ikki"
+
+ #
+ # 1493 : Мэйо
+ #
+
+ bm_meioucoup1493:0 "Мэйо"
+ bm_meioucoup1493_desc:0 "Смута годов Онин закончилась в 1477 году, и административная система сёгуната Асикага восстановилась. Однако движение Гэкокудзё (низшие правят высшими) распространилось на остальную часть Японии.\n\nКуни-Икки и Икко-Икки - местные восстания против власти даймё Сюго, контролировали некоторые провинции, такие как Ямасиро или Кага. Кризис наследования Асикага и других важных кланов также не был полностью разрешен.\n\nВо второй год эры Мэйо (1493 г.) Хосокава Масамото, канрэй сёгуната, решил свергнуть сёгуна Асикага Ёсики (позднее Ёситанэ) и заменить его Ёсидзуми.\n\nСам переворот удался, но Ёсики сбежал в Хатакэяма Хисанобу в Этту, и гражданская война между двумя сёгунами продолжалась в последующие годы.\n\nМногие известные кланы Сэнгоку берут свое начало в эти годы. Например, Исэ Моритоки, позже известный как Ходзё Соун, начал завоевание провинций Идзу и Сагами в 1493 году."
+
+ bm_meioucoup1493_hosokawa_masamoto:0 "Масамото"
+ bm_meioucoup1493_hosokawa_masamoto_desc:0 "Hosokawa Masamoto (1466-1507)\n\nHosokawa Masamoto installed the new Shogun Ashikaga Yoshizumi through the Coup of Meio. Masamoto has a vast realm in the Kinai region and can freely give orders to his lord.\n\nHowever, Hatakeyama Hisanobu, who supports the previous Shogun Ashikaga Yoshiki, is vital. If Masamoto intends to keep the new Shogun in power, he must help his puppet.\n\n#bold Can he win against his many political rivals and bring the Hosokawa clan to power?#!"
+ bm_meioucoup1493_hatakeyama_hisanobu:0 "Хисанобу"
+ bm_meioucoup1493_hatakeyama_hisanobu_desc:0 "Hatakeyama Hisanobu (1475-1522)\n\nHatakeyama Hisanobu lost his father and his position as the head of the Hatakeyama clan in the Coup of Meio.\n\nHe and the previous Shogun Ashikaga Yoshiki are trying to turn the tide. If he can coordinate with his ally, the Noto branch of the Hatakeyama clan, he may march to Kyoto.\n\n#bold Can he reorganize the Shogunate under the restored Shogun, regain his position, and defeat his nemesis Hosokawa Masamoto?#!"
+ bm_meioucoup1493_hatakeyama_yoshitoyo:0 "Ёситоё"
+ bm_meioucoup1493_hatakeyama_yoshitoyo_desc:0 "Hatakeyama Yoshitoyo (1469-1499)\n\nHatakeyama Yoshitoyo, who inherited the Hatakeyama clan after the Coup of Meio, is confronted by his clanmate, Hatakeyama Hisanobu.\n\nTo unify the Hatakeyama clan, which has been divided since his father's time, he must first cooperate with the new Shogun Ashikaga Yoshizumi and protect the current Shogunate.\n\n#bold Can he unify the two divided samurai families, the Ashikaga clan and the Hatakeyama clan?#!"
+ bm_meioucoup1493_ouchi_masahiro:0 "Масахиро"
+ bm_meioucoup1493_ouchi_masahiro_desc:0 "Ouchi Masahiro (1446-1495)\n\nThe Ouchi clan is a prestigious family appointed by the Shogunate as the Shugo of the four provinces in the Saigoku region.\n\nDuring the reign of Ouchi Masahiro, the Ouchi clan expanded its control over the Northern Kyushu region and became increasingly influential.\n\nThe Coup of Meio is an opportunity to get involved in the politics of the Shogunate.\n\n#bold Can he control the national politics from Yamaguchi, known as the Kyoto of the west?#!"
+ bm_meioucoup1493_akamatsu_masanori:0 "Масанори"
+ bm_meioucoup1493_akamatsu_masanori_desc:0 "Akamatsu Masanori (1455-1496)\n\nAkamatsu Masanori rebuilt the Akamatsu clan, which had fallen due to assassinating the Shogun.\n\nEven after the revival, the clan suffered from frequent crises such as internal conflicts among vassals and invasions by the Yamana clan. Still, Masanori defeated them and solidified his powerful Shugo Daimyo.\n\n#bold Should he expand his realm further in the west or interfere in the civil war in the east?\n\nThe fate of Akamatsu is in your hands.#!"
+ bm_meioucoup1493_amago_tsunehisa:0 "Цунэхиса"
+ bm_meioucoup1493_amago_tsunehisa_desc:0 "Amago Tsunehisa (1458-1541)\n\nAmago Tsunehisa, Shugodai of Izumo province, is becoming more independent from his lord, the Kyogoku clan, and is expanding his realm.\n\nHowever, there are other powerful Shugo Daimyo, such as the Ouchi, Yamana, and Akamatsu clans to the east and west. If he continued to expand his realm, a clash would be inevitable.\n\n#bold Can he make full use of his devilish schemes and rise to become the Grand Daimyo, who has 11 provinces in the Chugoku region?#!"
+ bm_meioucoup1493_ise_moritoki:0 "Моритоки"
+ bm_meioucoup1493_ise_moritoki_desc:0 "Ise Moritoki (1456-1519)\n\nIse Moritoki (later Hojo Soun) helped his nephew, Imagawa Ujichika, inherit the Imagawa clan. The Imagawa clan gave Moritoki a castle as a vassal for his efforts.\n\nAfter the Coup of Meio, the new Shogun Ashikaga Yoshizumi decided to defeat Ashikaga Chachamaru, who murdered his relatives and controlled Izu province.\n\nMoritoki borrowed troops from Imagawa and launched an invasion of Izu.\n\n#bold Relying on his talent, can he become a pioneer of the Sengoku era?#!"
+ bm_meioucoup1493_ashikaga_shigeuji:0 "Сигэудзи"
+ bm_meioucoup1493_ashikaga_shigeuji_desc:0 "Ashikaga Shigeuji (1438-1497)\n\nAshikaga Shigeuji, the fifth Kamakura Kubo, spent more than half of his life fighting against the Yamanouchi branch of the Uesugi clan.\n\nWhen the two branches of the Uesugi clan, Ogigayatsu, and Yamanouchi, began fighting among themselves, Shigeuji intervened in the war on Ogigayatsu's side.\n\n#bold Can he eliminate the Uesugi clan's power from the Kanto region and set up his royal court in Kamakura again?#!"
+ bm_meioucoup1493_uesugi_akisada:0 "Акисада"
+ bm_meioucoup1493_uesugi_akisada_desc:0 "Uesugi Akisada (1454-1510)\n\nUesugi Akisada, the head of the Yamanouchi branch of the Uesugi clan, is in the midst of a war with the Ogigayatsu branch of his family and Ashikaga Shigeuji, Kamakura Kubo.\n\nWhile it is crucial to concentrate on the nemesis in front of him, he should also pay attention to the new forces attacking from Izu province.\n\n#bold Can he win this war and end the long-lasting turmoil in the Kanto region?#!"
+
+ #
+ # 1507 : Восхождение Ходзё Соу
+ #
+
+ bm_endeikyo1507:0 "Восхождение Ходзё Соун"
+ bm_endeikyo1507_desc:0 "Ходзё Соун (1432 - 8 сентября 1519) был первым главой клана позднего Ходзё, одной из главных держав периода Сэнгоку в Японии. Родившийся Исэ Моритоки, он был первоначально известен как Исэ Синкуро - самурай клана Тайра из уважаемой семьи чиновников сёгуната."
+
+ bm_endeikyo1507_ise_moritoki:0 "Моритоки"
+ bm_endeikyo1507_ise_moritoki_desc:0 "a.k.a. Ходзё Соун"
+ bm_endeikyo1507_imagawa_ujichika:0 "Удзитика"
+ bm_endeikyo1507_imagawa_ujichika_desc:0 ""
+ bm_endeikyo1507_miura_yoshiatsu:0 "Ёсиацу"
+ bm_endeikyo1507_miura_yoshiatsu_desc:0 ""
+ bm_endeikyo1507_nagao_tamekage:0 "Тамэкагэ"
+ bm_endeikyo1507_nagao_tamekage_desc:0 ""
+ bm_endeikyo1507_satake_yoshikiyo:0 "Ёсикиё"
+ bm_endeikyo1507_satake_yoshikiyo_desc:0 ""
+ bm_endeikyo1507_yuki_masatomo:0 "Масатомо"
+ bm_endeikyo1507_yuki_masatomo_desc:0 ""
+ bm_endeikyo1507_ganshoji_renjun:0 "Рэндзюн"
+ bm_endeikyo1507_ganshoji_renjun_desc:0 ""
+ bm_endeikyo1507_ichijo_fusaie:0 "Фусайэ"
+ bm_endeikyo1507_ichijo_fusaie_desc:0 ""
+ bm_endeikyo1507_shimazu_tadayoshi:0 "Тадаёси"
+ bm_endeikyo1507_shimazu_tadayoshi_desc:0 "a.k.a. Симадзу Дзиссинсай"
+
+ #
+ # 1511 : Battle of Funaokayama
+ #
+
+ bm_funaokayama1511:0 "Битва на горе Фунаока"
+ bm_funaokayama1511_desc:0 "Фунаокаяма-гассэн (Битва на горе Фунаока) - сражение 23 августа 1511 года между Хосокава Такакуни, которому помог Оути Ёсиоки, поддерживавший сёгуна Асикага Ёситанэ, и Хосокава Сумимото, поддерживавшим бывшего сёгуна Ёсидзуми Асикага. Это была борьба за власть над сёгунатом Муромати."
+
+ bm_funaokayama1511_ouchi_yoshioki:0 "Ёсиоки"
+ bm_funaokayama1511_ouchi_yoshioki_desc:0 ""
+ bm_funaokayama1511_hosokawa_sumimoto:0 "Сумимото"
+ bm_funaokayama1511_hosokawa_sumimoto_desc:0 ""
+ bm_funaokayama1511_akamatsu_yoshimura:0 "Ёсимура"
+ bm_funaokayama1511_akamatsu_yoshimura_desc:0 ""
+ bm_funaokayama1511_takeda_nobutora:0 "Нобутора"
+ bm_funaokayama1511_takeda_nobutora_desc:0 ""
+ bm_funaokayama1511_azai_sukemasa:0 "Сукэмаса"
+ bm_funaokayama1511_azai_sukemasa_desc:0 ""
+ bm_funaokayama1511_asakura_norikage:0 "Норикагэ"
+ bm_funaokayama1511_asakura_norikage_desc:0 "a.k.a. Асакура Сотэки"
+ bm_funaokayama1511_miyoshi_yukinaga:0 "Юкинага"
+ bm_funaokayama1511_miyoshi_yukinaga_desc:0 ""
+ bm_funaokayama1511_so_yoshimori:0 "Ёсимори"
+ bm_funaokayama1511_so_yoshimori_desc:0 ""
+ bm_funaokayama1511_yamakushinai_shoya:0 "Сёя"
+ bm_funaokayama1511_yamakushinai_shoya_desc:0 "a.k.a. братья Сёякодзи"
+
+ #
+ # 1523 : Mori's Successor
+ #
+
+ bm_motonari1523:0 "Преемник Мори"
+ bm_motonari1523_desc:0 "История помнит молодого Мори Сёдзюмару как бесстрашного смельчака. Легенды рассказывают о детской стычке с Амаго Цунэхиса, во время которой он выстрелил в лорда Идзумо. Цунэхиса поймал стрелу и, Сёдзюмару впечатленный его храбростью, пощадил Амаго в надежде сразиться с ним в будущем.\n\nВ 1506 году отец Мори умер от отравления алкоголем. В 1511 году Сёдзюмару официально стал взрослым, или гэмпуку, и был переименован в Мотонари. Позднее он создаст один из самых могущественных кланов периода Сэнгоку."
+
+ bm_motonari1523_mori_motonari:0 "Мотонари"
+ bm_motonari1523_mori_motonari_desc:0 ""
+ bm_motonari1523_sue_okifusa:0 "Окифуса"
+ bm_motonari1523_sue_okifusa_desc:0 ""
+ bm_motonari1523_bessho_nariharu:0 "Нарихару"
+ bm_motonari1523_bessho_nariharu_desc:0 ""
+ bm_motonari1523_asakura_takakage:0 "Такакагэ"
+ bm_motonari1523_asakura_takakage_desc:0 ""
+ bm_motonari1523_rokkaku_sadayori:0 "Садаёри"
+ bm_motonari1523_rokkaku_sadayori_desc:0 ""
+ bm_motonari1523_hatakeyama_yoshifusa:0 "Ёсифуса"
+ bm_motonari1523_hatakeyama_yoshifusa_desc:0 ""
+ bm_motonari1523_aso_koretoyo:0 "Корэтоё"
+ bm_motonari1523_aso_koretoyo_desc:0 ""
+ bm_motonari1523_ogasawara_nagamune:0 "Нагамунэ"
+ bm_motonari1523_ogasawara_nagamune_desc:0 ""
+ bm_motonari1523_tsuda_kazunaga:0 "Кадзунага"
+ bm_motonari1523_tsuda_kazunaga_desc:0 ""
+
+ #
+ # 1527 : Battle of Katsura-kawara
+ #
+
+ bm_sengoku1527:0 "Битва при Кацура-кавара"
+ bm_sengoku1527_desc:0 "After losing the position of Kanrei, Hosokawa Sumimoto escaped to Awa province and died in disappointment.\n\nPeace came for a while by the new Kanrei Hosokawa Takakuni. Still, he caused a disturbance by killing his vassal.\n\nSumimoto's son Harumoto thought this turmoil as an opportunity for revenge and started his march with the powerful Miyoshi clan."
+
+ bm_sengoku1527_hosokawa_harumoto:0 "Харумото"
+ bm_sengoku1527_hosokawa_harumoto_desc:0 ""
+ bm_sengoku1527_yanagimoto_kataharu:0 "Такахару"
+ bm_sengoku1527_yanagimoto_kataharu_desc:0 ""
+ bm_sengoku1527_hosokawa_takakuni:0 "Такакуни"
+ bm_sengoku1527_hosokawa_takakuni_desc:0 ""
+ bm_sengoku1527_takeda_motomitsu:0 "Мотомицу"
+ bm_sengoku1527_takeda_motomitsu_desc:0 ""
+ bm_sengoku1527_matsudaira_kiyoyasu:0 "Киёясу"
+ bm_sengoku1527_matsudaira_kiyoyasu_desc:0 ""
+ bm_sengoku1527_oda_masaharu:0 "Масахару"
+ bm_sengoku1527_oda_masaharu_desc:0 ""
+ bm_sengoku1527_shiba_yoshimune:0 "Ёсимунэ"
+ bm_sengoku1527_shiba_yoshimune_desc:0 ""
+ bm_sengoku1527_toki_yorinori:0 "Ёринори"
+ bm_sengoku1527_toki_yorinori_desc:0 ""
+ bm_sengoku1527_ashikaga_yoshiaki:0 "Ёсиаки"
+ bm_sengoku1527_ashikaga_yoshiaki_desc:0 ""
+
+ #
+ # 1531 : Battle of Daimotsu
+ #
+
+ bm_sengoku1531:0 "Битва при Даймоцу"
+ bm_sengoku1531_desc:0 "The new Kanrei Hosokawa Harumoto upheld Ashikaga Yoshitsuna as another Shogun called Sakai-Kubo and confronted Shogun Ashikaga Yoshiharu.\n\nMeanwhile, after losing his position, Hosokawa Takakuni rallied supporters and launched a counterattack."
+
+ bm_sengoku1531_hosokawa_harumoto:0 "Харумото"
+ bm_sengoku1531_hosokawa_harumoto_desc:0 ""
+ bm_sengoku1531_akamatsu_harumasa:0 "Харумаса"
+ bm_sengoku1531_akamatsu_harumasa_desc:0 ""
+ bm_sengoku1531_miyoshi_motonaga:0 "Мотонага"
+ bm_sengoku1531_miyoshi_motonaga_desc:0 ""
+ bm_sengoku1531_hosokawa_takakuni:0 "Такакуни"
+ bm_sengoku1531_hosokawa_takakuni_desc:0 ""
+ bm_sengoku1531_uragami_muramune:0 "Мурамунэ"
+ bm_sengoku1531_uragami_muramune_desc:0 ""
+ bm_sengoku1531_kizawa_nagamasa:0 "Нагамаса"
+ bm_sengoku1531_kizawa_nagamasa_desc:0 ""
+ bm_sengoku1531_ouchi_yoshitaka:0 "Ёситака"
+ bm_sengoku1531_ouchi_yoshitaka_desc:0 ""
+ bm_sengoku1531_murakami_yoshikiyo:0 "Ёсикиё"
+ bm_sengoku1531_murakami_yoshikiyo_desc:0 ""
+ bm_sengoku1531_enya_okihisa:0 "Окихиса"
+ bm_sengoku1531_enya_okihisa_desc:0 ""
+
+ #
+ # 1534 : Day of Fathers
+ #
+
+ bm_sengoku1534:0 "Дни отцов"
+ bm_sengoku1534_desc:0 "В начале лета 1534 года родился Ода Нобунага. Спустя годы он станет известен как один из трех объединителей Японии. В 1534 году Япония все еще находилась под властью сегуната Муромати. Чиновники сёгуната Асикага уже полностью лишены власти.\n\nВ то время как наиболее важные кланы конца 16 века уже начали свое восхождение, многие герои Сэнгоку, такие как Такэда Сингэн или Уэсуги Кенсин, были еще слишком юны. Таким образом, 1534 год можно назвать временем их отцов и дедов..."
+
+ bm_sengoku1534_oda_nobuhide:0 "Нобухидэ"
+ bm_sengoku1534_oda_nobuhide_desc:0 "Oda Nobuhide (1510-1551)\n#weak father of \"Great Unifier of Japan\"#!\n\nOda Nobuhide was born into a branch family of the Oda clan, whose heads were Shugodai of Owari province for generations.\n\nBy taking control of Tsushima, a vital trading hub in Ise Bay, his power grew to the same level as that of the head.\n\n#bold Can he use his economic power to overthrow his lord and become the ruler of Owari successfully?#!"
+ bm_sengoku1534_mori_motonari:0 "Мотонари"
+ bm_sengoku1534_mori_motonari_desc:0 "Mori Motonari (1497-1571)\n#weak \"Begger Prince\"#!\n\nMori Motonari, who became the head of the clan after the sudden death of his brother and nephew, is now a vassal of the Ouchi clan.\n\nThe Ouchi clan, which controls the trade port Hakata and the Iwami Silver Mines, is powerful, and it will not be easy for Motonari to become independent.\n\n#bold Can he use his natural talent for intrigue to rise from mere Kunishu to Grand Daimyo, who has 12 provinces in the Chugoku region?#!"
+ bm_sengoku1534_miyoshi_nagayoshi:0 "Нагаёси"
+ bm_sengoku1534_miyoshi_nagayoshi_desc:0 "Miyoshi Nagayoshi (1522-1564)\n#weak \"Viceroy of Japan\"#!\n\nMiyoshi Nagayoshi's father, Motonaga, was a senior vassal of the Kanrei Hosokawa clan, but his lord Hosokawa Harumoto destroyed him.\n\nMotonaga's successor, Nagayoshi, is young but intelligent, and he and his brilliant younger brothers look forward to the moment when they will come of age.\n\n#bold Can the Miyoshi brothers avenge their father's death and take control of the Kinai region?#!"
+ bm_sengoku1534_nagao_tamekage:0 "Тамэкагэ"
+ bm_sengoku1534_nagao_tamekage_desc:0 "Nagao Tamekage (1489-1543)\n#weak father of \"Dragon of Echigo\"#!\n\nNagao Tamekage, Shugodai of Echigo province, has repeatedly been at odds with his lord, the Uesugi clan, until he finally has the power to surpass Uesugi.\n\nHowever, he can't let his guard down as many independent-minded Kunishu is in his realm.\n\n#bold Can he demonstrate his military prowess both inside and outside and become the ruler of Echigo in name and reality?#!"
+ bm_sengoku1534_takeda_nobutora:0 "Нобутора"
+ bm_sengoku1534_takeda_nobutora_desc:0 "Takeda Nobutora (1494-1574)\n#weak father of \"Tiger of Kai\"#!\n\nTakeda Nobutora fought through a fierce war with his relatives and stabilized Kai province.\n\nWhile powerful Daimyo fills most neighboring provinces, small Kunishu divides Shinano province to the north.\n\n#bold Can he make the Takeda clan the powerful Daimyo by relying on the income from the Kurokawa Gold Mines and his excellent retainers?#!"
+ bm_sengoku1534_hojo_ujitsuna:0 "Удзицуна"
+ bm_sengoku1534_hojo_ujitsuna_desc:0 "Hojo Ujitsuna (1487-1541)\n#weak father of \"Lion of Sagami\"#!\n\nAfter succeeding the realm from his father, Ujitsuna changed the name of his clan from Ise to Hojo, which has ties to the Kanto region, and moved his capital to Odawara.\n\nThe battle against his rivals, the two branches of the Uesugi clan, Ogigayatsu, and Yamanouchi, is becoming increasingly fierce.\n\n#bold Still, he has a chance to win if he makes full use of diplomacy. Can he expand his father's realm to the entire Kanto region?#!"
+ bm_sengoku1534_imagawa_ujiteru:0 "Удзитэру"
+ bm_sengoku1534_imagawa_ujiteru_desc:0 "Imagawa Ujiteru (1513-1536)\n#weak brother of \"Greatest Samurai in Tokai\"#!\n\nThe Imagawa clan, Shugo of Suruga province, is a branch of the Ashikaga clan and is renowned as a prestigious family.\n\nOn the other hand, many powerful vassals in the realm often caused internal conflicts.\n\nIn history, Imagawa Ujiteru passed away at a young age, and the family again plunged into civil strife.\n\n#bold Can he dominate the Tokai region with his troublesome vassals in tow?#!"
+ bm_sengoku1534_date_tanemune:0 "Танэмунэ"
+ bm_sengoku1534_date_tanemune_desc:0 "Date Tanemune (1488-1565)\n#weak great-grandfather of \"One-Eyed Dragon\"#!\n\nDate Tanemune elevated the status of the Date clan by sending large gifts to the Shogunate.\n\nIn addition, he built a strong power in the Southern Oshu region through marriage diplomacy with surrounding lords.\n\nHe is a man of exceptional diplomatic skills and has many children still waiting to come of age.\n\n#bold Can he rule the entire Oshu through marriages?#!"
+ bm_sengoku1534_shimazu_takahisa:0 "Такахиса"
+ bm_sengoku1534_shimazu_takahisa_desc:0 "Shimazu Takahisa (1514-1571)\n#weak father of \"Shimazu Demon\"#!\n\nShimazu Takahisa was born into a branch of the Shimazu clan, a prestigious family in the Southern Kyushu region.\n\nThe head of the line adopted him, and he inherited the head.\n\nHowever, many clan members in his realm are rebellious against Takahisa's succession, and they want to take the position of the head of the family.\n\n#bold Can he win the fierce inheritance battle with his clan and unify the family?#!"
+
+ #
+ # 1546 : Battle of Kawagoe
+ #
+
+ bm_sengoku1546:0 "Битва при Кавагоэ"
+ bm_sengoku1546_desc:0 "После того, как Ходзё Соун (Исэ Моритоки) захватил провинцию Идзу, клан Ходзё постоянно расширял свое влияние в регионе Канто.\n\nОднако после смерти второго лидера клана Ходзё Удзицуна старые силы, такие как кланы Уэсуги и Камакура Кубо, сформировали коалицию против молодого Ходзё Удзиясу. Армия противников Ходзё осадила замок Кавагоэ. Решающая битва за весь регион Канто скоро начнется..."
+
+ bm_sengoku1546_hojo_ujiyasu:0 "Удзиясу"
+ bm_sengoku1546_hojo_ujiyasu_desc:0 ""
+ bm_sengoku1546_uesugi_norimasa:0 "Норимаса"
+ bm_sengoku1546_uesugi_norimasa_desc:0 ""
+ bm_sengoku1546_satomi_yoshitaka:0 "Ёситака"
+ bm_sengoku1546_satomi_yoshitaka_desc:0 ""
+ bm_sengoku1546_takeda_harunobu:0 "Харунобу"
+ bm_sengoku1546_takeda_harunobu_desc:0 "a.k.a. Takeda Shingen"
+ bm_sengoku1546_imagawa_yoshimoto:0 "Ёсимото"
+ bm_sengoku1546_imagawa_yoshimoto_desc:0 ""
+ bm_sengoku1546_saito_toshimasa:0 "Тосимаса"
+ bm_sengoku1546_saito_toshimasa_desc:0 "a.k.a. Saito Dosan"
+ bm_sengoku1546_date_harumune:0 "Харумунэ"
+ bm_sengoku1546_date_harumune_desc:0 ""
+ bm_sengoku1546_ashina_moriuji:0 "Мориудзи"
+ bm_sengoku1546_ashina_moriuji_desc:0 ""
+ bm_sengoku1546_tanegashima_tokitaka:0 "Токитака"
+ bm_sengoku1546_tanegashima_tokitaka_desc:0 ""
+
+ #
+ # 1555 : Battle of Itsukushima
+ #
+
+ bm_sengoku1555:0 "Битва при Ицукусима"
+ bm_sengoku1555_desc:0 "Суэ Харутака убил своего лорда Оути Ёситака в храме Дайнэйдзи в 1551 году и установил контроль над кланом Оути. Его действия разозлили других вассалов клана, главным из которых был Мори Мотонари, который в конце концов провозгласил независимость.\n\nВо время конфликта между кланами Оути и Амаго, Мотонари занял несколько замков, верных Оути, и объединил провинцию Аки. Чтобы наказать бывшего вассала, Суэ Харутака высадил свою армию на острове Миядзима, где стоит знаменитый храм Ицукусима."
+
+ bm_sengoku1555_mori_motonari:0 "Мотонари"
+ bm_sengoku1555_mori_motonari_desc:0 "Mori Motonari (1497-1571)\n#weak \"Begger Prince\"#!\n\nFollowing a coup within the Ouchi clan, Mori Motonari finally became independent from them. However, the new head Ouchi Yoshinaga did not allow him and launched an invasion.\n\nIf Motonari lost this war, he would lose most of his realm. But if he took advantage of his wisdom and the bravery of his sons, he was sure to win a great victory.\n\n#bold Can you overthrow your former liege and rule the Western Chugoku region?#!"
+ bm_sengoku1555_sue_harukata:0 "Харуката"
+ bm_sengoku1555_sue_harukata_desc:0 "Sue Harukata (1521-1555)\n#weak \"Greatest Samurai General in Saigoku\"#!\n\nSue Harukata, the most powerful vassal of the Ouchi clan, has destroyed his liege, Ouchi Yoshitaka, and is now in control of the family.\n\nHe could help Ouchi Yoshinaga, whom he has placed in the head position, defeat the Mori clan. On the other hand, he could abandon Yoshinaga and become the new head.\n\n#bold It's the time to decide whether to be loyal as the \"Greatest Samurai General in Saigoku\" or become the ruler of Saigoku.#!"
+ bm_sengoku1555_murakami_takeyoshi:0 "Такэёси"
+ bm_sengoku1555_murakami_takeyoshi_desc:0 "Murakami Takeyoshi (1533-1604)\n\nThe Murakami clan had been famous in the neighborhood as a Suigun navy since the Nanboku-cho era in the 14th century.\n\nIf Murakami Takeyoshi formed an alliance with the Mori clan and took part in the Battle of Itsukushima, they would assure his safety in the north. He could also expand his territory on Shikoku island by swearing fealty to the Kono clan in Iyo province.\n\n#bold Can you survive the turbulent times as Japan's most significant naval general, moving from one powerful Daimyo to another?#!"
+ bm_sengoku1555_amago_haruhisa:0 "Харухиса"
+ bm_sengoku1555_amago_haruhisa_desc:0 "Amago Haruhisa (1514-1561)\n\nAmago Haruhisa, the Shugo of eight provinces in the Sanin and Sanyo regions, was the most powerful Grand Daimyo in western Japan.\n\nThe Ouchi and Mori clans are battling each other in the west, and he could quickly expand his domain by attacking them when they are exhausted.\n\n#bold Can you take advantage of this once-in-a-lifetime opportunity and achieve the unification of the Chugoku area?#!"
+ bm_sengoku1555_oda_nobunaga:0 "Нобунага"
+ bm_sengoku1555_oda_nobunaga_desc:0 "Oda Nobunaga (1534-1582)\n#weak \"Great Unifier of Japan\"#!\n\nOda Nobunaga, who has just became the head of his clan, is married to the Saito clan to the north. This relationship would be an excellent deterrent to the Imagawa clan's westward expansion.\n\nThe Ise provinces to the west have many weak forces, and conquering them would open the way for Kyoto.\n\n#bold With your brother-in-law Saito Takamasa, can you take the army of Owari and Mino provinces and make an even faster march to Kyoto than in history?#!"
+ bm_sengoku1555_nagao_kagetora:0 "Кагэтора"
+ bm_sengoku1555_nagao_kagetora_desc:0 "Nagao Kagetora (1530-1578)\n#weak \"Dragon of Echigo\" & \"God of War\"#!\n\nNagao Kagetora (later Uesugi Kenshin), who took over the realm from his brother, is finally in control of Echigo province.\n\nThe Takeda and Hojo clans to the south have superior forces to ours. He should advance eastward to the Oshu area or westward to the Hokuriku area and prepare for a decisive battle with his archenemy Takeda Shingen.\n\n#bold Can you, the young \"God of War,\" carve your righteous spirit in turbulent eastern Japan?#!"
+ bm_sengoku1555_nanbu_harumasa:0 "Харумаса"
+ bm_sengoku1555_nanbu_harumasa_desc:0 "Nanbu Harumasa (1517-1582)\n\nNanbu Harumasa is the 24th head of the Nanbu clan, the prestigious branch of the Seiwa-Minamoto clan.\n\nThere are many clan members in his realm, and Harumasa himself has few domains. Under this old system, he must constantly prepare for rebellion from vassals.\n\n#bold Can you achieve domestic development in the northernmost part of Japan and build up your vast realm, described as \"the crescent moon will become full during traveling across the Nanbu realm\"?#!"
+ bm_sengoku1555_ryuzoji_takanobu:0 "Таканобу"
+ bm_sengoku1555_ryuzoji_takanobu_desc:0 "Ryuzoji Takanobu (1529-1584)\n#weak \"Bear of Hizen\"#!\n\nRyuzoji Takanobu, who succeeded the head of his clan at a young age, joined hands with the Ouchi clan to rule the realm.\n\nHowever, the political upheaval of the Ouchi clan subsequently caused him to lose his backing, and the Ryuzoji clan had to become self-reliant. The Hizen province is a land of many small realms, and he can use his military prowess to his full advantage.\n\n#bold Can you, the \"Bear of Hizen,\" become the \"Grand Daimyo of Five Provinces and Two Islands\"?#!"
+ bm_sengoku1555_ashikaga_yoshiteru:0 "Ёситеру"
+ bm_sengoku1555_ashikaga_yoshiteru_desc:0 "Ashikaga Yoshiteru (1536-1565)\n\nThe 13th Shogun Ashikaga Yoshiteru was defeated in battle against Miyoshi Nagayoshi and fell back to Omi province.\n\nThe Miyoshi clan, which rules Kyoto, is now in its heyday, and it will be hopeless for them to resist alone. It is the greatest crisis since the foundation of the Shogunate, and an alliance with a powerful Daimyo is urgently needed.\n\n#bold The significant task of reviving the Shogunate is now in the hands of the young Shogun, also known as an excellent swordmaster.#!"
+
+ #
+ # 1560 : Battle of Okehazama
+ #
+
+ bm_sengoku1560:0 "Битва при Окэхазама"
+ bm_sengoku1560_desc:0 В 1540-х и 1550-х годах кланы Имагава и Ода участвовали постоянно вели войны. Объединившись с Такэда Сингэн и Ходзё Удзиясу, Имагава Ёсимото попытался положить конец этому соперничеству и обеспечить себе путь в Киото.\n\nВ 1560 году он собрал огромную армию из двадцати тысяч человек, чтобы победить Ода Нобунага, недавно объединившего свой собственный клан."
+
+ bm_sengoku1560_oda_nobunaga:0 "Нобунага"
+ bm_sengoku1560_oda_nobunaga_desc:0 "Oda Nobunaga (1534-1582)\n#weak \"Great Unifier of Japan\"#!\n\nOda Nobunaga, who has unified Owari province, is confronted by Imagawa Yoshimoto, \"the Greatest Samurai in Tokai.\"\n\nAlthough Nobunaga is inferior in quantity, he has the advantage in quality. The Imagawa army is careless, and a decisive attack may produce unexpected results.\n\n#bold After defeating Yoshimoto, will you take the road to \"Demon King\"? Or, will you hope for order in the Kinai region by reviving the Shogunate as Nobunaga wished in history? It is up to you.#!"
+ bm_sengoku1560_matsudaira_motoyasu:0 "Мотоясу"
+ bm_sengoku1560_matsudaira_motoyasu_desc:0 "Matsudaira Motoyasu (1543-1616)\n#weak the first Shogun of the Tokugawa Shogunate#!\n\nThe Matsudaira clan, led by Matsudaira Motoyasu (later Tokugawa Ieyasu), is in a difficult situation due to a succession of premature deaths of its heads.\n\nHowever, the Matsudaira clan is one of the most powerful among the Imagawa clan's other vassals. And the generals under its command, including Motoyasu, are as distinguished as the glittering stars.\n\n#bold With the tide of the times rapidly turning, can you steadily build up your power and fight through the turbulent times?#!"
+ bm_sengoku1560_imagawa_yoshimoto:0 "Ёсимото"
+ bm_sengoku1560_imagawa_yoshimoto_desc:0 "Imagawa Yoshimoto (1519-1560)\n#weak \"Greatest Samurai in Tokai\"#!\n\nImagawa Yoshimoto, who secured the safety of his rear by marriage, is attacking the Oda clan by advancing westward.\n\nAlthough superior in military strength, the Oda forces are not to be underestimated as they aim for a surprise attack. The samurai must not rush into battle but must fight tenaciously by making the best use of his advantage.\n\n#bold Can you annex the long-cherished Owari province and expand your realm to the west?#!"
+ bm_sengoku1560_rokkaku_yoshikata:0 "Йосиката"
+ bm_sengoku1560_rokkaku_yoshikata_desc:0 "Rokkaku Yoshikata (1521-1598)\n\nRokkaku Yoshikata, also known as Rokkaku Jotei, rules the Rokkaku clan during this period.\n\nHis longtime nemesis, the Asai clan, allies with its eastern neighbor, the Saito clan, and their forces far outnumber him. In addition to the Kitabatake clan to the south, it is desirable to establish a new alliance.\n\n#bold Can you take advantage of your location in the center of the Kinai region to revive the prosperity of the Rokkaku clan, a prestigious branch of the Minamoto clan?#!"
+ bm_sengoku1560_kitabatake_tomonori:0 "Томонори"
+ bm_sengoku1560_kitabatake_tomonori_desc:0 "Kitabatake Tomonori (1528-1576)\n\nKitabatake Tomonori is the eighth head of the Kitabatake clan, a prestigious family that succeeded the Kokushi (provincial governor) of Ise province.\n\nTaking advantage of his alliance with his northern neighbor, the Rokkaku clan, he could subjugate the north part of Ise. Then he could also embark on the unification of the Yamato province to the west, where a group of rival clans fights each other.\n\n#bold Can you expand your realm and defeat the eastern Daimyo, who will eventually attempt to invade Kyoto?#!"
+ bm_sengoku1560_anekoji_yoshiyori:0 "Ёсиёри"
+ bm_sengoku1560_anekoji_yoshiyori_desc:0 "Anekoji Yoshiyori (1520-1572)\n\nMiki Yoshiyori, who rose to prominence within Hida province, finally destroyed his liege, the Anekoji clan, the Kokushi (provincial governor) of Hida, and succeeded to its family name.\n\nHowever, despite his high Imperial rank, his land is poor, and a group of powerful Daimyo surrounds him.\n\n#bold Can you overcome the adversity and bring the Anekoji clan the greatest prosperity in Japan, both in name and reality?#!"
+ bm_sengoku1560_nagano_narimasa:0 "Наримаса"
+ bm_sengoku1560_nagano_narimasa_desc:0 "Nagano Narimasa (1491-1561)\n#weak \"Tiger of Kozuke\"#!\n\nThe Nagano clan served the Uesugi clan, Kanto Kanrei, but the liege had fallen.\n\nNagano Narimasa could join forces with the Nagao clan in the north to fight both the Takeda and Hojo clans, as in history. Or, he could swear fealty to the Hojo clan and become the spearhead to pacify the northern Kanto region.\n\n#bold Can you wield a leadership comparable to Takeda Shingen and Nagao Kagetora and be known throughout Japan as the \"Tiger of Kozuke\"?#!"
+ bm_sengoku1560_ito_yoshisuke:0 "Ёсисукэ"
+ bm_sengoku1560_ito_yoshisuke_desc:0 "Ito Yoshisuke (1512-1585)\n\nThe Ito clan established its power through repeated battles with the Shimazu clan, the Shugo of Hyuga province.\n\nAgainst the sworn enemy, Ito Yoshisuke could either make peace through marriage until he builds up his strength or could join hands with neighboring clans to form a coalition. However, the fact remains that he must crush the Shimazu in the end.\n\n#bold Can you overcome the Shimazu and become the supreme ruler of the southern Kyushu region?#!"
+ bm_sengoku1560_sagara_yoshihi:0 "Ёсихи"
+ bm_sengoku1560_sagara_yoshihi_desc:0 "Sagara Yoshihi (1544-1581)\n\nThe Sagara clan, which has held power in Higo province since the Kamakura era, is under the reign of the 18th head Sagara Yoshihi.\n\nThe Sagara clan is in a difficult situation between the two great powers, the Otomo clan to the north and the Shimazu clan to the south. Yoshihi could form a marital alliance with one of them or join forces with the Aso and the Ito clans to oppose both.\n\n#bold To overcome these powers, will you fight alongside your friend Kai Soun of the Aso and the excellent ruler Ito Yoshisuke?#!"
+
+ #
+ # 1565 : Eiroku Incident
+ #
+
+ bm_sengoku1565:0 "Eiroku Incident"
+ bm_sengoku1565_desc:0 "Shogun Ashikaga Yoshiteru attempted to rebuild the Shogunate. Still, Miyoshi Yoshitsugu and his three chief retainers killed the Shogun.\n\nThis incident made the legitimate Shogun absent, and it temporarily destroyed the Ashikaga Shogunate."
+
+ bm_sengoku1565_oda_nobunaga:0 "Нобунага"
+ bm_sengoku1565_oda_nobunaga_desc:0 ""
+ bm_sengoku1565_matsudaira_ieyasu:0 "Иэясу"
+ bm_sengoku1565_matsudaira_ieyasu_desc:0 "a.k.a. Tokugawa Ieyasu"
+ bm_sengoku1565_saito_tatsuoki:0 "Тацуоки"
+ bm_sengoku1565_saito_tatsuoki_desc:0 ""
+ bm_sengoku1565_azai_nagamasa:0 "Нагамаса"
+ bm_sengoku1565_azai_nagamasa_desc:0 ""
+ bm_sengoku1565_matsunaga_hisahide:0 "Хисахидэ"
+ bm_sengoku1565_matsunaga_hisahide_desc:0 ""
+ bm_sengoku1565_tsutsui_junkei:0 "Дзюнкэй"
+ bm_sengoku1565_tsutsui_junkei_desc:0 ""
+ bm_sengoku1565_ukita_naoie:0 "Наойэ"
+ bm_sengoku1565_ukita_naoie_desc:0 ""
+ bm_sengoku1565_amago_yoshihisa:0 "Ёсихиса"
+ bm_sengoku1565_amago_yoshihisa_desc:0 ""
+ bm_sengoku1565_omura_sumitada:0 "Сумитада"
+ bm_sengoku1565_omura_sumitada_desc:0 ""
+
+ #
+ # 1568 : Tenka Fubu
+ #
+
+ bm_sengoku1568:0 "Тэнка Фубу"
+ bm_sengoku1568_desc:0 "После битвы при Окэхадзама, Ода Нобунага объединился с Мацудайра Мотоясу (позже известным как Токугава Иэясу) и вторгся в Мино - провинцию его покойного тестя. Он завоевал всю провинцию к 1567 году и перенес свою столицу в Инабаяма, которую переименовал в Гифу.\n\nВ то же время в Кинай царил политический хаос. Кресло правителя пустовало, с тех пор, как сёгун Асикага Ёситэру был убит. Нобунага провозгласил свой знаменитый девиз «Тэнка Фубу» («Сила правит миром») и ждал возможности вторгнуться в Киото."
+
+ bm_sengoku1568_oda_nobunaga:0 "Нобунага"
+ bm_sengoku1568_oda_nobunaga_desc:0 "Oda Nobunaga (1534-1582)\n#weak \"Great Unifier of Japan\"#!\n\nAfter a long series of battles, Oda Nobunaga conquered the neighboring Mino province.\n\nWhen he succeeded in stabilizing his realms, he finally launched an army to march on Kyoto. His campaign aims to install Ashikaga Yoshiaki, the brother of the previous Shogun, as the new Shogun.\n\n#bold Can he defeat the Rokkaku clan in Southern Omi and Miyoshi Triumvirate in the Kinai region and revive the Shogunate?#!"
+ bm_sengoku1568_tokugawa_ieyasu:0 "Иэясу"
+ bm_sengoku1568_tokugawa_ieyasu_desc:0 "Tokugawa Ieyasu (1543-1616)\n#weak the first Shogun of the Tokugawa Shogunate#!\n\nTokugawa Ieyasu became independent from the Imagawa clan. He is now following Oda Nobunaga's army to Kyoto as the Daimyo of Mikawa.\n\nHis ally Oda is reliable, but the neighboring Takeda clan is powerful, and Imagawa has the backing of the Hojo clan.\n\n#bold Can he fight alongside Nobunaga and advance eastward against these powerful clans?#!"
+ bm_sengoku1568_takeda_shingen:0 "Сингэн"
+ bm_sengoku1568_takeda_shingen_desc:0 "Takeda Shingen (1521-1573)\n#weak \"Tiger of Kai\"#!\n\nTakeda Shingen rapidly expanded his power from Kai province to Shinano and Kozuke.\n\nThe previous year's purge of his eldest son Yoshinobu and his alliance with the Oda clan in the west greatly impacted his diplomacy.\n\n#bold Should he keep his policy and attack the Uesugi clan to the north, or should he look for new possibilities in the Imagawa clan to the south?\n\nThe Takeda army is waiting for your decision.#!"
+ bm_sengoku1568_uesugi_terutora:0 "Тэрутора"
+ bm_sengoku1568_uesugi_terutora_desc:0 "Uesugi Terutora (1530-1578)\n#weak \"Dragon of Echigo\" & \"God of War\"#!\n\nNagao Terutora (later Uesugi Kenshin), the ruler of Echigo province, received the title of Kanto Kanrei and succeeded the Uesugi clan from Uesugi Norimasa, who the Hojo clan had defeated.\n\nWith his cause in hand, he launched an invasion of the Kanto region to defeat the Hojo clan.\n\n#bold Can he capture the strong castles of Kanto and make the divine banner of Bishamonten flutter at the gate of Odawara Castle?#!"
+ bm_sengoku1568_hojo_ujiyasu:0 "Удзиясу"
+ bm_sengoku1568_hojo_ujiyasu_desc:0 "Hojo Ujiyasu (1515-1571)\n#weak \"Lion of Sagami\"#!\n\nHojo Ujiyasu is steadily expanding his realm with Sagami province as the heartland. However, Uesugi Terutora stands in the way of him.\n\nFew can compete with Terutora's god-like strategy. However, Ujiyasu has a strong castle in Odawara, built by successive generations of Hojo lords.\n\n#bold Can he repel the onslaught from the north and establish the rule of Hojo in the Kanto region?#!"
+ bm_sengoku1568_mori_motonari:0 "Мотонари"
+ bm_sengoku1568_mori_motonari_desc:0 "Mori Motonari (1497-1571)\n#weak \"Begger Prince\"#!\n\nThanks to Mori Motonari, the Mori clan has risen from Kunishu of Aki province to Grand Daimyo of Chugoku region.\n\nCurrently, the Mori clan is in the midst of a power struggle with the Otomo clan in Northern Kyushu region, and both families focus on Hakata, Japan's leading trade port.\n\n#bold Can he fill the treasury with enormous treasures in addition to the silver from the famous Iwami Silver Mines?#!"
+ bm_sengoku1568_chosokabe_motochika:0 "Мотонари"
+ bm_sengoku1568_chosokabe_motochika_desc:0 "Chosokabe Motochika (1539-1599)\n#weak \"Little Demon\"#!\n\nWith Chosokabe Motochika becoming the head of the family at a young age, the Chosokabe clan became a significant force in Tosa province.\n\nOn Shikoku island, The Kono clan in Iyo province allies with the Otomo clan, and the realm of the Miyoshi clan in Awa province is vast.\n\n#bold Can he defeat all of his enemies with the Ichiryo-Gusoku, a group of farmer-samurai, and unify Shikoku island?#!"
+ bm_sengoku1568_otomo_sorin:0 "Сорин"
+ bm_sengoku1568_otomo_sorin_desc:0 "Otomo Sorin (1530-1587)\n#weak \"King of Bungo\"#!\n\nOtomo Sorin's younger brother, Yoshinaga, succeeded the Ouchi clan but was attacked and destroyed by Mori Motonari.\n\nMotonari annexed Ouchi's former territory and expanded his control to Northern Kyushu region. To overthrow the powerful Mori clan, the help of Otomo's allies on Shikoku island is essential.\n\n#bold Can he protect Northern Kyushu from the nemesis that killed his brother?#!"
+ bm_sengoku1568_shimazu_yoshihisa:0 "Ёсихиса"
+ bm_sengoku1568_shimazu_yoshihisa_desc:0 "Shimazu Yoshihisa (1533-1611)\n#weak brother of \"Shimazu Demon\"#!\n\nThe Shimazu clan, which once ruled Southern Kyushu region, has reduced its control to only Satsuma province due to an extended family feud.\n\nNow that Shimazu Yoshihisa has allied with the Sagara clan to the north, he has an opportunity to reclaim his clan's old territory.\n\n#bold Can he regain control of Southern Kyushu with the help of his three talented younger brothers?#!"
+
+ #
+ # 1572 : Anti-Nobunaga Coalition
+ #
+
+ bm_sengoku1572:0 "Коалиция против Нобунага"
+ bm_sengoku1572_desc:0 "Oda Nobunaga helped Shogun Ashikaga Yoshiaki rebuild the Shogunate and became the guardian of Yoshiaki.\n\nHowever, many Daimyo refused to obey the new Shogun, and the conflict between Nobunaga and Yoshiaki gradually intensified.\n\nWhen the conflict reached its peak, Takeda Shingen of Kai province finally started the Westward Operation toward Kyoto."
+
+ bm_sengoku1572_oda_nobunaga:0 "Нобунага"
+ bm_sengoku1572_oda_nobunaga_desc:0 ""
+ bm_sengoku1572_tokugawa_ieyasu:0 "Иэясу"
+ bm_sengoku1572_tokugawa_ieyasu_desc:0 ""
+ bm_sengoku1572_takeda_shingen:0 "Сингэн"
+ bm_sengoku1572_takeda_shingen_desc:0 ""
+ bm_sengoku1572_asakura_yoshikage:0 "Ёсикагэ"
+ bm_sengoku1572_asakura_yoshikage_desc:0 ""
+ bm_sengoku1572_azai_nagamasa:0 "Нагамаса"
+ bm_sengoku1572_azai_nagamasa_desc:0 ""
+ bm_sengoku1572_ashikaga_yoshiaki:0 "Ёсиаки"
+ bm_sengoku1572_ashikaga_yoshiaki_desc:0 ""
+ bm_sengoku1572_satake_yoshishige:0 "Ёсисигэ"
+ bm_sengoku1572_satake_yoshishige_desc:0 ""
+ bm_sengoku1572_oura_tamenobu:0 "Тамэнобу"
+ bm_sengoku1572_oura_tamenobu_desc:0 "a.k.a. Tsugaru Tamenobu"
+ bm_sengoku1572_takahashi_shigetane:0 "Сигэтанэ"
+ bm_sengoku1572_takahashi_shigetane_desc:0 "a.k.a. Takahashi Joun"
+
+ #
+ # 1575 : Battle of Nagashino
+ #
+
+ bm_sengoku1575:0 "Битва при Нагасино"
+ bm_sengoku1575_desc:0 "Ода Нобунага спасся от сформированной пиротив него коалиции. Асакура и Адзаи пали, сёгун Ёсиаки был изгнан, а самый опасный враг Такэда Сингэн умер.\n\nОднако его сын Такэда Кацуёри не отказался от амбиций отца. Используя свою сильную конницу, новый лидер клана Такэда неоднократно атаковал союзника Нобунага - Токугава Иэясу. Чтобы победить всадников Такэда, Нобунага решил использовать огнестрельное оружее..."
+
+ bm_sengoku1575_oda_nobunaga:0 "Нобунага"
+ bm_sengoku1575_oda_nobunaga_desc:0 "Ода Нобунага\n1534-1582\n\nНобунага победил армию Имагавы в битве при Окехазама. В союзе с Токугавой Иэясу Нобунага уничтожил клан Сайто и основал базу в Гифу.\n\nВместе с Асикагой Ёсиаки Нобунага вошел в Киото, чтобы сделать Ёсиаки сёгуном, но позже выступил против него и изгнал его. Это означало упадок сёгуната Асикага. Нобунага победил армию Азаи и Асакуры в битве при Анекаве, а также клан Такэда в битве при Нагасино.\n\nОднако, сразу постройки замка Адзути и первых шагов к объединению Японии, он был предан Акэти Мицухидэ и погиб в Хонно-дзи."
+ bm_sengoku1575_tokugawa_ieyasu:0 "Иэясу"
+ bm_sengoku1575_tokugawa_ieyasu_desc:0 "Токугава Иэясу\n1543-1616\n\nДетство провел в заложниках у клана Имагава и клана Ода.\n\nПосле битвы при Окехазаме Мотоясу стал независимым от клана Имагава. Сначала он вступил в военный союз с Ода Нобунага, но постепенно изменил свою позицию.\n\nПосле смерти Нобунага, Иэясу стал подчиняться Тоётоми Хидэёси. После смерти Хидэёси, Иэясу выиграл битву при Сэкигахара и основал сёгунат Токугава."
+ bm_sengoku1575_takeda_katsuyori:0 "Кацуёри"
+ bm_sengoku1575_takeda_katsuyori_desc:0 ""
+ bm_sengoku1575_hashiba_hideyoshi:0 "Хидэёси"
+ bm_sengoku1575_hashiba_hideyoshi_desc:0 "a.k.a. Тоётоми Хидэёси"
+ bm_sengoku1575_sakuma_nobumori:0 "Нобумори"
+ bm_sengoku1575_sakuma_nobumori_desc:0 ""
+ bm_sengoku1575_ban_naomasa:0 "Наомаса"
+ bm_sengoku1575_ban_naomasa_desc:0 ""
+ bm_sengoku1575_mogami_yoshiaki:0 "Ёсиаки"
+ bm_sengoku1575_mogami_yoshiaki_desc:0 ""
+ bm_sengoku1575_suzuki_magoichi:0 "Магоити"
+ bm_sengoku1575_suzuki_magoichi_desc:0 ""
+ bm_sengoku1575_takayama_shigetomo:0 "Сигэтомо"
+ bm_sengoku1575_takayama_shigetomo_desc:0 "a.k.a. Takayama Ukon"
+
+ #
+ # 1578 : 3rd Restoration of Amago
+ #
+
+ bm_sengoku1578:0 "3-е возвращение Амаго"
+ bm_sengoku1578_desc:0 "Клан Амаго был уничтожен после падения замка Гассан-Тода в 1566 году, но некоторые члены клана не оставляли надежды восстановить свою власть в Санин. С помощью Ода Нобунага они начали борьбу против клана Мори в 1578 году. Это был последний шанс для возвращения Амаго."
+
+ bm_sengoku1578_oda_nobunaga:0 "Нобунага"
+ bm_sengoku1578_oda_nobunaga_desc:0 ""Ода Нобунага\n1534-1582\n\nНобунага победил армию Имагавы в битве при Окехазама. В союзе с Токугавой Иэясу Нобунага уничтожил клан Сайто и основал базу в Гифу.\n\nВместе с Асикагой Ёсиаки Нобунага вошел в Киото, чтобы сделать Ёсиаки сёгуном, но позже выступил против него и изгнал его. Это означало упадок сёгуната Асикага. Нобунага победил армию Азаи и Асакуры в битве при Анекаве, а также клан Такэда в битве при Нагасино.\n\nОднако, сразу постройки замка Адзути и первых шагов к объединению Японии, он был предан Акэти Мицухидэ и погиб в Хонно-дзи."
+ bm_sengoku1578_amago_katsuhisa:0 "Кацухиса"
+ bm_sengoku1578_amago_katsuhisa_desc:0 ""
+ bm_sengoku1578_mori_terumoto:0 "Тэрумото"
+ bm_sengoku1578_mori_terumoto_desc:0 ""
+ bm_sengoku1578_otomo_sorin:0 "Сорин"
+ bm_sengoku1578_otomo_sorin_desc:0 ""
+ bm_sengoku1578_shimazu_yoshihisa:0 "Ёсихиса"
+ bm_sengoku1578_shimazu_yoshihisa_desc:0 ""
+ bm_sengoku1578_momochi_tanba:0 "Тамба"
+ bm_sengoku1578_momochi_tanba_desc:0 ""
+ bm_sengoku1578_bessho_nagaharu:0 "Нагахару"
+ bm_sengoku1578_bessho_nagaharu_desc:0 ""
+ bm_sengoku1578_araki_murashige:0 "Мурасигэ"
+ bm_sengoku1578_araki_murashige_desc:0 ""
+ bm_sengoku1578_kuki_yoshitaka:0 "Ёситака"
+ bm_sengoku1578_kuki_yoshitaka_desc:0 ""
+
+ #
+ # 1582 : Fall of Takeda
+ #
+
+ bm_sengoku1582:0 "Падение Такэда"
+ bm_sengoku1582_desc:0 "Ода Нобунага сокрушил конницу Такэда Кацуёри в битве при Нагасино. Он и его генералы, такие как Хасиба (Тоётоми) Хидэёси, Сибата Кацуиэ и Акэти Мицухидэ, выступили против других региональных держав и обеспечили мир в центральной Японии.\n\nВ 1582 году Нобунага приказал разбить клан Такэда. Падение клана Такэда, который управлял провинцией Каи в течение 400 лет, было близко как никогда, но никто и не подозревал, что Нобунага может погибнуть в ближайшие месяцы..."
+
+ bm_sengoku1582_oda_nobutada:0 "Нобутада"
+ bm_sengoku1582_oda_nobutada_desc:0 ""
+ bm_sengoku1582_takeda_katsuyori:0 "Кацуёри"
+ bm_sengoku1582_takeda_katsuyori_desc:0 ""
+ bm_sengoku1582_anayama_nobutada:0 "Нобутада"
+ bm_sengoku1582_anayama_nobutada_desc:0 "a.k.a. Anayama Baisetsu"
+ bm_sengoku1582_tokugawa_ieyasu:0 "Иэясу"
+ bm_sengoku1582_tokugawa_ieyasu_desc:0 ""
+ bm_sengoku1582_uesugi_kagekatsu:0 "Кагэкацу"
+ bm_sengoku1582_uesugi_kagekatsu_desc:0 ""
+ bm_sengoku1582_mori_terumoto:0 "Тэрумото"
+ bm_sengoku1582_mori_terumoto_desc:0 ""
+ bm_sengoku1582_hashiba_hideyoshi:0 "Хидэёси"
+ bm_sengoku1582_hashiba_hideyoshi_desc:0 "a.k.a. Тоётоми Хидэёси"
+ bm_sengoku1582_shibata_katsuie:0 "Кацуиэ"
+ bm_sengoku1582_shibata_katsuie_desc:0 ""
+ bm_sengoku1582_akechi_mitsuhide:0 "Мицухидэ"
+ bm_sengoku1582_akechi_mitsuhide_desc:0 ""
+
+ #
+ # 1582 : Honno-ji Incident
+ #
+
+ bm_honnoji1582:0 "Наш враг в Хонно-дзи!"
+ bm_honnoji1582_desc:0 "В 1582 году Акэти Мицухидэ было приказано отправиться на запад и помочь Хасиба Хидэёси, который в то время сражался с кланом Мори.\n\nНо, игнорируя приказы, Мицухидэ собрал армию из 13 000 солдат и двинулся против позиции Нобунага. 21 июня Мицухидэ провозгласил: «Наш враг в Хонно-дзи!»\n\nЕго армия окружила храм и в конце концов подожгла его. Ода Нобунага был вынужден совершить харакири.\n\nПредательство Мицухидэ потрясло столицу, и он торопился укрепить свои позиции, но Хасиба Хидэёси и Сибата Кацуиэ уже начали марш против Акэти, чтобы отомстить за смерть Оды..."
+
+ bm_honnoji1582_hashiba_hideyoshi:0 "Хидэёси"
+ bm_honnoji1582_hashiba_hideyoshi_desc:0 "a.k.a. Тоётоми Хидэёси"
+ bm_honnoji1582_shibata_katsuie:0 "Кацуиэ"
+ bm_honnoji1582_shibata_katsuie_desc:0 ""
+ bm_honnoji1582_akechi_mitsuhide:0 "Мицухидэ"
+ bm_honnoji1582_akechi_mitsuhide_desc:0 ""
+ bm_honnoji1582_tokugawa_ieyasu:0 "Иэясу"
+ bm_honnoji1582_tokugawa_ieyasu_desc:0 "Токугава Иэясу\n1543-1616\n\nДетство провел в заложниках у клана Имагава и клана Ода.\n\nПосле битвы при Окехазаме, Мотоясу стал независимым от клана Имагава. Сначала он вступил в военный союз с Ода Нобунага, но постепенно изменил свою позицию.\n\nПосле смерти Нобунаги Иэясу стал подчиняться Тоётоми Хидэёси. После смерти Хидэёси, Иэясу выиграл битву при Сэкигахара и основал сёгунат Токугава."
+ bm_honnoji1582_uesugi_kagekatsu:0 "Кагэкацу"
+ bm_honnoji1582_uesugi_kagekatsu_desc:0 ""
+ bm_honnoji1582_hojo_ujimasa:0 "Удзимаса"
+ bm_honnoji1582_hojo_ujimasa_desc:0 ""
+ bm_honnoji1582_takigawa_kazumasu:0 "Кадзумасу"
+ bm_honnoji1582_takigawa_kazumasu_desc:0 ""
+ bm_honnoji1582_sanada_masayuki:0 "Масаюки"
+ bm_honnoji1582_sanada_masayuki_desc:0 ""
+ bm_honnoji1582_hosokawa_tadaoki:0 "Тадаоки"
+ bm_honnoji1582_hosokawa_tadaoki_desc:0 ""
+
+ #
+ # 1582 : Battle of Shizugatake
+ #
+
+ bm_shizugatake1582:0 "Битва за Сидзугатакэ"
+ bm_shizugatake1582_desc:0 "After Oda Nobunaga's death, Hashiba Hideyoshi had more influence in the Oda clan due to his defeat of Akechi Mitsuhide.\n\nAt the Kiyosu Conference, Oda vassals gathered to decide the clan's future. Still, it also highlighted the conflicts between the vassals.\n\nNiwa Nagahide and Ikeda Tsuneoki joined an alliance with Hideyoshi. At the same time, the chief vassal Shibata Katsuie allied with Oda Nobutaka (Nobunaga's third son) and Takigawa Kazumasu.\n\nAt the end of the year, when the Hokuriku region was closed to snow, Hideyoshi moved his troops to Shibata's Nagahama Castle."
+
+ bm_shizugatake1582_hashiba_hideyoshi:0 "Хидэёси"
+ bm_shizugatake1582_hashiba_hideyoshi_desc:0 "a.k.a. Тоётоми Хидэёси"
+ bm_shizugatake1582_shibata_katsuie:0 "Кацуиэ"
+ bm_shizugatake1582_shibata_katsuie_desc:0 ""
+ bm_shizugatake1582_oda_nobutaka:0 "Нобутака"
+ bm_shizugatake1582_oda_nobutaka_desc:0 ""
+ bm_shizugatake1582_niwa_nagahide:0 "Нагахидэ"
+ bm_shizugatake1582_niwa_nagahide_desc:0 ""
+ bm_shizugatake1582_ikeda_tsuneoki:0 "Цунэоки"
+ bm_shizugatake1582_ikeda_tsuneoki_desc:0 ""
+ bm_shizugatake1582_takigawa_kazumasu:0 "Кадзумасу"
+ bm_shizugatake1582_takigawa_kazumasu_desc:0 ""
+ bm_shizugatake1582_hashiba_hidekatsu:0 "Хидэкацу"
+ bm_shizugatake1582_hashiba_hidekatsu_desc:0 "a.k.a. Otsugi Hidekatsu"
+ bm_shizugatake1582_arima_harunobu:0 "Харунобу"
+ bm_shizugatake1582_arima_harunobu_desc:0 ""
+ bm_shizugatake1582_hori_hidemasa:0 "Хидэмаса"
+ bm_shizugatake1582_hori_hidemasa_desc:0 ""
+
+ #
+ # 1584 : Battle of Komaki & Nagakute
+ #
+
+ bm_komakinagakute1584:0 "Битвы Комаки и Нагакутэ"
+ bm_komakinagakute1584_desc:0 "Oda Nobukatsu cooperated with Hashiba Hideyoshi, but their powerful enemy Shibata Katsuie fell, their relations dissolved.\n\nDistressed Nobukatsu allied with Tokugawa Ieyasu and executed his vassals conciliated by Hideyoshi.\n\nIn response, Hideyoshi decided to go to war, and Ieyasu marched to Kiyosu Castle to help Nobukatsu.\n\nAt that time, Ikeda Tsuneoki, one of the chief vassals of the Oda clan, suddenly betrayed Hideyoshi and occupied Inuyama Castle."
+
+ bm_komakinagakute1584_hashiba_hideyoshi:0 "Хидэёси"
+ bm_komakinagakute1584_hashiba_hideyoshi_desc:0 "a.k.a. Тоётоми Хидэёси"
+ bm_komakinagakute1584_tokugawa_ieyasu:0 "Иэясу"
+ bm_komakinagakute1584_tokugawa_ieyasu_desc:0 ""
+ bm_komakinagakute1584_oda_nobukatsu:0 "Нобукацу"
+ bm_komakinagakute1584_oda_nobukatsu_desc:0 ""
+ bm_komakinagakute1584_maeda_toshiie:0 "Тосииэ"
+ bm_komakinagakute1584_maeda_toshiie_desc:0 ""
+ bm_komakinagakute1584_sassa_narimasa:0 "Наримаса"
+ bm_komakinagakute1584_sassa_narimasa_desc:0 ""
+ bm_komakinagakute1584_ryuzoji_takanobu:0 "Таканобу"
+ bm_komakinagakute1584_ryuzoji_takanobu_desc:0 ""
+ bm_komakinagakute1584_ii_naomasa:0 "Наомаса"
+ bm_komakinagakute1584_ii_naomasa_desc:0 ""
+ bm_komakinagakute1584_ishikawa_kazumasa:0 "Кадзумаса"
+ bm_komakinagakute1584_ishikawa_kazumasa_desc:0 ""
+ bm_komakinagakute1584_naoe_kanetsugu:0 "Канэцугу"
+ bm_komakinagakute1584_naoe_kanetsugu_desc:0 ""
+
+ #
+ # 1585 : Shikoku Campaign
+ #
+
+ bm_shikokucampaign1585:0 "Поход на Сикоку"
+ bm_shikokucampaign1585_desc:0 "In 1585, Chosokabe Motochika surrendered the Kono clan in Iyo province and almost united Shikoku Island.\n\nMotochika sided with Tokugawa Ieyasu at the Battle of Komaki and Nagakute. Therefore the conflict between Motochika and Hashiba Hideyoshi became inevitable.\n\nMotochika refused to surrender, and Hideyoshi launched an invasion of Shikoku from three sides with his brother Hidenaga as the general."
+
+ bm_shikokucampaign1585_hashiba_hidenaga:0 "Хидэнага"
+ bm_shikokucampaign1585_hashiba_hidenaga_desc:0 "a.k.a. Toyotomi Hidenaga"
+ bm_shikokucampaign1585_chosokabe_motochika:0 "Мотонари"
+ bm_shikokucampaign1585_chosokabe_motochika_desc:0 ""
+ bm_shikokucampaign1585_kono_michinao:0 "Митинао"
+ bm_shikokucampaign1585_kono_michinao_desc:0 ""
+ bm_shikokucampaign1585_kikkawa_motonaga:0 "Мотонага"
+ bm_shikokucampaign1585_kikkawa_motonaga_desc:0 ""
+ bm_shikokucampaign1585_kobayakawa_takakage:0 "Такакагэ"
+ bm_shikokucampaign1585_kobayakawa_takakage_desc:0 ""
+ bm_shikokucampaign1585_ukita_hideie:0 "Хидэйэ"
+ bm_shikokucampaign1585_ukita_hideie_desc:0 ""
+ bm_shikokucampaign1585_date_masamune:0 "Масамунэ"
+ bm_shikokucampaign1585_date_masamune_desc:0 ""
+ bm_shikokucampaign1585_gamo_ujisato:0 "Удзисато"
+ bm_shikokucampaign1585_gamo_ujisato_desc:0 ""
+ bm_shikokucampaign1585_sengoku_hidehisa:0 "Хидэхиса"
+ bm_shikokucampaign1585_sengoku_hidehisa_desc:0 ""
+
+ #
+ # 1586 : Kyushu Campaign
+ #
+
+ bm_kyushucampaign1586:0 "Поход на Кюсю"
+ bm_kyushucampaign1586_desc:0 "The balance of power in Kyushu Island was lost when Shimazu Yoshihisa of Satsuma province and his brothers appeared in history.\n\nUnder pressure from the Shimazu, Otomo Sorin appealed to Toyotomi Hideyoshi for help, and Hideyoshi ordered a truce in the name of the Imperial Court.\n\nHowever, Shimazu refused to accept the truce and continued his attack on Otomo. Hideyoshi set out with an army of 200,000 to conquer the Shimazu."
+
+ bm_kyushucampaign1586_shimazu_yoshihisa:0 "Ёсихиса"
+ bm_kyushucampaign1586_shimazu_yoshihisa_desc:0 ""
+ bm_kyushucampaign1586_otomo_sorin:0 "Сорин"
+ bm_kyushucampaign1586_otomo_sorin_desc:0 ""
+ bm_kyushucampaign1586_tachibana_muneshige:0 "Мунэсиге"
+ bm_kyushucampaign1586_tachibana_muneshige_desc:0 ""
+ bm_kyushucampaign1586_toyotomi_hidetsugu:0 "Хидэцугу"
+ bm_kyushucampaign1586_toyotomi_hidetsugu_desc:0 ""
+ bm_kyushucampaign1586_toyotomi_hidekatsu:0 "Хидэкацу"
+ bm_kyushucampaign1586_toyotomi_hidekatsu_desc:0 "a.k.a. Kokichi Hidekatsu"
+ bm_kyushucampaign1586_hachisuka_iemasa:0 "Иэмаса"
+ bm_kyushucampaign1586_hachisuka_iemasa_desc:0 ""
+ bm_kyushucampaign1586_kanamori_nagachika:0 "Нагатика"
+ bm_kyushucampaign1586_kanamori_nagachika_desc:0 ""
+ bm_kyushucampaign1586_ikeda_terumasa:0 "Тэрумаса"
+ bm_kyushucampaign1586_ikeda_terumasa_desc:0 ""
+ bm_kyushucampaign1586_kakizaki_yoshihiro:0 "Ёсихиро"
+ bm_kyushucampaign1586_kakizaki_yoshihiro_desc:0 "a.k.a. Matsumae Yoshihiro"
+
+ #
+ # 1589 : Odawara Campaign
+ #
+
+ bm_odawara1589:0 "Кампания Одавара"
+ bm_odawara1589_desc:0 "Toyotomi Hideyoshi interceded and settled the dispute between the Hojo and Sanada clans by handing over two-thirds of Numata in Kozuke province to the Hojo clan.\n\nHowever, a Hojo vassal Inomata Kuninori seized the remaining Numata, triggering Hideyoshi's decision to conquer the Hojo clan.\n\nHojo Ujimasa and Hojo Ujinao were in a siege at Odawara Castle, which even Uesugi Kenshin and Takeda Shingen had been unable to capture."
+
+ bm_odawara1589_hojo_ujimasa:0 "Удзимаса"
+ bm_odawara1589_hojo_ujimasa_desc:0 ""
+ bm_odawara1589_date_masamune:0 "Масамунэ"
+ bm_odawara1589_date_masamune_desc:0 ""
+ bm_odawara1589_toyotomi_hidetoshi:0 "Хидэтоси"
+ bm_odawara1589_toyotomi_hidetoshi_desc:0 "a.k.a. Kobayakawa Hideaki"
+ bm_odawara1589_fukushima_masanori:0 "Масанори"
+ bm_odawara1589_fukushima_masanori_desc:0 ""
+ bm_odawara1589_kato_kiyomasa:0 "Киёмаса"
+ bm_odawara1589_kato_kiyomasa_desc:0 ""
+ bm_odawara1589_konishi_yukinaga:0 "Юкинага"
+ bm_odawara1589_konishi_yukinaga_desc:0 ""
+ bm_odawara1589_kuroda_nagamasa:0 "Нагамаса"
+ bm_odawara1589_kuroda_nagamasa_desc:0 ""
+ bm_odawara1589_nabeshima_naoshige:0 "Наосигэ"
+ bm_odawara1589_nabeshima_naoshige_desc:0 ""
+ bm_odawara1589_ashikaga_uji:0 "Удзи"
+ bm_odawara1589_ashikaga_uji_desc:0 "a.k.a. Ashikaga Ujihime"

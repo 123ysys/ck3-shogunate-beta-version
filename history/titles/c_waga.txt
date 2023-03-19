@@ -1,0 +1,136 @@
+c_nmih_waga = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_waga1={
+				set_title_name=b_nmih_waga9
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_waga1={
+				set_title_name=b_nmih_waga9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_waga1={
+				set_title_name=b_nmih_waga1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	1088.1.1={
+		holder=12030000 # Fujiwara Kiyohira
+	}
+	1128.8.10={
+		holder=12030010 # Fujiwara Motohira
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu"
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1180.1.1={
+		liege="d_nmih_uzen"
+		holder=12030070 # Fujiwara [Hizume] Morohira
+	}
+	1189.10.3={ # Fall of Hiraizumi
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=12205400 # Chujo Ienaga
+	}
+	1221.7.6={
+		liege="d_nmih_owari"
+		holder=12205405 # Chujo Iehira
+	}
+	1250.1.1={
+		holder=12205410 # Chujo Yorihira
+	}
+	1285.1.1={
+		holder=12205415 # Chujo Kagenaga
+	}
+	1300.1.1={
+		liege="d_nmih_rikuzen"
+		holder=12053000 # Waga Munechika
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+	}
+	1338.6.10={
+		liege="d_nmih_oshu_shugo"
+	}
+	1340.1.1={
+		holder=12053001 # Waga Tadayoshi
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1360.1.1={
+		holder=12053005 # Waga Sadayoshi
+	}
+	1380.1.1={
+		holder=12053010 # Waga Shigeyoshi
+	}
+	1392.1.1={
+		liege=0
+	}
+	1400.1.1={
+		holder=12053015 # Waga Masayoshi
+	}
+	1420.1.1={
+		holder=12053020 # Waga Hideyoshi
+	}
+	1440.1.1={
+		holder=12053025 # Waga Hidetomo
+	}
+	1460.1.1={
+		liege=0
+		holder=10003512 # Waga Sadayoshi
+	}
+	1490.1.1={
+		holder=10003503 # Waga Sadayuki
+	}
+	1500.1.1={
+		holder=10003502 # Waga Yukiyoshi
+	}
+	1522.1.1={
+		holder=10003501 # Waga Yoshikatsu
+	}
+	1560.1.1={
+		holder=10003504 # Waga Yoshinobu
+	}
+	1570.1.1={
+		holder=10003506 # Waga Yoshitada
+	}
+	1590.8.28={
+		holder=10029439 # Asano Nagamasa
+		liege="e_nmih_japan"
+	}
+	1590.11.10={
+		liege=0
+		holder=10003506 # Waga Yoshitada
+	}
+	1592.1.1={
+		liege="d_nmih_mutsu"
+		holder=10003143 # Kita Hidechika
+	}
+	1598.1.1={
+		holder=10003141 # Kita Nobuchika
+	}
+	1603.3.24={
+		holder=10003156 # Nanbu Toshinao
+	}
+}

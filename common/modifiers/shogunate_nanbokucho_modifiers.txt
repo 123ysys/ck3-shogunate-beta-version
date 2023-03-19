@@ -1,0 +1,36 @@
+﻿# Nanboku-cho Modifiers
+
+shogunate_nanbokucho_leader_5_times_modifier = {
+	icon = martial_positive
+	levy_size = 0.1
+}
+
+shogunate_nanbokucho_leader_10_times_modifier = {
+	icon = martial_positive
+	levy_size = 0.2
+}
+
+shogunate_nanbokucho_leader_15_times_modifier = {
+	icon = martial_positive
+	levy_size = 0.3
+}
+
+shogunate_nanbokucho_leader_20_times_modifier = {
+	icon = martial_positive
+	levy_size = 0.4
+}
+
+shogunate_nanbokucho_leader_30_times_modifier = {
+	icon = martial_positive
+	levy_size = 0.6
+}
+
+shogunate_nanbokucho_leader_40_times_modifier = {
+	icon = martial_positive
+	levy_size = 0.8
+}
+
+shogunate_nanbokucho_leader_50_times_modifier = {
+	icon = martial_positive
+	levy_size = 1.0
+}

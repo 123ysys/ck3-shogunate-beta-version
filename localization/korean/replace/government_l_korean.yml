@@ -1,0 +1,63 @@
+﻿l_korean:
+
+ special_contract:2 "[Concept( 'feudal_contract', '주인장' )|B|color_black|U]"
+ special_contract_none:0 "주인장 없음"
+ special_contract_scutage:0 "군역의 대전납"
+ special_contract_march:0 "참근의 면제"
+ special_contract_palatinate:0 "슈쿠로의 임명"
+ special_contract_none_short:0 "없음"
+ special_contract_scutage_short:0 "대전납"
+ special_contract_march_short:0 "참근 철폐"
+ special_contract_palatinate_short:0 "슈쿠로"
+
+ scutage:0 "군역의 대전납"
+ scutage_enabled_short:0 "유효"
+ scutage_enabled:0 "$scutage$ $scutage_enabled_short$"
+ scutage_disabled_short:0 "무효"
+ scutage_disabled:1 "$scutage$ $scutage_disabled_short$"
+
+ religious_rights:0 "교권"
+ religious_rights_none:0 "교권 비보호"
+ religious_rights_none_short:0 "비보호"
+ religious_rights_protected:0 "교권 보호"
+ religious_rights_protected_short:0 "보호"
+
+ fortification_rights:0 "축성"
+ fortification_rights_none:0 "$fortification_rights$의 불허"
+ fortification_rights_none_short:0 "불허"
+ fortification_rights_granted:0 "$fortification_rights$의 허가"
+ fortification_rights_granted_short:0 "허가"
+
+ succession_rights:0 "서자에 대한 분할상속"
+ succession_rights_default:0 "상속에 불개입"
+ succession_rights_default_short:0 "불개입"
+ succession_rights_forced_partition:0 "분할 상속의 강제"
+ succession_rights_forced_partition_short:0 "강제"
+
+ coinage_rights:0 "사주전"
+ coinage_rights_none:0 "$coinage_rights$의 금지"
+ coinage_rights_none_short:0 "금지"
+ coinage_rights_granted:0 "$coinage_rights$의 허가"
+ coinage_rights_granted_short:0 "허가"
+
+ war_declaration_rights:0 "사적 전쟁"
+ war_declaration_rights_default:0 "$war_declaration_rights$의 불허"
+ war_declaration_rights_default_short:0 "불허"
+ war_declaration_rights_allowed:0 "$war_declaration_rights$의 허가"
+ war_declaration_rights_allowed_short:0 "허가"
+
+ council_rights:0 "중신"
+ council_rights_none:0 "$council_rights$으로 임명하지 않음"
+ council_rights_none_short:0 "임명하지 않음"
+ council_rights_guaranteed:0 "$council_rights$으로 임명"
+ council_rights_guaranteed_short:0 "임명"
+
+ title_revocation_rights:0 "영지 유지"
+ title_revocation_rights_default:0 "$title_revocation_rights$의 불허"
+ title_revocation_rights_default_short:0 "불허"
+ title_revocation_rights_protected:0 "$title_revocation_rights$의 허가"
+ title_revocation_rights_protected_short:0 "허가"
+
+ VASSAL_CONTRACT_VASSAL_TITLE:0 "다음 인물의 계약 수정:\n[VassalContract.GetVassal.GetPrimaryTitle.GetNameNoTierNoTooltip]의 영주\n#high [VassalContract.GetVassal.GetTitleTierName] [VassalContract.GetVassal.GetHouse.GetNameNoTooltip] [VassalContract.GetVassal.GetFirstNameNoTooltip]#!"
+ CONTRACT_LIEGE_SIGNATURE:0 "[GetCurrentDate.GetString]\n[VassalContract.GetLiege.GetFirstNameNoTooltip]"
+ CONTRACT_VASSAL_SIGNATURE:0 "[VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip] [VassalContract.GetVassal.GetFirstNameNoTooltip]"

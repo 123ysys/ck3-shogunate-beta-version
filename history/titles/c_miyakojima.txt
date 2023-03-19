@@ -1,0 +1,65 @@
+c_nmih_miyakojima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_miyakojima1={
+				set_title_name=b_nmih_miyakojima1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1360.1.1 = { change_development_level = 20 }
+	1532.1.1 = { change_development_level = 10 }
+
+	0100.1.1={
+	}
+	1180.1.1={
+		holder=10149000 # Nima Shu
+		liege=0
+	}
+	1220.1.1={
+		holder=10149001 # Bura Bura
+	}
+	1260.1.1={
+		holder=10149002 # Bura Bura
+	}
+	1290.1.1={
+		holder=10149003 # Bura Bura
+	}
+	1320.1.1={
+		holder=10149020 # Nima Nima
+	}
+	1350.1.1={
+		holder=10149021 # Nima Tsunugaara
+	}
+	1380.1.1={
+		holder=10149022 # Nima Miguramui
+	}
+	1410.1.1={
+		holder=10149053 # Yunafa Upudati
+	}
+	1457.1.1={
+		liege="k_nmih_chuzan"
+	}
+	1477.1.1={
+		liege="k_nmih_chuzan"
+		holder=10149200 # Nakazuni Nakazuni
+	}
+	1525.1.1={
+		holder=10149201 # Kanamui
+	}
+	1532.1.1={
+		holder=10140000
+	}
+	1555.7.13={
+		holder=10140027
+	}
+	1572.5.12={
+		holder=10140045
+	}
+	1589.1.11={
+		holder=10140061
+	}
+
+}

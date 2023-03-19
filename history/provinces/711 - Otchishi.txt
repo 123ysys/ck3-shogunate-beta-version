@@ -1,0 +1,7 @@
+711 = {
+
+	culture = nivkh
+	religion = nivkh
+	holding = tribal_holding
+
+}

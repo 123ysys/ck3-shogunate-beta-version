@@ -1,0 +1,349 @@
+﻿### Special building modifiers
+
+
+# Iwami Silver Mines
+
+shogunate_iwami_silver_mines_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_iwami_silver_mines_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_1
+}
+
+shogunate_iwami_silver_mines_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_2
+}
+
+shogunate_iwami_silver_mines_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_3
+}
+
+shogunate_iwami_silver_mines_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_4
+}
+
+# Sado Gold Mines
+
+shogunate_sado_gold_mines_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_sado_gold_mines_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_1
+}
+
+shogunate_sado_gold_mines_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_2
+}
+
+shogunate_sado_gold_mines_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_3
+}
+
+shogunate_sado_gold_mines_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_4
+}
+
+# Innai Silver Mines
+
+shogunate_innai_silver_mines_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_innai_silver_mines_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_1
+}
+
+shogunate_innai_silver_mines_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_2
+}
+
+shogunate_innai_silver_mines_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_3
+}
+
+shogunate_innai_silver_mines_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_4
+}
+
+# Kurokawa Gold Mines
+
+shogunate_kurokawa_gold_mines_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_kurokawa_gold_mines_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_1
+}
+
+shogunate_kurokawa_gold_mines_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_2
+}
+
+shogunate_kurokawa_gold_mines_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_3
+}
+
+shogunate_kurokawa_gold_mines_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_4
+}
+
+# Ikuno Silver Mines
+
+shogunate_ikuno_silver_mines_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_ikuno_silver_mines_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_1
+}
+
+shogunate_ikuno_silver_mines_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_2
+}
+
+shogunate_ikuno_silver_mines_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_3
+}
+
+shogunate_ikuno_silver_mines_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_4
+}
+
+# Nobesawa Silver Mines
+
+shogunate_nobesawa_silver_mines_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_nobesawa_silver_mines_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_1
+}
+
+shogunate_nobesawa_silver_mines_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_2
+}
+
+shogunate_nobesawa_silver_mines_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_3
+}
+
+shogunate_nobesawa_silver_mines_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_4
+}
+
+# Tada Copper Mines
+
+shogunate_tada_copper_mines_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_tada_copper_mines_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = copper_mine_building_tax_tier_1
+}
+
+shogunate_tada_copper_mines_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = copper_mine_building_tax_tier_2
+}
+
+shogunate_tada_copper_mines_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = copper_mine_building_tax_tier_3
+}
+
+shogunate_tada_copper_mines_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = copper_mine_building_tax_tier_4
+}
+
+# Sakai Trade Port
+
+shogunate_sakai_trade_port_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_sakai_trade_port_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_1
+}
+
+shogunate_sakai_trade_port_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_2
+	archers_damage_mult = 0.1
+}
+
+shogunate_sakai_trade_port_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_3
+	archers_damage_mult = 0.2
+}
+
+shogunate_sakai_trade_port_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_4
+	archers_damage_mult = 0.3
+	siege_weapon_siege_value_mult = 0.3
+}
+
+# Hakata Trade Port
+
+shogunate_hakata_trade_port_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_hakata_trade_port_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_1
+}
+
+shogunate_hakata_trade_port_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_2
+}
+
+shogunate_hakata_trade_port_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_3
+}
+
+shogunate_hakata_trade_port_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = special_mine_building_tax_tier_4
+	siege_weapon_siege_value_mult = 0.2
+}
+
+# Hyogo Trade Port
+
+shogunate_hyogo_trade_port_00_modifier = {
+	icon = stewardship_positive
+}
+
+shogunate_hyogo_trade_port_01_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_1
+}
+
+shogunate_hyogo_trade_port_02_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_2
+}
+
+shogunate_hyogo_trade_port_03_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_3
+}
+
+shogunate_hyogo_trade_port_04_modifier = {
+	icon = stewardship_positive
+	monthly_income = silver_mine_building_tax_tier_4
+	siege_weapon_siege_value_mult = 0.1
+}
+
+# Kunitomo Gunsmiths
+
+shogunate_kunitomo_gunsmiths_00_modifier = {
+	icon = martial_positive
+}
+
+shogunate_kunitomo_gunsmiths_01_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.1
+}
+
+shogunate_kunitomo_gunsmiths_02_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.2
+}
+
+shogunate_kunitomo_gunsmiths_03_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.3
+}
+
+shogunate_kunitomo_gunsmiths_04_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.4
+	siege_weapon_siege_value_mult = 0.2
+}
+
+# Negoro Gunsmiths
+
+shogunate_negoro_gunsmiths_00_modifier = {
+	icon = martial_positive
+}
+
+shogunate_negoro_gunsmiths_01_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.1
+}
+
+shogunate_negoro_gunsmiths_02_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.2
+}
+
+shogunate_negoro_gunsmiths_03_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.3
+}
+
+shogunate_negoro_gunsmiths_04_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.4
+	siege_weapon_siege_value_mult = 0.2
+}
+
+# Saika Gunsmiths
+
+shogunate_saika_gunsmiths_00_modifier = {
+	icon = martial_positive
+}
+
+shogunate_saika_gunsmiths_01_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.1
+}
+
+shogunate_saika_gunsmiths_02_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.2
+}
+
+shogunate_saika_gunsmiths_03_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.3
+}
+
+shogunate_saika_gunsmiths_04_modifier = {
+	icon = martial_positive
+	archers_damage_mult = 0.4
+	siege_weapon_siege_value_mult = 0.2
+}

@@ -1,0 +1,103 @@
+c_nmih_takeno = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_takeno1={
+				set_title_name=b_nmih_takeno1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_takeno1={
+				set_title_name=b_nmih_takeno2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_tango"
+	}
+	1180.1.1={
+		liege="d_nmih_tango"
+		holder=12480710 # Matsuda Yoritsuna
+	}
+	1220.1.1={
+		holder=12480715 # Matsuda Yorikane
+	}
+	1250.1.1={
+		holder=12480720 # Matsuda Yorimori
+	}
+	1280.1.1={
+		holder=12480725 # Matsuda Yorinao
+	}
+	1310.1.1={
+		holder=12480730 # Matsuda Yorihide
+	}
+	1333.7.4={
+		liege=0
+	}
+	1336.1.2={
+		liege="e_nmih_japan"
+	}
+	1336.7.22={
+		liege="d_nmih_tango"
+	}
+	1340.1.1={
+		holder=12480700 # Matsuda Sadahide
+	}
+	1392.1.24={
+		liege="d_nmih_tango"
+		holder=10049509 # Isshiki Mitsunori
+	}
+	1409.1.25={
+		holder=10049512 # Isshiki Yoshitsura
+	}
+	1440.6.14={
+		holder=10049514 # Isshiki Norichika
+	}
+	1451.12.21={
+		holder=10049515 # Isshiki Yoshinao
+	}
+	1474.4.1={
+		holder=10049516 # Isshiki Yoshiharu
+	}
+	1484.9.3={
+		holder=10049517 # Isshiki Yoshihide
+	}
+	1498.6.18={
+		holder=10049519 # Isshiki Yoshiari
+	}
+	1512.8.30={
+		holder=10049521 # Isshiki Yoshikiyo
+	}
+	1519.1.1={
+		holder=10049500 # Isshiki Yoshiyuki
+	}
+	1558.1.1={
+		holder=10049525 # Isshiki Yoshimichi
+	}
+	1580.1.1={
+		holder=10049527 # Isshiki Yoshisada
+	}
+	1580.7.1={
+		liege="e_nmih_japan"
+	}
+	1582.6.21={
+		liege="k_nmih_northern_kinai"
+	}
+	1582.7.2={
+		liege=0
+	}
+	1582.9.24={
+		liege="d_nmih_tango"
+		holder=10040220 # Hosokawa Tadaoki
+	}
+	1603.3.24={
+		holder=10044221 # Kyogoku Takatomo
+	}
+
+}

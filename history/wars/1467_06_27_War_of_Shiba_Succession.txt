@@ -1,0 +1,12 @@
+war = {
+	name = "war_1466_war_of_shiba_succession"
+	start_date = 1467.6.27
+	end_date = 1473.4.15
+	targeted_titles = {
+		d_nmih_owari
+	}
+	casus_belli = event_claim_cb
+	claimant = 10029019 # Shiba Yoshitoshi
+	attackers = { 10029019 10040543 } # Shiba Yoshitoshi, Hosokawa Katsumoto
+	defenders = { 10050039 } # Yamana Mochitoyo
+}

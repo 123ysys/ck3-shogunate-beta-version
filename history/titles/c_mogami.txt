@@ -1,0 +1,138 @@
+c_nmih_mogami = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_mogami1={
+				set_title_name=b_nmih_mogami6
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_mogami1={
+				set_title_name=b_nmih_mogami9
+			}
+		}
+	}
+	1356.1.1={
+		effect={
+			title:b_nmih_mogami1={
+				set_title_name=b_nmih_mogami1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1356.1.1 = { change_development_level = 20 }
+
+	0712.10.1={
+		liege="k_nmih_dewa"
+	}
+	1157.4.29={
+		liege="k_nmih_northern_oshu" # Fujiwara Hidehira
+		holder=12030020 # Fujiwara Hidehira
+	}
+	1187.11.30={
+		liege="k_nmih_northern_oshu" # Fujiwara Yasuhira
+		holder=12030051 # Fujiwara Yasuhira
+	}
+	1189.9.24={
+		liege="e_nmih_japan"
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1189.11.15={
+		holder=12202006 # Adachi Morinaga
+	}
+	1193.9.14={
+		liege="d_nmih_mikawa"
+		holder=12202006 # Adachi Morinaga
+	}
+	1200.6.9={
+		holder=12220002 # Adachi [Osone] Tokinaga
+	}
+	1218.4.6={
+		liege="d_nmih_ugo"
+	}
+	1230.1.1={
+		holder=12220100 # Adachi [Osone] Nagayasu
+	}
+	1262.9.26={
+		holder=12220105 # Adachi [Osone] Nagatsune
+	}
+	1278.7.13={
+		holder=12220108 # Adachi [Osone] Munenaga
+	}
+	1285.12.14={
+		liege="e_nmih_japan"
+		holder=10132155 # Hojo Sadatoki
+	}
+	1293.5.29={
+		liege="d_nmih_ugo"
+		holder=12220055 # Adachi Tokiaki
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=12064005 # Yuki Munehiro
+	}
+	1339.1.1={
+		holder=12064010 # Yuki Chikatomo
+	}
+	1343.8.1={
+		liege="d_nmih_oshu_shugo"
+	}
+	1345.1.1={
+		liege="k_nmih_oshu_kanrei"
+	}
+	1347.1.1={
+		holder=12064015 # Yuki Akitomo
+	}
+	1354.1.1={
+		liege="k_nmih_oshu_tandai"
+	}
+	1356.1.1={
+		liege="k_nmih_ushu_tandai"
+		holder=12015000 # Mogami Kaneyori
+	}
+	1375.1.1={
+		holder=12015001 # Mogami Naoie
+	}
+	1410.2.9={
+		holder=12015002 # Mogami Mitsunao
+	}
+	1416.8.25={
+		holder=12015008 # Mogami Mitsuie
+	}
+	1443.4.23={
+		holder=12015013 # Mogami Yoshiharu
+	}
+	1474.4.7={
+		holder=12015014 # Mogami Yoshiaki
+	}
+	1480.4.6={
+		holder=12015015 # Mogami Mitsuuji
+	}
+	1494.8.14={
+		holder=12015016 # Mogami Yoshiatsu
+	}
+	1504.10.16={
+		holder=12015019 # Mogami Yoshisada
+	}
+	1520.2.20={
+		liege="d_nmih_date" # Date Tanemune
+		holder=10001001 # Date Tanemune
+	}
+	1522.1.1={
+		liege="k_nmih_ushu_tandai" # Mogami Yoshimori
+		holder=10000701 # Mogami Yoshimori
+	}
+	1574.9.10={
+		holder=10000716 # Mogami Yoshiaki
+	}
+	1590.8.28={
+		liege="d_nmih_uzen"
+	}
+	1614.2.26={
+		holder=10000723 # Mogami Iechika
+	}
+}

@@ -1,0 +1,129 @@
+c_nmih_nitta = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nitta1={
+				set_title_name=b_nmih_nitta1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_nitta1={
+				set_title_name=b_nmih_nitta9
+			}
+		}
+	}
+	1469.1.1={
+		effect={
+			title:b_nmih_nitta1={
+				set_title_name=B_NMIH_NITTA9_1469
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1360.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1155.1.1={
+		holder=10120056 # Nitta [Minamoto] Yoshishige
+	}
+	1180.1.1={
+		liege="d_nmih_nitta"
+	}
+	1202.2.8={
+		holder=12185002 # Nitta Yoshikane
+	}
+	1206.4.17={
+		holder=12185012 # Nitta Masayoshi
+	}
+	1257.1.1={
+		holder=12185015 # Nitta Masauji
+	}
+	1271.3.30={
+		holder=12185020 # Nitta Motouji
+	}
+	1324.7.2={
+		holder=12185040 # Nitta Yoshisada
+	}
+	1338.8.17={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1338.9.1={
+		liege="d_nmih_uesugi"
+		holder=12187030 # Iwamatsu Tadakuni
+	}
+	1363.3.1={
+		liege="d_nmih_kozuke"
+	}
+	1390.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12187035 # Iwamatsu Mitsukuni
+	}
+	1415.6.8={
+		liege="d_nmih_musashi"
+		holder=12187041 # Iwamatsu Mitsuzumi
+	}
+	1417.6.27={
+		liege="k_nmih_kamakura_kubo"
+		holder=12187043 # Iwamatsu Mitsunaga
+	}
+	1419.1.1={
+		holder=12187080 # Iwamatsu Mochikuni
+	}
+	1458.6.25={
+		liege="d_nmih_kozuke"
+	}
+	1461.1.1={
+		holder=12187050 # Iwamatsu Iezumi
+	}
+	1477.7.1={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1483.1.6={
+		liege="d_nmih_kozuke"
+	}
+	1494.5.26={
+		holder=12187060 # Iwamatsu Hisazumi
+	}
+	1511.11.15={
+		holder=12187065 # Iwamatsu Masazumi
+	}
+	1529.1.1={
+		holder=10017115 # Yokose Yasushige
+	}
+	1545.10.14={
+		holder=10017119 # Yura Narishige
+	}
+	1552.3.1={
+		liege="k_nmih_western_kanto" # 16004 Hojo Ujiyasu
+	}
+	1560.11.1={
+		liege="d_nmih_echigo" # 32011 Uesugi Kenshin
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei" # 32011 Uesugi Kenshin
+	}
+	1566.9.1={
+		liege="k_nmih_western_kanto" # 16004 Hojo Ujiyasu
+	}
+	1574.1.1={
+		holder=10017123 # Yura Kunishige
+	}
+	1582.4.15={
+		liege="d_nmih_kozuke" # 29330 Takigawa Kazumasu
+	}
+	1590.7.25={
+		liege="k_nmih_western_kanto"
+		holder=10024900 # Sakakibara Yasumasa
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024259 # Sakai Ietsugu
+	}
+}

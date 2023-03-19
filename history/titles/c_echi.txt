@@ -1,0 +1,160 @@
+c_nmih_echi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_echi1={
+				set_title_name=b_nmih_echi2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_echi1={
+				set_title_name=b_nmih_echi7
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_echi1={
+				set_title_name=b_nmih_echi1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+	1331.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_omi"
+	}
+	1180.1.1={
+		holder=12515000 # Yamamoto Yoshitsune
+	}
+	1180.12.24={
+		liege="e_nmih_japan"
+		holder=10110025 # Taira Kiyomori / Battle of Omi
+	}
+	1181.3.20={
+		holder=10110042 # Taira Munemori
+	}
+	1183.8.17={
+		liege="d_nmih_omi" # Yamamoto Yoshitsune
+		holder=12515000 # Yamamoto Yoshitsune / Taira's escape to the west
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_omi"
+		holder=12510030 # Sasaki Hideyoshi
+	}
+	1184.8.26={ # the three-day rebellion of the Taira clan
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1190.1.1={
+		holder=12510071 # Sasaki Sadashige
+	}
+	1191.6.24={
+		holder=12510080 # Kagami Hisatsuna
+	}
+	1221.7.6={ # the Jokyu War
+		liege="d_nmih_omi"
+		holder=12510073 # Sasaki Nobutsuna
+	}
+	1242.4.7={
+		liege="d_nmih_northern_omi"
+		holder=12510083 # Sasaki [Kyogoku] Ujinobu
+	}
+	1295.1.1={
+		holder=12510090 # Sasaki [Kyogoku] Munetsuna
+	}
+	1297.9.27={
+		holder=12510100 # Sasaki [Kyogoku] Sadamune
+	}
+	1305.5.31={
+		holder=10044201 # Sasaki [Kyogoku] Muneuji
+	}
+	1329.8.11={
+		holder=10044203 # Sasaki [Kyogoku] Takauji
+	}
+	1333.7.4={
+		liege="d_nmih_northern_omi"
+		holder=10044203 # Kyogoku Takauji
+	}
+	1368.1.1={
+		holder=10044205 # Kyogoku Takahide
+	}
+	1379.2.1={
+		liege="d_nmih_southern_omi"
+		holder=10044008 # Rokkaku Mitsutaka
+	}
+	1416.12.6={
+		holder=10044010 # Rokkaku Mitsutsuna
+	}
+	1441.10.1={
+		holder=10044013 # Rokkaku Mochitsuna
+	}
+	1445.3.1={
+		holder=10044012 # Rokkaku Tokitsuna
+	}
+	1446.10.4={
+		liege="d_nmih_southern_omi"
+		holder=10044660 # Iba Mitsutaka
+	}
+	1460.1.1={
+		holder=10044661 # Iba Sadataka
+	}
+	1467.1.1={
+		liege="e_nmih_japan"
+		holder=10044500 # Gamo Sadahide
+	}
+	1493.4.23={
+		liege="d_nmih_southern_omi" # vassal of Rokkaku
+	}
+	1514.3.30={
+		holder=10044503 # Gamo Hidenori
+	}
+	1523.4.23={
+		holder=10044504 # Gamo Sadahide
+	}
+	1568.10.12={
+		liege="k_nmih_chubu" # vassal of Oda
+		holder=10044505 # Gamo Katahide
+	}
+	1575.1.1={
+		liege="d_nmih_omi" # 29120 Oda Nobunaga
+	}
+	1582.6.21={
+		liege="d_nmih_harima"
+		holder=10044508 # Gamo Ujisato
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+	}
+	1584.12.3={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1585.8.10={
+		liege="d_nmih_omi"
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		liege="e_nmih_japan"
+		holder=10029515 # Sakuma Yasumasa
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1601.1.1={
+		liege="d_nmih_northern_omi"
+		holder=10023306 # Ii Naomasa
+	}
+	1602.3.24={
+		holder=10023312 # Ii Naokatsu
+	}
+	1615.1.1={
+		holder=10023313 # Ii Naotaka
+	}
+}

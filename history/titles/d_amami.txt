@@ -1,0 +1,23 @@
+d_nmih_amami = {
+	100.1.1={
+	}
+	1160.1.1={
+		liege=0
+		holder=12810503 # Taira Tadakage
+	}
+	1186.1.1={
+		holder=10120381 # Minamoto Yoshizane
+	}
+	1188.6.1={
+		liege=0
+		holder=0
+	}
+	1270.1.1={
+		liege=0
+		holder=10148100 # Shinyohoo Keiko
+	}
+	1320.1.1={
+		liege=0
+		holder=0 # 
+	}
+}

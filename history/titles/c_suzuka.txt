@@ -1,0 +1,142 @@
+c_nmih_suzuka = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_suzuka1={
+				set_title_name=b_nmih_suzuka1
+			}
+		}
+	}
+	0701.1.1={
+		effect={
+			title:b_nmih_suzuka1={
+				set_title_name=b_nmih_suzuka9
+			}
+		}
+	}
+	1265.1.1={
+		effect={
+			title:b_nmih_suzuka1={
+				set_title_name=b_nmih_suzuka2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0701.1.1 = { change_development_level = 20 }
+	1265.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_ise"
+	}
+	1174.8.10={
+		liege="d_nmih_izumi" # Taira Nobukane {Izumi no Kami}
+		holder=10110235 # Taira Nobukane {Izumi no Kami}
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_ise"
+	}
+	1184.9.2={
+		liege="d_nmih_ise"
+		holder=10130838 # Kato Mitsukazu
+	}
+	1185.4.25={
+		holder=10130564 # Yamauchi-Sudo Tsunetoshi
+	}
+	1204.2.1={
+		liege="d_nmih_shima"
+		holder=10131588 # Ito [Wakana] Moritaka
+	}
+	1204.5.10={
+		liege="d_nmih_ise"
+		holder=12433200 # Seki Moritada
+	}
+	1265.1.1={
+		holder=12433201 # Seki Moriyasu
+	}
+	1270.1.1={
+		holder=12433202 # Seki Morimitsu
+	}
+	1295.1.1={
+		holder=12433203 # Seki Morikatsu
+	}
+	1320.1.1={
+		holder=10027010 # Seki Moriharu
+	}
+	1333.7.4={
+		liege="d_nmih_ise"
+		holder=10027011 # Seki Morimasa
+	}
+	1336.2.23={
+		liege="d_nmih_shima"
+	}
+	1370.1.1={
+		liege="d_nmih_ise"
+		holder=10027012 # Seki Morizumi
+	}
+	1400.1.1={
+		liege="d_nmih_ise"
+		holder=10027013 # Seki Morinobu
+	}
+	1430.1.1={
+		holder=10027014 # Seki Nobumasa
+	}
+	1460.1.1={
+		holder=10027004 # Seki Morimoto
+	}
+	1478.1.1={
+		liege=0
+	}
+	1490.1.1={
+		liege=0
+		holder=10027002 # Seki Toshimori
+	}
+	1510.1.1={
+		holder=10027001 # Seki Tanemori
+	}
+	1529.1.1={
+		holder=10027000 # Seki Morikatsu
+	}
+	1565.1.1={
+		liege="d_nmih_southern_omi" # 44003 Rokkaku Yoshikata
+		holder=10027005 # Seki Morinobu
+	}
+	1568.10.12={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+	}
+	1573.4.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029162 # Oda Nobutaka
+	}
+	1582.6.19={
+		liege="d_nmih_ise"
+		holder=10027005 # Seki Morinobu
+	}
+	1582.7.16={
+		liege="k_nmih_northern_kinai"
+	}
+	1584.12.3={
+		liege="d_nmih_ise"
+		holder=10027006 # Seki Kazumasa
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+		holder=10095000 # Okamoto Yoshikatsu
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10027006 # Seki Kazumasa
+	}
+	1609.6.12={
+		holder=10024337 # Matsudaira Tadaaki
+	}
+	1615.6.4={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

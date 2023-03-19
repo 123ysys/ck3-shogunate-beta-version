@@ -1,0 +1,80 @@
+k_nmih_western_kanto = {
+	0001.1.1={
+	}
+	1180.6.15={
+		liege=0
+		holder=10120075 # Minamoto Yoritomo
+	}
+	1184.3.4={
+		holder=0 # Become Shogun
+	}
+	1203.11.14={ # Shikken
+		liege="e_nmih_japan"
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={ # Shikken
+		holder=10131653 # Hojo Yoshitoki
+	}
+	1224.7.1={ # Shikken
+		holder=10131666 # Hojo Yasutoki
+	}
+	1242.7.14={ # Shikken
+		holder=10131823 # Hojo Tsunetoki
+	}
+	1246.5.17={ # Shikken & Tokuso(Head of the Hojo Clan)
+		holder=10131824 # Hojo Tokiyori
+	}
+	1263.12.24={ # Tokuso
+		holder=10131998 # Hojo Tokimune
+	}
+	1284.4.20={ # Tokuso
+		holder=10132155 # Hojo Sadatoki
+	}
+	1311.12.6={ # Tokuso
+		holder=10132268 # Hojo Takatoki
+	}
+	1333.7.4={ # Fall of the Kamakura Shogunate
+		liege="e_nmih_nancho"
+		holder=12139028 # Ashikaga Takauji
+	}
+	1335.7.1={
+		liege=0
+	}
+	1335.11.1={
+		liege=0
+		holder=0 # 
+	}
+	1350.12.20={ # Kanno Disturbance (1st)
+		liege=0
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1351.3.15={
+		liege="e_nmih_japan"
+	}
+	1351.8.23={ # Kanno Disturbance (2nd)
+		liege=0
+	}
+	1352.3.12={
+		liege=0
+		holder=0 # 
+	}
+	1546.5.19={
+		holder=10016004 # Hojo Ujiyasu (battle of Kawagoe)
+	}
+	1571.10.21={
+		holder=10016014 # Hojo Ujimasa
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		holder=0
+	}
+	1605.6.2={
+		holder= 10024031 # Tokugawa Hidetada
+	}
+	1616.6.1={
+		holder=0
+	}
+}

@@ -1,0 +1,18 @@
+162 = {
+
+	culture = western_chubu
+	religion = shinto
+	holding = castle_holding
+	1331.1.1={
+	}
+	1555.1.1={
+		buildings = {
+			castle_02
+		}
+	}
+	1567.10.1={
+		buildings = {
+			castle_01
+		}
+	}
+}

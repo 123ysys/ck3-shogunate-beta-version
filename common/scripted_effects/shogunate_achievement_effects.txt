@@ -1,0 +1,41 @@
+﻿shogunate_achievement_enable_effect = {
+	set_global_variable = shogunate_achievement_$ACHIEVEMENT$
+}
+
+shogunate_achievement_disable_effect = {
+	remove_global_variable = shogunate_achievement_$ACHIEVEMENT$
+}
+
+shogunate_achievement_unlock_effect = {
+
+	if = {
+		limit = {
+			shogunate_achievement_enable_trigger = { ACHIEVEMENT = $ACHIEVEMENT$ }
+		}
+		save_scope_as = achiever
+		flag:$ACHIEVEMENT$ = { save_scope_as = achievement }
+		shogunate_achievement_disable_effect = { ACHIEVEMENT = $ACHIEVEMENT$ }
+		trigger_event = shogunate_achievement.0001
+	}
+
+}
+
+shogunate_achievement_setup_war_effect = {
+
+	if = {
+		limit = {
+			game_start_date = $DATE$
+			exists = character:$ATTACKER$
+			exists = character:$DEFENDER$
+		}
+		character:$ATTACKER$ = {
+			every_character_war = {
+				limit = {
+					any_war_defender = { this = character:$DEFENDER$ }
+				}
+				set_variable = shogunate_achievement_war_$WAR$
+			}
+		}
+	}
+
+}

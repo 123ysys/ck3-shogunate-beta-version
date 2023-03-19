@@ -1,0 +1,139 @@
+c_nmih_agatsuma = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_agatsuma1={
+				set_title_name=b_nmih_agatsuma9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	300.1.1 = { change_development_level = 10 }
+
+	0701.1.1={
+		liege="d_nmih_kozuke"
+	}
+	1180.1.1={
+		liege=0
+		holder=12190000 # Agatsuma Sukefusa
+	}
+	1180.10.26={
+		liege="k_nmih_western_kanto" # Minamoto Yoritomo
+	}
+	1184.3.4={
+		liege="d_nmih_kozuke"
+	}
+	1200.1.1={
+		holder=12190010 # Agatsuma Sukemitsu
+	}
+	1221.7.5={
+		holder=12190015 # Agatsuma Yukiie
+	}
+	1260.1.1={
+		holder=12190016 # Agatsuma Yukishige
+	}
+	1300.1.1={
+		holder=12190017 # Agatsuma Yukimori
+	}
+	1333.6.17={
+		liege="d_nmih_nitta"
+	}
+	1335.8.7={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.8.14={
+		liege="e_nmih_japan"
+		holder=10132321 # Hojo MutsuHachiro
+	}
+	1335.9.6={
+		liege="d_nmih_nitta"
+		holder=12185043 # Nitta Yoshiaki
+	}
+	1338.8.17={
+		holder=12185045 # Nitta Yoshimune
+	}
+	1344.1.1={
+		liege="d_nmih_hojo"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1353.6.21={
+		liege="d_nmih_nitta"
+		holder=12185045 # Nitta Yoshimune
+	}
+	1368.9.3={
+		holder=12185050 # Nitta Sadakata
+	}
+	1409.7.22={
+		liege="d_nmih_kozuke"
+		holder=10017510 # Saito Noriyuki
+	}
+	1430.1.1={
+		holder=10017513 # Saito Norimoto
+	}
+	1470.1.1={
+		holder=10017514 # Saito Motokane
+	}
+	1485.1.1={
+		holder=10017515 # Saito Yoshihira
+	}
+	1525.1.1={
+		holder=10017500 # Saito Noritsugu
+	}
+	1530.1.1={
+		holder=10017501 # Saito Norihiro
+	}
+	1552.3.1={
+		liege=0
+	}
+	1560.10.1={
+		liege="d_nmih_echigo"
+	}
+	1561.5.10={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1563.1.1={
+		liege="d_nmih_kai" # 20010 Takeda Shingen
+		holder=10021142 # Sanada Yukitsuna
+	}
+	1567.1.1={
+		liege="d_nmih_kai" # 20010 Takeda Shingen
+		holder=10021148 # Sanada Nobutsuna
+	}
+	1575.6.29={
+		liege="d_nmih_kai" # 20033 Takeda Katsuyori
+		holder=10021150 # Sanada Masayuki
+	}
+	1582.4.3={
+		liege=0
+	}
+	1582.04.15={
+		liege="d_nmih_kozuke" # 29330 Takigawa Kazumasu
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege=0
+	}
+	1582.7.13={
+		liege="d_nmih_echigo"
+	}
+	1582.7.28={
+		liege="k_nmih_western_kanto"
+	}
+	1582.10.11={
+		liege="k_nmih_tokai"
+	}
+	1582.11.14={
+		liege="d_nmih_echigo"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10021163 # Sanada Nobuyuki
+	}
+}

@@ -1,0 +1,56 @@
+﻿namespace = shogunate_bookmark
+
+# Historical Alliance
+shogunate_bookmark.2000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Alliance between Hojo and Imagawa
+
+		if = {
+			limit = {
+				game_start_date >= 1493.6.9									# Coup of Meio
+				game_start_date <  1519.9.8									# Death of Ise Moritoki (Hojo Soun)
+			}
+
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 10016001											# Ise Moritoki (Hojo Soun)
+				CHAR2 = 10023003											# Imagawa Ujichika
+			}
+			shogunate_historical_friend_effect = {
+				CHAR1 = 10016001											# Ise Moritoki (Hojo Soun)
+				CHAR2 = 10023003											# Imagawa Ujichika
+			}
+		}
+
+
+		# Alliance between Oda and Tokugawa (Kiyosu Alliance)
+
+		if = {
+			limit = {
+				game_start_date >= 1562.2.18								# Kiyosu Alliance
+				game_start_date <  1567.5.1									# Alliance by marriage
+			}
+
+			shogunate_historical_alliance_effect = {
+				CHAR1 = 10029120											# Oda Nobunaga
+				CHAR2 = 10024006											# Tokugawa Ieyasu
+			}
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1562.2.18								# Kiyosu Alliance
+				game_start_date <  1582.6.21								# Death of Oda Nobunaga
+			}
+
+			shogunate_historical_friend_effect = {
+				CHAR1 = 10029120											# Oda Nobunaga
+				CHAR2 = 10024006											# Tokugawa Ieyasu
+			}
+		}
+
+	}
+}

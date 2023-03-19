@@ -1,0 +1,131 @@
+﻿shogunate_has_yamato_culture_trigger = {
+	culture = {
+		OR = {
+			has_cultural_pillar = heritage_imperial_court
+			has_cultural_pillar = heritage_hokkaido
+			has_cultural_pillar = heritage_tohoku
+			has_cultural_pillar = heritage_kanto
+			has_cultural_pillar = heritage_hokuriku
+			has_cultural_pillar = heritage_chubu
+			has_cultural_pillar = heritage_kinai
+			has_cultural_pillar = heritage_saigoku
+			has_cultural_pillar = heritage_kyushu
+			has_cultural_pillar = heritage_buddhist
+		}
+	}
+}
+
+
+# when the arquebus spread to each region (culture)
+
+shogunate_arquebus_spread_culture_1550 = {
+	OR = {
+		this = culture:central_kinai
+		this = culture:southern_kinai
+		this = culture:southern_kyushu
+	}
+}
+
+shogunate_arquebus_spread_culture_1555 = {
+	OR = {
+		this = culture:western_chubu
+		this = culture:northern_kinai
+		this = culture:sanin
+		this = culture:sanyo
+		this = culture:western_chugoku
+		this = culture:shikoku
+		this = culture:northern_kyushu
+		this = culture:central_kyushu
+		this = culture:kinai_buddhist
+		this = culture:saigoku_buddhist
+		this = culture:kyushu_buddhist
+	}
+}
+
+shogunate_arquebus_spread_culture_1560 = {
+	OR = {
+		this = culture:southern_kanto
+		this = culture:eastern_hokuriku
+		this = culture:western_hokuriku
+		this = culture:koshin
+		this = culture:tokai
+		this = culture:chubu_buddhist
+		this = culture:hokuriku_buddhist
+		this = culture:aristocrats			# Asakura clan (western_hokuriku) and Imagawa clan (tokai)
+	}
+}
+
+shogunate_arquebus_spread_culture_1565 = {
+	OR = {
+		this = culture:northern_kanto
+		this = culture:eastern_kanto
+		this = culture:western_kanto
+		this = culture:kanto_buddhist
+	}
+}
+
+shogunate_arquebus_spread_culture_1570 = {
+	OR = {
+		this = culture:northern_oshu
+		this = culture:southern_oshu
+		this = culture:dewa
+		this = culture:tohoku_buddhist
+	}
+}
+
+
+# when the arquebus spread to each region (cultural heritage)
+
+shogunate_arquebus_spread_heritage_1550 = {
+	OR = {
+		has_cultural_pillar = heritage_kinai
+		has_cultural_pillar = heritage_kyushu
+		has_cultural_pillar = heritage_buddhist
+	}
+}
+
+shogunate_arquebus_spread_heritage_1555 = {
+	OR = {
+		has_cultural_pillar = heritage_chubu
+		has_cultural_pillar = heritage_saigoku
+	}
+}
+
+shogunate_arquebus_spread_heritage_1560 = {
+	OR = {
+		has_cultural_pillar = heritage_kanto
+		has_cultural_pillar = heritage_hokuriku
+		has_cultural_pillar = heritage_imperial_court	# for aristocrats culture
+	}
+}
+
+shogunate_arquebus_spread_heritage_1565 = {
+	always = no
+}
+
+shogunate_arquebus_spread_heritage_1570 = {
+	OR = {
+		has_cultural_pillar = heritage_tohoku
+	}
+}
+
+
+# when the cannon spread to each region (culture)
+
+shogunate_cannon_spread_culture_1580 = {
+	OR = {
+		this = culture:central_kyushu	# Otomo clan
+	}
+}
+
+shogunate_cannon_spread_culture_1590 = {
+	OR = {
+		this = culture:western_chubu	# Toyotomi clan
+	}
+}
+
+shogunate_cannon_spread_culture_1600 = {
+	OR = {
+		this = culture:tokai			# Tokugawa clan
+	}
+}

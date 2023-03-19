@@ -1,0 +1,105 @@
+c_nmih_tanegashima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_tanegashima1={
+				set_title_name=b_nmih_tanegashima1
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_tanegashima1={
+				set_title_name=b_nmih_tanegashima2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	100.1.1={
+	}
+	130.1.1={
+		holder=10290303 # Hishimochi
+	}
+	170.1.1={
+		holder=10290304 # Okuchi
+	}
+	210.1.1={
+		holder=10290305 # Sonobe
+	}
+	260.1.1={
+		holder=10290306 # Sutaki
+	}
+	1180.1.1={
+		liege=0
+		holder=12810300 # Kumage Nyudo
+	}
+	1185.4.25={ # Battle of Dan-no-ura
+		liege="d_nmih_osumi"
+		holder=12810310 # Kozuma Iezane
+	}
+	1210.1.1={
+		holder=10060172 # Higo Tokinobu
+	}
+	1240.1.1={
+		holder=10060171 # Higo Nobunori
+	}
+	1260.1.1={
+		holder=10060170 # Higo Nobuzane
+	}
+	1290.1.1={
+		holder=10060169 # Higo Sanetoki
+	}
+	1310.1.1={
+		holder=10060167 # Higo Tokimoto
+	}
+	1333.7.4={
+		liege="d_nmih_hyuga"
+		holder=10060167 # Higo Tokimoto
+	}
+	1352.1.1={
+		holder=10060166 # Tanegashima Tokimitsu
+	}
+	1353.1.1={
+		liege="d_nmih_osumi"
+	}
+	1397.1.1={
+		liege="d_nmih_satsuma"
+		holder=10060156 # Tanegashima Kiyotoki
+	}
+	1427.1.1={
+		holder=10060155 # Tanegashima Tokinaga
+	}
+	1440.1.1={
+		holder=10060154 # Tanegashima Hatatoki
+	}
+	1450.1.1={
+		holder=10060153 # Tanegashima Tokiuji
+	}
+	1509.1.1={
+		holder=10060151 # Tanegashima Tadatoki
+	}
+	1527.1.1={
+		holder=10060150 # Tanegashima Shigetoki
+	}
+	1543.1.1={
+		holder=10060152 # Tanegashima Tokitaka
+	}
+	1579.10.21={
+		holder=10060158 # Tanegashima Hisatoki
+	}
+	1587.5.18={
+		liege="d_nmih_osumi"
+	}
+	1603.3.24={
+		liege="d_nmih_satsuma"
+	}
+	1612.1.29={
+		holder=10060050 # Shimazu Iehisa
+	}
+	1612.9.12={
+		holder=10060173 # Tanegashima Tadatoki
+	}
+}

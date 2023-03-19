@@ -1,0 +1,199 @@
+﻿l_korean:
+
+ ## Shinto religion
+
+ shinto_religion:0 "신토"
+ shinto_religion_adj:0 "신토"
+ shinto_religion_adherent:0 "신토 신자"
+ shinto_religion_adherent_plural:0 "신토 신자들"
+ shinto_religion_desc:0 "신토는 일본 열도에서 불교, 유교와 수백 년 동안 공존해 온 일본 전통의 민족 종교이다."
+
+ # Shinto faith
+
+ shinto:0 "신토"
+ shinto_adj:0 "신토"
+ shinto_adherent:0 "신토 신자"
+ shinto_adherent_plural:0 "신토 신자들"
+ shinto_desc:0 "본 게임에서, 신토는 전통적인 불교를 포함한다. 일본의 신토와 불교는 서기 600년경부터 서로 강하게 결합되어 당시 일본인들은 많은 개념들을 같은 것으로 믿었다. 이것을 신불습합이라고 한다."
+
+ shinto_high_god_name:0 "신불"
+ shinto_high_god_name_possessive:0 "신불의"
+ shinto_high_god_alternate:0 "텐도"
+ shinto_high_god_alternate_possessive:0 "텐도의"
+ shinto_house_of_worship:0 "신사와 절"
+ shinto_house_of_worship_plural:0 "신사와 절들"
+ shinto_religious_symbol:0 "일륜"
+ shinto_religious_text:0 "교문"
+ shinto_religious_head_title:0 "텐노"
+ shinto_religious_head_title_name:0 "조정"
+ shinto_devotee_male:0 "승려"
+ shinto_devotee_male_plural:0 "승려들"
+ shinto_devotee_female:0 "여승"
+ shinto_devotee_female_plural:0 "여승들"
+ shinto_alt_priest_term:0 "주지"
+ shinto_divine_realm:0 "극락"
+ shinto_negative_afterlife:0 "지옥"
+ shinto_death_god_name:0 "사령"
+ shinto_death_god_name_possessive:0 "사령의"
+
+ # Ikko-shu faith
+
+ ikkoshu:0 "잇코슈"
+ ikkoshu_adj:0 "잇코슈"
+ ikkoshu_adherent:0 "잇코슈 문도"
+ ikkoshu_adherent_plural:0 "잇코슈 문도들"
+ ikkoshu_desc:0 "잇코슈는 정토신앙에 기초한 종파이며, 신란의 가르침을 계승한다. 15세기 말부터 16세기에 걸쳐, 잇코잇키는 자주 다이묘의 지배에 저항했다."
+
+ ikkoshu_high_god_name:0 "아미타여래"
+ ikkoshu_high_god_name_possessive:0 "아미타여래의"
+ ikkoshu_high_god_alternate:0 "신란 상인"
+ ikkoshu_high_god_alternate_possessive:0 "신란 상인의"
+ ikkoshu_house_of_worship:0 "절"
+ ikkoshu_house_of_worship_plural:0 "절들"
+ ikkoshu_religious_symbol:0 "염불"
+ ikkoshu_religious_text:0 "쿄교신쇼"
+ ikkoshu_religious_head_title:0 "법주"
+ ikkoshu_religious_head_title_name:0 "교단"
+ ikkoshu_divine_realm:0 "극락정토"
+
+ # Hokke-shu faith
+
+ hokkeshu:0 "홋케슈"
+ hokkeshu_adj:0 "홋케슈"
+ hokkeshu_adherent:0 "홋케슈 신도"
+ hokkeshu_adherent_plural:0 "홋케슈 신도들"
+ hokkeshu_desc:0 "홋케슈는 니치렌의 가르침을 바탕으로 한 종파로 법화경만을 경전으로 간주하였다. 16세기에는 종종 권력자나 잇코잇키, 기독교인들과 대립하였다."
+
+ hokkeshu_high_god_name:0 "부처"
+ hokkeshu_high_god_name_possessive:0 "부처의"
+ hokkeshu_high_god_alternate:0 "니치렌 상인"
+ hokkeshu_high_god_alternate_possessive:0 "니치렌 상인의"
+ hokkeshu_house_of_worship:0 "절"
+ hokkeshu_house_of_worship_plural:0 "절들"
+ hokkeshu_religious_symbol:0 "다이모쿠"
+ hokkeshu_religious_text:0 "법화경"
+ hokkeshu_religious_head_title:0 "법주"
+ hokkeshu_religious_head_title_name:0 "교단"
+
+ # Ryukyuan faith
+
+ ryukyuan:0 "류큐 신토"
+ ryukyuan_adj:0 "류큐 신토"
+ ryukyuan_adherent:0 "류큐 신토 신자"
+ ryukyuan_adherent_plural:0 "류큐 신토 신자들"
+ ryukyuan_desc:0 "류큐 신토는 류큐 제도의 전통적인 신앙 체계이다. 일반적으로 조상 숭배, 산 자와 죽은 자, 신들과 영혼의 관계를 존중하는 것이 특징이다."
+
+ ryukyuan_high_god_name:0 "우카미"
+ ryukyuan_high_god_name_possessive:0 "우카미의"
+ ryukyuan_high_god_alternate:0 "조상들"
+ ryukyuan_high_god_alternate_possessive:0 "조상들의"
+ ryukyuan_house_of_worship:0 "우타키"
+ ryukyuan_house_of_worship_plural:0 "우타키들"
+ ryukyuan_religious_symbol:0 "태양"
+ ryukyuan_religious_text:0 "오마로"
+ ryukyuan_religious_head_title:0 "치휘우후진"
+ ryukyuan_religious_head_title_name:0 "세화 우타키"
+ ryukyuan_devotee_male:0 "카민츄"
+ ryukyuan_devotee_male_plural:0 "카민츄들"
+ ryukyuan_devotee_female:0 "노로"
+ ryukyuan_devotee_female_plural:0 "노로들"
+ ryukyuan_alt_priest_term:0 "카민츄"
+ ryukyuan_divine_realm:0 "구소오"
+ ryukyuan_negative_afterlife:0 "구소오"
+ ryukyuan_death_god_name:0 "시니마부이"
+ ryukyuan_death_god_name_possessive:0 "시니마부이의"
+
+
+ ## Eastern Paganism religion
+
+ eastern_pagan_religion:0 "동방 원시 종교"
+ eastern_pagan_religion_adj:0 "동방 원시 종교"
+ eastern_pagan_religion_adherent:0 "동방 원시 종교 신자"
+ eastern_pagan_religion_adherent_plural:0 "동방 원시 종교 신자들"
+ eastern_pagan_religion_desc:0 "동방 원시 종교는 동방에 존재했던 여러 원시 종교들의 집합체를 의미하며, 그 신앙은 애니미즘과 샤머니즘을 포함한다."
+
+ # Ainu faith
+
+ ainu:0 "아이누"
+ ainu_adj:0 "아이누"
+ ainu_adherent:0 "아이누"
+ ainu_adherent_plural:0 "아이누"
+ ainu_desc:0 "아이누는 일본 신토와 마찬가지로 자연계의 만물에 \"카무이\"(영혼 또는 신)가 깃든다고 믿었다. 둘 사이의 큰 차이는 조직화의 정도이며, 아이누의 신앙은 천손인 텐노가 아니라 각각의 부족장들이 중심이다. 아이누는 구형의 바다에 섬들이 떠 있다고 생각하며, 그 세계관은 서쪽으로 지는 태양이 동쪽에서 뜬다는 사실에서 기인한다. 세계는 거대한 물고기의 등에 실려 있어 물고기가 움직이면 지진이 일어난다고 믿었다."
+
+ ainu_high_god_name:0 "카무이"
+ ainu_high_god_name_possessive:0 "카무이의"
+ ainu_high_god_alternate:0 "아이누랏쿠르"
+ ainu_high_god_alternate_possessive:0 "아이누랏쿠르의"
+ ainu_house_of_worship:0 "제단"
+ ainu_house_of_worship_plural:0 "제단들"
+ ainu_religious_symbol:0 "곰"
+ ainu_religious_text:0 "유카르"
+ ainu_divine_realm:0 "카무이 모시르"
+ ainu_negative_afterlife:0 "포크나 모시르"
+ ainu_death_god_name:0 "웬 카무이"
+ ainu_death_god_name_possessive:0 "웬 카무이의"
+
+ # Nivkh faith
+
+ nivkh:0 "니브흐"
+ nivkh_adj:0 "니브흐"
+ nivkh_adherent:0 "니브흐"
+ nivkh_adherent_plural:0 "니브흐"
+ nivkh_desc:0 "니브흐는 애니미즘과 샤머니즘으로 이루어진 민족종교를 믿는다. 니브흐는 사할린 섬을 누워있는 거대한 짐승으로, 섬에 자라있는 나무를 짐승의 뱃털로 여긴다. 이러한 신앙은 다른 애니미즘에서도 많이 볼 수 있으며, 세계가 동물 위에 있다고 믿는 다른 종교와 다르지 않다."
+
+
+ ## Holy Sites
+
+ # City
+
+ holy_site_kyoto_name:0 "쿄토"
+ holy_site_osaka_name:0 "오사카"
+ holy_site_funai_name:0 "후나이"
+ holy_site_nagasaki_name:0 "나가사키"
+ holy_site_bonotsu_name:0 "보노츠"
+ holy_site_hakodate_name:0 "하코다테"
+
+ # Temple
+
+ holy_site_enryakuji_name:0 "엔랴쿠지"
+ holy_site_kofukuji_name:0 "코후쿠지"
+ holy_site_oyamagobo_name:0 "오야마 고보"
+ holy_site_ganshoji_name:0 "간쇼지"
+ holy_site_sainenji_name:0 "사이넨지"
+ holy_site_kuonji_name:0 "쿠온지"
+ holy_site_honmonji_name:0 "혼몬지"
+ holy_site_hokekyoji_name:0 "호케쿄지"
+ holy_site_gokokuji_name:0 "고코쿠지"
+
+ # Nature
+
+ holy_site_mt_fuji_name:0 "후지산"
+ holy_site_mt_koya_name:0 "코야산"
+ holy_site_akan_name:0 "아칸 호"
+
+ # Place Name
+
+ holy_site_kumano_name:0 "쿠마노"
+ holy_site_shimabara_name:0 "시마바라"
+ holy_site_osumi_name:0 "오오스미"
+ holy_site_amami_name:0 "아마미"
+ holy_site_miyako_name:0 "미야코"
+ holy_site_sapporo_name:0 "삿포로"
+ holy_site_asahikawa_name:0 "아사히카와"
+ holy_site_shisuka_name:0 "시스카"
+ holy_site_otchishi_name:0 "옷치시"
+ holy_site_okha_name:0 "오하"
+ holy_site_kamchatka_name:0 "캄챠카"
+
+
+ ## Court Chaplain
+
+ councillor_court_chaplain_shinto:0 "보다이지 주지"
+ councillor_court_chaplain_shinto_possessive:0 "보다이지 주지의"
+
+ councillor_court_chaplain_ryukyuan_female_kingdom:0 "치휘우후진"
+ councillor_court_chaplain_ryukyuan_female_kingdom_possessive:0 "치휘우후진의"
+ councillor_court_chaplain_ryukyuan_female_duchy:0 "노로"
+ councillor_court_chaplain_ryukyuan_female_duchy_possessive:0 "노로의"
+ councillor_court_chaplain_ryukyuan_male:0 "카민츄"
+ councillor_court_chaplain_ryukyuan_male_possessive:0 "카민츄의"

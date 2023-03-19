@@ -1,0 +1,128 @@
+c_nmih_watarai = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_watarai1={
+				set_title_name=b_nmih_watarai2
+			}
+		}
+	}
+	1000.1.1={
+		effect={
+			title:b_nmih_watarai1={
+				set_title_name=b_nmih_watarai2
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_watarai1={
+				set_title_name=b_nmih_watarai1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	477.1.1 = { change_development_level = 30 }
+	1000.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 50 }
+	1569.11.21 = { change_development_level = 50 }
+
+	0701.1.1={
+		liege="d_nmih_ise"
+	}
+	1180.1.1={
+		liege="d_nmih_shima"
+		holder=12434100 # Onakatomi Chikataka
+	}
+	1183.8.17={
+		liege=0 # Taira's escape to the west
+	}
+	1184.9.2={
+		liege="d_nmih_ise"
+	}
+	1185.1.1={
+		holder=12434101 # Onakatomi Yoshitaka
+	}
+	1212.11.1={
+		holder=12434110 # Onakatomi Takamune
+	}
+	1222.1.1={
+		holder=12434101 # Onakatomi Yoshitaka
+	}
+	1230.4.1={
+		holder=12434111 # Onakatomi Takamichi
+	}
+	1249.10.7={
+		holder=12434115 # Onakatomi Takayo
+	}
+	1259.9.15={
+		holder=12434120 # Onakatomi Sadayo
+	}
+	1298.1.26={
+		holder=12434125 # Onakatomi Sadatada
+	}
+	1316.2.18={
+		holder=12434130 # Onakatomi Chikatada
+	}
+	1333.7.4={
+		liege="d_nmih_shima"
+		holder=11003499 # Yoshida Sadafusa
+	}
+	1336.1.1={
+		liege="d_nmih_shima"
+		holder=10125120 # Kitabatake Chikafusa
+	}
+	1354.5.10={
+		holder=10125127 # Kitabatake Akiyoshi
+	}
+	1383.7.1={
+		holder=10026050 # Kitabatake Akiyasu
+	}
+	1402.10.1={
+		holder=10026052 # Kitabatake Mitsumasa
+	}
+	1429.1.25={
+		liege="d_nmih_shima"
+		holder=10026006 # Kitabatake Noritomo
+	}
+	1471.4.13={
+		holder=10026005 # Kitabatake Masasato
+	}
+	1508.12.15={
+		holder=10026140 # Tamaru Akiharu
+	}
+	1526.1.1={
+		holder=10026141 # Tamaru Tomotada
+	}
+	1568.1.1={
+		holder=10026142 # Tamaru Naomasa
+	}
+	1569.11.21={
+		liege="d_nmih_shima"
+		holder=10029120 # Oda Nobunaga
+	}
+	1575.1.1={
+		holder=10029161 # Oda Nobukatsu
+	}
+	1584.12.3={
+		liege="d_nmih_ise"
+		holder=10044508 # Gamo Ujisato
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+		holder=10025709 # Makimura(Inaba) Masanori
+	}
+	1593.8.6={
+		holder=10025711 # Inaba Michito
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1608.1.29={
+		holder=10025712 # Inaba Norimichi
+	}
+}

@@ -1,0 +1,34 @@
+﻿l_german:
+
+ SHOGUNATE_CALL_ALLY_DESCRIPTION:0 "#X You need at least 50 Opinion for a defensive war and 75 for an offensive war.#!\n"
+ SHOGUNATE_DECLARE_WAR_DESCRIPTION:0 "Each ally's military strength isn't included."
+
+ SHOGUNATE_NOT_IN_DIPLOMATIC_RANGE:0 "$NOT_IN_DIPLOMATIC_RANGE$: $VALUE|+0=$"
+
+ shogunate_arrange_adoption_interaction:0 "Arrange Adoption"
+ shogunate_arrange_adoption_interaction_desc:0 "Offer an adoption to [recipient.GetShortUINameNoTooltip]"
+ shogunate_arrange_adoption_interaction_extra_icon:0 "$hook_extra_icon$"
+ actor_secondary_shogunate_arrange_adoption_interaction:0 "Sender"
+
+ SHOGUNATE_ADOPTION_SELECT_MY_CANDIDATE:0 "#I Choose an adoptive father or an adopted child from your [court|E]#!"
+ SHOGUNATE_ADOPTION_SELECT_THEIR_CANDIDATE:0 "#I Choose an adoptive father or an adopted child from their [court|E]#!"
+ SHOGUNATE_ADOPTION_HOOK:0 "Use a [hook|E]"
+ SHOGUNATE_ADOPTION_AGE_IS_TOO_CLOSE:0 "Each age is too close"
+ SHOGUNATE_ADOPTION_FATHER_IS_NOT_MALE:0 "Adoptive father isn't male"
+ SHOGUNATE_ADOPTION_CHILD_IS_MARRIED_OR_BETROTHED:0 "Adopted child is [married|E] or [betrothed|E]"
+ SHOGUNATE_ADOPTION_ACTOR_IS_NOT_DYNAST:0 "Sender isn't [dynast|E]"
+ SHOGUNATE_ADOPTION_TIER_DIFFERENCE:0 "Tier difference between [actor.GetShortUIName] and [recipient.GetShortUIName]: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_FATHER_HAS_NO_SON:0 "[secondary_recipient.GetShortUIName] is old and has no inheritable son: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_FATHER_HAS_ANY_SON:0 "[secondary_recipient.GetShortUIName] has any inheritable son: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_FATHER_HAS_LOW_FERTILITY:0 "[secondary_recipient.GetShortUIName] has low fertility: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_MOTHER_HAS_LOW_FERTILITY:0 "[secondary_recipient.GetShortUINamePossessive] consorts have low fertility: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_CHILD_IS_TOO_YOUNG:0 "[secondary_actor.GetShortUIName] is too young: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_CHILD_IS_FEMALE:0 "[secondary_actor.GetShortUIName] is female: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_CHILD_IS_NOT_HEALTHY:0 "[secondary_actor.GetShortUIName] isn't healthy: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_CHILD_IS_HEIR:0 "[secondary_recipient.GetShortUIName] is an heir: $VALUE|=+0$"
+ SHOGUNATE_ADOPTION_CHILD_IS_LANDED:0 "[secondary_recipient.GetShortUIName] is landed: $VALUE|=+0$"
+
+ SHOGUNATE_ADOPTION_NOTIFICATION:0 "I propose an adoption between my [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))] [secondary_actor.GetShortUIName] and your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))] [secondary_recipient.GetShortUIName]."
+ SHOGUNATE_ADOPTION_NOTIFICATION_ACTOR_PERSONAL:0 "With your permission, I would like to arrange adoption between your [recipient.Custom2('RelationToMe', SCOPE.sC('secondary_recipient'))], the [secondary_recipient.Custom('ComplimentAdjective')] [secondary_recipient.GetShortUIName] and me."
+ SHOGUNATE_ADOPTION_NOTIFICATION_RECIPIENT_PERSONAL:0 "I would like to offer you an adoption between my [actor.Custom2('RelationToMe', SCOPE.sC('secondary_actor'))], the [secondary_actor.Custom('ComplimentAdjective')] [secondary_actor.GetShortUIName] and you."
+ SHOGUNATE_ADOPTION_NOTIFICATION_BOTH_PERSONAL:0 "For the benefit of both our realms, I propose an adoption between us."

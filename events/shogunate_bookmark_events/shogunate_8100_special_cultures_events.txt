@@ -1,0 +1,23 @@
+﻿namespace = shogunate_bookmark
+
+# Special Cultures
+shogunate_bookmark.8100 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Kyoto
+
+		title:c_nmih_otagi = {
+			set_county_culture = culture:aristocrats
+		}
+
+		# Enryakuji Temple
+
+		title:c_nmih_shiga = {
+			set_county_culture = culture:kinai_buddhist
+		}
+
+	}
+}

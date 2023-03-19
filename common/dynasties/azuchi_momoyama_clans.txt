@@ -1,0 +1,184 @@
+﻿10000901={
+	name=dynasty_name_10000901
+	culture=southern_oshu
+}
+10000911={
+	name=dynasty_name_10000911
+	culture=koshin
+}
+10000912={
+	name=dynasty_name_10000912
+	culture=koshin
+}
+10000916={
+	name=dynasty_name_10000916
+	culture=eastern_hokuriku
+}
+10000917={
+	name=dynasty_name_10000917
+	culture=eastern_hokuriku
+}
+10000921={
+	name=dynasty_name_10000921
+	culture=tokai
+}
+10000922={
+	name=dynasty_name_10000922
+	culture=tokai
+}
+10000931={
+	name=dynasty_name_10000931
+	culture=western_chubu
+}
+10000932={
+	name=dynasty_name_10000932
+	culture=western_chubu
+}
+10000933={
+	name=dynasty_name_10000933
+	culture=western_chubu
+}
+10000934={
+	name=dynasty_name_10000934
+	culture=western_chubu
+}
+10000935={
+	name=dynasty_name_10000935
+	culture=western_chubu
+}
+10000936={
+	name=dynasty_name_10000936
+	culture=western_chubu
+}
+10000937={
+	name=dynasty_name_10000937
+	culture=western_chubu
+}
+10000938={
+	name=dynasty_name_10000938
+	culture=western_chubu
+}
+10000939={
+	name=dynasty_name_10000939
+	culture=western_chubu
+}
+10000940={
+	name=dynasty_name_10000940
+	culture=western_chubu
+}
+10000941={
+	name=dynasty_name_10000941
+	culture=western_chubu
+}
+10000942={
+	name=dynasty_name_10000942
+	culture=western_chubu
+}
+10000943={
+	name=dynasty_name_10000943
+	culture=western_chubu
+}
+10000944={
+	name=dynasty_name_10000944
+	culture=western_chubu
+}
+10000945={
+	name=dynasty_name_10000945
+	culture=western_chubu
+}
+10000946={
+	name=dynasty_name_10000946
+	culture=western_chubu
+}
+10000947={
+	name=dynasty_name_10000947
+	culture=western_chubu
+}
+10000948={
+	name=dynasty_name_10000948
+	culture=western_chubu
+}
+10000949={
+	name=dynasty_name_10000949
+	culture=western_chubu
+}
+10000950={
+	name=dynasty_name_10000950
+	culture=western_chubu
+}
+10000951={
+	name=dynasty_name_10000951
+	culture=western_chubu
+}
+10000952={
+	name=dynasty_name_10000952
+	culture=western_chubu
+}
+10000953={
+	name=dynasty_name_10000953
+	culture=western_chubu
+}
+10000961={
+	name=dynasty_name_10000961
+	culture=central_kinai
+}
+10000962={
+	name=dynasty_name_10000962
+	culture=central_kinai
+}
+10000963={
+	name=dynasty_name_10000963
+	culture=central_kinai
+}
+10000964={
+	name=dynasty_name_10000964
+	culture=central_kinai
+}
+10000965={
+	name=dynasty_name_10000965
+	culture=central_kinai
+}
+10000966={
+	name=dynasty_name_10000966
+	culture=central_kinai
+}
+10000967={
+	name=dynasty_name_10000967
+	culture=central_kinai
+}
+10000968={
+	name=dynasty_name_10000968
+	culture=central_kinai
+}
+10000969={
+	name=dynasty_name_10000969
+	culture=central_kinai
+}
+10000970={
+	name=dynasty_name_10000970
+	culture=central_kinai
+}
+10000971={
+	name=dynasty_name_10000971
+	culture=central_kinai
+}
+10000972={
+	name=dynasty_name_10000972
+	culture=central_kinai
+}
+10000982={
+	name=dynasty_name_10000982
+	culture=sanyo
+}
+10000986={
+	name=dynasty_name_10000986
+	culture=shikoku
+}
+10000991={
+	name=dynasty_name_10000991
+	culture=tohoku_buddhist
+}
+10000992={
+	name=dynasty_name_10000992
+	culture=kinai_buddhist
+}

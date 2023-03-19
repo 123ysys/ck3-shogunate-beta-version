@@ -1,0 +1,21 @@
+k_nmih_shinano = {
+	1180.6.15={
+		liege=0
+		holder=10120084 # Minamoto [Kiso] Yoshinaka
+	}
+	1183.8.17={
+		holder=0 # Battle of Shinohara
+	}
+	1335.9.6={ # End of Nakasendai Rebellion
+		liege=0
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1337.1.1={
+		liege = "e_nmih_nancho"
+	}
+	1353.6.21={
+		liege = 0
+		liege=0
+		holder=0 # 
+	}
+}

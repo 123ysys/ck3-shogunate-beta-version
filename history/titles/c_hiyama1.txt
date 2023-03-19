@@ -1,0 +1,92 @@
+c_nmih_hiyama1 = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_hiyama11={
+				set_title_name=b_nmih_hiyama11
+			}
+		}
+	}
+	1443.1.1={
+		effect={
+			title:b_nmih_hiyama11={
+				set_title_name=b_nmih_hiyama11
+			}
+		}
+	}
+	1473.1.1={
+		effect={
+			title:b_nmih_hiyama11={
+				set_title_name=B_NMIH_HIYAMA11_1473
+			}
+		}
+	}
+	1514.1.1={
+		effect={
+			title:b_nmih_hiyama11={
+				set_title_name=B_NMIH_HIYAMA11_1473
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 0 }
+	100.1.1 = { change_development_level = 0 }
+	900.1.1 = { change_development_level = 0 }
+	1443.1.1 = { change_development_level = 20 }
+	1457.1.1 = { change_development_level = 30 }
+	1459.5.1 = { change_development_level = 30 }
+	1514.1.1 = { change_development_level = 40 }
+
+	0100.1.1={
+	}
+	1170.1.1={
+		liege=0
+		holder=10150101 # Mantennin
+	}
+	1200.1.1={
+		holder=10150110
+	}
+	1240.1.1={
+		holder=10150111
+	}
+	1270.1.1={
+		holder=10157200
+	}
+	1310.1.1={
+		holder=10150112
+	}
+	1350.1.1={
+		holder=10150113
+	}
+	1380.1.1={
+		holder=10150114
+	}
+	1410.1.1={
+		holder=10150115
+	}
+	1440.1.1={
+		holder=10150116
+	}
+	1443.1.1={
+		liege="k_nmih_wajinchi"
+		holder=10159054 # Kakizaki Sueshige
+	}
+	1455.1.1={
+		liege="d_nmih_wajinchi"
+		holder=10159001 # Kakizaki Nobuhiro
+	}
+	1493.6.23={
+		holder=10159002 # Kakizaki Mitsuhiro
+	}
+	1514.1.1={
+	}
+	1518.8.18={
+		holder=10159000 # Kakizaki Yoshihiro
+	}
+	1545.9.24={
+		holder=10159003 # Kakizaki Suehiro
+	}
+	1583.1.1={
+		holder=10159034 # Kakizaki Yoshihiro
+	}
+}

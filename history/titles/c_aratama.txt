@@ -1,0 +1,94 @@
+c_nmih_aratama = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_aratama1={
+				set_title_name=b_nmih_aratama1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0733.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_totomi"
+	}
+	1180.1.1={
+		liege=0
+		holder=12390507 # Ii Korenao
+	}
+	1180.11.9={
+		liege="d_nmih_totomi" # Yasuda Yoshisada / Battle of Fujikawa
+	}
+	1210.1.1={
+		holder=12390508 # Ii Morinao
+	}
+	1240.1.1={
+		holder=12390509 # Ii Yoshinao
+	}
+	1270.1.1={
+		holder=12390510 # Ii Iyanao
+	}
+	1300.1.1={
+		holder=12390511 # Ii Yasunao
+	}
+	1330.1.1={
+		holder=12390512 # Ii Yukinao
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1340.8.24={
+		liege="d_nmih_totomi"
+	}
+	1404.1.1={
+		holder=12390513 # Ii Kagenao
+	}
+	1430.1.1={
+		holder=12390514 # Ii Tadanao
+	}
+	1485.1.1={
+		liege="d_nmih_totomi"
+		holder=10023304 # Ii Naouji
+	}
+	1504.1.1={
+		holder=10023301 # Ii Naohira
+	}
+	1508.8.1={
+		liege="d_nmih_owari"
+	}
+	1514.1.1={
+		liege="d_nmih_totomi"
+	}
+	1530.1.1={
+		holder=10023300 # Ii Naomune
+	}
+	1542.2.13={
+		holder=10023302 # Ii Naomori
+	}
+	1560.6.12={
+		holder=10023305 # Ii Naochika
+	}
+	1563.1.8={
+		holder=10023301 # Ii Naohira
+	}
+	1563.10.5={
+		holder=10023306 # Ii Naomasa or 23017 # Imagawa Ujizane
+	}
+	1590.7.25={ 
+		holder=10029641 # Horio Yoshiharu
+		liege="d_nmih_totomi"
+	}
+	1599.11.8={
+		holder=10029642 # Horio Tadauji
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1609.12.27={
+		liege="d_nmih_suruga"
+		holder=10024049 # Tokugawa Yorinobu
+	}
+}

@@ -1,0 +1,16 @@
+war = {
+	name = "war_1584_battle_of_komaki_nagakute"
+	start_date = 1584.4.13
+	end_date = 1584.12.3
+	targeted_titles = {
+		k_nmih_chubu
+	}
+	casus_belli = event_sengoku_invasion_war_kingdom
+	attackers = {
+		10029400	# Hashiba Hideyoshi
+	}
+	defenders = {
+		10029161	# Oda Nobukatsu
+		10024006	# Tokugawa Ieyasu
+	}
+}

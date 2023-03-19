@@ -7,39 +7,63 @@
 #################################################
 
  bm_hidden1180:0 "*"
- bm_title_hidden1180:0 "以仁王举兵"
- bm_hidden1180_desc:0 "经历了保元之乱和平治之乱后，伊势平氏彻底主宰了朝廷。平清盛接受了太政大臣的宣下——掌握了律令体制内朝廷的最高官职，他的家族则掌控着国内的大片庄园，以至于某个平氏曾傲然吐言：\n\n非平氏者非人也\n\n平清盛与后白河法皇的冲突在1170年后严重加剧，与此同时，反平家势力也趁机蠢蠢欲动。"
+ bm_title_hidden1180:0 "以仁王的举兵"
+ bm_hidden1180_desc:0 "在保元之乱与平治之乱后，伊势平氏伊势平氏彻底掌控了朝廷。作为栋梁的平清盛当上太政大臣，其族获得了巨大的财富与土地。据说平氏有人曾公然放言。\n\n“非平家者非人也。”\n\n可是、1170年平清盛与后白河法皇之间的矛盾愈发深刻。那些对平家不满的人们也开始密谋反对他们。"
 
  bm_hidden1183:0 "*"
- bm_title_hidden1183:0 "Exile of Taira"
+ bm_title_hidden1183:0 "平家衰落"
  bm_hidden1183_desc:0 ""
 
+ bm_hidden1221:0 "*"
+ bm_title_hidden1221:0 "承久之乱"
+ bm_hidden1221_desc:0 ""
+
+ bm_hidden1351:0 "*"
+ bm_title_hidden1351:0 "正平一统"
+ bm_hidden1351_desc:0 ""
+
+ bm_hidden1389:0 "*"
+ bm_title_hidden1389:0 "土岐康行之乱"
+ bm_hidden1389_desc:0 ""
+
+ bm_hidden1391:0 "*"
+ bm_title_hidden1391:0 "明徳之乱"
+ bm_hidden1391_desc:0 ""
+
+ bm_hidden1441:0 "*"
+ bm_title_hidden1441:0 "嘉吉之乱"
+ bm_hidden1441_desc:0 ""
+
+ bm_hidden1444:0 "*"
+ bm_title_hidden1444:0 "欧州普遍"
+ bm_hidden1444_desc:0 ""
+
  bm_hidden1471:0 "*"
- bm_title_hidden1471:0 "Asakura Takakage's Betrayal"
+ bm_title_hidden1471:0 "朝仓孝景的背叛"
  bm_hidden1471_desc:0 ""
 
  bm_hidden1473:0 "*"
- bm_title_hidden1473:0 "Exit of Two Giants"
+ bm_title_hidden1473:0 "双雄退场"
  bm_hidden1473_desc:0 ""
 
  bm_hidden1477:0 "*"
- bm_title_hidden1477:0 "Revolt of Nagao Kageharu"
+ bm_title_hidden1477:0 "长尾景春之乱"
  bm_hidden1477_desc:0 ""
 
  bm_hidden1485:0 "*"
- bm_title_hidden1485:0 "Yamashiro Kuni-Ikki"
+ bm_title_hidden1485:0 "山城国一揆"
  bm_hidden1485_desc:0 ""
 
  bm_hidden1504:0 "*"
- bm_title_hidden1504:0 "Battle of Tachikawanohara"
+ bm_title_hidden1504:0 "立河原之战"
  bm_hidden1504_desc:0 ""
 
  bm_hidden1515:0 "*"
- bm_title_hidden1515:0 "Shoya Kohupci Bros. War"
+ bm_title_hidden1515:0 "庶野訇峙兄弟之战"
  bm_hidden1515_desc:0 ""
 
  bm_hidden1520:0 "*"
- bm_title_hidden1520:0 "Battle of Toji-in"
+ bm_title_hidden1520:0 "等持院之战"
  bm_hidden1520_desc:0 ""
 
  bm_hidden1537:0 "*"
@@ -51,7 +75,7 @@
  bm_hidden1542_desc:0 ""
 
  bm_hidden1548:0 "*"
- bm_title_hidden1548:0 "信浓侵攻"
+ bm_title_hidden1548:0 "信浓侵略"
  bm_hidden1548_desc:0 ""
 
  bm_hidden1551:0 "*"
@@ -59,15 +83,15 @@
  bm_hidden1551_desc:0 ""
 
  bm_hidden1557:0 "*"
- bm_title_hidden1557:0 "防长经略"
+ bm_title_hidden1557:0 "防长经营"
  bm_hidden1557_desc:0 ""
 
  bm_hidden1561:0 "*"
- bm_title_hidden1561:0 "川中岛之战"
+ bm_title_hidden1561:0 "川中岛合战"
  bm_hidden1561_desc:0 ""
 
  bm_hidden1570:0 "*"
- bm_title_hidden1570:0 "姊川之战"
+ bm_title_hidden1570:0 "姊川合战"
  bm_hidden1570_desc:0 ""
 
  bm_hidden1573:0 "*"
@@ -79,5 +103,9 @@
  bm_hidden1591_desc:0 ""
 
  bm_hidden1600:0 "*"
- bm_title_hidden1600:0 "关原之战"
- bm_hidden1600_desc:0 "丰臣秀吉死后，德川家康的影响力日益增强。\n\n能对抗家康的前田利家也不在了，之后石田三成被迫在佐和山城蛰居。\n\n正在整备领国军备的上杉景胜受命上洛，但景胜的重臣直江兼续却向家康发出了《直江状》进行挑衅。\n\n家康决定讨伐景胜，随后命令诸将出阵。"
+ bm_title_hidden1600:0 "关原合战"
+ bm_hidden1600_desc:0 "丰臣秀吉死后，德川家康的影响力与日俱增。。\n\n能够对抗家康的前田利家死了，奉行石田三成也被迫蛰居在佐和山城。\n\n虽然家康命令在领国整备军队的上杉景胜前往江户，但景胜的家仆・直江兼续却向家康送来的极具挑衅的“直江状”。\n\n家康决定讨伐上杉景胜，命令各将士准备出战。"
+
+ bm_hidden1616:0 "*"
+ bm_title_hidden1616:0 "元和偃武"
+ bm_hidden1616_desc:0 ""

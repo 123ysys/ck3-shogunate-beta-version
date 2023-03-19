@@ -1,0 +1,137 @@
+c_nmih_chichibu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_chichibu1={
+				set_title_name=b_nmih_chichibu9
+			}
+		}
+	}
+	1480.6.1={
+		effect={
+			title:b_nmih_chichibu1={
+				set_title_name=B_NMIH_CHICHIBU9_1480
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1000.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1075.1.1={
+		holder=12200006 # Chichibu Taketsuna
+	}
+	1097.1.1={
+		holder=12200040 # Chichibu Shigetsuna
+	}
+	1150.1.1={
+		holder=12200045 # Chichibu Shigehiro
+	}
+	1160.1.1={
+		holder=12200051 # Hatakeyama Shigeyoshi
+	}
+	1180.1.1={
+		holder=12200060 # Hatakeyama Shigetada
+	}
+	1205.7.10={ # the HATAKEYAMA Shigetada Rebellion
+		liege="d_nmih_musashi"
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.7.11={
+		liege="d_nmih_ashikaga"
+		holder=12139001 # Hatakeyama Yoshizumi
+	}
+	1210.10.26={
+		holder=10048101 # Hatakeyama Yasukuni
+	}
+	1260.1.1={
+		holder=10048102 # Hatakeyama Tokikuni
+	}
+	1280.1.1={
+		holder=10007312 # Hatakeyama Takakuni
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+	}
+	1336.7.22={
+		liege="d_nmih_musashi"
+		holder=12139568 # Kou Shigemochi
+	}
+	1341.5.1={
+		holder=12139551 # Kou Morofuyu
+	}
+	1346.1.1={
+		holder=12139567 # Kou Moronao
+	}
+	1351.3.15={
+		liege="d_nmih_uesugi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+	}
+	1368.8.1={
+		holder=10018460 # Oishi Nobushige
+	}
+	1415.6.8={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1418.2.9={
+		liege="d_nmih_musashi"
+	}
+	1424.1.1={
+		holder=10018461 # Oishi Norishige
+	}
+	1429.1.1={
+		holder=10018462 # Oishi Noriyoshi
+	}
+	1441.1.1={
+		liege="d_nmih_musashi"
+		holder=10017320 # Nagao Kagenaka
+	}
+	1457.1.1={
+		liege="k_nmih_kanto_kanrei"
+	}
+	1463.10.8={
+		holder=10017321 # Nagao Kagenobu
+	}
+	1473.7.18={
+		holder=10017322 # Nagao Tadakage
+	}
+	1477.2.10={
+		liege=0 # Nagao Kageharu's rebellion
+		holder=10017324 # Nagao Kageharu
+	}
+	1480.6.1={
+		liege="k_nmih_kanto_kanrei" # End of Nagao Kageharu's rebellion
+		holder=10018401 # Fujita Shigekazu
+	}
+	1490.1.1={
+		holder=10018402 # Fujita Shigeyori
+	}
+	1520.1.1={
+		holder=10018403 # Fujita Shigetsuna
+	}
+	1530.1.1={
+		holder=10018404 # Fujita Yasukuni
+	}
+	1546.5.19={
+		liege="d_nmih_musashi" # vassal of Hojo
+	}
+	1558.1.1={
+		holder=10016016 # Hojo Ujikuni
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

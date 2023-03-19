@@ -1,0 +1,26 @@
+﻿l_korean:
+
+ # Base MaA
+ light_footmen:0 "정예 장창 아시가루"
+ bowmen:0 "정예 활 아시가루"
+ crossbowmen:0 "정예 철포 아시가루"
+ armored_footmen:0 "사무라이"
+ armored_horsemen:0 "기마무사"
+
+ # Siege MaA
+ onager:0 "카이다테"
+ mangonel:0 "세이로"
+ trebuchet:0 "타케타바"
+ bombard:0 "오오즈츠"
+
+ # MaA Descriptions
+ light_footmen_flavor:1 "#F 숙련된 아시가루는 적을 분쇄하고 사기를 꺾는 둘도 없는 전력이다.#!"
+ bowmen_flavor:1 "#F 노련한 궁수의 화살이 하늘을 가득 메워 적의 선두를 괴멸시킨다.#!"
+ crossbowmen_flavor:0 "#F 비록 재장전에 시간이 걸리지만 철포는 다루기가 쉽고 먼 거리에서 대부분의 갑옷을 꿰뚫을 수 있다.#!"
+ armored_footmen_flavor:1 "#F 중무장하고 잘 훈련된 사무라이는 오합지졸인 잡병들을 분쇄하는 일에 특화되어 있다.#!"
+ armored_horsemen_flavor:0 "#F 중무장한 기마무사는 평지에서 전투의 귀추를 결정한다.#!"
+
+ onager_flavor:0 "#F 적의 화살을 막기 위해 방패를 울타리처럼 세운 것. 병사들을 투사체로부터 보호한다.#!"
+ mangonel_flavor:0 "#F 나무와 대나무로 짜맞추어 만든 망루. 성내의 정찰이나 제압 등 간단한 공성탑으로도 기능한다.#!"
+ trebuchet_flavor:0 "#F 대나무를 묶어서 방패막이로 만든 것. 기존에는 막을 수 없었던 철포의 탄환도 효과적으로 방어한다.#!"
+ bombard_flavor:0 "#F 전국시대의 대포의 일종. 주로 공성전이나 해전에서 이용된다. 값은 비싸지만 적은 수로도 충분히 적의 방어시설을 파괴할 수 있다.#!"

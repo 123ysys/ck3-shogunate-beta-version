@@ -1,0 +1,600 @@
+﻿bm_extra1393_1 = {
+	start_date = 1393.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1394_1 = {
+	start_date = 1394.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1395_1 = {
+	start_date = 1395.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1396_1 = {
+	start_date = 1396.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1397_1 = {
+	start_date = 1397.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1398_1 = {
+	start_date = 1398.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1399_1 = {
+	start_date = 1399.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1400_1 = {
+	start_date = 1400.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1401_1 = {
+	start_date = 1401.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1402_1 = {
+	start_date = 1402.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1403_1 = {
+	start_date = 1403.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1404_1 = {
+	start_date = 1404.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1405_1 = {
+	start_date = 1405.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1406_1 = {
+	start_date = 1406.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1407_1 = {
+	start_date = 1407.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1408_1 = {
+	start_date = 1408.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1409_1 = {
+	start_date = 1409.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1410_1 = {
+	start_date = 1410.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1411_1 = {
+	start_date = 1411.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1412_1 = {
+	start_date = 1412.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1413_1 = {
+	start_date = 1413.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1414_1 = {
+	start_date = 1414.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1415_1 = {
+	start_date = 1415.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1416_1 = {
+	start_date = 1416.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1417_1 = {
+	start_date = 1417.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1418_1 = {
+	start_date = 1418.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1419_1 = {
+	start_date = 1419.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1420_1 = {
+	start_date = 1420.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1421_1 = {
+	start_date = 1421.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1422_1 = {
+	start_date = 1422.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1423_1 = {
+	start_date = 1423.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1424_1 = {
+	start_date = 1424.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1425_1 = {
+	start_date = 1425.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1426_1 = {
+	start_date = 1426.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1427_1 = {
+	start_date = 1427.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1428_1 = {
+	start_date = 1428.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1429_1 = {
+	start_date = 1429.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1430_1 = {
+	start_date = 1430.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1431_1 = {
+	start_date = 1431.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1432_1 = {
+	start_date = 1432.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1433_1 = {
+	start_date = 1433.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1434_1 = {
+	start_date = 1434.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1435_1 = {
+	start_date = 1435.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1436_1 = {
+	start_date = 1436.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1437_1 = {
+	start_date = 1437.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1438_1 = {
+	start_date = 1438.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1439_1 = {
+	start_date = 1439.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1440_1 = {
+	start_date = 1440.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1441_1 = {
+	start_date = 1441.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1442_1 = {
+	start_date = 1442.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1443_1 = {
+	start_date = 1443.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1444_1 = {
+	start_date = 1444.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1445_1 = {
+	start_date = 1445.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1446_1 = {
+	start_date = 1446.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1447_1 = {
+	start_date = 1447.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1448_1 = {
+	start_date = 1448.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1449_1 = {
+	start_date = 1449.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1450_1 = {
+	start_date = 1450.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1451_1 = {
+	start_date = 1451.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1452_1 = {
+	start_date = 1452.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1453_1 = {
+	start_date = 1453.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1454_1 = {
+	start_date = 1454.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1455_1 = {
+	start_date = 1455.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1456_1 = {
+	start_date = 1456.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1457_1 = {
+	start_date = 1457.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1458_1 = {
+	start_date = 1458.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1459_1 = {
+	start_date = 1459.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1460_1 = {
+	start_date = 1460.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1461_1 = {
+	start_date = 1461.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1462_1 = {
+	start_date = 1462.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1463_1 = {
+	start_date = 1463.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1464_1 = {
+	start_date = 1464.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1465_1 = {
+	start_date = 1465.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1466_1 = {
+	start_date = 1466.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1467_1 = {
+	start_date = 1467.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1468_1 = {
+	start_date = 1468.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1469_1 = {
+	start_date = 1469.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1470_1 = {
+	start_date = 1470.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1471_1 = {
+	start_date = 1471.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1472_1 = {
+	start_date = 1472.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1473_1 = {
+	start_date = 1473.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1474_1 = {
+	start_date = 1474.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1475_1 = {
+	start_date = 1475.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1476_1 = {
+	start_date = 1476.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1477_1 = {
+	start_date = 1477.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1478_1 = {
+	start_date = 1478.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1479_1 = {
+	start_date = 1479.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1480_1 = {
+	start_date = 1480.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1481_1 = {
+	start_date = 1481.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1482_1 = {
+	start_date = 1482.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1483_1 = {
+	start_date = 1483.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1484_1 = {
+	start_date = 1484.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1485_1 = {
+	start_date = 1485.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1486_1 = {
+	start_date = 1486.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1487_1 = {
+	start_date = 1487.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1488_1 = {
+	start_date = 1488.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1489_1 = {
+	start_date = 1489.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1490_1 = {
+	start_date = 1490.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1491_1 = {
+	start_date = 1491.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+
+bm_extra1492_1 = {
+	start_date = 1492.1.1
+	is_playable = yes
+	group = bm_group_muromachi
+}
+

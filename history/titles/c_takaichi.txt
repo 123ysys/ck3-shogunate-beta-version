@@ -1,0 +1,122 @@
+c_nmih_takaichi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_takaichi1={
+				set_title_name=b_nmih_takaichi1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_takaichi1={
+				set_title_name=b_nmih_takaichi2
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_takaichi1={
+				set_title_name=b_nmih_takaichi5
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1100.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_yamato"
+	}
+	1180.1.1={
+		liege="d_nmih_yamato"
+		holder=12540118 # Ochi Chikaie
+	}
+	1184.3.4={
+		liege="d_nmih_kofukuji"
+	}
+	1205.1.1={
+		holder=10048217 # Ochi Iehiro
+	}
+	1250.1.1={
+		holder=10048218 # Ochi Genta
+	}
+	1290.1.1={
+		holder=10048219 # Ochi Genta
+	}
+	1330.1.1={
+		holder=10048212 # Ochi Genta
+	}
+	1333.1.1={
+		liege="k_nmih_southern_kinai"
+	}
+	1334.11.19={
+		liege="e_nmih_nancho"
+	}
+	1370.1.1={
+		liege="d_nmih_kofukuji"
+		holder=10048213 # Ochi Ienari
+	}
+	1400.1.1={
+		holder=10048215 # Ochi Ietsune
+	}
+	1429.7.1={
+		liege=0
+		holder=10048216 # Ochi Koremichi
+	}
+	1439.3.1={
+		liege="d_nmih_kawachi"
+		holder=10048200 # Ochi Iehide
+	}
+	1500.4.4={
+		holder=10048201 # Ochi Ienori
+	}
+	1507.1.1={
+		holder=10048202 # Ochi Ienori
+	}
+	1517.5.7={
+		holder=10048203 # Ochi Iehide
+	}
+	1521.1.1={
+		liege="d_nmih_kii"
+	}
+	1530.1.1={
+		holder=10048204 # Ochi Iehiro
+	}
+	1534.1.1={
+		liege=0
+	}
+	1569.1.1={
+		holder=10048209 # Ochi Ietaka
+	}
+	1571.1.1={
+		holder=10048208 # Ochi Iemasu
+	}
+	1576.8.24={
+		holder=10048210 # Ochi Iehide
+	}
+	1577.1.1={
+		liege="d_nmih_yamato" # 48413 Tsutsui Junkei
+	}
+	1584.9.15={
+		holder=10048415 # Tsutsui Sadatsugu
+	}
+	1585.9.14={
+		holder=10095100 # Honda Toshihisa
+	}
+	1595.5.24={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10029142 # Oda Nagamasu
+	}
+	1615.9.24={
+		holder=10029203 # Oda Nagamasa
+	}
+
+}

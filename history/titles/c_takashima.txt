@@ -1,0 +1,147 @@
+c_nmih_takashima = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_takashima1={
+				set_title_name=b_nmih_takashima1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_takashima1={
+				set_title_name=b_nmih_takashima4
+			}
+		}
+	}
+	1578.2.3={
+		effect={
+			title:b_nmih_takashima1={
+				set_title_name=B_NMIH_TAKASHIMA4_1578
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 40 }
+	1100.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_omi"
+	}
+	1180.1.1={
+		liege="e_nmih_japan"
+		holder=10120213 # Minamoto Shigesada
+	}
+	1183.8.17={
+		liege="d_nmih_omi" # Yamamoto Yoshitsuna
+		holder=12515013 # Yamamoto [Nishigori] Yoshitaka / Taira's escape to the west
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_northern_omi"
+		holder=12515013 # Nishigori Yoshitaka
+	}
+	1211.1.1={
+		holder=12515080 # Nishigori Yoshitsugu
+	}
+	1221.7.6={ # the Jokyu War
+		liege="d_nmih_omi"
+		holder=12510073 # Sasaki Nobutsuna
+	}
+	1242.4.7={
+		liege="e_nmih_japan"
+		holder=12510082 # Sasaki [Takashima] Takanobu
+	}
+	1270.1.1={
+		holder=12510300 # Takashima Yasunobu
+	}
+	1290.1.1={
+		holder=12510310 # Kutsuki Yoshitsuna
+	}
+	1310.1.1={
+		holder=12510315 # Kutsuki Tokitsune
+	}
+	1330.1.1={
+		holder=12510320 # Kutsuki Yoshiuji
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1335.11.1={
+		liege="e_nmih_japan"
+	}
+	1340.1.1={
+		liege="e_nmih_japan"
+		holder=12510325 # Kutsuki Tsuneuji
+	}
+	1363.1.1={
+		holder=12510330 # Kutsuki Ujihide
+	}
+	1408.1.1={
+		holder=12510335 # Kutsuki Yoshitsuna
+	}
+	1420.1.1={
+		holder=12510340 # Kutsuki Tokitsuna
+	}
+	1445.1.1={
+		holder=12510345 # Kutsuki Sadataka
+	}
+	1475.1.1={
+		holder=10045503 # Kutsuki Sadatsuna
+	}
+	1485.8.27={
+		holder=10045501 # Kutsuki Sadakiyo
+	}
+	1523.1.1={
+		holder=10045500 # Kutsuki Tanetsuna
+	}
+	1527.3.14={
+		holder=10040000 # Ashikaga Yoshiharu, exiled from Otagi
+	}
+	1534.1.1={
+		holder=10045500 # Kutsuki Tanetsuna
+	}
+	1549.1.1={
+		holder=10045502 # Kutsuki Harutsuna
+	}
+	1549.7.18={
+		holder=10040040 # Ashikaga Yoshiteru, exiled from Otagi
+	}
+	1552.1.1={
+		holder=10045504 # Kutsuki Mototsuna
+	}
+	1553.9.8={
+		holder=10040040 # Ashikaga Yoshiteru, exiled from Otagi, again.
+	}
+	1558.11.1={
+		holder=10045504 # Kutsuki Mototsuna
+	}
+	1565.6.17={
+		liege=0
+	}
+	1571.2.24={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10043131 # Isono Kazumasa
+	}
+	1575.1.1={
+		liege="d_nmih_omi" # 29120 Oda Nobunaga
+	}
+	1578.2.3={
+		holder=10029186 # Oda Nobuzumi
+	}
+	1582.6.21={
+		liege=0
+		holder=10045504 # Kutsuki Mototsuna
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1600.10.21={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+}

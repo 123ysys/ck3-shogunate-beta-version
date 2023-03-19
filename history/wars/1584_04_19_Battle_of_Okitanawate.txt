@@ -1,0 +1,8 @@
+war = {
+	name = "war_1584_battle_of_okitanawate"
+	start_date = 1584.4.19
+	end_date = 1584.5.4
+	casus_belli = vassalization_cb
+	attackers = { 10060024 } # Shimazu Yoshihisa
+	defenders = { 10068320 } # Ryuzoji Takanobu
+}

@@ -1,0 +1,65 @@
+d_nmih_iwashiro = {
+	100.1.1={
+	}
+	1180.1.1={
+		liege="k_nmih_northern_oshu"
+		holder=12060060 # Sato Motoharu
+	}
+	1189.9.21={
+		liege=0
+		holder=0 # 
+	}
+	1189.11.15={
+		liege="e_nmih_japan"
+		holder=12220200 # Nikaido Yukimasa
+	}
+	1205.1.1={
+		holder=12220201 # Nikaido Yukimitsu
+	}
+	1219.10.17={
+		holder=12220204 # Nikaido Yukimori
+	}
+	1253.12.30={
+		holder=12220206 # Nikaido Yukiyasu
+	}
+	1265.11.11={
+		holder=12220209 # Nikaido Yukizane
+	}
+	1269.8.12={
+		holder=12220205 # Nikaido Yukitsuna
+	}
+	1281.6.24={
+		holder=12220240 # Nikaido Yoristuna
+	}
+	1283.11.14={
+		holder=12220207 # Nikaido Yukitada
+	}
+	1290.12.24={
+		holder=12220271 # Nikaido Yukisada
+	}
+	1329.3.3={
+		holder=12220273 # Nikaido Sadahira
+	}
+	1332.2.3={
+		holder=12220371 # Nikaido Sadafuji
+	}
+	1333.7.4={
+		liege=0
+		holder=0 # 
+	}
+	1399.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=10040068 # Ashikaga Mitsunao (Sasakawa-Kubo)
+	}
+	1417.1.27={
+		liege=0
+	}
+	1440.7.23={
+		liege=0
+		holder=0 # 
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10032032 # Uesugi Kagekatsu
+	}
+}

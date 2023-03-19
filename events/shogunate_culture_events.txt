@@ -1,0 +1,461 @@
+﻿namespace = shogunate_culture
+
+# Spread of the arquebus (trigger)
+shogunate_culture.0001 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		every_culture_global = {
+
+			if = {
+				limit = {
+					NOT = { has_innovation = innovation_advanced_bowmaking }
+					NOT = { this = culture:imperial_family }
+				}
+
+				random_province = {
+					save_scope_as = birthplace
+				}
+
+				create_character = {
+					culture = this
+					faith = faith:shinto
+					gender_female_chance = 50
+					location = scope:birthplace
+					template = peasant_character
+					save_scope_as = temp_character
+				}
+
+				scope:temp_character = {
+					set_variable = { name = score value = 0 }
+				}
+
+				if = {
+					limit = {
+						OR = {
+							shogunate_arquebus_spread_heritage_1550 = yes
+						}
+					}
+					scope:temp_character = {
+						if = { limit = { current_year >= 1550 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1551 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1552 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1553 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1554 } change_variable = { name = score add = 1 } }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							shogunate_arquebus_spread_heritage_1550 = yes
+							shogunate_arquebus_spread_heritage_1555 = yes
+						}
+					}
+					scope:temp_character = {
+						if = { limit = { current_year >= 1555 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1556 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1557 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1558 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1559 } change_variable = { name = score add = 1 } }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							shogunate_arquebus_spread_heritage_1550 = yes
+							shogunate_arquebus_spread_heritage_1555 = yes
+							shogunate_arquebus_spread_heritage_1560 = yes
+						}
+					}
+					scope:temp_character = {
+						if = { limit = { current_year >= 1560 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1561 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1562 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1563 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1564 } change_variable = { name = score add = 1 } }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							shogunate_arquebus_spread_heritage_1550 = yes
+							shogunate_arquebus_spread_heritage_1555 = yes
+							shogunate_arquebus_spread_heritage_1560 = yes
+							shogunate_arquebus_spread_heritage_1565 = yes
+						}
+					}
+					scope:temp_character = {
+						if = { limit = { current_year >= 1565 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1566 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1567 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1568 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1569 } change_variable = { name = score add = 1 } }
+					}
+				}
+				if = {
+					limit = {
+						OR = {
+							shogunate_arquebus_spread_heritage_1550 = yes
+							shogunate_arquebus_spread_heritage_1555 = yes
+							shogunate_arquebus_spread_heritage_1560 = yes
+							shogunate_arquebus_spread_heritage_1565 = yes
+							shogunate_arquebus_spread_heritage_1570 = yes
+						}
+					}
+					scope:temp_character = {
+						if = { limit = { current_year >= 1570 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1571 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1572 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1573 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1574 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1575 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1576 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1577 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1578 } change_variable = { name = score add = 1 } }
+						if = { limit = { current_year >= 1579 } change_variable = { name = score add = 1 } }
+					}
+				}
+
+				if = {
+					limit = { scope:temp_character.var:score > 0 }
+
+					random_list = {
+						100 = {}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 10 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 9 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 8 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 7 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 6 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 5 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 4 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 3 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 2 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+						10 = {
+							if = {
+								limit = { scope:temp_character.var:score >= 1 }
+								shogunate_spread_arquebus_effect = yes
+							}
+						}
+					}
+				}
+
+				scope:temp_character = {
+					death = { death_reason = death_vanished }
+				}
+			}
+		}
+	}
+}
+
+# Spread of the arquebus (notification)
+shogunate_culture.0002 = {
+	type = character_event
+	title = shogunate_culture.0002.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = shogunate_culture.0002.opening.desc
+			}
+		}
+		first_valid = {
+			triggered_desc = {
+				desc = shogunate_culture.0002.after_spread.desc
+			}
+		}
+	}
+	theme = war
+	left_portrait = {
+		character = this
+		animation = personality_rational
+	}
+
+	option = {
+		name = shogunate_culture.0002.a
+	}
+}
+
+# Spread of the arquebus (setup)
+shogunate_culture.0003 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		every_culture_global = {
+			if = {
+				limit = {
+					current_year >= 1550
+					shogunate_arquebus_spread_culture_1550 = yes
+				}
+				add_innovation = innovation_advanced_bowmaking
+			}
+			if = {
+				limit = {
+					current_year >= 1555
+					shogunate_arquebus_spread_culture_1555 = yes
+				}
+				add_innovation = innovation_advanced_bowmaking
+			}
+			if = {
+				limit = {
+					current_year >= 1560
+					shogunate_arquebus_spread_culture_1560 = yes
+				}
+				add_innovation = innovation_advanced_bowmaking
+			}
+			if = {
+				limit = {
+					current_year >= 1565
+					shogunate_arquebus_spread_culture_1565 = yes
+				}
+				add_innovation = innovation_advanced_bowmaking
+			}
+			if = {
+				limit = {
+					current_year >= 1570
+					shogunate_arquebus_spread_culture_1570 = yes
+				}
+				add_innovation = innovation_advanced_bowmaking
+			}
+		}
+	}
+}
+
+# Spread of the cannon (trigger)
+shogunate_culture.0011 = {
+	type = character_event
+	hidden = yes
+
+	immediate = {
+
+		culture = {
+
+			if = {
+				limit = {
+					NOT = { has_innovation = innovation_bombard }
+				}
+
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								current_year >= 1560
+								root = {
+									AND = {
+										has_faith = faith:catholic
+										OR = {
+											has_character_modifier = shogunate_sakai_trade_port_04_modifier
+											has_character_modifier = shogunate_hakata_trade_port_04_modifier
+										}
+									}
+								}
+							}
+							AND = {
+								current_year >= 1570
+								root = {
+									AND = {
+										has_faith = faith:catholic
+										OR = {
+											has_character_modifier = shogunate_sakai_trade_port_03_modifier
+											has_character_modifier = shogunate_hakata_trade_port_03_modifier
+										}
+									}
+								}
+							}
+							AND = {
+								current_year >= 1580
+								root = {
+									OR = {
+										AND = {
+											has_faith = faith:catholic
+											OR = {
+												has_character_modifier = shogunate_sakai_trade_port_02_modifier
+												has_character_modifier = shogunate_hakata_trade_port_02_modifier
+											}
+										}
+										AND = {
+											NOT = { has_faith = faith:catholic }
+											OR = {
+												has_character_modifier = shogunate_sakai_trade_port_04_modifier
+												has_character_modifier = shogunate_hakata_trade_port_04_modifier
+											}
+										}
+									}
+								}
+							}
+							AND = {
+								current_year >= 1590
+								root = {
+									OR = {
+										AND = {
+											has_faith = faith:catholic
+											OR = {
+												has_character_modifier = shogunate_sakai_trade_port_01_modifier
+												has_character_modifier = shogunate_hakata_trade_port_01_modifier
+											}
+										}
+										AND = {
+											NOT = { has_faith = faith:catholic }
+											OR = {
+												has_character_modifier = shogunate_sakai_trade_port_03_modifier
+												has_character_modifier = shogunate_hakata_trade_port_03_modifier
+											}
+										}
+									}
+								}
+							}
+							AND = {
+								current_year >= 1600
+								root = {
+									AND = {
+										NOT = { has_faith = faith:catholic }
+										OR = {
+											has_character_modifier = shogunate_sakai_trade_port_02_modifier
+											has_character_modifier = shogunate_hakata_trade_port_02_modifier
+										}
+									}
+								}
+							}
+							AND = {
+								current_year >= 1610
+								root = {
+									AND = {
+										NOT = { has_faith = faith:catholic }
+										OR = {
+											has_character_modifier = shogunate_sakai_trade_port_01_modifier
+											has_character_modifier = shogunate_hakata_trade_port_01_modifier
+										}
+									}
+								}
+							}
+						}
+					}
+
+					random_list = {
+						90 = {}
+						10 = {
+							shogunate_spread_cannon_effect = yes
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+# Spread of the cannon (notification)
+shogunate_culture.0012 = {
+	type = character_event
+	title = shogunate_culture.0012.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = shogunate_culture.0012.desc
+			}
+		}
+	}
+	theme = war
+	left_portrait = {
+		character = this
+		animation = personality_rational
+	}
+
+	option = {
+		name = shogunate_culture.0012.a
+	}
+}
+
+# Spread of the cannon (setup)
+shogunate_culture.0013 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		every_culture_global = {
+			if = {
+				limit = {
+					current_year >= 1580
+					shogunate_cannon_spread_culture_1580 = yes
+				}
+				add_innovation = innovation_bombard
+			}
+			if = {
+				limit = {
+					current_year >= 1590
+					shogunate_cannon_spread_culture_1590 = yes
+				}
+				add_innovation = innovation_bombard
+			}
+			if = {
+				limit = {
+					current_year >= 1600
+					shogunate_cannon_spread_culture_1600 = yes
+				}
+				add_innovation = innovation_bombard
+			}
+		}
+	}
+}
+
+# Ainu Tattoo (on 10th birthday)
+shogunate_culture.0100 = {
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				culture = { has_cultural_pillar = heritage_ainu }
+				is_female = yes
+			}
+			add_character_flag = ainu_tattoo_flag
+		}
+	}
+}

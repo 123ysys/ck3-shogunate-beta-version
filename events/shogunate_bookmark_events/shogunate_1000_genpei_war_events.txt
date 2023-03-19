@@ -1,0 +1,261 @@
+﻿namespace = shogunate_bookmark
+
+# Genpei War
+shogunate_bookmark.1000 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		if = {
+			limit = {
+				game_start_date = 1180.11.10
+			}
+
+			character:10110025 = {											# Taira Kiyomori
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 20000
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 10
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 10
+					}
+				}
+			}
+
+			character:10120075 = {											# Minamoto Yoritomo
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 20000
+					men_at_arms = {
+						type = onager
+						stacks = 100
+					}
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 10
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 10
+					}
+				}
+			}
+
+			character:10120084 = {											# Minamoto Yoshinaka
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 10000
+					men_at_arms = {
+						type = onager
+						stacks = 100
+					}
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 5
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 5
+					}
+				}
+			}
+
+			character:10120111 = {											# Takeda Nobuyoshi
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 4000
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 2
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 2
+					}
+				}
+			}
+
+			character:10120113 = {											# Yasuda Yoshisada
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 4000
+					men_at_arms = {
+						type = onager
+						stacks = 50
+					}
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 2
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 2
+					}
+				}
+			}
+
+			character:12515000 = {											# Yamamoto Yoshitsune
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 5000
+					men_at_arms = {
+						type = onager
+						stacks = 25
+					}
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 3
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 3
+					}
+				}
+			}
+
+			character:12420102 = {											# Toki Mitsunaga
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 5000
+					men_at_arms = {
+						type = onager
+						stacks = 25
+					}
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 3
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 3
+					}
+				}
+			}
+
+			character:10120072 = {											# Minamoto Yukiie
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					levies = 5000
+					men_at_arms = {
+						type = onager
+						stacks = 25
+					}
+				}
+				spawn_army = {
+					uses_supply = no
+					inheritable = no
+					name = event_troop_default_name
+					location = capital_province
+					men_at_arms = {
+						type = armored_footmen
+						stacks = 3
+					}
+					men_at_arms = {
+						type = armored_horsemen
+						stacks = 3
+					}
+				}
+			}
+
+
+			# Enable all De Jure CB to promote unity of Japan
+
+			every_culture_global = {
+				add_innovation = innovation_rightful_ownership
+			}
+
+
+			# Degrade claims on Shogunate to avoid endless wars
+
+			title:e_nmih_japan = {
+				every_claimant = {
+					make_claim_weak = title:e_nmih_japan
+				}
+			}
+
+
+			# Add craven trait to Minamoto Yoritomo to avoid his death in combat
+
+			shogunate_historical_trait_effect = {
+				CHAR  = 10120075											# Minamoto Yoritomo
+				TRAIT = craven
+			}
+
+		}
+	}
+}

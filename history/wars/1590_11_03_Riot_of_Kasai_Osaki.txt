@@ -1,0 +1,11 @@
+war = {
+	name = "war_1590_riot_of_kasai_osaki"
+	start_date = 1590.11.3
+	end_date = 1591.8.12
+	targeted_titles = {
+		d_nmih_rikuzen
+	}
+	casus_belli = event_sengoku_invasion_war_duchy
+	attackers = { 10006103 10009908 10009706 10006219 12081050 } # Kasai Harunobu, Usuginu Tanekatsu, Hamada Nobutsuna, Osaki Yoshitaka, Ujiie Yoshitsugu
+	defenders = { 10029400 } # Toyotomi Hideyoshi
+}

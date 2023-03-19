@@ -1,0 +1,49 @@
+﻿namespace = shogunate_bookmark
+
+# Coalition against Taira Clan
+shogunate_bookmark.2140 = {
+	type = empty
+	hidden = yes
+
+	immediate = {
+
+		# Coalition against Taira Clan (Genpei War)
+
+		if = {
+			limit = {
+				game_start_date >= 1180.5.5									# Prince Mochihito's Order (Ryoji)
+				game_start_date <  1181.3.20								# Death of Taira Kiyomori
+			}
+
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10120075											# Minamoto Yoritomo
+				CHAR2 = 10110025											# Taira Kiyomori
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10120084											# Minamoto Yoshinaka
+				CHAR2 = 10110025											# Taira Kiyomori
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10120111											# Takeda Nobuyoshi
+				CHAR2 = 10110025											# Taira Kiyomori
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10120113											# Yasuda Yoshisada
+				CHAR2 = 10110025											# Taira Kiyomori
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 12515000											# Yamamoto Yoshitsune
+				CHAR2 = 10110025											# Taira Kiyomori
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 12420102											# Toki Mitsunaga
+				CHAR2 = 10110025											# Taira Kiyomori
+			}
+			shogunate_historical_rival_effect = {
+				CHAR1 = 10120072											# Minamoto Yukiie
+				CHAR2 = 10110025											# Taira Kiyomori
+			}
+		}
+
+	}
+}

@@ -1,0 +1,5 @@
+﻿bm_kyotokuwar_1455 = {
+	start_date = 1455.1.15
+	is_playable = yes
+	group = bm_group_muromachi
+}

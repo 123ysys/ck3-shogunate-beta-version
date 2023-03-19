@@ -1,0 +1,140 @@
+d_nmih_iki = {
+	0100.1.1={
+	}
+	0701.1.1={
+		liege="e_nmih_tenno"
+	}
+	0764.11.6={
+		holder=10041023 # Empress Koken/Shotoku
+	}
+	1180.1.1={
+		liege = 0 # De facto
+		liege = "e_nmih_japan"
+		holder=12750701 # Matsura Takatoshi
+	}
+	1183.8.17={
+		liege = 0
+		liege = "k_nmih_western_chugoku"
+	}
+	1185.3.4={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=10120078 # Minamoto Noriyori
+	}
+	1185.11.13={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=12230101 # Amano Tokage
+	}
+	1192.1.1={
+		holder=10130546 # Muto Sukeyori
+	}
+	1227.1.1={
+		liege = 0
+		liege="e_nmih_japan"
+		holder=12135001 # Oyama Tomomasa
+	}
+	1238.5.15={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10130550 # Muto Sukeyoshi
+	}
+	1273.1.1={
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1274.11.14={
+		liege = 0
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1274.11.20={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1281.6.14={
+		liege = 0
+		liege="e_nmih_mongol"
+		holder=11050400 # Khudun Hindus
+	}
+	1281.7.18={
+		liege=0
+		liege = "e_nmih_japan"
+		holder=10068029 # Shoni Tsunesuke
+	}
+	1292.9.14={
+		holder=10068025 # Shoni Moritsune
+	}
+	1308.2.17={
+		holder=10068020 # Shoni Sadatsune
+	}
+	1333.6.17={
+		liege = 0
+		liege=0
+		liege = "e_nmih_nancho"
+		holder=10068234 # Matsura Masashi
+	}
+	1336.4.13={
+		liege = 0
+		liege = "e_nmih_japan"
+	}
+	1336.7.22={
+		liege = 0
+		liege="k_nmih_kyushu_tandai"
+	}
+	1350.12.20={
+		liege=0
+	}
+	1360.1.1={
+		holder=10068236 # Matsura Sadamu
+	}
+	1370.1.1={
+		holder=10068237 # Matsura Masaru
+	}
+	1371.12.1={
+		liege="k_nmih_kyushu_tandai"
+	}
+	1400.1.1={
+		liege=0
+		holder=10068238 # Matsura Nobiru
+	}
+	1420.1.1={
+		holder=10068239 # Matsura Susumu
+	}
+	1440.1.1={
+		liege=0
+		holder=12750806 # Shisa Yoroshi
+	}
+	1472.1.1={
+		liege=0
+		holder=10069003 # Hata Yasushi
+	}
+	1485.1.1={
+		holder=10069001 # Hata Osamu
+	}
+	1528.1.1={
+		holder=10069000 # Hata Okoshi
+	}
+	1543.1.1={
+		holder=10069002 # Hata Satoshi
+	}
+	1547.1.1={
+		holder=10068611 # Hata Chikashi
+	}
+	1564.1.1={
+		holder=10069012 # Hata Omoshi
+	}
+	1571.1.1={
+		holder=0
+	}
+	1601.1.1={
+		holder=10068209 # Matsura Hisanobu
+	}
+	1602.10.14={
+		holder=10068265 # Matsura Takanobu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+
+}

@@ -1,0 +1,63 @@
+﻿l_russian:
+
+ special_contract:2 "[Concept( 'feudal_contract', 'Vermilion-Seal Certificate' )|B|color_black|U]"
+ special_contract_none:0 "No Certificate"
+ special_contract_scutage:0 "Scutage Contract"
+ special_contract_march:0 "Exempt From Sankin Service"
+ special_contract_palatinate:0 "Appointed To Shukuro Vassal"
+ special_contract_none_short:0 "None"
+ special_contract_scutage_short:0 "Scutage"
+ special_contract_march_short:0 "No Sankin Service"
+ special_contract_palatinate_short:0 "Shukuro Vassal"
+
+ scutage:0 "Scutageh"
+ scutage_enabled_short:0 "Enabled"
+ scutage_enabled:0 "$scutage$ $scutage_enabled_short$"
+ scutage_disabled_short:0 "Disabled"
+ scutage_disabled:1 "$scutage$ $scutage_disabled_short$"
+
+ religious_rights:0 "Religious Rights"
+ religious_rights_none:0 "Religiously Unprotected"
+ religious_rights_none_short:0 "Unprotected"
+ religious_rights_protected:0 "Religiously Protected"
+ religious_rights_protected_short:0 "Protected"
+
+ fortification_rights:0 "Fortification"
+ fortification_rights_none:0 "Not Authorized $fortification_rights$"
+ fortification_rights_none_short:0 "Not Authorized"
+ fortification_rights_granted:0 "Authorized $fortification_rights$"
+ fortification_rights_granted_short:0 "Authorized"
+
+ succession_rights:0 "Succession"
+ succession_rights_default:0 "No intervention"
+ succession_rights_default_short:0 "No intervention"
+ succession_rights_forced_partition:0 "Forced Partition"
+ succession_rights_forced_partition_short:0 "Forced Partition"
+
+ coinage_rights:0 "Private Coinage"
+ coinage_rights_none:0 "Banned $coinage_rights$"
+ coinage_rights_none_short:0 "Banned"
+ coinage_rights_granted:0 "Authorized $coinage_rights$"
+ coinage_rights_granted_short:0 "Authorized"
+
+ war_declaration_rights:0 "Private Warfare"
+ war_declaration_rights_default:0 "Not Authorized $war_declaration_rights$"
+ war_declaration_rights_default_short:0 "Not Authorized"
+ war_declaration_rights_allowed:0 "Authorized $war_declaration_rights$"
+ war_declaration_rights_allowed_short:0 "Authorized"
+
+ council_rights:0 "Jushin Vassal"
+ council_rights_none:0 "Not Appointed To $council_rights$"
+ council_rights_none_short:0 "Not Appointed"
+ council_rights_guaranteed:0 "Appointed To $council_rights$"
+ council_rights_guaranteed_short:0 "Appointed"
+
+ title_revocation_rights:0 "Certificate For Land"
+ title_revocation_rights_default:0 "Not Issued $title_revocation_rights$"
+ title_revocation_rights_default_short:0 "Not Issued"
+ title_revocation_rights_protected:0 "Issued $title_revocation_rights$"
+ title_revocation_rights_protected_short:0 "Issued"
+
+ VASSAL_CONTRACT_VASSAL_TITLE:0 "Изменить договор:\n#high [VassalContract.GetVassal.GetTitleTierName] [VassalContract.GetVassal.GetHouse.GetNameNoTooltip] [VassalContract.GetVassal.GetFirstNameNoTooltip]\nПравитель державы [VassalContract.GetVassal.GetPrimaryTitle.GetNameNoTierNoTooltip]#!"
+ CONTRACT_LIEGE_SIGNATURE:0 "[GetCurrentDate.GetString]\n[VassalContract.GetLiege.GetFirstNameNoTooltip]"
+ CONTRACT_VASSAL_SIGNATURE:0 "[VassalContract.GetVassal.GetHouse.GetBaseNameNoTooltip] [VassalContract.GetVassal.GetFirstNameNoTooltip]"

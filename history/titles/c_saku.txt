@@ -1,0 +1,218 @@
+c_nmih_saku = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_saku1={
+				set_title_name=b_nmih_saku5
+			}
+		}
+	}
+	1000.1.1={
+		effect={
+			title:b_nmih_saku1={
+				set_title_name=b_nmih_saku8
+			}
+		}
+	}
+	1184.3.4={
+		effect={
+			title:b_nmih_saku1={
+				set_title_name=B_NMIH_SAKU8_1184
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_saku1={
+				set_title_name=B_NMIH_SAKU8_1221
+			}
+		}
+	}
+	1285.12.15={
+		effect={
+			title:b_nmih_saku1={
+				set_title_name=b_nmih_saku7
+			}
+		}
+	}
+	1510.1.1={
+		effect={
+			title:b_nmih_saku1={
+				set_title_name=B_NMIH_SAKU7_1510
+			}
+		}
+	}
+	1582.4.15={
+		effect={
+			title:b_nmih_saku1={
+				set_title_name=B_NMIH_SAKU7_1582
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 30 }
+	1000.1.1 = { change_development_level = 30 }
+	1184.3.4 = { change_development_level = 30 }
+	1285.12.15 = { change_development_level = 30 }
+	1436.1.1 = { change_development_level = 40 }
+
+	0701.1.1={
+		liege="d_nmih_shinano"
+	}
+	950.2.1={
+		liege="d_nmih_shinano"
+		holder=10260410 # Shigeno Yukitoshi
+	}
+	974.1.1={
+		holder=10260411 # Shigeno Yukitsune
+	}
+	1000.1.1={
+		holder=10260412 # Shigeno Tamehiro
+	}
+	1030.1.1={
+		holder=10260413 # Shigeno Tamemichi
+	}
+	1060.1.1={
+		holder=12380300 # Mochizuki Norishige
+	}
+	1110.1.1={
+		holder=12380303 # Mochizuki Shigetoshi
+	}
+	1140.1.1={
+		holder=12380500 # Mochizuki Hiroshige
+	}
+	1150.1.1={
+		holder=12380505 # Mochizuki Kunishige
+	}
+	1170.1.1={
+		holder=12380517 # Nenoi [Mochizuki] Yukichika
+	}
+	1180.6.15={
+		liege="d_nmih_eastern_shinano"
+		holder=12380517 # Nenoi [Mochizuki] Yukichika
+	}
+	1183.8.17={ # Taira's escape to the west
+		liege="d_nmih_shinano"
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_eastern_shinano"
+		holder=12370002 # Hiraga Yoshinobu
+	}
+	1207.2.1={
+		liege="d_nmih_mino"
+		holder=12370010 # Ouchi Koreyoshi
+	}
+	1220.1.1={
+		liege="d_nmih_ise"
+		holder=12370020 # Ouchi Korenobu
+	}
+	1221.6.6={
+		liege="d_nmih_shinano"
+		holder=12360604 # Tomono Tokinaga
+	}
+	1265.1.1={
+		holder=12360620 # Tomono Tokinao
+	}
+	1270.1.1={
+		holder=12360630 # Tomono Nagayasu
+	}
+	1285.12.15={
+		holder=12361012 # Oi Yukimitsu
+	}
+	1310.1.1={
+		holder=12361020 # Oi Tomoyuki
+	}
+	1333.7.4={
+		liege="d_nmih_shinano"
+	}
+	1340.1.1={
+		holder=12361025 # Oi Mitsushige
+	}
+	1370.1.1={
+		holder=12361030 # Oi Mitsunori
+	}
+	1401.2.1={
+		liege=0
+	}
+	1416.1.1={
+		liege="k_nmih_kamakura_kubo"
+		holder=12361035 # Oi Mochimitsu
+	}
+	1450.1.1={
+		holder=12361040 # Oi Masamitsu
+	}
+	1455.7.30={
+		liege=0
+	}
+	1478.1.1={
+		holder=12361045 # Oi Masatomo
+	}
+	1483.1.1={
+		holder=12361046 # Oi Masanori
+	}
+	1484.2.1={
+		holder=12361080 # Oi Genkei
+	}
+	1493.1.1={
+		holder=12361081 # Oi Yasumitsu
+	}
+	1530.1.1={
+		holder=12361085 # Oi Sadataka
+	}
+	1543.10.1={
+		holder=12361087 # Oi Sadakiyo
+	}
+	1546.6.1={
+		liege="d_nmih_kai"
+	}
+	1546.8.1={
+		holder=10020202 # Oyamada Toramitsu
+	}
+	1559.1.1={
+		liege="d_nmih_shinano"
+	}
+	1579.10.22={
+		liege="d_nmih_shinano"
+		holder=10020203 # Oyamada Masashige
+	}
+	1582.3.29={
+		liege="d_nmih_shinano"
+		holder=10020046 # Takeda Nobutoyo
+	}
+	1582.4.3={
+		liege="e_nmih_japan"
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.04.15={
+		liege="d_nmih_kozuke"
+		holder=10029330 # Takigawa Kazumasu
+	}
+	1582.7.8={
+		liege="k_nmih_tokai"
+		holder=12386665 # Ashida Nobushige
+	}
+	1582.7.31={
+		liege="k_nmih_western_kanto"
+		holder=10016603 # Daidoji Masashige
+	}
+	1582.11.14={
+		liege="k_nmih_tokai"
+		holder=12386665 # Ashida Nobushige
+	}
+	1583.4.15={
+		holder=12386670 # Yoda Yasukuni
+	}
+	1590.7.25={
+		liege="e_nmih_japan"
+		holder=10029670 # Sengoku Hidehisa
+	}
+	1600.8.23={
+		liege="k_nmih_western_kanto"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1614.6.13={
+		holder=10029673 # Sengoku Tadamasa
+	}
+}

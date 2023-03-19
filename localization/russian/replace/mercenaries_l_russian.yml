@@ -1,0 +1,22 @@
+﻿l_russian:
+
+ # Default name
+ mercenary_company_default:0 "[TITLE.GetDeJureLiege.GetNameNoTierNoTooltip] [TITLE.GetDeJureLiege.GetTierAsNameNoTooltip]-сю"
+
+ # Ninja aliases
+ mercenary_company_shinobi:0 "Синоби"      # Common
+ mercenary_company_rappa:0 "Раппа"          # Southern Kanto
+ mercenary_company_nokizaru:0 "Нокидзару"    # Eastern Hokuriku
+ mercenary_company_suppa1:0 "Суппа"         # Koshin
+ mercenary_company_suppa2:0 "Суппа"         # Southern Kinai
+
+ # Ninja clans
+ mercenary_company_iga:0 "Ига-рю"         # Western Chubu
+ mercenary_company_koka:0 "Кока-рю"       # Central Kinai
+
+ # Mercenaries
+ mercenary_company_saika:0 "Сайка-сю"      # Southern Kinai
+ mercenary_company_negoro:0 "Нэгоро-сю"    # Southern Kinai
+
+ # Worrior monks
+ mercenary_company_sohei:0 "Сохэй"

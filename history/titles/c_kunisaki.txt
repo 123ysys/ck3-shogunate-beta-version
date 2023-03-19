@@ -1,0 +1,108 @@
+c_nmih_kunisaki = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_kunisaki1={
+				set_title_name=b_nmih_kunisaki6
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_kunisaki1={
+				set_title_name=b_nmih_kunisaki9
+			}
+		}
+	}
+	1500.1.1={
+		effect={
+			title:b_nmih_kunisaki1={
+				set_title_name=B_NMIH_KUNISAKI9_1500
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1400.1.1 = { change_development_level = 30 }
+
+	100.1.1={
+	}
+	180.1.1={
+		holder=10290001 # Himiko
+	}
+	1180.1.1={
+		liege="d_nmih_bungo"
+		holder=12780100 # Ogata Koreyoshi
+	}
+	1185.12.16={
+		liege="d_nmih_bungo"
+		holder=10230555 # Nakahara Chikayoshi
+	}
+	1196.1.1={
+		holder=10130538 # Otomo Yoshinao
+	}
+	1220.1.1={
+		holder=10064416 # Tabaru Yasuhiro
+	}
+	1270.1.1={
+		holder=10064415 # Tabaru Motonao
+	}
+	1310.1.1={
+		holder=10064413 # Tabaru Naosada
+	}
+	1333.7.4={
+		liege="d_nmih_bungo"
+	}
+	1353.1.1={
+		holder=10064412 # Tabaru Ujiyoshi
+	}
+	1393.1.1={
+		holder=10064411 # Tabaru Chikasada
+	}
+	1430.1.1={
+		holder=10064409 # Tabaru Chikayuki
+	}
+	1460.1.1={
+		holder=10064404 # Tabaru Ujitada
+	}
+	1490.1.1={
+		holder=10064403 # Tabaru Chikamune
+	}
+	1510.1.1={
+		holder=10064401 # Tabaru Chikanobu
+	}
+	1528.1.1={
+		holder=10064400 # Tabaru Chikatada
+	}
+	1542.1.1={
+		holder=10064402 # Tabaru Chikahiro
+	}
+	1579.1.1={
+		holder=10067111 # Tabaru Chikatsura
+	}
+	1580.10.1={
+		holder=10064026 # Otomo Chikaie
+	}
+	1586.1.1={
+		holder=10064025 # Otomo Yoshimune
+	}
+	1593.5.21={
+		liege="e_nmih_japan"
+		holder=10025809 # Takenaka Shigetoshi
+	}
+	1600.8.1={
+		liege=0
+		holder=10064025 # Otomo Yoshimune
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_buzen"
+		holder=10207500 # Matsui Yasuyuki
+	}
+	1612.2.23={
+		holder=10207502 # Matsui Okinaga
+	}
+}

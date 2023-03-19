@@ -1,0 +1,12 @@
+war = {
+	name = "war_1573_ishiyama_war"
+	start_date = 1573.12.10
+	end_date = 1580.9.10
+	targeted_titles = {
+		d_nmih_kawachi
+	}
+	casus_belli = event_claim_cb
+	claimant = 10042210 # Honganji Kennyo
+	attackers = { 10042210 } # Honganji Kennyo
+	defenders = { 10029120 } # Oda Nobunaga
+}

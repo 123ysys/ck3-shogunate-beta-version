@@ -1,0 +1,221 @@
+﻿l_russian:
+
+ ## Dewa Clans
+
+ # Ando
+ dynn_10000001_motto:0 "Как Большая Медведица в северном небе"
+
+ # Mogami
+ dynn_10000007_motto:0 "Будь мудрым, доброжелательным и мужественным"
+ house_shgnt_mogami_motto:0 "$dynn_10000007_motto$"
+
+ # Date
+ dynn_10000010_motto:0 "Live in Turbulent Times with Your Own Beliefs"
+
+
+ ## Northern Oshu Clans
+
+ # Nanbu
+ dynn_10000031_motto:0 "What a Vast Land to Traverse in a Few Days"
+
+ # Oura
+ dynn_10000033_motto:0 "Never Yield to Anything"
+ house_shgnt_nambu_oura_motto:0 "$dynn_10000033_motto$"
+
+
+ ## Northern Kanto Clans
+
+ # Utsunomiya
+ dynn_10000109_motto:0 "На поле боя жизни легче пылинки"
+
+
+ ## Eastern Kanto Clans
+
+ # Satomi
+ dynn_10000119_motto:0 "Добродетельный человек всегда смел"
+
+
+ ## Western Kanto Clans
+
+ # Uesugi
+ dynn_10000100_motto:0 "Небеса никогда не дают победы - добейся ее сам"
+ house_shgnt_nagao_uesugi_motto:0 "$dynn_10000100_motto$"
+
+
+ ## Southern Kanto Clans
+
+ # Hojo (Later)
+ dynn_10000160_motto:0 "Не ослабляйте бдительность даже после победы"
+ house_shgnt_hojo_motto:0 "$dynn_10000160_motto$"
+
+
+ ## Koshin Clans
+
+ # Takeda (Kai)
+ dynn_10000200_motto:0 "Holy Banner and Armor are Watching Us"
+
+ # Sanada
+ dynn_10000222_motto:0 "Жертвуй телом и душой"
+
+
+ ## Tokai Clans
+
+ # Imagawa
+ dynn_10000230_motto:0 "One and Only Successor of the Ashikaga"
+
+ # Tokugawa
+ dynn_10000239_motto:0 "Life is a Long Journey with a Burden"
+ house_shgnt_matsudaira_tokugawa_motto:0 "$dynn_10000239_motto$"
+
+ # Matsudaira
+ dynn_10000240_motto:0 "Leave Strives; Wish Peaces"
+
+
+ ## Chubu Clans
+
+ # Toki
+ dynn_10000253_motto:0 "Божественные цветы цветут на холме"
+
+ # Akechi
+ dynn_10000269_motto:0 "Now is the Time We Rise Up"
+ house_shgnt_toki_akechi_motto:0 "$dynn_10000269_motto$"
+
+ # Takenaka
+ dynn_10000274_motto:0 "Искреннее желание самурая — умереть на войне"
+
+ # Shiba
+ dynn_10000279_motto:0 "Искренность превосходит многие таланты"
+
+ # Oda
+ dynn_10000280_motto:0 "Once Born, One Must Die"
+
+ # Hashiba
+ dynn_10000283_motto:0 "'Tis Bestowed Surnames from You Two"
+
+ # Toyotomi
+ dynn_10000284_motto:0 "Life is Fleeting Like Dreaming a Dream of Dreams"
+ house_shgnt_toyotomi_motto:0 "$dynn_10000284_motto$"
+
+ # Ganshoji
+ dynn_10000285_motto:0 "Respect the Temple; Follow the Worship"
+ house_shgnt_ganshoji_motto:0 "$dynn_10000285_motto$"
+
+ # Maeda
+ dynn_10000296_motto:0 "Plum Blooms Higher than Hollyhock"
+
+ # Takigawa
+ dynn_10000297_motto:0 "Будьте превосходны как в нападении, так и в отступлении"
+
+ # Shibata
+ dynn_10000698_motto:0 "Жизнь коротка и мимолетна, как летняя ночь"
+
+ # Kato
+ dynn_10000745_motto:0 "A Leader Infects His Men with Carelessness"
+
+
+ ## Western Hokuriku Clans
+
+ # Asakura
+ dynn_10000350_motto:0 "Победа имеет значение - даже самая подлая"
+
+ # Honganji
+ dynn_10000430_motto:0 "Путь вперед ведет в Рай, путь назад ведет в Ад"
+
+
+ ## Central Kinai Clans
+
+ # Ashikaga
+ dynn_10000400_motto:0 "Два дракона возносятся к небу"
+
+ # Yamato
+ dynn_10000420_motto:0 "Пусть все люди живут в гармонии"
+
+ # Sen
+ dynn_10000439_motto:0 "Сокровище, которое бывает раз в жизни"
+
+ # Rokkaku
+ dynn_10000450_motto:0 "Откажись от желаний, чтобы очистить шесть чувств"
+ house_shgnt_rokkaku_motto:0 "$dynn_10000450_motto$"
+
+ # Ishida
+ dynn_10000462_motto:0 "Один за всех, все за одного"
+
+ # Kusunoki
+ dynn_10000488_motto:0 "May Reborn Seven Times and Help the Emperor"
+
+ # Todo
+ dynn_10000751_motto:0 "Думай о каждом дне, как о дне, в который ты умрешь"
+
+
+ ## Southern Kinai Clans
+
+ # Hatakeyama
+ dynn_10000404_motto:0 "Будь истинным самураем востока"
+
+
+ ## Sanin Clans
+
+ # Yamana
+ dynn_10000500_motto:0 "Действуем в соответствии со временем"
+
+ # Amago
+ dynn_10000515_motto:0 "Держим священные вещи в секрете"
+ house_shgnt_amago_motto:0 "$dynn_10000515_motto$"
+
+ # Yamanaka
+ dynn_10000516_motto:0 "Дай мне семь скорбей и восемь страданий"
+
+ # Tako
+ dynn_10000519_motto:0 "Жизнь легка, честь тяжела
+
+
+ ## Sanyo Clans
+
+ # Kuroda
+ dynn_10000534_motto:0 "Искусство войны - это искусство управления"
+
+
+ ## Western Chugoku Clans
+
+ # Mori
+ dynn_10000560_motto:0 "United We Stand, Divided We Fall"
+
+ # Kobayakawa (Mori)
+ dynn_10000562_motto:0 "Spring Rain, Fall Not to Fall the Flowers"
+ house_shgnt_mori_kobayakawa_motto:0 "$dynn_10000562_motto$"
+
+ # Sue
+ dynn_10000565_motto:0 "Ни о чем не сожалей и не возмущайся"
+
+ # Ouchi
+ dynn_10000570_motto:0 "Жизнь мимолетна, как роса или молния"
+
+
+ ## Shikoku Clans
+
+ # Miyoshi
+ dynn_10000587_motto:0 "Самураи, легкомысленно относящиеся к поэзии, слабы"
+
+
+ ## Southern Kyushu Clans
+
+ # Shimazu
+ dynn_10000600_motto:0 "Уроки, которые не выучили - бесполезны"
+
+
+ ## Northern Kyushu Clans
+
+ # Ryuzoji
+ dynn_10000691_motto:0 "Чрезмерное обдумывание приводит к упущенным возможностям"
+
+
+ ## Kamakura Era Clans
+
+ # Taira
+ dynn_10001100_motto:0 "Только Тайра поистине благородны"
+
+ # Fujiwara (Oshu)
+ dynn_10001300_motto:0 "Храм сияющий золотом"
+
+ # Hojo (Early)
+ dynn_10006129_motto:0 "Unite in Heart and Strength"

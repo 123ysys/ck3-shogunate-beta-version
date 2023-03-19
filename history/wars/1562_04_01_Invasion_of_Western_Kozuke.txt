@@ -1,0 +1,12 @@
+war = {
+	name = "war_1562_invasion_of_western_kozuke"
+	start_date = 1562.4.1
+	end_date = 1566.11.10
+	targeted_titles = {
+		c_nmih_gunma
+	}
+	casus_belli = event_claim_cb
+	claimant = 10020010 # Takeda Shingen
+	attackers = { 10020010 } # Takeda Shingen
+	defenders = { 10032011 } # Uesugi Kenshin
+}

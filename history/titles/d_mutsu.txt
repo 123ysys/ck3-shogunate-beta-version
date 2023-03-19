@@ -1,0 +1,91 @@
+d_nmih_mutsu = {
+	0701.1.1={
+	}
+	1160.1.1={
+		liege=0
+		holder=10150108 # Akarogu
+	}
+	1189.10.3={
+		liege=0
+		holder=0 # Fall of Hiraizumi
+	}
+	1189.11.15={
+		liege="e_nmih_japan"
+		holder=10130055 # Kudo Yukimitsu
+	}
+	1195.1.1={
+		holder=10130056 # Kudo Sukemitsu
+	}
+	1220.1.1={
+		holder=12231201 # Kudo Mitsuyasu
+	}
+	1270.1.1={
+		holder=12231256 # Kudo Tokimitsu
+	}
+	1324.1.1={
+		holder=12231260 # Kudo Sadasuke
+	}
+	1331.1.1={
+		holder=12231265 # Kudo Takakage
+	}
+	1333.7.4={
+		liege="k_nmih_mutsu_shogun"
+		holder=12040155 # Nanbu Moroyuki
+	}
+	1338.6.10={
+		holder=12040156 # Nanbu Masanaga
+	}
+	1360.1.1={
+		holder=12040305 # Nanbu Nobumitsu
+	}
+	1362.1.1={
+		liege="e_nmih_nancho"
+	}
+	1376.2.13={
+		holder=12040306 # Nanbu Masamitsu
+	}
+	1392.1.1={
+		liege=0
+		holder=12040190 # Nanbu Moriyuki
+	}
+	1437.5.13={
+		holder=12040200 # Nanbu Yoshimasa
+	}
+	1440.8.9={
+		liege=0
+		holder=12040201 # Nanbu Masamori
+	}
+	1445.1.1={
+		holder=10003130 # Nanbu Mitsumasa
+	}
+	1449.1.1={
+		holder=10003131 # Nanbu Tokimasa
+	}
+	1473.4.2={
+		holder=10003132 # Nanbu Michitsugu
+	}
+	1483.1.1={
+		holder=10003133 # Nanbu Nobutoki
+	}
+	1502.1.11={
+		holder=10003134 # Nanbu Nobuyoshi
+	}
+	1503.6.18={
+		holder=10003135 # Nanbu Masayasu
+	}
+	1507.3.23={
+		holder=10003101 # Nanbu Yasunobu
+	}
+	1541.1.1={
+		holder=10003102 # Nanbu Harumasa
+	}
+	1582.1.27={
+		holder=10003154 # Nanbu Nobunao
+	}
+	1590.8.28={
+		liege="e_nmih_japan"
+	}
+	1599.11.12={
+		holder=10003156 # Nanbu Toshinao
+	}
+}

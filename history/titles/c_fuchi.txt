@@ -1,0 +1,153 @@
+c_nmih_fuchi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_fuchi1={
+				set_title_name=b_nmih_fuchi9
+			}
+		}
+	}
+	1193.9.14={
+		effect={
+			title:b_nmih_fuchi1={
+				set_title_name=b_nmih_fuchi1
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_fuchi1={
+				set_title_name=b_nmih_fuchi1
+			}
+		}
+	}
+	1570.1.1={
+		effect={
+			title:b_nmih_fuchi1={
+				set_title_name=b_nmih_fuchi2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1000.1.1 = { change_development_level = 20 }
+	1193.9.14 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 40 }
+	1570.1.1 = { change_development_level = 60 }
+
+	0701.1.1={
+		liege="d_nmih_totomi"
+	}
+	1180.1.1={
+		liege=0
+		holder=10120078 # Minamoto Noriyori
+	}
+	1180.11.9={
+		liege="d_nmih_totomi" # Yasuda Yoshisada
+		holder=10120113 # Yasuda Yoshisada / Battle of Fujikawa
+	}
+	1193.11.28={
+		holder=10130839 # Kato Kagekado
+	}
+	1199.12.18={
+		holder=10131650 # Hojo Tokimasa
+	}
+	1205.9.5={
+		holder=10131655 # Hojo Tokifusa
+	}
+	1240.2.18={
+		holder=10131678 # Hojo [Osaragi] Tomonao
+	}
+	1264.5.29={
+		holder=10131777 # Hojo [Osaragi] Nobutoki
+	}
+	1323.8.2={
+		holder=10132119 # Hojo [Osaragi] Sadanao
+	}
+	1333.7.4={
+		liege="d_nmih_totomi"
+		holder=12139029 # Ashikaga Tadayoshi
+	}
+	1336.7.22={
+		liege="e_nmih_japan"
+		holder=12395030 # Kira Mitsuyoshi
+	}
+	1350.12.20={
+		liege="k_nmih_western_kanto"
+		holder=12395035 # Kira Mitsusada
+	}
+	1352.3.12={
+		liege="e_nmih_japan"
+		holder=10040599 # Hosokawa Kiyouji
+	}
+	1362.1.1={
+		liege="e_nmih_japan"
+		holder=12395035 # Kira Mitsusada
+	}
+	1384.9.28={
+		holder=12395040 # Kira Toshiuji
+	}
+	1422.1.1={
+		holder=12395045 # Kira Yoshinao
+	}
+	1452.1.1={
+		holder=12395050 # Kira Yoshizane
+	}
+	1480.1.1={
+		liege="d_nmih_totomi"
+		holder=12400200 # Okouchi Sadatsuna
+	}
+	1501.7.1={
+		liege="d_nmih_suruga"
+		holder=10023501 # Iio Katatsura
+	}
+	1508.8.1={
+		liege="d_nmih_totomi"
+	}
+	1512.4.1={
+		liege="d_nmih_owari"
+		holder=12400200 # Okouchi Sadatsuna
+	}
+	1513.3.7={
+		liege="d_nmih_totomi"
+		holder=10023501 # Iio Katatsura
+	}
+	1516.3.1={
+		liege="d_nmih_owari"
+		holder=12400200 # Okouchi Sadatsuna
+	}
+	1517.9.4={
+		liege="d_nmih_totomi"
+		holder=10023501 # Iio Katatsura
+	}
+	1529.1.1={
+		holder=10023500 # Iio Noritsura
+	}
+	1560.6.12={
+		holder=10023503 # Iio Tsuranori
+	}
+	1566.1.11={
+		holder=10023017 # Imagawa Ujizane
+	}
+	1567.1.1={
+		holder=10024006 # Matsudaira Ieyasu
+	}
+	1570.1.1={
+		holder=10024006 # Matsudaira Ieyasu
+	}
+	1590.7.25={ 
+		holder=10029641 # Horio Yoshiharu
+		liege="d_nmih_totomi"
+	}
+	1599.11.8={
+		holder=10029642 # Horio Tadauji
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1609.12.27={
+		liege="d_nmih_suruga"
+		holder=10024521 # Mizuno Shigenaka
+	}
+}

@@ -1,0 +1,12 @@
+war = {
+	name = "war_1466_reconquest_of_chikuzen"
+	start_date = 1467.6.27
+	end_date = 1469.1.18
+	targeted_titles = {
+		c_nmih_kama
+	}
+	casus_belli = event_claim_cb
+	claimant = 10068004 # Shoni Noriyori
+	attackers = { 10068004 10064020 } # Shoni Noriyori, Otomo Chikashige
+	defenders = { 10057007 10057615 } # Ouchi Masahiro, Shibukawa Norinao
+}

@@ -1,0 +1,16 @@
+war = {
+	name = "war_1573_1st_siege_of_takatenjin_castle"
+	start_date = 1573.8.1
+	end_date = 1574.6.18
+	targeted_titles = {
+		c_nmih_kikou
+	}
+	casus_belli = event_sengoku_invasion_war_county
+	attackers = {
+		10020033	# Takeda Katsuyori
+	}
+	defenders = {
+		10024006	# Tokugawa Ieyasu
+		10029120	# Oda Nobunaga
+	}
+}

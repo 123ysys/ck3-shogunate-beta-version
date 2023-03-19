@@ -1,0 +1,145 @@
+c_nmih_shitsumi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_shitsumi1={
+				set_title_name=b_nmih_shitsumi8
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_shitsumi1={
+				set_title_name=b_nmih_shitsumi8
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_shitsumi1={
+				set_title_name=b_nmih_shitsumi2
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 10 }
+	1331.1.1 = { change_development_level = 10 }
+
+	100.1.1={
+	}
+	670.1.1={
+		holder=10240017 # Kusakabe Uwayome
+	}
+	713.1.1={
+		holder=10240018 # Kusakabe Mutsuji
+	}
+	1180.1.1={
+		liege="d_nmih_tajima"
+		holder=12600001 # Taira Suehiro
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_tajima"
+		holder=12205040 # Yokoyama Tokihiro
+	}
+	1189.1.1={
+		holder=12600300 # Adachi Chikanaga
+	}
+	1221.7.6={ # Jokyu War
+		liege="d_nmih_tajima"
+		holder=12600400 # Ota Shomyo
+	}
+	1223.1.1={
+		holder=12600401 # Ota Masahiro
+	}
+	1255.1.1={
+		holder=12600403 # Ota Masatsuna
+	}
+	1285.1.1={
+		holder=12600404 # Ota Masayori
+	}
+	1321.1.1={
+		holder=12600405 # Ota Yukitsuna
+	}
+	1325.1.1={
+		holder=12600407 # Ota Morinobu
+	}
+	1333.5.22={
+		liege="d_nmih_tajima"
+		holder=12600408 # Ota Masatsune
+	}
+	1336.7.22={
+		liege="e_nmih_nancho"
+	}
+	1343.1.1={
+		liege="d_nmih_tajima"
+		holder=12395216 # Imagawa Yorisada
+	}
+	1351.3.15={
+		holder=10055052 # Ueno Yorikane
+	}
+	1351.8.23={
+		holder=12395216 # Imagawa Yorisada
+	}
+	1352.7.1={
+		holder=12536206 # Kou Moroakira
+	}
+	1353.7.13={
+		holder=12396022 # Nikki Yorikatsu
+	}
+	1365.2.1={
+		holder=10050161 # Kakiya Tsuguto
+	}
+	1380.1.1={
+		holder=10050150 # Kakiya Yoritada
+	}
+	1391.11.1={
+		liege="e_nmih_japan"
+	}
+	1392.1.24={
+		liege="d_nmih_tajima"
+	}
+	1400.1.1={
+		holder=10050151 # Kakiya Hirotada
+	}
+	1430.1.1={
+		holder=10050152 # Kakiya Hirotsugu
+	}
+	1474.1.1={
+		holder=10050155 # Kakiya Toyoto
+	}
+	1480.1.1={
+		holder=10050156 # Kakiya Munetsugu
+	}
+	1483.1.1={
+		holder=10050157 # Kakiya Tsugunari
+	}
+	1570.1.1={
+		holder=10050170 # Tainosho Koreyoshi
+	}
+	1575.1.1={
+		holder=10050159 # Kakiya Mitsunari
+	}
+	1580.7.2={
+		liege="d_nmih_harima"
+	}
+	1582.1.1={
+		holder=10050160 # Kakiya Tsunefusa
+	}
+	1582.7.16={
+		liege="d_nmih_tajima"
+	}
+	1585.5.11={
+		liege="k_nmih_northern_kinai"
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10050060 # Yamana Toyokuni
+	}
+}

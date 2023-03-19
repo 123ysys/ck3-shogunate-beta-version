@@ -1,0 +1,20 @@
+﻿title_to_kamon_coa_effect = {
+
+	hidden_effect = {
+		save_scope_as = founder
+
+		if = {
+			limit = {
+				exists = primary_title
+			}
+
+			primary_title = {
+				save_scope_as = old_title
+			}
+
+			scope:old_title = {
+				set_coa = scope:founder.house
+			}
+		}
+	}
+}

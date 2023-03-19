@@ -1,0 +1,11 @@
+war = {
+	name = "war_1560_siege_of_noda_castle"
+	start_date = 1560.6.12
+	end_date = 1561.9.18
+	targeted_titles = {
+		c_nmih_shitara
+	}
+	casus_belli = event_sengoku_invasion_war_county
+	attackers = { 10023017 } # Imagawa Ujizane
+	defenders = { 10024104 } # Suganuma Sadamitsu
+}

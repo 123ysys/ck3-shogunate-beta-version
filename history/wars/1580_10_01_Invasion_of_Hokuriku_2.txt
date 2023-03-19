@@ -1,0 +1,15 @@
+war = {
+	name = "war_1580_invasion_of_hokuriku"
+	start_date = 1582.6.21
+	end_date = 1582.6.22
+	targeted_titles = {
+		c_nmih_shimo_niikawa
+	}
+	casus_belli = event_sengoku_invasion_war_county
+	attackers = {
+		10029280	# Shibata Katsuie
+	}
+	defenders = {
+		10032032	# Uesugi Kagekatsu
+	}
+}

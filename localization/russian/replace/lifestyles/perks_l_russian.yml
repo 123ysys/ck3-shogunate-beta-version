@@ -1,0 +1,29 @@
+﻿l_russian:
+ # Intrigue: Seduction
+ home_advantage_perk_name:0 "Ооку"
+ # Intrigue: Schemer
+ schemer_perk_name:0 "Синоби"
+ #Learning_name: Theology Tree
+ religious_icon_perk_name:0 "Буддарупа"
+ prophet_perk_name:0 "Проповедник"
+ church_and_state_perk_name:0 "Святое и мирское"
+ radiant_perk_name:0 "Сияющий"
+ theologian_perk_name:0 "Оммёдо"
+ #Learning: Scholarship Tree
+ scholarly_circles_perk_name:0 "Переписчик сутр"
+ #Stewardship: Vassal & Liege Tree
+ meritocracy_perk_name:0 "Правление достойных"
+ soon_forgiven_perk_name:0 "Преклоненный"
+ administrator_perk_name:0 "Бугё"
+ #Stewardship: Wealth Tree
+ heregeld_perk_name:0 "Военные налоги"
+ #Diplomacy: Majesty Tree
+ praetorian_guard_perk_name:0 "Имперская гвардия"
+ #Martial: Strategy Tree
+ bellum_justum_perk_name:0 "Справедливая война"
+ parthian_tactics_perk_name:0 "Конный лучник"
+ # Martial: Control
+ serve_the_crown_perk_name:0 "Служба Императору"
+ # Martial: Chivalry
+ chivalric_dominance_perk_name:0 "Бусидо превыше всего"
+ kingsguard_perk_name:0 "Знаменосец"

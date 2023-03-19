@@ -1,0 +1,126 @@
+c_nmih_ebara = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_ebara1={
+				set_title_name=b_nmih_ebara1
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_ebara1={
+				set_title_name=b_nmih_ebara1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1282.1.1 = { change_development_level = 30 }
+	1331.1.1 = { change_development_level = 30 }
+	1460.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_musashi"
+	}
+	1170.1.1={
+		liege="d_nmih_musashi"
+		holder=12200300 # Edo Shigenaga
+	}
+	1180.10.22={
+		liege="k_nmih_western_kanto" # served under Yoritomo
+	}
+	1180.10.24={
+		liege="d_nmih_musashi"
+	}
+	1195.1.1={
+		holder=12200310 # Edo Tadashige
+	}
+	1221.7.5={
+		holder=12200320 # Edo Shigeyuki
+	}
+	1240.1.1={
+		holder=12200322 # Edo Shigemitsu
+	}
+	1250.1.1={
+		holder=12200323 # Edo Nagamitsu
+	}
+	1265.1.1={
+		holder=12200330 # Edo Shigemori
+	}
+	1280.1.1={
+		holder=12200332 # Edo Shigekata
+	}
+	1300.1.1={
+		holder=12200333 # Edo Shigemochi
+	}
+	1320.1.1={
+		holder=12200334 # Edo Yasushige
+	}
+	1330.1.1={
+		holder=12200340 # Edo Nagakado
+	}
+	1333.7.4={
+		liege="d_nmih_musashi"
+	}
+	1335.8.14={
+		liege="k_nmih_shinano"
+		holder=10132313 # Hojo Tokiyuki
+	}
+	1335.9.6={
+		liege="d_nmih_musashi"
+		holder=12200340 # Edo Nagakado
+	}
+	1351.3.15={
+		liege="k_nmih_kamakura_kubo"
+	}
+	1352.3.12={
+		liege="d_nmih_musashi"
+	}
+	1359.1.1={
+		holder=12200342 # Edo Takashige
+	}
+	1368.7.2={
+		liege="d_nmih_musashi"
+		holder=10017006 # Uesugi Noriaki
+	}
+	1368.8.1={
+		liege="d_nmih_musashi"
+		holder=10018309 # Kira Haruie
+	}
+	1400.1.1={
+		holder=10018310 # Kira Yoriharu
+	}
+	1430.1.1={
+		holder=10018311 # Kira Yoriuji
+	}
+	1455.1.1={
+		holder=10018312 # Kira Yoritaka
+	}
+	1480.1.1={
+		holder=10018313 # Kira Masatada
+	}
+	1505.1.1={
+		holder=10018314 # Kira Shigetaka
+	}
+	1523.1.1={
+		liege="d_nmih_sagami" #became vassal of the Hojo
+	}
+	1530.1.1={
+		holder=10018315 # Kira Yorisada
+	}
+	1560.1.1={
+		holder=10018316 # Kira Ujitomo
+	}
+	1590.7.25={
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+	}
+	1605.6.2={
+		liege="k_nmih_western_kanto"
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

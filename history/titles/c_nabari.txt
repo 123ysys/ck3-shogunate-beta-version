@@ -1,0 +1,103 @@
+c_nmih_nabari = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_nabari1={
+				set_title_name=b_nmih_nabari9
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_iga"
+	}
+	1167.5.29={
+		liege="d_nmih_iga" # Taira Ietsugu
+		holder=10110220 # Taira Ietsugu
+	}
+	1184.8.14={ # Failure of Taira's Three-day rebellion
+		liege="d_nmih_iga"
+		holder=12535180 # Minamoto Toshikata
+	}
+	1190.1.1={
+		holder=12535181 # Minamoto Kanetoshi
+	}
+	1221.7.6={
+		holder=12535055 # Hattori Yasukane
+	}
+	1240.1.1={
+		holder=12535056 # Hattori Yasunao
+	}
+	1270.1.1={
+		holder=12535200 # Oe Kiyosada
+	}
+	1290.1.1={
+		holder=12535201 # Oe Kanshun
+	}
+	1320.1.1={
+		holder=12535202 # Oe Kakushun
+	}
+	1330.1.1={
+		liege="d_nmih_iga"
+		holder=12535205 # Oe Seishun
+	}
+	1346.6.1={
+		liege="d_nmih_iga"
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1361.2.1={
+		liege="d_nmih_shima"
+		holder=10125127 # Kitabatake Akiyoshi
+	}
+	1383.7.1={
+		holder=10026050 # Kitabatake Akiyasu
+	}
+	1402.10.1={
+		holder=10026052 # Kitabatake Mitsumasa
+	}
+	1429.1.25={
+		holder=10026006 # Kitabatake Noritomo
+	}
+	1471.4.13={
+		holder=10026005 # Kitabatake Masasato
+	}
+	1480.1.1={
+		government = republic_government
+		liege=0
+		holder=10028801 # Momochi Masanaga
+	}
+	1540.1.1={
+		liege=0
+		holder=10028800 # Momochi Tanba
+	}
+	1581.11.06={
+		government = feudal_government
+		liege="d_nmih_iga" # Oda Nobukatsu
+		holder=10029161 # Oda Nobukatsu
+	}
+	1584.12.3={
+		liege="k_nmih_northern_kinai"
+		holder=10043250 # Wakisaka Yasuharu
+	}
+	1585.7.27={
+		liege="e_nmih_japan"
+	}
+	1585.9.14={
+		liege="d_nmih_iga"
+		holder=10048415 # Tsutsui Sadatsugu
+	}
+	1608.6.1={
+		liege="d_nmih_ise"
+		holder=10043302 # Todo Takatora
+	}
+	1615.1.1={
+		holder=10043303 # Todo Takakiyo
+	}
+	1616.1.1={
+		holder=10043302 # Todo Takatora
+	}
+}

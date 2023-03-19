@@ -1,0 +1,10 @@
+192 = {
+
+	culture = western_chubu
+	religion = shinto
+	holding = castle_holding
+	0701.1.1={# Taiho Code
+	}
+	1331.1.1={
+	}
+}

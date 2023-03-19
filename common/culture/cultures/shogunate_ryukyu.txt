@@ -1,0 +1,83 @@
+﻿amami = {
+	color = { 0.1 0.1 0.5 }
+
+	ethos = ethos_stoic
+	heritage = heritage_ryukyu
+	language = language_ryukyu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_castle_keepers
+		tradition_festivities
+		tradition_agrarian
+	}
+
+	name_list = name_list_amami
+
+	coa_gfx = { ryukyu_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { ryukyu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_ryukyu_1
+		10 = shogunate_ryukyu_2
+		10 = shogunate_ryukyu_3
+	}
+}
+
+okinawa = {
+	color = { 0.1 0.2 0.4 }
+
+	ethos = ethos_stoic
+	heritage = heritage_ryukyu
+	language = language_ryukyu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_castle_keepers
+		tradition_festivities
+		tradition_agrarian
+	}
+
+	name_list = name_list_okinawa
+
+	coa_gfx = { ryukyu_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { ryukyu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_ryukyu_1
+		10 = shogunate_ryukyu_2
+		10 = shogunate_ryukyu_3
+	}
+}
+
+sakishima = {
+	color = { 0.1 0.2 0.6 }
+
+	ethos = ethos_stoic
+	heritage = heritage_ryukyu
+	language = language_ryukyu
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_castle_keepers
+		tradition_festivities
+		tradition_agrarian
+	}
+
+	name_list = name_list_sakishima
+
+	coa_gfx = { ryukyu_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { ryukyu_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_ryukyu_1
+		10 = shogunate_ryukyu_2
+		10 = shogunate_ryukyu_3
+	}
+}

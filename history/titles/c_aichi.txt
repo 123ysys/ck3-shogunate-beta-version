@@ -1,0 +1,168 @@
+c_nmih_aichi = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_aichi1={
+				set_title_name=b_nmih_aichi2
+			}
+		}
+	}
+	1221.7.6={
+		effect={
+			title:b_nmih_aichi1={
+				set_title_name=b_nmih_aichi9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_aichi1={
+				set_title_name=b_nmih_aichi1
+			}
+		}
+	}
+	1548.1.1={
+		effect={
+			title:b_nmih_aichi1={
+				set_title_name=B_NMIH_AICHI1_1548
+			}
+		}
+	}
+	1609.1.1={
+		effect={
+			title:b_nmih_aichi1={
+				set_title_name=b_nmih_aichi3
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	0701.1.1 = { change_development_level = 20 }
+	1221.7.6 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 40 }
+	1609.1.1 = { change_development_level = 60 }
+
+	0701.1.1={
+		liege="d_nmih_owari"
+	}
+	1155.12.27={
+		holder=11006850 # Fujiwara Noritada
+	}
+	1161.1.1={
+		holder=11006852 # Fujiwara Norimasa
+	}
+	1170.1.1={
+		holder=11006850 # Fujiwara Noritada
+	}
+	1178.1.1={
+		liege="d_nmih_owari"
+		holder=11006865 # Fujiwara Tadakane
+	}
+	1180.11.9={
+		liege="d_nmih_mikawa"
+		holder=11006852 # Fujiwara Norimasa
+	}
+	1185.1.1={
+		liege="d_nmih_owari"
+		holder=11006870 # Fujiwara Noritsune
+	}
+	1200.1.1={
+		holder=11006865 # Fujiwara Tadakane
+	}
+	1210.1.1={
+		holder=11006980 # Fujiwara Yasunori
+	}
+	1220.1.1={
+		holder=11006981 # Fujiwara Norinao
+	}
+	1221.7.6={
+		liege="d_nmih_owari"
+		holder=12430031 # Yamada Shigechika
+	}
+	1270.1.1={
+		holder=12430035 # Yamada Yasuchika
+	}
+	1310.1.1={
+		holder=12430040 # Yamada Tokichika
+	}
+	1330.1.1={
+		holder=12430045 # Yamada Shigetsuna
+	}
+	1333.7.4={
+		liege="e_nmih_nancho"
+	}
+	1370.1.1={
+		liege="d_nmih_owari"
+		holder=12430050 # Yamada Shigemasa
+	}
+	1400.1.1={
+		holder=12430055 # Yamada Shigeaki
+	}
+	1400.1.17={
+		liege="d_nmih_owari"
+		holder=10029011 # Shiba Yoshishige
+	}
+	1400.6.1={
+		liege="d_nmih_owari"
+		holder=12320001 # Kai Yukinori
+	}
+	1402.1.1={
+		holder=10029105 # Oda Jochiku
+	}
+	1436.1.1={
+		holder=10029113 # Oda Hisanaga
+	}
+	1467.6.27={ # Onin War
+		liege="d_nmih_totomi"
+		holder=10029114 # Oda Toshisada
+	}
+	1478.1.1={
+		liege="d_nmih_owari"
+	}
+	1495.7.1={
+		holder=10029116 # Oda Tosada
+	}
+	1495.9.1={
+		holder=10029119 # Oda Michisada
+	}
+	1513.1.1={
+		holder=10029101 # Oda Michikatsu
+	}
+	1532.1.1={
+		holder=10029100 # Oda Nobuhide
+	}
+	1551.4.8={
+		holder=10029126 # Oda Nobukatsu
+	}
+	1556.9.27={
+		liege=0 # Battle of Inou
+	}
+	1557.11.22={
+		liege="d_nmih_owari" # 29120 Oda Nobunaga
+		holder=10029230 # Hayashi Hidesada
+	}
+	1580.8.1={
+		holder=10029160 # Oda Nobutada
+	}
+	1582.6.21={ # Honno-ji Incident
+		liege="d_nmih_owari"
+		holder=10029184 # Oda Hidenobu
+	}
+	1582.7.16={
+		liege="d_nmih_owari"
+		holder=10029161 # Oda Nobukatsu
+	}
+	1590.7.25={
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=10029720 # Fukushima Masanori
+	}
+	1603.3.24={
+		liege="d_nmih_owari"
+		holder=10024032 # Matsudaira Tadayoshi
+	}
+	1607.4.1={
+		holder=10024048 # Tokugawa Yoshinao
+	}
+}

@@ -1,0 +1,196 @@
+c_nmih_inabe = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_inabe1={
+				set_title_name=b_nmih_inabe9
+			}
+		}
+	}
+	1180.1.1={
+		effect={
+			title:b_nmih_inabe1={
+				set_title_name=b_nmih_inabe9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_inabe1={
+				set_title_name=b_nmih_inabe1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 10 }
+	1180.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 30 }
+
+	0701.1.1={
+		liege="d_nmih_ise"
+	}
+	0780.1.1={
+		holder=12433100 # Inabe Takaramaro {Shoryo}
+	}
+	0800.1.1={
+		liege=0
+		holder=0
+	}
+	1180.1.1={
+		liege="d_nmih_ise"
+		holder=12433115 # Inabe Ietsuna
+	}
+	1192.1.1={
+		liege="d_nmih_ise"
+		holder=12433116 # Inabe Yukitsuna
+	}
+	1204.2.1={
+		liege="d_nmih_southern_musashi"
+		holder=12204002 # Shinagawa Kiyozane
+	}
+	1210.1.1={
+		liege="d_nmih_musashi"
+	}
+	1212.1.1={
+		holder=12204100 # Shinagawa Sanemitsu
+	}
+	1227.1.1={
+		liege="d_nmih_ise"
+		holder=12204105 # Shinagawa Sanekazu
+	}
+	1252.1.1={
+		holder=12204110 # Shinagawa Nobuzane
+	}
+	1277.1.1={
+		holder=10131931 # Hojo [Kanesawa] Akitoki
+	}
+	1301.5.7={
+		holder=10132093 # Hojo [Kanesawa] Sadaaki
+	}
+	1333.7.4={
+		liege="d_nmih_ise"
+		holder=12064011 # Yuki Chikamitsu
+	}
+	1336.2.23={
+		liege="d_nmih_ise"
+		holder=10007312 # Hatakeyama Takakuni
+	}
+	1338.9.1={
+		holder=12139548 # Kou Moroaki
+	}
+	1342.7.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1349.5.1={
+		holder=12139103 # Ishido Yorifusa
+	}
+	1352.3.12={
+		holder=10040599 # Hosokawa Kiyouji
+	}
+	1352.10.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1360.7.1={
+		holder=10025313 # Toki Yoriyasu
+	}
+	1366.8.1={
+		holder=12396021 # Nikki Yoshinaga
+	}
+	1367.11.1={
+		holder=10040535 # Hosokawa Yoriyuki
+	}
+	1372.8.1={
+		holder=10040559 # Hosokawa Mitsuyuki
+	}
+	1379.5.1={
+		liege="d_nmih_ise"
+		holder=10025313 # Toki Yoriyasu
+	}
+	1388.2.3={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1390.4.1={
+		holder=12396151 # Nikki Mitsunaga
+	}
+	1391.8.1={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1392.1.1={
+		holder=12396151 # Nikki Mitsunaga
+	}
+	1396.7.1={
+		holder=12396150 # Nikki Yoshikazu
+	}
+	1400.1.1={
+		holder=10025317 # Toki Yasuyuki
+	}
+	1404.11.8={
+		holder=10025321 # Toki Yasumasa
+	}
+	1424.5.1={
+		holder=10048111 # Hatakeyama Mitsuie
+	}
+	1428.7.1={
+		holder=10025323 # Toki Mochiyori
+	}
+	1440.6.15={
+		holder=10049514 # Isshiki Norichika
+	}
+	1451.12.21={
+		holder=10049515 # Isshiki Yoshinao
+	}
+	1467.6.27={
+		holder=10025325 # Toki Masayasu
+	}
+	1471.3.1={
+		liege="e_nmih_japan"
+	}
+	1478.1.1={
+		liege=0
+		holder=10027301 # Umedo Shigenori
+	}
+	1530.1.1={
+		holder=10027300 # Umedo Takazane
+		liege="d_nmih_southern_omi"
+	}
+	1561.1.1={
+		holder=10027304 # Umedo Sanehide
+	}
+	1568.1.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1574.11.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029330 # Takigawa Kazumasu
+	}
+	1575.12.9={
+		liege="e_nmih_japan" # 29120 Oda Nobunaga
+	}
+	1582.04.15={
+		liege="d_nmih_kozuke" # 29330 Takigawa Kazumasu
+	}
+	1582.7.8={
+		liege=0
+	}
+	1583.6.14={
+		liege="d_nmih_owari"
+		holder=10029329 # Takigawa Katsutoshi
+	}
+	1590.7.25={
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		holder=10025757 # Ujiie Yukihiro
+	}
+	1600.8.23={
+		liege="k_nmih_western_chugoku"
+	}
+	1603.3.24={
+		liege="d_nmih_northern_ise"
+		holder=10024803 # Honda Tadakatsu
+	}
+	1610.12.3={
+		holder=10024806 # Honda Tadamasa
+	}
+}

@@ -1,0 +1,140 @@
+c_nmih_yasu = {
+
+	1.1.1={
+		effect={
+			title:b_nmih_yasu1={
+				set_title_name=b_nmih_yasu2
+			}
+		}
+	}
+	1100.1.1={
+		effect={
+			title:b_nmih_yasu1={
+				set_title_name=b_nmih_yasu9
+			}
+		}
+	}
+	1331.1.1={
+		effect={
+			title:b_nmih_yasu1={
+				set_title_name=b_nmih_yasu1
+			}
+		}
+	}
+
+	1.1.1 = { change_development_level = 20 }
+	1100.1.1 = { change_development_level = 20 }
+	1331.1.1 = { change_development_level = 20 }
+
+	0701.1.1={
+		liege="d_nmih_omi"
+	}
+	1180.1.1={
+		liege="e_nmih_japan"
+		holder=10120213 # Minamoto Shigesada
+	}
+	1183.8.17={
+		liege="d_nmih_omi" # Yamamoto Yoshitsuna
+		holder=12515013 # Yamamoto [Nishigori] Yoshitaka / Taira's escape to the west
+	}
+	1184.3.4={ # Battle of Awazu
+		liege="d_nmih_omi"
+		holder=12510030 # Sasaki Hideyoshi
+	}
+	1184.8.26={ # the three-day rebellion of the Taira clan
+		holder=12510060 # Sasaki Sadatsuna
+	}
+	1190.1.1={
+		liege="d_nmih_omi"
+		holder=12510074 # Mabuchi Hirosada
+	}
+	1221.7.6={ # the Jokyu War
+		liege="d_nmih_omi"
+		holder=12510073 # Sasaki Nobutsuna
+	}
+	1242.4.7={
+		liege="d_nmih_southern_omi"
+		holder=10044004 # Rokkaku [Sasaki] Yasutsuna
+	}
+	1276.6.30={
+		holder=10044005 # Rokkaku [Sasaki] Yoritsuna
+	}
+	1311.1.22={
+		holder=10044006 # Rokkaku [Sasaki] Tokinobu
+	}
+	1333.7.4={
+		liege="d_nmih_southern_omi"
+	}
+	1335.11.1={
+		holder=10044007 # Rokkaku Ujiyori
+	}
+	1351.8.23={
+		holder=10044009 # Rokkaku Yoshinobu
+	}
+	1354.10.1={
+		holder=10044007 # Rokkaku Ujiyori
+	}
+	1370.6.30={
+		holder=10044008 # Rokkaku Mitsutaka
+	}
+	1416.12.6={
+		holder=10044010 # Rokkaku Mitsutsuna
+	}
+	1440.1.1={
+		holder=10044660 # Iba Mitsutaka
+	}
+	1460.1.1={
+		holder=10044661 # Iba Sadataka
+	}
+	1520.8.1={
+		holder=10044600 # Shindo Nagahisa
+	}
+	1530.1.1={
+		holder=10044601 # Shindo Sadaharu
+	}
+	1551.1.1={
+		holder=10044602 # Shindo Katamori
+	}
+	1568.10.12={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029120 # Oda Nobunaga
+	}
+	1570.7.1={
+		liege="k_nmih_chubu" # 29120 Oda Nobunaga
+		holder=10029510 # Sakuma Nobumori
+	}
+	1575.12.9={
+		liege="e_nmih_japan"
+		holder=10029510 # Sakuma Nobumori
+	}
+	1580.8.1={
+		liege="d_nmih_omi"
+		holder=10029120 # Oda Nobunaga
+	}
+	1582.6.21={
+		liege="k_nmih_northern_kinai"
+		holder=10025639 # Akechi Hidemitsu
+	}
+	1582.7.2={
+		liege="k_nmih_northern_kinai"
+		holder=10029400 # Hashiba Hideyoshi
+	}
+	1585.8.10={
+		liege="d_nmih_omi"
+		holder=10029411 # Toyotomi Hidetsugu
+	}
+	1595.8.20={
+		liege="e_nmih_japan"
+		holder=10029400 # Toyotomi Hideyoshi
+	}
+	1598.9.18={
+		holder=10029415 # Toyotomi Hideyori
+	}
+	1603.3.24={
+		liege="e_nmih_japan"
+		holder=10024006 # Tokugawa Ieyasu
+	}
+	1616.6.1={
+		holder=10024031 # Tokugawa Hidetada
+	}
+}

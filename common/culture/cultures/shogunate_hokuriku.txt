@@ -1,0 +1,57 @@
+﻿eastern_hokuriku = {
+	color = { 0.8 0.8 0.9 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_hokuriku
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_talent_acquisition
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_eastern_hokuriku
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
+
+western_hokuriku = {
+	color = { 0.8 0.8 0.6 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_hokuriku
+	language = language_japanese
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_castle_keepers
+		tradition_talent_acquisition
+		tradition_monastic_communities
+	}
+
+	name_list = name_list_western_hokuriku
+
+	coa_gfx = { yamato_group_coa_gfx }
+	building_gfx = { yamato_building_gfx }
+	clothing_gfx = { yamato_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+
+	ethnicities = {
+		10 = shogunate_japanese_1
+		10 = shogunate_japanese_2
+		10 = shogunate_japanese_3
+		10 = shogunate_japanese_4
+	}
+}
